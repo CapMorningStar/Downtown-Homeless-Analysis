@@ -24,7 +24,7 @@ Public interest analytics and data engineering volunteer project with the **Data
 * **Assignment 2: Exploratory Data Analysis (EDA)** — CURRENT FOCUS
   * **Task 2.1:** Complete. Built & executed [`EDA_DowntownCounts.ipynb`](EDA_DowntownCounts.ipynb) — summary statistics, monthly seasonality, YoY % change, and top-3-neighborhood rankings by count and by growth rate.
   * **Task 2.2:** Complete. Added 10 required charts (time series, seasonality, neighborhood composition, EV sub-areas, methodology before/after, YoY comparisons, COVID period, adjustment gap, distribution) with titles, labels, legends, source attribution, and commentary — same notebook.
-  * **Task 2.3:** In progress. [`EDA_SummaryReport.md`](EDA_SummaryReport.md) written (7 required sections + 4 hypotheses), uploaded as a Google Doc to Drive; notebook exported to [`EDA_DowntownCounts.pdf`](EDA_DowntownCounts.pdf) and uploaded to Drive. Slide deck (6-8 slides) being built in Canva.
+  * **Task 2.3:** Complete. [`EDA_SummaryReport.md`](EDA_SummaryReport.md) (7 required sections + 4 hypotheses), [`EDA_DowntownCounts.pdf`](EDA_DowntownCounts.pdf) (notebook export), and [`EDA_Presentation.pptx`](EDA_Presentation.pptx) (8 slides) all built, verified, and uploaded to Drive.
   * **Task 2.3:** Queued (summary report & presentation).
 
 See [`PROJECT_CONTEXT.md`](PROJECT_CONTEXT.md) for full architectural documentation, schemas, and historical logs.

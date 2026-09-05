@@ -37,7 +37,7 @@
 | Assignment | Title | Status | Primary Focus |
 | :---: | :--- | :---: | :--- |
 | **1** | **Data Validation, Cleaning & Standardization** | **COMPLETED (100% - Tasks 1.1–1.4)** | Source audit, schema standardization, methodology fixes, data dictionary, methodology log, quality report. |
-| **2** | **Exploratory Data Analysis (EDA)** | **CURRENT FOCUS (Task 2.1 Prepared)** | Descriptive stats, multi-year trends, visualizations, presentations. |
+| **2** | **Exploratory Data Analysis (EDA)** | **COMPLETED (100% - Tasks 2.1-2.3)** | Descriptive stats, multi-year trends, visualizations, presentations. |
 | **3** | **Block-Level Validation & Spatial Integration** | Queued | Validate digitized block counts against 12 PDF maps, fix unbalanced spatial panel. |
 | **4** | **Time Series Decomposition & Pattern Analysis** | Queued | Trend/seasonal/residual decomposition, structural breaks, stationarity tests. |
 | **5** | **Geospatial Hotspot Analysis** | Queued | Getis-Ord Gi*, Moran's I, spatial clustering on `Downtown_BlockGrid.geojson`. |
@@ -187,7 +187,7 @@ D:\Projects\Downtown-Homeless-Analysis\
 
 * **Assignment 1: Data Validation, Cleaning & Standardization** (100% COMPLETE)
   * Tasks 1.1, 1.2, 1.3, 1.4 completed, uploaded to Drive, signed off in Asana.
-* **Assignment 2: Exploratory Data Analysis (EDA)** (CURRENT FOCUS)
+* **Assignment 2: Exploratory Data Analysis (EDA)** (100% COMPLETE)
   * **Task 2.1: Generate summary statistics and temporal patterns** (COMPLETED)
     - Built & executed [`EDA_DowntownCounts.ipynb`](file:///D:/Projects/Downtown-Homeless-Analysis/EDA_DowntownCounts.ipynb) end-to-end (no errors).
     - Scoped to `component == 'total'` & `area_type == 'neighborhood'` (708 rows, 7 neighborhoods) to avoid double-counting components/sub-areas.
@@ -201,11 +201,12 @@ D:\Projects\Downtown-Homeless-Analysis\
     - Each chart has title, axis labels, legend, source attribution, and verified (data-checked) commentary.
     - Key correction made during build: initial draft commentary assumed the adjustment gap grows with volume through 2021-2023; actual data shows the gap is largest/most volatile in 2018 (avg +13.5/mo, spike +156.61 in Feb 2018 — ties to the Feb 2018 source PDF addition error from Task 1.1) then near-zero (±1-5) from 2019 on. Commentary was corrected to match verified output before finalizing.
     - Peak overall count confirmed at 2,103 (May 2023), not initially assumed ~2,500.
-  * **Task 2.3: Produce summary report and presentation** (IN PROGRESS)
+  * **Task 2.3: Produce summary report and presentation** (COMPLETED)
     - Wrote [`EDA_SummaryReport.md`](file:///D:/Projects/Downtown-Homeless-Analysis/EDA_SummaryReport.md) covering all 7 required sections (overall trends/inflection points, quantified seasonality, neighborhood insights, COVID-19 impacts, methodology change effects, data limitations, 4 hypotheses for further analysis) — all figures pulled directly from verified Task 2.1/2.2 output.
     - Uploaded as Google Doc "EDA_SummaryReport" to Drive folder `Assignment 2 - Exploratory Data Analysis` (newly created under the shared Deliverables folder, matching the Assignment 1 naming convention).
     - Exported `EDA_DowntownCounts.ipynb` to PDF via `nbconvert --to html` + Playwright sync API print-to-PDF (nbconvert's native `--to webpdf` hit a Windows asyncio subprocess bug — worked around it). 21-page PDF uploaded to the same Drive folder.
-    - Remaining: 6-8 slide presentation, being built in Canva (user's choice, see outline below).
+    - Slide deck: built by Antigravity (8 slides) from a self-contained master prompt, then reviewed and corrected before acceptance -- found and fixed a real bug where Charts 1/3/9 plotted unreleased 2025 months (nulls) as zero instead of excluding them, creating a misleading crash-to-zero visual; regenerated those 3 charts from source data with nulls properly excluded, swapped Slide 4's chart from composition to YoY-by-neighborhood to match its text, removed decorative arrow glyphs, fixed image aspect-ratio distortion, re-embedded at 200 DPI. Cleaned up Antigravity's intermediate build artifacts before committing.
+    - All 3 deliverables ([`EDA_SummaryReport.md`](file:///D:/Projects/Downtown-Homeless-Analysis/EDA_SummaryReport.md), [`EDA_DowntownCounts.pdf`](file:///D:/Projects/Downtown-Homeless-Analysis/EDA_DowntownCounts.pdf), [`EDA_Presentation.pptx`](file:///D:/Projects/Downtown-Homeless-Analysis/EDA_Presentation.pptx)) uploaded to Drive folder `Assignment 2 - Exploratory Data Analysis`.
   * **Task 2.3: Produce summary report and presentation** (`EDA_SummaryReport` doc, PDF export, slides)
 * **Assignment 3: Block-Level Data Validation & Spatial Integration** (Tasks 3.1–3.4)
 * **Assignment 4: Time Series Decomposition & Pattern Analysis** (Tasks 4.1–4.4)

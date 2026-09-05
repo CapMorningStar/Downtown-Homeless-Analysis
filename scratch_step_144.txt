@@ -1,0 +1,1 @@
+Copy-Item apply_canva_theme.py build_presentation.py -Force; Copy-Item build_canva_html.py build_html_deck.py -Force; Remove-Item apply_canva_theme.py, build_canva_html.py -ErrorAction SilentlyContinue
