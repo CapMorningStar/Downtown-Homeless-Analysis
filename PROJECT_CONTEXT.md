@@ -201,6 +201,11 @@ D:\Projects\Downtown-Homeless-Analysis\
     - Each chart has title, axis labels, legend, source attribution, and verified (data-checked) commentary.
     - Key correction made during build: initial draft commentary assumed the adjustment gap grows with volume through 2021-2023; actual data shows the gap is largest/most volatile in 2018 (avg +13.5/mo, spike +156.61 in Feb 2018 — ties to the Feb 2018 source PDF addition error from Task 1.1) then near-zero (±1-5) from 2019 on. Commentary was corrected to match verified output before finalizing.
     - Peak overall count confirmed at 2,103 (May 2023), not initially assumed ~2,500.
+  * **Task 2.3: Produce summary report and presentation** (IN PROGRESS)
+    - Wrote [`EDA_SummaryReport.md`](file:///D:/Projects/Downtown-Homeless-Analysis/EDA_SummaryReport.md) covering all 7 required sections (overall trends/inflection points, quantified seasonality, neighborhood insights, COVID-19 impacts, methodology change effects, data limitations, 4 hypotheses for further analysis) — all figures pulled directly from verified Task 2.1/2.2 output.
+    - Uploaded as Google Doc "EDA_SummaryReport" to Drive folder `Assignment 2 - Exploratory Data Analysis` (newly created under the shared Deliverables folder, matching the Assignment 1 naming convention).
+    - Exported `EDA_DowntownCounts.ipynb` to PDF via `nbconvert --to html` + Playwright sync API print-to-PDF (nbconvert's native `--to webpdf` hit a Windows asyncio subprocess bug — worked around it). 21-page PDF uploaded to the same Drive folder.
+    - Remaining: 6-8 slide presentation, being built in Canva (user's choice, see outline below).
   * **Task 2.3: Produce summary report and presentation** (`EDA_SummaryReport` doc, PDF export, slides)
 * **Assignment 3: Block-Level Data Validation & Spatial Integration** (Tasks 3.1–3.4)
 * **Assignment 4: Time Series Decomposition & Pattern Analysis** (Tasks 4.1–4.4)
