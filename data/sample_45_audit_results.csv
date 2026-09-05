@@ -1,0 +1,46 @@
+sample_id,year,month,area,component,file_val,source_val,source_pdf,match,notes
+1,2017,Feb,Marina,total,62.0,62.0,December-2018-Homeless-Count_FINAL.pdf (p.1),True,Exact match in 2017 historical summary table
+2,2017,Oct,East Village,total,649.0,649.0,December-2018-Homeless-Count_FINAL.pdf (p.1),True,Exact match in 2017 historical summary table
+3,2018,Apr,South West EV,total,41.0,41.0,Homeless-Count-April-2018.pdf (p.1),True,Exact match in East Village breakout table
+4,2018,Dec,Core,individual,121.0,121.0,December-2018-Homeless-Count_FINAL.pdf,True,Exact match from Core district breakdown
+5,2018,Feb,Gaslamp,tent,0.0,0.0,February-2018-Homeless-Count-Final.pdf,True,Exact match from Gaslamp count breakdown
+6,2018,Jan,Marina,tent,2.0,2.0,January-2018-Homeless-Count-Combined.pdf,True,Exact match from Marina count breakdown
+7,2018,June,Marina,vehicle,0.0,0.0,FINAL-June-2018-Homeless-Count.pdf,True,Exact match from Marina count breakdown
+8,2018,May,Marina,vehicle,1.0,1.0,May-2018-Homeless-Sleep-Count-Final.pdf,True,Exact match from Marina count breakdown
+9,2019,Apr,Cortez,total,44.0,44.0,April-2019-Unsheltered-Homeless-Count-Final.pdf (p.1),True,Exact match in summary table
+10,2019,Dec,City Center,tent,11.0,11.0,December-2019 report / Jan-2020 summary,True,Exact match from City Center breakdown
+11,2019,July,City Center,vehicle,0.0,0.0,July-2019-Homeless-Count-Final.pdf,True,Exact match from City Center breakdown
+12,2019,July,Columbia,total,52.0,52.0,July-2019-Homeless-Count-Final.pdf (p.1),True,Exact match in summary table
+13,2019,Mar,Columbia,tent,9.0,9.0,March-2019-Homeless-Sleep-Count.pdf,True,Exact match from Columbia breakdown
+14,2019,Nov,Columbia,individual,22.0,22.0,November-2019-Unsheltered-Homeless-Count.pdf,True,Exact match from Columbia breakdown
+15,2019,Nov,Gaslamp,tent,2.0,2.0,November-2019-Unsheltered-Homeless-Count.pdf,True,Exact match from Gaslamp breakdown
+16,2020,Apr,East Village,tent,39.0,39.0,April-2020-Unsheltered-Homeless-Count.pdf,True,Exact match from EV breakdown
+17,2020,Dec,Columbia,individual,46.0,46.0,December-2020-Unsheltered-Homeless-Sleep-Count-FINAL.pdf,True,Exact match from Columbia breakdown
+18,2020,Feb,Columbia,tent,6.0,6.0,February-2020-Unsheltered-Homeless-Count-Final.pdf,True,Exact match from Columbia breakdown
+19,2020,June,Columbia,vehicle,0.0,0.0,June-2020-Unsheltered-Homeless-Sleep-Count-FINAL.pdf,True,Exact match from Columbia breakdown
+20,2021,Feb,Gaslamp,tent,1.0,1.0,February-2021-Unsheltered-Homeless-Sleep-Count-FINAL.pdf,True,Exact match from Gaslamp breakdown
+21,2021,July,East Village,vehicle,9.0,9.0,July-2021-Unsheltered-Homeless-Count-Packet.pdf,True,Exact match from EV breakdown
+22,2021,Mar,City Center,vehicle,0.0,0.0,March-2021-Unsheltered-Homeless-Count-Packet.pdf,True,Exact match from City Center breakdown
+23,2022,Aug,Gaslamp,individual,44.0,44.0,2022-Homeless-Sleep-Count-August-w-Maps.pdf,True,Exact match from Gaslamp breakdown
+24,2022,Dec,City Center,total,271.0,271.0,Unhseltered-Count-December-2022-with-Maps.pdf (p.1),True,Exact match in summary table
+25,2022,Dec,Gaslamp,vehicle,0.0,0.0,Unhseltered-Count-December-2022-with-Maps.pdf,True,Exact match from Gaslamp breakdown
+26,2022,July,City Center,total,234.0,234.0,July-2022-Unsheltered-Count-with-Maps.pdf (p.1),True,Exact match in summary table
+27,2022,Mar,City Center,total,214.0,214.0,2022-Homeless-Sleep-Count-March-with-Maps.pdf (p.1),True,Exact match in summary table
+28,2022,May,Marina,tent,0.0,0.0,Unsheltered-Homeless-Count-May.pdf,True,Exact match from Marina breakdown
+29,2022,Nov,City Center,total,235.0,235.0,2022-Homeless-Sleep-Count-November.pdf (p.1),True,Exact match in summary table
+30,2023,Aug,Cortez,total,65.0,65.0,March-2024 / Monthly-Unhoused-Count-August-N.pdf,True,Exact match in summary table
+31,2023,July,East Village,vehicle,10.0,10.0,July-2023-Unsheltered-Count-FINAL.pdf,True,Exact match from EV breakdown
+32,2023,May,Cortez,tent,39.0,39.0,DSDP-Unhoused-Count-Final-Maps-May-2023.pdf,True,Exact match from Cortez breakdown
+33,2023,May,Marina,individual,28.0,28.0,DSDP-Unhoused-Count-Final-Maps-May-2023.pdf,True,Exact match from Marina breakdown
+34,2023,Sept,Marina,vehicle,0.0,0.0,September-Monthly-Unsheltered-Count-2.pdf,True,Exact match from Marina breakdown
+35,2024,June,Cortez,tent,13.0,13.0,June-2024-Unsheltered-Sleep-Count-Final-w-maps.pdf,True,Exact match from Cortez breakdown
+36,2024,Mar,Columbia,individual,36.0,36.0,March-2024-Unsheltered-Count-w-maps.pdf,True,Exact match from Columbia breakdown
+37,2025,Apr,Cortez,individual,49.0,49.0,April-2025-Unsheltered-Counts-W-Maps.pdf (p.6),True,Exact match in count breakdown table
+38,2025,Apr,Gaslamp,vehicle,0.0,0.0,April-2025-Unsheltered-Counts-W-Maps.pdf (p.8),True,Exact match in count breakdown table
+39,2025,Apr,South East EV,total,43.0,27.0,April-2025 / June-2025-Unsheltered-Sleep-Counts (p.1),False,"DISCREPANCY: Source PDF reports 27 for South East EV in April 2025 (and 193 NE, 51 NW, 32 SW); file records 43.0"
+40,2025,Aug,City Center,total,,,Unreleased / Not Conducted,True,Unpublished month: No report released; correctly represented as NaN in file
+41,2025,Feb,East Village,total,409.0,409.0,February-2025 / April-2025 summary (p.1),True,Exact match in summary table
+42,2025,July,Columbia,individual,,,Unreleased / Not Conducted,True,Unpublished month: No report released; correctly represented as NaN in file
+43,2025,July,Cortez,vehicle,,,Unreleased / Not Conducted,True,Unpublished month: No report released; correctly represented as NaN in file
+44,2025,June,East Village,individual,291.0,291.0,June-2025-Unsheltered-Sleep-Counts-With-Maps-1.pdf,True,Exact match in count breakdown table
+45,2025,Nov,East Village,individual,,,Unreleased / Not Conducted,True,Unpublished month: No report released; correctly represented as NaN in file

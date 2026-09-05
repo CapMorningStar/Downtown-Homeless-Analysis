@@ -1,0 +1,13 @@
+# Downloaded source PDFs — large binaries, re-derivable from DSDP archive links in dsdp_pdf_links.csv
+data/pdfs/
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

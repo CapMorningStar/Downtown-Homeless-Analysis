@@ -1,0 +1,46 @@
+area,month,count,year,component,area_type
+Marina,Feb,62.0,2017,total,neighborhood
+East Village,Oct,649.0,2017,total,neighborhood
+South West EV,Apr,41.0,2018,total,sub-area
+Core,Dec,121.0,2018,individual,neighborhood
+Gaslamp,Feb,0.0,2018,tent,neighborhood
+Marina,Jan,2.0,2018,tent,neighborhood
+Marina,June,0.0,2018,vehicle,neighborhood
+Marina,May,1.0,2018,vehicle,neighborhood
+Cortez,Apr,44.0,2019,total,neighborhood
+City Center,Dec,11.0,2019,tent,neighborhood
+City Center,July,0.0,2019,vehicle,neighborhood
+Columbia,July,52.0,2019,total,neighborhood
+Columbia,Mar,9.0,2019,tent,neighborhood
+Columbia,Nov,22.0,2019,individual,neighborhood
+Gaslamp,Nov,2.0,2019,tent,neighborhood
+East Village,Apr,39.0,2020,tent,neighborhood
+Columbia,Dec,46.0,2020,individual,neighborhood
+Columbia,Feb,6.0,2020,tent,neighborhood
+Columbia,June,0.0,2020,vehicle,neighborhood
+Gaslamp,Feb,1.0,2021,tent,neighborhood
+East Village,July,9.0,2021,vehicle,neighborhood
+City Center,Mar,0.0,2021,vehicle,neighborhood
+Gaslamp,Aug,44.0,2022,individual,neighborhood
+City Center,Dec,271.0,2022,total,neighborhood
+Gaslamp,Dec,0.0,2022,vehicle,neighborhood
+City Center,July,234.0,2022,total,neighborhood
+City Center,Mar,214.0,2022,total,neighborhood
+Marina,May,0.0,2022,tent,neighborhood
+City Center,Nov,235.0,2022,total,neighborhood
+Cortez,Aug,65.0,2023,total,neighborhood
+East Village,July,10.0,2023,vehicle,neighborhood
+Cortez,May,39.0,2023,tent,neighborhood
+Marina,May,28.0,2023,individual,neighborhood
+Marina,Sept,0.0,2023,vehicle,neighborhood
+Cortez,June,13.0,2024,tent,neighborhood
+Columbia,Mar,36.0,2024,individual,neighborhood
+Cortez,Apr,49.0,2025,individual,neighborhood
+Gaslamp,Apr,0.0,2025,vehicle,neighborhood
+South East EV,Apr,43.0,2025,total,sub-area
+City Center,Aug,,2025,total,neighborhood
+East Village,Feb,409.0,2025,total,neighborhood
+Columbia,July,,2025,individual,neighborhood
+Cortez,July,,2025,vehicle,neighborhood
+East Village,June,291.0,2025,individual,neighborhood
+East Village,Nov,,2025,individual,neighborhood

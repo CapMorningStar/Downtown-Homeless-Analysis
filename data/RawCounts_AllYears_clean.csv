@@ -1,0 +1,2815 @@
+date,year,month,area,source_area,component,count,area_type
+2021-01-01,2021,Jan,East Village,East Village,total,409.0,neighborhood
+2021-01-01,2021,Jan,City Center,City Center,total,153.0,neighborhood
+2021-01-01,2021,Jan,Columbia,Columbia,total,55.0,neighborhood
+2021-01-01,2021,Jan,Marina,Marina,total,20.0,neighborhood
+2021-01-01,2021,Jan,Cortez,Cortez,total,47.0,neighborhood
+2021-01-01,2021,Jan,Gaslamp,Gaslamp,total,31.0,neighborhood
+2021-01-01,2021,Jan,Outside Perimeter,Outside Perimeter,total,0.0,neighborhood
+2021-02-01,2021,Feb,East Village,East Village,total,381.0,neighborhood
+2021-02-01,2021,Feb,City Center,City Center,total,140.0,neighborhood
+2021-02-01,2021,Feb,Columbia,Columbia,total,47.0,neighborhood
+2021-02-01,2021,Feb,Marina,Marina,total,24.0,neighborhood
+2021-02-01,2021,Feb,Cortez,Cortez,total,44.0,neighborhood
+2021-02-01,2021,Feb,Gaslamp,Gaslamp,total,32.0,neighborhood
+2021-02-01,2021,Feb,Outside Perimeter,Outside Perimeter,total,0.0,neighborhood
+2021-03-01,2021,Mar,East Village,East Village,total,439.0,neighborhood
+2021-03-01,2021,Mar,City Center,City Center,total,151.0,neighborhood
+2021-03-01,2021,Mar,Columbia,Columbia,total,45.0,neighborhood
+2021-03-01,2021,Mar,Marina,Marina,total,26.0,neighborhood
+2021-03-01,2021,Mar,Cortez,Cortez,total,30.0,neighborhood
+2021-03-01,2021,Mar,Gaslamp,Gaslamp,total,30.0,neighborhood
+2021-03-01,2021,Mar,Outside Perimeter,Outside Perimeter,total,0.0,neighborhood
+2021-04-01,2021,Apr,East Village,East Village,total,402.0,neighborhood
+2021-04-01,2021,Apr,City Center,City Center,total,133.0,neighborhood
+2021-04-01,2021,Apr,Columbia,Columbia,total,42.0,neighborhood
+2021-04-01,2021,Apr,Marina,Marina,total,16.0,neighborhood
+2021-04-01,2021,Apr,Cortez,Cortez,total,32.0,neighborhood
+2021-04-01,2021,Apr,Gaslamp,Gaslamp,total,29.0,neighborhood
+2021-04-01,2021,Apr,Outside Perimeter,Outside Perimeter,total,221.0,neighborhood
+2021-05-01,2021,May,East Village,East Village,total,513.0,neighborhood
+2021-05-01,2021,May,City Center,City Center,total,138.0,neighborhood
+2021-05-01,2021,May,Columbia,Columbia,total,60.0,neighborhood
+2021-05-01,2021,May,Marina,Marina,total,24.0,neighborhood
+2021-05-01,2021,May,Cortez,Cortez,total,30.0,neighborhood
+2021-05-01,2021,May,Gaslamp,Gaslamp,total,35.0,neighborhood
+2021-05-01,2021,May,Outside Perimeter,Outside Perimeter,total,357.0,neighborhood
+2021-06-01,2021,Jun,East Village,East Village,total,499.0,neighborhood
+2021-06-01,2021,Jun,City Center,City Center,total,143.0,neighborhood
+2021-06-01,2021,Jun,Columbia,Columbia,total,53.0,neighborhood
+2021-06-01,2021,Jun,Marina,Marina,total,22.0,neighborhood
+2021-06-01,2021,Jun,Cortez,Cortez,total,27.0,neighborhood
+2021-06-01,2021,Jun,Gaslamp,Gaslamp,total,43.0,neighborhood
+2021-06-01,2021,Jun,Outside Perimeter,Outside Perimeter,total,373.0,neighborhood
+2021-07-01,2021,Jul,East Village,East Village,total,465.0,neighborhood
+2021-07-01,2021,Jul,City Center,City Center,total,123.0,neighborhood
+2021-07-01,2021,Jul,Columbia,Columbia,total,57.0,neighborhood
+2021-07-01,2021,Jul,Marina,Marina,total,22.0,neighborhood
+2021-07-01,2021,Jul,Cortez,Cortez,total,44.0,neighborhood
+2021-07-01,2021,Jul,Gaslamp,Gaslamp,total,21.0,neighborhood
+2021-07-01,2021,Jul,Outside Perimeter,Outside Perimeter,total,273.0,neighborhood
+2021-08-01,2021,Aug,East Village,East Village,total,469.0,neighborhood
+2021-08-01,2021,Aug,City Center,City Center,total,152.0,neighborhood
+2021-08-01,2021,Aug,Columbia,Columbia,total,60.0,neighborhood
+2021-08-01,2021,Aug,Marina,Marina,total,30.0,neighborhood
+2021-08-01,2021,Aug,Cortez,Cortez,total,34.0,neighborhood
+2021-08-01,2021,Aug,Gaslamp,Gaslamp,total,31.0,neighborhood
+2021-08-01,2021,Aug,Outside Perimeter,Outside Perimeter,total,250.0,neighborhood
+2021-09-01,2021,Sep,East Village,East Village,total,438.0,neighborhood
+2021-09-01,2021,Sep,City Center,City Center,total,96.0,neighborhood
+2021-09-01,2021,Sep,Columbia,Columbia,total,80.0,neighborhood
+2021-09-01,2021,Sep,Marina,Marina,total,29.0,neighborhood
+2021-09-01,2021,Sep,Cortez,Cortez,total,29.0,neighborhood
+2021-09-01,2021,Sep,Gaslamp,Gaslamp,total,44.0,neighborhood
+2021-09-01,2021,Sep,Outside Perimeter,Outside Perimeter,total,83.0,neighborhood
+2021-10-01,2021,Oct,East Village,East Village,total,541.0,neighborhood
+2021-10-01,2021,Oct,City Center,City Center,total,145.0,neighborhood
+2021-10-01,2021,Oct,Columbia,Columbia,total,57.0,neighborhood
+2021-10-01,2021,Oct,Marina,Marina,total,30.0,neighborhood
+2021-10-01,2021,Oct,Cortez,Cortez,total,35.0,neighborhood
+2021-10-01,2021,Oct,Gaslamp,Gaslamp,total,51.0,neighborhood
+2021-10-01,2021,Oct,Outside Perimeter,Outside Perimeter,total,167.0,neighborhood
+2021-11-01,2021,Nov,East Village,East Village,total,541.0,neighborhood
+2021-11-01,2021,Nov,City Center,City Center,total,181.0,neighborhood
+2021-11-01,2021,Nov,Columbia,Columbia,total,60.0,neighborhood
+2021-11-01,2021,Nov,Marina,Marina,total,42.0,neighborhood
+2021-11-01,2021,Nov,Cortez,Cortez,total,31.0,neighborhood
+2021-11-01,2021,Nov,Gaslamp,Gaslamp,total,46.0,neighborhood
+2021-11-01,2021,Nov,Outside Perimeter,Outside Perimeter,total,223.0,neighborhood
+2021-12-01,2021,Dec,East Village,East Village,total,612.0,neighborhood
+2021-12-01,2021,Dec,City Center,City Center,total,185.0,neighborhood
+2021-12-01,2021,Dec,Columbia,Columbia,total,59.0,neighborhood
+2021-12-01,2021,Dec,Marina,Marina,total,40.0,neighborhood
+2021-12-01,2021,Dec,Cortez,Cortez,total,46.0,neighborhood
+2021-12-01,2021,Dec,Gaslamp,Gaslamp,total,59.0,neighborhood
+2021-12-01,2021,Dec,Outside Perimeter,Outside Perimeter,total,252.0,neighborhood
+2020-01-01,2020,Jan,East Village,East Village,total,467.0,neighborhood
+2020-01-01,2020,Jan,City Center,City Center,total,126.0,neighborhood
+2020-01-01,2020,Jan,Columbia,Columbia,total,41.0,neighborhood
+2020-01-01,2020,Jan,Marina,Marina,total,48.0,neighborhood
+2020-01-01,2020,Jan,Cortez,Cortez,total,48.0,neighborhood
+2020-01-01,2020,Jan,Gaslamp,Gaslamp,total,59.0,neighborhood
+2020-02-01,2020,Feb,East Village,East Village,total,409.0,neighborhood
+2020-02-01,2020,Feb,City Center,City Center,total,160.0,neighborhood
+2020-02-01,2020,Feb,Columbia,Columbia,total,47.0,neighborhood
+2020-02-01,2020,Feb,Marina,Marina,total,27.0,neighborhood
+2020-02-01,2020,Feb,Cortez,Cortez,total,49.0,neighborhood
+2020-02-01,2020,Feb,Gaslamp,Gaslamp,total,52.0,neighborhood
+2020-03-01,2020,Mar,East Village,East Village,total,261.0,neighborhood
+2020-03-01,2020,Mar,City Center,City Center,total,134.0,neighborhood
+2020-03-01,2020,Mar,Columbia,Columbia,total,24.0,neighborhood
+2020-03-01,2020,Mar,Marina,Marina,total,20.0,neighborhood
+2020-03-01,2020,Mar,Cortez,Cortez,total,28.0,neighborhood
+2020-03-01,2020,Mar,Gaslamp,Gaslamp,total,62.0,neighborhood
+2020-04-01,2020,Apr,East Village,East Village,total,330.0,neighborhood
+2020-04-01,2020,Apr,City Center,City Center,total,91.0,neighborhood
+2020-04-01,2020,Apr,Columbia,Columbia,total,52.0,neighborhood
+2020-04-01,2020,Apr,Marina,Marina,total,24.0,neighborhood
+2020-04-01,2020,Apr,Cortez,Cortez,total,20.0,neighborhood
+2020-04-01,2020,Apr,Gaslamp,Gaslamp,total,28.0,neighborhood
+2020-05-01,2020,May,East Village,East Village,total,332.0,neighborhood
+2020-05-01,2020,May,City Center,City Center,total,122.0,neighborhood
+2020-05-01,2020,May,Columbia,Columbia,total,51.0,neighborhood
+2020-05-01,2020,May,Marina,Marina,total,24.0,neighborhood
+2020-05-01,2020,May,Cortez,Cortez,total,24.0,neighborhood
+2020-05-01,2020,May,Gaslamp,Gaslamp,total,42.0,neighborhood
+2020-06-01,2020,Jun,East Village,East Village,total,418.0,neighborhood
+2020-06-01,2020,Jun,City Center,City Center,total,140.0,neighborhood
+2020-06-01,2020,Jun,Columbia,Columbia,total,59.0,neighborhood
+2020-06-01,2020,Jun,Marina,Marina,total,29.0,neighborhood
+2020-06-01,2020,Jun,Cortez,Cortez,total,39.0,neighborhood
+2020-06-01,2020,Jun,Gaslamp,Gaslamp,total,37.0,neighborhood
+2020-07-01,2020,Jul,East Village,East Village,total,398.0,neighborhood
+2020-07-01,2020,Jul,City Center,City Center,total,121.0,neighborhood
+2020-07-01,2020,Jul,Columbia,Columbia,total,56.0,neighborhood
+2020-07-01,2020,Jul,Marina,Marina,total,28.0,neighborhood
+2020-07-01,2020,Jul,Cortez,Cortez,total,24.0,neighborhood
+2020-07-01,2020,Jul,Gaslamp,Gaslamp,total,51.0,neighborhood
+2020-08-01,2020,Aug,East Village,East Village,total,326.0,neighborhood
+2020-08-01,2020,Aug,City Center,City Center,total,104.0,neighborhood
+2020-08-01,2020,Aug,Columbia,Columbia,total,48.0,neighborhood
+2020-08-01,2020,Aug,Marina,Marina,total,21.0,neighborhood
+2020-08-01,2020,Aug,Cortez,Cortez,total,22.0,neighborhood
+2020-08-01,2020,Aug,Gaslamp,Gaslamp,total,38.0,neighborhood
+2020-09-01,2020,Sep,East Village,East Village,total,447.0,neighborhood
+2020-09-01,2020,Sep,City Center,City Center,total,125.0,neighborhood
+2020-09-01,2020,Sep,Columbia,Columbia,total,56.0,neighborhood
+2020-09-01,2020,Sep,Marina,Marina,total,27.0,neighborhood
+2020-09-01,2020,Sep,Cortez,Cortez,total,17.0,neighborhood
+2020-09-01,2020,Sep,Gaslamp,Gaslamp,total,47.0,neighborhood
+2020-10-01,2020,Oct,East Village,East Village,total,401.0,neighborhood
+2020-10-01,2020,Oct,City Center,City Center,total,111.0,neighborhood
+2020-10-01,2020,Oct,Columbia,Columbia,total,42.0,neighborhood
+2020-10-01,2020,Oct,Marina,Marina,total,17.0,neighborhood
+2020-10-01,2020,Oct,Cortez,Cortez,total,33.0,neighborhood
+2020-10-01,2020,Oct,Gaslamp,Gaslamp,total,35.0,neighborhood
+2020-11-01,2020,Nov,East Village,East Village,total,424.0,neighborhood
+2020-11-01,2020,Nov,City Center,City Center,total,126.0,neighborhood
+2020-11-01,2020,Nov,Columbia,Columbia,total,55.0,neighborhood
+2020-11-01,2020,Nov,Marina,Marina,total,35.0,neighborhood
+2020-11-01,2020,Nov,Cortez,Cortez,total,23.0,neighborhood
+2020-11-01,2020,Nov,Gaslamp,Gaslamp,total,31.0,neighborhood
+2020-12-01,2020,Dec,East Village,East Village,total,334.0,neighborhood
+2020-12-01,2020,Dec,City Center,City Center,total,134.0,neighborhood
+2020-12-01,2020,Dec,Columbia,Columbia,total,53.0,neighborhood
+2020-12-01,2020,Dec,Marina,Marina,total,11.0,neighborhood
+2020-12-01,2020,Dec,Cortez,Cortez,total,52.0,neighborhood
+2020-12-01,2020,Dec,Gaslamp,Gaslamp,total,38.0,neighborhood
+2019-01-01,2019,Jan,East Village,East Village,total,543.0,neighborhood
+2019-01-01,2019,Jan,City Center,City Center,total,132.0,neighborhood
+2019-01-01,2019,Jan,Columbia,Columbia,total,53.0,neighborhood
+2019-01-01,2019,Jan,Marina,Marina,total,57.0,neighborhood
+2019-01-01,2019,Jan,Cortez,Cortez,total,54.0,neighborhood
+2019-01-01,2019,Jan,Gaslamp,Gaslamp,total,59.0,neighborhood
+2019-02-01,2019,Feb,East Village,East Village,total,497.0,neighborhood
+2019-02-01,2019,Feb,City Center,City Center,total,109.0,neighborhood
+2019-02-01,2019,Feb,Columbia,Columbia,total,43.0,neighborhood
+2019-02-01,2019,Feb,Marina,Marina,total,49.0,neighborhood
+2019-02-01,2019,Feb,Cortez,Cortez,total,33.0,neighborhood
+2019-02-01,2019,Feb,Gaslamp,Gaslamp,total,68.0,neighborhood
+2019-03-01,2019,Mar,East Village,East Village,total,428.0,neighborhood
+2019-03-01,2019,Mar,City Center,City Center,total,130.0,neighborhood
+2019-03-01,2019,Mar,Columbia,Columbia,total,33.0,neighborhood
+2019-03-01,2019,Mar,Marina,Marina,total,30.0,neighborhood
+2019-03-01,2019,Mar,Cortez,Cortez,total,53.0,neighborhood
+2019-03-01,2019,Mar,Gaslamp,Gaslamp,total,59.0,neighborhood
+2019-04-01,2019,Apr,East Village,East Village,total,502.0,neighborhood
+2019-04-01,2019,Apr,City Center,City Center,total,107.0,neighborhood
+2019-04-01,2019,Apr,Columbia,Columbia,total,55.0,neighborhood
+2019-04-01,2019,Apr,Marina,Marina,total,33.0,neighborhood
+2019-04-01,2019,Apr,Cortez,Cortez,total,44.0,neighborhood
+2019-04-01,2019,Apr,Gaslamp,Gaslamp,total,36.0,neighborhood
+2019-05-01,2019,May,East Village,East Village,total,506.0,neighborhood
+2019-05-01,2019,May,City Center,City Center,total,146.0,neighborhood
+2019-05-01,2019,May,Columbia,Columbia,total,61.0,neighborhood
+2019-05-01,2019,May,Marina,Marina,total,38.0,neighborhood
+2019-05-01,2019,May,Cortez,Cortez,total,45.0,neighborhood
+2019-05-01,2019,May,Gaslamp,Gaslamp,total,65.0,neighborhood
+2019-06-01,2019,Jun,East Village,East Village,total,468.0,neighborhood
+2019-06-01,2019,Jun,City Center,City Center,total,157.0,neighborhood
+2019-06-01,2019,Jun,Columbia,Columbia,total,61.0,neighborhood
+2019-06-01,2019,Jun,Marina,Marina,total,35.0,neighborhood
+2019-06-01,2019,Jun,Cortez,Cortez,total,46.0,neighborhood
+2019-06-01,2019,Jun,Gaslamp,Gaslamp,total,54.0,neighborhood
+2019-07-01,2019,Jul,East Village,East Village,total,604.0,neighborhood
+2019-07-01,2019,Jul,City Center,City Center,total,147.0,neighborhood
+2019-07-01,2019,Jul,Columbia,Columbia,total,52.0,neighborhood
+2019-07-01,2019,Jul,Marina,Marina,total,36.0,neighborhood
+2019-07-01,2019,Jul,Cortez,Cortez,total,71.0,neighborhood
+2019-07-01,2019,Jul,Gaslamp,Gaslamp,total,52.0,neighborhood
+2019-08-01,2019,Aug,East Village,East Village,total,470.0,neighborhood
+2019-08-01,2019,Aug,City Center,City Center,total,124.0,neighborhood
+2019-08-01,2019,Aug,Columbia,Columbia,total,46.0,neighborhood
+2019-08-01,2019,Aug,Marina,Marina,total,39.0,neighborhood
+2019-08-01,2019,Aug,Cortez,Cortez,total,31.0,neighborhood
+2019-08-01,2019,Aug,Gaslamp,Gaslamp,total,61.0,neighborhood
+2019-09-01,2019,Sep,East Village,East Village,total,533.0,neighborhood
+2019-09-01,2019,Sep,City Center,City Center,total,192.0,neighborhood
+2019-09-01,2019,Sep,Columbia,Columbia,total,49.0,neighborhood
+2019-09-01,2019,Sep,Marina,Marina,total,40.0,neighborhood
+2019-09-01,2019,Sep,Cortez,Cortez,total,55.0,neighborhood
+2019-09-01,2019,Sep,Gaslamp,Gaslamp,total,77.0,neighborhood
+2019-10-01,2019,Oct,East Village,East Village,total,479.0,neighborhood
+2019-10-01,2019,Oct,City Center,City Center,total,170.0,neighborhood
+2019-10-01,2019,Oct,Columbia,Columbia,total,67.0,neighborhood
+2019-10-01,2019,Oct,Marina,Marina,total,31.0,neighborhood
+2019-10-01,2019,Oct,Cortez,Cortez,total,39.0,neighborhood
+2019-10-01,2019,Oct,Gaslamp,Gaslamp,total,61.0,neighborhood
+2019-11-01,2019,Nov,East Village,East Village,total,416.0,neighborhood
+2019-11-01,2019,Nov,City Center,City Center,total,103.0,neighborhood
+2019-11-01,2019,Nov,Columbia,Columbia,total,38.0,neighborhood
+2019-11-01,2019,Nov,Marina,Marina,total,33.0,neighborhood
+2019-11-01,2019,Nov,Cortez,Cortez,total,26.0,neighborhood
+2019-11-01,2019,Nov,Gaslamp,Gaslamp,total,62.0,neighborhood
+2019-12-01,2019,Dec,East Village,East Village,total,370.0,neighborhood
+2019-12-01,2019,Dec,City Center,City Center,total,124.0,neighborhood
+2019-12-01,2019,Dec,Columbia,Columbia,total,41.0,neighborhood
+2019-12-01,2019,Dec,Marina,Marina,total,37.0,neighborhood
+2019-12-01,2019,Dec,Cortez,Cortez,total,20.0,neighborhood
+2019-12-01,2019,Dec,Gaslamp,Gaslamp,total,35.0,neighborhood
+2018-01-01,2018,Jan,East Village,East Village,total,495.0,neighborhood
+2018-01-01,2018,Jan,City Center,Core,total,123.0,neighborhood
+2018-01-01,2018,Jan,Columbia,Columbia,total,50.0,neighborhood
+2018-01-01,2018,Jan,Marina,Marina,total,31.0,neighborhood
+2018-01-01,2018,Jan,Cortez,Cortez,total,61.0,neighborhood
+2018-01-01,2018,Jan,Gaslamp,Gaslamp,total,44.0,neighborhood
+2018-02-01,2018,Feb,East Village,East Village,total,474.0,neighborhood
+2018-02-01,2018,Feb,City Center,Core,total,156.0,neighborhood
+2018-02-01,2018,Feb,Columbia,Columbia,total,58.0,neighborhood
+2018-02-01,2018,Feb,Marina,Marina,total,34.0,neighborhood
+2018-02-01,2018,Feb,Cortez,Cortez,total,56.0,neighborhood
+2018-02-01,2018,Feb,Gaslamp,Gaslamp,total,84.0,neighborhood
+2018-03-01,2018,Mar,East Village,East Village,total,594.0,neighborhood
+2018-03-01,2018,Mar,City Center,Core,total,128.0,neighborhood
+2018-03-01,2018,Mar,Columbia,Columbia,total,61.0,neighborhood
+2018-03-01,2018,Mar,Marina,Marina,total,32.0,neighborhood
+2018-03-01,2018,Mar,Cortez,Cortez,total,72.0,neighborhood
+2018-03-01,2018,Mar,Gaslamp,Gaslamp,total,93.0,neighborhood
+2018-04-01,2018,Apr,East Village,East Village,total,502.0,neighborhood
+2018-04-01,2018,Apr,City Center,Core,total,111.0,neighborhood
+2018-04-01,2018,Apr,Columbia,Columbia,total,46.0,neighborhood
+2018-04-01,2018,Apr,Marina,Marina,total,37.0,neighborhood
+2018-04-01,2018,Apr,Cortez,Cortez,total,44.0,neighborhood
+2018-04-01,2018,Apr,Gaslamp,Gaslamp,total,51.0,neighborhood
+2018-05-01,2018,May,East Village,East Village,total,523.0,neighborhood
+2018-05-01,2018,May,City Center,Core,total,180.0,neighborhood
+2018-05-01,2018,May,Columbia,Columbia,total,46.0,neighborhood
+2018-05-01,2018,May,Marina,Marina,total,35.0,neighborhood
+2018-05-01,2018,May,Cortez,Cortez,total,52.0,neighborhood
+2018-05-01,2018,May,Gaslamp,Gaslamp,total,68.0,neighborhood
+2018-06-01,2018,Jun,East Village,East Village,total,459.0,neighborhood
+2018-06-01,2018,Jun,City Center,Core,total,118.0,neighborhood
+2018-06-01,2018,Jun,Columbia,Columbia,total,53.0,neighborhood
+2018-06-01,2018,Jun,Marina,Marina,total,50.0,neighborhood
+2018-06-01,2018,Jun,Cortez,Cortez,total,40.0,neighborhood
+2018-06-01,2018,Jun,Gaslamp,Gaslamp,total,39.0,neighborhood
+2018-07-01,2018,Jul,East Village,East Village,total,621.0,neighborhood
+2018-07-01,2018,Jul,City Center,Core,total,139.0,neighborhood
+2018-07-01,2018,Jul,Columbia,Columbia,total,37.0,neighborhood
+2018-07-01,2018,Jul,Marina,Marina,total,37.0,neighborhood
+2018-07-01,2018,Jul,Cortez,Cortez,total,47.0,neighborhood
+2018-07-01,2018,Jul,Gaslamp,Gaslamp,total,45.0,neighborhood
+2018-08-01,2018,Aug,East Village,East Village,total,582.0,neighborhood
+2018-08-01,2018,Aug,City Center,Core,total,146.0,neighborhood
+2018-08-01,2018,Aug,Columbia,Columbia,total,56.0,neighborhood
+2018-08-01,2018,Aug,Marina,Marina,total,72.0,neighborhood
+2018-08-01,2018,Aug,Cortez,Cortez,total,54.0,neighborhood
+2018-08-01,2018,Aug,Gaslamp,Gaslamp,total,55.0,neighborhood
+2018-09-01,2018,Sep,East Village,East Village,total,501.0,neighborhood
+2018-09-01,2018,Sep,City Center,Core,total,129.0,neighborhood
+2018-09-01,2018,Sep,Columbia,Columbia,total,26.0,neighborhood
+2018-09-01,2018,Sep,Marina,Marina,total,46.0,neighborhood
+2018-09-01,2018,Sep,Cortez,Cortez,total,32.0,neighborhood
+2018-09-01,2018,Sep,Gaslamp,Gaslamp,total,53.0,neighborhood
+2018-10-01,2018,Oct,East Village,East Village,total,504.0,neighborhood
+2018-10-01,2018,Oct,City Center,Core,total,104.0,neighborhood
+2018-10-01,2018,Oct,Columbia,Columbia,total,34.0,neighborhood
+2018-10-01,2018,Oct,Marina,Marina,total,29.0,neighborhood
+2018-10-01,2018,Oct,Cortez,Cortez,total,16.0,neighborhood
+2018-10-01,2018,Oct,Gaslamp,Gaslamp,total,52.0,neighborhood
+2018-11-01,2018,Nov,East Village,East Village,total,473.0,neighborhood
+2018-11-01,2018,Nov,City Center,Core,total,146.0,neighborhood
+2018-11-01,2018,Nov,Columbia,Columbia,total,24.0,neighborhood
+2018-11-01,2018,Nov,Marina,Marina,total,41.0,neighborhood
+2018-11-01,2018,Nov,Cortez,Cortez,total,46.0,neighborhood
+2018-11-01,2018,Nov,Gaslamp,Gaslamp,total,69.0,neighborhood
+2018-12-01,2018,Dec,East Village,East Village,total,482.0,neighborhood
+2018-12-01,2018,Dec,City Center,Core,total,147.0,neighborhood
+2018-12-01,2018,Dec,Columbia,Columbia,total,45.0,neighborhood
+2018-12-01,2018,Dec,Marina,Marina,total,52.0,neighborhood
+2018-12-01,2018,Dec,Cortez,Cortez,total,40.0,neighborhood
+2018-12-01,2018,Dec,Gaslamp,Gaslamp,total,40.0,neighborhood
+2017-01-01,2017,Jan,East Village,East Village,total,629.0,neighborhood
+2017-01-01,2017,Jan,City Center,Core,total,117.0,neighborhood
+2017-01-01,2017,Jan,Columbia,Columbia,total,36.0,neighborhood
+2017-01-01,2017,Jan,Marina,Marina,total,26.0,neighborhood
+2017-01-01,2017,Jan,Cortez,Cortez,total,32.0,neighborhood
+2017-01-01,2017,Jan,Gaslamp,Gaslamp,total,42.0,neighborhood
+2017-02-01,2017,Feb,East Village,East Village,total,663.0,neighborhood
+2017-02-01,2017,Feb,City Center,Core,total,168.0,neighborhood
+2017-02-01,2017,Feb,Columbia,Columbia,total,35.0,neighborhood
+2017-02-01,2017,Feb,Marina,Marina,total,62.0,neighborhood
+2017-02-01,2017,Feb,Cortez,Cortez,total,42.0,neighborhood
+2017-02-01,2017,Feb,Gaslamp,Gaslamp,total,57.0,neighborhood
+2017-03-01,2017,Mar,East Village,East Village,total,783.0,neighborhood
+2017-03-01,2017,Mar,City Center,Core,total,169.0,neighborhood
+2017-03-01,2017,Mar,Columbia,Columbia,total,20.0,neighborhood
+2017-03-01,2017,Mar,Marina,Marina,total,56.0,neighborhood
+2017-03-01,2017,Mar,Cortez,Cortez,total,37.0,neighborhood
+2017-03-01,2017,Mar,Gaslamp,Gaslamp,total,40.0,neighborhood
+2017-04-01,2017,Apr,East Village,East Village,total,598.0,neighborhood
+2017-04-01,2017,Apr,City Center,Core,total,121.0,neighborhood
+2017-04-01,2017,Apr,Columbia,Columbia,total,46.0,neighborhood
+2017-04-01,2017,Apr,Marina,Marina,total,41.0,neighborhood
+2017-04-01,2017,Apr,Cortez,Cortez,total,26.0,neighborhood
+2017-04-01,2017,Apr,Gaslamp,Gaslamp,total,43.0,neighborhood
+2017-05-01,2017,May,East Village,East Village,total,548.0,neighborhood
+2017-05-01,2017,May,City Center,Core,total,145.0,neighborhood
+2017-05-01,2017,May,Columbia,Columbia,total,59.0,neighborhood
+2017-05-01,2017,May,Marina,Marina,total,42.0,neighborhood
+2017-05-01,2017,May,Cortez,Cortez,total,49.0,neighborhood
+2017-05-01,2017,May,Gaslamp,Gaslamp,total,49.0,neighborhood
+2017-06-01,2017,Jun,East Village,East Village,total,781.0,neighborhood
+2017-06-01,2017,Jun,City Center,Core,total,173.0,neighborhood
+2017-06-01,2017,Jun,Columbia,Columbia,total,41.0,neighborhood
+2017-06-01,2017,Jun,Marina,Marina,total,50.0,neighborhood
+2017-06-01,2017,Jun,Cortez,Cortez,total,57.0,neighborhood
+2017-06-01,2017,Jun,Gaslamp,Gaslamp,total,54.0,neighborhood
+2017-07-01,2017,Jul,East Village,East Village,total,734.0,neighborhood
+2017-07-01,2017,Jul,City Center,Core,total,158.0,neighborhood
+2017-07-01,2017,Jul,Columbia,Columbia,total,47.0,neighborhood
+2017-07-01,2017,Jul,Marina,Marina,total,49.0,neighborhood
+2017-07-01,2017,Jul,Cortez,Cortez,total,64.0,neighborhood
+2017-07-01,2017,Jul,Gaslamp,Gaslamp,total,48.0,neighborhood
+2017-08-01,2017,Aug,East Village,East Village,total,885.0,neighborhood
+2017-08-01,2017,Aug,City Center,Core,total,169.0,neighborhood
+2017-08-01,2017,Aug,Columbia,Columbia,total,70.0,neighborhood
+2017-08-01,2017,Aug,Marina,Marina,total,74.0,neighborhood
+2017-08-01,2017,Aug,Cortez,Cortez,total,71.0,neighborhood
+2017-08-01,2017,Aug,Gaslamp,Gaslamp,total,66.0,neighborhood
+2017-09-01,2017,Sep,East Village,East Village,total,768.0,neighborhood
+2017-09-01,2017,Sep,City Center,Core,total,195.0,neighborhood
+2017-09-01,2017,Sep,Columbia,Columbia,total,61.0,neighborhood
+2017-09-01,2017,Sep,Marina,Marina,total,72.0,neighborhood
+2017-09-01,2017,Sep,Cortez,Cortez,total,95.0,neighborhood
+2017-09-01,2017,Sep,Gaslamp,Gaslamp,total,85.0,neighborhood
+2017-10-01,2017,Oct,East Village,East Village,total,649.0,neighborhood
+2017-10-01,2017,Oct,City Center,Core,total,174.0,neighborhood
+2017-10-01,2017,Oct,Columbia,Columbia,total,56.0,neighborhood
+2017-10-01,2017,Oct,Marina,Marina,total,79.0,neighborhood
+2017-10-01,2017,Oct,Cortez,Cortez,total,78.0,neighborhood
+2017-10-01,2017,Oct,Gaslamp,Gaslamp,total,56.0,neighborhood
+2017-11-01,2017,Nov,East Village,East Village,total,580.0,neighborhood
+2017-11-01,2017,Nov,City Center,Core,total,162.0,neighborhood
+2017-11-01,2017,Nov,Columbia,Columbia,total,49.0,neighborhood
+2017-11-01,2017,Nov,Marina,Marina,total,50.0,neighborhood
+2017-11-01,2017,Nov,Cortez,Cortez,total,58.0,neighborhood
+2017-11-01,2017,Nov,Gaslamp,Gaslamp,total,42.0,neighborhood
+2017-12-01,2017,Dec,East Village,East Village,total,663.0,neighborhood
+2017-12-01,2017,Dec,City Center,Core,total,147.0,neighborhood
+2017-12-01,2017,Dec,Columbia,Columbia,total,46.0,neighborhood
+2017-12-01,2017,Dec,Marina,Marina,total,49.0,neighborhood
+2017-12-01,2017,Dec,Cortez,Cortez,total,53.0,neighborhood
+2017-12-01,2017,Dec,Gaslamp,Gaslamp,total,55.0,neighborhood
+2022-01-01,2022,Jan,East Village,East Village,total,678.0,neighborhood
+2022-01-01,2022,Jan,City Center,City Center,total,213.0,neighborhood
+2022-01-01,2022,Jan,Columbia,Columbia,total,61.0,neighborhood
+2022-01-01,2022,Jan,Marina,Marina,total,42.0,neighborhood
+2022-01-01,2022,Jan,Cortez,Cortez,total,92.0,neighborhood
+2022-01-01,2022,Jan,Gaslamp,Gaslamp,total,64.0,neighborhood
+2022-01-01,2022,Jan,Outside Perimeter,Outside Perimeter,total,259.0,neighborhood
+2022-02-01,2022,Feb,East Village,East Village,total,741.0,neighborhood
+2022-02-01,2022,Feb,City Center,City Center,total,186.0,neighborhood
+2022-02-01,2022,Feb,Columbia,Columbia,total,71.0,neighborhood
+2022-02-01,2022,Feb,Marina,Marina,total,18.0,neighborhood
+2022-02-01,2022,Feb,Cortez,Cortez,total,118.0,neighborhood
+2022-02-01,2022,Feb,Gaslamp,Gaslamp,total,41.0,neighborhood
+2022-02-01,2022,Feb,Outside Perimeter,Outside Perimeter,total,270.0,neighborhood
+2022-03-01,2022,Mar,East Village,East Village,total,622.0,neighborhood
+2022-03-01,2022,Mar,City Center,City Center,total,214.0,neighborhood
+2022-03-01,2022,Mar,Columbia,Columbia,total,63.0,neighborhood
+2022-03-01,2022,Mar,Marina,Marina,total,37.0,neighborhood
+2022-03-01,2022,Mar,Cortez,Cortez,total,36.0,neighborhood
+2022-03-01,2022,Mar,Gaslamp,Gaslamp,total,70.0,neighborhood
+2022-03-01,2022,Mar,Outside Perimeter,Outside Perimeter,total,342.0,neighborhood
+2022-04-01,2022,Apr,East Village,East Village,total,655.0,neighborhood
+2022-04-01,2022,Apr,City Center,City Center,total,275.0,neighborhood
+2022-04-01,2022,Apr,Columbia,Columbia,total,63.0,neighborhood
+2022-04-01,2022,Apr,Marina,Marina,total,44.0,neighborhood
+2022-04-01,2022,Apr,Cortez,Cortez,total,73.0,neighborhood
+2022-04-01,2022,Apr,Gaslamp,Gaslamp,total,44.0,neighborhood
+2022-04-01,2022,Apr,Outside Perimeter,Outside Perimeter,total,320.0,neighborhood
+2022-05-01,2022,May,East Village,East Village,total,624.0,neighborhood
+2022-05-01,2022,May,City Center,City Center,total,224.0,neighborhood
+2022-05-01,2022,May,Columbia,Columbia,total,47.0,neighborhood
+2022-05-01,2022,May,Marina,Marina,total,10.0,neighborhood
+2022-05-01,2022,May,Cortez,Cortez,total,60.0,neighborhood
+2022-05-01,2022,May,Gaslamp,Gaslamp,total,44.0,neighborhood
+2022-05-01,2022,May,Outside Perimeter,Outside Perimeter,total,315.0,neighborhood
+2022-06-01,2022,Jun,East Village,East Village,total,712.0,neighborhood
+2022-06-01,2022,Jun,City Center,City Center,total,241.0,neighborhood
+2022-06-01,2022,Jun,Columbia,Columbia,total,85.0,neighborhood
+2022-06-01,2022,Jun,Marina,Marina,total,52.0,neighborhood
+2022-06-01,2022,Jun,Cortez,Cortez,total,51.0,neighborhood
+2022-06-01,2022,Jun,Gaslamp,Gaslamp,total,50.0,neighborhood
+2022-06-01,2022,Jun,Outside Perimeter,Outside Perimeter,total,262.0,neighborhood
+2022-07-01,2022,Jul,East Village,East Village,total,598.0,neighborhood
+2022-07-01,2022,Jul,City Center,City Center,total,234.0,neighborhood
+2022-07-01,2022,Jul,Columbia,Columbia,total,35.0,neighborhood
+2022-07-01,2022,Jul,Marina,Marina,total,12.0,neighborhood
+2022-07-01,2022,Jul,Cortez,Cortez,total,90.0,neighborhood
+2022-07-01,2022,Jul,Gaslamp,Gaslamp,total,28.0,neighborhood
+2022-07-01,2022,Jul,Outside Perimeter,Outside Perimeter,total,256.0,neighborhood
+2022-08-01,2022,Aug,East Village,East Village,total,790.0,neighborhood
+2022-08-01,2022,Aug,City Center,City Center,total,268.0,neighborhood
+2022-08-01,2022,Aug,Columbia,Columbia,total,56.0,neighborhood
+2022-08-01,2022,Aug,Marina,Marina,total,44.0,neighborhood
+2022-08-01,2022,Aug,Cortez,Cortez,total,83.0,neighborhood
+2022-08-01,2022,Aug,Gaslamp,Gaslamp,total,44.0,neighborhood
+2022-08-01,2022,Aug,Outside Perimeter,Outside Perimeter,total,324.0,neighborhood
+2022-09-01,2022,Sep,East Village,East Village,total,846.0,neighborhood
+2022-09-01,2022,Sep,City Center,City Center,total,235.0,neighborhood
+2022-09-01,2022,Sep,Columbia,Columbia,total,31.0,neighborhood
+2022-09-01,2022,Sep,Marina,Marina,total,21.0,neighborhood
+2022-09-01,2022,Sep,Cortez,Cortez,total,77.0,neighborhood
+2022-09-01,2022,Sep,Gaslamp,Gaslamp,total,62.0,neighborhood
+2022-09-01,2022,Sep,Outside Perimeter,Outside Perimeter,total,351.0,neighborhood
+2022-10-01,2022,Oct,East Village,East Village,total,713.0,neighborhood
+2022-10-01,2022,Oct,City Center,City Center,total,284.0,neighborhood
+2022-10-01,2022,Oct,Columbia,Columbia,total,29.0,neighborhood
+2022-10-01,2022,Oct,Marina,Marina,total,27.0,neighborhood
+2022-10-01,2022,Oct,Cortez,Cortez,total,90.0,neighborhood
+2022-10-01,2022,Oct,Gaslamp,Gaslamp,total,60.0,neighborhood
+2022-10-01,2022,Oct,Outside Perimeter,Outside Perimeter,total,458.0,neighborhood
+2022-11-01,2022,Nov,East Village,East Village,total,760.0,neighborhood
+2022-11-01,2022,Nov,City Center,City Center,total,235.0,neighborhood
+2022-11-01,2022,Nov,Columbia,Columbia,total,33.0,neighborhood
+2022-11-01,2022,Nov,Marina,Marina,total,44.0,neighborhood
+2022-11-01,2022,Nov,Cortez,Cortez,total,114.0,neighborhood
+2022-11-01,2022,Nov,Gaslamp,Gaslamp,total,54.0,neighborhood
+2022-11-01,2022,Nov,Outside Perimeter,Outside Perimeter,total,466.0,neighborhood
+2022-12-01,2022,Dec,East Village,East Village,total,850.0,neighborhood
+2022-12-01,2022,Dec,City Center,City Center,total,271.0,neighborhood
+2022-12-01,2022,Dec,Columbia,Columbia,total,27.0,neighborhood
+2022-12-01,2022,Dec,Marina,Marina,total,26.0,neighborhood
+2022-12-01,2022,Dec,Cortez,Cortez,total,107.0,neighborhood
+2022-12-01,2022,Dec,Gaslamp,Gaslamp,total,67.0,neighborhood
+2022-12-01,2022,Dec,Outside Perimeter,Outside Perimeter,total,491.0,neighborhood
+2025-01-01,2025,Jan,East Village,East Village,total,435.0,neighborhood
+2025-01-01,2025,Jan,City Center,City Center,total,179.0,neighborhood
+2025-01-01,2025,Jan,Columbia,Columbia,total,37.0,neighborhood
+2025-01-01,2025,Jan,Marina,Marina,total,17.0,neighborhood
+2025-01-01,2025,Jan,Cortez,Cortez,total,50.0,neighborhood
+2025-01-01,2025,Jan,Gaslamp,Gaslamp,total,41.0,neighborhood
+2025-01-01,2025,Jan,Outside Perimeter,Outside Perimeter,total,84.0,neighborhood
+2025-02-01,2025,Feb,East Village,East Village,total,409.0,neighborhood
+2025-02-01,2025,Feb,City Center,City Center,total,176.0,neighborhood
+2025-02-01,2025,Feb,Columbia,Columbia,total,39.0,neighborhood
+2025-02-01,2025,Feb,Marina,Marina,total,17.0,neighborhood
+2025-02-01,2025,Feb,Cortez,Cortez,total,63.0,neighborhood
+2025-02-01,2025,Feb,Gaslamp,Gaslamp,total,27.0,neighborhood
+2025-02-01,2025,Feb,Outside Perimeter,Outside Perimeter,total,253.0,neighborhood
+2025-03-01,2025,Mar,East Village,East Village,total,413.0,neighborhood
+2025-03-01,2025,Mar,City Center,City Center,total,161.0,neighborhood
+2025-03-01,2025,Mar,Columbia,Columbia,total,14.0,neighborhood
+2025-03-01,2025,Mar,Marina,Marina,total,16.0,neighborhood
+2025-03-01,2025,Mar,Cortez,Cortez,total,34.0,neighborhood
+2025-03-01,2025,Mar,Gaslamp,Gaslamp,total,32.0,neighborhood
+2025-03-01,2025,Mar,Outside Perimeter,Outside Perimeter,total,141.0,neighborhood
+2025-04-01,2025,Apr,East Village,East Village,total,401.0,neighborhood
+2025-04-01,2025,Apr,City Center,City Center,total,154.0,neighborhood
+2025-04-01,2025,Apr,Columbia,Columbia,total,29.0,neighborhood
+2025-04-01,2025,Apr,Marina,Marina,total,7.0,neighborhood
+2025-04-01,2025,Apr,Cortez,Cortez,total,77.0,neighborhood
+2025-04-01,2025,Apr,Gaslamp,Gaslamp,total,40.0,neighborhood
+2025-04-01,2025,Apr,Outside Perimeter,Outside Perimeter,total,194.0,neighborhood
+2025-05-01,2025,May,East Village,East Village,total,405.0,neighborhood
+2025-05-01,2025,May,City Center,City Center,total,148.0,neighborhood
+2025-05-01,2025,May,Columbia,Columbia,total,33.0,neighborhood
+2025-05-01,2025,May,Marina,Marina,total,8.0,neighborhood
+2025-05-01,2025,May,Cortez,Cortez,total,74.0,neighborhood
+2025-05-01,2025,May,Gaslamp,Gaslamp,total,23.0,neighborhood
+2025-05-01,2025,May,Outside Perimeter,Outside Perimeter,total,147.0,neighborhood
+2025-06-01,2025,Jun,East Village,East Village,total,408.0,neighborhood
+2025-06-01,2025,Jun,City Center,City Center,total,129.0,neighborhood
+2025-06-01,2025,Jun,Columbia,Columbia,total,21.0,neighborhood
+2025-06-01,2025,Jun,Marina,Marina,total,11.0,neighborhood
+2025-06-01,2025,Jun,Cortez,Cortez,total,44.0,neighborhood
+2025-06-01,2025,Jun,Gaslamp,Gaslamp,total,40.0,neighborhood
+2025-06-01,2025,Jun,Outside Perimeter,Outside Perimeter,total,104.0,neighborhood
+2025-07-01,2025,Jul,East Village,East Village,total,,neighborhood
+2025-07-01,2025,Jul,City Center,City Center,total,,neighborhood
+2025-07-01,2025,Jul,Columbia,Columbia,total,,neighborhood
+2025-07-01,2025,Jul,Marina,Marina,total,,neighborhood
+2025-07-01,2025,Jul,Cortez,Cortez,total,,neighborhood
+2025-07-01,2025,Jul,Gaslamp,Gaslamp,total,,neighborhood
+2025-07-01,2025,Jul,Outside Perimeter,Outside Perimeter,total,,neighborhood
+2025-08-01,2025,Aug,East Village,East Village,total,,neighborhood
+2025-08-01,2025,Aug,City Center,City Center,total,,neighborhood
+2025-08-01,2025,Aug,Columbia,Columbia,total,,neighborhood
+2025-08-01,2025,Aug,Marina,Marina,total,,neighborhood
+2025-08-01,2025,Aug,Cortez,Cortez,total,,neighborhood
+2025-08-01,2025,Aug,Gaslamp,Gaslamp,total,,neighborhood
+2025-08-01,2025,Aug,Outside Perimeter,Outside Perimeter,total,,neighborhood
+2025-09-01,2025,Sep,East Village,East Village,total,445.0,neighborhood
+2025-09-01,2025,Sep,City Center,City Center,total,125.0,neighborhood
+2025-09-01,2025,Sep,Columbia,Columbia,total,31.0,neighborhood
+2025-09-01,2025,Sep,Marina,Marina,total,24.0,neighborhood
+2025-09-01,2025,Sep,Cortez,Cortez,total,45.0,neighborhood
+2025-09-01,2025,Sep,Gaslamp,Gaslamp,total,52.0,neighborhood
+2025-09-01,2025,Sep,Outside Perimeter,Outside Perimeter,total,65.0,neighborhood
+2025-10-01,2025,Oct,East Village,East Village,total,,neighborhood
+2025-10-01,2025,Oct,City Center,City Center,total,,neighborhood
+2025-10-01,2025,Oct,Columbia,Columbia,total,,neighborhood
+2025-10-01,2025,Oct,Marina,Marina,total,,neighborhood
+2025-10-01,2025,Oct,Cortez,Cortez,total,,neighborhood
+2025-10-01,2025,Oct,Gaslamp,Gaslamp,total,,neighborhood
+2025-10-01,2025,Oct,Outside Perimeter,Outside Perimeter,total,,neighborhood
+2025-11-01,2025,Nov,East Village,East Village,total,,neighborhood
+2025-11-01,2025,Nov,City Center,City Center,total,,neighborhood
+2025-11-01,2025,Nov,Columbia,Columbia,total,,neighborhood
+2025-11-01,2025,Nov,Marina,Marina,total,,neighborhood
+2025-11-01,2025,Nov,Cortez,Cortez,total,,neighborhood
+2025-11-01,2025,Nov,Gaslamp,Gaslamp,total,,neighborhood
+2025-11-01,2025,Nov,Outside Perimeter,Outside Perimeter,total,,neighborhood
+2025-12-01,2025,Dec,East Village,East Village,total,555.0,neighborhood
+2025-12-01,2025,Dec,City Center,City Center,total,195.0,neighborhood
+2025-12-01,2025,Dec,Columbia,Columbia,total,32.0,neighborhood
+2025-12-01,2025,Dec,Marina,Marina,total,11.0,neighborhood
+2025-12-01,2025,Dec,Cortez,Cortez,total,83.0,neighborhood
+2025-12-01,2025,Dec,Gaslamp,Gaslamp,total,42.0,neighborhood
+2025-12-01,2025,Dec,Outside Perimeter,Outside Perimeter,total,68.0,neighborhood
+2024-01-01,2024,Jan,East Village,East Village,total,530.0,neighborhood
+2024-01-01,2024,Jan,City Center,City Center,total,198.0,neighborhood
+2024-01-01,2024,Jan,Columbia,Columbia,total,34.0,neighborhood
+2024-01-01,2024,Jan,Marina,Marina,total,19.0,neighborhood
+2024-01-01,2024,Jan,Cortez,Cortez,total,154.0,neighborhood
+2024-01-01,2024,Jan,Gaslamp,Gaslamp,total,47.0,neighborhood
+2024-01-01,2024,Jan,Outside Perimeter,Outside Perimeter,total,37.0,neighborhood
+2024-02-01,2024,Feb,East Village,East Village,total,553.0,neighborhood
+2024-02-01,2024,Feb,City Center,City Center,total,172.0,neighborhood
+2024-02-01,2024,Feb,Columbia,Columbia,total,40.0,neighborhood
+2024-02-01,2024,Feb,Marina,Marina,total,17.0,neighborhood
+2024-02-01,2024,Feb,Cortez,Cortez,total,170.0,neighborhood
+2024-02-01,2024,Feb,Gaslamp,Gaslamp,total,55.0,neighborhood
+2024-02-01,2024,Feb,Outside Perimeter,Outside Perimeter,total,56.0,neighborhood
+2024-03-01,2024,Mar,East Village,East Village,total,380.0,neighborhood
+2024-03-01,2024,Mar,City Center,City Center,total,221.0,neighborhood
+2024-03-01,2024,Mar,Columbia,Columbia,total,41.0,neighborhood
+2024-03-01,2024,Mar,Marina,Marina,total,21.0,neighborhood
+2024-03-01,2024,Mar,Cortez,Cortez,total,76.0,neighborhood
+2024-03-01,2024,Mar,Gaslamp,Gaslamp,total,36.0,neighborhood
+2024-03-01,2024,Mar,Outside Perimeter,Outside Perimeter,total,34.0,neighborhood
+2024-04-01,2024,Apr,East Village,East Village,total,366.0,neighborhood
+2024-04-01,2024,Apr,City Center,City Center,total,237.0,neighborhood
+2024-04-01,2024,Apr,Columbia,Columbia,total,34.0,neighborhood
+2024-04-01,2024,Apr,Marina,Marina,total,13.0,neighborhood
+2024-04-01,2024,Apr,Cortez,Cortez,total,75.0,neighborhood
+2024-04-01,2024,Apr,Gaslamp,Gaslamp,total,52.0,neighborhood
+2024-04-01,2024,Apr,Outside Perimeter,Outside Perimeter,total,63.0,neighborhood
+2024-05-01,2024,May,East Village,East Village,total,407.0,neighborhood
+2024-05-01,2024,May,City Center,City Center,total,219.0,neighborhood
+2024-05-01,2024,May,Columbia,Columbia,total,36.0,neighborhood
+2024-05-01,2024,May,Marina,Marina,total,16.0,neighborhood
+2024-05-01,2024,May,Cortez,Cortez,total,51.0,neighborhood
+2024-05-01,2024,May,Gaslamp,Gaslamp,total,77.0,neighborhood
+2024-05-01,2024,May,Outside Perimeter,Outside Perimeter,total,20.0,neighborhood
+2024-06-01,2024,Jun,East Village,East Village,total,451.0,neighborhood
+2024-06-01,2024,Jun,City Center,City Center,total,199.0,neighborhood
+2024-06-01,2024,Jun,Columbia,Columbia,total,40.0,neighborhood
+2024-06-01,2024,Jun,Marina,Marina,total,25.0,neighborhood
+2024-06-01,2024,Jun,Cortez,Cortez,total,59.0,neighborhood
+2024-06-01,2024,Jun,Gaslamp,Gaslamp,total,56.0,neighborhood
+2024-06-01,2024,Jun,Outside Perimeter,Outside Perimeter,total,16.0,neighborhood
+2024-07-01,2024,Jul,East Village,East Village,total,458.0,neighborhood
+2024-07-01,2024,Jul,City Center,City Center,total,208.0,neighborhood
+2024-07-01,2024,Jul,Columbia,Columbia,total,33.0,neighborhood
+2024-07-01,2024,Jul,Marina,Marina,total,11.0,neighborhood
+2024-07-01,2024,Jul,Cortez,Cortez,total,69.0,neighborhood
+2024-07-01,2024,Jul,Gaslamp,Gaslamp,total,54.0,neighborhood
+2024-07-01,2024,Jul,Outside Perimeter,Outside Perimeter,total,48.0,neighborhood
+2024-08-01,2024,Aug,East Village,East Village,total,449.0,neighborhood
+2024-08-01,2024,Aug,City Center,City Center,total,209.0,neighborhood
+2024-08-01,2024,Aug,Columbia,Columbia,total,35.0,neighborhood
+2024-08-01,2024,Aug,Marina,Marina,total,26.0,neighborhood
+2024-08-01,2024,Aug,Cortez,Cortez,total,49.0,neighborhood
+2024-08-01,2024,Aug,Gaslamp,Gaslamp,total,37.0,neighborhood
+2024-08-01,2024,Aug,Outside Perimeter,Outside Perimeter,total,51.0,neighborhood
+2024-09-01,2024,Sep,East Village,East Village,total,445.0,neighborhood
+2024-09-01,2024,Sep,City Center,City Center,total,134.0,neighborhood
+2024-09-01,2024,Sep,Columbia,Columbia,total,24.0,neighborhood
+2024-09-01,2024,Sep,Marina,Marina,total,24.0,neighborhood
+2024-09-01,2024,Sep,Cortez,Cortez,total,68.0,neighborhood
+2024-09-01,2024,Sep,Gaslamp,Gaslamp,total,46.0,neighborhood
+2024-09-01,2024,Sep,Outside Perimeter,Outside Perimeter,total,59.0,neighborhood
+2024-10-01,2024,Oct,East Village,East Village,total,396.0,neighborhood
+2024-10-01,2024,Oct,City Center,City Center,total,227.0,neighborhood
+2024-10-01,2024,Oct,Columbia,Columbia,total,34.0,neighborhood
+2024-10-01,2024,Oct,Marina,Marina,total,11.0,neighborhood
+2024-10-01,2024,Oct,Cortez,Cortez,total,69.0,neighborhood
+2024-10-01,2024,Oct,Gaslamp,Gaslamp,total,35.0,neighborhood
+2024-10-01,2024,Oct,Outside Perimeter,Outside Perimeter,total,96.0,neighborhood
+2024-11-01,2024,Nov,East Village,East Village,total,390.0,neighborhood
+2024-11-01,2024,Nov,City Center,City Center,total,151.0,neighborhood
+2024-11-01,2024,Nov,Columbia,Columbia,total,45.0,neighborhood
+2024-11-01,2024,Nov,Marina,Marina,total,26.0,neighborhood
+2024-11-01,2024,Nov,Cortez,Cortez,total,69.0,neighborhood
+2024-11-01,2024,Nov,Gaslamp,Gaslamp,total,40.0,neighborhood
+2024-11-01,2024,Nov,Outside Perimeter,Outside Perimeter,total,123.0,neighborhood
+2024-12-01,2024,Dec,East Village,East Village,total,492.0,neighborhood
+2024-12-01,2024,Dec,City Center,City Center,total,156.0,neighborhood
+2024-12-01,2024,Dec,Columbia,Columbia,total,40.0,neighborhood
+2024-12-01,2024,Dec,Marina,Marina,total,14.0,neighborhood
+2024-12-01,2024,Dec,Cortez,Cortez,total,74.0,neighborhood
+2024-12-01,2024,Dec,Gaslamp,Gaslamp,total,42.0,neighborhood
+2024-12-01,2024,Dec,Outside Perimeter,Outside Perimeter,total,177.0,neighborhood
+2023-01-01,2023,Jan,East Village,East Village,total,794.0,neighborhood
+2023-01-01,2023,Jan,City Center,City Center,total,270.0,neighborhood
+2023-01-01,2023,Jan,Columbia,Columbia,total,36.0,neighborhood
+2023-01-01,2023,Jan,Marina,Marina,total,23.0,neighborhood
+2023-01-01,2023,Jan,Cortez,Cortez,total,129.0,neighborhood
+2023-01-01,2023,Jan,Gaslamp,Gaslamp,total,46.0,neighborhood
+2023-01-01,2023,Jan,Outside Perimeter,Outside Perimeter,total,640.0,neighborhood
+2023-02-01,2023,Feb,East Village,East Village,total,781.0,neighborhood
+2023-02-01,2023,Feb,City Center,City Center,total,266.0,neighborhood
+2023-02-01,2023,Feb,Columbia,Columbia,total,48.0,neighborhood
+2023-02-01,2023,Feb,Marina,Marina,total,25.0,neighborhood
+2023-02-01,2023,Feb,Cortez,Cortez,total,98.0,neighborhood
+2023-02-01,2023,Feb,Gaslamp,Gaslamp,total,72.0,neighborhood
+2023-02-01,2023,Feb,Outside Perimeter,Outside Perimeter,total,520.0,neighborhood
+2023-03-01,2023,Mar,East Village,East Village,total,665.0,neighborhood
+2023-03-01,2023,Mar,City Center,City Center,total,342.0,neighborhood
+2023-03-01,2023,Mar,Columbia,Columbia,total,45.0,neighborhood
+2023-03-01,2023,Mar,Marina,Marina,total,21.0,neighborhood
+2023-03-01,2023,Mar,Cortez,Cortez,total,100.0,neighborhood
+2023-03-01,2023,Mar,Gaslamp,Gaslamp,total,64.0,neighborhood
+2023-03-01,2023,Mar,Outside Perimeter,Outside Perimeter,total,482.0,neighborhood
+2023-04-01,2023,Apr,East Village,East Village,total,823.0,neighborhood
+2023-04-01,2023,Apr,City Center,City Center,total,290.0,neighborhood
+2023-04-01,2023,Apr,Columbia,Columbia,total,46.0,neighborhood
+2023-04-01,2023,Apr,Marina,Marina,total,33.0,neighborhood
+2023-04-01,2023,Apr,Cortez,Cortez,total,113.0,neighborhood
+2023-04-01,2023,Apr,Gaslamp,Gaslamp,total,46.0,neighborhood
+2023-04-01,2023,Apr,Outside Perimeter,Outside Perimeter,total,607.0,neighborhood
+2023-05-01,2023,May,East Village,East Village,total,918.0,neighborhood
+2023-05-01,2023,May,City Center,City Center,total,342.0,neighborhood
+2023-05-01,2023,May,Columbia,Columbia,total,38.0,neighborhood
+2023-05-01,2023,May,Marina,Marina,total,51.0,neighborhood
+2023-05-01,2023,May,Cortez,Cortez,total,121.0,neighborhood
+2023-05-01,2023,May,Gaslamp,Gaslamp,total,57.0,neighborhood
+2023-05-01,2023,May,Outside Perimeter,Outside Perimeter,total,577.0,neighborhood
+2023-06-01,2023,Jun,East Village,East Village,total,728.0,neighborhood
+2023-06-01,2023,Jun,City Center,City Center,total,236.0,neighborhood
+2023-06-01,2023,Jun,Columbia,Columbia,total,34.0,neighborhood
+2023-06-01,2023,Jun,Marina,Marina,total,17.0,neighborhood
+2023-06-01,2023,Jun,Cortez,Cortez,total,109.0,neighborhood
+2023-06-01,2023,Jun,Gaslamp,Gaslamp,total,19.0,neighborhood
+2023-06-01,2023,Jun,Outside Perimeter,Outside Perimeter,total,581.0,neighborhood
+2023-07-01,2023,Jul,East Village,East Village,total,921.0,neighborhood
+2023-07-01,2023,Jul,City Center,City Center,total,187.0,neighborhood
+2023-07-01,2023,Jul,Columbia,Columbia,total,21.0,neighborhood
+2023-07-01,2023,Jul,Marina,Marina,total,12.0,neighborhood
+2023-07-01,2023,Jul,Cortez,Cortez,total,104.0,neighborhood
+2023-07-01,2023,Jul,Gaslamp,Gaslamp,total,25.0,neighborhood
+2023-07-01,2023,Jul,Outside Perimeter,Outside Perimeter,total,286.0,neighborhood
+2023-08-01,2023,Aug,East Village,East Village,total,861.0,neighborhood
+2023-08-01,2023,Aug,City Center,City Center,total,203.0,neighborhood
+2023-08-01,2023,Aug,Columbia,Columbia,total,14.0,neighborhood
+2023-08-01,2023,Aug,Marina,Marina,total,20.0,neighborhood
+2023-08-01,2023,Aug,Cortez,Cortez,total,65.0,neighborhood
+2023-08-01,2023,Aug,Gaslamp,Gaslamp,total,44.0,neighborhood
+2023-08-01,2023,Aug,Outside Perimeter,Outside Perimeter,total,79.0,neighborhood
+2023-09-01,2023,Sep,East Village,East Village,total,907.0,neighborhood
+2023-09-01,2023,Sep,City Center,City Center,total,173.0,neighborhood
+2023-09-01,2023,Sep,Columbia,Columbia,total,30.0,neighborhood
+2023-09-01,2023,Sep,Marina,Marina,total,13.0,neighborhood
+2023-09-01,2023,Sep,Cortez,Cortez,total,103.0,neighborhood
+2023-09-01,2023,Sep,Gaslamp,Gaslamp,total,51.0,neighborhood
+2023-09-01,2023,Sep,Outside Perimeter,Outside Perimeter,total,93.0,neighborhood
+2023-10-01,2023,Oct,East Village,East Village,total,869.0,neighborhood
+2023-10-01,2023,Oct,City Center,City Center,total,204.0,neighborhood
+2023-10-01,2023,Oct,Columbia,Columbia,total,28.0,neighborhood
+2023-10-01,2023,Oct,Marina,Marina,total,22.0,neighborhood
+2023-10-01,2023,Oct,Cortez,Cortez,total,63.0,neighborhood
+2023-10-01,2023,Oct,Gaslamp,Gaslamp,total,52.0,neighborhood
+2023-10-01,2023,Oct,Outside Perimeter,Outside Perimeter,total,56.0,neighborhood
+2023-11-01,2023,Nov,East Village,East Village,total,679.0,neighborhood
+2023-11-01,2023,Nov,City Center,City Center,total,235.0,neighborhood
+2023-11-01,2023,Nov,Columbia,Columbia,total,37.0,neighborhood
+2023-11-01,2023,Nov,Marina,Marina,total,13.0,neighborhood
+2023-11-01,2023,Nov,Cortez,Cortez,total,95.0,neighborhood
+2023-11-01,2023,Nov,Gaslamp,Gaslamp,total,36.0,neighborhood
+2023-11-01,2023,Nov,Outside Perimeter,Outside Perimeter,total,77.0,neighborhood
+2023-12-01,2023,Dec,East Village,East Village,total,498.0,neighborhood
+2023-12-01,2023,Dec,City Center,City Center,total,129.0,neighborhood
+2023-12-01,2023,Dec,Columbia,Columbia,total,29.0,neighborhood
+2023-12-01,2023,Dec,Marina,Marina,total,17.0,neighborhood
+2023-12-01,2023,Dec,Cortez,Cortez,total,105.0,neighborhood
+2023-12-01,2023,Dec,Gaslamp,Gaslamp,total,31.0,neighborhood
+2023-12-01,2023,Dec,Outside Perimeter,Outside Perimeter,total,37.0,neighborhood
+2021-01-01,2021,Jan,North East EV,North East EV,total,44.0,sub-area
+2021-01-01,2021,Jan,North West EV,North West EV,total,90.0,sub-area
+2021-01-01,2021,Jan,South East EV,South East EV,total,253.0,sub-area
+2021-01-01,2021,Jan,South West EV,South West EV,total,22.0,sub-area
+2021-02-01,2021,Feb,North East EV,North East EV,total,54.0,sub-area
+2021-02-01,2021,Feb,North West EV,North West EV,total,56.0,sub-area
+2021-02-01,2021,Feb,South East EV,South East EV,total,247.0,sub-area
+2021-02-01,2021,Feb,South West EV,South West EV,total,24.0,sub-area
+2021-03-01,2021,Mar,North East EV,North East EV,total,25.0,sub-area
+2021-03-01,2021,Mar,North West EV,North West EV,total,61.0,sub-area
+2021-03-01,2021,Mar,South East EV,South East EV,total,303.0,sub-area
+2021-03-01,2021,Mar,South West EV,South West EV,total,51.0,sub-area
+2021-04-01,2021,Apr,North East EV,North East EV,total,31.0,sub-area
+2021-04-01,2021,Apr,North West EV,North West EV,total,57.0,sub-area
+2021-04-01,2021,Apr,South East EV,South East EV,total,290.0,sub-area
+2021-04-01,2021,Apr,South West EV,South West EV,total,24.0,sub-area
+2021-05-01,2021,May,North East EV,North East EV,total,50.0,sub-area
+2021-05-01,2021,May,North West EV,North West EV,total,86.0,sub-area
+2021-05-01,2021,May,South East EV,South East EV,total,364.0,sub-area
+2021-05-01,2021,May,South West EV,South West EV,total,13.0,sub-area
+2021-06-01,2021,Jun,North East EV,North East EV,total,53.0,sub-area
+2021-06-01,2021,Jun,North West EV,North West EV,total,85.0,sub-area
+2021-06-01,2021,Jun,South East EV,South East EV,total,331.0,sub-area
+2021-06-01,2021,Jun,South West EV,South West EV,total,30.0,sub-area
+2021-07-01,2021,Jul,North East EV,North East EV,total,47.0,sub-area
+2021-07-01,2021,Jul,North West EV,North West EV,total,79.0,sub-area
+2021-07-01,2021,Jul,South East EV,South East EV,total,305.0,sub-area
+2021-07-01,2021,Jul,South West EV,South West EV,total,33.0,sub-area
+2021-08-01,2021,Aug,North East EV,North East EV,total,31.0,sub-area
+2021-08-01,2021,Aug,North West EV,North West EV,total,88.0,sub-area
+2021-08-01,2021,Aug,South East EV,South East EV,total,320.0,sub-area
+2021-08-01,2021,Aug,South West EV,South West EV,total,31.0,sub-area
+2021-09-01,2021,Sep,North East EV,North East EV,total,43.0,sub-area
+2021-09-01,2021,Sep,North West EV,North West EV,total,74.0,sub-area
+2021-09-01,2021,Sep,South East EV,South East EV,total,275.0,sub-area
+2021-09-01,2021,Sep,South West EV,South West EV,total,45.0,sub-area
+2021-10-01,2021,Oct,North East EV,North East EV,total,80.0,sub-area
+2021-10-01,2021,Oct,North West EV,North West EV,total,72.0,sub-area
+2021-10-01,2021,Oct,South East EV,South East EV,total,346.0,sub-area
+2021-10-01,2021,Oct,South West EV,South West EV,total,43.0,sub-area
+2021-11-01,2021,Nov,North East EV,North East EV,total,63.0,sub-area
+2021-11-01,2021,Nov,North West EV,North West EV,total,83.0,sub-area
+2021-11-01,2021,Nov,South East EV,South East EV,total,353.0,sub-area
+2021-11-01,2021,Nov,South West EV,South West EV,total,42.0,sub-area
+2021-12-01,2021,Dec,North East EV,North East EV,total,49.0,sub-area
+2021-12-01,2021,Dec,North West EV,North West EV,total,85.0,sub-area
+2021-12-01,2021,Dec,South East EV,South East EV,total,402.0,sub-area
+2021-12-01,2021,Dec,South West EV,South West EV,total,76.0,sub-area
+2020-01-01,2020,Jan,North East EV,North East EV,total,65.0,sub-area
+2020-01-01,2020,Jan,North West EV,North West EV,total,88.0,sub-area
+2020-01-01,2020,Jan,South East EV,South East EV,total,282.0,sub-area
+2020-01-01,2020,Jan,South West EV,South West EV,total,32.0,sub-area
+2020-02-01,2020,Feb,North East EV,North East EV,total,47.0,sub-area
+2020-02-01,2020,Feb,North West EV,North West EV,total,92.0,sub-area
+2020-02-01,2020,Feb,South East EV,South East EV,total,250.0,sub-area
+2020-02-01,2020,Feb,South West EV,South West EV,total,20.0,sub-area
+2020-03-01,2020,Mar,North East EV,North East EV,total,32.0,sub-area
+2020-03-01,2020,Mar,North West EV,North West EV,total,34.0,sub-area
+2020-03-01,2020,Mar,South East EV,South East EV,total,86.0,sub-area
+2020-03-01,2020,Mar,South West EV,South West EV,total,109.0,sub-area
+2020-04-01,2020,Apr,North East EV,North East EV,total,43.0,sub-area
+2020-04-01,2020,Apr,North West EV,North West EV,total,57.0,sub-area
+2020-04-01,2020,Apr,South East EV,South East EV,total,215.0,sub-area
+2020-04-01,2020,Apr,South West EV,South West EV,total,15.0,sub-area
+2020-05-01,2020,May,North East EV,North East EV,total,46.0,sub-area
+2020-05-01,2020,May,North West EV,North West EV,total,59.0,sub-area
+2020-05-01,2020,May,South East EV,South East EV,total,212.0,sub-area
+2020-05-01,2020,May,South West EV,South West EV,total,16.0,sub-area
+2020-06-01,2020,Jun,North East EV,North East EV,total,71.0,sub-area
+2020-06-01,2020,Jun,North West EV,North West EV,total,69.0,sub-area
+2020-06-01,2020,Jun,South East EV,South East EV,total,252.0,sub-area
+2020-06-01,2020,Jun,South West EV,South West EV,total,26.0,sub-area
+2020-07-01,2020,Jul,North East EV,North East EV,total,79.0,sub-area
+2020-07-01,2020,Jul,North West EV,North West EV,total,71.0,sub-area
+2020-07-01,2020,Jul,South East EV,South East EV,total,226.0,sub-area
+2020-07-01,2020,Jul,South West EV,South West EV,total,22.0,sub-area
+2020-08-01,2020,Aug,North East EV,North East EV,total,60.0,sub-area
+2020-08-01,2020,Aug,North West EV,North West EV,total,49.0,sub-area
+2020-08-01,2020,Aug,South East EV,South East EV,total,196.0,sub-area
+2020-08-01,2020,Aug,South West EV,South West EV,total,21.0,sub-area
+2020-09-01,2020,Sep,North East EV,North East EV,total,68.0,sub-area
+2020-09-01,2020,Sep,North West EV,North West EV,total,57.0,sub-area
+2020-09-01,2020,Sep,South East EV,South East EV,total,300.0,sub-area
+2020-09-01,2020,Sep,South West EV,South West EV,total,22.0,sub-area
+2020-10-01,2020,Oct,North East EV,North East EV,total,44.0,sub-area
+2020-10-01,2020,Oct,North West EV,North West EV,total,69.0,sub-area
+2020-10-01,2020,Oct,South East EV,South East EV,total,270.0,sub-area
+2020-10-01,2020,Oct,South West EV,South West EV,total,18.0,sub-area
+2020-11-01,2020,Nov,North East EV,North East EV,total,45.0,sub-area
+2020-11-01,2020,Nov,North West EV,North West EV,total,64.0,sub-area
+2020-11-01,2020,Nov,South East EV,South East EV,total,291.0,sub-area
+2020-11-01,2020,Nov,South West EV,South West EV,total,25.0,sub-area
+2020-12-01,2020,Dec,North East EV,North East EV,total,47.0,sub-area
+2020-12-01,2020,Dec,North West EV,North West EV,total,44.0,sub-area
+2020-12-01,2020,Dec,South East EV,South East EV,total,196.0,sub-area
+2020-12-01,2020,Dec,South West EV,South West EV,total,47.0,sub-area
+2019-01-01,2019,Jan,North East EV,North East EV,total,65.0,sub-area
+2019-01-01,2019,Jan,North West EV,North West EV,total,88.0,sub-area
+2019-01-01,2019,Jan,South East EV,South East EV,total,282.0,sub-area
+2019-01-01,2019,Jan,South West EV,South West EV,total,32.0,sub-area
+2019-02-01,2019,Feb,North East EV,North East EV,total,47.0,sub-area
+2019-02-01,2019,Feb,North West EV,North West EV,total,92.0,sub-area
+2019-02-01,2019,Feb,South East EV,South East EV,total,250.0,sub-area
+2019-02-01,2019,Feb,South West EV,South West EV,total,20.0,sub-area
+2019-03-01,2019,Mar,North East EV,North East EV,total,32.0,sub-area
+2019-03-01,2019,Mar,North West EV,North West EV,total,34.0,sub-area
+2019-03-01,2019,Mar,South East EV,South East EV,total,86.0,sub-area
+2019-03-01,2019,Mar,South West EV,South West EV,total,109.0,sub-area
+2019-04-01,2019,Apr,North East EV,North East EV,total,43.0,sub-area
+2019-04-01,2019,Apr,North West EV,North West EV,total,57.0,sub-area
+2019-04-01,2019,Apr,South East EV,South East EV,total,215.0,sub-area
+2019-04-01,2019,Apr,South West EV,South West EV,total,15.0,sub-area
+2019-05-01,2019,May,North East EV,North East EV,total,46.0,sub-area
+2019-05-01,2019,May,North West EV,North West EV,total,59.0,sub-area
+2019-05-01,2019,May,South East EV,South East EV,total,212.0,sub-area
+2019-05-01,2019,May,South West EV,South West EV,total,16.0,sub-area
+2019-06-01,2019,Jun,North East EV,North East EV,total,71.0,sub-area
+2019-06-01,2019,Jun,North West EV,North West EV,total,69.0,sub-area
+2019-06-01,2019,Jun,South East EV,South East EV,total,252.0,sub-area
+2019-06-01,2019,Jun,South West EV,South West EV,total,26.0,sub-area
+2019-07-01,2019,Jul,North East EV,North East EV,total,79.0,sub-area
+2019-07-01,2019,Jul,North West EV,North West EV,total,71.0,sub-area
+2019-07-01,2019,Jul,South East EV,South East EV,total,226.0,sub-area
+2019-07-01,2019,Jul,South West EV,South West EV,total,22.0,sub-area
+2019-08-01,2019,Aug,North East EV,North East EV,total,60.0,sub-area
+2019-08-01,2019,Aug,North West EV,North West EV,total,49.0,sub-area
+2019-08-01,2019,Aug,South East EV,South East EV,total,196.0,sub-area
+2019-08-01,2019,Aug,South West EV,South West EV,total,21.0,sub-area
+2019-09-01,2019,Sep,North East EV,North East EV,total,68.0,sub-area
+2019-09-01,2019,Sep,North West EV,North West EV,total,57.0,sub-area
+2019-09-01,2019,Sep,South East EV,South East EV,total,300.0,sub-area
+2019-09-01,2019,Sep,South West EV,South West EV,total,22.0,sub-area
+2019-10-01,2019,Oct,North East EV,North East EV,total,44.0,sub-area
+2019-10-01,2019,Oct,North West EV,North West EV,total,69.0,sub-area
+2019-10-01,2019,Oct,South East EV,South East EV,total,270.0,sub-area
+2019-10-01,2019,Oct,South West EV,South West EV,total,18.0,sub-area
+2019-11-01,2019,Nov,North East EV,North East EV,total,45.0,sub-area
+2019-11-01,2019,Nov,North West EV,North West EV,total,64.0,sub-area
+2019-11-01,2019,Nov,South East EV,South East EV,total,291.0,sub-area
+2019-11-01,2019,Nov,South West EV,South West EV,total,25.0,sub-area
+2019-12-01,2019,Dec,North East EV,North East EV,total,47.0,sub-area
+2019-12-01,2019,Dec,North West EV,North West EV,total,44.0,sub-area
+2019-12-01,2019,Dec,South East EV,South East EV,total,196.0,sub-area
+2019-12-01,2019,Dec,South West EV,South West EV,total,47.0,sub-area
+2018-01-01,2018,Jan,North East EV,North East EV,total,58.0,sub-area
+2018-01-01,2018,Jan,North West EV,North West EV,total,67.0,sub-area
+2018-01-01,2018,Jan,South East EV,South East EV,total,334.0,sub-area
+2018-01-01,2018,Jan,South West EV,South West EV,total,36.0,sub-area
+2018-02-01,2018,Feb,North East EV,North East EV,total,68.0,sub-area
+2018-02-01,2018,Feb,North West EV,North West EV,total,45.0,sub-area
+2018-02-01,2018,Feb,South East EV,South East EV,total,361.0,sub-area
+2018-02-01,2018,Feb,South West EV,South West EV,total,30.0,sub-area
+2018-03-01,2018,Mar,North East EV,North East EV,total,86.0,sub-area
+2018-03-01,2018,Mar,North West EV,North West EV,total,89.0,sub-area
+2018-03-01,2018,Mar,South East EV,South East EV,total,361.0,sub-area
+2018-03-01,2018,Mar,South West EV,South West EV,total,58.0,sub-area
+2018-04-01,2018,Apr,North East EV,North East EV,total,75.0,sub-area
+2018-04-01,2018,Apr,North West EV,North West EV,total,92.0,sub-area
+2018-04-01,2018,Apr,South East EV,South East EV,total,294.0,sub-area
+2018-04-01,2018,Apr,South West EV,South West EV,total,41.0,sub-area
+2018-05-01,2018,May,North East EV,North East EV,total,75.0,sub-area
+2018-05-01,2018,May,North West EV,North West EV,total,84.0,sub-area
+2018-05-01,2018,May,South East EV,South East EV,total,320.0,sub-area
+2018-05-01,2018,May,South West EV,South West EV,total,44.0,sub-area
+2018-06-01,2018,Jun,North East EV,North East EV,total,73.0,sub-area
+2018-06-01,2018,Jun,North West EV,North West EV,total,88.0,sub-area
+2018-06-01,2018,Jun,South East EV,South East EV,total,265.0,sub-area
+2018-06-01,2018,Jun,South West EV,South West EV,total,33.0,sub-area
+2018-07-01,2018,Jul,North East EV,North East EV,total,102.0,sub-area
+2018-07-01,2018,Jul,North West EV,North West EV,total,100.0,sub-area
+2018-07-01,2018,Jul,South East EV,South East EV,total,385.0,sub-area
+2018-07-01,2018,Jul,South West EV,South West EV,total,34.0,sub-area
+2018-08-01,2018,Aug,North East EV,North East EV,total,78.0,sub-area
+2018-08-01,2018,Aug,North West EV,North West EV,total,101.0,sub-area
+2018-08-01,2018,Aug,South East EV,South East EV,total,360.0,sub-area
+2018-08-01,2018,Aug,South West EV,South West EV,total,43.0,sub-area
+2018-09-01,2018,Sep,North East EV,North East EV,total,90.0,sub-area
+2018-09-01,2018,Sep,North West EV,North West EV,total,86.0,sub-area
+2018-09-01,2018,Sep,South East EV,South East EV,total,299.0,sub-area
+2018-09-01,2018,Sep,South West EV,South West EV,total,26.0,sub-area
+2018-10-01,2018,Oct,North East EV,North East EV,total,60.0,sub-area
+2018-10-01,2018,Oct,North West EV,North West EV,total,102.0,sub-area
+2018-10-01,2018,Oct,South East EV,South East EV,total,307.0,sub-area
+2018-10-01,2018,Oct,South West EV,South West EV,total,35.0,sub-area
+2018-11-01,2018,Nov,North East EV,North East EV,total,55.0,sub-area
+2018-11-01,2018,Nov,North West EV,North West EV,total,73.0,sub-area
+2018-11-01,2018,Nov,South East EV,South East EV,total,219.0,sub-area
+2018-11-01,2018,Nov,South West EV,South West EV,total,127.0,sub-area
+2018-12-01,2018,Dec,North East EV,North East EV,total,78.0,sub-area
+2018-12-01,2018,Dec,North West EV,North West EV,total,82.0,sub-area
+2018-12-01,2018,Dec,South East EV,South East EV,total,288.0,sub-area
+2018-12-01,2018,Dec,South West EV,South West EV,total,34.0,sub-area
+2022-01-01,2022,Jan,North East EV,North East EV,total,50.0,sub-area
+2022-01-01,2022,Jan,North West EV,North West EV,total,105.0,sub-area
+2022-01-01,2022,Jan,South East EV,South East EV,total,449.0,sub-area
+2022-01-01,2022,Jan,South West EV,South West EV,total,74.0,sub-area
+2022-02-01,2022,Feb,North East EV,North East EV,total,54.0,sub-area
+2022-02-01,2022,Feb,North West EV,North West EV,total,95.0,sub-area
+2022-02-01,2022,Feb,South East EV,South East EV,total,505.0,sub-area
+2022-02-01,2022,Feb,South West EV,South West EV,total,87.0,sub-area
+2022-03-01,2022,Mar,North East EV,North East EV,total,56.0,sub-area
+2022-03-01,2022,Mar,North West EV,North West EV,total,109.0,sub-area
+2022-03-01,2022,Mar,South East EV,South East EV,total,401.0,sub-area
+2022-03-01,2022,Mar,South West EV,South West EV,total,56.0,sub-area
+2022-04-01,2022,Apr,North East EV,North East EV,total,57.0,sub-area
+2022-04-01,2022,Apr,North West EV,North West EV,total,118.0,sub-area
+2022-04-01,2022,Apr,South East EV,South East EV,total,409.0,sub-area
+2022-04-01,2022,Apr,South West EV,South West EV,total,71.0,sub-area
+2022-05-01,2022,May,North East EV,North East EV,total,25.0,sub-area
+2022-05-01,2022,May,North West EV,North West EV,total,107.0,sub-area
+2022-05-01,2022,May,South East EV,South East EV,total,430.0,sub-area
+2022-05-01,2022,May,South West EV,South West EV,total,62.0,sub-area
+2022-06-01,2022,Jun,North East EV,North East EV,total,119.0,sub-area
+2022-06-01,2022,Jun,North West EV,North West EV,total,134.0,sub-area
+2022-06-01,2022,Jun,South East EV,South East EV,total,369.0,sub-area
+2022-06-01,2022,Jun,South West EV,South West EV,total,90.0,sub-area
+2022-07-01,2022,Jul,North East EV,North East EV,total,72.0,sub-area
+2022-07-01,2022,Jul,North West EV,North West EV,total,78.0,sub-area
+2022-07-01,2022,Jul,South East EV,South East EV,total,402.0,sub-area
+2022-07-01,2022,Jul,South West EV,South West EV,total,46.0,sub-area
+2022-08-01,2022,Aug,North East EV,North East EV,total,68.0,sub-area
+2022-08-01,2022,Aug,North West EV,North West EV,total,128.0,sub-area
+2022-08-01,2022,Aug,South East EV,South East EV,total,492.0,sub-area
+2022-08-01,2022,Aug,South West EV,South West EV,total,102.0,sub-area
+2022-09-01,2022,Sep,North East EV,North East EV,total,74.0,sub-area
+2022-09-01,2022,Sep,North West EV,North West EV,total,163.0,sub-area
+2022-09-01,2022,Sep,South East EV,South East EV,total,531.0,sub-area
+2022-09-01,2022,Sep,South West EV,South West EV,total,78.0,sub-area
+2022-10-01,2022,Oct,North East EV,North East EV,total,104.0,sub-area
+2022-10-01,2022,Oct,North West EV,North West EV,total,166.0,sub-area
+2022-10-01,2022,Oct,South East EV,South East EV,total,341.0,sub-area
+2022-10-01,2022,Oct,South West EV,South West EV,total,102.0,sub-area
+2022-11-01,2022,Nov,North East EV,North East EV,total,125.0,sub-area
+2022-11-01,2022,Nov,North West EV,North West EV,total,117.0,sub-area
+2022-11-01,2022,Nov,South East EV,South East EV,total,81.0,sub-area
+2022-11-01,2022,Nov,South West EV,South West EV,total,437.0,sub-area
+2022-12-01,2022,Dec,North East EV,North East EV,total,100.0,sub-area
+2022-12-01,2022,Dec,North West EV,North West EV,total,125.0,sub-area
+2022-12-01,2022,Dec,South East EV,South East EV,total,527.0,sub-area
+2022-12-01,2022,Dec,South West EV,South West EV,total,98.0,sub-area
+2025-01-01,2025,Jan,North East EV,North East EV,total,84.0,sub-area
+2025-01-01,2025,Jan,North West EV,North West EV,total,47.0,sub-area
+2025-01-01,2025,Jan,South East EV,South East EV,total,262.0,sub-area
+2025-01-01,2025,Jan,South West EV,South West EV,total,43.0,sub-area
+2025-02-01,2025,Feb,North East EV,North East EV,total,61.0,sub-area
+2025-02-01,2025,Feb,North West EV,North West EV,total,75.0,sub-area
+2025-02-01,2025,Feb,South East EV,South East EV,total,215.0,sub-area
+2025-02-01,2025,Feb,South West EV,South West EV,total,57.0,sub-area
+2025-03-01,2025,Mar,North East EV,North East EV,total,56.0,sub-area
+2025-03-01,2025,Mar,North West EV,North West EV,total,101.0,sub-area
+2025-03-01,2025,Mar,South East EV,South East EV,total,61.0,sub-area
+2025-03-01,2025,Mar,South West EV,South West EV,total,196.0,sub-area
+2025-04-01,2025,Apr,North East EV,North East EV,total,264.0,sub-area
+2025-04-01,2025,Apr,North West EV,North West EV,total,53.0,sub-area
+2025-04-01,2025,Apr,South East EV,South East EV,total,43.0,sub-area
+2025-04-01,2025,Apr,South West EV,South West EV,total,41.0,sub-area
+2025-05-01,2025,May,North East EV,North East EV,total,60.0,sub-area
+2025-05-01,2025,May,North West EV,North West EV,total,64.0,sub-area
+2025-05-01,2025,May,South East EV,South East EV,total,232.0,sub-area
+2025-05-01,2025,May,South West EV,South West EV,total,50.0,sub-area
+2025-06-01,2025,Jun,North East EV,North East EV,total,54.0,sub-area
+2025-06-01,2025,Jun,North West EV,North West EV,total,63.0,sub-area
+2025-06-01,2025,Jun,South East EV,South East EV,total,248.0,sub-area
+2025-06-01,2025,Jun,South West EV,South West EV,total,42.0,sub-area
+2025-07-01,2025,Jul,North East EV,North East EV,total,,sub-area
+2025-07-01,2025,Jul,North West EV,North West EV,total,,sub-area
+2025-07-01,2025,Jul,South East EV,South East EV,total,,sub-area
+2025-07-01,2025,Jul,South West EV,South West EV,total,,sub-area
+2025-08-01,2025,Aug,North East EV,North East EV,total,,sub-area
+2025-08-01,2025,Aug,North West EV,North West EV,total,,sub-area
+2025-08-01,2025,Aug,South East EV,South East EV,total,,sub-area
+2025-08-01,2025,Aug,South West EV,South West EV,total,,sub-area
+2025-09-01,2025,Sep,North East EV,North East EV,total,24.0,sub-area
+2025-09-01,2025,Sep,North West EV,North West EV,total,96.0,sub-area
+2025-09-01,2025,Sep,South East EV,South East EV,total,238.0,sub-area
+2025-09-01,2025,Sep,South West EV,South West EV,total,49.0,sub-area
+2025-10-01,2025,Oct,North East EV,North East EV,total,,sub-area
+2025-10-01,2025,Oct,North West EV,North West EV,total,,sub-area
+2025-10-01,2025,Oct,South East EV,South East EV,total,,sub-area
+2025-10-01,2025,Oct,South West EV,South West EV,total,,sub-area
+2025-11-01,2025,Nov,North East EV,North East EV,total,,sub-area
+2025-11-01,2025,Nov,North West EV,North West EV,total,,sub-area
+2025-11-01,2025,Nov,South East EV,South East EV,total,,sub-area
+2025-11-01,2025,Nov,South West EV,South West EV,total,,sub-area
+2025-12-01,2025,Dec,North East EV,North East EV,total,49.0,sub-area
+2025-12-01,2025,Dec,North West EV,North West EV,total,119.0,sub-area
+2025-12-01,2025,Dec,South East EV,South East EV,total,313.0,sub-area
+2025-12-01,2025,Dec,South West EV,South West EV,total,73.0,sub-area
+2024-01-01,2024,Jan,North East EV,North East EV,total,136.0,sub-area
+2024-01-01,2024,Jan,North West EV,North West EV,total,81.0,sub-area
+2024-01-01,2024,Jan,South East EV,South East EV,total,234.0,sub-area
+2024-01-01,2024,Jan,South West EV,South West EV,total,79.0,sub-area
+2024-02-01,2024,Feb,North East EV,North East EV,total,123.0,sub-area
+2024-02-01,2024,Feb,North West EV,North West EV,total,81.0,sub-area
+2024-02-01,2024,Feb,South East EV,South East EV,total,306.0,sub-area
+2024-02-01,2024,Feb,South West EV,South West EV,total,43.0,sub-area
+2024-03-01,2024,Mar,North East EV,North East EV,total,37.0,sub-area
+2024-03-01,2024,Mar,North West EV,North West EV,total,20.0,sub-area
+2024-03-01,2024,Mar,South East EV,South East EV,total,275.0,sub-area
+2024-03-01,2024,Mar,South West EV,South West EV,total,49.0,sub-area
+2024-04-01,2024,Apr,North East EV,North East EV,total,45.0,sub-area
+2024-04-01,2024,Apr,North West EV,North West EV,total,12.0,sub-area
+2024-04-01,2024,Apr,South East EV,South East EV,total,59.0,sub-area
+2024-04-01,2024,Apr,South West EV,South West EV,total,251.0,sub-area
+2024-05-01,2024,May,North East EV,North East EV,total,38.0,sub-area
+2024-05-01,2024,May,North West EV,North West EV,total,15.0,sub-area
+2024-05-01,2024,May,South East EV,South East EV,total,329.0,sub-area
+2024-05-01,2024,May,South West EV,South West EV,total,26.0,sub-area
+2024-06-01,2024,Jun,North East EV,North East EV,total,85.0,sub-area
+2024-06-01,2024,Jun,North West EV,North West EV,total,18.0,sub-area
+2024-06-01,2024,Jun,South East EV,South East EV,total,317.0,sub-area
+2024-06-01,2024,Jun,South West EV,South West EV,total,31.0,sub-area
+2024-07-01,2024,Jul,North East EV,North East EV,total,81.0,sub-area
+2024-07-01,2024,Jul,North West EV,North West EV,total,49.0,sub-area
+2024-07-01,2024,Jul,South East EV,South East EV,total,293.0,sub-area
+2024-07-01,2024,Jul,South West EV,South West EV,total,35.0,sub-area
+2024-08-01,2024,Aug,North East EV,North East EV,total,48.0,sub-area
+2024-08-01,2024,Aug,North West EV,North West EV,total,34.0,sub-area
+2024-08-01,2024,Aug,South East EV,South East EV,total,315.0,sub-area
+2024-08-01,2024,Aug,South West EV,South West EV,total,53.0,sub-area
+2024-09-01,2024,Sep,North East EV,North East EV,total,67.0,sub-area
+2024-09-01,2024,Sep,North West EV,North West EV,total,24.0,sub-area
+2024-09-01,2024,Sep,South East EV,South East EV,total,317.0,sub-area
+2024-09-01,2024,Sep,South West EV,South West EV,total,37.0,sub-area
+2024-10-01,2024,Oct,North East EV,North East EV,total,20.0,sub-area
+2024-10-01,2024,Oct,North West EV,North West EV,total,32.0,sub-area
+2024-10-01,2024,Oct,South East EV,South East EV,total,289.0,sub-area
+2024-10-01,2024,Oct,South West EV,South West EV,total,56.0,sub-area
+2024-11-01,2024,Nov,North East EV,North East EV,total,53.0,sub-area
+2024-11-01,2024,Nov,North West EV,North West EV,total,44.0,sub-area
+2024-11-01,2024,Nov,South East EV,South East EV,total,253.0,sub-area
+2024-11-01,2024,Nov,South West EV,South West EV,total,41.0,sub-area
+2024-12-01,2024,Dec,North East EV,North East EV,total,103.0,sub-area
+2024-12-01,2024,Dec,North West EV,North West EV,total,63.0,sub-area
+2024-12-01,2024,Dec,South East EV,South East EV,total,275.0,sub-area
+2024-12-01,2024,Dec,South West EV,South West EV,total,51.0,sub-area
+2023-01-01,2023,Jan,North East EV,North East EV,total,93.0,sub-area
+2023-01-01,2023,Jan,North West EV,North West EV,total,144.0,sub-area
+2023-01-01,2023,Jan,South East EV,South East EV,total,461.0,sub-area
+2023-01-01,2023,Jan,South West EV,South West EV,total,96.0,sub-area
+2023-02-01,2023,Feb,North East EV,North East EV,total,83.0,sub-area
+2023-02-01,2023,Feb,North West EV,North West EV,total,162.0,sub-area
+2023-02-01,2023,Feb,South East EV,South East EV,total,441.0,sub-area
+2023-02-01,2023,Feb,South West EV,South West EV,total,96.0,sub-area
+2023-03-01,2023,Mar,North East EV,North East EV,total,344.0,sub-area
+2023-03-01,2023,Mar,North West EV,North West EV,total,84.0,sub-area
+2023-03-01,2023,Mar,South East EV,South East EV,total,82.0,sub-area
+2023-03-01,2023,Mar,South West EV,South West EV,total,147.0,sub-area
+2023-04-01,2023,Apr,North East EV,North East EV,total,70.0,sub-area
+2023-04-01,2023,Apr,North West EV,North West EV,total,184.0,sub-area
+2023-04-01,2023,Apr,South East EV,South East EV,total,479.0,sub-area
+2023-04-01,2023,Apr,South West EV,South West EV,total,90.0,sub-area
+2023-05-01,2023,May,North East EV,North East EV,total,81.0,sub-area
+2023-05-01,2023,May,North West EV,North West EV,total,253.0,sub-area
+2023-05-01,2023,May,South East EV,South East EV,total,483.0,sub-area
+2023-05-01,2023,May,South West EV,South West EV,total,101.0,sub-area
+2023-06-01,2023,Jun,North East EV,North East EV,total,41.0,sub-area
+2023-06-01,2023,Jun,North West EV,North West EV,total,141.0,sub-area
+2023-06-01,2023,Jun,South East EV,South East EV,total,479.0,sub-area
+2023-06-01,2023,Jun,South West EV,South West EV,total,69.0,sub-area
+2023-07-01,2023,Jul,North East EV,North East EV,total,60.0,sub-area
+2023-07-01,2023,Jul,North West EV,North West EV,total,175.0,sub-area
+2023-07-01,2023,Jul,South East EV,South East EV,total,646.0,sub-area
+2023-07-01,2023,Jul,South West EV,South West EV,total,40.0,sub-area
+2023-08-01,2023,Aug,North East EV,North East EV,total,61.0,sub-area
+2023-08-01,2023,Aug,North West EV,North West EV,total,184.0,sub-area
+2023-08-01,2023,Aug,South East EV,South East EV,total,554.0,sub-area
+2023-08-01,2023,Aug,South West EV,South West EV,total,62.0,sub-area
+2023-09-01,2023,Sep,North East EV,North East EV,total,94.0,sub-area
+2023-09-01,2023,Sep,North West EV,North West EV,total,179.0,sub-area
+2023-09-01,2023,Sep,South East EV,South East EV,total,575.0,sub-area
+2023-09-01,2023,Sep,South West EV,South West EV,total,59.0,sub-area
+2023-10-01,2023,Oct,North East EV,North East EV,total,104.0,sub-area
+2023-10-01,2023,Oct,North West EV,North West EV,total,160.0,sub-area
+2023-10-01,2023,Oct,South East EV,South East EV,total,544.0,sub-area
+2023-10-01,2023,Oct,South West EV,South West EV,total,62.0,sub-area
+2023-11-01,2023,Nov,North East EV,North East EV,total,138.0,sub-area
+2023-11-01,2023,Nov,North West EV,North West EV,total,116.0,sub-area
+2023-11-01,2023,Nov,South East EV,South East EV,total,352.0,sub-area
+2023-11-01,2023,Nov,South West EV,South West EV,total,73.0,sub-area
+2023-12-01,2023,Dec,North East EV,North East EV,total,121.0,sub-area
+2023-12-01,2023,Dec,North West EV,North West EV,total,42.0,sub-area
+2023-12-01,2023,Dec,South East EV,South East EV,total,258.0,sub-area
+2023-12-01,2023,Dec,South West EV,South West EV,total,76.0,sub-area
+2018-01-01,2018,Jan,East Village,East Village,individual,326.0,neighborhood
+2018-01-01,2018,Jan,East Village,East Village,vehicle,13.0,neighborhood
+2018-01-01,2018,Jan,East Village,East Village,tent,84.0,neighborhood
+2018-01-01,2018,Jan,City Center,Core,individual,109.0,neighborhood
+2018-01-01,2018,Jan,City Center,Core,vehicle,0.0,neighborhood
+2018-01-01,2018,Jan,City Center,Core,tent,8.0,neighborhood
+2018-01-01,2018,Jan,Columbia,Columbia,individual,32.0,neighborhood
+2018-01-01,2018,Jan,Columbia,Columbia,vehicle,0.0,neighborhood
+2018-01-01,2018,Jan,Columbia,Columbia,tent,10.0,neighborhood
+2018-01-01,2018,Jan,Marina,Marina,individual,26.0,neighborhood
+2018-01-01,2018,Jan,Marina,Marina,vehicle,1.0,neighborhood
+2018-01-01,2018,Jan,Marina,Marina,tent,2.0,neighborhood
+2018-01-01,2018,Jan,Cortez,Cortez,individual,56.0,neighborhood
+2018-01-01,2018,Jan,Cortez,Cortez,vehicle,0.0,neighborhood
+2018-01-01,2018,Jan,Cortez,Cortez,tent,3.0,neighborhood
+2018-01-01,2018,Jan,Gaslamp,Gaslamp,individual,44.0,neighborhood
+2018-01-01,2018,Jan,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2018-01-01,2018,Jan,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2018-02-01,2018,Feb,East Village,East Village,individual,287.0,neighborhood
+2018-02-01,2018,Feb,East Village,East Village,vehicle,18.0,neighborhood
+2018-02-01,2018,Feb,East Village,East Village,tent,90.0,neighborhood
+2018-02-01,2018,Feb,City Center,Core,individual,137.0,neighborhood
+2018-02-01,2018,Feb,City Center,Core,vehicle,0.0,neighborhood
+2018-02-01,2018,Feb,City Center,Core,tent,100.0,neighborhood
+2018-02-01,2018,Feb,Columbia,Columbia,individual,30.0,neighborhood
+2018-02-01,2018,Feb,Columbia,Columbia,vehicle,0.0,neighborhood
+2018-02-01,2018,Feb,Columbia,Columbia,tent,16.0,neighborhood
+2018-02-01,2018,Feb,Marina,Marina,individual,27.0,neighborhood
+2018-02-01,2018,Feb,Marina,Marina,vehicle,2.0,neighborhood
+2018-02-01,2018,Feb,Marina,Marina,tent,2.0,neighborhood
+2018-02-01,2018,Feb,Cortez,Cortez,individual,53.0,neighborhood
+2018-02-01,2018,Feb,Cortez,Cortez,vehicle,1.0,neighborhood
+2018-02-01,2018,Feb,Cortez,Cortez,tent,1.0,neighborhood
+2018-02-01,2018,Feb,Gaslamp,Gaslamp,individual,84.0,neighborhood
+2018-02-01,2018,Feb,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2018-02-01,2018,Feb,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2018-03-01,2018,Mar,East Village,East Village,individual,398.0,neighborhood
+2018-03-01,2018,Mar,East Village,East Village,vehicle,23.0,neighborhood
+2018-03-01,2018,Mar,East Village,East Village,tent,90.0,neighborhood
+2018-03-01,2018,Mar,City Center,Core,individual,123.0,neighborhood
+2018-03-01,2018,Mar,City Center,Core,vehicle,0.0,neighborhood
+2018-03-01,2018,Mar,City Center,Core,tent,3.0,neighborhood
+2018-03-01,2018,Mar,Columbia,Columbia,individual,54.0,neighborhood
+2018-03-01,2018,Mar,Columbia,Columbia,vehicle,1.0,neighborhood
+2018-03-01,2018,Mar,Columbia,Columbia,tent,3.0,neighborhood
+2018-03-01,2018,Mar,Marina,Marina,individual,25.0,neighborhood
+2018-03-01,2018,Mar,Marina,Marina,vehicle,1.0,neighborhood
+2018-03-01,2018,Mar,Marina,Marina,tent,3.0,neighborhood
+2018-03-01,2018,Mar,Cortez,Cortez,individual,53.0,neighborhood
+2018-03-01,2018,Mar,Cortez,Cortez,vehicle,5.0,neighborhood
+2018-03-01,2018,Mar,Cortez,Cortez,tent,6.0,neighborhood
+2018-03-01,2018,Mar,Gaslamp,Gaslamp,individual,93.0,neighborhood
+2018-03-01,2018,Mar,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2018-03-01,2018,Mar,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2018-04-01,2018,Apr,East Village,East Village,individual,370.0,neighborhood
+2018-04-01,2018,Apr,East Village,East Village,vehicle,14.0,neighborhood
+2018-04-01,2018,Apr,East Village,East Village,tent,62.0,neighborhood
+2018-04-01,2018,Apr,City Center,Core,individual,106.0,neighborhood
+2018-04-01,2018,Apr,City Center,Core,vehicle,0.0,neighborhood
+2018-04-01,2018,Apr,City Center,Core,tent,3.0,neighborhood
+2018-04-01,2018,Apr,Columbia,Columbia,individual,37.0,neighborhood
+2018-04-01,2018,Apr,Columbia,Columbia,vehicle,0.0,neighborhood
+2018-04-01,2018,Apr,Columbia,Columbia,tent,5.0,neighborhood
+2018-04-01,2018,Apr,Marina,Marina,individual,35.0,neighborhood
+2018-04-01,2018,Apr,Marina,Marina,vehicle,1.0,neighborhood
+2018-04-01,2018,Apr,Marina,Marina,tent,0.0,neighborhood
+2018-04-01,2018,Apr,Cortez,Cortez,individual,39.0,neighborhood
+2018-04-01,2018,Apr,Cortez,Cortez,vehicle,1.0,neighborhood
+2018-04-01,2018,Apr,Cortez,Cortez,tent,2.0,neighborhood
+2018-04-01,2018,Apr,Gaslamp,Gaslamp,individual,51.0,neighborhood
+2018-04-01,2018,Apr,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2018-04-01,2018,Apr,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2018-05-01,2018,May,East Village,East Village,individual,363.0,neighborhood
+2018-05-01,2018,May,East Village,East Village,vehicle,22.0,neighborhood
+2018-05-01,2018,May,East Village,East Village,tent,66.0,neighborhood
+2018-05-01,2018,May,City Center,Core,individual,151.0,neighborhood
+2018-05-01,2018,May,City Center,Core,vehicle,2.0,neighborhood
+2018-05-01,2018,May,City Center,Core,tent,14.0,neighborhood
+2018-05-01,2018,May,Columbia,Columbia,individual,35.0,neighborhood
+2018-05-01,2018,May,Columbia,Columbia,vehicle,0.0,neighborhood
+2018-05-01,2018,May,Columbia,Columbia,tent,6.0,neighborhood
+2018-05-01,2018,May,Marina,Marina,individual,22.0,neighborhood
+2018-05-01,2018,May,Marina,Marina,vehicle,1.0,neighborhood
+2018-05-01,2018,May,Marina,Marina,tent,6.0,neighborhood
+2018-05-01,2018,May,Cortez,Cortez,individual,41.0,neighborhood
+2018-05-01,2018,May,Cortez,Cortez,vehicle,0.0,neighborhood
+2018-05-01,2018,May,Cortez,Cortez,tent,6.0,neighborhood
+2018-05-01,2018,May,Gaslamp,Gaslamp,individual,62.0,neighborhood
+2018-05-01,2018,May,Gaslamp,Gaslamp,vehicle,1.0,neighborhood
+2018-05-01,2018,May,Gaslamp,Gaslamp,tent,2.0,neighborhood
+2018-06-01,2018,Jun,East Village,East Village,individual,348.0,neighborhood
+2018-06-01,2018,Jun,East Village,East Village,vehicle,10.0,neighborhood
+2018-06-01,2018,Jun,East Village,East Village,tent,52.0,neighborhood
+2018-06-01,2018,Jun,City Center,Core,individual,110.0,neighborhood
+2018-06-01,2018,Jun,City Center,Core,vehicle,2.0,neighborhood
+2018-06-01,2018,Jun,City Center,Core,tent,2.0,neighborhood
+2018-06-01,2018,Jun,Columbia,Columbia,individual,46.0,neighborhood
+2018-06-01,2018,Jun,Columbia,Columbia,vehicle,1.0,neighborhood
+2018-06-01,2018,Jun,Columbia,Columbia,tent,3.0,neighborhood
+2018-06-01,2018,Jun,Marina,Marina,individual,48.0,neighborhood
+2018-06-01,2018,Jun,Marina,Marina,vehicle,0.0,neighborhood
+2018-06-01,2018,Jun,Marina,Marina,tent,1.0,neighborhood
+2018-06-01,2018,Jun,Cortez,Cortez,individual,35.0,neighborhood
+2018-06-01,2018,Jun,Cortez,Cortez,vehicle,0.0,neighborhood
+2018-06-01,2018,Jun,Cortez,Cortez,tent,3.0,neighborhood
+2018-06-01,2018,Jun,Gaslamp,Gaslamp,individual,39.0,neighborhood
+2018-06-01,2018,Jun,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2018-06-01,2018,Jun,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2018-07-01,2018,Jul,East Village,East Village,individual,451.0,neighborhood
+2018-07-01,2018,Jul,East Village,East Village,vehicle,32.0,neighborhood
+2018-07-01,2018,Jul,East Village,East Village,tent,67.0,neighborhood
+2018-07-01,2018,Jul,City Center,Core,individual,132.0,neighborhood
+2018-07-01,2018,Jul,City Center,Core,vehicle,1.0,neighborhood
+2018-07-01,2018,Jul,City Center,Core,tent,3.0,neighborhood
+2018-07-01,2018,Jul,Columbia,Columbia,individual,32.0,neighborhood
+2018-07-01,2018,Jul,Columbia,Columbia,vehicle,0.0,neighborhood
+2018-07-01,2018,Jul,Columbia,Columbia,tent,3.0,neighborhood
+2018-07-01,2018,Jul,Marina,Marina,individual,33.0,neighborhood
+2018-07-01,2018,Jul,Marina,Marina,vehicle,0.0,neighborhood
+2018-07-01,2018,Jul,Marina,Marina,tent,2.0,neighborhood
+2018-07-01,2018,Jul,Cortez,Cortez,individual,40.0,neighborhood
+2018-07-01,2018,Jul,Cortez,Cortez,vehicle,0.0,neighborhood
+2018-07-01,2018,Jul,Cortez,Cortez,tent,4.0,neighborhood
+2018-07-01,2018,Jul,Gaslamp,Gaslamp,individual,45.0,neighborhood
+2018-07-01,2018,Jul,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2018-07-01,2018,Jul,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2018-08-01,2018,Aug,East Village,East Village,individual,470.0,neighborhood
+2018-08-01,2018,Aug,East Village,East Village,vehicle,17.0,neighborhood
+2018-08-01,2018,Aug,East Village,East Village,tent,44.0,neighborhood
+2018-08-01,2018,Aug,City Center,Core,individual,142.0,neighborhood
+2018-08-01,2018,Aug,City Center,Core,vehicle,0.0,neighborhood
+2018-08-01,2018,Aug,City Center,Core,tent,2.0,neighborhood
+2018-08-01,2018,Aug,Columbia,Columbia,individual,45.0,neighborhood
+2018-08-01,2018,Aug,Columbia,Columbia,vehicle,0.0,neighborhood
+2018-08-01,2018,Aug,Columbia,Columbia,tent,6.0,neighborhood
+2018-08-01,2018,Aug,Marina,Marina,individual,56.0,neighborhood
+2018-08-01,2018,Aug,Marina,Marina,vehicle,3.0,neighborhood
+2018-08-01,2018,Aug,Marina,Marina,tent,6.0,neighborhood
+2018-08-01,2018,Aug,Cortez,Cortez,individual,49.0,neighborhood
+2018-08-01,2018,Aug,Cortez,Cortez,vehicle,0.0,neighborhood
+2018-08-01,2018,Aug,Cortez,Cortez,tent,3.0,neighborhood
+2018-08-01,2018,Aug,Gaslamp,Gaslamp,individual,55.0,neighborhood
+2018-08-01,2018,Aug,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2018-08-01,2018,Aug,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2018-09-01,2018,Sep,East Village,East Village,individual,369.0,neighborhood
+2018-09-01,2018,Sep,East Village,East Village,vehicle,7.0,neighborhood
+2018-09-01,2018,Sep,East Village,East Village,tent,67.0,neighborhood
+2018-09-01,2018,Sep,City Center,Core,individual,122.0,neighborhood
+2018-09-01,2018,Sep,City Center,Core,vehicle,0.0,neighborhood
+2018-09-01,2018,Sep,City Center,Core,tent,4.0,neighborhood
+2018-09-01,2018,Sep,Columbia,Columbia,individual,21.0,neighborhood
+2018-09-01,2018,Sep,Columbia,Columbia,vehicle,0.0,neighborhood
+2018-09-01,2018,Sep,Columbia,Columbia,tent,3.0,neighborhood
+2018-09-01,2018,Sep,Marina,Marina,individual,32.0,neighborhood
+2018-09-01,2018,Sep,Marina,Marina,vehicle,0.0,neighborhood
+2018-09-01,2018,Sep,Marina,Marina,tent,8.0,neighborhood
+2018-09-01,2018,Sep,Cortez,Cortez,individual,30.0,neighborhood
+2018-09-01,2018,Sep,Cortez,Cortez,vehicle,0.0,neighborhood
+2018-09-01,2018,Sep,Cortez,Cortez,tent,1.0,neighborhood
+2018-09-01,2018,Sep,Gaslamp,Gaslamp,individual,51.0,neighborhood
+2018-09-01,2018,Sep,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2018-09-01,2018,Sep,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2018-10-01,2018,Oct,East Village,East Village,individual,398.0,neighborhood
+2018-10-01,2018,Oct,East Village,East Village,vehicle,4.0,neighborhood
+2018-10-01,2018,Oct,East Village,East Village,tent,56.0,neighborhood
+2018-10-01,2018,Oct,City Center,Core,individual,86.0,neighborhood
+2018-10-01,2018,Oct,City Center,Core,vehicle,0.0,neighborhood
+2018-10-01,2018,Oct,City Center,Core,tent,10.0,neighborhood
+2018-10-01,2018,Oct,Columbia,Columbia,individual,27.0,neighborhood
+2018-10-01,2018,Oct,Columbia,Columbia,vehicle,0.0,neighborhood
+2018-10-01,2018,Oct,Columbia,Columbia,tent,4.0,neighborhood
+2018-10-01,2018,Oct,Marina,Marina,individual,25.0,neighborhood
+2018-10-01,2018,Oct,Marina,Marina,vehicle,0.0,neighborhood
+2018-10-01,2018,Oct,Marina,Marina,tent,2.0,neighborhood
+2018-10-01,2018,Oct,Cortez,Cortez,individual,16.0,neighborhood
+2018-10-01,2018,Oct,Cortez,Cortez,vehicle,0.0,neighborhood
+2018-10-01,2018,Oct,Cortez,Cortez,tent,0.0,neighborhood
+2018-10-01,2018,Oct,Gaslamp,Gaslamp,individual,52.0,neighborhood
+2018-10-01,2018,Oct,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2018-10-01,2018,Oct,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2018-11-01,2018,Nov,East Village,East Village,individual,,neighborhood
+2018-11-01,2018,Nov,East Village,East Village,vehicle,,neighborhood
+2018-11-01,2018,Nov,East Village,East Village,tent,,neighborhood
+2018-11-01,2018,Nov,City Center,Core,individual,,neighborhood
+2018-11-01,2018,Nov,City Center,Core,vehicle,,neighborhood
+2018-11-01,2018,Nov,City Center,Core,tent,,neighborhood
+2018-11-01,2018,Nov,Columbia,Columbia,individual,,neighborhood
+2018-11-01,2018,Nov,Columbia,Columbia,vehicle,,neighborhood
+2018-11-01,2018,Nov,Columbia,Columbia,tent,,neighborhood
+2018-11-01,2018,Nov,Marina,Marina,individual,,neighborhood
+2018-11-01,2018,Nov,Marina,Marina,vehicle,,neighborhood
+2018-11-01,2018,Nov,Marina,Marina,tent,,neighborhood
+2018-11-01,2018,Nov,Cortez,Cortez,individual,,neighborhood
+2018-11-01,2018,Nov,Cortez,Cortez,vehicle,,neighborhood
+2018-11-01,2018,Nov,Cortez,Cortez,tent,,neighborhood
+2018-11-01,2018,Nov,Gaslamp,Gaslamp,individual,,neighborhood
+2018-11-01,2018,Nov,Gaslamp,Gaslamp,vehicle,,neighborhood
+2018-11-01,2018,Nov,Gaslamp,Gaslamp,tent,,neighborhood
+2018-12-01,2018,Dec,East Village,East Village,individual,330.0,neighborhood
+2018-12-01,2018,Dec,East Village,East Village,vehicle,5.0,neighborhood
+2018-12-01,2018,Dec,East Village,East Village,tent,81.0,neighborhood
+2018-12-01,2018,Dec,City Center,Core,individual,121.0,neighborhood
+2018-12-01,2018,Dec,City Center,Core,vehicle,0.0,neighborhood
+2018-12-01,2018,Dec,City Center,Core,tent,15.0,neighborhood
+2018-12-01,2018,Dec,Columbia,Columbia,individual,36.0,neighborhood
+2018-12-01,2018,Dec,Columbia,Columbia,vehicle,0.0,neighborhood
+2018-12-01,2018,Dec,Columbia,Columbia,tent,5.0,neighborhood
+2018-12-01,2018,Dec,Marina,Marina,individual,38.0,neighborhood
+2018-12-01,2018,Dec,Marina,Marina,vehicle,0.0,neighborhood
+2018-12-01,2018,Dec,Marina,Marina,tent,8.0,neighborhood
+2018-12-01,2018,Dec,Cortez,Cortez,individual,38.0,neighborhood
+2018-12-01,2018,Dec,Cortez,Cortez,vehicle,0.0,neighborhood
+2018-12-01,2018,Dec,Cortez,Cortez,tent,1.0,neighborhood
+2018-12-01,2018,Dec,Gaslamp,Gaslamp,individual,38.0,neighborhood
+2018-12-01,2018,Dec,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2018-12-01,2018,Dec,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2019-01-01,2019,Jan,East Village,East Village,individual,384.0,neighborhood
+2019-01-01,2019,Jan,East Village,East Village,vehicle,7.0,neighborhood
+2019-01-01,2019,Jan,East Village,East Village,tent,83.0,neighborhood
+2019-01-01,2019,Jan,City Center,Core,individual,100.0,neighborhood
+2019-01-01,2019,Jan,City Center,Core,vehicle,0.0,neighborhood
+2019-01-01,2019,Jan,City Center,Core,tent,18.0,neighborhood
+2019-01-01,2019,Jan,Columbia,Columbia,individual,27.0,neighborhood
+2019-01-01,2019,Jan,Columbia,Columbia,vehicle,0.0,neighborhood
+2019-01-01,2019,Jan,Columbia,Columbia,tent,15.0,neighborhood
+2019-01-01,2019,Jan,Marina,Marina,individual,32.0,neighborhood
+2019-01-01,2019,Jan,Marina,Marina,vehicle,0.0,neighborhood
+2019-01-01,2019,Jan,Marina,Marina,tent,14.0,neighborhood
+2019-01-01,2019,Jan,Cortez,Cortez,individual,47.0,neighborhood
+2019-01-01,2019,Jan,Cortez,Cortez,vehicle,0.0,neighborhood
+2019-01-01,2019,Jan,Cortez,Cortez,tent,4.0,neighborhood
+2019-01-01,2019,Jan,Gaslamp,Gaslamp,individual,55.0,neighborhood
+2019-01-01,2019,Jan,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2019-01-01,2019,Jan,Gaslamp,Gaslamp,tent,2.0,neighborhood
+2019-02-01,2019,Feb,East Village,East Village,individual,321.0,neighborhood
+2019-02-01,2019,Feb,East Village,East Village,vehicle,11.0,neighborhood
+2019-02-01,2019,Feb,East Village,East Village,tent,88.0,neighborhood
+2019-02-01,2019,Feb,City Center,Core,individual,97.0,neighborhood
+2019-02-01,2019,Feb,City Center,Core,vehicle,0.0,neighborhood
+2019-02-01,2019,Feb,City Center,Core,tent,7.0,neighborhood
+2019-02-01,2019,Feb,Columbia,Columbia,individual,20.0,neighborhood
+2019-02-01,2019,Feb,Columbia,Columbia,vehicle,0.0,neighborhood
+2019-02-01,2019,Feb,Columbia,Columbia,tent,13.0,neighborhood
+2019-02-01,2019,Feb,Marina,Marina,individual,40.0,neighborhood
+2019-02-01,2019,Feb,Marina,Marina,vehicle,0.0,neighborhood
+2019-02-01,2019,Feb,Marina,Marina,tent,5.0,neighborhood
+2019-02-01,2019,Feb,Cortez,Cortez,individual,31.0,neighborhood
+2019-02-01,2019,Feb,Cortez,Cortez,vehicle,0.0,neighborhood
+2019-02-01,2019,Feb,Cortez,Cortez,tent,1.0,neighborhood
+2019-02-01,2019,Feb,Gaslamp,Gaslamp,individual,66.0,neighborhood
+2019-02-01,2019,Feb,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2019-02-01,2019,Feb,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2019-03-01,2019,Mar,East Village,East Village,individual,288.0,neighborhood
+2019-03-01,2019,Mar,East Village,East Village,vehicle,12.0,neighborhood
+2019-03-01,2019,Mar,East Village,East Village,tent,66.0,neighborhood
+2019-03-01,2019,Mar,City Center,Core,individual,109.0,neighborhood
+2019-03-01,2019,Mar,City Center,Core,vehicle,0.0,neighborhood
+2019-03-01,2019,Mar,City Center,Core,tent,12.0,neighborhood
+2019-03-01,2019,Mar,Columbia,Columbia,individual,17.0,neighborhood
+2019-03-01,2019,Mar,Columbia,Columbia,vehicle,0.0,neighborhood
+2019-03-01,2019,Mar,Columbia,Columbia,tent,9.0,neighborhood
+2019-03-01,2019,Mar,Marina,Marina,individual,23.0,neighborhood
+2019-03-01,2019,Mar,Marina,Marina,vehicle,0.0,neighborhood
+2019-03-01,2019,Mar,Marina,Marina,tent,4.0,neighborhood
+2019-03-01,2019,Mar,Cortez,Cortez,individual,49.0,neighborhood
+2019-03-01,2019,Mar,Cortez,Cortez,vehicle,0.0,neighborhood
+2019-03-01,2019,Mar,Cortez,Cortez,tent,2.0,neighborhood
+2019-03-01,2019,Mar,Gaslamp,Gaslamp,individual,59.0,neighborhood
+2019-03-01,2019,Mar,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2019-03-01,2019,Mar,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2019-04-01,2019,Apr,East Village,East Village,individual,364.0,neighborhood
+2019-04-01,2019,Apr,East Village,East Village,vehicle,12.0,neighborhood
+2019-04-01,2019,Apr,East Village,East Village,tent,67.0,neighborhood
+2019-04-01,2019,Apr,City Center,City Center,individual,89.0,neighborhood
+2019-04-01,2019,Apr,City Center,City Center,vehicle,0.0,neighborhood
+2019-04-01,2019,Apr,City Center,City Center,tent,10.0,neighborhood
+2019-04-01,2019,Apr,Columbia,Columbia,individual,46.0,neighborhood
+2019-04-01,2019,Apr,Columbia,Columbia,vehicle,0.0,neighborhood
+2019-04-01,2019,Apr,Columbia,Columbia,tent,5.0,neighborhood
+2019-04-01,2019,Apr,Marina,Marina,individual,19.0,neighborhood
+2019-04-01,2019,Apr,Marina,Marina,vehicle,1.0,neighborhood
+2019-04-01,2019,Apr,Marina,Marina,tent,7.0,neighborhood
+2019-04-01,2019,Apr,Cortez,Cortez,individual,40.0,neighborhood
+2019-04-01,2019,Apr,Cortez,Cortez,vehicle,0.0,neighborhood
+2019-04-01,2019,Apr,Cortez,Cortez,tent,2.0,neighborhood
+2019-04-01,2019,Apr,Gaslamp,Gaslamp,individual,36.0,neighborhood
+2019-04-01,2019,Apr,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2019-04-01,2019,Apr,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2019-05-01,2019,May,East Village,East Village,individual,331.0,neighborhood
+2019-05-01,2019,May,East Village,East Village,vehicle,11.0,neighborhood
+2019-05-01,2019,May,East Village,East Village,tent,87.0,neighborhood
+2019-05-01,2019,May,City Center,City Center,individual,125.0,neighborhood
+2019-05-01,2019,May,City Center,City Center,vehicle,0.0,neighborhood
+2019-05-01,2019,May,City Center,City Center,tent,12.0,neighborhood
+2019-05-01,2019,May,Columbia,Columbia,individual,43.0,neighborhood
+2019-05-01,2019,May,Columbia,Columbia,vehicle,0.0,neighborhood
+2019-05-01,2019,May,Columbia,Columbia,tent,10.0,neighborhood
+2019-05-01,2019,May,Marina,Marina,individual,24.0,neighborhood
+2019-05-01,2019,May,Marina,Marina,vehicle,0.0,neighborhood
+2019-05-01,2019,May,Marina,Marina,tent,8.0,neighborhood
+2019-05-01,2019,May,Cortez,Cortez,individual,40.0,neighborhood
+2019-05-01,2019,May,Cortez,Cortez,vehicle,0.0,neighborhood
+2019-05-01,2019,May,Cortez,Cortez,tent,3.0,neighborhood
+2019-05-01,2019,May,Gaslamp,Gaslamp,individual,58.0,neighborhood
+2019-05-01,2019,May,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2019-05-01,2019,May,Gaslamp,Gaslamp,tent,4.0,neighborhood
+2019-06-01,2019,Jun,East Village,East Village,individual,311.0,neighborhood
+2019-06-01,2019,Jun,East Village,East Village,vehicle,13.0,neighborhood
+2019-06-01,2019,Jun,East Village,East Village,tent,77.0,neighborhood
+2019-06-01,2019,Jun,City Center,City Center,individual,138.0,neighborhood
+2019-06-01,2019,Jun,City Center,City Center,vehicle,0.0,neighborhood
+2019-06-01,2019,Jun,City Center,City Center,tent,11.0,neighborhood
+2019-06-01,2019,Jun,Columbia,Columbia,individual,42.0,neighborhood
+2019-06-01,2019,Jun,Columbia,Columbia,vehicle,0.0,neighborhood
+2019-06-01,2019,Jun,Columbia,Columbia,tent,11.0,neighborhood
+2019-06-01,2019,Jun,Marina,Marina,individual,28.0,neighborhood
+2019-06-01,2019,Jun,Marina,Marina,vehicle,0.0,neighborhood
+2019-06-01,2019,Jun,Marina,Marina,tent,4.0,neighborhood
+2019-06-01,2019,Jun,Cortez,Cortez,individual,44.0,neighborhood
+2019-06-01,2019,Jun,Cortez,Cortez,vehicle,0.0,neighborhood
+2019-06-01,2019,Jun,Cortez,Cortez,tent,1.0,neighborhood
+2019-06-01,2019,Jun,Gaslamp,Gaslamp,individual,47.0,neighborhood
+2019-06-01,2019,Jun,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2019-06-01,2019,Jun,Gaslamp,Gaslamp,tent,4.0,neighborhood
+2019-07-01,2019,Jul,East Village,East Village,individual,441.0,neighborhood
+2019-07-01,2019,Jul,East Village,East Village,vehicle,21.0,neighborhood
+2019-07-01,2019,Jul,East Village,East Village,tent,69.0,neighborhood
+2019-07-01,2019,Jul,City Center,City Center,individual,122.0,neighborhood
+2019-07-01,2019,Jul,City Center,City Center,vehicle,0.0,neighborhood
+2019-07-01,2019,Jul,City Center,City Center,tent,14.0,neighborhood
+2019-07-01,2019,Jul,Columbia,Columbia,individual,34.0,neighborhood
+2019-07-01,2019,Jul,Columbia,Columbia,vehicle,0.0,neighborhood
+2019-07-01,2019,Jul,Columbia,Columbia,tent,10.0,neighborhood
+2019-07-01,2019,Jul,Marina,Marina,individual,34.0,neighborhood
+2019-07-01,2019,Jul,Marina,Marina,vehicle,0.0,neighborhood
+2019-07-01,2019,Jul,Marina,Marina,tent,1.0,neighborhood
+2019-07-01,2019,Jul,Cortez,Cortez,individual,62.0,neighborhood
+2019-07-01,2019,Jul,Cortez,Cortez,vehicle,0.0,neighborhood
+2019-07-01,2019,Jul,Cortez,Cortez,tent,5.0,neighborhood
+2019-07-01,2019,Jul,Gaslamp,Gaslamp,individual,50.0,neighborhood
+2019-07-01,2019,Jul,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2019-07-01,2019,Jul,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2019-08-01,2019,Aug,East Village,East Village,individual,377.0,neighborhood
+2019-08-01,2019,Aug,East Village,East Village,vehicle,6.0,neighborhood
+2019-08-01,2019,Aug,East Village,East Village,tent,46.0,neighborhood
+2019-08-01,2019,Aug,City Center,City Center,individual,113.0,neighborhood
+2019-08-01,2019,Aug,City Center,City Center,vehicle,0.0,neighborhood
+2019-08-01,2019,Aug,City Center,City Center,tent,6.0,neighborhood
+2019-08-01,2019,Aug,Columbia,Columbia,individual,32.0,neighborhood
+2019-08-01,2019,Aug,Columbia,Columbia,vehicle,0.0,neighborhood
+2019-08-01,2019,Aug,Columbia,Columbia,tent,8.0,neighborhood
+2019-08-01,2019,Aug,Marina,Marina,individual,30.0,neighborhood
+2019-08-01,2019,Aug,Marina,Marina,vehicle,0.0,neighborhood
+2019-08-01,2019,Aug,Marina,Marina,tent,5.0,neighborhood
+2019-08-01,2019,Aug,Cortez,Cortez,individual,29.0,neighborhood
+2019-08-01,2019,Aug,Cortez,Cortez,vehicle,0.0,neighborhood
+2019-08-01,2019,Aug,Cortez,Cortez,tent,1.0,neighborhood
+2019-08-01,2019,Aug,Gaslamp,Gaslamp,individual,56.0,neighborhood
+2019-08-01,2019,Aug,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2019-08-01,2019,Aug,Gaslamp,Gaslamp,tent,3.0,neighborhood
+2019-09-01,2019,Sep,East Village,East Village,individual,384.0,neighborhood
+2019-09-01,2019,Sep,East Village,East Village,vehicle,15.0,neighborhood
+2019-09-01,2019,Sep,East Village,East Village,tent,68.0,neighborhood
+2019-09-01,2019,Sep,City Center,City Center,individual,178.0,neighborhood
+2019-09-01,2019,Sep,City Center,City Center,vehicle,0.0,neighborhood
+2019-09-01,2019,Sep,City Center,City Center,tent,8.0,neighborhood
+2019-09-01,2019,Sep,Columbia,Columbia,individual,42.0,neighborhood
+2019-09-01,2019,Sep,Columbia,Columbia,vehicle,0.0,neighborhood
+2019-09-01,2019,Sep,Columbia,Columbia,tent,4.0,neighborhood
+2019-09-01,2019,Sep,Marina,Marina,individual,33.0,neighborhood
+2019-09-01,2019,Sep,Marina,Marina,vehicle,0.0,neighborhood
+2019-09-01,2019,Sep,Marina,Marina,tent,4.0,neighborhood
+2019-09-01,2019,Sep,Cortez,Cortez,individual,48.0,neighborhood
+2019-09-01,2019,Sep,Cortez,Cortez,vehicle,0.0,neighborhood
+2019-09-01,2019,Sep,Cortez,Cortez,tent,4.0,neighborhood
+2019-09-01,2019,Sep,Gaslamp,Gaslamp,individual,75.0,neighborhood
+2019-09-01,2019,Sep,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2019-09-01,2019,Sep,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2019-10-01,2019,Oct,East Village,East Village,individual,384.0,neighborhood
+2019-10-01,2019,Oct,East Village,East Village,vehicle,17.0,neighborhood
+2019-10-01,2019,Oct,East Village,East Village,tent,38.0,neighborhood
+2019-10-01,2019,Oct,City Center,City Center,individual,149.0,neighborhood
+2019-10-01,2019,Oct,City Center,City Center,vehicle,0.0,neighborhood
+2019-10-01,2019,Oct,City Center,City Center,tent,12.0,neighborhood
+2019-10-01,2019,Oct,Columbia,Columbia,individual,53.0,neighborhood
+2019-10-01,2019,Oct,Columbia,Columbia,vehicle,0.0,neighborhood
+2019-10-01,2019,Oct,Columbia,Columbia,tent,8.0,neighborhood
+2019-10-01,2019,Oct,Marina,Marina,individual,24.0,neighborhood
+2019-10-01,2019,Oct,Marina,Marina,vehicle,0.0,neighborhood
+2019-10-01,2019,Oct,Marina,Marina,tent,4.0,neighborhood
+2019-10-01,2019,Oct,Cortez,Cortez,individual,34.0,neighborhood
+2019-10-01,2019,Oct,Cortez,Cortez,vehicle,0.0,neighborhood
+2019-10-01,2019,Oct,Cortez,Cortez,tent,3.0,neighborhood
+2019-10-01,2019,Oct,Gaslamp,Gaslamp,individual,57.0,neighborhood
+2019-10-01,2019,Oct,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2019-10-01,2019,Oct,Gaslamp,Gaslamp,tent,2.0,neighborhood
+2019-11-01,2019,Nov,East Village,East Village,individual,323.0,neighborhood
+2019-11-01,2019,Nov,East Village,East Village,vehicle,6.0,neighborhood
+2019-11-01,2019,Nov,East Village,East Village,tent,46.0,neighborhood
+2019-11-01,2019,Nov,City Center,City Center,individual,84.0,neighborhood
+2019-11-01,2019,Nov,City Center,City Center,vehicle,0.0,neighborhood
+2019-11-01,2019,Nov,City Center,City Center,tent,11.0,neighborhood
+2019-11-01,2019,Nov,Columbia,Columbia,individual,22.0,neighborhood
+2019-11-01,2019,Nov,Columbia,Columbia,vehicle,0.0,neighborhood
+2019-11-01,2019,Nov,Columbia,Columbia,tent,9.0,neighborhood
+2019-11-01,2019,Nov,Marina,Marina,individual,28.0,neighborhood
+2019-11-01,2019,Nov,Marina,Marina,vehicle,0.0,neighborhood
+2019-11-01,2019,Nov,Marina,Marina,tent,3.0,neighborhood
+2019-11-01,2019,Nov,Cortez,Cortez,individual,22.0,neighborhood
+2019-11-01,2019,Nov,Cortez,Cortez,vehicle,0.0,neighborhood
+2019-11-01,2019,Nov,Cortez,Cortez,tent,2.0,neighborhood
+2019-11-01,2019,Nov,Gaslamp,Gaslamp,individual,58.0,neighborhood
+2019-11-01,2019,Nov,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2019-11-01,2019,Nov,Gaslamp,Gaslamp,tent,2.0,neighborhood
+2019-12-01,2019,Dec,East Village,East Village,individual,323.0,neighborhood
+2019-12-01,2019,Dec,East Village,East Village,vehicle,6.0,neighborhood
+2019-12-01,2019,Dec,East Village,East Village,tent,46.0,neighborhood
+2019-12-01,2019,Dec,City Center,City Center,individual,84.0,neighborhood
+2019-12-01,2019,Dec,City Center,City Center,vehicle,0.0,neighborhood
+2019-12-01,2019,Dec,City Center,City Center,tent,11.0,neighborhood
+2019-12-01,2019,Dec,Columbia,Columbia,individual,22.0,neighborhood
+2019-12-01,2019,Dec,Columbia,Columbia,vehicle,0.0,neighborhood
+2019-12-01,2019,Dec,Columbia,Columbia,tent,9.0,neighborhood
+2019-12-01,2019,Dec,Marina,Marina,individual,28.0,neighborhood
+2019-12-01,2019,Dec,Marina,Marina,vehicle,0.0,neighborhood
+2019-12-01,2019,Dec,Marina,Marina,tent,3.0,neighborhood
+2019-12-01,2019,Dec,Cortez,Cortez,individual,22.0,neighborhood
+2019-12-01,2019,Dec,Cortez,Cortez,vehicle,0.0,neighborhood
+2019-12-01,2019,Dec,Cortez,Cortez,tent,2.0,neighborhood
+2019-12-01,2019,Dec,Gaslamp,Gaslamp,individual,58.0,neighborhood
+2019-12-01,2019,Dec,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2019-12-01,2019,Dec,Gaslamp,Gaslamp,tent,2.0,neighborhood
+2020-01-01,2020,Jan,East Village,East Village,individual,377.0,neighborhood
+2020-01-01,2020,Jan,East Village,East Village,vehicle,10.0,neighborhood
+2020-01-01,2020,Jan,East Village,East Village,tent,40.0,neighborhood
+2020-01-01,2020,Jan,City Center,City Center,individual,112.0,neighborhood
+2020-01-01,2020,Jan,City Center,City Center,vehicle,0.0,neighborhood
+2020-01-01,2020,Jan,City Center,City Center,tent,8.0,neighborhood
+2020-01-01,2020,Jan,Columbia,Columbia,individual,32.0,neighborhood
+2020-01-01,2020,Jan,Columbia,Columbia,vehicle,0.0,neighborhood
+2020-01-01,2020,Jan,Columbia,Columbia,tent,5.0,neighborhood
+2020-01-01,2020,Jan,Marina,Marina,individual,41.0,neighborhood
+2020-01-01,2020,Jan,Marina,Marina,vehicle,1.0,neighborhood
+2020-01-01,2020,Jan,Marina,Marina,tent,3.0,neighborhood
+2020-01-01,2020,Jan,Cortez,Cortez,individual,37.0,neighborhood
+2020-01-01,2020,Jan,Cortez,Cortez,vehicle,2.0,neighborhood
+2020-01-01,2020,Jan,Cortez,Cortez,tent,4.0,neighborhood
+2020-01-01,2020,Jan,Gaslamp,Gaslamp,individual,57.0,neighborhood
+2020-01-01,2020,Jan,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2020-01-01,2020,Jan,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2020-02-01,2020,Feb,East Village,East Village,individual,334.0,neighborhood
+2020-02-01,2020,Feb,East Village,East Village,vehicle,6.0,neighborhood
+2020-02-01,2020,Feb,East Village,East Village,tent,36.0,neighborhood
+2020-02-01,2020,Feb,City Center,City Center,individual,142.0,neighborhood
+2020-02-01,2020,Feb,City Center,City Center,vehicle,0.0,neighborhood
+2020-02-01,2020,Feb,City Center,City Center,tent,10.0,neighborhood
+2020-02-01,2020,Feb,Columbia,Columbia,individual,36.0,neighborhood
+2020-02-01,2020,Feb,Columbia,Columbia,vehicle,0.0,neighborhood
+2020-02-01,2020,Feb,Columbia,Columbia,tent,6.0,neighborhood
+2020-02-01,2020,Feb,Marina,Marina,individual,23.0,neighborhood
+2020-02-01,2020,Feb,Marina,Marina,vehicle,1.0,neighborhood
+2020-02-01,2020,Feb,Marina,Marina,tent,1.0,neighborhood
+2020-02-01,2020,Feb,Cortez,Cortez,individual,42.0,neighborhood
+2020-02-01,2020,Feb,Cortez,Cortez,vehicle,0.0,neighborhood
+2020-02-01,2020,Feb,Cortez,Cortez,tent,4.0,neighborhood
+2020-02-01,2020,Feb,Gaslamp,Gaslamp,individual,48.0,neighborhood
+2020-02-01,2020,Feb,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2020-02-01,2020,Feb,Gaslamp,Gaslamp,tent,2.0,neighborhood
+2020-03-01,2020,Mar,East Village,East Village,individual,160.0,neighborhood
+2020-03-01,2020,Mar,East Village,East Village,vehicle,3.0,neighborhood
+2020-03-01,2020,Mar,East Village,East Village,tent,54.0,neighborhood
+2020-03-01,2020,Mar,City Center,City Center,individual,101.0,neighborhood
+2020-03-01,2020,Mar,City Center,City Center,vehicle,0.0,neighborhood
+2020-03-01,2020,Mar,City Center,City Center,tent,19.0,neighborhood
+2020-03-01,2020,Mar,Columbia,Columbia,individual,19.0,neighborhood
+2020-03-01,2020,Mar,Columbia,Columbia,vehicle,0.0,neighborhood
+2020-03-01,2020,Mar,Columbia,Columbia,tent,3.0,neighborhood
+2020-03-01,2020,Mar,Marina,Marina,individual,15.0,neighborhood
+2020-03-01,2020,Mar,Marina,Marina,vehicle,0.0,neighborhood
+2020-03-01,2020,Mar,Marina,Marina,tent,3.0,neighborhood
+2020-03-01,2020,Mar,Cortez,Cortez,individual,24.0,neighborhood
+2020-03-01,2020,Mar,Cortez,Cortez,vehicle,0.0,neighborhood
+2020-03-01,2020,Mar,Cortez,Cortez,tent,2.0,neighborhood
+2020-03-01,2020,Mar,Gaslamp,Gaslamp,individual,57.0,neighborhood
+2020-03-01,2020,Mar,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2020-03-01,2020,Mar,Gaslamp,Gaslamp,tent,3.0,neighborhood
+2020-04-01,2020,Apr,East Village,East Village,individual,248.0,neighborhood
+2020-04-01,2020,Apr,East Village,East Village,vehicle,7.0,neighborhood
+2020-04-01,2020,Apr,East Village,East Village,tent,39.0,neighborhood
+2020-04-01,2020,Apr,City Center,City Center,individual,91.0,neighborhood
+2020-04-01,2020,Apr,City Center,City Center,vehicle,0.0,neighborhood
+2020-04-01,2020,Apr,City Center,City Center,tent,0.0,neighborhood
+2020-04-01,2020,Apr,Columbia,Columbia,individual,38.0,neighborhood
+2020-04-01,2020,Apr,Columbia,Columbia,vehicle,0.0,neighborhood
+2020-04-01,2020,Apr,Columbia,Columbia,tent,8.0,neighborhood
+2020-04-01,2020,Apr,Marina,Marina,individual,24.0,neighborhood
+2020-04-01,2020,Apr,Marina,Marina,vehicle,0.0,neighborhood
+2020-04-01,2020,Apr,Marina,Marina,tent,0.0,neighborhood
+2020-04-01,2020,Apr,Cortez,Cortez,individual,20.0,neighborhood
+2020-04-01,2020,Apr,Cortez,Cortez,vehicle,0.0,neighborhood
+2020-04-01,2020,Apr,Cortez,Cortez,tent,2.0,neighborhood
+2020-04-01,2020,Apr,Gaslamp,Gaslamp,individual,42.0,neighborhood
+2020-04-01,2020,Apr,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2020-04-01,2020,Apr,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2020-05-01,2020,May,East Village,East Village,individual,249.0,neighborhood
+2020-05-01,2020,May,East Village,East Village,vehicle,3.0,neighborhood
+2020-05-01,2020,May,East Village,East Village,tent,44.0,neighborhood
+2020-05-01,2020,May,City Center,City Center,individual,113.0,neighborhood
+2020-05-01,2020,May,City Center,City Center,vehicle,1.0,neighborhood
+2020-05-01,2020,May,City Center,City Center,tent,4.0,neighborhood
+2020-05-01,2020,May,Columbia,Columbia,individual,37.0,neighborhood
+2020-05-01,2020,May,Columbia,Columbia,vehicle,0.0,neighborhood
+2020-05-01,2020,May,Columbia,Columbia,tent,8.0,neighborhood
+2020-05-01,2020,May,Marina,Marina,individual,13.0,neighborhood
+2020-05-01,2020,May,Marina,Marina,vehicle,0.0,neighborhood
+2020-05-01,2020,May,Marina,Marina,tent,6.0,neighborhood
+2020-05-01,2020,May,Cortez,Cortez,individual,24.0,neighborhood
+2020-05-01,2020,May,Cortez,Cortez,vehicle,0.0,neighborhood
+2020-05-01,2020,May,Cortez,Cortez,tent,0.0,neighborhood
+2020-05-01,2020,May,Gaslamp,Gaslamp,individual,37.0,neighborhood
+2020-05-01,2020,May,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2020-05-01,2020,May,Gaslamp,Gaslamp,tent,3.0,neighborhood
+2020-06-01,2020,Jun,East Village,East Village,individual,271.0,neighborhood
+2020-06-01,2020,Jun,East Village,East Village,vehicle,12.0,neighborhood
+2020-06-01,2020,Jun,East Village,East Village,tent,70.0,neighborhood
+2020-06-01,2020,Jun,City Center,City Center,individual,112.0,neighborhood
+2020-06-01,2020,Jun,City Center,City Center,vehicle,0.0,neighborhood
+2020-06-01,2020,Jun,City Center,City Center,tent,16.0,neighborhood
+2020-06-01,2020,Jun,Columbia,Columbia,individual,50.0,neighborhood
+2020-06-01,2020,Jun,Columbia,Columbia,vehicle,0.0,neighborhood
+2020-06-01,2020,Jun,Columbia,Columbia,tent,5.0,neighborhood
+2020-06-01,2020,Jun,Marina,Marina,individual,25.0,neighborhood
+2020-06-01,2020,Jun,Marina,Marina,vehicle,0.0,neighborhood
+2020-06-01,2020,Jun,Marina,Marina,tent,2.0,neighborhood
+2020-06-01,2020,Jun,Cortez,Cortez,individual,32.0,neighborhood
+2020-06-01,2020,Jun,Cortez,Cortez,vehicle,0.0,neighborhood
+2020-06-01,2020,Jun,Cortez,Cortez,tent,4.0,neighborhood
+2020-06-01,2020,Jun,Gaslamp,Gaslamp,individual,37.0,neighborhood
+2020-06-01,2020,Jun,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2020-06-01,2020,Jun,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2020-07-01,2020,Jul,East Village,East Village,individual,296.0,neighborhood
+2020-07-01,2020,Jul,East Village,East Village,vehicle,7.0,neighborhood
+2020-07-01,2020,Jul,East Village,East Village,tent,50.0,neighborhood
+2020-07-01,2020,Jul,City Center,City Center,individual,105.0,neighborhood
+2020-07-01,2020,Jul,City Center,City Center,vehicle,0.0,neighborhood
+2020-07-01,2020,Jul,City Center,City Center,tent,9.0,neighborhood
+2020-07-01,2020,Jul,Columbia,Columbia,individual,42.0,neighborhood
+2020-07-01,2020,Jul,Columbia,Columbia,vehicle,1.0,neighborhood
+2020-07-01,2020,Jul,Columbia,Columbia,tent,7.0,neighborhood
+2020-07-01,2020,Jul,Marina,Marina,individual,24.0,neighborhood
+2020-07-01,2020,Jul,Marina,Marina,vehicle,0.0,neighborhood
+2020-07-01,2020,Jul,Marina,Marina,tent,2.0,neighborhood
+2020-07-01,2020,Jul,Cortez,Cortez,individual,22.0,neighborhood
+2020-07-01,2020,Jul,Cortez,Cortez,vehicle,0.0,neighborhood
+2020-07-01,2020,Jul,Cortez,Cortez,tent,1.0,neighborhood
+2020-07-01,2020,Jul,Gaslamp,Gaslamp,individual,46.0,neighborhood
+2020-07-01,2020,Jul,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2020-07-01,2020,Jul,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2020-08-01,2020,Aug,East Village,East Village,individual,258.0,neighborhood
+2020-08-01,2020,Aug,East Village,East Village,vehicle,5.0,neighborhood
+2020-08-01,2020,Aug,East Village,East Village,tent,33.0,neighborhood
+2020-08-01,2020,Aug,City Center,City Center,individual,97.0,neighborhood
+2020-08-01,2020,Aug,City Center,City Center,vehicle,0.0,neighborhood
+2020-08-01,2020,Aug,City Center,City Center,tent,4.0,neighborhood
+2020-08-01,2020,Aug,Columbia,Columbia,individual,41.0,neighborhood
+2020-08-01,2020,Aug,Columbia,Columbia,vehicle,0.0,neighborhood
+2020-08-01,2020,Aug,Columbia,Columbia,tent,4.0,neighborhood
+2020-08-01,2020,Aug,Marina,Marina,individual,21.0,neighborhood
+2020-08-01,2020,Aug,Marina,Marina,vehicle,0.0,neighborhood
+2020-08-01,2020,Aug,Marina,Marina,tent,0.0,neighborhood
+2020-08-01,2020,Aug,Cortez,Cortez,individual,22.0,neighborhood
+2020-08-01,2020,Aug,Cortez,Cortez,vehicle,0.0,neighborhood
+2020-08-01,2020,Aug,Cortez,Cortez,tent,0.0,neighborhood
+2020-08-01,2020,Aug,Gaslamp,Gaslamp,individual,37.0,neighborhood
+2020-08-01,2020,Aug,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2020-08-01,2020,Aug,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2020-09-01,2020,Sep,East Village,East Village,individual,330.0,neighborhood
+2020-09-01,2020,Sep,East Village,East Village,vehicle,6.0,neighborhood
+2020-09-01,2020,Sep,East Village,East Village,tent,60.0,neighborhood
+2020-09-01,2020,Sep,City Center,City Center,individual,112.0,neighborhood
+2020-09-01,2020,Sep,City Center,City Center,vehicle,1.0,neighborhood
+2020-09-01,2020,Sep,City Center,City Center,tent,6.0,neighborhood
+2020-09-01,2020,Sep,Columbia,Columbia,individual,49.0,neighborhood
+2020-09-01,2020,Sep,Columbia,Columbia,vehicle,0.0,neighborhood
+2020-09-01,2020,Sep,Columbia,Columbia,tent,4.0,neighborhood
+2020-09-01,2020,Sep,Marina,Marina,individual,22.0,neighborhood
+2020-09-01,2020,Sep,Marina,Marina,vehicle,0.0,neighborhood
+2020-09-01,2020,Sep,Marina,Marina,tent,3.0,neighborhood
+2020-09-01,2020,Sep,Cortez,Cortez,individual,17.0,neighborhood
+2020-09-01,2020,Sep,Cortez,Cortez,vehicle,0.0,neighborhood
+2020-09-01,2020,Sep,Cortez,Cortez,tent,0.0,neighborhood
+2020-09-01,2020,Sep,Gaslamp,Gaslamp,individual,45.0,neighborhood
+2020-09-01,2020,Sep,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2020-09-01,2020,Sep,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2020-10-01,2020,Oct,East Village,East Village,individual,280.0,neighborhood
+2020-10-01,2020,Oct,East Village,East Village,vehicle,7.0,neighborhood
+2020-10-01,2020,Oct,East Village,East Village,tent,61.0,neighborhood
+2020-10-01,2020,Oct,City Center,City Center,individual,93.0,neighborhood
+2020-10-01,2020,Oct,City Center,City Center,vehicle,1.0,neighborhood
+2020-10-01,2020,Oct,City Center,City Center,tent,9.0,neighborhood
+2020-10-01,2020,Oct,Columbia,Columbia,individual,33.0,neighborhood
+2020-10-01,2020,Oct,Columbia,Columbia,vehicle,0.0,neighborhood
+2020-10-01,2020,Oct,Columbia,Columbia,tent,5.0,neighborhood
+2020-10-01,2020,Oct,Marina,Marina,individual,13.0,neighborhood
+2020-10-01,2020,Oct,Marina,Marina,vehicle,0.0,neighborhood
+2020-10-01,2020,Oct,Marina,Marina,tent,2.0,neighborhood
+2020-10-01,2020,Oct,Cortez,Cortez,individual,33.0,neighborhood
+2020-10-01,2020,Oct,Cortez,Cortez,vehicle,0.0,neighborhood
+2020-10-01,2020,Oct,Cortez,Cortez,tent,0.0,neighborhood
+2020-10-01,2020,Oct,Gaslamp,Gaslamp,individual,31.0,neighborhood
+2020-10-01,2020,Oct,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2020-10-01,2020,Oct,Gaslamp,Gaslamp,tent,2.0,neighborhood
+2020-11-01,2020,Nov,East Village,East Village,individual,257.0,neighborhood
+2020-11-01,2020,Nov,East Village,East Village,vehicle,10.0,neighborhood
+2020-11-01,2020,Nov,East Village,East Village,tent,87.0,neighborhood
+2020-11-01,2020,Nov,City Center,City Center,individual,103.0,neighborhood
+2020-11-01,2020,Nov,City Center,City Center,vehicle,1.0,neighborhood
+2020-11-01,2020,Nov,City Center,City Center,tent,12.0,neighborhood
+2020-11-01,2020,Nov,Columbia,Columbia,individual,46.0,neighborhood
+2020-11-01,2020,Nov,Columbia,Columbia,vehicle,0.0,neighborhood
+2020-11-01,2020,Nov,Columbia,Columbia,tent,5.0,neighborhood
+2020-11-01,2020,Nov,Marina,Marina,individual,24.0,neighborhood
+2020-11-01,2020,Nov,Marina,Marina,vehicle,0.0,neighborhood
+2020-11-01,2020,Nov,Marina,Marina,tent,6.0,neighborhood
+2020-11-01,2020,Nov,Cortez,Cortez,individual,23.0,neighborhood
+2020-11-01,2020,Nov,Cortez,Cortez,vehicle,0.0,neighborhood
+2020-11-01,2020,Nov,Cortez,Cortez,tent,0.0,neighborhood
+2020-11-01,2020,Nov,Gaslamp,Gaslamp,individual,27.0,neighborhood
+2020-11-01,2020,Nov,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2020-11-01,2020,Nov,Gaslamp,Gaslamp,tent,2.0,neighborhood
+2020-12-01,2020,Dec,East Village,East Village,individual,170.0,neighborhood
+2020-12-01,2020,Dec,East Village,East Village,vehicle,5.0,neighborhood
+2020-12-01,2020,Dec,East Village,East Village,tent,88.0,neighborhood
+2020-12-01,2020,Dec,City Center,City Center,individual,109.0,neighborhood
+2020-12-01,2020,Dec,City Center,City Center,vehicle,0.0,neighborhood
+2020-12-01,2020,Dec,City Center,City Center,tent,14.0,neighborhood
+2020-12-01,2020,Dec,Columbia,Columbia,individual,46.0,neighborhood
+2020-12-01,2020,Dec,Columbia,Columbia,vehicle,0.0,neighborhood
+2020-12-01,2020,Dec,Columbia,Columbia,tent,4.0,neighborhood
+2020-12-01,2020,Dec,Marina,Marina,individual,11.0,neighborhood
+2020-12-01,2020,Dec,Marina,Marina,vehicle,0.0,neighborhood
+2020-12-01,2020,Dec,Marina,Marina,tent,0.0,neighborhood
+2020-12-01,2020,Dec,Cortez,Cortez,individual,26.0,neighborhood
+2020-12-01,2020,Dec,Cortez,Cortez,vehicle,0.0,neighborhood
+2020-12-01,2020,Dec,Cortez,Cortez,tent,15.0,neighborhood
+2020-12-01,2020,Dec,Gaslamp,Gaslamp,individual,36.0,neighborhood
+2020-12-01,2020,Dec,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2020-12-01,2020,Dec,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2021-01-01,2021,Jan,East Village,East Village,individual,198.0,neighborhood
+2021-01-01,2021,Jan,East Village,East Village,vehicle,4.0,neighborhood
+2021-01-01,2021,Jan,East Village,East Village,tent,116.0,neighborhood
+2021-01-01,2021,Jan,City Center,City Center,individual,123.0,neighborhood
+2021-01-01,2021,Jan,City Center,City Center,vehicle,1.0,neighborhood
+2021-01-01,2021,Jan,City Center,City Center,tent,16.0,neighborhood
+2021-01-01,2021,Jan,Columbia,Columbia,individual,44.0,neighborhood
+2021-01-01,2021,Jan,Columbia,Columbia,vehicle,0.0,neighborhood
+2021-01-01,2021,Jan,Columbia,Columbia,tent,6.0,neighborhood
+2021-01-01,2021,Jan,Marina,Marina,individual,13.0,neighborhood
+2021-01-01,2021,Jan,Marina,Marina,vehicle,0.0,neighborhood
+2021-01-01,2021,Jan,Marina,Marina,tent,4.0,neighborhood
+2021-01-01,2021,Jan,Cortez,Cortez,individual,26.0,neighborhood
+2021-01-01,2021,Jan,Cortez,Cortez,vehicle,0.0,neighborhood
+2021-01-01,2021,Jan,Cortez,Cortez,tent,12.0,neighborhood
+2021-01-01,2021,Jan,Gaslamp,Gaslamp,individual,29.0,neighborhood
+2021-01-01,2021,Jan,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2021-01-01,2021,Jan,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2021-02-01,2021,Feb,East Village,East Village,individual,163.0,neighborhood
+2021-02-01,2021,Feb,East Village,East Village,vehicle,17.0,neighborhood
+2021-02-01,2021,Feb,East Village,East Village,tent,105.0,neighborhood
+2021-02-01,2021,Feb,City Center,City Center,individual,104.0,neighborhood
+2021-02-01,2021,Feb,City Center,City Center,vehicle,2.0,neighborhood
+2021-02-01,2021,Feb,City Center,City Center,tent,18.0,neighborhood
+2021-02-01,2021,Feb,Columbia,Columbia,individual,31.0,neighborhood
+2021-02-01,2021,Feb,Columbia,Columbia,vehicle,1.0,neighborhood
+2021-02-01,2021,Feb,Columbia,Columbia,tent,8.0,neighborhood
+2021-02-01,2021,Feb,Marina,Marina,individual,17.0,neighborhood
+2021-02-01,2021,Feb,Marina,Marina,vehicle,0.0,neighborhood
+2021-02-01,2021,Feb,Marina,Marina,tent,4.0,neighborhood
+2021-02-01,2021,Feb,Cortez,Cortez,individual,32.0,neighborhood
+2021-02-01,2021,Feb,Cortez,Cortez,vehicle,0.0,neighborhood
+2021-02-01,2021,Feb,Cortez,Cortez,tent,7.0,neighborhood
+2021-02-01,2021,Feb,Gaslamp,Gaslamp,individual,30.0,neighborhood
+2021-02-01,2021,Feb,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2021-02-01,2021,Feb,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2021-03-01,2021,Mar,East Village,East Village,individual,205.0,neighborhood
+2021-03-01,2021,Mar,East Village,East Village,vehicle,6.0,neighborhood
+2021-03-01,2021,Mar,East Village,East Village,tent,127.0,neighborhood
+2021-03-01,2021,Mar,City Center,City Center,individual,104.0,neighborhood
+2021-03-01,2021,Mar,City Center,City Center,vehicle,0.0,neighborhood
+2021-03-01,2021,Mar,City Center,City Center,tent,27.0,neighborhood
+2021-03-01,2021,Mar,Columbia,Columbia,individual,29.0,neighborhood
+2021-03-01,2021,Mar,Columbia,Columbia,vehicle,0.0,neighborhood
+2021-03-01,2021,Mar,Columbia,Columbia,tent,9.0,neighborhood
+2021-03-01,2021,Mar,Marina,Marina,individual,21.0,neighborhood
+2021-03-01,2021,Mar,Marina,Marina,vehicle,0.0,neighborhood
+2021-03-01,2021,Mar,Marina,Marina,tent,3.0,neighborhood
+2021-03-01,2021,Mar,Cortez,Cortez,individual,23.0,neighborhood
+2021-03-01,2021,Mar,Cortez,Cortez,vehicle,0.0,neighborhood
+2021-03-01,2021,Mar,Cortez,Cortez,tent,4.0,neighborhood
+2021-03-01,2021,Mar,Gaslamp,Gaslamp,individual,28.0,neighborhood
+2021-03-01,2021,Mar,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2021-03-01,2021,Mar,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2021-04-01,2021,Apr,East Village,East Village,individual,155.0,neighborhood
+2021-04-01,2021,Apr,East Village,East Village,vehicle,6.0,neighborhood
+2021-04-01,2021,Apr,East Village,East Village,tent,134.0,neighborhood
+2021-04-01,2021,Apr,City Center,City Center,individual,94.0,neighborhood
+2021-04-01,2021,Apr,City Center,City Center,vehicle,0.0,neighborhood
+2021-04-01,2021,Apr,City Center,City Center,tent,22.0,neighborhood
+2021-04-01,2021,Apr,Columbia,Columbia,individual,28.0,neighborhood
+2021-04-01,2021,Apr,Columbia,Columbia,vehicle,0.0,neighborhood
+2021-04-01,2021,Apr,Columbia,Columbia,tent,8.0,neighborhood
+2021-04-01,2021,Apr,Marina,Marina,individual,14.0,neighborhood
+2021-04-01,2021,Apr,Marina,Marina,vehicle,0.0,neighborhood
+2021-04-01,2021,Apr,Marina,Marina,tent,1.0,neighborhood
+2021-04-01,2021,Apr,Cortez,Cortez,individual,25.0,neighborhood
+2021-04-01,2021,Apr,Cortez,Cortez,vehicle,0.0,neighborhood
+2021-04-01,2021,Apr,Cortez,Cortez,tent,4.0,neighborhood
+2021-04-01,2021,Apr,Gaslamp,Gaslamp,individual,27.0,neighborhood
+2021-04-01,2021,Apr,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2021-04-01,2021,Apr,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2021-05-01,2021,May,East Village,East Village,individual,227.0,neighborhood
+2021-05-01,2021,May,East Village,East Village,vehicle,8.0,neighborhood
+2021-05-01,2021,May,East Village,East Village,tent,154.0,neighborhood
+2021-05-01,2021,May,City Center,City Center,individual,104.0,neighborhood
+2021-05-01,2021,May,City Center,City Center,vehicle,1.0,neighborhood
+2021-05-01,2021,May,City Center,City Center,tent,18.0,neighborhood
+2021-05-01,2021,May,Columbia,Columbia,individual,49.0,neighborhood
+2021-05-01,2021,May,Columbia,Columbia,vehicle,0.0,neighborhood
+2021-05-01,2021,May,Columbia,Columbia,tent,6.0,neighborhood
+2021-05-01,2021,May,Marina,Marina,individual,17.0,neighborhood
+2021-05-01,2021,May,Marina,Marina,vehicle,0.0,neighborhood
+2021-05-01,2021,May,Marina,Marina,tent,4.0,neighborhood
+2021-05-01,2021,May,Cortez,Cortez,individual,28.0,neighborhood
+2021-05-01,2021,May,Cortez,Cortez,vehicle,0.0,neighborhood
+2021-05-01,2021,May,Cortez,Cortez,tent,1.0,neighborhood
+2021-05-01,2021,May,Gaslamp,Gaslamp,individual,35.0,neighborhood
+2021-05-01,2021,May,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2021-05-01,2021,May,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2021-06-01,2021,Jun,East Village,East Village,individual,232.0,neighborhood
+2021-06-01,2021,Jun,East Village,East Village,vehicle,5.0,neighborhood
+2021-06-01,2021,Jun,East Village,East Village,tent,147.0,neighborhood
+2021-06-01,2021,Jun,City Center,City Center,individual,108.0,neighborhood
+2021-06-01,2021,Jun,City Center,City Center,vehicle,0.0,neighborhood
+2021-06-01,2021,Jun,City Center,City Center,tent,20.0,neighborhood
+2021-06-01,2021,Jun,Columbia,Columbia,individual,39.0,neighborhood
+2021-06-01,2021,Jun,Columbia,Columbia,vehicle,1.0,neighborhood
+2021-06-01,2021,Jun,Columbia,Columbia,tent,7.0,neighborhood
+2021-06-01,2021,Jun,Marina,Marina,individual,13.0,neighborhood
+2021-06-01,2021,Jun,Marina,Marina,vehicle,0.0,neighborhood
+2021-06-01,2021,Jun,Marina,Marina,tent,5.0,neighborhood
+2021-06-01,2021,Jun,Cortez,Cortez,individual,27.0,neighborhood
+2021-06-01,2021,Jun,Cortez,Cortez,vehicle,0.0,neighborhood
+2021-06-01,2021,Jun,Cortez,Cortez,tent,0.0,neighborhood
+2021-06-01,2021,Jun,Gaslamp,Gaslamp,individual,43.0,neighborhood
+2021-06-01,2021,Jun,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2021-06-01,2021,Jun,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2021-07-01,2021,Jul,East Village,East Village,individual,259.0,neighborhood
+2021-07-01,2021,Jul,East Village,East Village,vehicle,9.0,neighborhood
+2021-07-01,2021,Jul,East Village,East Village,tent,107.0,neighborhood
+2021-07-01,2021,Jul,City Center,City Center,individual,102.0,neighborhood
+2021-07-01,2021,Jul,City Center,City Center,vehicle,1.0,neighborhood
+2021-07-01,2021,Jul,City Center,City Center,tent,11.0,neighborhood
+2021-07-01,2021,Jul,Columbia,Columbia,individual,50.0,neighborhood
+2021-07-01,2021,Jul,Columbia,Columbia,vehicle,0.0,neighborhood
+2021-07-01,2021,Jul,Columbia,Columbia,tent,4.0,neighborhood
+2021-07-01,2021,Jul,Marina,Marina,individual,20.0,neighborhood
+2021-07-01,2021,Jul,Marina,Marina,vehicle,1.0,neighborhood
+2021-07-01,2021,Jul,Marina,Marina,tent,0.0,neighborhood
+2021-07-01,2021,Jul,Cortez,Cortez,individual,38.0,neighborhood
+2021-07-01,2021,Jul,Cortez,Cortez,vehicle,1.0,neighborhood
+2021-07-01,2021,Jul,Cortez,Cortez,tent,2.0,neighborhood
+2021-07-01,2021,Jul,Gaslamp,Gaslamp,individual,21.0,neighborhood
+2021-07-01,2021,Jul,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2021-07-01,2021,Jul,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2021-08-01,2021,Aug,East Village,East Village,individual,261.0,neighborhood
+2021-08-01,2021,Aug,East Village,East Village,vehicle,13.0,neighborhood
+2021-08-01,2021,Aug,East Village,East Village,tent,104.0,neighborhood
+2021-08-01,2021,Aug,City Center,City Center,individual,111.0,neighborhood
+2021-08-01,2021,Aug,City Center,City Center,vehicle,3.0,neighborhood
+2021-08-01,2021,Aug,City Center,City Center,tent,20.0,neighborhood
+2021-08-01,2021,Aug,Columbia,Columbia,individual,49.0,neighborhood
+2021-08-01,2021,Aug,Columbia,Columbia,vehicle,0.0,neighborhood
+2021-08-01,2021,Aug,Columbia,Columbia,tent,6.0,neighborhood
+2021-08-01,2021,Aug,Marina,Marina,individual,21.0,neighborhood
+2021-08-01,2021,Aug,Marina,Marina,vehicle,0.0,neighborhood
+2021-08-01,2021,Aug,Marina,Marina,tent,5.0,neighborhood
+2021-08-01,2021,Aug,Cortez,Cortez,individual,34.0,neighborhood
+2021-08-01,2021,Aug,Cortez,Cortez,vehicle,0.0,neighborhood
+2021-08-01,2021,Aug,Cortez,Cortez,tent,0.0,neighborhood
+2021-08-01,2021,Aug,Gaslamp,Gaslamp,individual,31.0,neighborhood
+2021-08-01,2021,Aug,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2021-08-01,2021,Aug,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2021-09-01,2021,Sep,East Village,East Village,individual,254.0,neighborhood
+2021-09-01,2021,Sep,East Village,East Village,vehicle,7.0,neighborhood
+2021-09-01,2021,Sep,East Village,East Village,tent,97.0,neighborhood
+2021-09-01,2021,Sep,Columbia,Columbia,individual,75.0,neighborhood
+2021-09-01,2021,Sep,Columbia,Columbia,vehicle,0.0,neighborhood
+2021-09-01,2021,Sep,Columbia,Columbia,tent,3.0,neighborhood
+2021-09-01,2021,Sep,Marina,Marina,individual,17.0,neighborhood
+2021-09-01,2021,Sep,Marina,Marina,vehicle,0.0,neighborhood
+2021-09-01,2021,Sep,Marina,Marina,tent,7.0,neighborhood
+2021-09-01,2021,Sep,Cortez,Cortez,individual,27.0,neighborhood
+2021-09-01,2021,Sep,Cortez,Cortez,vehicle,0.0,neighborhood
+2021-09-01,2021,Sep,Cortez,Cortez,tent,1.0,neighborhood
+2021-09-01,2021,Sep,Gaslamp,Gaslamp,individual,42.0,neighborhood
+2021-09-01,2021,Sep,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2021-09-01,2021,Sep,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2021-10-01,2021,Oct,East Village,East Village,individual,294.0,neighborhood
+2021-10-01,2021,Oct,East Village,East Village,vehicle,15.0,neighborhood
+2021-10-01,2021,Oct,East Village,East Village,tent,124.0,neighborhood
+2021-10-01,2021,Oct,City Center,City Center,individual,108.0,neighborhood
+2021-10-01,2021,Oct,City Center,City Center,vehicle,2.0,neighborhood
+2021-10-01,2021,Oct,City Center,City Center,tent,19.0,neighborhood
+2021-10-01,2021,Oct,Columbia,Columbia,individual,39.0,neighborhood
+2021-10-01,2021,Oct,Columbia,Columbia,vehicle,0.0,neighborhood
+2021-10-01,2021,Oct,Columbia,Columbia,tent,10.0,neighborhood
+2021-10-01,2021,Oct,Marina,Marina,individual,19.0,neighborhood
+2021-10-01,2021,Oct,Marina,Marina,vehicle,2.0,neighborhood
+2021-10-01,2021,Oct,Marina,Marina,tent,4.0,neighborhood
+2021-10-01,2021,Oct,Cortez,Cortez,individual,31.0,neighborhood
+2021-10-01,2021,Oct,Cortez,Cortez,vehicle,0.0,neighborhood
+2021-10-01,2021,Oct,Cortez,Cortez,tent,2.0,neighborhood
+2021-10-01,2021,Oct,Gaslamp,Gaslamp,individual,49.0,neighborhood
+2021-10-01,2021,Oct,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2021-10-01,2021,Oct,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2021-11-01,2021,Nov,East Village,East Village,individual,265.0,neighborhood
+2021-11-01,2021,Nov,East Village,East Village,vehicle,16.0,neighborhood
+2021-11-01,2021,Nov,East Village,East Village,tent,139.0,neighborhood
+2021-11-01,2021,Nov,City Center,City Center,individual,140.0,neighborhood
+2021-11-01,2021,Nov,City Center,City Center,vehicle,1.0,neighborhood
+2021-11-01,2021,Nov,City Center,City Center,tent,22.0,neighborhood
+2021-11-01,2021,Nov,Columbia,Columbia,individual,48.0,neighborhood
+2021-11-01,2021,Nov,Columbia,Columbia,vehicle,0.0,neighborhood
+2021-11-01,2021,Nov,Columbia,Columbia,tent,7.0,neighborhood
+2021-11-01,2021,Nov,Marina,Marina,individual,31.0,neighborhood
+2021-11-01,2021,Nov,Marina,Marina,vehicle,0.0,neighborhood
+2021-11-01,2021,Nov,Marina,Marina,tent,6.0,neighborhood
+2021-11-01,2021,Nov,Cortez,Cortez,individual,24.0,neighborhood
+2021-11-01,2021,Nov,Cortez,Cortez,vehicle,0.0,neighborhood
+2021-11-01,2021,Nov,Cortez,Cortez,tent,4.0,neighborhood
+2021-11-01,2021,Nov,Gaslamp,Gaslamp,individual,41.0,neighborhood
+2021-11-01,2021,Nov,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2021-11-01,2021,Nov,Gaslamp,Gaslamp,tent,3.0,neighborhood
+2021-12-01,2021,Dec,East Village,East Village,individual,305.0,neighborhood
+2021-12-01,2021,Dec,East Village,East Village,vehicle,21.0,neighborhood
+2021-12-01,2021,Dec,East Village,East Village,tent,151.0,neighborhood
+2021-12-01,2021,Dec,City Center,City Center,individual,127.0,neighborhood
+2021-12-01,2021,Dec,City Center,City Center,vehicle,2.0,neighborhood
+2021-12-01,2021,Dec,City Center,City Center,tent,31.0,neighborhood
+2021-12-01,2021,Dec,Columbia,Columbia,individual,47.0,neighborhood
+2021-12-01,2021,Dec,Columbia,Columbia,vehicle,0.0,neighborhood
+2021-12-01,2021,Dec,Columbia,Columbia,tent,7.0,neighborhood
+2021-12-01,2021,Dec,Cortez,Cortez,individual,28.0,neighborhood
+2021-12-01,2021,Dec,Cortez,Cortez,vehicle,0.0,neighborhood
+2021-12-01,2021,Dec,Cortez,Cortez,tent,10.0,neighborhood
+2021-12-01,2021,Dec,Gaslamp,Gaslamp,individual,54.0,neighborhood
+2021-12-01,2021,Dec,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2021-12-01,2021,Dec,Gaslamp,Gaslamp,tent,3.0,neighborhood
+2022-01-01,2022,Jan,East Village,East Village,individual,256.0,neighborhood
+2022-01-01,2022,Jan,East Village,East Village,vehicle,14.0,neighborhood
+2022-01-01,2022,Jan,East Village,East Village,tent,225.0,neighborhood
+2022-01-01,2022,Jan,City Center,City Center,individual,127.0,neighborhood
+2022-01-01,2022,Jan,City Center,City Center,vehicle,1.0,neighborhood
+2022-01-01,2022,Jan,City Center,City Center,tent,48.0,neighborhood
+2022-01-01,2022,Jan,Columbia,Columbia,individual,49.0,neighborhood
+2022-01-01,2022,Jan,Columbia,Columbia,vehicle,0.0,neighborhood
+2022-01-01,2022,Jan,Columbia,Columbia,tent,7.0,neighborhood
+2022-01-01,2022,Jan,Marina,Marina,individual,24.0,neighborhood
+2022-01-01,2022,Jan,Marina,Marina,vehicle,1.0,neighborhood
+2022-01-01,2022,Jan,Marina,Marina,tent,9.0,neighborhood
+2022-01-01,2022,Jan,Cortez,Cortez,individual,37.0,neighborhood
+2022-01-01,2022,Jan,Cortez,Cortez,vehicle,3.0,neighborhood
+2022-01-01,2022,Jan,Cortez,Cortez,tent,28.0,neighborhood
+2022-01-01,2022,Jan,Gaslamp,Gaslamp,individual,60.0,neighborhood
+2022-01-01,2022,Jan,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2022-01-01,2022,Jan,Gaslamp,Gaslamp,tent,2.0,neighborhood
+2022-02-01,2022,Feb,East Village,East Village,individual,294.0,neighborhood
+2022-02-01,2022,Feb,East Village,East Village,vehicle,20.0,neighborhood
+2022-02-01,2022,Feb,East Village,East Village,tent,232.0,neighborhood
+2022-02-01,2022,Feb,City Center,City Center,individual,100.0,neighborhood
+2022-02-01,2022,Feb,City Center,City Center,vehicle,1.0,neighborhood
+2022-02-01,2022,Feb,City Center,City Center,tent,48.0,neighborhood
+2022-02-01,2022,Feb,Columbia,Columbia,individual,55.0,neighborhood
+2022-02-01,2022,Feb,Columbia,Columbia,vehicle,0.0,neighborhood
+2022-02-01,2022,Feb,Columbia,Columbia,tent,9.0,neighborhood
+2022-02-01,2022,Feb,Marina,Marina,individual,16.0,neighborhood
+2022-02-01,2022,Feb,Marina,Marina,vehicle,0.0,neighborhood
+2022-02-01,2022,Feb,Marina,Marina,tent,1.0,neighborhood
+2022-02-01,2022,Feb,Cortez,Cortez,individual,40.0,neighborhood
+2022-02-01,2022,Feb,Cortez,Cortez,vehicle,5.0,neighborhood
+2022-02-01,2022,Feb,Cortez,Cortez,tent,39.0,neighborhood
+2022-02-01,2022,Feb,Gaslamp,Gaslamp,individual,37.0,neighborhood
+2022-02-01,2022,Feb,Gaslamp,Gaslamp,vehicle,1.0,neighborhood
+2022-02-01,2022,Feb,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2022-03-01,2022,Mar,East Village,East Village,individual,248.0,neighborhood
+2022-03-01,2022,Mar,East Village,East Village,vehicle,12.0,neighborhood
+2022-03-01,2022,Mar,East Village,East Village,tent,200.0,neighborhood
+2022-03-01,2022,Mar,City Center,City Center,individual,97.0,neighborhood
+2022-03-01,2022,Mar,City Center,City Center,vehicle,0.0,neighborhood
+2022-03-01,2022,Mar,City Center,City Center,tent,67.0,neighborhood
+2022-03-01,2022,Mar,Columbia,Columbia,individual,45.0,neighborhood
+2022-03-01,2022,Mar,Columbia,Columbia,vehicle,0.0,neighborhood
+2022-03-01,2022,Mar,Columbia,Columbia,tent,10.0,neighborhood
+2022-03-01,2022,Mar,Marina,Marina,individual,28.0,neighborhood
+2022-03-01,2022,Mar,Marina,Marina,vehicle,0.0,neighborhood
+2022-03-01,2022,Mar,Marina,Marina,tent,5.0,neighborhood
+2022-03-01,2022,Mar,Cortez,Cortez,individual,24.0,neighborhood
+2022-03-01,2022,Mar,Cortez,Cortez,vehicle,0.0,neighborhood
+2022-03-01,2022,Mar,Cortez,Cortez,tent,7.0,neighborhood
+2022-03-01,2022,Mar,Gaslamp,Gaslamp,individual,66.0,neighborhood
+2022-03-01,2022,Mar,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2022-03-01,2022,Mar,Gaslamp,Gaslamp,tent,2.0,neighborhood
+2022-04-01,2022,Apr,East Village,East Village,individual,302.0,neighborhood
+2022-04-01,2022,Apr,East Village,East Village,vehicle,7.0,neighborhood
+2022-04-01,2022,Apr,East Village,East Village,tent,194.0,neighborhood
+2022-04-01,2022,Apr,City Center,City Center,individual,149.0,neighborhood
+2022-04-01,2022,Apr,City Center,City Center,vehicle,1.0,neighborhood
+2022-04-01,2022,Apr,City Center,City Center,tent,71.0,neighborhood
+2022-04-01,2022,Apr,Columbia,Columbia,individual,47.0,neighborhood
+2022-04-01,2022,Apr,Columbia,Columbia,vehicle,0.0,neighborhood
+2022-04-01,2022,Apr,Columbia,Columbia,tent,9.0,neighborhood
+2022-04-01,2022,Apr,Marina,Marina,individual,25.0,neighborhood
+2022-04-01,2022,Apr,Marina,Marina,vehicle,4.0,neighborhood
+2022-04-01,2022,Apr,Marina,Marina,tent,6.0,neighborhood
+2022-04-01,2022,Apr,Cortez,Cortez,individual,35.0,neighborhood
+2022-04-01,2022,Apr,Cortez,Cortez,vehicle,4.0,neighborhood
+2022-04-01,2022,Apr,Cortez,Cortez,tent,17.0,neighborhood
+2022-04-01,2022,Apr,Gaslamp,Gaslamp,individual,44.0,neighborhood
+2022-04-01,2022,Apr,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2022-04-01,2022,Apr,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2022-05-01,2022,May,East Village,East Village,individual,169.0,neighborhood
+2022-05-01,2022,May,East Village,East Village,vehicle,6.0,neighborhood
+2022-05-01,2022,May,East Village,East Village,tent,253.0,neighborhood
+2022-05-01,2022,May,City Center,City Center,individual,80.0,neighborhood
+2022-05-01,2022,May,City Center,City Center,vehicle,1.0,neighborhood
+2022-05-01,2022,May,City Center,City Center,tent,81.0,neighborhood
+2022-05-01,2022,May,Columbia,Columbia,individual,33.0,neighborhood
+2022-05-01,2022,May,Columbia,Columbia,vehicle,0.0,neighborhood
+2022-05-01,2022,May,Columbia,Columbia,tent,8.0,neighborhood
+2022-05-01,2022,May,Marina,Marina,individual,8.0,neighborhood
+2022-05-01,2022,May,Marina,Marina,vehicle,1.0,neighborhood
+2022-05-01,2022,May,Marina,Marina,tent,0.0,neighborhood
+2022-05-01,2022,May,Cortez,Cortez,individual,18.0,neighborhood
+2022-05-01,2022,May,Cortez,Cortez,vehicle,1.0,neighborhood
+2022-05-01,2022,May,Cortez,Cortez,tent,23.0,neighborhood
+2022-05-01,2022,May,Gaslamp,Gaslamp,individual,42.0,neighborhood
+2022-05-01,2022,May,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2022-05-01,2022,May,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2022-06-01,2022,Jun,East Village,East Village,individual,343.0,neighborhood
+2022-06-01,2022,Jun,East Village,East Village,vehicle,24.0,neighborhood
+2022-06-01,2022,Jun,East Village,East Village,tent,183.0,neighborhood
+2022-06-01,2022,Jun,City Center,City Center,individual,141.0,neighborhood
+2022-06-01,2022,Jun,City Center,City Center,vehicle,0.0,neighborhood
+2022-06-01,2022,Jun,City Center,City Center,tent,57.0,neighborhood
+2022-06-01,2022,Jun,Columbia,Columbia,individual,67.0,neighborhood
+2022-06-01,2022,Jun,Columbia,Columbia,vehicle,0.0,neighborhood
+2022-06-01,2022,Jun,Columbia,Columbia,tent,10.0,neighborhood
+2022-06-01,2022,Jun,Marina,Marina,individual,39.0,neighborhood
+2022-06-01,2022,Jun,Marina,Marina,vehicle,2.0,neighborhood
+2022-06-01,2022,Jun,Marina,Marina,tent,5.0,neighborhood
+2022-06-01,2022,Jun,Cortez,Cortez,individual,28.0,neighborhood
+2022-06-01,2022,Jun,Cortez,Cortez,vehicle,2.0,neighborhood
+2022-06-01,2022,Jun,Cortez,Cortez,tent,11.0,neighborhood
+2022-06-01,2022,Jun,Gaslamp,Gaslamp,individual,50.0,neighborhood
+2022-06-01,2022,Jun,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2022-06-01,2022,Jun,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2022-07-01,2022,Jul,East Village,East Village,individual,204.0,neighborhood
+2022-07-01,2022,Jul,East Village,East Village,vehicle,15.0,neighborhood
+2022-07-01,2022,Jul,East Village,East Village,tent,208.0,neighborhood
+2022-07-01,2022,Jul,City Center,City Center,individual,110.0,neighborhood
+2022-07-01,2022,Jul,City Center,City Center,vehicle,0.0,neighborhood
+2022-07-01,2022,Jul,City Center,City Center,tent,71.0,neighborhood
+2022-07-01,2022,Jul,Columbia,Columbia,individual,26.0,neighborhood
+2022-07-01,2022,Jul,Columbia,Columbia,vehicle,0.0,neighborhood
+2022-07-01,2022,Jul,Columbia,Columbia,tent,5.0,neighborhood
+2022-07-01,2022,Jul,Marina,Marina,individual,0.0,neighborhood
+2022-07-01,2022,Jul,Marina,Marina,vehicle,2.0,neighborhood
+2022-07-01,2022,Jul,Marina,Marina,tent,0.0,neighborhood
+2022-07-01,2022,Jul,Cortez,Cortez,individual,42.0,neighborhood
+2022-07-01,2022,Jul,Cortez,Cortez,vehicle,1.0,neighborhood
+2022-07-01,2022,Jul,Cortez,Cortez,tent,20.0,neighborhood
+2022-07-01,2022,Jul,Gaslamp,Gaslamp,individual,26.0,neighborhood
+2022-07-01,2022,Jul,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2022-07-01,2022,Jul,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2022-08-01,2022,Aug,East Village,East Village,individual,357.0,neighborhood
+2022-08-01,2022,Aug,East Village,East Village,vehicle,26.0,neighborhood
+2022-08-01,2022,Aug,East Village,East Village,tent,217.0,neighborhood
+2022-08-01,2022,Aug,City Center,City Center,individual,173.0,neighborhood
+2022-08-01,2022,Aug,City Center,City Center,vehicle,1.0,neighborhood
+2022-08-01,2022,Aug,City Center,City Center,tent,53.0,neighborhood
+2022-08-01,2022,Aug,Columbia,Columbia,individual,44.0,neighborhood
+2022-08-01,2022,Aug,Columbia,Columbia,vehicle,0.0,neighborhood
+2022-08-01,2022,Aug,Columbia,Columbia,tent,7.0,neighborhood
+2022-08-01,2022,Aug,Marina,Marina,individual,29.0,neighborhood
+2022-08-01,2022,Aug,Marina,Marina,vehicle,2.0,neighborhood
+2022-08-01,2022,Aug,Marina,Marina,tent,6.0,neighborhood
+2022-08-01,2022,Aug,Cortez,Cortez,individual,53.0,neighborhood
+2022-08-01,2022,Aug,Cortez,Cortez,vehicle,1.0,neighborhood
+2022-08-01,2022,Aug,Cortez,Cortez,tent,16.0,neighborhood
+2022-08-01,2022,Aug,Gaslamp,Gaslamp,individual,44.0,neighborhood
+2022-08-01,2022,Aug,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2022-08-01,2022,Aug,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2022-09-01,2022,Sep,East Village,East Village,individual,318.0,neighborhood
+2022-09-01,2022,Sep,East Village,East Village,vehicle,22.0,neighborhood
+2022-09-01,2022,Sep,East Village,East Village,tent,276.0,neighborhood
+2022-09-01,2022,Sep,City Center,City Center,individual,136.0,neighborhood
+2022-09-01,2022,Sep,City Center,City Center,vehicle,2.0,neighborhood
+2022-09-01,2022,Sep,City Center,City Center,tent,54.0,neighborhood
+2022-09-01,2022,Sep,Columbia,Columbia,individual,24.0,neighborhood
+2022-09-01,2022,Sep,Columbia,Columbia,vehicle,0.0,neighborhood
+2022-09-01,2022,Sep,Columbia,Columbia,tent,4.0,neighborhood
+2022-09-01,2022,Sep,Cortez,Cortez,individual,38.0,neighborhood
+2022-09-01,2022,Sep,Cortez,Cortez,vehicle,0.0,neighborhood
+2022-09-01,2022,Sep,Cortez,Cortez,tent,22.0,neighborhood
+2022-09-01,2022,Sep,Marina,Marina,individual,16.0,neighborhood
+2022-09-01,2022,Sep,Marina,Marina,vehicle,0.0,neighborhood
+2022-09-01,2022,Sep,Marina,Marina,tent,3.0,neighborhood
+2022-09-01,2022,Sep,Gaslamp,Gaslamp,individual,57.0,neighborhood
+2022-09-01,2022,Sep,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2022-09-01,2022,Sep,Gaslamp,Gaslamp,tent,3.0,neighborhood
+2022-10-01,2022,Oct,East Village,East Village,individual,354.0,neighborhood
+2022-10-01,2022,Oct,East Village,East Village,vehicle,24.0,neighborhood
+2022-10-01,2022,Oct,East Village,East Village,tent,172.0,neighborhood
+2022-10-01,2022,Oct,City Center,City Center,individual,180.0,neighborhood
+2022-10-01,2022,Oct,City Center,City Center,vehicle,2.0,neighborhood
+2022-10-01,2022,Oct,City Center,City Center,tent,57.0,neighborhood
+2022-10-01,2022,Oct,Columbia,Columbia,individual,22.0,neighborhood
+2022-10-01,2022,Oct,Columbia,Columbia,vehicle,0.0,neighborhood
+2022-10-01,2022,Oct,Columbia,Columbia,tent,4.0,neighborhood
+2022-10-01,2022,Oct,Marina,Marina,individual,18.0,neighborhood
+2022-10-01,2022,Oct,Marina,Marina,vehicle,0.0,neighborhood
+2022-10-01,2022,Oct,Marina,Marina,tent,5.0,neighborhood
+2022-10-01,2022,Oct,Cortez,Cortez,individual,51.0,neighborhood
+2022-10-01,2022,Oct,Cortez,Cortez,vehicle,1.0,neighborhood
+2022-10-01,2022,Oct,Cortez,Cortez,tent,21.0,neighborhood
+2022-10-01,2022,Oct,Gaslamp,Gaslamp,individual,60.0,neighborhood
+2022-10-01,2022,Oct,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2022-10-01,2022,Oct,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2022-11-01,2022,Nov,East Village,East Village,individual,297.0,neighborhood
+2022-11-01,2022,Nov,East Village,East Village,vehicle,21.0,neighborhood
+2022-11-01,2022,Nov,East Village,East Village,tent,240.0,neighborhood
+2022-11-01,2022,Nov,City Center,City Center,individual,125.0,neighborhood
+2022-11-01,2022,Nov,City Center,City Center,vehicle,0.0,neighborhood
+2022-11-01,2022,Nov,City Center,City Center,tent,63.0,neighborhood
+2022-11-01,2022,Nov,Marina,Marina,individual,49.0,neighborhood
+2022-11-01,2022,Nov,Marina,Marina,vehicle,2.0,neighborhood
+2022-11-01,2022,Nov,Marina,Marina,tent,6.0,neighborhood
+2022-11-01,2022,Nov,Columbia,Columbia,individual,28.0,neighborhood
+2022-11-01,2022,Nov,Columbia,Columbia,vehicle,0.0,neighborhood
+2022-11-01,2022,Nov,Columbia,Columbia,tent,3.0,neighborhood
+2022-11-01,2022,Nov,Cortez,Cortez,individual,42.0,neighborhood
+2022-11-01,2022,Nov,Cortez,Cortez,vehicle,6.0,neighborhood
+2022-11-01,2022,Nov,Cortez,Cortez,tent,34.0,neighborhood
+2022-11-01,2022,Nov,Gaslamp,Gaslamp,individual,49.0,neighborhood
+2022-11-01,2022,Nov,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2022-11-01,2022,Nov,Gaslamp,Gaslamp,tent,3.0,neighborhood
+2022-12-01,2022,Dec,East Village,East Village,individual,297.0,neighborhood
+2022-12-01,2022,Dec,East Village,East Village,vehicle,24.0,neighborhood
+2022-12-01,2022,Dec,East Village,East Village,tent,288.0,neighborhood
+2022-12-01,2022,Dec,City Center,City Center,individual,125.0,neighborhood
+2022-12-01,2022,Dec,City Center,City Center,vehicle,2.0,neighborhood
+2022-12-01,2022,Dec,City Center,City Center,tent,81.0,neighborhood
+2022-12-01,2022,Dec,Columbia,Columbia,individual,22.0,neighborhood
+2022-12-01,2022,Dec,Columbia,Columbia,vehicle,0.0,neighborhood
+2022-12-01,2022,Dec,Columbia,Columbia,tent,3.0,neighborhood
+2022-12-01,2022,Dec,Marina,Marina,individual,12.0,neighborhood
+2022-12-01,2022,Dec,Marina,Marina,vehicle,0.0,neighborhood
+2022-12-01,2022,Dec,Marina,Marina,tent,8.0,neighborhood
+2022-12-01,2022,Dec,Cortez,Cortez,individual,38.0,neighborhood
+2022-12-01,2022,Dec,Cortez,Cortez,vehicle,3.0,neighborhood
+2022-12-01,2022,Dec,Cortez,Cortez,tent,36.0,neighborhood
+2022-12-01,2022,Dec,Gaslamp,Gaslamp,individual,63.0,neighborhood
+2022-12-01,2022,Dec,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2022-12-01,2022,Dec,Gaslamp,Gaslamp,tent,2.0,neighborhood
+2023-01-01,2023,Jan,East Village,East Village,individual,201.0,neighborhood
+2023-01-01,2023,Jan,East Village,East Village,vehicle,25.0,neighborhood
+2023-01-01,2023,Jan,East Village,East Village,tent,310.0,neighborhood
+2023-01-01,2023,Jan,City Center,City Center,individual,111.0,neighborhood
+2023-01-01,2023,Jan,City Center,City Center,vehicle,0.0,neighborhood
+2023-01-01,2023,Jan,City Center,City Center,tent,91.0,neighborhood
+2023-01-01,2023,Jan,Columbia,Columbia,individual,29.0,neighborhood
+2023-01-01,2023,Jan,Columbia,Columbia,vehicle,1.0,neighborhood
+2023-01-01,2023,Jan,Columbia,Columbia,tent,3.0,neighborhood
+2023-01-01,2023,Jan,Marina,Marina,individual,12.0,neighborhood
+2023-01-01,2023,Jan,Marina,Marina,vehicle,2.0,neighborhood
+2023-01-01,2023,Jan,Marina,Marina,tent,4.0,neighborhood
+2023-01-01,2023,Jan,Cortez,Cortez,individual,30.0,neighborhood
+2023-01-01,2023,Jan,Cortez,Cortez,vehicle,5.0,neighborhood
+2023-01-01,2023,Jan,Cortez,Cortez,tent,51.0,neighborhood
+2023-01-01,2023,Jan,Gaslamp,Gaslamp,individual,42.0,neighborhood
+2023-01-01,2023,Jan,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2023-01-01,2023,Jan,Gaslamp,Gaslamp,tent,2.0,neighborhood
+2023-02-01,2023,Feb,East Village,East Village,individual,220.0,neighborhood
+2023-02-01,2023,Feb,East Village,East Village,vehicle,28.0,neighborhood
+2023-02-01,2023,Feb,East Village,East Village,tent,294.0,neighborhood
+2023-02-01,2023,Feb,City Center,City Center,individual,129.0,neighborhood
+2023-02-01,2023,Feb,City Center,City Center,vehicle,3.0,neighborhood
+2023-02-01,2023,Feb,City Center,City Center,tent,77.0,neighborhood
+2023-02-01,2023,Feb,Columbia,Columbia,individual,37.0,neighborhood
+2023-02-01,2023,Feb,Columbia,Columbia,vehicle,0.0,neighborhood
+2023-02-01,2023,Feb,Columbia,Columbia,tent,6.0,neighborhood
+2023-02-01,2023,Feb,Marina,Marina,individual,16.0,neighborhood
+2023-02-01,2023,Feb,Marina,Marina,vehicle,1.0,neighborhood
+2023-02-01,2023,Feb,Marina,Marina,tent,4.0,neighborhood
+2023-02-01,2023,Feb,Cortez,Cortez,individual,26.0,neighborhood
+2023-02-01,2023,Feb,Cortez,Cortez,vehicle,2.0,neighborhood
+2023-02-01,2023,Feb,Cortez,Cortez,tent,39.0,neighborhood
+2023-02-01,2023,Feb,Gaslamp,Gaslamp,individual,42.0,neighborhood
+2023-02-01,2023,Feb,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2023-02-01,2023,Feb,Gaslamp,Gaslamp,tent,2.0,neighborhood
+2023-03-01,2023,Mar,East Village,East Village,individual,221.0,neighborhood
+2023-03-01,2023,Mar,East Village,East Village,vehicle,9.0,neighborhood
+2023-03-01,2023,Mar,East Village,East Village,tent,243.0,neighborhood
+2023-03-01,2023,Mar,City Center,City Center,individual,172.0,neighborhood
+2023-03-01,2023,Mar,City Center,City Center,vehicle,0.0,neighborhood
+2023-03-01,2023,Mar,City Center,City Center,tent,97.0,neighborhood
+2023-03-01,2023,Mar,Columbia,Columbia,individual,38.0,neighborhood
+2023-03-01,2023,Mar,Columbia,Columbia,vehicle,0.0,neighborhood
+2023-03-01,2023,Mar,Columbia,Columbia,tent,4.0,neighborhood
+2023-03-01,2023,Mar,Marina,Marina,individual,7.0,neighborhood
+2023-03-01,2023,Mar,Marina,Marina,vehicle,0.0,neighborhood
+2023-03-01,2023,Mar,Marina,Marina,tent,8.0,neighborhood
+2023-03-01,2023,Mar,Cortez,Cortez,individual,31.0,neighborhood
+2023-03-01,2023,Mar,Cortez,Cortez,vehicle,1.0,neighborhood
+2023-03-01,2023,Mar,Cortez,Cortez,tent,38.0,neighborhood
+2023-03-01,2023,Mar,Gaslamp,Gaslamp,individual,64.0,neighborhood
+2023-03-01,2023,Mar,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2023-03-01,2023,Mar,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2023-04-01,2023,Apr,East Village,East Village,individual,300.0,neighborhood
+2023-04-01,2023,Apr,East Village,East Village,vehicle,10.0,neighborhood
+2023-04-01,2023,Apr,East Village,East Village,tent,287.0,neighborhood
+2023-04-01,2023,Apr,City Center,City Center,individual,173.0,neighborhood
+2023-04-01,2023,Apr,City Center,City Center,vehicle,0.0,neighborhood
+2023-04-01,2023,Apr,City Center,City Center,tent,67.0,neighborhood
+2023-04-01,2023,Apr,Columbia,Columbia,individual,44.0,neighborhood
+2023-04-01,2023,Apr,Columbia,Columbia,vehicle,0.0,neighborhood
+2023-04-01,2023,Apr,Columbia,Columbia,tent,1.0,neighborhood
+2023-04-01,2023,Apr,Cortez,Cortez,individual,36.0,neighborhood
+2023-04-01,2023,Apr,Cortez,Cortez,vehicle,1.0,neighborhood
+2023-04-01,2023,Apr,Cortez,Cortez,tent,43.0,neighborhood
+2023-04-01,2023,Apr,Marina,Marina,individual,19.0,neighborhood
+2023-04-01,2023,Apr,Marina,Marina,vehicle,0.0,neighborhood
+2023-04-01,2023,Apr,Marina,Marina,tent,8.0,neighborhood
+2023-04-01,2023,Apr,Gaslamp,Gaslamp,individual,44.0,neighborhood
+2023-04-01,2023,Apr,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2023-04-01,2023,Apr,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2023-05-01,2023,May,East Village,East Village,individual,297.0,neighborhood
+2023-05-01,2023,May,East Village,East Village,vehicle,8.0,neighborhood
+2023-05-01,2023,May,East Village,East Village,tent,345.0,neighborhood
+2023-05-01,2023,May,City Center,City Center,individual,158.0,neighborhood
+2023-05-01,2023,May,City Center,City Center,vehicle,2.0,neighborhood
+2023-05-01,2023,May,City Center,City Center,tent,103.0,neighborhood
+2023-05-01,2023,May,Columbia,Columbia,individual,31.0,neighborhood
+2023-05-01,2023,May,Columbia,Columbia,vehicle,0.0,neighborhood
+2023-05-01,2023,May,Columbia,Columbia,tent,4.0,neighborhood
+2023-05-01,2023,May,Marina,Marina,individual,28.0,neighborhood
+2023-05-01,2023,May,Marina,Marina,vehicle,0.0,neighborhood
+2023-05-01,2023,May,Marina,Marina,tent,13.0,neighborhood
+2023-05-01,2023,May,Cortez,Cortez,individual,53.0,neighborhood
+2023-05-01,2023,May,Cortez,Cortez,vehicle,0.0,neighborhood
+2023-05-01,2023,May,Cortez,Cortez,tent,39.0,neighborhood
+2023-05-01,2023,May,Gaslamp,Gaslamp,individual,57.0,neighborhood
+2023-05-01,2023,May,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2023-05-01,2023,May,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2023-06-01,2023,Jun,East Village,East Village,individual,216.0,neighborhood
+2023-06-01,2023,Jun,East Village,East Village,vehicle,5.0,neighborhood
+2023-06-01,2023,Jun,East Village,East Village,tent,287.0,neighborhood
+2023-06-01,2023,Jun,City Center,City Center,individual,106.0,neighborhood
+2023-06-01,2023,Jun,City Center,City Center,vehicle,0.0,neighborhood
+2023-06-01,2023,Jun,City Center,City Center,tent,74.0,neighborhood
+2023-06-01,2023,Jun,Columbia,Columbia,individual,29.0,neighborhood
+2023-06-01,2023,Jun,Columbia,Columbia,vehicle,0.0,neighborhood
+2023-06-01,2023,Jun,Columbia,Columbia,tent,3.0,neighborhood
+2023-06-01,2023,Jun,Cortez,Cortez,individual,42.0,neighborhood
+2023-06-01,2023,Jun,Cortez,Cortez,vehicle,0.0,neighborhood
+2023-06-01,2023,Jun,Cortez,Cortez,tent,38.0,neighborhood
+2023-06-01,2023,Jun,Gaslamp,Gaslamp,individual,15.0,neighborhood
+2023-06-01,2023,Jun,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2023-06-01,2023,Jun,Gaslamp,Gaslamp,tent,2.0,neighborhood
+2023-06-01,2023,Jun,Marina,Marina,individual,15.0,neighborhood
+2023-06-01,2023,Jun,Marina,Marina,vehicle,0.0,neighborhood
+2023-06-01,2023,Jun,Marina,Marina,tent,1.0,neighborhood
+2023-07-01,2023,Jul,East Village,East Village,individual,262.0,neighborhood
+2023-07-01,2023,Jul,East Village,East Village,vehicle,10.0,neighborhood
+2023-07-01,2023,Jul,East Village,East Village,tent,365.0,neighborhood
+2023-07-01,2023,Jul,Columbia,Columbia,individual,17.0,neighborhood
+2023-07-01,2023,Jul,Columbia,Columbia,vehicle,0.0,neighborhood
+2023-07-01,2023,Jul,Columbia,Columbia,tent,2.0,neighborhood
+2023-07-01,2023,Jul,Marina,Marina,individual,7.0,neighborhood
+2023-07-01,2023,Jul,Marina,Marina,vehicle,0.0,neighborhood
+2023-07-01,2023,Jul,Marina,Marina,tent,3.0,neighborhood
+2023-07-01,2023,Jul,Cortez,Cortez,individual,36.0,neighborhood
+2023-07-01,2023,Jul,Cortez,Cortez,vehicle,0.0,neighborhood
+2023-07-01,2023,Jul,Cortez,Cortez,tent,39.0,neighborhood
+2023-07-01,2023,Jul,Gaslamp,Gaslamp,individual,25.0,neighborhood
+2023-07-01,2023,Jul,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2023-07-01,2023,Jul,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2023-07-01,2023,Jul,City Center,City Center,individual,92.0,neighborhood
+2023-07-01,2023,Jul,City Center,City Center,vehicle,0.0,neighborhood
+2023-07-01,2023,Jul,City Center,City Center,tent,54.0,neighborhood
+2023-08-01,2023,Aug,East Village,East Village,individual,334.0,neighborhood
+2023-08-01,2023,Aug,East Village,East Village,vehicle,6.0,neighborhood
+2023-08-01,2023,Aug,East Village,East Village,tent,294.0,neighborhood
+2023-08-01,2023,Aug,City Center,City Center,individual,117.0,neighborhood
+2023-08-01,2023,Aug,City Center,City Center,vehicle,0.0,neighborhood
+2023-08-01,2023,Aug,City Center,City Center,tent,49.0,neighborhood
+2023-08-01,2023,Aug,Columbia,Columbia,individual,12.0,neighborhood
+2023-08-01,2023,Aug,Columbia,Columbia,vehicle,0.0,neighborhood
+2023-08-01,2023,Aug,Columbia,Columbia,tent,1.0,neighborhood
+2023-08-01,2023,Aug,Marina,Marina,individual,20.0,neighborhood
+2023-08-01,2023,Aug,Marina,Marina,vehicle,0.0,neighborhood
+2023-08-01,2023,Aug,Marina,Marina,tent,0.0,neighborhood
+2023-08-01,2023,Aug,Cortez,Cortez,individual,32.0,neighborhood
+2023-08-01,2023,Aug,Cortez,Cortez,vehicle,0.0,neighborhood
+2023-08-01,2023,Aug,Cortez,Cortez,tent,19.0,neighborhood
+2023-08-01,2023,Aug,Gaslamp,Gaslamp,individual,44.0,neighborhood
+2023-08-01,2023,Aug,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2023-08-01,2023,Aug,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2023-09-01,2023,Sep,East Village,East Village,individual,338.0,neighborhood
+2023-09-01,2023,Sep,East Village,East Village,vehicle,11.0,neighborhood
+2023-09-01,2023,Sep,East Village,East Village,tent,312.0,neighborhood
+2023-09-01,2023,Sep,City Center,City Center,individual,111.0,neighborhood
+2023-09-01,2023,Sep,City Center,City Center,vehicle,1.0,neighborhood
+2023-09-01,2023,Sep,City Center,City Center,tent,34.0,neighborhood
+2023-09-01,2023,Sep,Columbia,Columbia,individual,28.0,neighborhood
+2023-09-01,2023,Sep,Columbia,Columbia,vehicle,0.0,neighborhood
+2023-09-01,2023,Sep,Columbia,Columbia,tent,1.0,neighborhood
+2023-09-01,2023,Sep,Marina,Marina,individual,13.0,neighborhood
+2023-09-01,2023,Sep,Marina,Marina,vehicle,0.0,neighborhood
+2023-09-01,2023,Sep,Marina,Marina,tent,0.0,neighborhood
+2023-09-01,2023,Sep,Cortez,Cortez,individual,45.0,neighborhood
+2023-09-01,2023,Sep,Cortez,Cortez,vehicle,0.0,neighborhood
+2023-09-01,2023,Sep,Cortez,Cortez,tent,33.0,neighborhood
+2023-09-01,2023,Sep,Gaslamp,Gaslamp,individual,49.0,neighborhood
+2023-09-01,2023,Sep,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2023-09-01,2023,Sep,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2023-10-01,2023,Oct,East Village,East Village,individual,310.0,neighborhood
+2023-10-01,2023,Oct,East Village,East Village,vehicle,10.0,neighborhood
+2023-10-01,2023,Oct,East Village,East Village,tent,308.0,neighborhood
+2023-10-01,2023,Oct,City Center,City Center,individual,148.0,neighborhood
+2023-10-01,2023,Oct,City Center,City Center,vehicle,0.0,neighborhood
+2023-10-01,2023,Oct,City Center,City Center,tent,32.0,neighborhood
+2023-10-01,2023,Oct,Columbia,Columbia,individual,24.0,neighborhood
+2023-10-01,2023,Oct,Columbia,Columbia,vehicle,0.0,neighborhood
+2023-10-01,2023,Oct,Columbia,Columbia,tent,2.0,neighborhood
+2023-10-01,2023,Oct,Marina,Marina,individual,17.0,neighborhood
+2023-10-01,2023,Oct,Marina,Marina,vehicle,0.0,neighborhood
+2023-10-01,2023,Oct,Marina,Marina,tent,3.0,neighborhood
+2023-10-01,2023,Oct,Cortez,Cortez,individual,35.0,neighborhood
+2023-10-01,2023,Oct,Cortez,Cortez,vehicle,1.0,neighborhood
+2023-10-01,2023,Oct,Cortez,Cortez,tent,15.0,neighborhood
+2023-10-01,2023,Oct,Gaslamp,Gaslamp,individual,50.0,neighborhood
+2023-10-01,2023,Oct,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2023-10-01,2023,Oct,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2023-11-01,2023,Nov,Gaslamp,Gaslamp,individual,36.0,neighborhood
+2023-11-01,2023,Nov,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2023-11-01,2023,Nov,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2023-11-01,2023,Nov,East Village,East Village,individual,208.0,neighborhood
+2023-11-01,2023,Nov,East Village,East Village,vehicle,6.0,neighborhood
+2023-11-01,2023,Nov,East Village,East Village,tent,262.0,neighborhood
+2023-11-01,2023,Nov,City Center,City Center,individual,175.0,neighborhood
+2023-11-01,2023,Nov,City Center,City Center,vehicle,0.0,neighborhood
+2023-11-01,2023,Nov,City Center,City Center,tent,34.0,neighborhood
+2023-11-01,2023,Nov,Cortez,Cortez,individual,47.0,neighborhood
+2023-11-01,2023,Nov,Cortez,Cortez,vehicle,1.0,neighborhood
+2023-11-01,2023,Nov,Cortez,Cortez,tent,26.0,neighborhood
+2023-11-01,2023,Nov,Marina,Marina,individual,11.0,neighborhood
+2023-11-01,2023,Nov,Marina,Marina,vehicle,0.0,neighborhood
+2023-11-01,2023,Nov,Marina,Marina,tent,1.0,neighborhood
+2023-11-01,2023,Nov,Columbia,Columbia,individual,32.0,neighborhood
+2023-11-01,2023,Nov,Columbia,Columbia,vehicle,0.0,neighborhood
+2023-11-01,2023,Nov,Columbia,Columbia,tent,3.0,neighborhood
+2023-12-01,2023,Dec,Gaslamp,Gaslamp,individual,31.0,neighborhood
+2023-12-01,2023,Dec,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2023-12-01,2023,Dec,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2023-12-01,2023,Dec,East Village,East Village,individual,274.0,neighborhood
+2023-12-01,2023,Dec,East Village,East Village,vehicle,5.0,neighborhood
+2023-12-01,2023,Dec,East Village,East Village,tent,155.0,neighborhood
+2023-12-01,2023,Dec,City Center,City Center,individual,89.0,neighborhood
+2023-12-01,2023,Dec,City Center,City Center,vehicle,0.0,neighborhood
+2023-12-01,2023,Dec,City Center,City Center,tent,23.0,neighborhood
+2023-12-01,2023,Dec,Columbia,Columbia,individual,18.0,neighborhood
+2023-12-01,2023,Dec,Columbia,Columbia,vehicle,0.0,neighborhood
+2023-12-01,2023,Dec,Columbia,Columbia,tent,6.0,neighborhood
+2023-12-01,2023,Dec,Marina,Marina,individual,8.0,neighborhood
+2023-12-01,2023,Dec,Marina,Marina,vehicle,0.0,neighborhood
+2023-12-01,2023,Dec,Marina,Marina,tent,5.0,neighborhood
+2023-12-01,2023,Dec,Cortez,Cortez,individual,40.0,neighborhood
+2023-12-01,2023,Dec,Cortez,Cortez,vehicle,0.0,neighborhood
+2023-12-01,2023,Dec,Cortez,Cortez,tent,37.0,neighborhood
+2024-01-01,2024,Jan,East Village,East Village,individual,247.0,neighborhood
+2024-01-01,2024,Jan,East Village,East Village,vehicle,10.0,neighborhood
+2024-01-01,2024,Jan,East Village,East Village,tent,150.0,neighborhood
+2024-01-01,2024,Jan,City Center,City Center,individual,131.0,neighborhood
+2024-01-01,2024,Jan,City Center,City Center,vehicle,0.0,neighborhood
+2024-01-01,2024,Jan,City Center,City Center,tent,38.0,neighborhood
+2024-01-01,2024,Jan,Columbia,Columbia,individual,23.0,neighborhood
+2024-01-01,2024,Jan,Columbia,Columbia,vehicle,0.0,neighborhood
+2024-01-01,2024,Jan,Columbia,Columbia,tent,6.0,neighborhood
+2024-01-01,2024,Jan,Marina,Marina,individual,12.0,neighborhood
+2024-01-01,2024,Jan,Marina,Marina,vehicle,0.0,neighborhood
+2024-01-01,2024,Jan,Marina,Marina,tent,4.0,neighborhood
+2024-01-01,2024,Jan,Cortez,Cortez,individual,45.0,neighborhood
+2024-01-01,2024,Jan,Cortez,Cortez,vehicle,3.0,neighborhood
+2024-01-01,2024,Jan,Cortez,Cortez,tent,59.0,neighborhood
+2024-01-01,2024,Jan,Gaslamp,Gaslamp,individual,47.0,neighborhood
+2024-01-01,2024,Jan,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2024-01-01,2024,Jan,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2024-02-01,2024,Feb,East Village,East Village,individual,272.0,neighborhood
+2024-02-01,2024,Feb,East Village,East Village,vehicle,9.0,neighborhood
+2024-02-01,2024,Feb,East Village,East Village,tent,150.0,neighborhood
+2024-02-01,2024,Feb,City Center,City Center,individual,133.0,neighborhood
+2024-02-01,2024,Feb,City Center,City Center,vehicle,0.0,neighborhood
+2024-02-01,2024,Feb,City Center,City Center,tent,22.0,neighborhood
+2024-02-01,2024,Feb,Columbia,Columbia,individual,35.0,neighborhood
+2024-02-01,2024,Feb,Columbia,Columbia,vehicle,0.0,neighborhood
+2024-02-01,2024,Feb,Columbia,Columbia,tent,3.0,neighborhood
+2024-02-01,2024,Feb,Marina,Marina,individual,15.0,neighborhood
+2024-02-01,2024,Feb,Marina,Marina,vehicle,0.0,neighborhood
+2024-02-01,2024,Feb,Marina,Marina,tent,1.0,neighborhood
+2024-02-01,2024,Feb,Cortez,Cortez,individual,39.0,neighborhood
+2024-02-01,2024,Feb,Cortez,Cortez,vehicle,7.0,neighborhood
+2024-02-01,2024,Feb,Cortez,Cortez,tent,67.0,neighborhood
+2024-02-01,2024,Feb,Gaslamp,Gaslamp,individual,53.0,neighborhood
+2024-02-01,2024,Feb,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2024-02-01,2024,Feb,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2024-03-01,2024,Mar,East Village,East Village,individual,227.0,neighborhood
+2024-03-01,2024,Mar,East Village,East Village,vehicle,8.0,neighborhood
+2024-03-01,2024,Mar,East Village,East Village,tent,78.0,neighborhood
+2024-03-01,2024,Mar,City Center,City Center,individual,189.0,neighborhood
+2024-03-01,2024,Mar,City Center,City Center,vehicle,0.0,neighborhood
+2024-03-01,2024,Mar,City Center,City Center,tent,8.0,neighborhood
+2024-03-01,2024,Mar,Columbia,Columbia,individual,36.0,neighborhood
+2024-03-01,2024,Mar,Columbia,Columbia,vehicle,0.0,neighborhood
+2024-03-01,2024,Mar,Columbia,Columbia,tent,3.0,neighborhood
+2024-03-01,2024,Mar,Marina,Marina,individual,16.0,neighborhood
+2024-03-01,2024,Mar,Marina,Marina,vehicle,0.0,neighborhood
+2024-03-01,2024,Mar,Marina,Marina,tent,3.0,neighborhood
+2024-03-01,2024,Mar,Cortez,Cortez,individual,36.0,neighborhood
+2024-03-01,2024,Mar,Cortez,Cortez,vehicle,0.0,neighborhood
+2024-03-01,2024,Mar,Cortez,Cortez,tent,23.0,neighborhood
+2024-03-01,2024,Mar,Gaslamp,Gaslamp,individual,36.0,neighborhood
+2024-03-01,2024,Mar,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2024-03-01,2024,Mar,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2024-04-01,2024,Apr,East Village,East Village,individual,202.0,neighborhood
+2024-04-01,2024,Apr,East Village,East Village,vehicle,6.0,neighborhood
+2024-04-01,2024,Apr,East Village,East Village,tent,87.0,neighborhood
+2024-04-01,2024,Apr,City Center,City Center,individual,181.0,neighborhood
+2024-04-01,2024,Apr,City Center,City Center,vehicle,1.0,neighborhood
+2024-04-01,2024,Apr,City Center,City Center,tent,31.0,neighborhood
+2024-04-01,2024,Apr,Columbia,Columbia,individual,22.0,neighborhood
+2024-04-01,2024,Apr,Columbia,Columbia,vehicle,0.0,neighborhood
+2024-04-01,2024,Apr,Columbia,Columbia,tent,7.0,neighborhood
+2024-04-01,2024,Apr,Marina,Marina,individual,8.0,neighborhood
+2024-04-01,2024,Apr,Marina,Marina,vehicle,0.0,neighborhood
+2024-04-01,2024,Apr,Marina,Marina,tent,3.0,neighborhood
+2024-04-01,2024,Apr,Cortez,Cortez,individual,24.0,neighborhood
+2024-04-01,2024,Apr,Cortez,Cortez,vehicle,0.0,neighborhood
+2024-04-01,2024,Apr,Cortez,Cortez,tent,29.0,neighborhood
+2024-04-01,2024,Apr,Gaslamp,Gaslamp,individual,50.0,neighborhood
+2024-04-01,2024,Apr,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2024-04-01,2024,Apr,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2024-05-01,2024,May,East Village,East Village,individual,237.0,neighborhood
+2024-05-01,2024,May,East Village,East Village,vehicle,2.0,neighborhood
+2024-05-01,2024,May,East Village,East Village,tent,95.0,neighborhood
+2024-05-01,2024,May,City Center,City Center,individual,165.0,neighborhood
+2024-05-01,2024,May,City Center,City Center,vehicle,0.0,neighborhood
+2024-05-01,2024,May,City Center,City Center,tent,31.0,neighborhood
+2024-05-01,2024,May,Columbia,Columbia,individual,18.0,neighborhood
+2024-05-01,2024,May,Columbia,Columbia,vehicle,0.0,neighborhood
+2024-05-01,2024,May,Columbia,Columbia,tent,10.0,neighborhood
+2024-05-01,2024,May,Marina,Marina,individual,11.0,neighborhood
+2024-05-01,2024,May,Marina,Marina,vehicle,0.0,neighborhood
+2024-05-01,2024,May,Marina,Marina,tent,3.0,neighborhood
+2024-05-01,2024,May,Cortez,Cortez,individual,35.0,neighborhood
+2024-05-01,2024,May,Cortez,Cortez,vehicle,0.0,neighborhood
+2024-05-01,2024,May,Cortez,Cortez,tent,9.0,neighborhood
+2024-05-01,2024,May,Gaslamp,Gaslamp,individual,75.0,neighborhood
+2024-05-01,2024,May,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2024-05-01,2024,May,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2024-06-01,2024,Jun,East Village,East Village,individual,293.0,neighborhood
+2024-06-01,2024,Jun,East Village,East Village,vehicle,1.0,neighborhood
+2024-06-01,2024,Jun,East Village,East Village,tent,89.0,neighborhood
+2024-06-01,2024,Jun,City Center,City Center,individual,155.0,neighborhood
+2024-06-01,2024,Jun,City Center,City Center,vehicle,0.0,neighborhood
+2024-06-01,2024,Jun,City Center,City Center,tent,25.0,neighborhood
+2024-06-01,2024,Jun,Columbia,Columbia,individual,21.0,neighborhood
+2024-06-01,2024,Jun,Columbia,Columbia,vehicle,0.0,neighborhood
+2024-06-01,2024,Jun,Columbia,Columbia,tent,11.0,neighborhood
+2024-06-01,2024,Jun,Marina,Marina,individual,16.0,neighborhood
+2024-06-01,2024,Jun,Marina,Marina,vehicle,0.0,neighborhood
+2024-06-01,2024,Jun,Marina,Marina,tent,5.0,neighborhood
+2024-06-01,2024,Jun,Cortez,Cortez,individual,36.0,neighborhood
+2024-06-01,2024,Jun,Cortez,Cortez,vehicle,0.0,neighborhood
+2024-06-01,2024,Jun,Cortez,Cortez,tent,13.0,neighborhood
+2024-06-01,2024,Jun,Gaslamp,Gaslamp,individual,56.0,neighborhood
+2024-06-01,2024,Jun,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2024-06-01,2024,Jun,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2024-07-01,2024,Jul,East Village,East Village,individual,301.0,neighborhood
+2024-07-01,2024,Jul,East Village,East Village,vehicle,3.0,neighborhood
+2024-07-01,2024,Jul,East Village,East Village,tent,86.0,neighborhood
+2024-07-01,2024,Jul,City Center,City Center,individual,176.0,neighborhood
+2024-07-01,2024,Jul,City Center,City Center,vehicle,1.0,neighborhood
+2024-07-01,2024,Jul,City Center,City Center,tent,17.0,neighborhood
+2024-07-01,2024,Jul,Columbia,Columbia,individual,17.0,neighborhood
+2024-07-01,2024,Jul,Columbia,Columbia,vehicle,0.0,neighborhood
+2024-07-01,2024,Jul,Columbia,Columbia,tent,9.0,neighborhood
+2024-07-01,2024,Jul,Marina,Marina,individual,11.0,neighborhood
+2024-07-01,2024,Jul,Marina,Marina,vehicle,0.0,neighborhood
+2024-07-01,2024,Jul,Marina,Marina,tent,0.0,neighborhood
+2024-07-01,2024,Jul,Cortez,Cortez,individual,34.0,neighborhood
+2024-07-01,2024,Jul,Cortez,Cortez,vehicle,0.0,neighborhood
+2024-07-01,2024,Jul,Cortez,Cortez,tent,20.0,neighborhood
+2024-07-01,2024,Jul,Gaslamp,Gaslamp,individual,54.0,neighborhood
+2024-07-01,2024,Jul,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2024-07-01,2024,Jul,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2024-08-01,2024,Aug,East Village,East Village,individual,287.0,neighborhood
+2024-08-01,2024,Aug,East Village,East Village,vehicle,4.0,neighborhood
+2024-08-01,2024,Aug,East Village,East Village,tent,88.0,neighborhood
+2024-08-01,2024,Aug,City Center,City Center,individual,184.0,neighborhood
+2024-08-01,2024,Aug,City Center,City Center,vehicle,2.0,neighborhood
+2024-08-01,2024,Aug,City Center,City Center,tent,12.0,neighborhood
+2024-08-01,2024,Aug,Columbia,Columbia,individual,19.0,neighborhood
+2024-08-01,2024,Aug,Columbia,Columbia,vehicle,0.0,neighborhood
+2024-08-01,2024,Aug,Columbia,Columbia,tent,9.0,neighborhood
+2024-08-01,2024,Aug,Cortez,Cortez,individual,26.0,neighborhood
+2024-08-01,2024,Aug,Cortez,Cortez,vehicle,0.0,neighborhood
+2024-08-01,2024,Aug,Cortez,Cortez,tent,13.0,neighborhood
+2024-08-01,2024,Aug,Gaslamp,Gaslamp,individual,37.0,neighborhood
+2024-08-01,2024,Aug,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2024-08-01,2024,Aug,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2024-08-01,2024,Aug,Marina,Marina,individual,26.0,neighborhood
+2024-08-01,2024,Aug,Marina,Marina,vehicle,0.0,neighborhood
+2024-08-01,2024,Aug,Marina,Marina,tent,0.0,neighborhood
+2024-09-01,2024,Sep,East Village,East Village,individual,241.0,neighborhood
+2024-09-01,2024,Sep,East Village,East Village,vehicle,5.0,neighborhood
+2024-09-01,2024,Sep,East Village,East Village,tent,111.0,neighborhood
+2024-09-01,2024,Sep,City Center,City Center,individual,115.0,neighborhood
+2024-09-01,2024,Sep,City Center,City Center,vehicle,0.0,neighborhood
+2024-09-01,2024,Sep,City Center,City Center,tent,11.0,neighborhood
+2024-09-01,2024,Sep,Columbia,Columbia,individual,12.0,neighborhood
+2024-09-01,2024,Sep,Columbia,Columbia,vehicle,0.0,neighborhood
+2024-09-01,2024,Sep,Columbia,Columbia,tent,7.0,neighborhood
+2024-09-01,2024,Sep,Marina,Marina,individual,22.0,neighborhood
+2024-09-01,2024,Sep,Marina,Marina,vehicle,1.0,neighborhood
+2024-09-01,2024,Sep,Marina,Marina,tent,0.0,neighborhood
+2024-09-01,2024,Sep,Cortez,Cortez,individual,40.0,neighborhood
+2024-09-01,2024,Sep,Cortez,Cortez,vehicle,1.0,neighborhood
+2024-09-01,2024,Sep,Cortez,Cortez,tent,15.0,neighborhood
+2024-09-01,2024,Sep,Gaslamp,Gaslamp,individual,44.0,neighborhood
+2024-09-01,2024,Sep,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2024-09-01,2024,Sep,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2024-10-01,2024,Oct,East Village,East Village,individual,263.0,neighborhood
+2024-10-01,2024,Oct,East Village,East Village,vehicle,6.0,neighborhood
+2024-10-01,2024,Oct,East Village,East Village,tent,69.0,neighborhood
+2024-10-01,2024,Oct,City Center,City Center,individual,197.0,neighborhood
+2024-10-01,2024,Oct,City Center,City Center,vehicle,0.0,neighborhood
+2024-10-01,2024,Oct,City Center,City Center,tent,17.0,neighborhood
+2024-10-01,2024,Oct,Columbia,Columbia,individual,23.0,neighborhood
+2024-10-01,2024,Oct,Columbia,Columbia,vehicle,0.0,neighborhood
+2024-10-01,2024,Oct,Columbia,Columbia,tent,6.0,neighborhood
+2024-10-01,2024,Oct,Marina,Marina,individual,11.0,neighborhood
+2024-10-01,2024,Oct,Marina,Marina,vehicle,0.0,neighborhood
+2024-10-01,2024,Oct,Marina,Marina,tent,0.0,neighborhood
+2024-10-01,2024,Oct,Cortez,Cortez,individual,34.0,neighborhood
+2024-10-01,2024,Oct,Cortez,Cortez,vehicle,0.0,neighborhood
+2024-10-01,2024,Oct,Cortez,Cortez,tent,20.0,neighborhood
+2024-10-01,2024,Oct,Gaslamp,Gaslamp,individual,35.0,neighborhood
+2024-10-01,2024,Oct,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2024-10-01,2024,Oct,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2024-11-01,2024,Nov,East Village,East Village,individual,245.0,neighborhood
+2024-11-01,2024,Nov,East Village,East Village,vehicle,6.0,neighborhood
+2024-11-01,2024,Nov,East Village,East Village,tent,76.0,neighborhood
+2024-11-01,2024,Nov,City Center,City Center,individual,140.0,neighborhood
+2024-11-01,2024,Nov,City Center,City Center,vehicle,0.0,neighborhood
+2024-11-01,2024,Nov,City Center,City Center,tent,6.0,neighborhood
+2024-11-01,2024,Nov,Columbia,Columbia,individual,33.0,neighborhood
+2024-11-01,2024,Nov,Columbia,Columbia,vehicle,0.0,neighborhood
+2024-11-01,2024,Nov,Columbia,Columbia,tent,7.0,neighborhood
+2024-11-01,2024,Nov,Marina,Marina,individual,24.0,neighborhood
+2024-11-01,2024,Nov,Marina,Marina,vehicle,0.0,neighborhood
+2024-11-01,2024,Nov,Marina,Marina,tent,1.0,neighborhood
+2024-11-01,2024,Nov,Cortez,Cortez,individual,53.0,neighborhood
+2024-11-01,2024,Nov,Cortez,Cortez,vehicle,1.0,neighborhood
+2024-11-01,2024,Nov,Cortez,Cortez,tent,8.0,neighborhood
+2024-11-01,2024,Nov,Gaslamp,Gaslamp,individual,40.0,neighborhood
+2024-11-01,2024,Nov,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2024-11-01,2024,Nov,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2024-12-01,2024,Dec,East Village,East Village,individual,311.0,neighborhood
+2024-12-01,2024,Dec,East Village,East Village,vehicle,8.0,neighborhood
+2024-12-01,2024,Dec,East Village,East Village,tent,94.0,neighborhood
+2024-12-01,2024,Dec,City Center,City Center,individual,136.0,neighborhood
+2024-12-01,2024,Dec,City Center,City Center,vehicle,3.0,neighborhood
+2024-12-01,2024,Dec,City Center,City Center,tent,8.0,neighborhood
+2024-12-01,2024,Dec,Columbia,Columbia,individual,33.0,neighborhood
+2024-12-01,2024,Dec,Columbia,Columbia,vehicle,0.0,neighborhood
+2024-12-01,2024,Dec,Columbia,Columbia,tent,4.0,neighborhood
+2024-12-01,2024,Dec,Marina,Marina,individual,10.0,neighborhood
+2024-12-01,2024,Dec,Marina,Marina,vehicle,1.0,neighborhood
+2024-12-01,2024,Dec,Marina,Marina,tent,1.0,neighborhood
+2024-12-01,2024,Dec,Cortez,Cortez,individual,47.0,neighborhood
+2024-12-01,2024,Dec,Cortez,Cortez,vehicle,2.0,neighborhood
+2024-12-01,2024,Dec,Cortez,Cortez,tent,13.0,neighborhood
+2024-12-01,2024,Dec,Gaslamp,Gaslamp,individual,40.0,neighborhood
+2024-12-01,2024,Dec,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2024-12-01,2024,Dec,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2025-01-01,2025,Jan,East Village,East Village,individual,245.0,neighborhood
+2025-01-01,2025,Jan,East Village,East Village,vehicle,8.0,neighborhood
+2025-01-01,2025,Jan,East Village,East Village,tent,104.0,neighborhood
+2025-01-01,2025,Jan,City Center,City Center,individual,165.0,neighborhood
+2025-01-01,2025,Jan,City Center,City Center,vehicle,0.0,neighborhood
+2025-01-01,2025,Jan,City Center,City Center,tent,8.0,neighborhood
+2025-01-01,2025,Jan,Columbia,Columbia,individual,32.0,neighborhood
+2025-01-01,2025,Jan,Columbia,Columbia,vehicle,0.0,neighborhood
+2025-01-01,2025,Jan,Columbia,Columbia,tent,3.0,neighborhood
+2025-01-01,2025,Jan,Marina,Marina,individual,17.0,neighborhood
+2025-01-01,2025,Jan,Marina,Marina,vehicle,0.0,neighborhood
+2025-01-01,2025,Jan,Marina,Marina,tent,0.0,neighborhood
+2025-01-01,2025,Jan,Cortez,Cortez,individual,44.0,neighborhood
+2025-01-01,2025,Jan,Cortez,Cortez,vehicle,1.0,neighborhood
+2025-01-01,2025,Jan,Cortez,Cortez,tent,2.0,neighborhood
+2025-01-01,2025,Jan,Gaslamp,Gaslamp,individual,41.0,neighborhood
+2025-01-01,2025,Jan,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2025-01-01,2025,Jan,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2025-02-01,2025,Feb,East Village,East Village,individual,294.0,neighborhood
+2025-02-01,2025,Feb,East Village,East Village,vehicle,6.0,neighborhood
+2025-02-01,2025,Feb,East Village,East Village,tent,60.0,neighborhood
+2025-02-01,2025,Feb,Columbia,Columbia,individual,39.0,neighborhood
+2025-02-01,2025,Feb,Columbia,Columbia,vehicle,0.0,neighborhood
+2025-02-01,2025,Feb,Columbia,Columbia,tent,0.0,neighborhood
+2025-02-01,2025,Feb,City Center,City Center,individual,158.0,neighborhood
+2025-02-01,2025,Feb,City Center,City Center,vehicle,0.0,neighborhood
+2025-02-01,2025,Feb,City Center,City Center,tent,10.0,neighborhood
+2025-02-01,2025,Feb,Cortez,Cortez,individual,49.0,neighborhood
+2025-02-01,2025,Feb,Cortez,Cortez,vehicle,0.0,neighborhood
+2025-02-01,2025,Feb,Cortez,Cortez,tent,8.0,neighborhood
+2025-02-01,2025,Feb,Marina,Marina,individual,13.0,neighborhood
+2025-02-01,2025,Feb,Marina,Marina,vehicle,0.0,neighborhood
+2025-02-01,2025,Feb,Marina,Marina,tent,2.0,neighborhood
+2025-02-01,2025,Feb,Gaslamp,Gaslamp,individual,27.0,neighborhood
+2025-02-01,2025,Feb,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2025-02-01,2025,Feb,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2025-03-01,2025,Mar,East Village,East Village,individual,288.0,neighborhood
+2025-03-01,2025,Mar,East Village,East Village,vehicle,4.0,neighborhood
+2025-03-01,2025,Mar,East Village,East Village,tent,67.0,neighborhood
+2025-03-01,2025,Mar,City Center,City Center,individual,147.0,neighborhood
+2025-03-01,2025,Mar,City Center,City Center,vehicle,0.0,neighborhood
+2025-03-01,2025,Mar,City Center,City Center,tent,8.0,neighborhood
+2025-03-01,2025,Mar,Columbia,Columbia,individual,14.0,neighborhood
+2025-03-01,2025,Mar,Columbia,Columbia,vehicle,0.0,neighborhood
+2025-03-01,2025,Mar,Columbia,Columbia,tent,0.0,neighborhood
+2025-03-01,2025,Mar,Marina,Marina,individual,14.0,neighborhood
+2025-03-01,2025,Mar,Marina,Marina,vehicle,1.0,neighborhood
+2025-03-01,2025,Mar,Marina,Marina,tent,0.0,neighborhood
+2025-03-01,2025,Mar,Cortez,Cortez,individual,22.0,neighborhood
+2025-03-01,2025,Mar,Cortez,Cortez,vehicle,0.0,neighborhood
+2025-03-01,2025,Mar,Cortez,Cortez,tent,7.0,neighborhood
+2025-03-01,2025,Mar,Gaslamp,Gaslamp,individual,30.0,neighborhood
+2025-03-01,2025,Mar,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2025-03-01,2025,Mar,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2025-04-01,2025,Apr,East Village,East Village,individual,303.0,neighborhood
+2025-04-01,2025,Apr,East Village,East Village,vehicle,7.0,neighborhood
+2025-04-01,2025,Apr,East Village,East Village,tent,48.0,neighborhood
+2025-04-01,2025,Apr,City Center,City Center,individual,140.0,neighborhood
+2025-04-01,2025,Apr,City Center,City Center,vehicle,0.0,neighborhood
+2025-04-01,2025,Apr,City Center,City Center,tent,8.0,neighborhood
+2025-04-01,2025,Apr,Columbia,Columbia,individual,27.0,neighborhood
+2025-04-01,2025,Apr,Columbia,Columbia,vehicle,0.0,neighborhood
+2025-04-01,2025,Apr,Columbia,Columbia,tent,1.0,neighborhood
+2025-04-01,2025,Apr,Marina,Marina,individual,5.0,neighborhood
+2025-04-01,2025,Apr,Marina,Marina,vehicle,0.0,neighborhood
+2025-04-01,2025,Apr,Marina,Marina,tent,1.0,neighborhood
+2025-04-01,2025,Apr,Cortez,Cortez,individual,49.0,neighborhood
+2025-04-01,2025,Apr,Cortez,Cortez,vehicle,1.0,neighborhood
+2025-04-01,2025,Apr,Cortez,Cortez,tent,15.0,neighborhood
+2025-04-01,2025,Apr,Gaslamp,Gaslamp,individual,40.0,neighborhood
+2025-04-01,2025,Apr,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2025-04-01,2025,Apr,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2025-05-01,2025,May,East Village,East Village,individual,318.0,neighborhood
+2025-05-01,2025,May,East Village,East Village,vehicle,3.0,neighborhood
+2025-05-01,2025,May,East Village,East Village,tent,46.0,neighborhood
+2025-05-01,2025,May,City Center,City Center,individual,110.0,neighborhood
+2025-05-01,2025,May,City Center,City Center,vehicle,3.0,neighborhood
+2025-05-01,2025,May,City Center,City Center,tent,18.0,neighborhood
+2025-05-01,2025,May,Columbia,Columbia,individual,28.0,neighborhood
+2025-05-01,2025,May,Columbia,Columbia,vehicle,0.0,neighborhood
+2025-05-01,2025,May,Columbia,Columbia,tent,3.0,neighborhood
+2025-05-01,2025,May,Marina,Marina,individual,6.0,neighborhood
+2025-05-01,2025,May,Marina,Marina,vehicle,0.0,neighborhood
+2025-05-01,2025,May,Marina,Marina,tent,1.0,neighborhood
+2025-05-01,2025,May,Cortez,Cortez,individual,53.0,neighborhood
+2025-05-01,2025,May,Cortez,Cortez,vehicle,1.0,neighborhood
+2025-05-01,2025,May,Cortez,Cortez,tent,11.0,neighborhood
+2025-05-01,2025,May,Gaslamp,Gaslamp,individual,23.0,neighborhood
+2025-05-01,2025,May,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2025-05-01,2025,May,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2025-06-01,2025,Jun,East Village,East Village,individual,291.0,neighborhood
+2025-06-01,2025,Jun,East Village,East Village,vehicle,4.0,neighborhood
+2025-06-01,2025,Jun,East Village,East Village,tent,62.0,neighborhood
+2025-06-01,2025,Jun,City Center,City Center,individual,117.0,neighborhood
+2025-06-01,2025,Jun,City Center,City Center,vehicle,0.0,neighborhood
+2025-06-01,2025,Jun,City Center,City Center,tent,7.0,neighborhood
+2025-06-01,2025,Jun,Columbia,Columbia,individual,14.0,neighborhood
+2025-06-01,2025,Jun,Columbia,Columbia,vehicle,0.0,neighborhood
+2025-06-01,2025,Jun,Columbia,Columbia,tent,4.0,neighborhood
+2025-06-01,2025,Jun,Marina,Marina,individual,11.0,neighborhood
+2025-06-01,2025,Jun,Marina,Marina,vehicle,0.0,neighborhood
+2025-06-01,2025,Jun,Marina,Marina,tent,0.0,neighborhood
+2025-06-01,2025,Jun,Cortez,Cortez,individual,35.0,neighborhood
+2025-06-01,2025,Jun,Cortez,Cortez,vehicle,0.0,neighborhood
+2025-06-01,2025,Jun,Cortez,Cortez,tent,5.0,neighborhood
+2025-06-01,2025,Jun,Gaslamp,Gaslamp,individual,38.0,neighborhood
+2025-06-01,2025,Jun,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2025-06-01,2025,Jun,Gaslamp,Gaslamp,tent,1.0,neighborhood
+2025-07-01,2025,Jul,East Village,East Village,individual,,neighborhood
+2025-07-01,2025,Jul,East Village,East Village,vehicle,,neighborhood
+2025-07-01,2025,Jul,East Village,East Village,tent,,neighborhood
+2025-07-01,2025,Jul,City Center,City Center,individual,,neighborhood
+2025-07-01,2025,Jul,City Center,City Center,vehicle,,neighborhood
+2025-07-01,2025,Jul,City Center,City Center,tent,,neighborhood
+2025-07-01,2025,Jul,Columbia,Columbia,individual,,neighborhood
+2025-07-01,2025,Jul,Columbia,Columbia,vehicle,,neighborhood
+2025-07-01,2025,Jul,Columbia,Columbia,tent,,neighborhood
+2025-07-01,2025,Jul,Marina,Marina,individual,,neighborhood
+2025-07-01,2025,Jul,Marina,Marina,vehicle,,neighborhood
+2025-07-01,2025,Jul,Marina,Marina,tent,,neighborhood
+2025-07-01,2025,Jul,Cortez,Cortez,individual,,neighborhood
+2025-07-01,2025,Jul,Cortez,Cortez,vehicle,,neighborhood
+2025-07-01,2025,Jul,Cortez,Cortez,tent,,neighborhood
+2025-07-01,2025,Jul,Gaslamp,Gaslamp,individual,,neighborhood
+2025-07-01,2025,Jul,Gaslamp,Gaslamp,vehicle,,neighborhood
+2025-07-01,2025,Jul,Gaslamp,Gaslamp,tent,,neighborhood
+2025-08-01,2025,Aug,East Village,East Village,individual,,neighborhood
+2025-08-01,2025,Aug,East Village,East Village,vehicle,,neighborhood
+2025-08-01,2025,Aug,East Village,East Village,tent,,neighborhood
+2025-08-01,2025,Aug,City Center,City Center,individual,,neighborhood
+2025-08-01,2025,Aug,City Center,City Center,vehicle,,neighborhood
+2025-08-01,2025,Aug,City Center,City Center,tent,,neighborhood
+2025-08-01,2025,Aug,Columbia,Columbia,individual,,neighborhood
+2025-08-01,2025,Aug,Columbia,Columbia,vehicle,,neighborhood
+2025-08-01,2025,Aug,Columbia,Columbia,tent,,neighborhood
+2025-08-01,2025,Aug,Marina,Marina,individual,,neighborhood
+2025-08-01,2025,Aug,Marina,Marina,vehicle,,neighborhood
+2025-08-01,2025,Aug,Marina,Marina,tent,,neighborhood
+2025-08-01,2025,Aug,Cortez,Cortez,individual,,neighborhood
+2025-08-01,2025,Aug,Cortez,Cortez,vehicle,,neighborhood
+2025-08-01,2025,Aug,Cortez,Cortez,tent,,neighborhood
+2025-08-01,2025,Aug,Gaslamp,Gaslamp,individual,,neighborhood
+2025-08-01,2025,Aug,Gaslamp,Gaslamp,vehicle,,neighborhood
+2025-08-01,2025,Aug,Gaslamp,Gaslamp,tent,,neighborhood
+2025-09-01,2025,Sep,East Village,East Village,individual,283.0,neighborhood
+2025-09-01,2025,Sep,East Village,East Village,vehicle,9.0,neighborhood
+2025-09-01,2025,Sep,East Village,East Village,tent,60.0,neighborhood
+2025-09-01,2025,Sep,City Center,City Center,individual,107.0,neighborhood
+2025-09-01,2025,Sep,City Center,City Center,vehicle,0.0,neighborhood
+2025-09-01,2025,Sep,City Center,City Center,tent,10.0,neighborhood
+2025-09-01,2025,Sep,Columbia,Columbia,individual,25.0,neighborhood
+2025-09-01,2025,Sep,Columbia,Columbia,vehicle,1.0,neighborhood
+2025-09-01,2025,Sep,Columbia,Columbia,tent,2.0,neighborhood
+2025-09-01,2025,Sep,Marina,Marina,individual,24.0,neighborhood
+2025-09-01,2025,Sep,Marina,Marina,vehicle,0.0,neighborhood
+2025-09-01,2025,Sep,Marina,Marina,tent,0.0,neighborhood
+2025-09-01,2025,Sep,Cortez,Cortez,individual,32.0,neighborhood
+2025-09-01,2025,Sep,Cortez,Cortez,vehicle,1.0,neighborhood
+2025-09-01,2025,Sep,Cortez,Cortez,tent,6.0,neighborhood
+2025-09-01,2025,Sep,Gaslamp,Gaslamp,individual,52.0,neighborhood
+2025-09-01,2025,Sep,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2025-09-01,2025,Sep,Gaslamp,Gaslamp,tent,0.0,neighborhood
+2025-10-01,2025,Oct,East Village,East Village,individual,,neighborhood
+2025-10-01,2025,Oct,East Village,East Village,vehicle,,neighborhood
+2025-10-01,2025,Oct,East Village,East Village,tent,,neighborhood
+2025-10-01,2025,Oct,City Center,City Center,individual,,neighborhood
+2025-10-01,2025,Oct,City Center,City Center,vehicle,,neighborhood
+2025-10-01,2025,Oct,City Center,City Center,tent,,neighborhood
+2025-10-01,2025,Oct,Columbia,Columbia,individual,,neighborhood
+2025-10-01,2025,Oct,Columbia,Columbia,vehicle,,neighborhood
+2025-10-01,2025,Oct,Columbia,Columbia,tent,,neighborhood
+2025-10-01,2025,Oct,Marina,Marina,individual,,neighborhood
+2025-10-01,2025,Oct,Marina,Marina,vehicle,,neighborhood
+2025-10-01,2025,Oct,Marina,Marina,tent,,neighborhood
+2025-10-01,2025,Oct,Cortez,Cortez,individual,,neighborhood
+2025-10-01,2025,Oct,Cortez,Cortez,vehicle,,neighborhood
+2025-10-01,2025,Oct,Cortez,Cortez,tent,,neighborhood
+2025-10-01,2025,Oct,Gaslamp,Gaslamp,individual,,neighborhood
+2025-10-01,2025,Oct,Gaslamp,Gaslamp,vehicle,,neighborhood
+2025-10-01,2025,Oct,Gaslamp,Gaslamp,tent,,neighborhood
+2025-11-01,2025,Nov,East Village,East Village,individual,,neighborhood
+2025-11-01,2025,Nov,East Village,East Village,vehicle,,neighborhood
+2025-11-01,2025,Nov,East Village,East Village,tent,,neighborhood
+2025-11-01,2025,Nov,City Center,City Center,individual,,neighborhood
+2025-11-01,2025,Nov,City Center,City Center,vehicle,,neighborhood
+2025-11-01,2025,Nov,City Center,City Center,tent,,neighborhood
+2025-11-01,2025,Nov,Columbia,Columbia,individual,,neighborhood
+2025-11-01,2025,Nov,Columbia,Columbia,vehicle,,neighborhood
+2025-11-01,2025,Nov,Columbia,Columbia,tent,,neighborhood
+2025-11-01,2025,Nov,Marina,Marina,individual,,neighborhood
+2025-11-01,2025,Nov,Marina,Marina,vehicle,,neighborhood
+2025-11-01,2025,Nov,Marina,Marina,tent,,neighborhood
+2025-11-01,2025,Nov,Cortez,Cortez,individual,,neighborhood
+2025-11-01,2025,Nov,Cortez,Cortez,vehicle,,neighborhood
+2025-11-01,2025,Nov,Cortez,Cortez,tent,,neighborhood
+2025-11-01,2025,Nov,Gaslamp,Gaslamp,individual,,neighborhood
+2025-11-01,2025,Nov,Gaslamp,Gaslamp,vehicle,,neighborhood
+2025-11-01,2025,Nov,Gaslamp,Gaslamp,tent,,neighborhood
+2025-12-01,2025,Dec,East Village,East Village,individual,313.0,neighborhood
+2025-12-01,2025,Dec,East Village,East Village,vehicle,14.0,neighborhood
+2025-12-01,2025,Dec,East Village,East Village,tent,122.0,neighborhood
+2025-12-01,2025,Dec,Columbia,Columbia,individual,28.0,neighborhood
+2025-12-01,2025,Dec,Columbia,Columbia,vehicle,0.0,neighborhood
+2025-12-01,2025,Dec,Columbia,Columbia,tent,2.0,neighborhood
+2025-12-01,2025,Dec,City Center,City Center,individual,163.0,neighborhood
+2025-12-01,2025,Dec,City Center,City Center,vehicle,3.0,neighborhood
+2025-12-01,2025,Dec,City Center,City Center,tent,15.0,neighborhood
+2025-12-01,2025,Dec,Marina,Marina,individual,11.0,neighborhood
+2025-12-01,2025,Dec,Marina,Marina,vehicle,0.0,neighborhood
+2025-12-01,2025,Dec,Marina,Marina,tent,0.0,neighborhood
+2025-12-01,2025,Dec,Cortez,Cortez,individual,57.0,neighborhood
+2025-12-01,2025,Dec,Cortez,Cortez,vehicle,4.0,neighborhood
+2025-12-01,2025,Dec,Cortez,Cortez,tent,10.0,neighborhood
+2025-12-01,2025,Dec,Gaslamp,Gaslamp,individual,42.0,neighborhood
+2025-12-01,2025,Dec,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
+2025-12-01,2025,Dec,Gaslamp,Gaslamp,tent,0.0,neighborhood

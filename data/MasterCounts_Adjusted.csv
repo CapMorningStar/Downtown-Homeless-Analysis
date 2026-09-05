@@ -1,0 +1,2815 @@
+area,month,raw_count,year,component,area_type,method,total_count
+East Village,Jan,409.0,2021,total,neighborhood,POST2020,409.0
+City Center,Jan,153.0,2021,total,neighborhood,POST2020,153.0
+Columbia,Jan,55.0,2021,total,neighborhood,POST2020,55.0
+Marina,Jan,20.0,2021,total,neighborhood,POST2020,20.0
+Cortez,Jan,47.0,2021,total,neighborhood,POST2020,47.0
+Gaslamp,Jan,31.0,2021,total,neighborhood,POST2020,31.0
+Outside Perimeter,Jan,0.0,2021,total,neighborhood,POST2020,0.0
+East Village,Feb,381.0,2021,total,neighborhood,POST2020,381.0
+City Center,Feb,140.0,2021,total,neighborhood,POST2020,140.0
+Columbia,Feb,47.0,2021,total,neighborhood,POST2020,47.0
+Marina,Feb,24.0,2021,total,neighborhood,POST2020,24.0
+Cortez,Feb,44.0,2021,total,neighborhood,POST2020,44.0
+Gaslamp,Feb,32.0,2021,total,neighborhood,POST2020,32.0
+Outside Perimeter,Feb,0.0,2021,total,neighborhood,POST2020,0.0
+East Village,Mar,439.0,2021,total,neighborhood,POST2020,439.0
+City Center,Mar,151.0,2021,total,neighborhood,POST2020,151.0
+Columbia,Mar,45.0,2021,total,neighborhood,POST2020,45.0
+Marina,Mar,26.0,2021,total,neighborhood,POST2020,26.0
+Cortez,Mar,30.0,2021,total,neighborhood,POST2020,30.0
+Gaslamp,Mar,30.0,2021,total,neighborhood,POST2020,30.0
+Outside Perimeter,Mar,0.0,2021,total,neighborhood,POST2020,0.0
+East Village,Apr,402.0,2021,total,neighborhood,POST2020,402.0
+City Center,Apr,133.0,2021,total,neighborhood,POST2020,133.0
+Columbia,Apr,42.0,2021,total,neighborhood,POST2020,42.0
+Marina,Apr,16.0,2021,total,neighborhood,POST2020,16.0
+Cortez,Apr,32.0,2021,total,neighborhood,POST2020,32.0
+Gaslamp,Apr,29.0,2021,total,neighborhood,POST2020,29.0
+Outside Perimeter,Apr,221.0,2021,total,neighborhood,POST2020,221.0
+East Village,May,513.0,2021,total,neighborhood,POST2020,513.0
+City Center,May,138.0,2021,total,neighborhood,POST2020,138.0
+Columbia,May,60.0,2021,total,neighborhood,POST2020,60.0
+Marina,May,24.0,2021,total,neighborhood,POST2020,24.0
+Cortez,May,30.0,2021,total,neighborhood,POST2020,30.0
+Gaslamp,May,35.0,2021,total,neighborhood,POST2020,35.0
+Outside Perimeter,May,357.0,2021,total,neighborhood,POST2020,357.0
+East Village,June,499.0,2021,total,neighborhood,POST2020,499.0
+City Center,June,143.0,2021,total,neighborhood,POST2020,143.0
+Columbia,June,53.0,2021,total,neighborhood,POST2020,53.0
+Marina,June,22.0,2021,total,neighborhood,POST2020,22.0
+Cortez,June,27.0,2021,total,neighborhood,POST2020,27.0
+Gaslamp,June,43.0,2021,total,neighborhood,POST2020,43.0
+Outside Perimeter,June,373.0,2021,total,neighborhood,POST2020,373.0
+East Village,July,465.0,2021,total,neighborhood,POST2020,465.0
+City Center,July,123.0,2021,total,neighborhood,POST2020,123.0
+Columbia,July,57.0,2021,total,neighborhood,POST2020,57.0
+Marina,July,22.0,2021,total,neighborhood,POST2020,22.0
+Cortez,July,44.0,2021,total,neighborhood,POST2020,44.0
+Gaslamp,July,21.0,2021,total,neighborhood,POST2020,21.0
+Outside Perimeter,July,273.0,2021,total,neighborhood,POST2020,273.0
+East Village,Aug,469.0,2021,total,neighborhood,POST2020,469.0
+City Center,Aug,152.0,2021,total,neighborhood,POST2020,152.0
+Columbia,Aug,60.0,2021,total,neighborhood,POST2020,60.0
+Marina,Aug,30.0,2021,total,neighborhood,POST2020,30.0
+Cortez,Aug,34.0,2021,total,neighborhood,POST2020,34.0
+Gaslamp,Aug,31.0,2021,total,neighborhood,POST2020,31.0
+Outside Perimeter,Aug,250.0,2021,total,neighborhood,POST2020,250.0
+East Village,Sept,438.0,2021,total,neighborhood,POST2020,438.0
+City Center,Sept,96.0,2021,total,neighborhood,POST2020,96.0
+Columbia,Sept,80.0,2021,total,neighborhood,POST2020,80.0
+Marina,Sept,29.0,2021,total,neighborhood,POST2020,29.0
+Cortez,Sept,29.0,2021,total,neighborhood,POST2020,29.0
+Gaslamp,Sept,44.0,2021,total,neighborhood,POST2020,44.0
+Outside Perimeter,Sept,83.0,2021,total,neighborhood,POST2020,83.0
+East Village,Oct,541.0,2021,total,neighborhood,POST2020,541.0
+City Center,Oct,145.0,2021,total,neighborhood,POST2020,145.0
+Columbia,Oct,57.0,2021,total,neighborhood,POST2020,57.0
+Marina,Oct,30.0,2021,total,neighborhood,POST2020,30.0
+Cortez,Oct,35.0,2021,total,neighborhood,POST2020,35.0
+Gaslamp,Oct,51.0,2021,total,neighborhood,POST2020,51.0
+Outside Perimeter,Oct,167.0,2021,total,neighborhood,POST2020,167.0
+East Village,Nov,541.0,2021,total,neighborhood,POST2020,541.0
+City Center,Nov,181.0,2021,total,neighborhood,POST2020,181.0
+Columbia,Nov,60.0,2021,total,neighborhood,POST2020,60.0
+Marina,Nov,42.0,2021,total,neighborhood,POST2020,42.0
+Cortez,Nov,31.0,2021,total,neighborhood,POST2020,31.0
+Gaslamp,Nov,46.0,2021,total,neighborhood,POST2020,46.0
+Outside Perimeter,Nov,223.0,2021,total,neighborhood,POST2020,223.0
+East Village,Dec,612.0,2021,total,neighborhood,POST2020,612.0
+City Center,Dec,185.0,2021,total,neighborhood,POST2020,185.0
+Columbia,Dec,59.0,2021,total,neighborhood,POST2020,59.0
+Marina,Dec,40.0,2021,total,neighborhood,POST2020,40.0
+Cortez,Dec,46.0,2021,total,neighborhood,POST2020,46.0
+Gaslamp,Dec,59.0,2021,total,neighborhood,POST2020,59.0
+Outside Perimeter,Dec,252.0,2021,total,neighborhood,POST2020,252.0
+East Village,Jan,467.0,2020,total,neighborhood,POST2020,467.0
+City Center,Jan,126.0,2020,total,neighborhood,POST2020,126.0
+Columbia,Jan,41.0,2020,total,neighborhood,POST2020,41.0
+Marina,Jan,48.0,2020,total,neighborhood,POST2020,48.0
+Cortez,Jan,48.0,2020,total,neighborhood,POST2020,48.0
+Gaslamp,Jan,59.0,2020,total,neighborhood,POST2020,59.0
+East Village,Feb,409.0,2020,total,neighborhood,POST2020,409.0
+City Center,Feb,160.0,2020,total,neighborhood,POST2020,160.0
+Columbia,Feb,47.0,2020,total,neighborhood,POST2020,47.0
+Marina,Feb,27.0,2020,total,neighborhood,POST2020,27.0
+Cortez,Feb,49.0,2020,total,neighborhood,POST2020,49.0
+Gaslamp,Feb,52.0,2020,total,neighborhood,POST2020,52.0
+East Village,Mar,261.0,2020,total,neighborhood,POST2020,261.0
+City Center,Mar,134.0,2020,total,neighborhood,POST2020,134.0
+Columbia,Mar,24.0,2020,total,neighborhood,POST2020,24.0
+Marina,Mar,20.0,2020,total,neighborhood,POST2020,20.0
+Cortez,Mar,28.0,2020,total,neighborhood,POST2020,28.0
+Gaslamp,Mar,62.0,2020,total,neighborhood,POST2020,62.0
+East Village,Apr,330.0,2020,total,neighborhood,POST2020,330.0
+City Center,Apr,91.0,2020,total,neighborhood,POST2020,91.0
+Columbia,Apr,52.0,2020,total,neighborhood,POST2020,52.0
+Marina,Apr,24.0,2020,total,neighborhood,POST2020,24.0
+Cortez,Apr,20.0,2020,total,neighborhood,POST2020,20.0
+Gaslamp,Apr,28.0,2020,total,neighborhood,POST2020,28.0
+East Village,May,332.0,2020,total,neighborhood,POST2020,332.0
+City Center,May,122.0,2020,total,neighborhood,POST2020,122.0
+Columbia,May,51.0,2020,total,neighborhood,POST2020,51.0
+Marina,May,24.0,2020,total,neighborhood,POST2020,24.0
+Cortez,May,24.0,2020,total,neighborhood,POST2020,24.0
+Gaslamp,May,42.0,2020,total,neighborhood,POST2020,42.0
+East Village,June,418.0,2020,total,neighborhood,POST2020,418.0
+City Center,June,140.0,2020,total,neighborhood,POST2020,140.0
+Columbia,June,59.0,2020,total,neighborhood,POST2020,59.0
+Marina,June,29.0,2020,total,neighborhood,POST2020,29.0
+Cortez,June,39.0,2020,total,neighborhood,POST2020,39.0
+Gaslamp,June,37.0,2020,total,neighborhood,POST2020,37.0
+East Village,July,398.0,2020,total,neighborhood,POST2020,398.0
+City Center,July,121.0,2020,total,neighborhood,POST2020,121.0
+Columbia,July,56.0,2020,total,neighborhood,POST2020,56.0
+Marina,July,28.0,2020,total,neighborhood,POST2020,28.0
+Cortez,July,24.0,2020,total,neighborhood,POST2020,24.0
+Gaslamp,July,51.0,2020,total,neighborhood,POST2020,51.0
+East Village,Aug,326.0,2020,total,neighborhood,POST2020,326.0
+City Center,Aug,104.0,2020,total,neighborhood,POST2020,104.0
+Columbia,Aug,48.0,2020,total,neighborhood,POST2020,48.0
+Marina,Aug,21.0,2020,total,neighborhood,POST2020,21.0
+Cortez,Aug,22.0,2020,total,neighborhood,POST2020,22.0
+Gaslamp,Aug,38.0,2020,total,neighborhood,POST2020,38.0
+East Village,Sept,447.0,2020,total,neighborhood,POST2020,447.0
+City Center,Sept,125.0,2020,total,neighborhood,POST2020,125.0
+Columbia,Sept,56.0,2020,total,neighborhood,POST2020,56.0
+Marina,Sept,27.0,2020,total,neighborhood,POST2020,27.0
+Cortez,Sept,17.0,2020,total,neighborhood,POST2020,17.0
+Gaslamp,Sept,47.0,2020,total,neighborhood,POST2020,47.0
+East Village,Oct,401.0,2020,total,neighborhood,POST2020,401.0
+City Center,Oct,111.0,2020,total,neighborhood,POST2020,111.0
+Columbia,Oct,42.0,2020,total,neighborhood,POST2020,42.0
+Marina,Oct,17.0,2020,total,neighborhood,POST2020,17.0
+Cortez,Oct,33.0,2020,total,neighborhood,POST2020,33.0
+Gaslamp,Oct,35.0,2020,total,neighborhood,POST2020,35.0
+East Village,Nov,424.0,2020,total,neighborhood,POST2020,424.0
+City Center,Nov,126.0,2020,total,neighborhood,POST2020,126.0
+Columbia,Nov,55.0,2020,total,neighborhood,POST2020,55.0
+Marina,Nov,35.0,2020,total,neighborhood,POST2020,35.0
+Cortez,Nov,23.0,2020,total,neighborhood,POST2020,23.0
+Gaslamp,Nov,31.0,2020,total,neighborhood,POST2020,31.0
+East Village,Dec,334.0,2020,total,neighborhood,POST2020,334.0
+City Center,Dec,134.0,2020,total,neighborhood,POST2020,134.0
+Columbia,Dec,53.0,2020,total,neighborhood,POST2020,53.0
+Marina,Dec,11.0,2020,total,neighborhood,POST2020,11.0
+Cortez,Dec,52.0,2020,total,neighborhood,POST2020,52.0
+Gaslamp,Dec,38.0,2020,total,neighborhood,POST2020,38.0
+East Village,Jan,543.0,2019,total,neighborhood,MAY2018,543.0
+City Center,Jan,132.0,2019,total,neighborhood,MAY2018,132.0
+Columbia,Jan,53.0,2019,total,neighborhood,MAY2018,53.0
+Marina,Jan,57.0,2019,total,neighborhood,MAY2018,57.0
+Cortez,Jan,54.0,2019,total,neighborhood,MAY2018,54.0
+Gaslamp,Jan,59.0,2019,total,neighborhood,MAY2018,59.0
+East Village,Feb,497.0,2019,total,neighborhood,MAY2018,497.0
+City Center,Feb,109.0,2019,total,neighborhood,MAY2018,109.0
+Columbia,Feb,43.0,2019,total,neighborhood,MAY2018,43.0
+Marina,Feb,49.0,2019,total,neighborhood,MAY2018,49.0
+Cortez,Feb,33.0,2019,total,neighborhood,MAY2018,33.0
+Gaslamp,Feb,68.0,2019,total,neighborhood,MAY2018,68.0
+East Village,Mar,428.0,2019,total,neighborhood,MAY2018,428.0
+City Center,Mar,130.0,2019,total,neighborhood,MAY2018,130.0
+Columbia,Mar,33.0,2019,total,neighborhood,MAY2018,33.0
+Marina,Mar,30.0,2019,total,neighborhood,MAY2018,30.0
+Cortez,Mar,53.0,2019,total,neighborhood,MAY2018,53.0
+Gaslamp,Mar,59.0,2019,total,neighborhood,MAY2018,59.0
+East Village,Apr,502.0,2019,total,neighborhood,MAY2018,502.0
+City Center,Apr,107.0,2019,total,neighborhood,MAY2018,107.0
+Columbia,Apr,55.0,2019,total,neighborhood,MAY2018,55.0
+Marina,Apr,33.0,2019,total,neighborhood,MAY2018,33.0
+Cortez,Apr,44.0,2019,total,neighborhood,MAY2018,44.0
+Gaslamp,Apr,36.0,2019,total,neighborhood,MAY2018,36.0
+East Village,May,506.0,2019,total,neighborhood,MAY2018,506.0
+City Center,May,146.0,2019,total,neighborhood,MAY2018,146.0
+Columbia,May,61.0,2019,total,neighborhood,MAY2018,61.0
+Marina,May,38.0,2019,total,neighborhood,MAY2018,38.0
+Cortez,May,45.0,2019,total,neighborhood,MAY2018,45.0
+Gaslamp,May,65.0,2019,total,neighborhood,MAY2018,65.0
+East Village,June,468.0,2019,total,neighborhood,MAY2018,468.0
+City Center,June,157.0,2019,total,neighborhood,MAY2018,157.0
+Columbia,June,61.0,2019,total,neighborhood,MAY2018,61.0
+Marina,June,35.0,2019,total,neighborhood,MAY2018,35.0
+Cortez,June,46.0,2019,total,neighborhood,MAY2018,46.0
+Gaslamp,June,54.0,2019,total,neighborhood,MAY2018,54.0
+East Village,July,604.0,2019,total,neighborhood,MAY2018,604.0
+City Center,July,147.0,2019,total,neighborhood,MAY2018,147.0
+Columbia,July,52.0,2019,total,neighborhood,MAY2018,52.0
+Marina,July,36.0,2019,total,neighborhood,MAY2018,36.0
+Cortez,July,71.0,2019,total,neighborhood,MAY2018,71.0
+Gaslamp,July,52.0,2019,total,neighborhood,MAY2018,52.0
+East Village,Aug,470.0,2019,total,neighborhood,MAY2018,470.0
+City Center,Aug,124.0,2019,total,neighborhood,MAY2018,124.0
+Columbia,Aug,46.0,2019,total,neighborhood,MAY2018,46.0
+Marina,Aug,39.0,2019,total,neighborhood,MAY2018,39.0
+Cortez,Aug,31.0,2019,total,neighborhood,MAY2018,31.0
+Gaslamp,Aug,61.0,2019,total,neighborhood,MAY2018,61.0
+East Village,Sept,533.0,2019,total,neighborhood,MAY2018,533.0
+City Center,Sept,192.0,2019,total,neighborhood,MAY2018,192.0
+Columbia,Sept,49.0,2019,total,neighborhood,MAY2018,49.0
+Marina,Sept,40.0,2019,total,neighborhood,MAY2018,40.0
+Cortez,Sept,55.0,2019,total,neighborhood,MAY2018,55.0
+Gaslamp,Sept,77.0,2019,total,neighborhood,MAY2018,77.0
+East Village,Oct,479.0,2019,total,neighborhood,MAY2018,479.0
+City Center,Oct,170.0,2019,total,neighborhood,MAY2018,170.0
+Columbia,Oct,67.0,2019,total,neighborhood,MAY2018,67.0
+Marina,Oct,31.0,2019,total,neighborhood,MAY2018,31.0
+Cortez,Oct,39.0,2019,total,neighborhood,MAY2018,39.0
+Gaslamp,Oct,61.0,2019,total,neighborhood,MAY2018,61.0
+East Village,Nov,416.0,2019,total,neighborhood,MAY2018,416.0
+City Center,Nov,103.0,2019,total,neighborhood,MAY2018,103.0
+Columbia,Nov,38.0,2019,total,neighborhood,MAY2018,38.0
+Marina,Nov,33.0,2019,total,neighborhood,MAY2018,33.0
+Cortez,Nov,26.0,2019,total,neighborhood,MAY2018,26.0
+Gaslamp,Nov,62.0,2019,total,neighborhood,MAY2018,62.0
+East Village,Dec,370.0,2019,total,neighborhood,MAY2018,370.0
+City Center,Dec,124.0,2019,total,neighborhood,MAY2018,124.0
+Columbia,Dec,41.0,2019,total,neighborhood,MAY2018,41.0
+Marina,Dec,37.0,2019,total,neighborhood,MAY2018,37.0
+Cortez,Dec,20.0,2019,total,neighborhood,MAY2018,20.0
+Gaslamp,Dec,35.0,2019,total,neighborhood,MAY2018,35.0
+East Village,Jan,495.0,2018,total,neighborhood,APR2017,495.0
+Core,Jan,123.0,2018,total,neighborhood,APR2017,123.0
+Columbia,Jan,50.0,2018,total,neighborhood,APR2017,50.0
+Marina,Jan,31.0,2018,total,neighborhood,APR2017,31.0
+Cortez,Jan,61.0,2018,total,neighborhood,APR2017,61.0
+Gaslamp,Jan,44.0,2018,total,neighborhood,APR2017,44.0
+East Village,Feb,474.0,2018,total,neighborhood,APR2017,474.0
+Core,Feb,156.0,2018,total,neighborhood,APR2017,156.0
+Columbia,Feb,58.0,2018,total,neighborhood,APR2017,58.0
+Marina,Feb,34.0,2018,total,neighborhood,APR2017,34.0
+Cortez,Feb,56.0,2018,total,neighborhood,APR2017,56.0
+Gaslamp,Feb,84.0,2018,total,neighborhood,APR2017,84.0
+East Village,Mar,594.0,2018,total,neighborhood,APR2017,594.0
+Core,Mar,128.0,2018,total,neighborhood,APR2017,128.0
+Columbia,Mar,61.0,2018,total,neighborhood,APR2017,61.0
+Marina,Mar,32.0,2018,total,neighborhood,APR2017,32.0
+Cortez,Mar,72.0,2018,total,neighborhood,APR2017,72.0
+Gaslamp,Mar,93.0,2018,total,neighborhood,APR2017,93.0
+East Village,Apr,502.0,2018,total,neighborhood,APR2017,502.0
+Core,Apr,111.0,2018,total,neighborhood,APR2017,111.0
+Columbia,Apr,46.0,2018,total,neighborhood,APR2017,46.0
+Marina,Apr,37.0,2018,total,neighborhood,APR2017,37.0
+Cortez,Apr,44.0,2018,total,neighborhood,APR2017,44.0
+Gaslamp,Apr,51.0,2018,total,neighborhood,APR2017,51.0
+East Village,May,523.0,2018,total,neighborhood,MAY2018,523.0
+Core,May,180.0,2018,total,neighborhood,MAY2018,180.0
+Columbia,May,46.0,2018,total,neighborhood,MAY2018,46.0
+Marina,May,35.0,2018,total,neighborhood,MAY2018,35.0
+Cortez,May,52.0,2018,total,neighborhood,MAY2018,52.0
+Gaslamp,May,68.0,2018,total,neighborhood,MAY2018,68.0
+East Village,June,459.0,2018,total,neighborhood,MAY2018,459.0
+Core,June,118.0,2018,total,neighborhood,MAY2018,118.0
+Columbia,June,53.0,2018,total,neighborhood,MAY2018,53.0
+Marina,June,50.0,2018,total,neighborhood,MAY2018,50.0
+Cortez,June,40.0,2018,total,neighborhood,MAY2018,40.0
+Gaslamp,June,39.0,2018,total,neighborhood,MAY2018,39.0
+East Village,July,621.0,2018,total,neighborhood,MAY2018,621.0
+Core,July,139.0,2018,total,neighborhood,MAY2018,139.0
+Columbia,July,37.0,2018,total,neighborhood,MAY2018,37.0
+Marina,July,37.0,2018,total,neighborhood,MAY2018,37.0
+Cortez,July,47.0,2018,total,neighborhood,MAY2018,47.0
+Gaslamp,July,45.0,2018,total,neighborhood,MAY2018,45.0
+East Village,Aug,582.0,2018,total,neighborhood,MAY2018,582.0
+Core,Aug,146.0,2018,total,neighborhood,MAY2018,146.0
+Columbia,Aug,56.0,2018,total,neighborhood,MAY2018,56.0
+Marina,Aug,72.0,2018,total,neighborhood,MAY2018,72.0
+Cortez,Aug,54.0,2018,total,neighborhood,MAY2018,54.0
+Gaslamp,Aug,55.0,2018,total,neighborhood,MAY2018,55.0
+East Village,Sept,501.0,2018,total,neighborhood,MAY2018,501.0
+Core,Sept,129.0,2018,total,neighborhood,MAY2018,129.0
+Columbia,Sept,26.0,2018,total,neighborhood,MAY2018,26.0
+Marina,Sept,46.0,2018,total,neighborhood,MAY2018,46.0
+Cortez,Sept,32.0,2018,total,neighborhood,MAY2018,32.0
+Gaslamp,Sept,53.0,2018,total,neighborhood,MAY2018,53.0
+East Village,Oct,504.0,2018,total,neighborhood,MAY2018,504.0
+Core,Oct,104.0,2018,total,neighborhood,MAY2018,104.0
+Columbia,Oct,34.0,2018,total,neighborhood,MAY2018,34.0
+Marina,Oct,29.0,2018,total,neighborhood,MAY2018,29.0
+Cortez,Oct,16.0,2018,total,neighborhood,MAY2018,16.0
+Gaslamp,Oct,52.0,2018,total,neighborhood,MAY2018,52.0
+East Village,Nov,473.0,2018,total,neighborhood,MAY2018,473.0
+Core,Nov,146.0,2018,total,neighborhood,MAY2018,146.0
+Columbia,Nov,24.0,2018,total,neighborhood,MAY2018,24.0
+Marina,Nov,41.0,2018,total,neighborhood,MAY2018,41.0
+Cortez,Nov,46.0,2018,total,neighborhood,MAY2018,46.0
+Gaslamp,Nov,69.0,2018,total,neighborhood,MAY2018,69.0
+East Village,Dec,482.0,2018,total,neighborhood,MAY2018,482.0
+Core,Dec,147.0,2018,total,neighborhood,MAY2018,147.0
+Columbia,Dec,45.0,2018,total,neighborhood,MAY2018,45.0
+Marina,Dec,52.0,2018,total,neighborhood,MAY2018,52.0
+Cortez,Dec,40.0,2018,total,neighborhood,MAY2018,40.0
+Gaslamp,Dec,40.0,2018,total,neighborhood,MAY2018,40.0
+East Village,Jan,629.0,2017,total,neighborhood,PRE2017,629.0
+Core,Jan,117.0,2017,total,neighborhood,PRE2017,117.0
+Columbia,Jan,36.0,2017,total,neighborhood,PRE2017,36.0
+Marina,Jan,26.0,2017,total,neighborhood,PRE2017,26.0
+Cortez,Jan,32.0,2017,total,neighborhood,PRE2017,32.0
+Gaslamp,Jan,42.0,2017,total,neighborhood,PRE2017,42.0
+East Village,Feb,663.0,2017,total,neighborhood,PRE2017,663.0
+Core,Feb,168.0,2017,total,neighborhood,PRE2017,168.0
+Columbia,Feb,35.0,2017,total,neighborhood,PRE2017,35.0
+Marina,Feb,62.0,2017,total,neighborhood,PRE2017,62.0
+Cortez,Feb,42.0,2017,total,neighborhood,PRE2017,42.0
+Gaslamp,Feb,57.0,2017,total,neighborhood,PRE2017,57.0
+East Village,Mar,783.0,2017,total,neighborhood,PRE2017,783.0
+Core,Mar,169.0,2017,total,neighborhood,PRE2017,169.0
+Columbia,Mar,20.0,2017,total,neighborhood,PRE2017,20.0
+Marina,Mar,56.0,2017,total,neighborhood,PRE2017,56.0
+Cortez,Mar,37.0,2017,total,neighborhood,PRE2017,37.0
+Gaslamp,Mar,40.0,2017,total,neighborhood,PRE2017,40.0
+East Village,Apr,598.0,2017,total,neighborhood,APR2017,598.0
+Core,Apr,121.0,2017,total,neighborhood,APR2017,121.0
+Columbia,Apr,46.0,2017,total,neighborhood,APR2017,46.0
+Marina,Apr,41.0,2017,total,neighborhood,APR2017,41.0
+Cortez,Apr,26.0,2017,total,neighborhood,APR2017,26.0
+Gaslamp,Apr,43.0,2017,total,neighborhood,APR2017,43.0
+East Village,May,548.0,2017,total,neighborhood,APR2017,548.0
+Core,May,145.0,2017,total,neighborhood,APR2017,145.0
+Columbia,May,59.0,2017,total,neighborhood,APR2017,59.0
+Marina,May,42.0,2017,total,neighborhood,APR2017,42.0
+Cortez,May,49.0,2017,total,neighborhood,APR2017,49.0
+Gaslamp,May,49.0,2017,total,neighborhood,APR2017,49.0
+East Village,June,781.0,2017,total,neighborhood,APR2017,781.0
+Core,June,173.0,2017,total,neighborhood,APR2017,173.0
+Columbia,June,41.0,2017,total,neighborhood,APR2017,41.0
+Marina,June,50.0,2017,total,neighborhood,APR2017,50.0
+Cortez,June,57.0,2017,total,neighborhood,APR2017,57.0
+Gaslamp,June,54.0,2017,total,neighborhood,APR2017,54.0
+East Village,July,734.0,2017,total,neighborhood,APR2017,734.0
+Core,July,158.0,2017,total,neighborhood,APR2017,158.0
+Columbia,July,47.0,2017,total,neighborhood,APR2017,47.0
+Marina,July,49.0,2017,total,neighborhood,APR2017,49.0
+Cortez,July,64.0,2017,total,neighborhood,APR2017,64.0
+Gaslamp,July,48.0,2017,total,neighborhood,APR2017,48.0
+East Village,Aug,885.0,2017,total,neighborhood,APR2017,885.0
+Core,Aug,169.0,2017,total,neighborhood,APR2017,169.0
+Columbia,Aug,70.0,2017,total,neighborhood,APR2017,70.0
+Marina,Aug,74.0,2017,total,neighborhood,APR2017,74.0
+Cortez,Aug,71.0,2017,total,neighborhood,APR2017,71.0
+Gaslamp,Aug,66.0,2017,total,neighborhood,APR2017,66.0
+East Village,Sept,768.0,2017,total,neighborhood,APR2017,768.0
+Core,Sept,195.0,2017,total,neighborhood,APR2017,195.0
+Columbia,Sept,61.0,2017,total,neighborhood,APR2017,61.0
+Marina,Sept,72.0,2017,total,neighborhood,APR2017,72.0
+Cortez,Sept,95.0,2017,total,neighborhood,APR2017,95.0
+Gaslamp,Sept,85.0,2017,total,neighborhood,APR2017,85.0
+East Village,Oct,649.0,2017,total,neighborhood,APR2017,649.0
+Core,Oct,174.0,2017,total,neighborhood,APR2017,174.0
+Columbia,Oct,56.0,2017,total,neighborhood,APR2017,56.0
+Marina,Oct,79.0,2017,total,neighborhood,APR2017,79.0
+Cortez,Oct,78.0,2017,total,neighborhood,APR2017,78.0
+Gaslamp,Oct,56.0,2017,total,neighborhood,APR2017,56.0
+East Village,Nov,580.0,2017,total,neighborhood,APR2017,580.0
+Core,Nov,162.0,2017,total,neighborhood,APR2017,162.0
+Columbia,Nov,49.0,2017,total,neighborhood,APR2017,49.0
+Marina,Nov,50.0,2017,total,neighborhood,APR2017,50.0
+Cortez,Nov,58.0,2017,total,neighborhood,APR2017,58.0
+Gaslamp,Nov,42.0,2017,total,neighborhood,APR2017,42.0
+East Village,Dec,663.0,2017,total,neighborhood,APR2017,663.0
+Core,Dec,147.0,2017,total,neighborhood,APR2017,147.0
+Columbia,Dec,46.0,2017,total,neighborhood,APR2017,46.0
+Marina,Dec,49.0,2017,total,neighborhood,APR2017,49.0
+Cortez,Dec,53.0,2017,total,neighborhood,APR2017,53.0
+Gaslamp,Dec,55.0,2017,total,neighborhood,APR2017,55.0
+East Village,Jan,678.0,2022,total,neighborhood,POST2020,678.0
+City Center,Jan,213.0,2022,total,neighborhood,POST2020,213.0
+Columbia,Jan,61.0,2022,total,neighborhood,POST2020,61.0
+Marina,Jan,42.0,2022,total,neighborhood,POST2020,42.0
+Cortez,Jan,92.0,2022,total,neighborhood,POST2020,92.0
+Gaslamp,Jan,64.0,2022,total,neighborhood,POST2020,64.0
+Outside Perimeter,Jan,259.0,2022,total,neighborhood,POST2020,259.0
+East Village,Feb,741.0,2022,total,neighborhood,POST2020,741.0
+City Center,Feb,186.0,2022,total,neighborhood,POST2020,186.0
+Columbia,Feb,71.0,2022,total,neighborhood,POST2020,71.0
+Marina,Feb,18.0,2022,total,neighborhood,POST2020,18.0
+Cortez,Feb,118.0,2022,total,neighborhood,POST2020,118.0
+Gaslamp,Feb,41.0,2022,total,neighborhood,POST2020,41.0
+Outside Perimeter,Feb,270.0,2022,total,neighborhood,POST2020,270.0
+East Village,Mar,622.0,2022,total,neighborhood,POST2020,622.0
+City Center,Mar,214.0,2022,total,neighborhood,POST2020,214.0
+Columbia,Mar,63.0,2022,total,neighborhood,POST2020,63.0
+Marina,Mar,37.0,2022,total,neighborhood,POST2020,37.0
+Cortez,Mar,36.0,2022,total,neighborhood,POST2020,36.0
+Gaslamp,Mar,70.0,2022,total,neighborhood,POST2020,70.0
+Outside Perimeter,Mar,342.0,2022,total,neighborhood,POST2020,342.0
+East Village,Apr,655.0,2022,total,neighborhood,POST2020,655.0
+City Center,Apr,275.0,2022,total,neighborhood,POST2020,275.0
+Columbia,Apr,63.0,2022,total,neighborhood,POST2020,63.0
+Marina,Apr,44.0,2022,total,neighborhood,POST2020,44.0
+Cortez,Apr,73.0,2022,total,neighborhood,POST2020,73.0
+Gaslamp,Apr,44.0,2022,total,neighborhood,POST2020,44.0
+Outside Perimeter,Apr,320.0,2022,total,neighborhood,POST2020,320.0
+East Village,May,624.0,2022,total,neighborhood,POST2020,624.0
+City Center,May,224.0,2022,total,neighborhood,POST2020,224.0
+Columbia,May,47.0,2022,total,neighborhood,POST2020,47.0
+Marina,May,10.0,2022,total,neighborhood,POST2020,10.0
+Cortez,May,60.0,2022,total,neighborhood,POST2020,60.0
+Gaslamp,May,44.0,2022,total,neighborhood,POST2020,44.0
+Outside Perimeter,May,315.0,2022,total,neighborhood,POST2020,315.0
+East Village,June,712.0,2022,total,neighborhood,POST2020,712.0
+City Center,June,241.0,2022,total,neighborhood,POST2020,241.0
+Columbia,June,85.0,2022,total,neighborhood,POST2020,85.0
+Marina,June,52.0,2022,total,neighborhood,POST2020,52.0
+Cortez,June,51.0,2022,total,neighborhood,POST2020,51.0
+Gaslamp,June,50.0,2022,total,neighborhood,POST2020,50.0
+Outside Perimeter,June,262.0,2022,total,neighborhood,POST2020,262.0
+East Village,July,598.0,2022,total,neighborhood,POST2020,598.0
+City Center,July,234.0,2022,total,neighborhood,POST2020,234.0
+Columbia,July,35.0,2022,total,neighborhood,POST2020,35.0
+Marina,July,12.0,2022,total,neighborhood,POST2020,12.0
+Cortez,July,90.0,2022,total,neighborhood,POST2020,90.0
+Gaslamp,July,28.0,2022,total,neighborhood,POST2020,28.0
+Outside Perimeter,July,256.0,2022,total,neighborhood,POST2020,256.0
+East Village,Aug,790.0,2022,total,neighborhood,POST2020,790.0
+City Center,Aug,268.0,2022,total,neighborhood,POST2020,268.0
+Columbia,Aug,56.0,2022,total,neighborhood,POST2020,56.0
+Marina,Aug,44.0,2022,total,neighborhood,POST2020,44.0
+Cortez,Aug,83.0,2022,total,neighborhood,POST2020,83.0
+Gaslamp,Aug,44.0,2022,total,neighborhood,POST2020,44.0
+Outside Perimeter,Aug,324.0,2022,total,neighborhood,POST2020,324.0
+East Village,Sept,846.0,2022,total,neighborhood,POST2020,846.0
+City Center,Sept,235.0,2022,total,neighborhood,POST2020,235.0
+Columbia,Sept,31.0,2022,total,neighborhood,POST2020,31.0
+Marina,Sept,21.0,2022,total,neighborhood,POST2020,21.0
+Cortez,Sept,77.0,2022,total,neighborhood,POST2020,77.0
+Gaslamp,Sept,62.0,2022,total,neighborhood,POST2020,62.0
+Outside Perimeter,Sept,351.0,2022,total,neighborhood,POST2020,351.0
+East Village,Oct,713.0,2022,total,neighborhood,POST2020,713.0
+City Center,Oct,284.0,2022,total,neighborhood,POST2020,284.0
+Columbia,Oct,29.0,2022,total,neighborhood,POST2020,29.0
+Marina,Oct,27.0,2022,total,neighborhood,POST2020,27.0
+Cortez,Oct,90.0,2022,total,neighborhood,POST2020,90.0
+Gaslamp,Oct,60.0,2022,total,neighborhood,POST2020,60.0
+Outside Perimeter,Oct,458.0,2022,total,neighborhood,POST2020,458.0
+East Village,Nov,760.0,2022,total,neighborhood,POST2020,760.0
+City Center,Nov,235.0,2022,total,neighborhood,POST2020,235.0
+Columbia,Nov,33.0,2022,total,neighborhood,POST2020,33.0
+Marina,Nov,44.0,2022,total,neighborhood,POST2020,44.0
+Cortez,Nov,114.0,2022,total,neighborhood,POST2020,114.0
+Gaslamp,Nov,54.0,2022,total,neighborhood,POST2020,54.0
+Outside Perimeter,Nov,466.0,2022,total,neighborhood,POST2020,466.0
+East Village,Dec,850.0,2022,total,neighborhood,POST2020,850.0
+City Center,Dec,271.0,2022,total,neighborhood,POST2020,271.0
+Columbia,Dec,27.0,2022,total,neighborhood,POST2020,27.0
+Marina,Dec,26.0,2022,total,neighborhood,POST2020,26.0
+Cortez,Dec,107.0,2022,total,neighborhood,POST2020,107.0
+Gaslamp,Dec,67.0,2022,total,neighborhood,POST2020,67.0
+Outside Perimeter,Dec,491.0,2022,total,neighborhood,POST2020,491.0
+East Village,Jan,435.0,2025,total,neighborhood,POST2020,435.0
+City Center,Jan,179.0,2025,total,neighborhood,POST2020,179.0
+Columbia,Jan,37.0,2025,total,neighborhood,POST2020,37.0
+Marina,Jan,17.0,2025,total,neighborhood,POST2020,17.0
+Cortez,Jan,50.0,2025,total,neighborhood,POST2020,50.0
+Gaslamp,Jan,41.0,2025,total,neighborhood,POST2020,41.0
+Outside Perimeter,Jan,84.0,2025,total,neighborhood,POST2020,84.0
+East Village,Feb,409.0,2025,total,neighborhood,POST2020,409.0
+City Center,Feb,176.0,2025,total,neighborhood,POST2020,176.0
+Columbia,Feb,39.0,2025,total,neighborhood,POST2020,39.0
+Marina,Feb,17.0,2025,total,neighborhood,POST2020,17.0
+Cortez,Feb,63.0,2025,total,neighborhood,POST2020,63.0
+Gaslamp,Feb,27.0,2025,total,neighborhood,POST2020,27.0
+Outside Perimeter,Feb,253.0,2025,total,neighborhood,POST2020,253.0
+East Village,Mar,413.0,2025,total,neighborhood,POST2020,413.0
+City Center,Mar,161.0,2025,total,neighborhood,POST2020,161.0
+Columbia,Mar,14.0,2025,total,neighborhood,POST2020,14.0
+Marina,Mar,16.0,2025,total,neighborhood,POST2020,16.0
+Cortez,Mar,34.0,2025,total,neighborhood,POST2020,34.0
+Gaslamp,Mar,32.0,2025,total,neighborhood,POST2020,32.0
+Outside Perimeter,Mar,141.0,2025,total,neighborhood,POST2020,141.0
+East Village,Apr,401.0,2025,total,neighborhood,POST2020,401.0
+City Center,Apr,154.0,2025,total,neighborhood,POST2020,154.0
+Columbia,Apr,29.0,2025,total,neighborhood,POST2020,29.0
+Marina,Apr,7.0,2025,total,neighborhood,POST2020,7.0
+Cortez,Apr,77.0,2025,total,neighborhood,POST2020,77.0
+Gaslamp,Apr,40.0,2025,total,neighborhood,POST2020,40.0
+Outside Perimeter,Apr,194.0,2025,total,neighborhood,POST2020,194.0
+East Village,May,405.0,2025,total,neighborhood,POST2020,405.0
+City Center,May,148.0,2025,total,neighborhood,POST2020,148.0
+Columbia,May,33.0,2025,total,neighborhood,POST2020,33.0
+Marina,May,8.0,2025,total,neighborhood,POST2020,8.0
+Cortez,May,74.0,2025,total,neighborhood,POST2020,74.0
+Gaslamp,May,23.0,2025,total,neighborhood,POST2020,23.0
+Outside Perimeter,May,147.0,2025,total,neighborhood,POST2020,147.0
+East Village,June,408.0,2025,total,neighborhood,POST2020,408.0
+City Center,June,129.0,2025,total,neighborhood,POST2020,129.0
+Columbia,June,21.0,2025,total,neighborhood,POST2020,21.0
+Marina,June,11.0,2025,total,neighborhood,POST2020,11.0
+Cortez,June,44.0,2025,total,neighborhood,POST2020,44.0
+Gaslamp,June,40.0,2025,total,neighborhood,POST2020,40.0
+Outside Perimeter,June,104.0,2025,total,neighborhood,POST2020,104.0
+East Village,July,,2025,total,neighborhood,POST2020,
+City Center,July,,2025,total,neighborhood,POST2020,
+Columbia,July,,2025,total,neighborhood,POST2020,
+Marina,July,,2025,total,neighborhood,POST2020,
+Cortez,July,,2025,total,neighborhood,POST2020,
+Gaslamp,July,,2025,total,neighborhood,POST2020,
+Outside Perimeter,July,,2025,total,neighborhood,POST2020,
+East Village,Aug,,2025,total,neighborhood,POST2020,
+City Center,Aug,,2025,total,neighborhood,POST2020,
+Columbia,Aug,,2025,total,neighborhood,POST2020,
+Marina,Aug,,2025,total,neighborhood,POST2020,
+Cortez,Aug,,2025,total,neighborhood,POST2020,
+Gaslamp,Aug,,2025,total,neighborhood,POST2020,
+Outside Perimeter,Aug,,2025,total,neighborhood,POST2020,
+East Village,Sept,445.0,2025,total,neighborhood,POST2020,445.0
+City Center,Sept,125.0,2025,total,neighborhood,POST2020,125.0
+Columbia,Sept,31.0,2025,total,neighborhood,POST2020,31.0
+Marina,Sept,24.0,2025,total,neighborhood,POST2020,24.0
+Cortez,Sept,45.0,2025,total,neighborhood,POST2020,45.0
+Gaslamp,Sept,52.0,2025,total,neighborhood,POST2020,52.0
+Outside Perimeter,Sept,65.0,2025,total,neighborhood,POST2020,65.0
+East Village,Oct,,2025,total,neighborhood,POST2020,
+City Center,Oct,,2025,total,neighborhood,POST2020,
+Columbia,Oct,,2025,total,neighborhood,POST2020,
+Marina,Oct,,2025,total,neighborhood,POST2020,
+Cortez,Oct,,2025,total,neighborhood,POST2020,
+Gaslamp,Oct,,2025,total,neighborhood,POST2020,
+Outside Perimeter,Oct,,2025,total,neighborhood,POST2020,
+East Village,Nov,,2025,total,neighborhood,POST2020,
+City Center,Nov,,2025,total,neighborhood,POST2020,
+Columbia,Nov,,2025,total,neighborhood,POST2020,
+Marina,Nov,,2025,total,neighborhood,POST2020,
+Cortez,Nov,,2025,total,neighborhood,POST2020,
+Gaslamp,Nov,,2025,total,neighborhood,POST2020,
+Outside Perimeter,Nov,,2025,total,neighborhood,POST2020,
+East Village,Dec,555.0,2025,total,neighborhood,POST2020,555.0
+City Center,Dec,195.0,2025,total,neighborhood,POST2020,195.0
+Columbia,Dec,32.0,2025,total,neighborhood,POST2020,32.0
+Marina,Dec,11.0,2025,total,neighborhood,POST2020,11.0
+Cortez,Dec,83.0,2025,total,neighborhood,POST2020,83.0
+Gaslamp,Dec,42.0,2025,total,neighborhood,POST2020,42.0
+Outside Perimeter,Dec,68.0,2025,total,neighborhood,POST2020,68.0
+East Village,Jan,530.0,2024,total,neighborhood,POST2020,530.0
+City Center,Jan,198.0,2024,total,neighborhood,POST2020,198.0
+Columbia,Jan,34.0,2024,total,neighborhood,POST2020,34.0
+Marina,Jan,19.0,2024,total,neighborhood,POST2020,19.0
+Cortez,Jan,154.0,2024,total,neighborhood,POST2020,154.0
+Gaslamp,Jan,47.0,2024,total,neighborhood,POST2020,47.0
+Outside Perimeter,Jan,37.0,2024,total,neighborhood,POST2020,37.0
+East Village,Feb,553.0,2024,total,neighborhood,POST2020,553.0
+City Center,Feb,172.0,2024,total,neighborhood,POST2020,172.0
+Columbia,Feb,40.0,2024,total,neighborhood,POST2020,40.0
+Marina,Feb,17.0,2024,total,neighborhood,POST2020,17.0
+Cortez,Feb,170.0,2024,total,neighborhood,POST2020,170.0
+Gaslamp,Feb,55.0,2024,total,neighborhood,POST2020,55.0
+Outside Perimeter,Feb,56.0,2024,total,neighborhood,POST2020,56.0
+East Village,Mar,380.0,2024,total,neighborhood,POST2020,380.0
+City Center,Mar,221.0,2024,total,neighborhood,POST2020,221.0
+Columbia,Mar,41.0,2024,total,neighborhood,POST2020,41.0
+Marina,Mar,21.0,2024,total,neighborhood,POST2020,21.0
+Cortez,Mar,76.0,2024,total,neighborhood,POST2020,76.0
+Gaslamp,Mar,36.0,2024,total,neighborhood,POST2020,36.0
+Outside Perimeter,Mar,34.0,2024,total,neighborhood,POST2020,34.0
+East Village,Apr,366.0,2024,total,neighborhood,POST2020,366.0
+City Center,Apr,237.0,2024,total,neighborhood,POST2020,237.0
+Columbia,Apr,34.0,2024,total,neighborhood,POST2020,34.0
+Marina,Apr,13.0,2024,total,neighborhood,POST2020,13.0
+Cortez,Apr,75.0,2024,total,neighborhood,POST2020,75.0
+Gaslamp,Apr,52.0,2024,total,neighborhood,POST2020,52.0
+Outside Perimeter,Apr,63.0,2024,total,neighborhood,POST2020,63.0
+East Village,May,407.0,2024,total,neighborhood,POST2020,407.0
+City Center,May,219.0,2024,total,neighborhood,POST2020,219.0
+Columbia,May,36.0,2024,total,neighborhood,POST2020,36.0
+Marina,May,16.0,2024,total,neighborhood,POST2020,16.0
+Cortez,May,51.0,2024,total,neighborhood,POST2020,51.0
+Gaslamp,May,77.0,2024,total,neighborhood,POST2020,77.0
+Outside Perimeter,May,20.0,2024,total,neighborhood,POST2020,20.0
+East Village,June,451.0,2024,total,neighborhood,POST2020,451.0
+City Center,June,199.0,2024,total,neighborhood,POST2020,199.0
+Columbia,June,40.0,2024,total,neighborhood,POST2020,40.0
+Marina,June,25.0,2024,total,neighborhood,POST2020,25.0
+Cortez,June,59.0,2024,total,neighborhood,POST2020,59.0
+Gaslamp,June,56.0,2024,total,neighborhood,POST2020,56.0
+Outside Perimeter,June,16.0,2024,total,neighborhood,POST2020,16.0
+East Village,July,458.0,2024,total,neighborhood,POST2020,458.0
+City Center,July,208.0,2024,total,neighborhood,POST2020,208.0
+Columbia,July,33.0,2024,total,neighborhood,POST2020,33.0
+Marina,July,11.0,2024,total,neighborhood,POST2020,11.0
+Cortez,July,69.0,2024,total,neighborhood,POST2020,69.0
+Gaslamp,July,54.0,2024,total,neighborhood,POST2020,54.0
+Outside Perimeter,July,48.0,2024,total,neighborhood,POST2020,48.0
+East Village,Aug,449.0,2024,total,neighborhood,POST2020,449.0
+City Center,Aug,209.0,2024,total,neighborhood,POST2020,209.0
+Columbia,Aug,35.0,2024,total,neighborhood,POST2020,35.0
+Marina,Aug,26.0,2024,total,neighborhood,POST2020,26.0
+Cortez,Aug,49.0,2024,total,neighborhood,POST2020,49.0
+Gaslamp,Aug,37.0,2024,total,neighborhood,POST2020,37.0
+Outside Perimeter,Aug,51.0,2024,total,neighborhood,POST2020,51.0
+East Village,Sept,445.0,2024,total,neighborhood,POST2020,445.0
+City Center,Sept,134.0,2024,total,neighborhood,POST2020,134.0
+Columbia,Sept,24.0,2024,total,neighborhood,POST2020,24.0
+Marina,Sept,24.0,2024,total,neighborhood,POST2020,24.0
+Cortez,Sept,68.0,2024,total,neighborhood,POST2020,68.0
+Gaslamp,Sept,46.0,2024,total,neighborhood,POST2020,46.0
+Outside Perimeter,Sept,59.0,2024,total,neighborhood,POST2020,59.0
+East Village,Oct,396.0,2024,total,neighborhood,POST2020,396.0
+City Center,Oct,227.0,2024,total,neighborhood,POST2020,227.0
+Columbia,Oct,34.0,2024,total,neighborhood,POST2020,34.0
+Marina,Oct,11.0,2024,total,neighborhood,POST2020,11.0
+Cortez,Oct,69.0,2024,total,neighborhood,POST2020,69.0
+Gaslamp,Oct,35.0,2024,total,neighborhood,POST2020,35.0
+Outside Perimeter,Oct,96.0,2024,total,neighborhood,POST2020,96.0
+East Village,Nov,390.0,2024,total,neighborhood,POST2020,390.0
+City Center,Nov,151.0,2024,total,neighborhood,POST2020,151.0
+Columbia,Nov,45.0,2024,total,neighborhood,POST2020,45.0
+Marina,Nov,26.0,2024,total,neighborhood,POST2020,26.0
+Cortez,Nov,69.0,2024,total,neighborhood,POST2020,69.0
+Gaslamp,Nov,40.0,2024,total,neighborhood,POST2020,40.0
+Outside Perimeter,Nov,123.0,2024,total,neighborhood,POST2020,123.0
+East Village,Dec,492.0,2024,total,neighborhood,POST2020,492.0
+City Center,Dec,156.0,2024,total,neighborhood,POST2020,156.0
+Columbia,Dec,40.0,2024,total,neighborhood,POST2020,40.0
+Marina,Dec,14.0,2024,total,neighborhood,POST2020,14.0
+Cortez,Dec,74.0,2024,total,neighborhood,POST2020,74.0
+Gaslamp,Dec,42.0,2024,total,neighborhood,POST2020,42.0
+Outside Perimeter,Dec,177.0,2024,total,neighborhood,POST2020,177.0
+East Village,Jan,794.0,2023,total,neighborhood,POST2020,794.0
+City Center,Jan,270.0,2023,total,neighborhood,POST2020,270.0
+Columbia,Jan,36.0,2023,total,neighborhood,POST2020,36.0
+Marina,Jan,23.0,2023,total,neighborhood,POST2020,23.0
+Cortez,Jan,129.0,2023,total,neighborhood,POST2020,129.0
+Gaslamp,Jan,46.0,2023,total,neighborhood,POST2020,46.0
+Outside Perimeter,Jan,640.0,2023,total,neighborhood,POST2020,640.0
+East Village,Feb,781.0,2023,total,neighborhood,POST2020,781.0
+City Center,Feb,266.0,2023,total,neighborhood,POST2020,266.0
+Columbia,Feb,48.0,2023,total,neighborhood,POST2020,48.0
+Marina,Feb,25.0,2023,total,neighborhood,POST2020,25.0
+Cortez,Feb,98.0,2023,total,neighborhood,POST2020,98.0
+Gaslamp,Feb,72.0,2023,total,neighborhood,POST2020,72.0
+Outside Perimeter,Feb,520.0,2023,total,neighborhood,POST2020,520.0
+East Village,Mar,665.0,2023,total,neighborhood,POST2020,665.0
+City Center,Mar,342.0,2023,total,neighborhood,POST2020,342.0
+Columbia,Mar,45.0,2023,total,neighborhood,POST2020,45.0
+Marina,Mar,21.0,2023,total,neighborhood,POST2020,21.0
+Cortez,Mar,100.0,2023,total,neighborhood,POST2020,100.0
+Gaslamp,Mar,64.0,2023,total,neighborhood,POST2020,64.0
+Outside Perimeter,Mar,482.0,2023,total,neighborhood,POST2020,482.0
+East Village,Apr,823.0,2023,total,neighborhood,POST2020,823.0
+City Center,Apr,290.0,2023,total,neighborhood,POST2020,290.0
+Columbia,Apr,46.0,2023,total,neighborhood,POST2020,46.0
+Marina,Apr,33.0,2023,total,neighborhood,POST2020,33.0
+Cortez,Apr,113.0,2023,total,neighborhood,POST2020,113.0
+Gaslamp,Apr,46.0,2023,total,neighborhood,POST2020,46.0
+Outside Perimeter,Apr,607.0,2023,total,neighborhood,POST2020,607.0
+East Village,May,918.0,2023,total,neighborhood,POST2020,918.0
+City Center,May,342.0,2023,total,neighborhood,POST2020,342.0
+Columbia,May,38.0,2023,total,neighborhood,POST2020,38.0
+Marina,May,51.0,2023,total,neighborhood,POST2020,51.0
+Cortez,May,121.0,2023,total,neighborhood,POST2020,121.0
+Gaslamp,May,57.0,2023,total,neighborhood,POST2020,57.0
+Outside Perimeter,May,577.0,2023,total,neighborhood,POST2020,577.0
+East Village,June,728.0,2023,total,neighborhood,POST2020,728.0
+City Center,June,236.0,2023,total,neighborhood,POST2020,236.0
+Columbia,June,34.0,2023,total,neighborhood,POST2020,34.0
+Marina,June,17.0,2023,total,neighborhood,POST2020,17.0
+Cortez,June,109.0,2023,total,neighborhood,POST2020,109.0
+Gaslamp,June,19.0,2023,total,neighborhood,POST2020,19.0
+Outside Perimeter,June,581.0,2023,total,neighborhood,POST2020,581.0
+East Village,July,921.0,2023,total,neighborhood,POST2020,921.0
+City Center,July,187.0,2023,total,neighborhood,POST2020,187.0
+Columbia,July,21.0,2023,total,neighborhood,POST2020,21.0
+Marina,July,12.0,2023,total,neighborhood,POST2020,12.0
+Cortez,July,104.0,2023,total,neighborhood,POST2020,104.0
+Gaslamp,July,25.0,2023,total,neighborhood,POST2020,25.0
+Outside Perimeter,July,286.0,2023,total,neighborhood,POST2020,286.0
+East Village,Aug,861.0,2023,total,neighborhood,POST2020,861.0
+City Center,Aug,203.0,2023,total,neighborhood,POST2020,203.0
+Columbia,Aug,14.0,2023,total,neighborhood,POST2020,14.0
+Marina,Aug,20.0,2023,total,neighborhood,POST2020,20.0
+Cortez,Aug,65.0,2023,total,neighborhood,POST2020,65.0
+Gaslamp,Aug,44.0,2023,total,neighborhood,POST2020,44.0
+Outside Perimeter,Aug,79.0,2023,total,neighborhood,POST2020,79.0
+East Village,Sept,907.0,2023,total,neighborhood,POST2020,907.0
+City Center,Sept,173.0,2023,total,neighborhood,POST2020,173.0
+Columbia,Sept,30.0,2023,total,neighborhood,POST2020,30.0
+Marina,Sept,13.0,2023,total,neighborhood,POST2020,13.0
+Cortez,Sept,103.0,2023,total,neighborhood,POST2020,103.0
+Gaslamp,Sept,51.0,2023,total,neighborhood,POST2020,51.0
+Outside Perimeter,Sept,93.0,2023,total,neighborhood,POST2020,93.0
+East Village,Oct,869.0,2023,total,neighborhood,POST2020,869.0
+City Center,Oct,204.0,2023,total,neighborhood,POST2020,204.0
+Columbia,Oct,28.0,2023,total,neighborhood,POST2020,28.0
+Marina,Oct,22.0,2023,total,neighborhood,POST2020,22.0
+Cortez,Oct,63.0,2023,total,neighborhood,POST2020,63.0
+Gaslamp,Oct,52.0,2023,total,neighborhood,POST2020,52.0
+Outside Perimeter,Oct,56.0,2023,total,neighborhood,POST2020,56.0
+East Village,Nov,679.0,2023,total,neighborhood,POST2020,679.0
+City Center,Nov,235.0,2023,total,neighborhood,POST2020,235.0
+Columbia,Nov,37.0,2023,total,neighborhood,POST2020,37.0
+Marina,Nov,13.0,2023,total,neighborhood,POST2020,13.0
+Cortez,Nov,95.0,2023,total,neighborhood,POST2020,95.0
+Gaslamp,Nov,36.0,2023,total,neighborhood,POST2020,36.0
+Outside Perimeter,Nov,77.0,2023,total,neighborhood,POST2020,77.0
+East Village,Dec,498.0,2023,total,neighborhood,POST2020,498.0
+City Center,Dec,129.0,2023,total,neighborhood,POST2020,129.0
+Columbia,Dec,29.0,2023,total,neighborhood,POST2020,29.0
+Marina,Dec,17.0,2023,total,neighborhood,POST2020,17.0
+Cortez,Dec,105.0,2023,total,neighborhood,POST2020,105.0
+Gaslamp,Dec,31.0,2023,total,neighborhood,POST2020,31.0
+Outside Perimeter,Dec,37.0,2023,total,neighborhood,POST2020,37.0
+North East EV,Jan,44.0,2021,total,sub-area,POST2020,44.0
+North West EV,Jan,90.0,2021,total,sub-area,POST2020,90.0
+South East EV,Jan,253.0,2021,total,sub-area,POST2020,253.0
+South West EV,Jan,22.0,2021,total,sub-area,POST2020,22.0
+North East EV,Feb,54.0,2021,total,sub-area,POST2020,54.0
+North West EV,Feb,56.0,2021,total,sub-area,POST2020,56.0
+South East EV,Feb,247.0,2021,total,sub-area,POST2020,247.0
+South West EV,Feb,24.0,2021,total,sub-area,POST2020,24.0
+North East EV,Mar,25.0,2021,total,sub-area,POST2020,25.0
+North West EV,Mar,61.0,2021,total,sub-area,POST2020,61.0
+South East EV,Mar,303.0,2021,total,sub-area,POST2020,303.0
+South West EV,Mar,51.0,2021,total,sub-area,POST2020,51.0
+North East EV,Apr,31.0,2021,total,sub-area,POST2020,31.0
+North West EV,Apr,57.0,2021,total,sub-area,POST2020,57.0
+South East EV,Apr,290.0,2021,total,sub-area,POST2020,290.0
+South West EV,Apr,24.0,2021,total,sub-area,POST2020,24.0
+North East EV,May,50.0,2021,total,sub-area,POST2020,50.0
+North West EV,May,86.0,2021,total,sub-area,POST2020,86.0
+South East EV,May,364.0,2021,total,sub-area,POST2020,364.0
+South West EV,May,13.0,2021,total,sub-area,POST2020,13.0
+North East EV,June,53.0,2021,total,sub-area,POST2020,53.0
+North West EV,June,85.0,2021,total,sub-area,POST2020,85.0
+South East EV,June,331.0,2021,total,sub-area,POST2020,331.0
+South West EV,June,30.0,2021,total,sub-area,POST2020,30.0
+North East EV,July,47.0,2021,total,sub-area,POST2020,47.0
+North West EV,July,79.0,2021,total,sub-area,POST2020,79.0
+South East EV,July,305.0,2021,total,sub-area,POST2020,305.0
+South West EV,July,33.0,2021,total,sub-area,POST2020,33.0
+North East EV,Aug,31.0,2021,total,sub-area,POST2020,31.0
+North West EV,Aug,88.0,2021,total,sub-area,POST2020,88.0
+South East EV,Aug,320.0,2021,total,sub-area,POST2020,320.0
+South West EV,Aug,31.0,2021,total,sub-area,POST2020,31.0
+North East EV,Sept,43.0,2021,total,sub-area,POST2020,43.0
+North West EV,Sept,74.0,2021,total,sub-area,POST2020,74.0
+South East EV,Sept,275.0,2021,total,sub-area,POST2020,275.0
+South West EV,Sept,45.0,2021,total,sub-area,POST2020,45.0
+North East EV,Oct,80.0,2021,total,sub-area,POST2020,80.0
+North West EV,Oct,72.0,2021,total,sub-area,POST2020,72.0
+South East EV,Oct,346.0,2021,total,sub-area,POST2020,346.0
+South West EV,Oct,43.0,2021,total,sub-area,POST2020,43.0
+North East EV,Nov,63.0,2021,total,sub-area,POST2020,63.0
+North West EV,Nov,83.0,2021,total,sub-area,POST2020,83.0
+South East EV,Nov,353.0,2021,total,sub-area,POST2020,353.0
+South West EV,Nov,42.0,2021,total,sub-area,POST2020,42.0
+North East EV,Dec,49.0,2021,total,sub-area,POST2020,49.0
+North West EV,Dec,85.0,2021,total,sub-area,POST2020,85.0
+South East EV,Dec,402.0,2021,total,sub-area,POST2020,402.0
+South West EV,Dec,76.0,2021,total,sub-area,POST2020,76.0
+North East EV,Jan,65.0,2020,total,sub-area,POST2020,65.0
+North West EV,Jan,88.0,2020,total,sub-area,POST2020,88.0
+South East EV,Jan,282.0,2020,total,sub-area,POST2020,282.0
+South West EV,Jan,32.0,2020,total,sub-area,POST2020,32.0
+North East EV,Feb,47.0,2020,total,sub-area,POST2020,47.0
+North West EV,Feb,92.0,2020,total,sub-area,POST2020,92.0
+South East EV,Feb,250.0,2020,total,sub-area,POST2020,250.0
+South West EV,Feb,20.0,2020,total,sub-area,POST2020,20.0
+North East EV,Mar,32.0,2020,total,sub-area,POST2020,32.0
+North West EV,Mar,34.0,2020,total,sub-area,POST2020,34.0
+South East EV,Mar,86.0,2020,total,sub-area,POST2020,86.0
+South West EV,Mar,109.0,2020,total,sub-area,POST2020,109.0
+North East EV,Apr,43.0,2020,total,sub-area,POST2020,43.0
+North West EV,Apr,57.0,2020,total,sub-area,POST2020,57.0
+South East EV,Apr,215.0,2020,total,sub-area,POST2020,215.0
+South West EV,Apr,15.0,2020,total,sub-area,POST2020,15.0
+North East EV,May,46.0,2020,total,sub-area,POST2020,46.0
+North West EV,May,59.0,2020,total,sub-area,POST2020,59.0
+South East EV,May,212.0,2020,total,sub-area,POST2020,212.0
+South West EV,May,16.0,2020,total,sub-area,POST2020,16.0
+North East EV,June,71.0,2020,total,sub-area,POST2020,71.0
+North West EV,June,69.0,2020,total,sub-area,POST2020,69.0
+South East EV,June,252.0,2020,total,sub-area,POST2020,252.0
+South West EV,June,26.0,2020,total,sub-area,POST2020,26.0
+North East EV,July,79.0,2020,total,sub-area,POST2020,79.0
+North West EV,July,71.0,2020,total,sub-area,POST2020,71.0
+South East EV,July,226.0,2020,total,sub-area,POST2020,226.0
+South West EV,July,22.0,2020,total,sub-area,POST2020,22.0
+North East EV,Aug,60.0,2020,total,sub-area,POST2020,60.0
+North West EV,Aug,49.0,2020,total,sub-area,POST2020,49.0
+South East EV,Aug,196.0,2020,total,sub-area,POST2020,196.0
+South West EV,Aug,21.0,2020,total,sub-area,POST2020,21.0
+North East EV,Sept,68.0,2020,total,sub-area,POST2020,68.0
+North West EV,Sept,57.0,2020,total,sub-area,POST2020,57.0
+South East EV,Sept,300.0,2020,total,sub-area,POST2020,300.0
+South West EV,Sept,22.0,2020,total,sub-area,POST2020,22.0
+North East EV,Oct,44.0,2020,total,sub-area,POST2020,44.0
+North West EV,Oct,69.0,2020,total,sub-area,POST2020,69.0
+South East EV,Oct,270.0,2020,total,sub-area,POST2020,270.0
+South West EV,Oct,18.0,2020,total,sub-area,POST2020,18.0
+North East EV,Nov,45.0,2020,total,sub-area,POST2020,45.0
+North West EV,Nov,64.0,2020,total,sub-area,POST2020,64.0
+South East EV,Nov,291.0,2020,total,sub-area,POST2020,291.0
+South West EV,Nov,25.0,2020,total,sub-area,POST2020,25.0
+North East EV,Dec,47.0,2020,total,sub-area,POST2020,47.0
+North West EV,Dec,44.0,2020,total,sub-area,POST2020,44.0
+South East EV,Dec,196.0,2020,total,sub-area,POST2020,196.0
+South West EV,Dec,47.0,2020,total,sub-area,POST2020,47.0
+North East EV,Jan,65.0,2019,total,sub-area,MAY2018,65.0
+North West EV,Jan,88.0,2019,total,sub-area,MAY2018,88.0
+South East EV,Jan,282.0,2019,total,sub-area,MAY2018,282.0
+South West EV,Jan,32.0,2019,total,sub-area,MAY2018,32.0
+North East EV,Feb,47.0,2019,total,sub-area,MAY2018,47.0
+North West EV,Feb,92.0,2019,total,sub-area,MAY2018,92.0
+South East EV,Feb,250.0,2019,total,sub-area,MAY2018,250.0
+South West EV,Feb,20.0,2019,total,sub-area,MAY2018,20.0
+North East EV,Mar,32.0,2019,total,sub-area,MAY2018,32.0
+North West EV,Mar,34.0,2019,total,sub-area,MAY2018,34.0
+South East EV,Mar,86.0,2019,total,sub-area,MAY2018,86.0
+South West EV,Mar,109.0,2019,total,sub-area,MAY2018,109.0
+North East EV,Apr,43.0,2019,total,sub-area,MAY2018,43.0
+North West EV,Apr,57.0,2019,total,sub-area,MAY2018,57.0
+South East EV,Apr,215.0,2019,total,sub-area,MAY2018,215.0
+South West EV,Apr,15.0,2019,total,sub-area,MAY2018,15.0
+North East EV,May,46.0,2019,total,sub-area,MAY2018,46.0
+North West EV,May,59.0,2019,total,sub-area,MAY2018,59.0
+South East EV,May,212.0,2019,total,sub-area,MAY2018,212.0
+South West EV,May,16.0,2019,total,sub-area,MAY2018,16.0
+North East EV,June,71.0,2019,total,sub-area,MAY2018,71.0
+North West EV,June,69.0,2019,total,sub-area,MAY2018,69.0
+South East EV,June,252.0,2019,total,sub-area,MAY2018,252.0
+South West EV,June,26.0,2019,total,sub-area,MAY2018,26.0
+North East EV,July,79.0,2019,total,sub-area,MAY2018,79.0
+North West EV,July,71.0,2019,total,sub-area,MAY2018,71.0
+South East EV,July,226.0,2019,total,sub-area,MAY2018,226.0
+South West EV,July,22.0,2019,total,sub-area,MAY2018,22.0
+North East EV,Aug,60.0,2019,total,sub-area,MAY2018,60.0
+North West EV,Aug,49.0,2019,total,sub-area,MAY2018,49.0
+South East EV,Aug,196.0,2019,total,sub-area,MAY2018,196.0
+South West EV,Aug,21.0,2019,total,sub-area,MAY2018,21.0
+North East EV,Sept,68.0,2019,total,sub-area,MAY2018,68.0
+North West EV,Sept,57.0,2019,total,sub-area,MAY2018,57.0
+South East EV,Sept,300.0,2019,total,sub-area,MAY2018,300.0
+South West EV,Sept,22.0,2019,total,sub-area,MAY2018,22.0
+North East EV,Oct,44.0,2019,total,sub-area,MAY2018,44.0
+North West EV,Oct,69.0,2019,total,sub-area,MAY2018,69.0
+South East EV,Oct,270.0,2019,total,sub-area,MAY2018,270.0
+South West EV,Oct,18.0,2019,total,sub-area,MAY2018,18.0
+North East EV,Nov,45.0,2019,total,sub-area,MAY2018,45.0
+North West EV,Nov,64.0,2019,total,sub-area,MAY2018,64.0
+South East EV,Nov,291.0,2019,total,sub-area,MAY2018,291.0
+South West EV,Nov,25.0,2019,total,sub-area,MAY2018,25.0
+North East EV,Dec,47.0,2019,total,sub-area,MAY2018,47.0
+North West EV,Dec,44.0,2019,total,sub-area,MAY2018,44.0
+South East EV,Dec,196.0,2019,total,sub-area,MAY2018,196.0
+South West EV,Dec,47.0,2019,total,sub-area,MAY2018,47.0
+North East EV,Jan,58.0,2018,total,sub-area,APR2017,58.0
+North West EV,Jan,67.0,2018,total,sub-area,APR2017,67.0
+South East EV,Jan,334.0,2018,total,sub-area,APR2017,334.0
+South West EV,Jan,36.0,2018,total,sub-area,APR2017,36.0
+North East EV,Feb,68.0,2018,total,sub-area,APR2017,68.0
+North West EV,Feb,45.0,2018,total,sub-area,APR2017,45.0
+South East EV,Feb,361.0,2018,total,sub-area,APR2017,361.0
+South West EV,Feb,30.0,2018,total,sub-area,APR2017,30.0
+North East EV,Mar,86.0,2018,total,sub-area,APR2017,86.0
+North West EV,Mar,89.0,2018,total,sub-area,APR2017,89.0
+South East EV,Mar,361.0,2018,total,sub-area,APR2017,361.0
+South West EV,Mar,58.0,2018,total,sub-area,APR2017,58.0
+North East EV,Apr,75.0,2018,total,sub-area,APR2017,75.0
+North West EV,Apr,92.0,2018,total,sub-area,APR2017,92.0
+South East EV,Apr,294.0,2018,total,sub-area,APR2017,294.0
+South West EV,Apr,41.0,2018,total,sub-area,APR2017,41.0
+North East EV,May,75.0,2018,total,sub-area,MAY2018,75.0
+North West EV,May,84.0,2018,total,sub-area,MAY2018,84.0
+South East EV,May,320.0,2018,total,sub-area,MAY2018,320.0
+South West EV,May,44.0,2018,total,sub-area,MAY2018,44.0
+North East EV,June,73.0,2018,total,sub-area,MAY2018,73.0
+North West EV,June,88.0,2018,total,sub-area,MAY2018,88.0
+South East EV,June,265.0,2018,total,sub-area,MAY2018,265.0
+South West EV,June,33.0,2018,total,sub-area,MAY2018,33.0
+North East EV,July,102.0,2018,total,sub-area,MAY2018,102.0
+North West EV,July,100.0,2018,total,sub-area,MAY2018,100.0
+South East EV,July,385.0,2018,total,sub-area,MAY2018,385.0
+South West EV,July,34.0,2018,total,sub-area,MAY2018,34.0
+North East EV,Aug,78.0,2018,total,sub-area,MAY2018,78.0
+North West EV,Aug,101.0,2018,total,sub-area,MAY2018,101.0
+South East EV,Aug,360.0,2018,total,sub-area,MAY2018,360.0
+South West EV,Aug,43.0,2018,total,sub-area,MAY2018,43.0
+North East EV,Sept,90.0,2018,total,sub-area,MAY2018,90.0
+North West EV,Sept,86.0,2018,total,sub-area,MAY2018,86.0
+South East EV,Sept,299.0,2018,total,sub-area,MAY2018,299.0
+South West EV,Sept,26.0,2018,total,sub-area,MAY2018,26.0
+North East EV,Oct,60.0,2018,total,sub-area,MAY2018,60.0
+North West EV,Oct,102.0,2018,total,sub-area,MAY2018,102.0
+South East EV,Oct,307.0,2018,total,sub-area,MAY2018,307.0
+South West EV,Oct,35.0,2018,total,sub-area,MAY2018,35.0
+North East EV,Nov,55.0,2018,total,sub-area,MAY2018,55.0
+North West EV,Nov,73.0,2018,total,sub-area,MAY2018,73.0
+South East EV,Nov,219.0,2018,total,sub-area,MAY2018,219.0
+South West EV,Nov,127.0,2018,total,sub-area,MAY2018,127.0
+North East EV,Dec,78.0,2018,total,sub-area,MAY2018,78.0
+North West EV,Dec,82.0,2018,total,sub-area,MAY2018,82.0
+South East EV,Dec,288.0,2018,total,sub-area,MAY2018,288.0
+South West EV,Dec,34.0,2018,total,sub-area,MAY2018,34.0
+North East EV,Jan,50.0,2022,total,sub-area,POST2020,50.0
+North West EV,Jan,105.0,2022,total,sub-area,POST2020,105.0
+South East EV,Jan,449.0,2022,total,sub-area,POST2020,449.0
+South West EV,Jan,74.0,2022,total,sub-area,POST2020,74.0
+North East EV,Feb,54.0,2022,total,sub-area,POST2020,54.0
+North West EV,Feb,95.0,2022,total,sub-area,POST2020,95.0
+South East EV,Feb,505.0,2022,total,sub-area,POST2020,505.0
+South West EV,Feb,87.0,2022,total,sub-area,POST2020,87.0
+North East EV,Mar,56.0,2022,total,sub-area,POST2020,56.0
+North West EV,Mar,109.0,2022,total,sub-area,POST2020,109.0
+South East EV,Mar,401.0,2022,total,sub-area,POST2020,401.0
+South West EV,Mar,56.0,2022,total,sub-area,POST2020,56.0
+North East EV,Apr,57.0,2022,total,sub-area,POST2020,57.0
+North West EV,Apr,118.0,2022,total,sub-area,POST2020,118.0
+South East EV,Apr,409.0,2022,total,sub-area,POST2020,409.0
+South West EV,Apr,71.0,2022,total,sub-area,POST2020,71.0
+North East EV,May,25.0,2022,total,sub-area,POST2020,25.0
+North West EV,May,107.0,2022,total,sub-area,POST2020,107.0
+South East EV,May,430.0,2022,total,sub-area,POST2020,430.0
+South West EV,May,62.0,2022,total,sub-area,POST2020,62.0
+North East EV,June,119.0,2022,total,sub-area,POST2020,119.0
+North West EV,June,134.0,2022,total,sub-area,POST2020,134.0
+South East EV,June,369.0,2022,total,sub-area,POST2020,369.0
+South West EV,June,90.0,2022,total,sub-area,POST2020,90.0
+North East EV,July,72.0,2022,total,sub-area,POST2020,72.0
+North West EV,July,78.0,2022,total,sub-area,POST2020,78.0
+South East EV,July,402.0,2022,total,sub-area,POST2020,402.0
+South West EV,July,46.0,2022,total,sub-area,POST2020,46.0
+North East EV,Aug,68.0,2022,total,sub-area,POST2020,68.0
+North West EV,Aug,128.0,2022,total,sub-area,POST2020,128.0
+South East EV,Aug,492.0,2022,total,sub-area,POST2020,492.0
+South West EV,Aug,102.0,2022,total,sub-area,POST2020,102.0
+North East EV,Sept,74.0,2022,total,sub-area,POST2020,74.0
+North West EV,Sept,163.0,2022,total,sub-area,POST2020,163.0
+South East EV,Sept,531.0,2022,total,sub-area,POST2020,531.0
+South West EV,Sept,78.0,2022,total,sub-area,POST2020,78.0
+North East EV,Oct,104.0,2022,total,sub-area,POST2020,104.0
+North West EV,Oct,166.0,2022,total,sub-area,POST2020,166.0
+South East EV,Oct,341.0,2022,total,sub-area,POST2020,341.0
+South West EV,Oct,102.0,2022,total,sub-area,POST2020,102.0
+North East EV,Nov,125.0,2022,total,sub-area,POST2020,125.0
+North West EV,Nov,117.0,2022,total,sub-area,POST2020,117.0
+South East EV,Nov,81.0,2022,total,sub-area,POST2020,81.0
+South West EV,Nov,437.0,2022,total,sub-area,POST2020,437.0
+North East EV,Dec,100.0,2022,total,sub-area,POST2020,100.0
+North West EV,Dec,125.0,2022,total,sub-area,POST2020,125.0
+South East EV,Dec,527.0,2022,total,sub-area,POST2020,527.0
+South West EV,Dec,98.0,2022,total,sub-area,POST2020,98.0
+North East EV,Jan,84.0,2025,total,sub-area,POST2020,84.0
+North West EV,Jan,47.0,2025,total,sub-area,POST2020,47.0
+South East EV,Jan,262.0,2025,total,sub-area,POST2020,262.0
+South West EV,Jan,43.0,2025,total,sub-area,POST2020,43.0
+North East EV,Feb,61.0,2025,total,sub-area,POST2020,61.0
+North West EV,Feb,75.0,2025,total,sub-area,POST2020,75.0
+South East EV,Feb,215.0,2025,total,sub-area,POST2020,215.0
+South West EV,Feb,57.0,2025,total,sub-area,POST2020,57.0
+North East EV,Mar,56.0,2025,total,sub-area,POST2020,56.0
+North West EV,Mar,101.0,2025,total,sub-area,POST2020,101.0
+South East EV,Mar,61.0,2025,total,sub-area,POST2020,61.0
+South West EV,Mar,196.0,2025,total,sub-area,POST2020,196.0
+North East EV,Apr,264.0,2025,total,sub-area,POST2020,264.0
+North West EV,Apr,53.0,2025,total,sub-area,POST2020,53.0
+South East EV,Apr,43.0,2025,total,sub-area,POST2020,43.0
+South West EV,Apr,41.0,2025,total,sub-area,POST2020,41.0
+North East EV,May,60.0,2025,total,sub-area,POST2020,60.0
+North West EV,May,64.0,2025,total,sub-area,POST2020,64.0
+South East EV,May,232.0,2025,total,sub-area,POST2020,232.0
+South West EV,May,50.0,2025,total,sub-area,POST2020,50.0
+North East EV,June,54.0,2025,total,sub-area,POST2020,54.0
+North West EV,June,63.0,2025,total,sub-area,POST2020,63.0
+South East EV,June,248.0,2025,total,sub-area,POST2020,248.0
+South West EV,June,42.0,2025,total,sub-area,POST2020,42.0
+North East EV,July,,2025,total,sub-area,POST2020,
+North West EV,July,,2025,total,sub-area,POST2020,
+South East EV,July,,2025,total,sub-area,POST2020,
+South West EV,July,,2025,total,sub-area,POST2020,
+North East EV,Aug,,2025,total,sub-area,POST2020,
+North West EV,Aug,,2025,total,sub-area,POST2020,
+South East EV,Aug,,2025,total,sub-area,POST2020,
+South West EV,Aug,,2025,total,sub-area,POST2020,
+North East EV,Sept,24.0,2025,total,sub-area,POST2020,24.0
+North West EV,Sept,96.0,2025,total,sub-area,POST2020,96.0
+South East EV,Sept,238.0,2025,total,sub-area,POST2020,238.0
+South West EV,Sept,49.0,2025,total,sub-area,POST2020,49.0
+North East EV,Oct,,2025,total,sub-area,POST2020,
+North West EV,Oct,,2025,total,sub-area,POST2020,
+South East EV,Oct,,2025,total,sub-area,POST2020,
+South West EV,Oct,,2025,total,sub-area,POST2020,
+North East EV,Nov,,2025,total,sub-area,POST2020,
+North West EV,Nov,,2025,total,sub-area,POST2020,
+South East EV,Nov,,2025,total,sub-area,POST2020,
+South West EV,Nov,,2025,total,sub-area,POST2020,
+North East EV,Dec,49.0,2025,total,sub-area,POST2020,49.0
+North West EV,Dec,119.0,2025,total,sub-area,POST2020,119.0
+South East EV,Dec,313.0,2025,total,sub-area,POST2020,313.0
+South West EV,Dec,73.0,2025,total,sub-area,POST2020,73.0
+North East EV,Jan,136.0,2024,total,sub-area,POST2020,136.0
+North West EV,Jan,81.0,2024,total,sub-area,POST2020,81.0
+South East EV,Jan,234.0,2024,total,sub-area,POST2020,234.0
+South West EV,Jan,79.0,2024,total,sub-area,POST2020,79.0
+North East EV,Feb,123.0,2024,total,sub-area,POST2020,123.0
+North West EV,Feb,81.0,2024,total,sub-area,POST2020,81.0
+South East EV,Feb,306.0,2024,total,sub-area,POST2020,306.0
+South West EV,Feb,43.0,2024,total,sub-area,POST2020,43.0
+North East EV,Mar,37.0,2024,total,sub-area,POST2020,37.0
+North West EV,Mar,20.0,2024,total,sub-area,POST2020,20.0
+South East EV,Mar,275.0,2024,total,sub-area,POST2020,275.0
+South West EV,Mar,49.0,2024,total,sub-area,POST2020,49.0
+North East EV,Apr,45.0,2024,total,sub-area,POST2020,45.0
+North West EV,Apr,12.0,2024,total,sub-area,POST2020,12.0
+South East EV,Apr,59.0,2024,total,sub-area,POST2020,59.0
+South West EV,Apr,251.0,2024,total,sub-area,POST2020,251.0
+North East EV,May,38.0,2024,total,sub-area,POST2020,38.0
+North West EV,May,15.0,2024,total,sub-area,POST2020,15.0
+South East EV,May,329.0,2024,total,sub-area,POST2020,329.0
+South West EV,May,26.0,2024,total,sub-area,POST2020,26.0
+North East EV,June,85.0,2024,total,sub-area,POST2020,85.0
+North West EV,June,18.0,2024,total,sub-area,POST2020,18.0
+South East EV,June,317.0,2024,total,sub-area,POST2020,317.0
+South West EV,June,31.0,2024,total,sub-area,POST2020,31.0
+North East EV,July,81.0,2024,total,sub-area,POST2020,81.0
+North West EV,July,49.0,2024,total,sub-area,POST2020,49.0
+South East EV,July,293.0,2024,total,sub-area,POST2020,293.0
+South West EV,July,35.0,2024,total,sub-area,POST2020,35.0
+North East EV,Aug,48.0,2024,total,sub-area,POST2020,48.0
+North West EV,Aug,34.0,2024,total,sub-area,POST2020,34.0
+South East EV,Aug,315.0,2024,total,sub-area,POST2020,315.0
+South West EV,Aug,53.0,2024,total,sub-area,POST2020,53.0
+North East EV,Sept,67.0,2024,total,sub-area,POST2020,67.0
+North West EV,Sept,24.0,2024,total,sub-area,POST2020,24.0
+South East EV,Sept,317.0,2024,total,sub-area,POST2020,317.0
+South West EV,Sept,37.0,2024,total,sub-area,POST2020,37.0
+North East EV,Oct,20.0,2024,total,sub-area,POST2020,20.0
+North West EV,Oct,32.0,2024,total,sub-area,POST2020,32.0
+South East EV,Oct,289.0,2024,total,sub-area,POST2020,289.0
+South West EV,Oct,56.0,2024,total,sub-area,POST2020,56.0
+North East EV,Nov,53.0,2024,total,sub-area,POST2020,53.0
+North West EV,Nov,44.0,2024,total,sub-area,POST2020,44.0
+South East EV,Nov,253.0,2024,total,sub-area,POST2020,253.0
+South West EV,Nov,41.0,2024,total,sub-area,POST2020,41.0
+North East EV,Dec,103.0,2024,total,sub-area,POST2020,103.0
+North West EV,Dec,63.0,2024,total,sub-area,POST2020,63.0
+South East EV,Dec,275.0,2024,total,sub-area,POST2020,275.0
+South West EV,Dec,51.0,2024,total,sub-area,POST2020,51.0
+North East EV,Jan,93.0,2023,total,sub-area,POST2020,93.0
+North West EV,Jan,144.0,2023,total,sub-area,POST2020,144.0
+South East EV,Jan,461.0,2023,total,sub-area,POST2020,461.0
+South West EV,Jan,96.0,2023,total,sub-area,POST2020,96.0
+North East EV,Feb,83.0,2023,total,sub-area,POST2020,83.0
+North West EV,Feb,162.0,2023,total,sub-area,POST2020,162.0
+South East EV,Feb,441.0,2023,total,sub-area,POST2020,441.0
+South West EV,Feb,96.0,2023,total,sub-area,POST2020,96.0
+North East EV,Mar,344.0,2023,total,sub-area,POST2020,344.0
+North West EV,Mar,84.0,2023,total,sub-area,POST2020,84.0
+South East EV,Mar,82.0,2023,total,sub-area,POST2020,82.0
+South West EV,Mar,147.0,2023,total,sub-area,POST2020,147.0
+North East EV,Apr,70.0,2023,total,sub-area,POST2020,70.0
+North West EV,Apr,184.0,2023,total,sub-area,POST2020,184.0
+South East EV,Apr,479.0,2023,total,sub-area,POST2020,479.0
+South West EV,Apr,90.0,2023,total,sub-area,POST2020,90.0
+North East EV,May,81.0,2023,total,sub-area,POST2020,81.0
+North West EV,May,253.0,2023,total,sub-area,POST2020,253.0
+South East EV,May,483.0,2023,total,sub-area,POST2020,483.0
+South West EV,May,101.0,2023,total,sub-area,POST2020,101.0
+North East EV,June,41.0,2023,total,sub-area,POST2020,41.0
+North West EV,June,141.0,2023,total,sub-area,POST2020,141.0
+South East EV,June,479.0,2023,total,sub-area,POST2020,479.0
+South West EV,June,69.0,2023,total,sub-area,POST2020,69.0
+North East EV,July,60.0,2023,total,sub-area,POST2020,60.0
+North West EV,July,175.0,2023,total,sub-area,POST2020,175.0
+South East EV,July,646.0,2023,total,sub-area,POST2020,646.0
+South West EV,July,40.0,2023,total,sub-area,POST2020,40.0
+North East EV,Aug,61.0,2023,total,sub-area,POST2020,61.0
+North West EV,Aug,184.0,2023,total,sub-area,POST2020,184.0
+South East EV,Aug,554.0,2023,total,sub-area,POST2020,554.0
+South West EV,Aug,62.0,2023,total,sub-area,POST2020,62.0
+North East EV,Sept,94.0,2023,total,sub-area,POST2020,94.0
+North West EV,Sept,179.0,2023,total,sub-area,POST2020,179.0
+South East EV,Sept,575.0,2023,total,sub-area,POST2020,575.0
+South West EV,Sept,59.0,2023,total,sub-area,POST2020,59.0
+North East EV,Oct,104.0,2023,total,sub-area,POST2020,104.0
+North West EV,Oct,160.0,2023,total,sub-area,POST2020,160.0
+South East EV,Oct,544.0,2023,total,sub-area,POST2020,544.0
+South West EV,Oct,62.0,2023,total,sub-area,POST2020,62.0
+North East EV,Nov,138.0,2023,total,sub-area,POST2020,138.0
+North West EV,Nov,116.0,2023,total,sub-area,POST2020,116.0
+South East EV,Nov,352.0,2023,total,sub-area,POST2020,352.0
+South West EV,Nov,73.0,2023,total,sub-area,POST2020,73.0
+North East EV,Dec,121.0,2023,total,sub-area,POST2020,121.0
+North West EV,Dec,42.0,2023,total,sub-area,POST2020,42.0
+South East EV,Dec,258.0,2023,total,sub-area,POST2020,258.0
+South West EV,Dec,76.0,2023,total,sub-area,POST2020,76.0
+East Village,Jan,326.0,2018,individual,neighborhood,APR2017,326.0
+East Village,Jan,13.0,2018,vehicle,neighborhood,APR2017,21.58
+East Village,Jan,84.0,2018,tent,neighborhood,APR2017,147.0
+Core,Jan,109.0,2018,individual,neighborhood,APR2017,109.0
+Core,Jan,0.0,2018,vehicle,neighborhood,APR2017,0.0
+Core,Jan,8.0,2018,tent,neighborhood,APR2017,14.0
+Columbia,Jan,32.0,2018,individual,neighborhood,APR2017,32.0
+Columbia,Jan,0.0,2018,vehicle,neighborhood,APR2017,0.0
+Columbia,Jan,10.0,2018,tent,neighborhood,APR2017,17.5
+Marina,Jan,26.0,2018,individual,neighborhood,APR2017,26.0
+Marina,Jan,1.0,2018,vehicle,neighborhood,APR2017,1.66
+Marina,Jan,2.0,2018,tent,neighborhood,APR2017,3.5
+Cortez,Jan,56.0,2018,individual,neighborhood,APR2017,56.0
+Cortez,Jan,0.0,2018,vehicle,neighborhood,APR2017,0.0
+Cortez,Jan,3.0,2018,tent,neighborhood,APR2017,5.25
+Gaslamp,Jan,44.0,2018,individual,neighborhood,APR2017,44.0
+Gaslamp,Jan,0.0,2018,vehicle,neighborhood,APR2017,0.0
+Gaslamp,Jan,0.0,2018,tent,neighborhood,APR2017,0.0
+East Village,Feb,287.0,2018,individual,neighborhood,APR2017,287.0
+East Village,Feb,18.0,2018,vehicle,neighborhood,APR2017,29.88
+East Village,Feb,90.0,2018,tent,neighborhood,APR2017,157.5
+Core,Feb,137.0,2018,individual,neighborhood,APR2017,137.0
+Core,Feb,0.0,2018,vehicle,neighborhood,APR2017,0.0
+Core,Feb,100.0,2018,tent,neighborhood,APR2017,175.0
+Columbia,Feb,30.0,2018,individual,neighborhood,APR2017,30.0
+Columbia,Feb,0.0,2018,vehicle,neighborhood,APR2017,0.0
+Columbia,Feb,16.0,2018,tent,neighborhood,APR2017,28.0
+Marina,Feb,27.0,2018,individual,neighborhood,APR2017,27.0
+Marina,Feb,2.0,2018,vehicle,neighborhood,APR2017,3.32
+Marina,Feb,2.0,2018,tent,neighborhood,APR2017,3.5
+Cortez,Feb,53.0,2018,individual,neighborhood,APR2017,53.0
+Cortez,Feb,1.0,2018,vehicle,neighborhood,APR2017,1.66
+Cortez,Feb,1.0,2018,tent,neighborhood,APR2017,1.75
+Gaslamp,Feb,84.0,2018,individual,neighborhood,APR2017,84.0
+Gaslamp,Feb,0.0,2018,vehicle,neighborhood,APR2017,0.0
+Gaslamp,Feb,0.0,2018,tent,neighborhood,APR2017,0.0
+East Village,Mar,398.0,2018,individual,neighborhood,APR2017,398.0
+East Village,Mar,23.0,2018,vehicle,neighborhood,APR2017,38.18
+East Village,Mar,90.0,2018,tent,neighborhood,APR2017,157.5
+Core,Mar,123.0,2018,individual,neighborhood,APR2017,123.0
+Core,Mar,0.0,2018,vehicle,neighborhood,APR2017,0.0
+Core,Mar,3.0,2018,tent,neighborhood,APR2017,5.25
+Columbia,Mar,54.0,2018,individual,neighborhood,APR2017,54.0
+Columbia,Mar,1.0,2018,vehicle,neighborhood,APR2017,1.66
+Columbia,Mar,3.0,2018,tent,neighborhood,APR2017,5.25
+Marina,Mar,25.0,2018,individual,neighborhood,APR2017,25.0
+Marina,Mar,1.0,2018,vehicle,neighborhood,APR2017,1.66
+Marina,Mar,3.0,2018,tent,neighborhood,APR2017,5.25
+Cortez,Mar,53.0,2018,individual,neighborhood,APR2017,53.0
+Cortez,Mar,5.0,2018,vehicle,neighborhood,APR2017,8.299999999999999
+Cortez,Mar,6.0,2018,tent,neighborhood,APR2017,10.5
+Gaslamp,Mar,93.0,2018,individual,neighborhood,APR2017,93.0
+Gaslamp,Mar,0.0,2018,vehicle,neighborhood,APR2017,0.0
+Gaslamp,Mar,0.0,2018,tent,neighborhood,APR2017,0.0
+East Village,Apr,370.0,2018,individual,neighborhood,APR2017,370.0
+East Village,Apr,14.0,2018,vehicle,neighborhood,APR2017,23.24
+East Village,Apr,62.0,2018,tent,neighborhood,APR2017,108.5
+Core,Apr,106.0,2018,individual,neighborhood,APR2017,106.0
+Core,Apr,0.0,2018,vehicle,neighborhood,APR2017,0.0
+Core,Apr,3.0,2018,tent,neighborhood,APR2017,5.25
+Columbia,Apr,37.0,2018,individual,neighborhood,APR2017,37.0
+Columbia,Apr,0.0,2018,vehicle,neighborhood,APR2017,0.0
+Columbia,Apr,5.0,2018,tent,neighborhood,APR2017,8.75
+Marina,Apr,35.0,2018,individual,neighborhood,APR2017,35.0
+Marina,Apr,1.0,2018,vehicle,neighborhood,APR2017,1.66
+Marina,Apr,0.0,2018,tent,neighborhood,APR2017,0.0
+Cortez,Apr,39.0,2018,individual,neighborhood,APR2017,39.0
+Cortez,Apr,1.0,2018,vehicle,neighborhood,APR2017,1.66
+Cortez,Apr,2.0,2018,tent,neighborhood,APR2017,3.5
+Gaslamp,Apr,51.0,2018,individual,neighborhood,APR2017,51.0
+Gaslamp,Apr,0.0,2018,vehicle,neighborhood,APR2017,0.0
+Gaslamp,Apr,0.0,2018,tent,neighborhood,APR2017,0.0
+East Village,May,363.0,2018,individual,neighborhood,MAY2018,363.0
+East Village,May,22.0,2018,vehicle,neighborhood,MAY2018,44.66
+East Village,May,66.0,2018,tent,neighborhood,MAY2018,115.5
+Core,May,151.0,2018,individual,neighborhood,MAY2018,151.0
+Core,May,2.0,2018,vehicle,neighborhood,MAY2018,4.06
+Core,May,14.0,2018,tent,neighborhood,MAY2018,24.5
+Columbia,May,35.0,2018,individual,neighborhood,MAY2018,35.0
+Columbia,May,0.0,2018,vehicle,neighborhood,MAY2018,0.0
+Columbia,May,6.0,2018,tent,neighborhood,MAY2018,10.5
+Marina,May,22.0,2018,individual,neighborhood,MAY2018,22.0
+Marina,May,1.0,2018,vehicle,neighborhood,MAY2018,2.03
+Marina,May,6.0,2018,tent,neighborhood,MAY2018,10.5
+Cortez,May,41.0,2018,individual,neighborhood,MAY2018,41.0
+Cortez,May,0.0,2018,vehicle,neighborhood,MAY2018,0.0
+Cortez,May,6.0,2018,tent,neighborhood,MAY2018,10.5
+Gaslamp,May,62.0,2018,individual,neighborhood,MAY2018,62.0
+Gaslamp,May,1.0,2018,vehicle,neighborhood,MAY2018,2.03
+Gaslamp,May,2.0,2018,tent,neighborhood,MAY2018,3.5
+East Village,June,348.0,2018,individual,neighborhood,MAY2018,348.0
+East Village,June,10.0,2018,vehicle,neighborhood,MAY2018,20.299999999999997
+East Village,June,52.0,2018,tent,neighborhood,MAY2018,91.0
+Core,June,110.0,2018,individual,neighborhood,MAY2018,110.0
+Core,June,2.0,2018,vehicle,neighborhood,MAY2018,4.06
+Core,June,2.0,2018,tent,neighborhood,MAY2018,3.5
+Columbia,June,46.0,2018,individual,neighborhood,MAY2018,46.0
+Columbia,June,1.0,2018,vehicle,neighborhood,MAY2018,2.03
+Columbia,June,3.0,2018,tent,neighborhood,MAY2018,5.25
+Marina,June,48.0,2018,individual,neighborhood,MAY2018,48.0
+Marina,June,0.0,2018,vehicle,neighborhood,MAY2018,0.0
+Marina,June,1.0,2018,tent,neighborhood,MAY2018,1.75
+Cortez,June,35.0,2018,individual,neighborhood,MAY2018,35.0
+Cortez,June,0.0,2018,vehicle,neighborhood,MAY2018,0.0
+Cortez,June,3.0,2018,tent,neighborhood,MAY2018,5.25
+Gaslamp,June,39.0,2018,individual,neighborhood,MAY2018,39.0
+Gaslamp,June,0.0,2018,vehicle,neighborhood,MAY2018,0.0
+Gaslamp,June,0.0,2018,tent,neighborhood,MAY2018,0.0
+East Village,July,451.0,2018,individual,neighborhood,MAY2018,451.0
+East Village,July,32.0,2018,vehicle,neighborhood,MAY2018,64.96
+East Village,July,67.0,2018,tent,neighborhood,MAY2018,117.25
+Core,July,132.0,2018,individual,neighborhood,MAY2018,132.0
+Core,July,1.0,2018,vehicle,neighborhood,MAY2018,2.03
+Core,July,3.0,2018,tent,neighborhood,MAY2018,5.25
+Columbia,July,32.0,2018,individual,neighborhood,MAY2018,32.0
+Columbia,July,0.0,2018,vehicle,neighborhood,MAY2018,0.0
+Columbia,July,3.0,2018,tent,neighborhood,MAY2018,5.25
+Marina,July,33.0,2018,individual,neighborhood,MAY2018,33.0
+Marina,July,0.0,2018,vehicle,neighborhood,MAY2018,0.0
+Marina,July,2.0,2018,tent,neighborhood,MAY2018,3.5
+Cortez,July,40.0,2018,individual,neighborhood,MAY2018,40.0
+Cortez,July,0.0,2018,vehicle,neighborhood,MAY2018,0.0
+Cortez,July,4.0,2018,tent,neighborhood,MAY2018,7.0
+Gaslamp,July,45.0,2018,individual,neighborhood,MAY2018,45.0
+Gaslamp,July,0.0,2018,vehicle,neighborhood,MAY2018,0.0
+Gaslamp,July,0.0,2018,tent,neighborhood,MAY2018,0.0
+East Village,Aug,470.0,2018,individual,neighborhood,MAY2018,470.0
+East Village,Aug,17.0,2018,vehicle,neighborhood,MAY2018,34.51
+East Village,Aug,44.0,2018,tent,neighborhood,MAY2018,77.0
+Core,Aug,142.0,2018,individual,neighborhood,MAY2018,142.0
+Core,Aug,0.0,2018,vehicle,neighborhood,MAY2018,0.0
+Core,Aug,2.0,2018,tent,neighborhood,MAY2018,3.5
+Columbia,Aug,45.0,2018,individual,neighborhood,MAY2018,45.0
+Columbia,Aug,0.0,2018,vehicle,neighborhood,MAY2018,0.0
+Columbia,Aug,6.0,2018,tent,neighborhood,MAY2018,10.5
+Marina,Aug,56.0,2018,individual,neighborhood,MAY2018,56.0
+Marina,Aug,3.0,2018,vehicle,neighborhood,MAY2018,6.09
+Marina,Aug,6.0,2018,tent,neighborhood,MAY2018,10.5
+Cortez,Aug,49.0,2018,individual,neighborhood,MAY2018,49.0
+Cortez,Aug,0.0,2018,vehicle,neighborhood,MAY2018,0.0
+Cortez,Aug,3.0,2018,tent,neighborhood,MAY2018,5.25
+Gaslamp,Aug,55.0,2018,individual,neighborhood,MAY2018,55.0
+Gaslamp,Aug,0.0,2018,vehicle,neighborhood,MAY2018,0.0
+Gaslamp,Aug,0.0,2018,tent,neighborhood,MAY2018,0.0
+East Village,Sept,369.0,2018,individual,neighborhood,MAY2018,369.0
+East Village,Sept,7.0,2018,vehicle,neighborhood,MAY2018,14.209999999999999
+East Village,Sept,67.0,2018,tent,neighborhood,MAY2018,117.25
+Core,Sept,122.0,2018,individual,neighborhood,MAY2018,122.0
+Core,Sept,0.0,2018,vehicle,neighborhood,MAY2018,0.0
+Core,Sept,4.0,2018,tent,neighborhood,MAY2018,7.0
+Columbia,Sept,21.0,2018,individual,neighborhood,MAY2018,21.0
+Columbia,Sept,0.0,2018,vehicle,neighborhood,MAY2018,0.0
+Columbia,Sept,3.0,2018,tent,neighborhood,MAY2018,5.25
+Marina,Sept,32.0,2018,individual,neighborhood,MAY2018,32.0
+Marina,Sept,0.0,2018,vehicle,neighborhood,MAY2018,0.0
+Marina,Sept,8.0,2018,tent,neighborhood,MAY2018,14.0
+Cortez,Sept,30.0,2018,individual,neighborhood,MAY2018,30.0
+Cortez,Sept,0.0,2018,vehicle,neighborhood,MAY2018,0.0
+Cortez,Sept,1.0,2018,tent,neighborhood,MAY2018,1.75
+Gaslamp,Sept,51.0,2018,individual,neighborhood,MAY2018,51.0
+Gaslamp,Sept,0.0,2018,vehicle,neighborhood,MAY2018,0.0
+Gaslamp,Sept,1.0,2018,tent,neighborhood,MAY2018,1.75
+East Village,Oct,398.0,2018,individual,neighborhood,MAY2018,398.0
+East Village,Oct,4.0,2018,vehicle,neighborhood,MAY2018,8.12
+East Village,Oct,56.0,2018,tent,neighborhood,MAY2018,98.0
+Core,Oct,86.0,2018,individual,neighborhood,MAY2018,86.0
+Core,Oct,0.0,2018,vehicle,neighborhood,MAY2018,0.0
+Core,Oct,10.0,2018,tent,neighborhood,MAY2018,17.5
+Columbia,Oct,27.0,2018,individual,neighborhood,MAY2018,27.0
+Columbia,Oct,0.0,2018,vehicle,neighborhood,MAY2018,0.0
+Columbia,Oct,4.0,2018,tent,neighborhood,MAY2018,7.0
+Marina,Oct,25.0,2018,individual,neighborhood,MAY2018,25.0
+Marina,Oct,0.0,2018,vehicle,neighborhood,MAY2018,0.0
+Marina,Oct,2.0,2018,tent,neighborhood,MAY2018,3.5
+Cortez,Oct,16.0,2018,individual,neighborhood,MAY2018,16.0
+Cortez,Oct,0.0,2018,vehicle,neighborhood,MAY2018,0.0
+Cortez,Oct,0.0,2018,tent,neighborhood,MAY2018,0.0
+Gaslamp,Oct,52.0,2018,individual,neighborhood,MAY2018,52.0
+Gaslamp,Oct,0.0,2018,vehicle,neighborhood,MAY2018,0.0
+Gaslamp,Oct,0.0,2018,tent,neighborhood,MAY2018,0.0
+East Village,Nov,,2018,individual,neighborhood,MAY2018,
+East Village,Nov,,2018,vehicle,neighborhood,MAY2018,
+East Village,Nov,,2018,tent,neighborhood,MAY2018,
+Core,Nov,,2018,individual,neighborhood,MAY2018,
+Core,Nov,,2018,vehicle,neighborhood,MAY2018,
+Core,Nov,,2018,tent,neighborhood,MAY2018,
+Columbia,Nov,,2018,individual,neighborhood,MAY2018,
+Columbia,Nov,,2018,vehicle,neighborhood,MAY2018,
+Columbia,Nov,,2018,tent,neighborhood,MAY2018,
+Marina,Nov,,2018,individual,neighborhood,MAY2018,
+Marina,Nov,,2018,vehicle,neighborhood,MAY2018,
+Marina,Nov,,2018,tent,neighborhood,MAY2018,
+Cortez,Nov,,2018,individual,neighborhood,MAY2018,
+Cortez,Nov,,2018,vehicle,neighborhood,MAY2018,
+Cortez,Nov,,2018,tent,neighborhood,MAY2018,
+Gaslamp,Nov,,2018,individual,neighborhood,MAY2018,
+Gaslamp,Nov,,2018,vehicle,neighborhood,MAY2018,
+Gaslamp,Nov,,2018,tent,neighborhood,MAY2018,
+East Village,Dec,330.0,2018,individual,neighborhood,MAY2018,330.0
+East Village,Dec,5.0,2018,vehicle,neighborhood,MAY2018,10.149999999999999
+East Village,Dec,81.0,2018,tent,neighborhood,MAY2018,141.75
+Core,Dec,121.0,2018,individual,neighborhood,MAY2018,121.0
+Core,Dec,0.0,2018,vehicle,neighborhood,MAY2018,0.0
+Core,Dec,15.0,2018,tent,neighborhood,MAY2018,26.25
+Columbia,Dec,36.0,2018,individual,neighborhood,MAY2018,36.0
+Columbia,Dec,0.0,2018,vehicle,neighborhood,MAY2018,0.0
+Columbia,Dec,5.0,2018,tent,neighborhood,MAY2018,8.75
+Marina,Dec,38.0,2018,individual,neighborhood,MAY2018,38.0
+Marina,Dec,0.0,2018,vehicle,neighborhood,MAY2018,0.0
+Marina,Dec,8.0,2018,tent,neighborhood,MAY2018,14.0
+Cortez,Dec,38.0,2018,individual,neighborhood,MAY2018,38.0
+Cortez,Dec,0.0,2018,vehicle,neighborhood,MAY2018,0.0
+Cortez,Dec,1.0,2018,tent,neighborhood,MAY2018,1.75
+Gaslamp,Dec,38.0,2018,individual,neighborhood,MAY2018,38.0
+Gaslamp,Dec,0.0,2018,vehicle,neighborhood,MAY2018,0.0
+Gaslamp,Dec,1.0,2018,tent,neighborhood,MAY2018,1.75
+East Village,Jan,384.0,2019,individual,neighborhood,MAY2018,384.0
+East Village,Jan,7.0,2019,vehicle,neighborhood,MAY2018,14.209999999999999
+East Village,Jan,83.0,2019,tent,neighborhood,MAY2018,145.25
+Core,Jan,100.0,2019,individual,neighborhood,MAY2018,100.0
+Core,Jan,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Core,Jan,18.0,2019,tent,neighborhood,MAY2018,31.5
+Columbia,Jan,27.0,2019,individual,neighborhood,MAY2018,27.0
+Columbia,Jan,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Columbia,Jan,15.0,2019,tent,neighborhood,MAY2018,26.25
+Marina,Jan,32.0,2019,individual,neighborhood,MAY2018,32.0
+Marina,Jan,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Marina,Jan,14.0,2019,tent,neighborhood,MAY2018,24.5
+Cortez,Jan,47.0,2019,individual,neighborhood,MAY2018,47.0
+Cortez,Jan,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Cortez,Jan,4.0,2019,tent,neighborhood,MAY2018,7.0
+Gaslamp,Jan,55.0,2019,individual,neighborhood,MAY2018,55.0
+Gaslamp,Jan,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Gaslamp,Jan,2.0,2019,tent,neighborhood,MAY2018,3.5
+East Village,Feb,321.0,2019,individual,neighborhood,MAY2018,321.0
+East Village,Feb,11.0,2019,vehicle,neighborhood,MAY2018,22.33
+East Village,Feb,88.0,2019,tent,neighborhood,MAY2018,154.0
+Core,Feb,97.0,2019,individual,neighborhood,MAY2018,97.0
+Core,Feb,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Core,Feb,7.0,2019,tent,neighborhood,MAY2018,12.25
+Columbia,Feb,20.0,2019,individual,neighborhood,MAY2018,20.0
+Columbia,Feb,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Columbia,Feb,13.0,2019,tent,neighborhood,MAY2018,22.75
+Marina,Feb,40.0,2019,individual,neighborhood,MAY2018,40.0
+Marina,Feb,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Marina,Feb,5.0,2019,tent,neighborhood,MAY2018,8.75
+Cortez,Feb,31.0,2019,individual,neighborhood,MAY2018,31.0
+Cortez,Feb,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Cortez,Feb,1.0,2019,tent,neighborhood,MAY2018,1.75
+Gaslamp,Feb,66.0,2019,individual,neighborhood,MAY2018,66.0
+Gaslamp,Feb,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Gaslamp,Feb,1.0,2019,tent,neighborhood,MAY2018,1.75
+East Village,Mar,288.0,2019,individual,neighborhood,MAY2018,288.0
+East Village,Mar,12.0,2019,vehicle,neighborhood,MAY2018,24.36
+East Village,Mar,66.0,2019,tent,neighborhood,MAY2018,115.5
+Core,Mar,109.0,2019,individual,neighborhood,MAY2018,109.0
+Core,Mar,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Core,Mar,12.0,2019,tent,neighborhood,MAY2018,21.0
+Columbia,Mar,17.0,2019,individual,neighborhood,MAY2018,17.0
+Columbia,Mar,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Columbia,Mar,9.0,2019,tent,neighborhood,MAY2018,15.75
+Marina,Mar,23.0,2019,individual,neighborhood,MAY2018,23.0
+Marina,Mar,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Marina,Mar,4.0,2019,tent,neighborhood,MAY2018,7.0
+Cortez,Mar,49.0,2019,individual,neighborhood,MAY2018,49.0
+Cortez,Mar,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Cortez,Mar,2.0,2019,tent,neighborhood,MAY2018,3.5
+Gaslamp,Mar,59.0,2019,individual,neighborhood,MAY2018,59.0
+Gaslamp,Mar,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Gaslamp,Mar,0.0,2019,tent,neighborhood,MAY2018,0.0
+East Village,Apr,364.0,2019,individual,neighborhood,MAY2018,364.0
+East Village,Apr,12.0,2019,vehicle,neighborhood,MAY2018,24.36
+East Village,Apr,67.0,2019,tent,neighborhood,MAY2018,117.25
+City Center,Apr,89.0,2019,individual,neighborhood,MAY2018,89.0
+City Center,Apr,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+City Center,Apr,10.0,2019,tent,neighborhood,MAY2018,17.5
+Columbia,Apr,46.0,2019,individual,neighborhood,MAY2018,46.0
+Columbia,Apr,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Columbia,Apr,5.0,2019,tent,neighborhood,MAY2018,8.75
+Marina,Apr,19.0,2019,individual,neighborhood,MAY2018,19.0
+Marina,Apr,1.0,2019,vehicle,neighborhood,MAY2018,2.03
+Marina,Apr,7.0,2019,tent,neighborhood,MAY2018,12.25
+Cortez,Apr,40.0,2019,individual,neighborhood,MAY2018,40.0
+Cortez,Apr,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Cortez,Apr,2.0,2019,tent,neighborhood,MAY2018,3.5
+Gaslamp,Apr,36.0,2019,individual,neighborhood,MAY2018,36.0
+Gaslamp,Apr,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Gaslamp,Apr,0.0,2019,tent,neighborhood,MAY2018,0.0
+East Village,May,331.0,2019,individual,neighborhood,MAY2018,331.0
+East Village,May,11.0,2019,vehicle,neighborhood,MAY2018,22.33
+East Village,May,87.0,2019,tent,neighborhood,MAY2018,152.25
+City Center,May,125.0,2019,individual,neighborhood,MAY2018,125.0
+City Center,May,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+City Center,May,12.0,2019,tent,neighborhood,MAY2018,21.0
+Columbia,May,43.0,2019,individual,neighborhood,MAY2018,43.0
+Columbia,May,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Columbia,May,10.0,2019,tent,neighborhood,MAY2018,17.5
+Marina,May,24.0,2019,individual,neighborhood,MAY2018,24.0
+Marina,May,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Marina,May,8.0,2019,tent,neighborhood,MAY2018,14.0
+Cortez,May,40.0,2019,individual,neighborhood,MAY2018,40.0
+Cortez,May,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Cortez,May,3.0,2019,tent,neighborhood,MAY2018,5.25
+Gaslamp,May,58.0,2019,individual,neighborhood,MAY2018,58.0
+Gaslamp,May,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Gaslamp,May,4.0,2019,tent,neighborhood,MAY2018,7.0
+East Village,June,311.0,2019,individual,neighborhood,MAY2018,311.0
+East Village,June,13.0,2019,vehicle,neighborhood,MAY2018,26.389999999999997
+East Village,June,77.0,2019,tent,neighborhood,MAY2018,134.75
+City Center,June,138.0,2019,individual,neighborhood,MAY2018,138.0
+City Center,June,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+City Center,June,11.0,2019,tent,neighborhood,MAY2018,19.25
+Columbia,June,42.0,2019,individual,neighborhood,MAY2018,42.0
+Columbia,June,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Columbia,June,11.0,2019,tent,neighborhood,MAY2018,19.25
+Marina,June,28.0,2019,individual,neighborhood,MAY2018,28.0
+Marina,June,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Marina,June,4.0,2019,tent,neighborhood,MAY2018,7.0
+Cortez,June,44.0,2019,individual,neighborhood,MAY2018,44.0
+Cortez,June,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Cortez,June,1.0,2019,tent,neighborhood,MAY2018,1.75
+Gaslamp,June,47.0,2019,individual,neighborhood,MAY2018,47.0
+Gaslamp,June,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Gaslamp,June,4.0,2019,tent,neighborhood,MAY2018,7.0
+East Village,July,441.0,2019,individual,neighborhood,MAY2018,441.0
+East Village,July,21.0,2019,vehicle,neighborhood,MAY2018,42.629999999999995
+East Village,July,69.0,2019,tent,neighborhood,MAY2018,120.75
+City Center,July,122.0,2019,individual,neighborhood,MAY2018,122.0
+City Center,July,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+City Center,July,14.0,2019,tent,neighborhood,MAY2018,24.5
+Columbia,July,34.0,2019,individual,neighborhood,MAY2018,34.0
+Columbia,July,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Columbia,July,10.0,2019,tent,neighborhood,MAY2018,17.5
+Marina,July,34.0,2019,individual,neighborhood,MAY2018,34.0
+Marina,July,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Marina,July,1.0,2019,tent,neighborhood,MAY2018,1.75
+Cortez,July,62.0,2019,individual,neighborhood,MAY2018,62.0
+Cortez,July,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Cortez,July,5.0,2019,tent,neighborhood,MAY2018,8.75
+Gaslamp,July,50.0,2019,individual,neighborhood,MAY2018,50.0
+Gaslamp,July,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Gaslamp,July,1.0,2019,tent,neighborhood,MAY2018,1.75
+East Village,Aug,377.0,2019,individual,neighborhood,MAY2018,377.0
+East Village,Aug,6.0,2019,vehicle,neighborhood,MAY2018,12.18
+East Village,Aug,46.0,2019,tent,neighborhood,MAY2018,80.5
+City Center,Aug,113.0,2019,individual,neighborhood,MAY2018,113.0
+City Center,Aug,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+City Center,Aug,6.0,2019,tent,neighborhood,MAY2018,10.5
+Columbia,Aug,32.0,2019,individual,neighborhood,MAY2018,32.0
+Columbia,Aug,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Columbia,Aug,8.0,2019,tent,neighborhood,MAY2018,14.0
+Marina,Aug,30.0,2019,individual,neighborhood,MAY2018,30.0
+Marina,Aug,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Marina,Aug,5.0,2019,tent,neighborhood,MAY2018,8.75
+Cortez,Aug,29.0,2019,individual,neighborhood,MAY2018,29.0
+Cortez,Aug,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Cortez,Aug,1.0,2019,tent,neighborhood,MAY2018,1.75
+Gaslamp,Aug,56.0,2019,individual,neighborhood,MAY2018,56.0
+Gaslamp,Aug,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Gaslamp,Aug,3.0,2019,tent,neighborhood,MAY2018,5.25
+East Village,Sept,384.0,2019,individual,neighborhood,MAY2018,384.0
+East Village,Sept,15.0,2019,vehicle,neighborhood,MAY2018,30.449999999999996
+East Village,Sept,68.0,2019,tent,neighborhood,MAY2018,119.0
+City Center,Sept,178.0,2019,individual,neighborhood,MAY2018,178.0
+City Center,Sept,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+City Center,Sept,8.0,2019,tent,neighborhood,MAY2018,14.0
+Columbia,Sept,42.0,2019,individual,neighborhood,MAY2018,42.0
+Columbia,Sept,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Columbia,Sept,4.0,2019,tent,neighborhood,MAY2018,7.0
+Marina,Sept,33.0,2019,individual,neighborhood,MAY2018,33.0
+Marina,Sept,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Marina,Sept,4.0,2019,tent,neighborhood,MAY2018,7.0
+Cortez,Sept,48.0,2019,individual,neighborhood,MAY2018,48.0
+Cortez,Sept,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Cortez,Sept,4.0,2019,tent,neighborhood,MAY2018,7.0
+Gaslamp,Sept,75.0,2019,individual,neighborhood,MAY2018,75.0
+Gaslamp,Sept,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Gaslamp,Sept,1.0,2019,tent,neighborhood,MAY2018,1.75
+East Village,Oct,384.0,2019,individual,neighborhood,MAY2018,384.0
+East Village,Oct,17.0,2019,vehicle,neighborhood,MAY2018,34.51
+East Village,Oct,38.0,2019,tent,neighborhood,MAY2018,66.5
+City Center,Oct,149.0,2019,individual,neighborhood,MAY2018,149.0
+City Center,Oct,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+City Center,Oct,12.0,2019,tent,neighborhood,MAY2018,21.0
+Columbia,Oct,53.0,2019,individual,neighborhood,MAY2018,53.0
+Columbia,Oct,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Columbia,Oct,8.0,2019,tent,neighborhood,MAY2018,14.0
+Marina,Oct,24.0,2019,individual,neighborhood,MAY2018,24.0
+Marina,Oct,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Marina,Oct,4.0,2019,tent,neighborhood,MAY2018,7.0
+Cortez,Oct,34.0,2019,individual,neighborhood,MAY2018,34.0
+Cortez,Oct,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Cortez,Oct,3.0,2019,tent,neighborhood,MAY2018,5.25
+Gaslamp,Oct,57.0,2019,individual,neighborhood,MAY2018,57.0
+Gaslamp,Oct,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Gaslamp,Oct,2.0,2019,tent,neighborhood,MAY2018,3.5
+East Village,Nov,323.0,2019,individual,neighborhood,MAY2018,323.0
+East Village,Nov,6.0,2019,vehicle,neighborhood,MAY2018,12.18
+East Village,Nov,46.0,2019,tent,neighborhood,MAY2018,80.5
+City Center,Nov,84.0,2019,individual,neighborhood,MAY2018,84.0
+City Center,Nov,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+City Center,Nov,11.0,2019,tent,neighborhood,MAY2018,19.25
+Columbia,Nov,22.0,2019,individual,neighborhood,MAY2018,22.0
+Columbia,Nov,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Columbia,Nov,9.0,2019,tent,neighborhood,MAY2018,15.75
+Marina,Nov,28.0,2019,individual,neighborhood,MAY2018,28.0
+Marina,Nov,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Marina,Nov,3.0,2019,tent,neighborhood,MAY2018,5.25
+Cortez,Nov,22.0,2019,individual,neighborhood,MAY2018,22.0
+Cortez,Nov,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Cortez,Nov,2.0,2019,tent,neighborhood,MAY2018,3.5
+Gaslamp,Nov,58.0,2019,individual,neighborhood,MAY2018,58.0
+Gaslamp,Nov,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Gaslamp,Nov,2.0,2019,tent,neighborhood,MAY2018,3.5
+East Village,Dec,323.0,2019,individual,neighborhood,MAY2018,323.0
+East Village,Dec,6.0,2019,vehicle,neighborhood,MAY2018,12.18
+East Village,Dec,46.0,2019,tent,neighborhood,MAY2018,80.5
+City Center,Dec,84.0,2019,individual,neighborhood,MAY2018,84.0
+City Center,Dec,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+City Center,Dec,11.0,2019,tent,neighborhood,MAY2018,19.25
+Columbia,Dec,22.0,2019,individual,neighborhood,MAY2018,22.0
+Columbia,Dec,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Columbia,Dec,9.0,2019,tent,neighborhood,MAY2018,15.75
+Marina,Dec,28.0,2019,individual,neighborhood,MAY2018,28.0
+Marina,Dec,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Marina,Dec,3.0,2019,tent,neighborhood,MAY2018,5.25
+Cortez,Dec,22.0,2019,individual,neighborhood,MAY2018,22.0
+Cortez,Dec,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Cortez,Dec,2.0,2019,tent,neighborhood,MAY2018,3.5
+Gaslamp,Dec,58.0,2019,individual,neighborhood,MAY2018,58.0
+Gaslamp,Dec,0.0,2019,vehicle,neighborhood,MAY2018,0.0
+Gaslamp,Dec,2.0,2019,tent,neighborhood,MAY2018,3.5
+East Village,Jan,377.0,2020,individual,neighborhood,POST2020,377.0
+East Village,Jan,10.0,2020,vehicle,neighborhood,POST2020,20.299999999999997
+East Village,Jan,40.0,2020,tent,neighborhood,POST2020,70.0
+City Center,Jan,112.0,2020,individual,neighborhood,POST2020,112.0
+City Center,Jan,0.0,2020,vehicle,neighborhood,POST2020,0.0
+City Center,Jan,8.0,2020,tent,neighborhood,POST2020,14.0
+Columbia,Jan,32.0,2020,individual,neighborhood,POST2020,32.0
+Columbia,Jan,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Columbia,Jan,5.0,2020,tent,neighborhood,POST2020,8.75
+Marina,Jan,41.0,2020,individual,neighborhood,POST2020,41.0
+Marina,Jan,1.0,2020,vehicle,neighborhood,POST2020,2.03
+Marina,Jan,3.0,2020,tent,neighborhood,POST2020,5.25
+Cortez,Jan,37.0,2020,individual,neighborhood,POST2020,37.0
+Cortez,Jan,2.0,2020,vehicle,neighborhood,POST2020,4.06
+Cortez,Jan,4.0,2020,tent,neighborhood,POST2020,7.0
+Gaslamp,Jan,57.0,2020,individual,neighborhood,POST2020,57.0
+Gaslamp,Jan,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Jan,1.0,2020,tent,neighborhood,POST2020,1.75
+East Village,Feb,334.0,2020,individual,neighborhood,POST2020,334.0
+East Village,Feb,6.0,2020,vehicle,neighborhood,POST2020,12.18
+East Village,Feb,36.0,2020,tent,neighborhood,POST2020,63.0
+City Center,Feb,142.0,2020,individual,neighborhood,POST2020,142.0
+City Center,Feb,0.0,2020,vehicle,neighborhood,POST2020,0.0
+City Center,Feb,10.0,2020,tent,neighborhood,POST2020,17.5
+Columbia,Feb,36.0,2020,individual,neighborhood,POST2020,36.0
+Columbia,Feb,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Columbia,Feb,6.0,2020,tent,neighborhood,POST2020,10.5
+Marina,Feb,23.0,2020,individual,neighborhood,POST2020,23.0
+Marina,Feb,1.0,2020,vehicle,neighborhood,POST2020,2.03
+Marina,Feb,1.0,2020,tent,neighborhood,POST2020,1.75
+Cortez,Feb,42.0,2020,individual,neighborhood,POST2020,42.0
+Cortez,Feb,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Cortez,Feb,4.0,2020,tent,neighborhood,POST2020,7.0
+Gaslamp,Feb,48.0,2020,individual,neighborhood,POST2020,48.0
+Gaslamp,Feb,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Feb,2.0,2020,tent,neighborhood,POST2020,3.5
+East Village,Mar,160.0,2020,individual,neighborhood,POST2020,160.0
+East Village,Mar,3.0,2020,vehicle,neighborhood,POST2020,6.09
+East Village,Mar,54.0,2020,tent,neighborhood,POST2020,94.5
+City Center,Mar,101.0,2020,individual,neighborhood,POST2020,101.0
+City Center,Mar,0.0,2020,vehicle,neighborhood,POST2020,0.0
+City Center,Mar,19.0,2020,tent,neighborhood,POST2020,33.25
+Columbia,Mar,19.0,2020,individual,neighborhood,POST2020,19.0
+Columbia,Mar,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Columbia,Mar,3.0,2020,tent,neighborhood,POST2020,5.25
+Marina,Mar,15.0,2020,individual,neighborhood,POST2020,15.0
+Marina,Mar,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Marina,Mar,3.0,2020,tent,neighborhood,POST2020,5.25
+Cortez,Mar,24.0,2020,individual,neighborhood,POST2020,24.0
+Cortez,Mar,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Cortez,Mar,2.0,2020,tent,neighborhood,POST2020,3.5
+Gaslamp,Mar,57.0,2020,individual,neighborhood,POST2020,57.0
+Gaslamp,Mar,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Mar,3.0,2020,tent,neighborhood,POST2020,5.25
+East Village,Apr,248.0,2020,individual,neighborhood,POST2020,248.0
+East Village,Apr,7.0,2020,vehicle,neighborhood,POST2020,14.209999999999999
+East Village,Apr,39.0,2020,tent,neighborhood,POST2020,68.25
+City Center,Apr,91.0,2020,individual,neighborhood,POST2020,91.0
+City Center,Apr,0.0,2020,vehicle,neighborhood,POST2020,0.0
+City Center,Apr,0.0,2020,tent,neighborhood,POST2020,0.0
+Columbia,Apr,38.0,2020,individual,neighborhood,POST2020,38.0
+Columbia,Apr,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Columbia,Apr,8.0,2020,tent,neighborhood,POST2020,14.0
+Marina,Apr,24.0,2020,individual,neighborhood,POST2020,24.0
+Marina,Apr,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Marina,Apr,0.0,2020,tent,neighborhood,POST2020,0.0
+Cortez,Apr,20.0,2020,individual,neighborhood,POST2020,20.0
+Cortez,Apr,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Cortez,Apr,2.0,2020,tent,neighborhood,POST2020,3.5
+Gaslamp,Apr,42.0,2020,individual,neighborhood,POST2020,42.0
+Gaslamp,Apr,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Apr,1.0,2020,tent,neighborhood,POST2020,1.75
+East Village,May,249.0,2020,individual,neighborhood,POST2020,249.0
+East Village,May,3.0,2020,vehicle,neighborhood,POST2020,6.09
+East Village,May,44.0,2020,tent,neighborhood,POST2020,77.0
+City Center,May,113.0,2020,individual,neighborhood,POST2020,113.0
+City Center,May,1.0,2020,vehicle,neighborhood,POST2020,2.03
+City Center,May,4.0,2020,tent,neighborhood,POST2020,7.0
+Columbia,May,37.0,2020,individual,neighborhood,POST2020,37.0
+Columbia,May,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Columbia,May,8.0,2020,tent,neighborhood,POST2020,14.0
+Marina,May,13.0,2020,individual,neighborhood,POST2020,13.0
+Marina,May,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Marina,May,6.0,2020,tent,neighborhood,POST2020,10.5
+Cortez,May,24.0,2020,individual,neighborhood,POST2020,24.0
+Cortez,May,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Cortez,May,0.0,2020,tent,neighborhood,POST2020,0.0
+Gaslamp,May,37.0,2020,individual,neighborhood,POST2020,37.0
+Gaslamp,May,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Gaslamp,May,3.0,2020,tent,neighborhood,POST2020,5.25
+East Village,June,271.0,2020,individual,neighborhood,POST2020,271.0
+East Village,June,12.0,2020,vehicle,neighborhood,POST2020,24.36
+East Village,June,70.0,2020,tent,neighborhood,POST2020,122.5
+City Center,June,112.0,2020,individual,neighborhood,POST2020,112.0
+City Center,June,0.0,2020,vehicle,neighborhood,POST2020,0.0
+City Center,June,16.0,2020,tent,neighborhood,POST2020,28.0
+Columbia,June,50.0,2020,individual,neighborhood,POST2020,50.0
+Columbia,June,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Columbia,June,5.0,2020,tent,neighborhood,POST2020,8.75
+Marina,June,25.0,2020,individual,neighborhood,POST2020,25.0
+Marina,June,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Marina,June,2.0,2020,tent,neighborhood,POST2020,3.5
+Cortez,June,32.0,2020,individual,neighborhood,POST2020,32.0
+Cortez,June,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Cortez,June,4.0,2020,tent,neighborhood,POST2020,7.0
+Gaslamp,June,37.0,2020,individual,neighborhood,POST2020,37.0
+Gaslamp,June,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Gaslamp,June,0.0,2020,tent,neighborhood,POST2020,0.0
+East Village,July,296.0,2020,individual,neighborhood,POST2020,296.0
+East Village,July,7.0,2020,vehicle,neighborhood,POST2020,14.209999999999999
+East Village,July,50.0,2020,tent,neighborhood,POST2020,87.5
+City Center,July,105.0,2020,individual,neighborhood,POST2020,105.0
+City Center,July,0.0,2020,vehicle,neighborhood,POST2020,0.0
+City Center,July,9.0,2020,tent,neighborhood,POST2020,15.75
+Columbia,July,42.0,2020,individual,neighborhood,POST2020,42.0
+Columbia,July,1.0,2020,vehicle,neighborhood,POST2020,2.03
+Columbia,July,7.0,2020,tent,neighborhood,POST2020,12.25
+Marina,July,24.0,2020,individual,neighborhood,POST2020,24.0
+Marina,July,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Marina,July,2.0,2020,tent,neighborhood,POST2020,3.5
+Cortez,July,22.0,2020,individual,neighborhood,POST2020,22.0
+Cortez,July,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Cortez,July,1.0,2020,tent,neighborhood,POST2020,1.75
+Gaslamp,July,46.0,2020,individual,neighborhood,POST2020,46.0
+Gaslamp,July,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Gaslamp,July,0.0,2020,tent,neighborhood,POST2020,0.0
+East Village,Aug,258.0,2020,individual,neighborhood,POST2020,258.0
+East Village,Aug,5.0,2020,vehicle,neighborhood,POST2020,10.149999999999999
+East Village,Aug,33.0,2020,tent,neighborhood,POST2020,57.75
+City Center,Aug,97.0,2020,individual,neighborhood,POST2020,97.0
+City Center,Aug,0.0,2020,vehicle,neighborhood,POST2020,0.0
+City Center,Aug,4.0,2020,tent,neighborhood,POST2020,7.0
+Columbia,Aug,41.0,2020,individual,neighborhood,POST2020,41.0
+Columbia,Aug,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Columbia,Aug,4.0,2020,tent,neighborhood,POST2020,7.0
+Marina,Aug,21.0,2020,individual,neighborhood,POST2020,21.0
+Marina,Aug,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Marina,Aug,0.0,2020,tent,neighborhood,POST2020,0.0
+Cortez,Aug,22.0,2020,individual,neighborhood,POST2020,22.0
+Cortez,Aug,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Cortez,Aug,0.0,2020,tent,neighborhood,POST2020,0.0
+Gaslamp,Aug,37.0,2020,individual,neighborhood,POST2020,37.0
+Gaslamp,Aug,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Aug,1.0,2020,tent,neighborhood,POST2020,1.75
+East Village,Sept,330.0,2020,individual,neighborhood,POST2020,330.0
+East Village,Sept,6.0,2020,vehicle,neighborhood,POST2020,12.18
+East Village,Sept,60.0,2020,tent,neighborhood,POST2020,105.0
+City Center,Sept,112.0,2020,individual,neighborhood,POST2020,112.0
+City Center,Sept,1.0,2020,vehicle,neighborhood,POST2020,2.03
+City Center,Sept,6.0,2020,tent,neighborhood,POST2020,10.5
+Columbia,Sept,49.0,2020,individual,neighborhood,POST2020,49.0
+Columbia,Sept,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Columbia,Sept,4.0,2020,tent,neighborhood,POST2020,7.0
+Marina,Sept,22.0,2020,individual,neighborhood,POST2020,22.0
+Marina,Sept,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Marina,Sept,3.0,2020,tent,neighborhood,POST2020,5.25
+Cortez,Sept,17.0,2020,individual,neighborhood,POST2020,17.0
+Cortez,Sept,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Cortez,Sept,0.0,2020,tent,neighborhood,POST2020,0.0
+Gaslamp,Sept,45.0,2020,individual,neighborhood,POST2020,45.0
+Gaslamp,Sept,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Sept,1.0,2020,tent,neighborhood,POST2020,1.75
+East Village,Oct,280.0,2020,individual,neighborhood,POST2020,280.0
+East Village,Oct,7.0,2020,vehicle,neighborhood,POST2020,14.209999999999999
+East Village,Oct,61.0,2020,tent,neighborhood,POST2020,106.75
+City Center,Oct,93.0,2020,individual,neighborhood,POST2020,93.0
+City Center,Oct,1.0,2020,vehicle,neighborhood,POST2020,2.03
+City Center,Oct,9.0,2020,tent,neighborhood,POST2020,15.75
+Columbia,Oct,33.0,2020,individual,neighborhood,POST2020,33.0
+Columbia,Oct,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Columbia,Oct,5.0,2020,tent,neighborhood,POST2020,8.75
+Marina,Oct,13.0,2020,individual,neighborhood,POST2020,13.0
+Marina,Oct,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Marina,Oct,2.0,2020,tent,neighborhood,POST2020,3.5
+Cortez,Oct,33.0,2020,individual,neighborhood,POST2020,33.0
+Cortez,Oct,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Cortez,Oct,0.0,2020,tent,neighborhood,POST2020,0.0
+Gaslamp,Oct,31.0,2020,individual,neighborhood,POST2020,31.0
+Gaslamp,Oct,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Oct,2.0,2020,tent,neighborhood,POST2020,3.5
+East Village,Nov,257.0,2020,individual,neighborhood,POST2020,257.0
+East Village,Nov,10.0,2020,vehicle,neighborhood,POST2020,20.299999999999997
+East Village,Nov,87.0,2020,tent,neighborhood,POST2020,152.25
+City Center,Nov,103.0,2020,individual,neighborhood,POST2020,103.0
+City Center,Nov,1.0,2020,vehicle,neighborhood,POST2020,2.03
+City Center,Nov,12.0,2020,tent,neighborhood,POST2020,21.0
+Columbia,Nov,46.0,2020,individual,neighborhood,POST2020,46.0
+Columbia,Nov,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Columbia,Nov,5.0,2020,tent,neighborhood,POST2020,8.75
+Marina,Nov,24.0,2020,individual,neighborhood,POST2020,24.0
+Marina,Nov,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Marina,Nov,6.0,2020,tent,neighborhood,POST2020,10.5
+Cortez,Nov,23.0,2020,individual,neighborhood,POST2020,23.0
+Cortez,Nov,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Cortez,Nov,0.0,2020,tent,neighborhood,POST2020,0.0
+Gaslamp,Nov,27.0,2020,individual,neighborhood,POST2020,27.0
+Gaslamp,Nov,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Nov,2.0,2020,tent,neighborhood,POST2020,3.5
+East Village,Dec,170.0,2020,individual,neighborhood,POST2020,170.0
+East Village,Dec,5.0,2020,vehicle,neighborhood,POST2020,10.149999999999999
+East Village,Dec,88.0,2020,tent,neighborhood,POST2020,154.0
+City Center,Dec,109.0,2020,individual,neighborhood,POST2020,109.0
+City Center,Dec,0.0,2020,vehicle,neighborhood,POST2020,0.0
+City Center,Dec,14.0,2020,tent,neighborhood,POST2020,24.5
+Columbia,Dec,46.0,2020,individual,neighborhood,POST2020,46.0
+Columbia,Dec,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Columbia,Dec,4.0,2020,tent,neighborhood,POST2020,7.0
+Marina,Dec,11.0,2020,individual,neighborhood,POST2020,11.0
+Marina,Dec,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Marina,Dec,0.0,2020,tent,neighborhood,POST2020,0.0
+Cortez,Dec,26.0,2020,individual,neighborhood,POST2020,26.0
+Cortez,Dec,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Cortez,Dec,15.0,2020,tent,neighborhood,POST2020,26.25
+Gaslamp,Dec,36.0,2020,individual,neighborhood,POST2020,36.0
+Gaslamp,Dec,0.0,2020,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Dec,1.0,2020,tent,neighborhood,POST2020,1.75
+East Village,Jan,198.0,2021,individual,neighborhood,POST2020,198.0
+East Village,Jan,4.0,2021,vehicle,neighborhood,POST2020,8.12
+East Village,Jan,116.0,2021,tent,neighborhood,POST2020,203.0
+City Center,Jan,123.0,2021,individual,neighborhood,POST2020,123.0
+City Center,Jan,1.0,2021,vehicle,neighborhood,POST2020,2.03
+City Center,Jan,16.0,2021,tent,neighborhood,POST2020,28.0
+Columbia,Jan,44.0,2021,individual,neighborhood,POST2020,44.0
+Columbia,Jan,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Columbia,Jan,6.0,2021,tent,neighborhood,POST2020,10.5
+Marina,Jan,13.0,2021,individual,neighborhood,POST2020,13.0
+Marina,Jan,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Marina,Jan,4.0,2021,tent,neighborhood,POST2020,7.0
+Cortez,Jan,26.0,2021,individual,neighborhood,POST2020,26.0
+Cortez,Jan,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Cortez,Jan,12.0,2021,tent,neighborhood,POST2020,21.0
+Gaslamp,Jan,29.0,2021,individual,neighborhood,POST2020,29.0
+Gaslamp,Jan,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Jan,1.0,2021,tent,neighborhood,POST2020,1.75
+East Village,Feb,163.0,2021,individual,neighborhood,POST2020,163.0
+East Village,Feb,17.0,2021,vehicle,neighborhood,POST2020,34.51
+East Village,Feb,105.0,2021,tent,neighborhood,POST2020,183.75
+City Center,Feb,104.0,2021,individual,neighborhood,POST2020,104.0
+City Center,Feb,2.0,2021,vehicle,neighborhood,POST2020,4.06
+City Center,Feb,18.0,2021,tent,neighborhood,POST2020,31.5
+Columbia,Feb,31.0,2021,individual,neighborhood,POST2020,31.0
+Columbia,Feb,1.0,2021,vehicle,neighborhood,POST2020,2.03
+Columbia,Feb,8.0,2021,tent,neighborhood,POST2020,14.0
+Marina,Feb,17.0,2021,individual,neighborhood,POST2020,17.0
+Marina,Feb,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Marina,Feb,4.0,2021,tent,neighborhood,POST2020,7.0
+Cortez,Feb,32.0,2021,individual,neighborhood,POST2020,32.0
+Cortez,Feb,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Cortez,Feb,7.0,2021,tent,neighborhood,POST2020,12.25
+Gaslamp,Feb,30.0,2021,individual,neighborhood,POST2020,30.0
+Gaslamp,Feb,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Feb,1.0,2021,tent,neighborhood,POST2020,1.75
+East Village,Mar,205.0,2021,individual,neighborhood,POST2020,205.0
+East Village,Mar,6.0,2021,vehicle,neighborhood,POST2020,12.18
+East Village,Mar,127.0,2021,tent,neighborhood,POST2020,222.25
+City Center,Mar,104.0,2021,individual,neighborhood,POST2020,104.0
+City Center,Mar,0.0,2021,vehicle,neighborhood,POST2020,0.0
+City Center,Mar,27.0,2021,tent,neighborhood,POST2020,47.25
+Columbia,Mar,29.0,2021,individual,neighborhood,POST2020,29.0
+Columbia,Mar,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Columbia,Mar,9.0,2021,tent,neighborhood,POST2020,15.75
+Marina,Mar,21.0,2021,individual,neighborhood,POST2020,21.0
+Marina,Mar,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Marina,Mar,3.0,2021,tent,neighborhood,POST2020,5.25
+Cortez,Mar,23.0,2021,individual,neighborhood,POST2020,23.0
+Cortez,Mar,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Cortez,Mar,4.0,2021,tent,neighborhood,POST2020,7.0
+Gaslamp,Mar,28.0,2021,individual,neighborhood,POST2020,28.0
+Gaslamp,Mar,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Mar,1.0,2021,tent,neighborhood,POST2020,1.75
+East Village,Apr,155.0,2021,individual,neighborhood,POST2020,155.0
+East Village,Apr,6.0,2021,vehicle,neighborhood,POST2020,12.18
+East Village,Apr,134.0,2021,tent,neighborhood,POST2020,234.5
+City Center,Apr,94.0,2021,individual,neighborhood,POST2020,94.0
+City Center,Apr,0.0,2021,vehicle,neighborhood,POST2020,0.0
+City Center,Apr,22.0,2021,tent,neighborhood,POST2020,38.5
+Columbia,Apr,28.0,2021,individual,neighborhood,POST2020,28.0
+Columbia,Apr,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Columbia,Apr,8.0,2021,tent,neighborhood,POST2020,14.0
+Marina,Apr,14.0,2021,individual,neighborhood,POST2020,14.0
+Marina,Apr,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Marina,Apr,1.0,2021,tent,neighborhood,POST2020,1.75
+Cortez,Apr,25.0,2021,individual,neighborhood,POST2020,25.0
+Cortez,Apr,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Cortez,Apr,4.0,2021,tent,neighborhood,POST2020,7.0
+Gaslamp,Apr,27.0,2021,individual,neighborhood,POST2020,27.0
+Gaslamp,Apr,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Apr,1.0,2021,tent,neighborhood,POST2020,1.75
+East Village,May,227.0,2021,individual,neighborhood,POST2020,227.0
+East Village,May,8.0,2021,vehicle,neighborhood,POST2020,16.24
+East Village,May,154.0,2021,tent,neighborhood,POST2020,269.5
+City Center,May,104.0,2021,individual,neighborhood,POST2020,104.0
+City Center,May,1.0,2021,vehicle,neighborhood,POST2020,2.03
+City Center,May,18.0,2021,tent,neighborhood,POST2020,31.5
+Columbia,May,49.0,2021,individual,neighborhood,POST2020,49.0
+Columbia,May,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Columbia,May,6.0,2021,tent,neighborhood,POST2020,10.5
+Marina,May,17.0,2021,individual,neighborhood,POST2020,17.0
+Marina,May,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Marina,May,4.0,2021,tent,neighborhood,POST2020,7.0
+Cortez,May,28.0,2021,individual,neighborhood,POST2020,28.0
+Cortez,May,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Cortez,May,1.0,2021,tent,neighborhood,POST2020,1.75
+Gaslamp,May,35.0,2021,individual,neighborhood,POST2020,35.0
+Gaslamp,May,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Gaslamp,May,0.0,2021,tent,neighborhood,POST2020,0.0
+East Village,June,232.0,2021,individual,neighborhood,POST2020,232.0
+East Village,June,5.0,2021,vehicle,neighborhood,POST2020,10.149999999999999
+East Village,June,147.0,2021,tent,neighborhood,POST2020,257.25
+City Center,June,108.0,2021,individual,neighborhood,POST2020,108.0
+City Center,June,0.0,2021,vehicle,neighborhood,POST2020,0.0
+City Center,June,20.0,2021,tent,neighborhood,POST2020,35.0
+Columbia,June,39.0,2021,individual,neighborhood,POST2020,39.0
+Columbia,June,1.0,2021,vehicle,neighborhood,POST2020,2.03
+Columbia,June,7.0,2021,tent,neighborhood,POST2020,12.25
+Marina,June,13.0,2021,individual,neighborhood,POST2020,13.0
+Marina,June,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Marina,June,5.0,2021,tent,neighborhood,POST2020,8.75
+Cortez,June,27.0,2021,individual,neighborhood,POST2020,27.0
+Cortez,June,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Cortez,June,0.0,2021,tent,neighborhood,POST2020,0.0
+Gaslamp,June,43.0,2021,individual,neighborhood,POST2020,43.0
+Gaslamp,June,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Gaslamp,June,0.0,2021,tent,neighborhood,POST2020,0.0
+East Village,July,259.0,2021,individual,neighborhood,POST2020,259.0
+East Village,July,9.0,2021,vehicle,neighborhood,POST2020,18.27
+East Village,July,107.0,2021,tent,neighborhood,POST2020,187.25
+City Center,July,102.0,2021,individual,neighborhood,POST2020,102.0
+City Center,July,1.0,2021,vehicle,neighborhood,POST2020,2.03
+City Center,July,11.0,2021,tent,neighborhood,POST2020,19.25
+Columbia,July,50.0,2021,individual,neighborhood,POST2020,50.0
+Columbia,July,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Columbia,July,4.0,2021,tent,neighborhood,POST2020,7.0
+Marina,July,20.0,2021,individual,neighborhood,POST2020,20.0
+Marina,July,1.0,2021,vehicle,neighborhood,POST2020,2.03
+Marina,July,0.0,2021,tent,neighborhood,POST2020,0.0
+Cortez,July,38.0,2021,individual,neighborhood,POST2020,38.0
+Cortez,July,1.0,2021,vehicle,neighborhood,POST2020,2.03
+Cortez,July,2.0,2021,tent,neighborhood,POST2020,3.5
+Gaslamp,July,21.0,2021,individual,neighborhood,POST2020,21.0
+Gaslamp,July,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Gaslamp,July,0.0,2021,tent,neighborhood,POST2020,0.0
+East Village,Aug,261.0,2021,individual,neighborhood,POST2020,261.0
+East Village,Aug,13.0,2021,vehicle,neighborhood,POST2020,26.389999999999997
+East Village,Aug,104.0,2021,tent,neighborhood,POST2020,182.0
+City Center,Aug,111.0,2021,individual,neighborhood,POST2020,111.0
+City Center,Aug,3.0,2021,vehicle,neighborhood,POST2020,6.09
+City Center,Aug,20.0,2021,tent,neighborhood,POST2020,35.0
+Columbia,Aug,49.0,2021,individual,neighborhood,POST2020,49.0
+Columbia,Aug,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Columbia,Aug,6.0,2021,tent,neighborhood,POST2020,10.5
+Marina,Aug,21.0,2021,individual,neighborhood,POST2020,21.0
+Marina,Aug,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Marina,Aug,5.0,2021,tent,neighborhood,POST2020,8.75
+Cortez,Aug,34.0,2021,individual,neighborhood,POST2020,34.0
+Cortez,Aug,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Cortez,Aug,0.0,2021,tent,neighborhood,POST2020,0.0
+Gaslamp,Aug,31.0,2021,individual,neighborhood,POST2020,31.0
+Gaslamp,Aug,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Aug,0.0,2021,tent,neighborhood,POST2020,0.0
+East Village,Sept,254.0,2021,individual,neighborhood,POST2020,254.0
+East Village,Sept,7.0,2021,vehicle,neighborhood,POST2020,14.209999999999999
+East Village,Sept,97.0,2021,tent,neighborhood,POST2020,169.75
+Columbia,Sept,75.0,2021,individual,neighborhood,POST2020,75.0
+Columbia,Sept,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Columbia,Sept,3.0,2021,tent,neighborhood,POST2020,5.25
+Marina,Sept,17.0,2021,individual,neighborhood,POST2020,17.0
+Marina,Sept,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Marina,Sept,7.0,2021,tent,neighborhood,POST2020,12.25
+Cortez,Sept,27.0,2021,individual,neighborhood,POST2020,27.0
+Cortez,Sept,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Cortez,Sept,1.0,2021,tent,neighborhood,POST2020,1.75
+Gaslamp,Sept,42.0,2021,individual,neighborhood,POST2020,42.0
+Gaslamp,Sept,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Sept,1.0,2021,tent,neighborhood,POST2020,1.75
+East Village,Oct,294.0,2021,individual,neighborhood,POST2020,294.0
+East Village,Oct,15.0,2021,vehicle,neighborhood,POST2020,30.449999999999996
+East Village,Oct,124.0,2021,tent,neighborhood,POST2020,217.0
+City Center,Oct,108.0,2021,individual,neighborhood,POST2020,108.0
+City Center,Oct,2.0,2021,vehicle,neighborhood,POST2020,4.06
+City Center,Oct,19.0,2021,tent,neighborhood,POST2020,33.25
+Columbia,Oct,39.0,2021,individual,neighborhood,POST2020,39.0
+Columbia,Oct,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Columbia,Oct,10.0,2021,tent,neighborhood,POST2020,17.5
+Marina,Oct,19.0,2021,individual,neighborhood,POST2020,19.0
+Marina,Oct,2.0,2021,vehicle,neighborhood,POST2020,4.06
+Marina,Oct,4.0,2021,tent,neighborhood,POST2020,7.0
+Cortez,Oct,31.0,2021,individual,neighborhood,POST2020,31.0
+Cortez,Oct,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Cortez,Oct,2.0,2021,tent,neighborhood,POST2020,3.5
+Gaslamp,Oct,49.0,2021,individual,neighborhood,POST2020,49.0
+Gaslamp,Oct,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Oct,1.0,2021,tent,neighborhood,POST2020,1.75
+East Village,Nov,265.0,2021,individual,neighborhood,POST2020,265.0
+East Village,Nov,16.0,2021,vehicle,neighborhood,POST2020,32.48
+East Village,Nov,139.0,2021,tent,neighborhood,POST2020,243.25
+City Center,Nov,140.0,2021,individual,neighborhood,POST2020,140.0
+City Center,Nov,1.0,2021,vehicle,neighborhood,POST2020,2.03
+City Center,Nov,22.0,2021,tent,neighborhood,POST2020,38.5
+Columbia,Nov,48.0,2021,individual,neighborhood,POST2020,48.0
+Columbia,Nov,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Columbia,Nov,7.0,2021,tent,neighborhood,POST2020,12.25
+Marina,Nov,31.0,2021,individual,neighborhood,POST2020,31.0
+Marina,Nov,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Marina,Nov,6.0,2021,tent,neighborhood,POST2020,10.5
+Cortez,Nov,24.0,2021,individual,neighborhood,POST2020,24.0
+Cortez,Nov,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Cortez,Nov,4.0,2021,tent,neighborhood,POST2020,7.0
+Gaslamp,Nov,41.0,2021,individual,neighborhood,POST2020,41.0
+Gaslamp,Nov,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Nov,3.0,2021,tent,neighborhood,POST2020,5.25
+East Village,Dec,305.0,2021,individual,neighborhood,POST2020,305.0
+East Village,Dec,21.0,2021,vehicle,neighborhood,POST2020,42.629999999999995
+East Village,Dec,151.0,2021,tent,neighborhood,POST2020,264.25
+City Center,Dec,127.0,2021,individual,neighborhood,POST2020,127.0
+City Center,Dec,2.0,2021,vehicle,neighborhood,POST2020,4.06
+City Center,Dec,31.0,2021,tent,neighborhood,POST2020,54.25
+Columbia,Dec,47.0,2021,individual,neighborhood,POST2020,47.0
+Columbia,Dec,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Columbia,Dec,7.0,2021,tent,neighborhood,POST2020,12.25
+Cortez,Dec,28.0,2021,individual,neighborhood,POST2020,28.0
+Cortez,Dec,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Cortez,Dec,10.0,2021,tent,neighborhood,POST2020,17.5
+Gaslamp,Dec,54.0,2021,individual,neighborhood,POST2020,54.0
+Gaslamp,Dec,0.0,2021,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Dec,3.0,2021,tent,neighborhood,POST2020,5.25
+East Village,Jan,256.0,2022,individual,neighborhood,POST2020,256.0
+East Village,Jan,14.0,2022,vehicle,neighborhood,POST2020,28.419999999999998
+East Village,Jan,225.0,2022,tent,neighborhood,POST2020,393.75
+City Center,Jan,127.0,2022,individual,neighborhood,POST2020,127.0
+City Center,Jan,1.0,2022,vehicle,neighborhood,POST2020,2.03
+City Center,Jan,48.0,2022,tent,neighborhood,POST2020,84.0
+Columbia,Jan,49.0,2022,individual,neighborhood,POST2020,49.0
+Columbia,Jan,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Columbia,Jan,7.0,2022,tent,neighborhood,POST2020,12.25
+Marina,Jan,24.0,2022,individual,neighborhood,POST2020,24.0
+Marina,Jan,1.0,2022,vehicle,neighborhood,POST2020,2.03
+Marina,Jan,9.0,2022,tent,neighborhood,POST2020,15.75
+Cortez,Jan,37.0,2022,individual,neighborhood,POST2020,37.0
+Cortez,Jan,3.0,2022,vehicle,neighborhood,POST2020,6.09
+Cortez,Jan,28.0,2022,tent,neighborhood,POST2020,49.0
+Gaslamp,Jan,60.0,2022,individual,neighborhood,POST2020,60.0
+Gaslamp,Jan,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Jan,2.0,2022,tent,neighborhood,POST2020,3.5
+East Village,Feb,294.0,2022,individual,neighborhood,POST2020,294.0
+East Village,Feb,20.0,2022,vehicle,neighborhood,POST2020,40.599999999999994
+East Village,Feb,232.0,2022,tent,neighborhood,POST2020,406.0
+City Center,Feb,100.0,2022,individual,neighborhood,POST2020,100.0
+City Center,Feb,1.0,2022,vehicle,neighborhood,POST2020,2.03
+City Center,Feb,48.0,2022,tent,neighborhood,POST2020,84.0
+Columbia,Feb,55.0,2022,individual,neighborhood,POST2020,55.0
+Columbia,Feb,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Columbia,Feb,9.0,2022,tent,neighborhood,POST2020,15.75
+Marina,Feb,16.0,2022,individual,neighborhood,POST2020,16.0
+Marina,Feb,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Marina,Feb,1.0,2022,tent,neighborhood,POST2020,1.75
+Cortez,Feb,40.0,2022,individual,neighborhood,POST2020,40.0
+Cortez,Feb,5.0,2022,vehicle,neighborhood,POST2020,10.149999999999999
+Cortez,Feb,39.0,2022,tent,neighborhood,POST2020,68.25
+Gaslamp,Feb,37.0,2022,individual,neighborhood,POST2020,37.0
+Gaslamp,Feb,1.0,2022,vehicle,neighborhood,POST2020,2.03
+Gaslamp,Feb,1.0,2022,tent,neighborhood,POST2020,1.75
+East Village,Mar,248.0,2022,individual,neighborhood,POST2020,248.0
+East Village,Mar,12.0,2022,vehicle,neighborhood,POST2020,24.36
+East Village,Mar,200.0,2022,tent,neighborhood,POST2020,350.0
+City Center,Mar,97.0,2022,individual,neighborhood,POST2020,97.0
+City Center,Mar,0.0,2022,vehicle,neighborhood,POST2020,0.0
+City Center,Mar,67.0,2022,tent,neighborhood,POST2020,117.25
+Columbia,Mar,45.0,2022,individual,neighborhood,POST2020,45.0
+Columbia,Mar,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Columbia,Mar,10.0,2022,tent,neighborhood,POST2020,17.5
+Marina,Mar,28.0,2022,individual,neighborhood,POST2020,28.0
+Marina,Mar,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Marina,Mar,5.0,2022,tent,neighborhood,POST2020,8.75
+Cortez,Mar,24.0,2022,individual,neighborhood,POST2020,24.0
+Cortez,Mar,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Cortez,Mar,7.0,2022,tent,neighborhood,POST2020,12.25
+Gaslamp,Mar,66.0,2022,individual,neighborhood,POST2020,66.0
+Gaslamp,Mar,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Mar,2.0,2022,tent,neighborhood,POST2020,3.5
+East Village,Apr,302.0,2022,individual,neighborhood,POST2020,302.0
+East Village,Apr,7.0,2022,vehicle,neighborhood,POST2020,14.209999999999999
+East Village,Apr,194.0,2022,tent,neighborhood,POST2020,339.5
+City Center,Apr,149.0,2022,individual,neighborhood,POST2020,149.0
+City Center,Apr,1.0,2022,vehicle,neighborhood,POST2020,2.03
+City Center,Apr,71.0,2022,tent,neighborhood,POST2020,124.25
+Columbia,Apr,47.0,2022,individual,neighborhood,POST2020,47.0
+Columbia,Apr,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Columbia,Apr,9.0,2022,tent,neighborhood,POST2020,15.75
+Marina,Apr,25.0,2022,individual,neighborhood,POST2020,25.0
+Marina,Apr,4.0,2022,vehicle,neighborhood,POST2020,8.12
+Marina,Apr,6.0,2022,tent,neighborhood,POST2020,10.5
+Cortez,Apr,35.0,2022,individual,neighborhood,POST2020,35.0
+Cortez,Apr,4.0,2022,vehicle,neighborhood,POST2020,8.12
+Cortez,Apr,17.0,2022,tent,neighborhood,POST2020,29.75
+Gaslamp,Apr,44.0,2022,individual,neighborhood,POST2020,44.0
+Gaslamp,Apr,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Apr,0.0,2022,tent,neighborhood,POST2020,0.0
+East Village,May,169.0,2022,individual,neighborhood,POST2020,169.0
+East Village,May,6.0,2022,vehicle,neighborhood,POST2020,12.18
+East Village,May,253.0,2022,tent,neighborhood,POST2020,442.75
+City Center,May,80.0,2022,individual,neighborhood,POST2020,80.0
+City Center,May,1.0,2022,vehicle,neighborhood,POST2020,2.03
+City Center,May,81.0,2022,tent,neighborhood,POST2020,141.75
+Columbia,May,33.0,2022,individual,neighborhood,POST2020,33.0
+Columbia,May,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Columbia,May,8.0,2022,tent,neighborhood,POST2020,14.0
+Marina,May,8.0,2022,individual,neighborhood,POST2020,8.0
+Marina,May,1.0,2022,vehicle,neighborhood,POST2020,2.03
+Marina,May,0.0,2022,tent,neighborhood,POST2020,0.0
+Cortez,May,18.0,2022,individual,neighborhood,POST2020,18.0
+Cortez,May,1.0,2022,vehicle,neighborhood,POST2020,2.03
+Cortez,May,23.0,2022,tent,neighborhood,POST2020,40.25
+Gaslamp,May,42.0,2022,individual,neighborhood,POST2020,42.0
+Gaslamp,May,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Gaslamp,May,1.0,2022,tent,neighborhood,POST2020,1.75
+East Village,June,343.0,2022,individual,neighborhood,POST2020,343.0
+East Village,June,24.0,2022,vehicle,neighborhood,POST2020,48.72
+East Village,June,183.0,2022,tent,neighborhood,POST2020,320.25
+City Center,June,141.0,2022,individual,neighborhood,POST2020,141.0
+City Center,June,0.0,2022,vehicle,neighborhood,POST2020,0.0
+City Center,June,57.0,2022,tent,neighborhood,POST2020,99.75
+Columbia,June,67.0,2022,individual,neighborhood,POST2020,67.0
+Columbia,June,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Columbia,June,10.0,2022,tent,neighborhood,POST2020,17.5
+Marina,June,39.0,2022,individual,neighborhood,POST2020,39.0
+Marina,June,2.0,2022,vehicle,neighborhood,POST2020,4.06
+Marina,June,5.0,2022,tent,neighborhood,POST2020,8.75
+Cortez,June,28.0,2022,individual,neighborhood,POST2020,28.0
+Cortez,June,2.0,2022,vehicle,neighborhood,POST2020,4.06
+Cortez,June,11.0,2022,tent,neighborhood,POST2020,19.25
+Gaslamp,June,50.0,2022,individual,neighborhood,POST2020,50.0
+Gaslamp,June,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Gaslamp,June,0.0,2022,tent,neighborhood,POST2020,0.0
+East Village,July,204.0,2022,individual,neighborhood,POST2020,204.0
+East Village,July,15.0,2022,vehicle,neighborhood,POST2020,30.449999999999996
+East Village,July,208.0,2022,tent,neighborhood,POST2020,364.0
+City Center,July,110.0,2022,individual,neighborhood,POST2020,110.0
+City Center,July,0.0,2022,vehicle,neighborhood,POST2020,0.0
+City Center,July,71.0,2022,tent,neighborhood,POST2020,124.25
+Columbia,July,26.0,2022,individual,neighborhood,POST2020,26.0
+Columbia,July,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Columbia,July,5.0,2022,tent,neighborhood,POST2020,8.75
+Marina,July,0.0,2022,individual,neighborhood,POST2020,0.0
+Marina,July,2.0,2022,vehicle,neighborhood,POST2020,4.06
+Marina,July,0.0,2022,tent,neighborhood,POST2020,0.0
+Cortez,July,42.0,2022,individual,neighborhood,POST2020,42.0
+Cortez,July,1.0,2022,vehicle,neighborhood,POST2020,2.03
+Cortez,July,20.0,2022,tent,neighborhood,POST2020,35.0
+Gaslamp,July,26.0,2022,individual,neighborhood,POST2020,26.0
+Gaslamp,July,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Gaslamp,July,1.0,2022,tent,neighborhood,POST2020,1.75
+East Village,Aug,357.0,2022,individual,neighborhood,POST2020,357.0
+East Village,Aug,26.0,2022,vehicle,neighborhood,POST2020,52.779999999999994
+East Village,Aug,217.0,2022,tent,neighborhood,POST2020,379.75
+City Center,Aug,173.0,2022,individual,neighborhood,POST2020,173.0
+City Center,Aug,1.0,2022,vehicle,neighborhood,POST2020,2.03
+City Center,Aug,53.0,2022,tent,neighborhood,POST2020,92.75
+Columbia,Aug,44.0,2022,individual,neighborhood,POST2020,44.0
+Columbia,Aug,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Columbia,Aug,7.0,2022,tent,neighborhood,POST2020,12.25
+Marina,Aug,29.0,2022,individual,neighborhood,POST2020,29.0
+Marina,Aug,2.0,2022,vehicle,neighborhood,POST2020,4.06
+Marina,Aug,6.0,2022,tent,neighborhood,POST2020,10.5
+Cortez,Aug,53.0,2022,individual,neighborhood,POST2020,53.0
+Cortez,Aug,1.0,2022,vehicle,neighborhood,POST2020,2.03
+Cortez,Aug,16.0,2022,tent,neighborhood,POST2020,28.0
+Gaslamp,Aug,44.0,2022,individual,neighborhood,POST2020,44.0
+Gaslamp,Aug,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Aug,0.0,2022,tent,neighborhood,POST2020,0.0
+East Village,Sept,318.0,2022,individual,neighborhood,POST2020,318.0
+East Village,Sept,22.0,2022,vehicle,neighborhood,POST2020,44.66
+East Village,Sept,276.0,2022,tent,neighborhood,POST2020,483.0
+City Center,Sept,136.0,2022,individual,neighborhood,POST2020,136.0
+City Center,Sept,2.0,2022,vehicle,neighborhood,POST2020,4.06
+City Center,Sept,54.0,2022,tent,neighborhood,POST2020,94.5
+Columbia,Sept,24.0,2022,individual,neighborhood,POST2020,24.0
+Columbia,Sept,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Columbia,Sept,4.0,2022,tent,neighborhood,POST2020,7.0
+Cortez,Sept,38.0,2022,individual,neighborhood,POST2020,38.0
+Cortez,Sept,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Cortez,Sept,22.0,2022,tent,neighborhood,POST2020,38.5
+Marina,Sept,16.0,2022,individual,neighborhood,POST2020,16.0
+Marina,Sept,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Marina,Sept,3.0,2022,tent,neighborhood,POST2020,5.25
+Gaslamp,Sept,57.0,2022,individual,neighborhood,POST2020,57.0
+Gaslamp,Sept,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Sept,3.0,2022,tent,neighborhood,POST2020,5.25
+East Village,Oct,354.0,2022,individual,neighborhood,POST2020,354.0
+East Village,Oct,24.0,2022,vehicle,neighborhood,POST2020,48.72
+East Village,Oct,172.0,2022,tent,neighborhood,POST2020,301.0
+City Center,Oct,180.0,2022,individual,neighborhood,POST2020,180.0
+City Center,Oct,2.0,2022,vehicle,neighborhood,POST2020,4.06
+City Center,Oct,57.0,2022,tent,neighborhood,POST2020,99.75
+Columbia,Oct,22.0,2022,individual,neighborhood,POST2020,22.0
+Columbia,Oct,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Columbia,Oct,4.0,2022,tent,neighborhood,POST2020,7.0
+Marina,Oct,18.0,2022,individual,neighborhood,POST2020,18.0
+Marina,Oct,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Marina,Oct,5.0,2022,tent,neighborhood,POST2020,8.75
+Cortez,Oct,51.0,2022,individual,neighborhood,POST2020,51.0
+Cortez,Oct,1.0,2022,vehicle,neighborhood,POST2020,2.03
+Cortez,Oct,21.0,2022,tent,neighborhood,POST2020,36.75
+Gaslamp,Oct,60.0,2022,individual,neighborhood,POST2020,60.0
+Gaslamp,Oct,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Oct,0.0,2022,tent,neighborhood,POST2020,0.0
+East Village,Nov,297.0,2022,individual,neighborhood,POST2020,297.0
+East Village,Nov,21.0,2022,vehicle,neighborhood,POST2020,42.629999999999995
+East Village,Nov,240.0,2022,tent,neighborhood,POST2020,420.0
+City Center,Nov,125.0,2022,individual,neighborhood,POST2020,125.0
+City Center,Nov,0.0,2022,vehicle,neighborhood,POST2020,0.0
+City Center,Nov,63.0,2022,tent,neighborhood,POST2020,110.25
+Marina,Nov,49.0,2022,individual,neighborhood,POST2020,49.0
+Marina,Nov,2.0,2022,vehicle,neighborhood,POST2020,4.06
+Marina,Nov,6.0,2022,tent,neighborhood,POST2020,10.5
+Columbia,Nov,28.0,2022,individual,neighborhood,POST2020,28.0
+Columbia,Nov,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Columbia,Nov,3.0,2022,tent,neighborhood,POST2020,5.25
+Cortez,Nov,42.0,2022,individual,neighborhood,POST2020,42.0
+Cortez,Nov,6.0,2022,vehicle,neighborhood,POST2020,12.18
+Cortez,Nov,34.0,2022,tent,neighborhood,POST2020,59.5
+Gaslamp,Nov,49.0,2022,individual,neighborhood,POST2020,49.0
+Gaslamp,Nov,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Nov,3.0,2022,tent,neighborhood,POST2020,5.25
+East Village,Dec,297.0,2022,individual,neighborhood,POST2020,297.0
+East Village,Dec,24.0,2022,vehicle,neighborhood,POST2020,48.72
+East Village,Dec,288.0,2022,tent,neighborhood,POST2020,504.0
+City Center,Dec,125.0,2022,individual,neighborhood,POST2020,125.0
+City Center,Dec,2.0,2022,vehicle,neighborhood,POST2020,4.06
+City Center,Dec,81.0,2022,tent,neighborhood,POST2020,141.75
+Columbia,Dec,22.0,2022,individual,neighborhood,POST2020,22.0
+Columbia,Dec,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Columbia,Dec,3.0,2022,tent,neighborhood,POST2020,5.25
+Marina,Dec,12.0,2022,individual,neighborhood,POST2020,12.0
+Marina,Dec,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Marina,Dec,8.0,2022,tent,neighborhood,POST2020,14.0
+Cortez,Dec,38.0,2022,individual,neighborhood,POST2020,38.0
+Cortez,Dec,3.0,2022,vehicle,neighborhood,POST2020,6.09
+Cortez,Dec,36.0,2022,tent,neighborhood,POST2020,63.0
+Gaslamp,Dec,63.0,2022,individual,neighborhood,POST2020,63.0
+Gaslamp,Dec,0.0,2022,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Dec,2.0,2022,tent,neighborhood,POST2020,3.5
+East Village,Jan,201.0,2023,individual,neighborhood,POST2020,201.0
+East Village,Jan,25.0,2023,vehicle,neighborhood,POST2020,50.74999999999999
+East Village,Jan,310.0,2023,tent,neighborhood,POST2020,542.5
+City Center,Jan,111.0,2023,individual,neighborhood,POST2020,111.0
+City Center,Jan,0.0,2023,vehicle,neighborhood,POST2020,0.0
+City Center,Jan,91.0,2023,tent,neighborhood,POST2020,159.25
+Columbia,Jan,29.0,2023,individual,neighborhood,POST2020,29.0
+Columbia,Jan,1.0,2023,vehicle,neighborhood,POST2020,2.03
+Columbia,Jan,3.0,2023,tent,neighborhood,POST2020,5.25
+Marina,Jan,12.0,2023,individual,neighborhood,POST2020,12.0
+Marina,Jan,2.0,2023,vehicle,neighborhood,POST2020,4.06
+Marina,Jan,4.0,2023,tent,neighborhood,POST2020,7.0
+Cortez,Jan,30.0,2023,individual,neighborhood,POST2020,30.0
+Cortez,Jan,5.0,2023,vehicle,neighborhood,POST2020,10.149999999999999
+Cortez,Jan,51.0,2023,tent,neighborhood,POST2020,89.25
+Gaslamp,Jan,42.0,2023,individual,neighborhood,POST2020,42.0
+Gaslamp,Jan,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Jan,2.0,2023,tent,neighborhood,POST2020,3.5
+East Village,Feb,220.0,2023,individual,neighborhood,POST2020,220.0
+East Village,Feb,28.0,2023,vehicle,neighborhood,POST2020,56.839999999999996
+East Village,Feb,294.0,2023,tent,neighborhood,POST2020,514.5
+City Center,Feb,129.0,2023,individual,neighborhood,POST2020,129.0
+City Center,Feb,3.0,2023,vehicle,neighborhood,POST2020,6.09
+City Center,Feb,77.0,2023,tent,neighborhood,POST2020,134.75
+Columbia,Feb,37.0,2023,individual,neighborhood,POST2020,37.0
+Columbia,Feb,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Columbia,Feb,6.0,2023,tent,neighborhood,POST2020,10.5
+Marina,Feb,16.0,2023,individual,neighborhood,POST2020,16.0
+Marina,Feb,1.0,2023,vehicle,neighborhood,POST2020,2.03
+Marina,Feb,4.0,2023,tent,neighborhood,POST2020,7.0
+Cortez,Feb,26.0,2023,individual,neighborhood,POST2020,26.0
+Cortez,Feb,2.0,2023,vehicle,neighborhood,POST2020,4.06
+Cortez,Feb,39.0,2023,tent,neighborhood,POST2020,68.25
+Gaslamp,Feb,42.0,2023,individual,neighborhood,POST2020,42.0
+Gaslamp,Feb,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Feb,2.0,2023,tent,neighborhood,POST2020,3.5
+East Village,Mar,221.0,2023,individual,neighborhood,POST2020,221.0
+East Village,Mar,9.0,2023,vehicle,neighborhood,POST2020,18.27
+East Village,Mar,243.0,2023,tent,neighborhood,POST2020,425.25
+City Center,Mar,172.0,2023,individual,neighborhood,POST2020,172.0
+City Center,Mar,0.0,2023,vehicle,neighborhood,POST2020,0.0
+City Center,Mar,97.0,2023,tent,neighborhood,POST2020,169.75
+Columbia,Mar,38.0,2023,individual,neighborhood,POST2020,38.0
+Columbia,Mar,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Columbia,Mar,4.0,2023,tent,neighborhood,POST2020,7.0
+Marina,Mar,7.0,2023,individual,neighborhood,POST2020,7.0
+Marina,Mar,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Marina,Mar,8.0,2023,tent,neighborhood,POST2020,14.0
+Cortez,Mar,31.0,2023,individual,neighborhood,POST2020,31.0
+Cortez,Mar,1.0,2023,vehicle,neighborhood,POST2020,2.03
+Cortez,Mar,38.0,2023,tent,neighborhood,POST2020,66.5
+Gaslamp,Mar,64.0,2023,individual,neighborhood,POST2020,64.0
+Gaslamp,Mar,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Mar,0.0,2023,tent,neighborhood,POST2020,0.0
+East Village,Apr,300.0,2023,individual,neighborhood,POST2020,300.0
+East Village,Apr,10.0,2023,vehicle,neighborhood,POST2020,20.299999999999997
+East Village,Apr,287.0,2023,tent,neighborhood,POST2020,502.25
+City Center,Apr,173.0,2023,individual,neighborhood,POST2020,173.0
+City Center,Apr,0.0,2023,vehicle,neighborhood,POST2020,0.0
+City Center,Apr,67.0,2023,tent,neighborhood,POST2020,117.25
+Columbia,Apr,44.0,2023,individual,neighborhood,POST2020,44.0
+Columbia,Apr,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Columbia,Apr,1.0,2023,tent,neighborhood,POST2020,1.75
+Cortez,Apr,36.0,2023,individual,neighborhood,POST2020,36.0
+Cortez,Apr,1.0,2023,vehicle,neighborhood,POST2020,2.03
+Cortez,Apr,43.0,2023,tent,neighborhood,POST2020,75.25
+Marina,Apr,19.0,2023,individual,neighborhood,POST2020,19.0
+Marina,Apr,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Marina,Apr,8.0,2023,tent,neighborhood,POST2020,14.0
+Gaslamp,Apr,44.0,2023,individual,neighborhood,POST2020,44.0
+Gaslamp,Apr,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Apr,1.0,2023,tent,neighborhood,POST2020,1.75
+East Village,May,297.0,2023,individual,neighborhood,POST2020,297.0
+East Village,May,8.0,2023,vehicle,neighborhood,POST2020,16.24
+East Village,May,345.0,2023,tent,neighborhood,POST2020,603.75
+City Center,May,158.0,2023,individual,neighborhood,POST2020,158.0
+City Center,May,2.0,2023,vehicle,neighborhood,POST2020,4.06
+City Center,May,103.0,2023,tent,neighborhood,POST2020,180.25
+Columbia,May,31.0,2023,individual,neighborhood,POST2020,31.0
+Columbia,May,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Columbia,May,4.0,2023,tent,neighborhood,POST2020,7.0
+Marina,May,28.0,2023,individual,neighborhood,POST2020,28.0
+Marina,May,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Marina,May,13.0,2023,tent,neighborhood,POST2020,22.75
+Cortez,May,53.0,2023,individual,neighborhood,POST2020,53.0
+Cortez,May,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Cortez,May,39.0,2023,tent,neighborhood,POST2020,68.25
+Gaslamp,May,57.0,2023,individual,neighborhood,POST2020,57.0
+Gaslamp,May,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Gaslamp,May,0.0,2023,tent,neighborhood,POST2020,0.0
+East Village,June,216.0,2023,individual,neighborhood,POST2020,216.0
+East Village,June,5.0,2023,vehicle,neighborhood,POST2020,10.149999999999999
+East Village,June,287.0,2023,tent,neighborhood,POST2020,502.25
+City Center,June,106.0,2023,individual,neighborhood,POST2020,106.0
+City Center,June,0.0,2023,vehicle,neighborhood,POST2020,0.0
+City Center,June,74.0,2023,tent,neighborhood,POST2020,129.5
+Columbia,June,29.0,2023,individual,neighborhood,POST2020,29.0
+Columbia,June,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Columbia,June,3.0,2023,tent,neighborhood,POST2020,5.25
+Cortez,June,42.0,2023,individual,neighborhood,POST2020,42.0
+Cortez,June,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Cortez,June,38.0,2023,tent,neighborhood,POST2020,66.5
+Gaslamp,June,15.0,2023,individual,neighborhood,POST2020,15.0
+Gaslamp,June,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Gaslamp,June,2.0,2023,tent,neighborhood,POST2020,3.5
+Marina,June,15.0,2023,individual,neighborhood,POST2020,15.0
+Marina,June,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Marina,June,1.0,2023,tent,neighborhood,POST2020,1.75
+East Village,July,262.0,2023,individual,neighborhood,POST2020,262.0
+East Village,July,10.0,2023,vehicle,neighborhood,POST2020,20.299999999999997
+East Village,July,365.0,2023,tent,neighborhood,POST2020,638.75
+Columbia,July,17.0,2023,individual,neighborhood,POST2020,17.0
+Columbia,July,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Columbia,July,2.0,2023,tent,neighborhood,POST2020,3.5
+Marina,July,7.0,2023,individual,neighborhood,POST2020,7.0
+Marina,July,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Marina,July,3.0,2023,tent,neighborhood,POST2020,5.25
+Cortez,July,36.0,2023,individual,neighborhood,POST2020,36.0
+Cortez,July,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Cortez,July,39.0,2023,tent,neighborhood,POST2020,68.25
+Gaslamp,July,25.0,2023,individual,neighborhood,POST2020,25.0
+Gaslamp,July,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Gaslamp,July,0.0,2023,tent,neighborhood,POST2020,0.0
+City Center,July,92.0,2023,individual,neighborhood,POST2020,92.0
+City Center,July,0.0,2023,vehicle,neighborhood,POST2020,0.0
+City Center,July,54.0,2023,tent,neighborhood,POST2020,94.5
+East Village,Aug,334.0,2023,individual,neighborhood,POST2020,334.0
+East Village,Aug,6.0,2023,vehicle,neighborhood,POST2020,12.18
+East Village,Aug,294.0,2023,tent,neighborhood,POST2020,514.5
+City Center,Aug,117.0,2023,individual,neighborhood,POST2020,117.0
+City Center,Aug,0.0,2023,vehicle,neighborhood,POST2020,0.0
+City Center,Aug,49.0,2023,tent,neighborhood,POST2020,85.75
+Columbia,Aug,12.0,2023,individual,neighborhood,POST2020,12.0
+Columbia,Aug,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Columbia,Aug,1.0,2023,tent,neighborhood,POST2020,1.75
+Marina,Aug,20.0,2023,individual,neighborhood,POST2020,20.0
+Marina,Aug,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Marina,Aug,0.0,2023,tent,neighborhood,POST2020,0.0
+Cortez,Aug,32.0,2023,individual,neighborhood,POST2020,32.0
+Cortez,Aug,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Cortez,Aug,19.0,2023,tent,neighborhood,POST2020,33.25
+Gaslamp,Aug,44.0,2023,individual,neighborhood,POST2020,44.0
+Gaslamp,Aug,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Aug,0.0,2023,tent,neighborhood,POST2020,0.0
+East Village,Sept,338.0,2023,individual,neighborhood,POST2020,338.0
+East Village,Sept,11.0,2023,vehicle,neighborhood,POST2020,22.33
+East Village,Sept,312.0,2023,tent,neighborhood,POST2020,546.0
+City Center,Sept,111.0,2023,individual,neighborhood,POST2020,111.0
+City Center,Sept,1.0,2023,vehicle,neighborhood,POST2020,2.03
+City Center,Sept,34.0,2023,tent,neighborhood,POST2020,59.5
+Columbia,Sept,28.0,2023,individual,neighborhood,POST2020,28.0
+Columbia,Sept,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Columbia,Sept,1.0,2023,tent,neighborhood,POST2020,1.75
+Marina,Sept,13.0,2023,individual,neighborhood,POST2020,13.0
+Marina,Sept,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Marina,Sept,0.0,2023,tent,neighborhood,POST2020,0.0
+Cortez,Sept,45.0,2023,individual,neighborhood,POST2020,45.0
+Cortez,Sept,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Cortez,Sept,33.0,2023,tent,neighborhood,POST2020,57.75
+Gaslamp,Sept,49.0,2023,individual,neighborhood,POST2020,49.0
+Gaslamp,Sept,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Sept,1.0,2023,tent,neighborhood,POST2020,1.75
+East Village,Oct,310.0,2023,individual,neighborhood,POST2020,310.0
+East Village,Oct,10.0,2023,vehicle,neighborhood,POST2020,20.299999999999997
+East Village,Oct,308.0,2023,tent,neighborhood,POST2020,539.0
+City Center,Oct,148.0,2023,individual,neighborhood,POST2020,148.0
+City Center,Oct,0.0,2023,vehicle,neighborhood,POST2020,0.0
+City Center,Oct,32.0,2023,tent,neighborhood,POST2020,56.0
+Columbia,Oct,24.0,2023,individual,neighborhood,POST2020,24.0
+Columbia,Oct,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Columbia,Oct,2.0,2023,tent,neighborhood,POST2020,3.5
+Marina,Oct,17.0,2023,individual,neighborhood,POST2020,17.0
+Marina,Oct,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Marina,Oct,3.0,2023,tent,neighborhood,POST2020,5.25
+Cortez,Oct,35.0,2023,individual,neighborhood,POST2020,35.0
+Cortez,Oct,1.0,2023,vehicle,neighborhood,POST2020,2.03
+Cortez,Oct,15.0,2023,tent,neighborhood,POST2020,26.25
+Gaslamp,Oct,50.0,2023,individual,neighborhood,POST2020,50.0
+Gaslamp,Oct,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Oct,1.0,2023,tent,neighborhood,POST2020,1.75
+Gaslamp,Nov,36.0,2023,individual,neighborhood,POST2020,36.0
+Gaslamp,Nov,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Nov,0.0,2023,tent,neighborhood,POST2020,0.0
+East Village,Nov,208.0,2023,individual,neighborhood,POST2020,208.0
+East Village,Nov,6.0,2023,vehicle,neighborhood,POST2020,12.18
+East Village,Nov,262.0,2023,tent,neighborhood,POST2020,458.5
+City Center,Nov,175.0,2023,individual,neighborhood,POST2020,175.0
+City Center,Nov,0.0,2023,vehicle,neighborhood,POST2020,0.0
+City Center,Nov,34.0,2023,tent,neighborhood,POST2020,59.5
+Cortez,Nov,47.0,2023,individual,neighborhood,POST2020,47.0
+Cortez,Nov,1.0,2023,vehicle,neighborhood,POST2020,2.03
+Cortez,Nov,26.0,2023,tent,neighborhood,POST2020,45.5
+Marina,Nov,11.0,2023,individual,neighborhood,POST2020,11.0
+Marina,Nov,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Marina,Nov,1.0,2023,tent,neighborhood,POST2020,1.75
+Columbia,Nov,32.0,2023,individual,neighborhood,POST2020,32.0
+Columbia,Nov,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Columbia,Nov,3.0,2023,tent,neighborhood,POST2020,5.25
+Gaslamp,Dec,31.0,2023,individual,neighborhood,POST2020,31.0
+Gaslamp,Dec,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Dec,0.0,2023,tent,neighborhood,POST2020,0.0
+East Village,Dec,274.0,2023,individual,neighborhood,POST2020,274.0
+East Village,Dec,5.0,2023,vehicle,neighborhood,POST2020,10.149999999999999
+East Village,Dec,155.0,2023,tent,neighborhood,POST2020,271.25
+City Center,Dec,89.0,2023,individual,neighborhood,POST2020,89.0
+City Center,Dec,0.0,2023,vehicle,neighborhood,POST2020,0.0
+City Center,Dec,23.0,2023,tent,neighborhood,POST2020,40.25
+Columbia,Dec,18.0,2023,individual,neighborhood,POST2020,18.0
+Columbia,Dec,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Columbia,Dec,6.0,2023,tent,neighborhood,POST2020,10.5
+Marina,Dec,8.0,2023,individual,neighborhood,POST2020,8.0
+Marina,Dec,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Marina,Dec,5.0,2023,tent,neighborhood,POST2020,8.75
+Cortez,Dec,40.0,2023,individual,neighborhood,POST2020,40.0
+Cortez,Dec,0.0,2023,vehicle,neighborhood,POST2020,0.0
+Cortez,Dec,37.0,2023,tent,neighborhood,POST2020,64.75
+East Village,Jan,247.0,2024,individual,neighborhood,POST2020,247.0
+East Village,Jan,10.0,2024,vehicle,neighborhood,POST2020,20.299999999999997
+East Village,Jan,150.0,2024,tent,neighborhood,POST2020,262.5
+City Center,Jan,131.0,2024,individual,neighborhood,POST2020,131.0
+City Center,Jan,0.0,2024,vehicle,neighborhood,POST2020,0.0
+City Center,Jan,38.0,2024,tent,neighborhood,POST2020,66.5
+Columbia,Jan,23.0,2024,individual,neighborhood,POST2020,23.0
+Columbia,Jan,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Columbia,Jan,6.0,2024,tent,neighborhood,POST2020,10.5
+Marina,Jan,12.0,2024,individual,neighborhood,POST2020,12.0
+Marina,Jan,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Marina,Jan,4.0,2024,tent,neighborhood,POST2020,7.0
+Cortez,Jan,45.0,2024,individual,neighborhood,POST2020,45.0
+Cortez,Jan,3.0,2024,vehicle,neighborhood,POST2020,6.09
+Cortez,Jan,59.0,2024,tent,neighborhood,POST2020,103.25
+Gaslamp,Jan,47.0,2024,individual,neighborhood,POST2020,47.0
+Gaslamp,Jan,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Jan,0.0,2024,tent,neighborhood,POST2020,0.0
+East Village,Feb,272.0,2024,individual,neighborhood,POST2020,272.0
+East Village,Feb,9.0,2024,vehicle,neighborhood,POST2020,18.27
+East Village,Feb,150.0,2024,tent,neighborhood,POST2020,262.5
+City Center,Feb,133.0,2024,individual,neighborhood,POST2020,133.0
+City Center,Feb,0.0,2024,vehicle,neighborhood,POST2020,0.0
+City Center,Feb,22.0,2024,tent,neighborhood,POST2020,38.5
+Columbia,Feb,35.0,2024,individual,neighborhood,POST2020,35.0
+Columbia,Feb,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Columbia,Feb,3.0,2024,tent,neighborhood,POST2020,5.25
+Marina,Feb,15.0,2024,individual,neighborhood,POST2020,15.0
+Marina,Feb,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Marina,Feb,1.0,2024,tent,neighborhood,POST2020,1.75
+Cortez,Feb,39.0,2024,individual,neighborhood,POST2020,39.0
+Cortez,Feb,7.0,2024,vehicle,neighborhood,POST2020,14.209999999999999
+Cortez,Feb,67.0,2024,tent,neighborhood,POST2020,117.25
+Gaslamp,Feb,53.0,2024,individual,neighborhood,POST2020,53.0
+Gaslamp,Feb,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Feb,1.0,2024,tent,neighborhood,POST2020,1.75
+East Village,Mar,227.0,2024,individual,neighborhood,POST2020,227.0
+East Village,Mar,8.0,2024,vehicle,neighborhood,POST2020,16.24
+East Village,Mar,78.0,2024,tent,neighborhood,POST2020,136.5
+City Center,Mar,189.0,2024,individual,neighborhood,POST2020,189.0
+City Center,Mar,0.0,2024,vehicle,neighborhood,POST2020,0.0
+City Center,Mar,8.0,2024,tent,neighborhood,POST2020,14.0
+Columbia,Mar,36.0,2024,individual,neighborhood,POST2020,36.0
+Columbia,Mar,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Columbia,Mar,3.0,2024,tent,neighborhood,POST2020,5.25
+Marina,Mar,16.0,2024,individual,neighborhood,POST2020,16.0
+Marina,Mar,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Marina,Mar,3.0,2024,tent,neighborhood,POST2020,5.25
+Cortez,Mar,36.0,2024,individual,neighborhood,POST2020,36.0
+Cortez,Mar,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Cortez,Mar,23.0,2024,tent,neighborhood,POST2020,40.25
+Gaslamp,Mar,36.0,2024,individual,neighborhood,POST2020,36.0
+Gaslamp,Mar,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Mar,0.0,2024,tent,neighborhood,POST2020,0.0
+East Village,Apr,202.0,2024,individual,neighborhood,POST2020,202.0
+East Village,Apr,6.0,2024,vehicle,neighborhood,POST2020,12.18
+East Village,Apr,87.0,2024,tent,neighborhood,POST2020,152.25
+City Center,Apr,181.0,2024,individual,neighborhood,POST2020,181.0
+City Center,Apr,1.0,2024,vehicle,neighborhood,POST2020,2.03
+City Center,Apr,31.0,2024,tent,neighborhood,POST2020,54.25
+Columbia,Apr,22.0,2024,individual,neighborhood,POST2020,22.0
+Columbia,Apr,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Columbia,Apr,7.0,2024,tent,neighborhood,POST2020,12.25
+Marina,Apr,8.0,2024,individual,neighborhood,POST2020,8.0
+Marina,Apr,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Marina,Apr,3.0,2024,tent,neighborhood,POST2020,5.25
+Cortez,Apr,24.0,2024,individual,neighborhood,POST2020,24.0
+Cortez,Apr,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Cortez,Apr,29.0,2024,tent,neighborhood,POST2020,50.75
+Gaslamp,Apr,50.0,2024,individual,neighborhood,POST2020,50.0
+Gaslamp,Apr,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Apr,1.0,2024,tent,neighborhood,POST2020,1.75
+East Village,May,237.0,2024,individual,neighborhood,POST2020,237.0
+East Village,May,2.0,2024,vehicle,neighborhood,POST2020,4.06
+East Village,May,95.0,2024,tent,neighborhood,POST2020,166.25
+City Center,May,165.0,2024,individual,neighborhood,POST2020,165.0
+City Center,May,0.0,2024,vehicle,neighborhood,POST2020,0.0
+City Center,May,31.0,2024,tent,neighborhood,POST2020,54.25
+Columbia,May,18.0,2024,individual,neighborhood,POST2020,18.0
+Columbia,May,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Columbia,May,10.0,2024,tent,neighborhood,POST2020,17.5
+Marina,May,11.0,2024,individual,neighborhood,POST2020,11.0
+Marina,May,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Marina,May,3.0,2024,tent,neighborhood,POST2020,5.25
+Cortez,May,35.0,2024,individual,neighborhood,POST2020,35.0
+Cortez,May,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Cortez,May,9.0,2024,tent,neighborhood,POST2020,15.75
+Gaslamp,May,75.0,2024,individual,neighborhood,POST2020,75.0
+Gaslamp,May,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Gaslamp,May,1.0,2024,tent,neighborhood,POST2020,1.75
+East Village,June,293.0,2024,individual,neighborhood,POST2020,293.0
+East Village,June,1.0,2024,vehicle,neighborhood,POST2020,2.03
+East Village,June,89.0,2024,tent,neighborhood,POST2020,155.75
+City Center,June,155.0,2024,individual,neighborhood,POST2020,155.0
+City Center,June,0.0,2024,vehicle,neighborhood,POST2020,0.0
+City Center,June,25.0,2024,tent,neighborhood,POST2020,43.75
+Columbia,June,21.0,2024,individual,neighborhood,POST2020,21.0
+Columbia,June,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Columbia,June,11.0,2024,tent,neighborhood,POST2020,19.25
+Marina,June,16.0,2024,individual,neighborhood,POST2020,16.0
+Marina,June,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Marina,June,5.0,2024,tent,neighborhood,POST2020,8.75
+Cortez,June,36.0,2024,individual,neighborhood,POST2020,36.0
+Cortez,June,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Cortez,June,13.0,2024,tent,neighborhood,POST2020,22.75
+Gaslamp,June,56.0,2024,individual,neighborhood,POST2020,56.0
+Gaslamp,June,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Gaslamp,June,0.0,2024,tent,neighborhood,POST2020,0.0
+East Village,July,301.0,2024,individual,neighborhood,POST2020,301.0
+East Village,July,3.0,2024,vehicle,neighborhood,POST2020,6.09
+East Village,July,86.0,2024,tent,neighborhood,POST2020,150.5
+City Center,July,176.0,2024,individual,neighborhood,POST2020,176.0
+City Center,July,1.0,2024,vehicle,neighborhood,POST2020,2.03
+City Center,July,17.0,2024,tent,neighborhood,POST2020,29.75
+Columbia,July,17.0,2024,individual,neighborhood,POST2020,17.0
+Columbia,July,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Columbia,July,9.0,2024,tent,neighborhood,POST2020,15.75
+Marina,July,11.0,2024,individual,neighborhood,POST2020,11.0
+Marina,July,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Marina,July,0.0,2024,tent,neighborhood,POST2020,0.0
+Cortez,July,34.0,2024,individual,neighborhood,POST2020,34.0
+Cortez,July,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Cortez,July,20.0,2024,tent,neighborhood,POST2020,35.0
+Gaslamp,July,54.0,2024,individual,neighborhood,POST2020,54.0
+Gaslamp,July,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Gaslamp,July,0.0,2024,tent,neighborhood,POST2020,0.0
+East Village,Aug,287.0,2024,individual,neighborhood,POST2020,287.0
+East Village,Aug,4.0,2024,vehicle,neighborhood,POST2020,8.12
+East Village,Aug,88.0,2024,tent,neighborhood,POST2020,154.0
+City Center,Aug,184.0,2024,individual,neighborhood,POST2020,184.0
+City Center,Aug,2.0,2024,vehicle,neighborhood,POST2020,4.06
+City Center,Aug,12.0,2024,tent,neighborhood,POST2020,21.0
+Columbia,Aug,19.0,2024,individual,neighborhood,POST2020,19.0
+Columbia,Aug,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Columbia,Aug,9.0,2024,tent,neighborhood,POST2020,15.75
+Cortez,Aug,26.0,2024,individual,neighborhood,POST2020,26.0
+Cortez,Aug,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Cortez,Aug,13.0,2024,tent,neighborhood,POST2020,22.75
+Gaslamp,Aug,37.0,2024,individual,neighborhood,POST2020,37.0
+Gaslamp,Aug,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Aug,0.0,2024,tent,neighborhood,POST2020,0.0
+Marina,Aug,26.0,2024,individual,neighborhood,POST2020,26.0
+Marina,Aug,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Marina,Aug,0.0,2024,tent,neighborhood,POST2020,0.0
+East Village,Sept,241.0,2024,individual,neighborhood,POST2020,241.0
+East Village,Sept,5.0,2024,vehicle,neighborhood,POST2020,10.149999999999999
+East Village,Sept,111.0,2024,tent,neighborhood,POST2020,194.25
+City Center,Sept,115.0,2024,individual,neighborhood,POST2020,115.0
+City Center,Sept,0.0,2024,vehicle,neighborhood,POST2020,0.0
+City Center,Sept,11.0,2024,tent,neighborhood,POST2020,19.25
+Columbia,Sept,12.0,2024,individual,neighborhood,POST2020,12.0
+Columbia,Sept,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Columbia,Sept,7.0,2024,tent,neighborhood,POST2020,12.25
+Marina,Sept,22.0,2024,individual,neighborhood,POST2020,22.0
+Marina,Sept,1.0,2024,vehicle,neighborhood,POST2020,2.03
+Marina,Sept,0.0,2024,tent,neighborhood,POST2020,0.0
+Cortez,Sept,40.0,2024,individual,neighborhood,POST2020,40.0
+Cortez,Sept,1.0,2024,vehicle,neighborhood,POST2020,2.03
+Cortez,Sept,15.0,2024,tent,neighborhood,POST2020,26.25
+Gaslamp,Sept,44.0,2024,individual,neighborhood,POST2020,44.0
+Gaslamp,Sept,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Sept,1.0,2024,tent,neighborhood,POST2020,1.75
+East Village,Oct,263.0,2024,individual,neighborhood,POST2020,263.0
+East Village,Oct,6.0,2024,vehicle,neighborhood,POST2020,12.18
+East Village,Oct,69.0,2024,tent,neighborhood,POST2020,120.75
+City Center,Oct,197.0,2024,individual,neighborhood,POST2020,197.0
+City Center,Oct,0.0,2024,vehicle,neighborhood,POST2020,0.0
+City Center,Oct,17.0,2024,tent,neighborhood,POST2020,29.75
+Columbia,Oct,23.0,2024,individual,neighborhood,POST2020,23.0
+Columbia,Oct,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Columbia,Oct,6.0,2024,tent,neighborhood,POST2020,10.5
+Marina,Oct,11.0,2024,individual,neighborhood,POST2020,11.0
+Marina,Oct,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Marina,Oct,0.0,2024,tent,neighborhood,POST2020,0.0
+Cortez,Oct,34.0,2024,individual,neighborhood,POST2020,34.0
+Cortez,Oct,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Cortez,Oct,20.0,2024,tent,neighborhood,POST2020,35.0
+Gaslamp,Oct,35.0,2024,individual,neighborhood,POST2020,35.0
+Gaslamp,Oct,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Oct,0.0,2024,tent,neighborhood,POST2020,0.0
+East Village,Nov,245.0,2024,individual,neighborhood,POST2020,245.0
+East Village,Nov,6.0,2024,vehicle,neighborhood,POST2020,12.18
+East Village,Nov,76.0,2024,tent,neighborhood,POST2020,133.0
+City Center,Nov,140.0,2024,individual,neighborhood,POST2020,140.0
+City Center,Nov,0.0,2024,vehicle,neighborhood,POST2020,0.0
+City Center,Nov,6.0,2024,tent,neighborhood,POST2020,10.5
+Columbia,Nov,33.0,2024,individual,neighborhood,POST2020,33.0
+Columbia,Nov,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Columbia,Nov,7.0,2024,tent,neighborhood,POST2020,12.25
+Marina,Nov,24.0,2024,individual,neighborhood,POST2020,24.0
+Marina,Nov,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Marina,Nov,1.0,2024,tent,neighborhood,POST2020,1.75
+Cortez,Nov,53.0,2024,individual,neighborhood,POST2020,53.0
+Cortez,Nov,1.0,2024,vehicle,neighborhood,POST2020,2.03
+Cortez,Nov,8.0,2024,tent,neighborhood,POST2020,14.0
+Gaslamp,Nov,40.0,2024,individual,neighborhood,POST2020,40.0
+Gaslamp,Nov,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Nov,0.0,2024,tent,neighborhood,POST2020,0.0
+East Village,Dec,311.0,2024,individual,neighborhood,POST2020,311.0
+East Village,Dec,8.0,2024,vehicle,neighborhood,POST2020,16.24
+East Village,Dec,94.0,2024,tent,neighborhood,POST2020,164.5
+City Center,Dec,136.0,2024,individual,neighborhood,POST2020,136.0
+City Center,Dec,3.0,2024,vehicle,neighborhood,POST2020,6.09
+City Center,Dec,8.0,2024,tent,neighborhood,POST2020,14.0
+Columbia,Dec,33.0,2024,individual,neighborhood,POST2020,33.0
+Columbia,Dec,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Columbia,Dec,4.0,2024,tent,neighborhood,POST2020,7.0
+Marina,Dec,10.0,2024,individual,neighborhood,POST2020,10.0
+Marina,Dec,1.0,2024,vehicle,neighborhood,POST2020,2.03
+Marina,Dec,1.0,2024,tent,neighborhood,POST2020,1.75
+Cortez,Dec,47.0,2024,individual,neighborhood,POST2020,47.0
+Cortez,Dec,2.0,2024,vehicle,neighborhood,POST2020,4.06
+Cortez,Dec,13.0,2024,tent,neighborhood,POST2020,22.75
+Gaslamp,Dec,40.0,2024,individual,neighborhood,POST2020,40.0
+Gaslamp,Dec,0.0,2024,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Dec,1.0,2024,tent,neighborhood,POST2020,1.75
+East Village,Jan,245.0,2025,individual,neighborhood,POST2020,245.0
+East Village,Jan,8.0,2025,vehicle,neighborhood,POST2020,16.24
+East Village,Jan,104.0,2025,tent,neighborhood,POST2020,182.0
+City Center,Jan,165.0,2025,individual,neighborhood,POST2020,165.0
+City Center,Jan,0.0,2025,vehicle,neighborhood,POST2020,0.0
+City Center,Jan,8.0,2025,tent,neighborhood,POST2020,14.0
+Columbia,Jan,32.0,2025,individual,neighborhood,POST2020,32.0
+Columbia,Jan,0.0,2025,vehicle,neighborhood,POST2020,0.0
+Columbia,Jan,3.0,2025,tent,neighborhood,POST2020,5.25
+Marina,Jan,17.0,2025,individual,neighborhood,POST2020,17.0
+Marina,Jan,0.0,2025,vehicle,neighborhood,POST2020,0.0
+Marina,Jan,0.0,2025,tent,neighborhood,POST2020,0.0
+Cortez,Jan,44.0,2025,individual,neighborhood,POST2020,44.0
+Cortez,Jan,1.0,2025,vehicle,neighborhood,POST2020,2.03
+Cortez,Jan,2.0,2025,tent,neighborhood,POST2020,3.5
+Gaslamp,Jan,41.0,2025,individual,neighborhood,POST2020,41.0
+Gaslamp,Jan,0.0,2025,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Jan,0.0,2025,tent,neighborhood,POST2020,0.0
+East Village,Feb,294.0,2025,individual,neighborhood,POST2020,294.0
+East Village,Feb,6.0,2025,vehicle,neighborhood,POST2020,12.18
+East Village,Feb,60.0,2025,tent,neighborhood,POST2020,105.0
+Columbia,Feb,39.0,2025,individual,neighborhood,POST2020,39.0
+Columbia,Feb,0.0,2025,vehicle,neighborhood,POST2020,0.0
+Columbia,Feb,0.0,2025,tent,neighborhood,POST2020,0.0
+City Center,Feb,158.0,2025,individual,neighborhood,POST2020,158.0
+City Center,Feb,0.0,2025,vehicle,neighborhood,POST2020,0.0
+City Center,Feb,10.0,2025,tent,neighborhood,POST2020,17.5
+Cortez,Feb,49.0,2025,individual,neighborhood,POST2020,49.0
+Cortez,Feb,0.0,2025,vehicle,neighborhood,POST2020,0.0
+Cortez,Feb,8.0,2025,tent,neighborhood,POST2020,14.0
+Marina,Feb,13.0,2025,individual,neighborhood,POST2020,13.0
+Marina,Feb,0.0,2025,vehicle,neighborhood,POST2020,0.0
+Marina,Feb,2.0,2025,tent,neighborhood,POST2020,3.5
+Gaslamp,Feb,27.0,2025,individual,neighborhood,POST2020,27.0
+Gaslamp,Feb,0.0,2025,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Feb,0.0,2025,tent,neighborhood,POST2020,0.0
+East Village,Mar,288.0,2025,individual,neighborhood,POST2020,288.0
+East Village,Mar,4.0,2025,vehicle,neighborhood,POST2020,8.12
+East Village,Mar,67.0,2025,tent,neighborhood,POST2020,117.25
+City Center,Mar,147.0,2025,individual,neighborhood,POST2020,147.0
+City Center,Mar,0.0,2025,vehicle,neighborhood,POST2020,0.0
+City Center,Mar,8.0,2025,tent,neighborhood,POST2020,14.0
+Columbia,Mar,14.0,2025,individual,neighborhood,POST2020,14.0
+Columbia,Mar,0.0,2025,vehicle,neighborhood,POST2020,0.0
+Columbia,Mar,0.0,2025,tent,neighborhood,POST2020,0.0
+Marina,Mar,14.0,2025,individual,neighborhood,POST2020,14.0
+Marina,Mar,1.0,2025,vehicle,neighborhood,POST2020,2.03
+Marina,Mar,0.0,2025,tent,neighborhood,POST2020,0.0
+Cortez,Mar,22.0,2025,individual,neighborhood,POST2020,22.0
+Cortez,Mar,0.0,2025,vehicle,neighborhood,POST2020,0.0
+Cortez,Mar,7.0,2025,tent,neighborhood,POST2020,12.25
+Gaslamp,Mar,30.0,2025,individual,neighborhood,POST2020,30.0
+Gaslamp,Mar,0.0,2025,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Mar,1.0,2025,tent,neighborhood,POST2020,1.75
+East Village,Apr,303.0,2025,individual,neighborhood,POST2020,303.0
+East Village,Apr,7.0,2025,vehicle,neighborhood,POST2020,14.209999999999999
+East Village,Apr,48.0,2025,tent,neighborhood,POST2020,84.0
+City Center,Apr,140.0,2025,individual,neighborhood,POST2020,140.0
+City Center,Apr,0.0,2025,vehicle,neighborhood,POST2020,0.0
+City Center,Apr,8.0,2025,tent,neighborhood,POST2020,14.0
+Columbia,Apr,27.0,2025,individual,neighborhood,POST2020,27.0
+Columbia,Apr,0.0,2025,vehicle,neighborhood,POST2020,0.0
+Columbia,Apr,1.0,2025,tent,neighborhood,POST2020,1.75
+Marina,Apr,5.0,2025,individual,neighborhood,POST2020,5.0
+Marina,Apr,0.0,2025,vehicle,neighborhood,POST2020,0.0
+Marina,Apr,1.0,2025,tent,neighborhood,POST2020,1.75
+Cortez,Apr,49.0,2025,individual,neighborhood,POST2020,49.0
+Cortez,Apr,1.0,2025,vehicle,neighborhood,POST2020,2.03
+Cortez,Apr,15.0,2025,tent,neighborhood,POST2020,26.25
+Gaslamp,Apr,40.0,2025,individual,neighborhood,POST2020,40.0
+Gaslamp,Apr,0.0,2025,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Apr,0.0,2025,tent,neighborhood,POST2020,0.0
+East Village,May,318.0,2025,individual,neighborhood,POST2020,318.0
+East Village,May,3.0,2025,vehicle,neighborhood,POST2020,6.09
+East Village,May,46.0,2025,tent,neighborhood,POST2020,80.5
+City Center,May,110.0,2025,individual,neighborhood,POST2020,110.0
+City Center,May,3.0,2025,vehicle,neighborhood,POST2020,6.09
+City Center,May,18.0,2025,tent,neighborhood,POST2020,31.5
+Columbia,May,28.0,2025,individual,neighborhood,POST2020,28.0
+Columbia,May,0.0,2025,vehicle,neighborhood,POST2020,0.0
+Columbia,May,3.0,2025,tent,neighborhood,POST2020,5.25
+Marina,May,6.0,2025,individual,neighborhood,POST2020,6.0
+Marina,May,0.0,2025,vehicle,neighborhood,POST2020,0.0
+Marina,May,1.0,2025,tent,neighborhood,POST2020,1.75
+Cortez,May,53.0,2025,individual,neighborhood,POST2020,53.0
+Cortez,May,1.0,2025,vehicle,neighborhood,POST2020,2.03
+Cortez,May,11.0,2025,tent,neighborhood,POST2020,19.25
+Gaslamp,May,23.0,2025,individual,neighborhood,POST2020,23.0
+Gaslamp,May,0.0,2025,vehicle,neighborhood,POST2020,0.0
+Gaslamp,May,0.0,2025,tent,neighborhood,POST2020,0.0
+East Village,June,291.0,2025,individual,neighborhood,POST2020,291.0
+East Village,June,4.0,2025,vehicle,neighborhood,POST2020,8.12
+East Village,June,62.0,2025,tent,neighborhood,POST2020,108.5
+City Center,June,117.0,2025,individual,neighborhood,POST2020,117.0
+City Center,June,0.0,2025,vehicle,neighborhood,POST2020,0.0
+City Center,June,7.0,2025,tent,neighborhood,POST2020,12.25
+Columbia,June,14.0,2025,individual,neighborhood,POST2020,14.0
+Columbia,June,0.0,2025,vehicle,neighborhood,POST2020,0.0
+Columbia,June,4.0,2025,tent,neighborhood,POST2020,7.0
+Marina,June,11.0,2025,individual,neighborhood,POST2020,11.0
+Marina,June,0.0,2025,vehicle,neighborhood,POST2020,0.0
+Marina,June,0.0,2025,tent,neighborhood,POST2020,0.0
+Cortez,June,35.0,2025,individual,neighborhood,POST2020,35.0
+Cortez,June,0.0,2025,vehicle,neighborhood,POST2020,0.0
+Cortez,June,5.0,2025,tent,neighborhood,POST2020,8.75
+Gaslamp,June,38.0,2025,individual,neighborhood,POST2020,38.0
+Gaslamp,June,0.0,2025,vehicle,neighborhood,POST2020,0.0
+Gaslamp,June,1.0,2025,tent,neighborhood,POST2020,1.75
+East Village,July,,2025,individual,neighborhood,POST2020,
+East Village,July,,2025,vehicle,neighborhood,POST2020,
+East Village,July,,2025,tent,neighborhood,POST2020,
+City Center,July,,2025,individual,neighborhood,POST2020,
+City Center,July,,2025,vehicle,neighborhood,POST2020,
+City Center,July,,2025,tent,neighborhood,POST2020,
+Columbia,July,,2025,individual,neighborhood,POST2020,
+Columbia,July,,2025,vehicle,neighborhood,POST2020,
+Columbia,July,,2025,tent,neighborhood,POST2020,
+Marina,July,,2025,individual,neighborhood,POST2020,
+Marina,July,,2025,vehicle,neighborhood,POST2020,
+Marina,July,,2025,tent,neighborhood,POST2020,
+Cortez,July,,2025,individual,neighborhood,POST2020,
+Cortez,July,,2025,vehicle,neighborhood,POST2020,
+Cortez,July,,2025,tent,neighborhood,POST2020,
+Gaslamp,July,,2025,individual,neighborhood,POST2020,
+Gaslamp,July,,2025,vehicle,neighborhood,POST2020,
+Gaslamp,July,,2025,tent,neighborhood,POST2020,
+East Village,Aug,,2025,individual,neighborhood,POST2020,
+East Village,Aug,,2025,vehicle,neighborhood,POST2020,
+East Village,Aug,,2025,tent,neighborhood,POST2020,
+City Center,Aug,,2025,individual,neighborhood,POST2020,
+City Center,Aug,,2025,vehicle,neighborhood,POST2020,
+City Center,Aug,,2025,tent,neighborhood,POST2020,
+Columbia,Aug,,2025,individual,neighborhood,POST2020,
+Columbia,Aug,,2025,vehicle,neighborhood,POST2020,
+Columbia,Aug,,2025,tent,neighborhood,POST2020,
+Marina,Aug,,2025,individual,neighborhood,POST2020,
+Marina,Aug,,2025,vehicle,neighborhood,POST2020,
+Marina,Aug,,2025,tent,neighborhood,POST2020,
+Cortez,Aug,,2025,individual,neighborhood,POST2020,
+Cortez,Aug,,2025,vehicle,neighborhood,POST2020,
+Cortez,Aug,,2025,tent,neighborhood,POST2020,
+Gaslamp,Aug,,2025,individual,neighborhood,POST2020,
+Gaslamp,Aug,,2025,vehicle,neighborhood,POST2020,
+Gaslamp,Aug,,2025,tent,neighborhood,POST2020,
+East Village,Sept,283.0,2025,individual,neighborhood,POST2020,283.0
+East Village,Sept,9.0,2025,vehicle,neighborhood,POST2020,18.27
+East Village,Sept,60.0,2025,tent,neighborhood,POST2020,105.0
+City Center,Sept,107.0,2025,individual,neighborhood,POST2020,107.0
+City Center,Sept,0.0,2025,vehicle,neighborhood,POST2020,0.0
+City Center,Sept,10.0,2025,tent,neighborhood,POST2020,17.5
+Columbia,Sept,25.0,2025,individual,neighborhood,POST2020,25.0
+Columbia,Sept,1.0,2025,vehicle,neighborhood,POST2020,2.03
+Columbia,Sept,2.0,2025,tent,neighborhood,POST2020,3.5
+Marina,Sept,24.0,2025,individual,neighborhood,POST2020,24.0
+Marina,Sept,0.0,2025,vehicle,neighborhood,POST2020,0.0
+Marina,Sept,0.0,2025,tent,neighborhood,POST2020,0.0
+Cortez,Sept,32.0,2025,individual,neighborhood,POST2020,32.0
+Cortez,Sept,1.0,2025,vehicle,neighborhood,POST2020,2.03
+Cortez,Sept,6.0,2025,tent,neighborhood,POST2020,10.5
+Gaslamp,Sept,52.0,2025,individual,neighborhood,POST2020,52.0
+Gaslamp,Sept,0.0,2025,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Sept,0.0,2025,tent,neighborhood,POST2020,0.0
+East Village,Oct,,2025,individual,neighborhood,POST2020,
+East Village,Oct,,2025,vehicle,neighborhood,POST2020,
+East Village,Oct,,2025,tent,neighborhood,POST2020,
+City Center,Oct,,2025,individual,neighborhood,POST2020,
+City Center,Oct,,2025,vehicle,neighborhood,POST2020,
+City Center,Oct,,2025,tent,neighborhood,POST2020,
+Columbia,Oct,,2025,individual,neighborhood,POST2020,
+Columbia,Oct,,2025,vehicle,neighborhood,POST2020,
+Columbia,Oct,,2025,tent,neighborhood,POST2020,
+Marina,Oct,,2025,individual,neighborhood,POST2020,
+Marina,Oct,,2025,vehicle,neighborhood,POST2020,
+Marina,Oct,,2025,tent,neighborhood,POST2020,
+Cortez,Oct,,2025,individual,neighborhood,POST2020,
+Cortez,Oct,,2025,vehicle,neighborhood,POST2020,
+Cortez,Oct,,2025,tent,neighborhood,POST2020,
+Gaslamp,Oct,,2025,individual,neighborhood,POST2020,
+Gaslamp,Oct,,2025,vehicle,neighborhood,POST2020,
+Gaslamp,Oct,,2025,tent,neighborhood,POST2020,
+East Village,Nov,,2025,individual,neighborhood,POST2020,
+East Village,Nov,,2025,vehicle,neighborhood,POST2020,
+East Village,Nov,,2025,tent,neighborhood,POST2020,
+City Center,Nov,,2025,individual,neighborhood,POST2020,
+City Center,Nov,,2025,vehicle,neighborhood,POST2020,
+City Center,Nov,,2025,tent,neighborhood,POST2020,
+Columbia,Nov,,2025,individual,neighborhood,POST2020,
+Columbia,Nov,,2025,vehicle,neighborhood,POST2020,
+Columbia,Nov,,2025,tent,neighborhood,POST2020,
+Marina,Nov,,2025,individual,neighborhood,POST2020,
+Marina,Nov,,2025,vehicle,neighborhood,POST2020,
+Marina,Nov,,2025,tent,neighborhood,POST2020,
+Cortez,Nov,,2025,individual,neighborhood,POST2020,
+Cortez,Nov,,2025,vehicle,neighborhood,POST2020,
+Cortez,Nov,,2025,tent,neighborhood,POST2020,
+Gaslamp,Nov,,2025,individual,neighborhood,POST2020,
+Gaslamp,Nov,,2025,vehicle,neighborhood,POST2020,
+Gaslamp,Nov,,2025,tent,neighborhood,POST2020,
+East Village,Dec,313.0,2025,individual,neighborhood,POST2020,313.0
+East Village,Dec,14.0,2025,vehicle,neighborhood,POST2020,28.419999999999998
+East Village,Dec,122.0,2025,tent,neighborhood,POST2020,213.5
+Columbia,Dec,28.0,2025,individual,neighborhood,POST2020,28.0
+Columbia,Dec,0.0,2025,vehicle,neighborhood,POST2020,0.0
+Columbia,Dec,2.0,2025,tent,neighborhood,POST2020,3.5
+City Center,Dec,163.0,2025,individual,neighborhood,POST2020,163.0
+City Center,Dec,3.0,2025,vehicle,neighborhood,POST2020,6.09
+City Center,Dec,15.0,2025,tent,neighborhood,POST2020,26.25
+Marina,Dec,11.0,2025,individual,neighborhood,POST2020,11.0
+Marina,Dec,0.0,2025,vehicle,neighborhood,POST2020,0.0
+Marina,Dec,0.0,2025,tent,neighborhood,POST2020,0.0
+Cortez,Dec,57.0,2025,individual,neighborhood,POST2020,57.0
+Cortez,Dec,4.0,2025,vehicle,neighborhood,POST2020,8.12
+Cortez,Dec,10.0,2025,tent,neighborhood,POST2020,17.5
+Gaslamp,Dec,42.0,2025,individual,neighborhood,POST2020,42.0
+Gaslamp,Dec,0.0,2025,vehicle,neighborhood,POST2020,0.0
+Gaslamp,Dec,0.0,2025,tent,neighborhood,POST2020,0.0

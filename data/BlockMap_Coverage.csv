@@ -1,0 +1,844 @@
+year,month,block,block_map,map_quality
+2018,Jan,East Village,Yes,Clear
+2018,Jan,City Center,Yes,Clear
+2018,Jan,Columbia,Yes,Clear
+2018,Jan,Marina,Yes,Clear
+2018,Jan,Cortez,Yes,Clear
+2018,Jan,Gaslamp,Yes,Clear
+2018,Jan,East Village South,Yes,Clear
+2018,Feb,East Village South,Yes,Clear
+2018,Feb,East Village,Yes,Clear
+2018,Feb,City Center,Yes,Clear
+2018,Feb,Columbia,Yes,Clear
+2018,Feb,Marina,Yes,Clear
+2018,Feb,Cortez,Yes,Clear
+2018,Feb,Gaslamp,Yes,Clear
+2018,Mar,East Village,Yes,Clear
+2018,Mar,East Village South,Yes,Clear
+2018,Mar,City Center,Yes,Clear
+2018,Mar,Columbia,Yes,Clear
+2018,Mar,Marina,Yes,Clear
+2018,Mar,Cortez,Yes,Clear
+2018,Mar,Gaslamp,Yes,Clear
+2018,Apr,East Village,Yes,Clear
+2018,Apr,East Village South,Yes,Clear
+2018,Apr,City Center,Yes,Clear
+2018,Apr,Columbia,Yes,Clear
+2018,Apr,Marina,Yes,Clear
+2018,Apr,Cortez,Yes,Clear
+2018,Apr,Gaslamp,Yes,Clear
+2018,May,East Village,Yes,Clear
+2018,May,East Village South,Yes,Clear
+2018,May,City Center,Yes,Clear
+2018,May,Columbia,Yes,Clear
+2018,May,Marina,Yes,Clear
+2018,May,Cortez,Yes,Clear
+2018,May,Gaslamp,Yes,Clear
+2018,June,East Village,Yes,Clear
+2018,June,East Village South,Yes,Clear
+2018,June,City Center,Yes,Clear
+2018,June,Columbia,Yes,Clear
+2018,June,Marina,Yes,Clear
+2018,June,Cortez,Yes,Clear
+2018,June,Gaslamp,Yes,Clear
+2018,July,East Village,Yes,Clear
+2018,July,East Village South,Yes,Clear
+2018,July,City Center,Yes,Clear
+2018,July,Columbia,Yes,Clear
+2018,July,Marina,Yes,Clear
+2018,July,Cortez,Yes,Clear
+2018,July,Gaslamp,Yes,Clear
+2018,Aug,East Village,Yes,Clear
+2018,Aug,East Village South,Yes,Clear
+2018,Aug,City Center,Yes,Clear
+2018,Aug,Columbia,Yes,Clear
+2018,Aug,Marina,Yes,Clear
+2018,Aug,Cortez,Yes,Clear
+2018,Aug,Gaslamp,Yes,Clear
+2018,Sept,East Village,Yes,Clear
+2018,Sept,East Village South,Yes,Clear
+2018,Sept,City Center,Yes,Clear
+2018,Sept,Columbia,Yes,Clear
+2018,Sept,Marina,Yes,Clear
+2018,Sept,Cortez,Yes,Clear
+2018,Sept,Gaslamp,Yes,Clear
+2018,Oct,East Village,Yes,Clear
+2018,Oct,East Village South,Yes,Clear
+2018,Oct,City Center,Yes,Clear
+2018,Oct,Columbia,Yes,Clear
+2018,Oct,Marina,Yes,Clear
+2018,Oct,Cortez,Yes,Clear
+2018,Oct,Gaslamp,Yes,Clear
+2018,Nov,East Village,No,Unclear
+2018,Nov,East Village South,No,Unclear
+2018,Nov,City Center,No,Unclear
+2018,Nov,Columbia,No,Unclear
+2018,Nov,Marina,No,Unclear
+2018,Nov,Cortez,No,Unclear
+2018,Nov,Gaslamp,No,Unclear
+2018,Dec,East Village,Yes,Clear
+2018,Dec,East Village South,Yes,Clear
+2018,Dec,City Center,Yes,Clear
+2018,Dec,Columbia,Yes,Clear
+2018,Dec,Marina,Yes,Clear
+2018,Dec,Cortez,Yes,Clear
+2018,Dec,Gaslamp,Yes,Clear
+2019,Jan,East Village,Yes,Clear
+2019,Jan,East Village South,Yes,Clear
+2019,Jan,City Center,Yes,Clear
+2019,Jan,Columbia,Yes,Clear
+2019,Jan,Marina,Yes,Clear
+2019,Jan,Cortez,Yes,Clear
+2019,Jan,Gaslamp,Yes,Clear
+2019,Feb,East Village South,Yes,Clear
+2019,Feb,East Village,Yes,Clear
+2019,Feb,City Center,Yes,Clear
+2019,Feb,Columbia,Yes,Clear
+2019,Feb,Marina,Yes,Clear
+2019,Feb,Cortez,Yes,Clear
+2019,Feb,Gaslamp,Yes,Clear
+2019,Mar,East Village,Yes,Clear
+2019,Mar,East Village South,Yes,Clear
+2019,Mar,City Center,Yes,Clear
+2019,Mar,Columbia,Yes,Clear
+2019,Mar,Marina,Yes,Clear
+2019,Mar,Cortez,Yes,Clear
+2019,Mar,Gaslamp,Yes,Clear
+2019,Apr,East Village,Yes,Clear
+2019,Apr,East Village South,Yes,Clear
+2019,Apr,City Center,Yes,Clear
+2019,Apr,Columbia,Yes,Clear
+2019,Apr,Marina,Yes,Clear
+2019,Apr,Cortez,Yes,Clear
+2019,Apr,Gaslamp,Yes,Clear
+2019,May,East Village,Yes,Clear
+2019,May,East Village South,Yes,Clear
+2019,May,City Center,Yes,Clear
+2019,May,Columbia,Yes,Clear
+2019,May,Marina,Yes,Clear
+2019,May,Cortez,Yes,Clear
+2019,May,Gaslamp,Yes,Clear
+2019,June,East Village,Yes,Clear
+2019,June,East Village South,Yes,Clear
+2019,June,City Center,Yes,Clear
+2019,June,Columbia,Yes,Clear
+2019,June,Marina,Yes,Clear
+2019,June,Cortez,Yes,Clear
+2019,June,Gaslamp,Yes,Clear
+2019,July,East Village,Yes,Clear
+2019,July,East Village South,Yes,Clear
+2019,July,City Center,Yes,Clear
+2019,July,Columbia,Yes,Clear
+2019,July,Marina,Yes,Clear
+2019,July,Cortez,Yes,Clear
+2019,July,Gaslamp,Yes,Clear
+2019,Aug,East Village,Yes,Clear
+2019,Aug,East Village South,Yes,Clear
+2019,Aug,City Center,Yes,Clear
+2019,Aug,Columbia,Yes,Clear
+2019,Aug,Marina,Yes,Clear
+2019,Aug,Cortez,Yes,Clear
+2019,Aug,Gaslamp,Yes,Clear
+2019,Sept,East Village,Yes,Clear
+2019,Sept,East Village South,Yes,Clear
+2019,Sept,City Center,Yes,Clear
+2019,Sept,Columbia,Yes,Clear
+2019,Sept,Marina,Yes,Clear
+2019,Sept,Cortez,Yes,Clear
+2019,Sept,Gaslamp,Yes,Clear
+2019,Oct,East Village,Yes,Clear
+2019,Oct,East Village South,Yes,Clear
+2019,Oct,City Center,Yes,Clear
+2019,Oct,Columbia,Yes,Clear
+2019,Oct,Marina,Yes,Clear
+2019,Oct,Cortez,Yes,Clear
+2019,Oct,Gaslamp,Yes,Clear
+2019,Nov,East Village,Yes,Clear
+2019,Nov,East Village South,Yes,Clear
+2019,Nov,City Center,Yes,Clear
+2019,Nov,Columbia,Yes,Clear
+2019,Nov,Marina,Yes,Clear
+2019,Nov,Cortez,Yes,Clear
+2019,Nov,Gaslamp,Yes,Clear
+2019,Dec,East Village,No,Unclear
+2019,Dec,East Village South,No,Unclear
+2019,Dec,City Center,No,Unclear
+2019,Dec,Columbia,No,Unclear
+2019,Dec,Marina,No,Unclear
+2019,Dec,Cortez,No,Unclear
+2019,Dec,Gaslamp,No,Unclear
+2020,Jan,East Village,Yes,Clear
+2020,Jan,East Village South,Yes,Clear
+2020,Jan,City Center,Yes,Clear
+2020,Jan,Columbia,Yes,Clear
+2020,Jan,Marina,Yes,Clear
+2020,Jan,Cortez,Yes,Clear
+2020,Jan,Gaslamp,Yes,Clear
+2020,Feb,East Village,Yes,Clear
+2020,Feb,East Village South,Yes,Clear
+2020,Feb,City Center,Yes,Clear
+2020,Feb,Columbia,Yes,Clear
+2020,Feb,Marina,Yes,Clear
+2020,Feb,Cortez,Yes,Clear
+2020,Feb,Gaslamp,Yes,Clear
+2020,Mar,East Village,Yes,Clear
+2020,Mar,East Village South,Yes,Clear
+2020,Mar,City Center,Yes,Clear
+2020,Mar,Columbia,Yes,Clear
+2020,Mar,Marina,Yes,Clear
+2020,Mar,Cortez,Yes,Clear
+2020,Mar,Gaslamp,Yes,Clear
+2020,Apr,East Village,Yes,Clear
+2020,Apr,East Village South,Yes,Clear
+2020,Apr,City Center,Yes,Clear
+2020,Apr,Columbia,Yes,Clear
+2020,Apr,Marina,Yes,Clear
+2020,Apr,Cortez,Yes,Clear
+2020,Apr,Gaslamp,Yes,Clear
+2020,May,East Village,Yes,Clear
+2020,May,East Village South,Yes,Unclear
+2020,May,City Center,Yes,Clear
+2020,May,Columbia,Yes,Clear
+2020,May,Marina,Yes,Clear
+2020,May,Cortez,Yes,Clear
+2020,May,Gaslamp,Yes,Clear
+2020,June,East Village,Yes,Clear
+2020,June,East Village South,Yes,Clear
+2020,June,City Center,Yes,Clear
+2020,June,Columbia,Yes,Clear
+2020,June,Marina,Yes,Clear
+2020,June,Cortez,Yes,Clear
+2020,June,Gaslamp,Yes,Clear
+2020,July,East Village,Yes,Clear
+2020,July,East Village South,Yes,Clear
+2020,July,City Center,Yes,Clear
+2020,July,Columbia,Yes,Clear
+2020,July,Marina,Yes,Clear
+2020,July,Cortez,Yes,Clear
+2020,July,Gaslamp,Yes,Clear
+2020,Aug,East Village,Yes,Clear
+2020,Aug,East Village South,Yes,Clear
+2020,Aug,City Center,Yes,Clear
+2020,Aug,Columbia,Yes,Clear
+2020,Aug,Marina,Yes,Clear
+2020,Aug,Cortez,Yes,Clear
+2020,Aug,Gaslamp,Yes,Clear
+2020,Sept,East Village,Yes,Clear
+2020,Sept,East Village South,Yes,Clear
+2020,Sept,City Center,Yes,Clear
+2020,Sept,Columbia,Yes,Clear
+2020,Sept,Marina,Yes,Clear
+2020,Sept,Cortez,Yes,Clear
+2020,Sept,Gaslamp,Yes,Clear
+2020,Oct,East Village,Yes,Clear
+2020,Oct,East Village South,Yes,Clear
+2020,Oct,City Center,Yes,Clear
+2020,Oct,Columbia,Yes,Clear
+2020,Oct,Marina,Yes,Clear
+2020,Oct,Cortez,Yes,Clear
+2020,Oct,Gaslamp,Yes,Clear
+2020,Nov,East Village,Yes,Clear
+2020,Nov,East Village South,Yes,Clear
+2020,Nov,City Center,Yes,Clear
+2020,Nov,Columbia,Yes,Clear
+2020,Nov,Marina,Yes,Clear
+2020,Nov,Cortez,Yes,Clear
+2020,Nov,Gaslamp,Yes,Clear
+2020,Dec,East Village,Yes,Clear
+2020,Dec,East Village South,Yes,Clear
+2020,Dec,City Center,Yes,Clear
+2020,Dec,Columbia,Yes,Clear
+2020,Dec,Marina,Yes,Clear
+2020,Dec,Cortez,Yes,Clear
+2020,Dec,Gaslamp,Yes,Clear
+2021,Jan,East Village,Yes,Clear
+2021,Jan,East Village South,Yes,Clear
+2021,Jan,City Center,Yes,Clear
+2021,Jan,Columbia,Yes,Clear
+2021,Jan,Marina,Yes,Clear
+2021,Jan,Cortez,Yes,Clear
+2021,Jan,Gaslamp,Yes,Clear
+2021,Feb,East Village,Yes,Clear
+2021,Feb,East Village South,Yes,Clear
+2021,Feb,City Center,Yes,Clear
+2021,Feb,Columbia,Yes,Clear
+2021,Feb,Marina,Yes,Clear
+2021,Feb,Cortez,Yes,Clear
+2021,Feb,Gaslamp,Yes,Clear
+2021,Mar,East Village,Yes,Clear
+2021,Mar,East Village South,Yes,Clear
+2021,Mar,City Center,Yes,Clear
+2021,Mar,Columbia,Yes,Clear
+2021,Mar,Marina,Yes,Clear
+2021,Mar,Cortez,Yes,Clear
+2021,Mar,Gaslamp,Yes,Clear
+2021,Apr,East Village,Yes,Clear
+2021,Apr,East Village South,Yes,Clear
+2021,Apr,City Center,Yes,Clear
+2021,Apr,Columbia,Yes,Clear
+2021,Apr,Marina,Yes,Clear
+2021,Apr,Cortez,Yes,Clear
+2021,Apr,Gaslamp,Yes,Clear
+2021,Apr,Barrio Logan,Yes,Unclear
+2021,Apr,Sherman Heights,Yes,Unclear
+2021,Apr,Golden Hill,Yes,Unclear
+2021,May,East Village,Yes,Clear
+2021,May,East Village South,Yes,Clear
+2021,May,City Center,Yes,Clear
+2021,May,Columbia,Yes,Clear
+2021,May,Marina,Yes,Clear
+2021,May,Cortez,Yes,Clear
+2021,May,Gaslamp,Yes,Clear
+2021,May,Barrio Logan,Yes,Clear
+2021,May,Sherman Heights,Yes,Clear
+2021,May,Golden Hill,Yes,Clear
+2021,June,East Village,Yes,Clear
+2021,June,East Village South,Yes,Clear
+2021,June,City Center,Yes,Clear
+2021,June,Columbia,Yes,Clear
+2021,June,Marina,Yes,Clear
+2021,June,Cortez,Yes,Clear
+2021,June,Gaslamp,Yes,Clear
+2021,June,Barrio Logan,Yes,Clear
+2021,June,Sherman Heights,Yes,Clear
+2021,June,Golden Hill,Yes,Clear
+2021,July,East Village,Yes,Clear
+2021,July,East Village South,Yes,Unclear
+2021,July,City Center,Yes,Clear
+2021,July,Columbia,Yes,Clear
+2021,July,Marina,Yes,Clear
+2021,July,Cortez,Yes,Clear
+2021,July,Gaslamp,Yes,Clear
+2021,July,Barrio Logan,Yes,Clear
+2021,July,Sherman Heights,Yes,Clear
+2021,July,Golden Hill,Yes,Clear
+2021,Aug,East Village,Yes,Clear
+2021,Aug,East Village South,Yes,Clear
+2021,Aug,City Center,Yes,Clear
+2021,Aug,Columbia,Yes,Clear
+2021,Aug,Marina,Yes,Clear
+2021,Aug,Cortez,Yes,Clear
+2021,Aug,Gaslamp,Yes,Clear
+2021,Aug,Barrio Logan,Yes,Clear
+2021,Aug,Sherman Heights,Yes,Clear
+2021,Aug,Golden Hill,Yes,Clear
+2021,Sept,East Village,Yes,Clear
+2021,Sept,East Village South,Yes,Clear
+2021,Sept,City Center,Yes,Clear
+2021,Sept,Columbia,Yes,Clear
+2021,Sept,Marina,Yes,Clear
+2021,Sept,Cortez,Yes,Clear
+2021,Sept,Gaslamp,Yes,Clear
+2021,Sept,Barrio Logan,Yes,Clear
+2021,Sept,Sherman Heights,Yes,Clear
+2021,Sept,Golden Hill,Yes,Clear
+2021,Oct,East Village,Yes,Clear
+2021,Oct,East Village South,Yes,Clear
+2021,Oct,City Center,Yes,Clear
+2021,Oct,Columbia,Yes,Clear
+2021,Oct,Marina,Yes,Clear
+2021,Oct,Cortez,Yes,Clear
+2021,Oct,Gaslamp,Yes,Clear
+2021,Oct,Barrio Logan,Yes,Clear
+2021,Oct,Sherman Heights,Yes,Clear
+2021,Oct,Golden Hill,Yes,Clear
+2021,Nov,East Village,Yes,Clear
+2021,Nov,East Village South,Yes,Clear
+2021,Nov,City Center,Yes,Clear
+2021,Nov,Columbia,Yes,Clear
+2021,Nov,Marina,Yes,Clear
+2021,Nov,Cortez,Yes,Clear
+2021,Nov,Gaslamp,Yes,Clear
+2021,Nov,Barrio Logan,Yes,Clear
+2021,Nov,Sherman Heights,Yes,Clear
+2021,Nov,Golden Hill,Yes,Clear
+2021,Dec,East Village,Yes,Clear
+2021,Dec,East Village South,Yes,Unclear
+2021,Dec,City Center,Yes,Clear
+2021,Dec,Columbia,Yes,Clear
+2021,Dec,Marina,Yes,Clear
+2021,Dec,Cortez,Yes,Clear
+2021,Dec,Gaslamp,Yes,Clear
+2021,Dec,Barrio Logan,Yes,Clear
+2021,Dec,Sherman Heights,Yes,Clear
+2021,Dec,Golden Hill,Yes,Clear
+2022,Jan,East Village,Yes,Clear
+2022,Jan,East Village South,Yes,Unclear
+2022,Jan,City Center,Yes,Clear
+2022,Jan,Columbia,Yes,Clear
+2022,Jan,Marina,Yes,Clear
+2022,Jan,Cortez,Yes,Clear
+2022,Jan,Gaslamp,Yes,Clear
+2022,Jan,Barrio Logan,Yes,Clear
+2022,Jan,Sherman Heights,Yes,Unclear
+2022,Jan,Golden Hill,Yes,Clear
+2022,Feb,East Village,Yes,Clear
+2022,Feb,East Village South,Yes,Unclear
+2022,Feb,City Center,Yes,Clear
+2022,Feb,Columbia,Yes,Clear
+2022,Feb,Marina,Yes,Clear
+2022,Feb,Cortez,Yes,Clear
+2022,Feb,Gaslamp,Yes,Clear
+2022,Feb,Barrio Logan,Yes,Unclear
+2022,Feb,Sherman Heights,Yes,Unclear
+2022,Feb,Golden Hill,Yes,Clear
+2022,Mar,East Village,Yes,Clear
+2022,Mar,East Village South,Yes,Unclear
+2022,Mar,City Center,Yes,Clear
+2022,Mar,Columbia,Yes,Clear
+2022,Mar,Marina,Yes,Clear
+2022,Mar,Cortez,Yes,Clear
+2022,Mar,Gaslamp,Yes,Clear
+2022,Mar,Barrio Logan,Yes,Clear
+2022,Mar,Sherman Heights,Yes,Clear
+2022,Mar,Golden Hill,Yes,Clear
+2022,Apr,East Village,Yes,Clear
+2022,Apr,East Village South,Yes,Unclear
+2022,Apr,City Center,Yes,Clear
+2022,Apr,Columbia,Yes,Clear
+2022,Apr,Marina,Yes,Clear
+2022,Apr,Cortez,Yes,Clear
+2022,Apr,Gaslamp,Yes,Clear
+2022,Apr,Barrio Logan,Yes,Unclear
+2022,Apr,Sherman Heights,Yes,Clear
+2022,Apr,Golden Hill,Yes,Clear
+2022,May,East Village,Yes,Clear
+2022,May,East Village South,Yes,Clear
+2022,May,City Center,Yes,Clear
+2022,May,Columbia,Yes,Clear
+2022,May,Marina,Yes,Clear
+2022,May,Cortez,Yes,Clear
+2022,May,Gaslamp,Yes,Clear
+2022,May,Barrio Logan,Yes,Clear
+2022,May,Sherman Heights,Yes,Clear
+2022,May,Golden Hill,Yes,Clear
+2022,June,East Village,Yes,Clear
+2022,June,East Village South,Yes,Clear
+2022,June,City Center,Yes,Clear
+2022,June,Columbia,Yes,Clear
+2022,June,Marina,Yes,Clear
+2022,June,Cortez,Yes,Clear
+2022,June,Gaslamp,Yes,Clear
+2022,June,Barrio Logan,Yes,Clear
+2022,June,Sherman Heights,Yes,Clear
+2022,June,Golden Hill,Yes,Clear
+2022,July,East Village,Yes,Clear
+2022,July,East Village South,Yes,Clear
+2022,July,City Center,Yes,Clear
+2022,July,Columbia,Yes,Clear
+2022,July,Marina,Yes,Clear
+2022,July,Cortez,Yes,Clear
+2022,July,Gaslamp,Yes,Clear
+2022,July,Barrio Logan,Yes,Clear
+2022,July,Sherman Heights,Yes,Clear
+2022,July,Golden Hill,Yes,Clear
+2022,Aug,East Village,Yes,Clear
+2022,Aug,East Village South,Yes,Clear
+2022,Aug,City Center,Yes,Clear
+2022,Aug,Columbia,Yes,Clear
+2022,Aug,Marina,Yes,Clear
+2022,Aug,Cortez,Yes,Clear
+2022,Aug,Gaslamp,Yes,Clear
+2022,Aug,Barrio Logan,Yes,Clear
+2022,Aug,Sherman Heights,Yes,Clear
+2022,Aug,Golden Hill,Yes,Clear
+2022,Sept,East Village,Yes,Clear
+2022,Sept,East Village South,Yes,Clear
+2022,Sept,City Center,Yes,Clear
+2022,Sept,Columbia,Yes,Clear
+2022,Sept,Marina,Yes,Clear
+2022,Sept,Cortez,Yes,Clear
+2022,Sept,Gaslamp,Yes,Clear
+2022,Sept,Barrio Logan,Yes,Clear
+2022,Sept,Sherman Heights,Yes,Clear
+2022,Sept,Golden Hill,Yes,Clear
+2022,Oct,East Village,Yes,Clear
+2022,Oct,East Village South,Yes,Clear
+2022,Oct,City Center,Yes,Clear
+2022,Oct,Columbia,Yes,Clear
+2022,Oct,Marina,Yes,Clear
+2022,Oct,Cortez,Yes,Clear
+2022,Oct,Gaslamp,Yes,Clear
+2022,Oct,Barrio Logan,Yes,Clear
+2022,Oct,Sherman Heights,Yes,Clear
+2022,Oct,Golden Hill,Yes,Clear
+2022,Nov,East Village,Yes,Clear
+2022,Nov,East Village South,Yes,Clear
+2022,Nov,City Center,Yes,Clear
+2022,Nov,Columbia,Yes,Clear
+2022,Nov,Marina,Yes,Clear
+2022,Nov,Cortez,Yes,Clear
+2022,Nov,Gaslamp,Yes,Clear
+2022,Nov,Barrio Logan,Yes,Clear
+2022,Nov,Sherman Heights,Yes,Clear
+2022,Nov,Golden Hill,Yes,Clear
+2022,Dec,East Village,Yes,Clear
+2022,Dec,East Village South,Yes,Clear
+2022,Dec,City Center,Yes,Clear
+2022,Dec,Columbia,Yes,Clear
+2022,Dec,Marina,Yes,Clear
+2022,Dec,Cortez,Yes,Clear
+2022,Dec,Gaslamp,Yes,Clear
+2022,Dec,Barrio Logan,Yes,Clear
+2022,Dec,Sherman Heights,Yes,Clear
+2022,Dec,Golden Hill,Yes,Clear
+2023,Jan,East Village,Yes,Clear
+2023,Jan,East Village South,Yes,Clear
+2023,Jan,City Center,Yes,Clear
+2023,Jan,Columbia,Yes,Clear
+2023,Jan,Marina,Yes,Clear
+2023,Jan,Cortez,Yes,Clear
+2023,Jan,Gaslamp,Yes,Clear
+2023,Jan,Barrio Logan,Yes,Clear
+2023,Jan,Sherman Heights,Yes,Clear
+2023,Jan,Golden Hill,Yes,Clear
+2023,Feb,East Village,Yes,Clear
+2023,Feb,East Village South,Yes,Clear
+2023,Feb,City Center,Yes,Clear
+2023,Feb,Columbia,Yes,Clear
+2023,Feb,Marina,Yes,Clear
+2023,Feb,Cortez,Yes,Clear
+2023,Feb,Gaslamp,Yes,Clear
+2023,Feb,Barrio Logan,Yes,Unclear
+2023,Feb,Sherman Heights,Yes,Clear
+2023,Feb,Golden Hill,Yes,Clear
+2023,Mar,East Village,Yes,Clear
+2023,Mar,East Village South,Yes,Clear
+2023,Mar,City Center,Yes,Clear
+2023,Mar,Columbia,Yes,Clear
+2023,Mar,Marina,Yes,Clear
+2023,Mar,Cortez,Yes,Clear
+2023,Mar,Gaslamp,Yes,Clear
+2023,Mar,Barrio Logan,Yes,Clear
+2023,Mar,Sherman Heights,Yes,Clear
+2023,Mar,Golden Hill,Yes,Clear
+2023,Apr,East Village,Yes,Clear
+2023,Apr,East Village South,Yes,Clear
+2023,Apr,City Center,Yes,Clear
+2023,Apr,Columbia,Yes,Clear
+2023,Apr,Marina,Yes,Clear
+2023,Apr,Cortez,Yes,Clear
+2023,Apr,Gaslamp,Yes,Clear
+2023,Apr,Barrio Logan,Yes,Clear
+2023,Apr,Sherman Heights,Yes,Clear
+2023,Apr,Golden Hill,Yes,Clear
+2023,May,East Village,Yes,Clear
+2023,May,East Village South,Yes,Clear
+2023,May,City Center,Yes,Clear
+2023,May,Columbia,Yes,Clear
+2023,May,Marina,Yes,Clear
+2023,May,Cortez,Yes,Clear
+2023,May,Gaslamp,Yes,Clear
+2023,May,Barrio Logan,Yes,Clear
+2023,May,Sherman Heights,Yes,Clear
+2023,May,Golden Hill,Yes,Clear
+2023,June,East Village,Yes,Clear
+2023,June,East Village South,Yes,Clear
+2023,June,City Center,Yes,Clear
+2023,June,Columbia,Yes,Clear
+2023,June,Marina,Yes,Clear
+2023,June,Cortez,Yes,Clear
+2023,June,Gaslamp,Yes,Clear
+2023,June,Barrio Logan,Yes,Clear
+2023,June,Sherman Heights,Yes,Clear
+2023,June,Golden Hill,Yes,Clear
+2023,July,East Village,Yes,Clear
+2023,July,East Village South,Yes,Clear
+2023,July,City Center,Yes,Clear
+2023,July,Columbia,Yes,Clear
+2023,July,Marina,Yes,Clear
+2023,July,Cortez,Yes,Clear
+2023,July,Gaslamp,Yes,Clear
+2023,July,Barrio Logan,Yes,Clear
+2023,July,Sherman Heights,Yes,Clear
+2023,July,Golden Hill,Yes,Clear
+2023,Aug,East Village,Yes,Clear
+2023,Aug,East Village South,Yes,Clear
+2023,Aug,City Center,Yes,Clear
+2023,Aug,Columbia,Yes,Clear
+2023,Aug,Marina,Yes,Clear
+2023,Aug,Cortez,Yes,Clear
+2023,Aug,Gaslamp,Yes,Clear
+2023,Aug,Barrio Logan,Yes,Clear
+2023,Aug,Sherman Heights,Yes,Clear
+2023,Aug,Golden Hill,Yes,Clear
+2023,Sept,East Village,Yes,Clear
+2023,Sept,East Village South,Yes,Clear
+2023,Sept,City Center,Yes,Clear
+2023,Sept,Columbia,Yes,Clear
+2023,Sept,Marina,Yes,Clear
+2023,Sept,Cortez,Yes,Clear
+2023,Sept,Gaslamp,Yes,Clear
+2023,Sept,Barrio Logan,Yes,Clear
+2023,Sept,Sherman Heights,Yes,Clear
+2023,Sept,Golden Hill,Yes,Clear
+2023,Oct,East Village,Yes,Clear
+2023,Oct,East Village South,Yes,Clear
+2023,Oct,City Center,Yes,Clear
+2023,Oct,Columbia,Yes,Clear
+2023,Oct,Marina,Yes,Clear
+2023,Oct,Cortez,Yes,Clear
+2023,Oct,Gaslamp,Yes,Clear
+2023,Oct,Barrio Logan,Yes,Clear
+2023,Oct,Sherman Heights,Yes,Clear
+2023,Oct,Golden Hill,Yes,Clear
+2023,Nov,East Village,Yes,Clear
+2023,Nov,East Village South,Yes,Clear
+2023,Nov,City Center,Yes,Clear
+2023,Nov,Columbia,Yes,Clear
+2023,Nov,Marina,Yes,Clear
+2023,Nov,Cortez,Yes,Clear
+2023,Nov,Gaslamp,Yes,Clear
+2023,Nov,Barrio Logan,Yes,Clear
+2023,Nov,Sherman Heights,Yes,Clear
+2023,Nov,Golden Hill,Yes,Clear
+2023,Dec,East Village,Yes,Clear
+2023,Dec,East Village South,Yes,Clear
+2023,Dec,City Center,Yes,Clear
+2023,Dec,Columbia,Yes,Clear
+2023,Dec,Marina,Yes,Clear
+2023,Dec,Cortez,Yes,Clear
+2023,Dec,Gaslamp,Yes,Clear
+2023,Dec,Barrio Logan,Yes,Clear
+2023,Dec,Sherman Heights,Yes,Clear
+2023,Dec,Golden Hill,Yes,Clear
+2024,Jan,East Village,Yes,Clear
+2024,Jan,East Village South,Yes,Clear
+2024,Jan,City Center,Yes,Clear
+2024,Jan,Columbia,Yes,Clear
+2024,Jan,Marina,Yes,Clear
+2024,Jan,Cortez,Yes,Clear
+2024,Jan,Gaslamp,Yes,Clear
+2024,Jan,Barrio Logan,Yes,Clear
+2024,Jan,Sherman Heights,Yes,Clear
+2024,Jan,Golden Hill,Yes,Clear
+2024,Feb,East Village,Yes,Clear
+2024,Feb,East Village South,Yes,Clear
+2024,Feb,City Center,Yes,Clear
+2024,Feb,Columbia,Yes,Clear
+2024,Feb,Marina,Yes,Clear
+2024,Feb,Cortez,Yes,Clear
+2024,Feb,Gaslamp,Yes,Clear
+2024,Feb,Barrio Logan,Yes,Clear
+2024,Feb,Sherman Heights,Yes,Clear
+2024,Feb,Golden Hill,Yes,Clear
+2024,Mar,East Village,Yes,Clear
+2024,Mar,East Village South,Yes,Clear
+2024,Mar,City Center,Yes,Clear
+2024,Mar,Columbia,Yes,Clear
+2024,Mar,Marina,Yes,Clear
+2024,Mar,Cortez,Yes,Clear
+2024,Mar,Gaslamp,Yes,Clear
+2024,Mar,Barrio Logan,Yes,Clear
+2024,Mar,Sherman Heights,Yes,Clear
+2024,Mar,Golden Hill,Yes,Clear
+2024,Apr,East Village,Yes,Clear
+2024,Apr,East Village South,Yes,Clear
+2024,Apr,City Center,Yes,Clear
+2024,Apr,Columbia,Yes,Clear
+2024,Apr,Marina,Yes,Clear
+2024,Apr,Cortez,Yes,Clear
+2024,Apr,Gaslamp,Yes,Clear
+2024,Apr,Barrio Logan,Yes,Clear
+2024,Apr,Sherman Heights,Yes,Clear
+2024,Apr,Golden Hill,Yes,Clear
+2024,May,East Village,Yes,Clear
+2024,May,East Village South,Yes,Clear
+2024,May,City Center,Yes,Clear
+2024,May,Columbia,Yes,Clear
+2024,May,Marina,Yes,Clear
+2024,May,Cortez,Yes,Clear
+2024,May,Gaslamp,Yes,Clear
+2024,May,Barrio Logan,Yes,Clear
+2024,May,Sherman Heights,Yes,Clear
+2024,May,Golden Hill,Yes,Clear
+2024,June,East Village,Yes,Clear
+2024,June,East Village South,Yes,Clear
+2024,June,City Center,Yes,Clear
+2024,June,Columbia,Yes,Clear
+2024,June,Marina,Yes,Clear
+2024,June,Cortez,Yes,Clear
+2024,June,Gaslamp,Yes,Clear
+2024,June,Barrio Logan,Yes,Clear
+2024,June,Sherman Heights,Yes,Clear
+2024,June,Golden Hill,Yes,Clear
+2024,July,East Village,Yes,Clear
+2024,July,East Village South,Yes,Clear
+2024,July,City Center,Yes,Clear
+2024,July,Columbia,Yes,Clear
+2024,July,Marina,Yes,Clear
+2024,July,Cortez,Yes,Clear
+2024,July,Gaslamp,Yes,Clear
+2024,July,Barrio Logan,Yes,Clear
+2024,July,Sherman Heights,Yes,Clear
+2024,July,Golden Hill,Yes,Clear
+2024,Aug,East Village,Yes,Clear
+2024,Aug,East Village South,Yes,Clear
+2024,Aug,City Center,Yes,Clear
+2024,Aug,Columbia,Yes,Clear
+2024,Aug,Marina,Yes,Clear
+2024,Aug,Cortez,Yes,Clear
+2024,Aug,Gaslamp,Yes,Clear
+2024,Aug,Barrio Logan,Yes,Clear
+2024,Aug,Sherman Heights,Yes,Clear
+2024,Aug,Golden Hill,Yes,Clear
+2024,Sept,East Village,Yes,Clear
+2024,Sept,East Village South,Yes,Clear
+2024,Sept,City Center,Yes,Clear
+2024,Sept,Columbia,Yes,Clear
+2024,Sept,Marina,Yes,Clear
+2024,Sept,Cortez,Yes,Clear
+2024,Sept,Gaslamp,Yes,Clear
+2024,Sept,Barrio Logan,Yes,Clear
+2024,Sept,Sherman Heights,Yes,Clear
+2024,Sept,Golden Hill,Yes,Clear
+2024,Oct,East Village,Yes,Clear
+2024,Oct,East Village South,Yes,Clear
+2024,Oct,City Center,Yes,Clear
+2024,Oct,Columbia,Yes,Clear
+2024,Oct,Marina,Yes,Clear
+2024,Oct,Cortez,Yes,Clear
+2024,Oct,Gaslamp,Yes,Clear
+2024,Oct,Barrio Logan,Yes,Clear
+2024,Oct,Sherman Heights,Yes,Clear
+2024,Oct,Golden Hill,Yes,Clear
+2024,Nov,East Village,Yes,Clear
+2024,Nov,East Village South,Yes,Clear
+2024,Nov,City Center,Yes,Clear
+2024,Nov,Columbia,Yes,Clear
+2024,Nov,Marina,Yes,Clear
+2024,Nov,Cortez,Yes,Clear
+2024,Nov,Gaslamp,Yes,Clear
+2024,Nov,Barrio Logan,Yes,Clear
+2024,Nov,Sherman Heights,Yes,Clear
+2024,Nov,Golden Hill,Yes,Clear
+2024,Dec,East Village,Yes,Clear
+2024,Dec,East Village South,Yes,Clear
+2024,Dec,City Center,Yes,Clear
+2024,Dec,Columbia,Yes,Clear
+2024,Dec,Marina,Yes,Clear
+2024,Dec,Cortez,Yes,Clear
+2024,Dec,Gaslamp,Yes,Clear
+2024,Dec,Barrio Logan,Yes,Clear
+2024,Dec,Sherman Heights,Yes,Clear
+2024,Dec,Golden Hill,Yes,Clear
+2025,Jan,East Village,Yes,Clear
+2025,Jan,East Village South,Yes,Clear
+2025,Jan,City Center,Yes,Clear
+2025,Jan,Columbia,Yes,Clear
+2025,Jan,Marina,Yes,Clear
+2025,Jan,Cortez,Yes,Clear
+2025,Jan,Gaslamp,Yes,Clear
+2025,Jan,Barrio Logan,Yes,Clear
+2025,Jan,Sherman Heights,Yes,Clear
+2025,Jan,Golden Hill,Yes,Clear
+2025,Feb,East Village,Yes,Clear
+2025,Feb,East Village South,Yes,Clear
+2025,Feb,City Center,Yes,Clear
+2025,Feb,Columbia,Yes,Clear
+2025,Feb,Marina,Yes,Clear
+2025,Feb,Cortez,Yes,Clear
+2025,Feb,Gaslamp,Yes,Clear
+2025,Feb,Barrio Logan,Yes,Clear
+2025,Feb,Sherman Heights,Yes,Clear
+2025,Feb,Golden Hill,Yes,Clear
+2025,Mar,East Village,Yes,Clear
+2025,Mar,East Village South,Yes,Clear
+2025,Mar,City Center,Yes,Clear
+2025,Mar,Columbia,Yes,Clear
+2025,Mar,Marina,Yes,Clear
+2025,Mar,Cortez,Yes,Clear
+2025,Mar,Gaslamp,Yes,Clear
+2025,Mar,Barrio Logan,Yes,Clear
+2025,Mar,Sherman Heights,Yes,Clear
+2025,Mar,Golden Hill,Yes,Clear
+2025,Apr,East Village,Yes,Clear
+2025,Apr,East Village South,Yes,Clear
+2025,Apr,City Center,Yes,Clear
+2025,Apr,Columbia,Yes,Clear
+2025,Apr,Marina,Yes,Clear
+2025,Apr,Cortez,Yes,Clear
+2025,Apr,Gaslamp,Yes,Clear
+2025,Apr,Barrio Logan,Yes,Clear
+2025,Apr,Sherman Heights,Yes,Clear
+2025,Apr,Golden Hill,Yes,Clear
+2025,May,East Village,Yes,Clear
+2025,May,East Village South,Yes,Clear
+2025,May,City Center,Yes,Clear
+2025,May,Columbia,Yes,Clear
+2025,May,Marina,Yes,Clear
+2025,May,Cortez,Yes,Clear
+2025,May,Gaslamp,Yes,Clear
+2025,May,Barrio Logan,Yes,Clear
+2025,May,Sherman Heights,Yes,Clear
+2025,May,Golden Hill,Yes,Clear
+2025,June,East Village,Yes,Clear
+2025,June,East Village South,Yes,Clear
+2025,June,City Center,Yes,Clear
+2025,June,Columbia,Yes,Clear
+2025,June,Marina,Yes,Clear
+2025,June,Cortez,Yes,Clear
+2025,June,Gaslamp,Yes,Clear
+2025,June,Barrio Logan,Yes,Clear
+2025,June,Sherman Heights,Yes,Clear
+2025,June,Golden Hill,Yes,Clear
+2025,July,East Village,No,Unclear
+2025,July,East Village South,No,Unclear
+2025,July,City Center,No,Unclear
+2025,July,Columbia,No,Unclear
+2025,July,Marina,No,Unclear
+2025,July,Cortez,No,Unclear
+2025,July,Gaslamp,No,Unclear
+2025,July,Barrio Logan,No,Unclear
+2025,July,Sherman Heights,No,Unclear
+2025,July,Golden Hill,No,Unclear
+2025,Aug,East Village,No,Unclear
+2025,Aug,East Village South,No,Unclear
+2025,Aug,City Center,No,Unclear
+2025,Aug,Columbia,No,Unclear
+2025,Aug,Marina,No,Unclear
+2025,Aug,Cortez,No,Unclear
+2025,Aug,Gaslamp,No,Unclear
+2025,Aug,Barrio Logan,No,Unclear
+2025,Aug,Sherman Heights,No,Unclear
+2025,Aug,Golden Hill,No,Unclear
+2025,Sept,East Village,Yes,Clear
+2025,Sept,East Village South,Yes,Clear
+2025,Sept,City Center,Yes,Clear
+2025,Sept,Columbia,Yes,Clear
+2025,Sept,Marina,Yes,Clear
+2025,Sept,Cortez,Yes,Clear
+2025,Sept,Gaslamp,Yes,Clear
+2025,Sept,Barrio Logan,Yes,Clear
+2025,Sept,Sherman Heights,Yes,Clear
+2025,Sept,Golden Hill,Yes,
+2025,Oct,East Village,No,Unclear
+2025,Oct,East Village South,No,Unclear
+2025,Oct,City Center,No,Unclear
+2025,Oct,Columbia,No,Unclear
+2025,Oct,Marina,No,Unclear
+2025,Oct,Cortez,No,Unclear
+2025,Oct,Gaslamp,No,Unclear
+2025,Oct,Barrio Logan,No,Unclear
+2025,Oct,Sherman Heights,No,Unclear
+2025,Oct,Golden Hill,No,Unclear
+2025,Nov,East Village,No,Unclear
+2025,Nov,East Village South,No,Unclear
+2025,Nov,City Center,No,Unclear
+2025,Nov,Columbia,No,Unclear
+2025,Nov,Marina,No,Unclear
+2025,Nov,Cortez,No,Unclear
+2025,Nov,Gaslamp,No,Unclear
+2025,Nov,Barrio Logan,No,Unclear
+2025,Nov,Sherman Heights,No,Unclear
+2025,Nov,Golden Hill,No,Unclear
+2025,Dec,East Village,Yes,Clear
+2025,Dec,East Village South,Yes,Clear
+2025,Dec,City Center,Yes,Clear
+2025,Dec,Columbia,Yes,Clear
+2025,Dec,Marina,Yes,Clear
+2025,Dec,Cortez,Yes,Clear
+2025,Dec,Gaslamp,Yes,Clear
+2025,Dec,Barrio Logan,Yes,Clear
+2025,Dec,Sherman Heights,Yes,Clear
+2025,Dec,Golden Hill,Yes,Clear

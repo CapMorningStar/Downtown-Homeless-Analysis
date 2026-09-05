@@ -1,0 +1,19 @@
+source_file,source_label,canonical_neighborhood,sub_area,area_type,notes
+"RawCounts_AllYears.csv, MasterCounts_Adjusted.csv",City Center,City Center,,neighborhood,Official downtown neighborhood
+"BlockLevel_Counts.csv, Downtown_BlockGrid.csv, BlockMap_Coverage.csv",City Center,City Center,,neighborhood,Official downtown neighborhood
+"RawCounts_AllYears.csv, MasterCounts_Adjusted.csv",Core,City Center,,neighborhood,Historical name for City Center prior to April 2019 re-labeling
+All datasets,Columbia,Columbia,,neighborhood,Official downtown neighborhood
+All datasets,Cortez,Cortez,,neighborhood,Official downtown neighborhood (Cortez Hill)
+All datasets,Gaslamp,Gaslamp,,neighborhood,Official downtown neighborhood (Gaslamp Quarter)
+All datasets,Marina,Marina,,neighborhood,Official downtown neighborhood
+All datasets,East Village,East Village,,neighborhood,Official downtown neighborhood total
+"RawCounts_AllYears.csv, MasterCounts_Adjusted.csv",North East EV,East Village,North East EV,sub-area,North of Market St & East of Park Ave
+"RawCounts_AllYears.csv, MasterCounts_Adjusted.csv",North West EV,East Village,North West EV,sub-area,North of Market St & West of Park Ave
+"RawCounts_AllYears.csv, MasterCounts_Adjusted.csv",South East EV,East Village,South East EV,sub-area,South of Market St & East of Park Ave
+"RawCounts_AllYears.csv, MasterCounts_Adjusted.csv",South West EV,East Village,South West EV,sub-area,South of Market St & West of Park Ave
+"Downtown_BlockGrid.csv, BlockLevel_Counts.csv",South East Village,East Village,South East EV,sub-area,Corresponds to southern blocks of East Village
+BlockMap_Coverage.csv,East Village South,East Village,South East EV,sub-area,Variant naming for South East Village in map coverage logs
+"RawCounts_AllYears.csv, MasterCounts_Adjusted.csv",Outside Perimeter,Outside Perimeter,,perimeter,Aggregated count for perimeter areas outside core 6 downtown neighborhoods
+"Downtown_BlockGrid.csv, BlockLevel_Counts.csv, BlockMap_Coverage.csv",Barrio Logan,Outside Perimeter,Barrio Logan,perimeter,Individual perimeter area south of Downtown
+"Downtown_BlockGrid.csv, BlockLevel_Counts.csv, BlockMap_Coverage.csv",Golden Hill,Outside Perimeter,Golden Hill,perimeter,Individual perimeter area east of Downtown
+"Downtown_BlockGrid.csv, BlockLevel_Counts.csv, BlockMap_Coverage.csv",Sherman Heights,Outside Perimeter,Sherman Heights,perimeter,Individual perimeter area southeast of Downtown
