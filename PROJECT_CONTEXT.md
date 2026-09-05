@@ -196,7 +196,11 @@ D:\Projects\Downtown-Homeless-Analysis\
     - YoY: decline 2018–2020 (COVID low, −19.7% in 2020), rebound 2021–2022 (+25.9%, +57.6%, peak 224 in 2023), drop −43.5% in 2024, ~flat 2025 (−2.9%).
     - Top 3 by avg count: East Village, Outside Perimeter, City Center. Top 3 by growth rate (2019+): Outside Perimeter (+26.9%), Cortez (+12.0%), City Center (+3.9%) — diverges from size ranking; Marina/Columbia shrinking.
     - Caveat noted: Outside Perimeter has only 56 obs (partial coverage since 2022); 28 nulls remain in neighborhood-level `total_count` (2025 unreleased months).
-  * **Task 2.2: Create required visualizations** (10 charts with 2-sentence commentary)
+  * **Task 2.2: Create required visualizations** (COMPLETED)
+    - Added all 10 required charts to [`EDA_DowntownCounts.ipynb`](file:///D:/Projects/Downtown-Homeless-Analysis/EDA_DowntownCounts.ipynb): overall time series w/ regime markers, seasonal pattern, neighborhood stacked-area composition, EV sub-area comparison, before/after methodology-change comparison (2017 & 2018), YoY overall + by neighborhood, COVID-19 period (2020-2021 shaded), raw-vs-adjusted "adjustment gap" over time, and neighborhood distribution boxplot.
+    - Each chart has title, axis labels, legend, source attribution, and verified (data-checked) commentary.
+    - Key correction made during build: initial draft commentary assumed the adjustment gap grows with volume through 2021-2023; actual data shows the gap is largest/most volatile in 2018 (avg +13.5/mo, spike +156.61 in Feb 2018 — ties to the Feb 2018 source PDF addition error from Task 1.1) then near-zero (±1-5) from 2019 on. Commentary was corrected to match verified output before finalizing.
+    - Peak overall count confirmed at 2,103 (May 2023), not initially assumed ~2,500.
   * **Task 2.3: Produce summary report and presentation** (`EDA_SummaryReport` doc, PDF export, slides)
 * **Assignment 3: Block-Level Data Validation & Spatial Integration** (Tasks 3.1–3.4)
 * **Assignment 4: Time Series Decomposition & Pattern Analysis** (Tasks 4.1–4.4)
