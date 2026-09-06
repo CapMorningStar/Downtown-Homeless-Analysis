@@ -404,7 +404,7 @@ slides_part2 = f"""
         <div class="callout">Finding: Pandemic programs suppressed visible street counts without a lasting reduction in demand.</div>
         <div class="bullet-item"><span class="bullet-title">• Series All-Time Low (March 2020):</span> Citywide unsheltered total hit its series low of 529 in March 2020 at the onset of initial COVID shelter-in-place orders.</div>
         <div class="bullet-item"><span class="bullet-title">• 2020 Annual Trough (~20% Reduction):</span> 2020 annual average (654.1) dropped ~20% below the 2019 pre-COVID baseline (814.72), reflecting -19.71% YoY contraction.</div>
-        <div class="bullet-item"><span class="bullet-title">• Full Recovery by 2021:</span> Counts recovered to an annual average of 960.37 in 2021 (+25.85% YoY), climbing above pre-COVID baseline levels prior to the 2022–2023 surge.</div>
+        <div class="bullet-item"><span class="bullet-title">• Full Recovery by 2021:</span> Counts recovered to an annual average of 960.37 in 2021 (+46.82% YoY, citywide-total basis), climbing above pre-COVID baseline levels prior to the 2022–2023 surge.</div>
         <div class="bullet-item"><span class="bullet-title">• Operational & Policy Mechanisms:</span> Emergency indoor shelter placements (Convention Center Operation Shelter to Home), eviction moratoria, and curtailed street sweeps temporarily reduced visible unsheltered numbers; demobilization preceded the 2022–2023 peak.</div>
       </div>
       <div class="chart-card">

@@ -342,7 +342,7 @@ p_s5_sub.font.name = FONT_BODY; p_s5_sub.font.size = Pt(10.5); p_s5_sub.font.bol
 covid_points = [
     ("Series All-Time Low (March 2020)", "Citywide unsheltered total hit its series low of 529 in March 2020 at the onset of initial COVID shelter-in-place orders."),
     ("2020 Annual Trough (~20% Reduction)", "2020 annual average (654.1) dropped ~20% below the 2019 pre-COVID baseline (814.72), reflecting -19.71% YoY contraction."),
-    ("Full Recovery by 2021", "Counts recovered to an annual average of 960.37 in 2021 (+25.85% YoY), climbing above pre-COVID baseline levels prior to the 2022–2023 surge."),
+    ("Full Recovery by 2021", "Counts recovered to an annual average of 960.37 in 2021 (+46.82% YoY, citywide-total basis), climbing above pre-COVID baseline levels prior to the 2022–2023 surge."),
     ("Operational & Policy Mechanisms", "Emergency indoor shelter placements (Convention Center Operation Shelter to Home), eviction moratoria, and curtailed street sweeps temporarily reduced visible unsheltered numbers; demobilization preceded the 2022–2023 peak.")
 ]
 for c_head, c_txt in covid_points:

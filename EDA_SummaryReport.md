@@ -41,7 +41,7 @@ East Village's four sub-areas (available Jan 2018–Dec 2025) show North East EV
 
 ## 4. COVID-19 Period Impacts
 
-The pandemic period shows a clear, quantifiable dip: the citywide monthly total fell to its series low of 529 in March 2020, and the 2020 annual average (654.1) sat well below the 2019 pre-COVID average (814.72) — a roughly 20% reduction. Counts partially recovered through 2021 (annual average 960.37, above the 2019 baseline) before the larger 2022–2023 climb described in Section 1. This pattern is consistent with pandemic-era shelter placements and reduced outreach/count visibility temporarily suppressing observed unsheltered presence, followed by a rebound once conditions normalized.
+The pandemic period shows a clear, quantifiable dip: the citywide monthly total fell to its series low of 529 in March 2020, and the 2020 annual average (654.1) sat well below the 2019 pre-COVID average (814.72) — a roughly 20% reduction. Counts partially recovered through 2021 (annual average 960.37, +46.82% YoY on a citywide-total basis, above the 2019 baseline) before the larger 2022–2023 climb described in Section 1. Note this +46.82% is the total-count YoY change; it differs from the +25.85% figure in Section 1, which is the unweighted average of each neighborhood's own YoY growth rate — the two are different statistics and are not directly comparable. This pattern is consistent with pandemic-era shelter placements and reduced outreach/count visibility temporarily suppressing observed unsheltered presence, followed by a rebound once conditions normalized.
 
 ## 5. Methodology Change Effects
 
