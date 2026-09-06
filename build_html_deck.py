@@ -306,7 +306,6 @@ slides_part1 = f"""
       </div>
       <div class="chart-card">
         <img src="{img_c27}" alt="Chart 1: Overall Time Series">
-        <div class="chart-caption">Chart 1 (EDA Notebook): Citywide monthly total unsheltered count with methodology regime boundaries.</div>
       </div>
     </div>
     <div class="footer">
@@ -337,7 +336,6 @@ slides_part1 = f"""
       </div>
       <div class="chart-card">
         <img src="{img_c30}" alt="Chart 2: Seasonal Pattern">
-        <div class="chart-caption">Chart 2 (EDA Notebook): Average monthly count by calendar month across all years with std error bars.</div>
       </div>
     </div>
     <div class="footer">
@@ -380,7 +378,6 @@ slides_part1 = f"""
       </div>
       <div class="chart-card">
         <img src="{img_c33}" alt="Chart 3: Stacked Area">
-        <div class="chart-caption">Chart 3 (EDA Notebook): Neighborhood composition stacked area over time (2017–2025).</div>
       </div>
     </div>
     <div class="footer">
@@ -412,7 +409,6 @@ slides_part2 = f"""
       </div>
       <div class="chart-card">
         <img src="{img_c48}" alt="Chart 8: COVID Period">
-        <div class="chart-caption">Chart 8 (EDA Notebook): Overall monthly count trajectory (2019–2022) with shaded COVID-19 period.</div>
       </div>
     </div>
     <div class="footer">
@@ -448,7 +444,6 @@ slides_part2 = f"""
       </div>
       <div class="chart-card">
         <img src="{img_c51}" alt="Chart 9: Adjustment Gap">
-        <div class="chart-caption">Chart 9 (EDA Notebook): Monthly adjustment gap (Adjusted Total - Raw Observed Count) across regimes.</div>
       </div>
     </div>
     <div class="footer">

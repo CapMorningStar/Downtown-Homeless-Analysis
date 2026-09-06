@@ -1,3 +1,147 @@
+import os
+import pptx
+from pptx import Presentation
+from pptx.util import Inches, Pt
+from pptx.dml.color import RGBColor
+from pptx.enum.text import PP_ALIGN, MSO_ANCHOR
+from pptx.enum.shapes import MSO_SHAPE
+from PIL import Image
+
+# -------------------------------------------------------------
+# Canva Template Design System: "Blue and White Modern Data Analytics" (EAG_ft-JLCA)
+# -------------------------------------------------------------
+COLOR_PRIMARY_NAVY = RGBColor(41, 62, 156)    # #293E9C (Deep Royal Navy)
+COLOR_ROYAL_BLUE   = RGBColor(58, 88, 228)    # #3A58E4 (Vibrant Royal Blue)
+COLOR_MID_BLUE     = RGBColor(105, 132, 254)  # #6984FE (Mid Periwinkle Blue)
+COLOR_SOFT_BLUE    = RGBColor(154, 173, 255)  # #9AADFF (Soft Cornflower Blue)
+COLOR_ICE_TINT     = RGBColor(211, 223, 255)  # #D3DFFF (Ice Tint Accent)
+COLOR_CANVAS_BG    = RGBColor(245, 247, 251)  # #F5F7FB (Tech Off-White Canvas)
+COLOR_CARD_BG      = RGBColor(255, 255, 255)  # #FFFFFF (Pure White)
+COLOR_CARD_BORDER  = RGBColor(220, 228, 245)  # #DCE4F5 (Subtle Border)
+COLOR_TEXT_DARK    = RGBColor(29, 31, 38)     # #1D1F26 (Charcoal Slate)
+COLOR_TEXT_MUTED   = RGBColor(100, 116, 145)  # #647491 (Muted Slate)
+COLOR_RED          = RGBColor(220, 38, 38)    # #DC2626
+COLOR_GREEN        = RGBColor(5, 150, 105)    # #059669
+COLOR_AMBER        = RGBColor(217, 119, 6)    # #D97706
+
+FONT_DISPLAY = "Trebuchet MS"  # Office fallback for Bricolage Grotesque
+FONT_BODY    = "Segoe UI"      # Office fallback for Poppins
+
+def set_slide_background(slide):
+    bg = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, 0, 0, Inches(13.333), Inches(7.5))
+    bg.fill.solid()
+    bg.fill.fore_color.rgb = COLOR_CANVAS_BG
+    bg.line.fill.background()
+    return bg
+
+def add_canva_header(slide, title_text, category_text, slide_num_str):
+    # 1. Top-Right Slide Number Badge (Flush at top-right)
+    badge = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(12.133), Inches(0), Inches(1.2), Inches(0.85))
+    badge.fill.solid()
+    badge.fill.fore_color.rgb = COLOR_PRIMARY_NAVY
+    badge.line.fill.background()
+    tf_b = badge.text_frame
+    tf_b.word_wrap = True
+    p_b = tf_b.paragraphs[0]
+    p_b.text = slide_num_str
+    p_b.font.name = FONT_DISPLAY
+    p_b.font.size = Pt(26)
+    p_b.font.bold = True
+    p_b.font.color.rgb = COLOR_CARD_BG
+    p_b.alignment = PP_ALIGN.CENTER
+    
+    # 2. Vertical Accent Line
+    line_v = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(0.8), Inches(0.42), Inches(0.06), Inches(0.82))
+    line_v.fill.solid()
+    line_v.fill.fore_color.rgb = COLOR_ROYAL_BLUE
+    line_v.line.fill.background()
+
+    # 3. Header Title & Subtitle Box
+    tb = slide.shapes.add_textbox(Inches(1.0), Inches(0.38), Inches(10.8), Inches(0.95))
+    tf = tb.text_frame
+    tf.word_wrap = True
+    tf.margin_left = tf.margin_top = tf.margin_right = tf.margin_bottom = 0
+    
+    p_sub = tf.paragraphs[0]
+    p_sub.text = category_text.upper()
+    p_sub.font.name = FONT_BODY
+    p_sub.font.size = Pt(10)
+    p_sub.font.bold = True
+    p_sub.font.color.rgb = COLOR_ROYAL_BLUE
+    p_sub.space_after = Pt(2)
+    
+    p_title = tf.add_paragraph()
+    p_title.text = title_text
+    p_title.font.name = FONT_DISPLAY
+    p_title.font.size = Pt(21)
+    p_title.font.bold = True
+    p_title.font.color.rgb = COLOR_PRIMARY_NAVY
+
+    # Subtle horizontal line below header
+    line_h = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(0.8), Inches(1.32), Inches(11.733), Inches(0.012))
+    line_h.fill.solid()
+    line_h.fill.fore_color.rgb = COLOR_CARD_BORDER
+    line_h.line.fill.background()
+
+def add_canva_footer(slide, current_page, total_pages=8):
+    line = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(0.8), Inches(6.9), Inches(11.733), Inches(0.012))
+    line.fill.solid()
+    line.fill.fore_color.rgb = COLOR_CARD_BORDER
+    line.line.fill.background()
+
+    tb_left = slide.shapes.add_textbox(Inches(0.8), Inches(6.98), Inches(9.5), Inches(0.35))
+    tf_l = tb_left.text_frame
+    tf_l.margin_left = tf_l.margin_top = tf_l.margin_right = tf_l.margin_bottom = 0
+    p_l = tf_l.paragraphs[0]
+    p_l.text = "Data Science Alliance • Downtown San Diego Homeless Population Analysis • Source: DSDP Monthly Counts (2017–2025)"
+    p_l.font.name = FONT_BODY
+    p_l.font.size = Pt(9)
+    p_l.font.color.rgb = COLOR_TEXT_MUTED
+
+    tb_right = slide.shapes.add_textbox(Inches(10.5), Inches(6.98), Inches(2.033), Inches(0.35))
+    tf_r = tb_right.text_frame
+    tf_r.margin_left = tf_r.margin_top = tf_r.margin_right = tf_r.margin_bottom = 0
+    p_r = tf_r.paragraphs[0]
+    p_r.text = f"Slide {current_page} of {total_pages}"
+    p_r.alignment = PP_ALIGN.RIGHT
+    p_r.font.name = FONT_BODY
+    p_r.font.size = Pt(9)
+    p_r.font.bold = True
+    p_r.font.color.rgb = COLOR_PRIMARY_NAVY
+
+def add_canva_card(slide, left, top, width, height, bg_color=COLOR_CARD_BG, border_color=COLOR_CARD_BORDER):
+    card = slide.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, left, top, width, height)
+    card.fill.solid()
+    card.fill.fore_color.rgb = bg_color
+    if border_color:
+        card.line.color.rgb = border_color
+        card.line.width = Pt(1)
+    else:
+        card.line.fill.background()
+    return card
+
+def add_image_fitted(slide, image_path, container_left, container_top, container_width, container_height):
+    with Image.open(image_path) as img:
+        img_w, img_h = img.size
+    aspect = img_w / img_h
+    cont_aspect = container_width / container_height
+    if aspect > cont_aspect:
+        target_w = container_width
+        target_h = container_width / aspect
+        offset_x = 0
+        offset_y = (container_height - target_h) / 2
+    else:
+        target_h = container_height
+        target_w = container_height * aspect
+        offset_y = 0
+        offset_x = (container_width - target_w) / 2
+    return slide.shapes.add_picture(image_path, container_left + offset_x, container_top + offset_y, target_w, target_h)
+
+prs = Presentation()
+prs.slide_width = Inches(13.333)
+prs.slide_height = Inches(7.5)
+blank_layout = prs.slide_layouts[6]
+
 # =============================================================
 # SLIDE 1: TITLE SLIDE (Canva Style)
 # =============================================================
@@ -80,8 +224,8 @@ for i, (val, lbl, sub, bg_col, txt_col, sub_col) in enumerate(kpis_s2):
     pk3 = tf_k.add_paragraph(); pk3.text = sub; pk3.font.name = FONT_BODY; pk3.font.size = Pt(7.5); pk3.font.color.rgb = sub_col
 
 # Left Side Narrative Card: Three Phases
-card_phases = add_canva_card(s2, Inches(0.8), Inches(2.8), Inches(4.55), Inches(3.95), bg_color=COLOR_CARD_BG)
-tb_phases = s2.shapes.add_textbox(Inches(1.0), Inches(2.95), Inches(4.15), Inches(3.65))
+card_phases = add_canva_card(s2, Inches(0.8), Inches(3.0), Inches(4.9), Inches(3.75), bg_color=COLOR_CARD_BG)
+tb_phases = s2.shapes.add_textbox(Inches(1.0), Inches(3.15), Inches(4.15), Inches(3.45))
 tf_p = tb_phases.text_frame; tf_p.word_wrap = True; tf_p.margin_left = tf_p.margin_top = tf_p.margin_right = tf_p.margin_bottom = 0
 
 p_h = tf_p.paragraphs[0]; p_h.text = "Trajectory Overview: Three Clear Phases"; p_h.font.name = FONT_DISPLAY; p_h.font.size = Pt(13); p_h.font.bold = True; p_h.font.color.rgb = COLOR_PRIMARY_NAVY; p_h.space_after = Pt(6)
@@ -97,12 +241,10 @@ for p_title, p_desc in phases_data:
 
 # Right: Chart Card Frame
 chart_card_s2 = add_canva_card(s2, Inches(5.6), Inches(1.5), Inches(6.933), Inches(5.25), bg_color=COLOR_CARD_BG)
-add_image_fitted(s2, "slide_assets/chart1_clean_hd.png", Inches(5.75), Inches(1.65), Inches(6.633), Inches(4.6))
-tb_cf2 = s2.shapes.add_textbox(Inches(5.75), Inches(6.35), Inches(6.633), Inches(0.3))
-tf_cf2 = tb_cf2.text_frame; tf_cf2.margin_left = tf_cf2.margin_top = tf_cf2.margin_right = tf_cf2.margin_bottom = 0
-p_cf2 = tf_cf2.paragraphs[0]; p_cf2.text = "Chart 1 (EDA Notebook): Citywide monthly total unsheltered count with methodology regime boundaries."; p_cf2.font.name = FONT_BODY; p_cf2.font.size = Pt(8.5); p_cf2.font.color.rgb = COLOR_TEXT_MUTED
+add_image_fitted(s2, "slide_assets/chart1_clean_hd.png", Inches(5.75), Inches(1.65), Inches(6.633), Inches(4.9))
 
 add_canva_footer(s2, 2, 8)
+
 # =============================================================
 # SLIDE 3: SEASONALITY (QUANTIFIED)
 # =============================================================
@@ -133,10 +275,7 @@ for b_head, b_txt in s3_bullets:
     p_btxt = tf_s3.add_paragraph(); p_btxt.text = f"  {b_txt}"; p_btxt.font.name = FONT_BODY; p_btxt.font.size = Pt(9.2); p_btxt.font.color.rgb = COLOR_TEXT_DARK; p_btxt.space_after = Pt(5)
 
 chart_card_s3 = add_canva_card(s3, Inches(5.75), Inches(1.5), Inches(6.783), Inches(5.25), bg_color=COLOR_CARD_BG)
-add_image_fitted(s3, "slide_assets/chart2_clean_hd.png", Inches(5.95), Inches(1.7), Inches(6.383), Inches(4.55))
-tb_cf3 = s3.shapes.add_textbox(Inches(5.95), Inches(6.35), Inches(6.383), Inches(0.3))
-tf_cf3 = tb_cf3.text_frame; tf_cf3.margin_left = tf_cf3.margin_top = tf_cf3.margin_right = tf_cf3.margin_bottom = 0
-p_cf3 = tf_cf3.paragraphs[0]; p_cf3.text = "Chart 2 (EDA Notebook): Average monthly count by calendar month across all years with std error bars."; p_cf3.font.name = FONT_BODY; p_cf3.font.size = Pt(8.5); p_cf3.font.color.rgb = COLOR_TEXT_MUTED
+add_image_fitted(s3, "slide_assets/chart2_clean_hd.png", Inches(5.95), Inches(1.7), Inches(6.383), Inches(4.9))
 
 add_canva_footer(s3, 3, 8)
 
@@ -181,12 +320,10 @@ p_r3_h = tf_s4.add_paragraph(); p_r3_h.text = "• Spatial Sub-Area Asymmetry:";
 p_r3_d = tf_s4.add_paragraph(); p_r3_d.text = "  North East & South East EV consistently outcount West sub-areas."; p_r3_d.font.name = FONT_BODY; p_r3_d.font.size = Pt(8.8); p_r3_d.font.color.rgb = COLOR_TEXT_DARK
 
 chart_card_s4 = add_canva_card(s4, Inches(5.75), Inches(1.5), Inches(6.783), Inches(5.25), bg_color=COLOR_CARD_BG)
-add_image_fitted(s4, "slide_assets/chart7_yoy_hd.png", Inches(5.95), Inches(1.7), Inches(6.383), Inches(4.55))
-tb_cf4 = s4.shapes.add_textbox(Inches(5.95), Inches(6.35), Inches(6.383), Inches(0.3))
-tf_cf4 = tb_cf4.text_frame; tf_cf4.margin_left = tf_cf4.margin_top = tf_cf4.margin_right = tf_cf4.margin_bottom = 0
-p_cf4 = tf_cf4.paragraphs[0]; p_cf4.text = "Chart 3 (EDA Notebook): Neighborhood composition stacked area over time (2017–2025)."; p_cf4.font.name = FONT_BODY; p_cf4.font.size = Pt(8.5); p_cf4.font.color.rgb = COLOR_TEXT_MUTED
+add_image_fitted(s4, "slide_assets/chart7_yoy_hd.png", Inches(5.95), Inches(1.7), Inches(6.383), Inches(4.9))
 
 add_canva_footer(s4, 4, 8)
+
 # =============================================================
 # SLIDE 5: COVID-19 PERIOD IMPACT
 # =============================================================
@@ -213,10 +350,7 @@ for c_head, c_txt in covid_points:
     p_ct = tf_s5.add_paragraph(); p_ct.text = f"  {c_txt}"; p_ct.font.name = FONT_BODY; p_ct.font.size = Pt(9.2); p_ct.font.color.rgb = COLOR_TEXT_DARK; p_ct.space_after = Pt(6)
 
 chart_card_s5 = add_canva_card(s5, Inches(5.75), Inches(1.5), Inches(6.783), Inches(5.25), bg_color=COLOR_CARD_BG)
-add_image_fitted(s5, "slide_assets/chart8_clean_hd.png", Inches(5.95), Inches(1.7), Inches(6.383), Inches(4.55))
-tb_cf5 = s5.shapes.add_textbox(Inches(5.95), Inches(6.35), Inches(6.383), Inches(0.3))
-tf_cf5 = tb_cf5.text_frame; tf_cf5.margin_left = tf_cf5.margin_top = tf_cf5.margin_right = tf_cf5.margin_bottom = 0
-p_cf5 = tf_cf5.paragraphs[0]; p_cf5.text = "Chart 8 (EDA Notebook): Overall monthly count trajectory (2019–2022) with shaded COVID-19 period."; p_cf5.font.name = FONT_BODY; p_cf5.font.size = Pt(8.5); p_cf5.font.color.rgb = COLOR_TEXT_MUTED
+add_image_fitted(s5, "slide_assets/chart8_clean_hd.png", Inches(5.95), Inches(1.7), Inches(6.383), Inches(4.9))
 
 add_canva_footer(s5, 5, 8)
 
@@ -255,12 +389,10 @@ for mo_head, mo_txt in meth_other:
     p_mot = tf_s6.add_paragraph(); p_mot.text = f"  {mo_txt}"; p_mot.font.name = FONT_BODY; p_mot.font.size = Pt(8.8); p_mot.font.color.rgb = COLOR_TEXT_DARK
 
 chart_card_s6 = add_canva_card(s6, Inches(5.75), Inches(1.5), Inches(6.783), Inches(5.25), bg_color=COLOR_CARD_BG)
-add_image_fitted(s6, "slide_assets/chart9_clean_hd.png", Inches(5.95), Inches(1.7), Inches(6.383), Inches(4.55))
-tb_cf6 = s6.shapes.add_textbox(Inches(5.95), Inches(6.35), Inches(6.383), Inches(0.3))
-tf_cf6 = tb_cf6.text_frame; tf_cf6.margin_left = tf_cf6.margin_top = tf_cf6.margin_right = tf_cf6.margin_bottom = 0
-p_cf6 = tf_cf6.paragraphs[0]; p_cf6.text = "Chart 9 (EDA Notebook): Monthly adjustment gap (Adjusted Total - Raw Observed Count) across regimes."; p_cf6.font.name = FONT_BODY; p_cf6.font.size = Pt(8.5); p_cf6.font.color.rgb = COLOR_TEXT_MUTED
+add_image_fitted(s6, "slide_assets/chart9_clean_hd.png", Inches(5.95), Inches(1.7), Inches(6.383), Inches(4.9))
 
 add_canva_footer(s6, 6, 8)
+
 # =============================================================
 # SLIDE 7: HYPOTHESES FOR FURTHER ANALYSIS (Canva 4-Card Grid)
 # =============================================================
@@ -298,9 +430,9 @@ for idx, (h_title, h_sub, h_desc, h_action, h_color) in enumerate(hypotheses):
     row = idx // 2
     col = idx % 2
     c_left = Inches(0.8 + col * 5.95)
-    c_top = Inches(1.5 + row * 2.65)
+    c_top = Inches(1.55 + row * 2.35)
     c_w = Inches(5.783)
-    c_h = Inches(2.5)
+    c_h = Inches(2.05)
     add_canva_card(s7, c_left, c_top, c_w, c_h, bg_color=COLOR_CARD_BG)
     top_bar = s7.shapes.add_shape(MSO_SHAPE.RECTANGLE, c_left + Inches(0.02), c_top + Inches(0.02), c_w - Inches(0.04), Inches(0.06))
     top_bar.fill.solid(); top_bar.fill.fore_color.rgb = h_color; top_bar.line.fill.background()
@@ -320,8 +452,8 @@ s8 = prs.slides.add_slide(blank_layout)
 set_slide_background(s8)
 add_canva_header(s8, "Data Limitations, Governance Caveats & Roadmap Ahead", "Project Roadmap", "08")
 
-card_lim = add_canva_card(s8, Inches(0.8), Inches(1.5), Inches(5.75), Inches(5.25), bg_color=COLOR_CARD_BG)
-tb_s8_l = s8.shapes.add_textbox(Inches(1.05), Inches(1.7), Inches(5.25), Inches(4.85))
+card_lim = add_canva_card(s8, Inches(0.8), Inches(2.4), Inches(5.75), Inches(3.55), bg_color=COLOR_CARD_BG)
+tb_s8_l = s8.shapes.add_textbox(Inches(1.05), Inches(2.6), Inches(5.25), Inches(3.15))
 tf_s8_l = tb_s8_l.text_frame; tf_s8_l.word_wrap = True; tf_s8_l.margin_left = tf_s8_l.margin_top = tf_s8_l.margin_right = tf_s8_l.margin_bottom = 0
 p_s8_lh = tf_s8_l.paragraphs[0]; p_s8_lh.text = "Identified Data Limitations & Biases"; p_s8_lh.font.name = FONT_DISPLAY; p_s8_lh.font.size = Pt(13.5); p_s8_lh.font.bold = True; p_s8_lh.font.color.rgb = COLOR_PRIMARY_NAVY; p_s8_lh.space_after = Pt(6)
 
@@ -335,8 +467,8 @@ for l_head, l_desc in limitations:
     p_lh = tf_s8_l.add_paragraph(); p_lh.text = f"• {l_head}:"; p_lh.font.name = FONT_BODY; p_lh.font.size = Pt(10); p_lh.font.bold = True; p_lh.font.color.rgb = COLOR_RED
     p_ld = tf_s8_l.add_paragraph(); p_ld.text = f"  {l_desc}"; p_ld.font.name = FONT_BODY; p_ld.font.size = Pt(9.2); p_ld.font.color.rgb = COLOR_TEXT_DARK; p_ld.space_after = Pt(5)
 
-card_nxt = add_canva_card(s8, Inches(6.783), Inches(1.5), Inches(5.75), Inches(5.25), bg_color=COLOR_CARD_BG)
-tb_s8_r = s8.shapes.add_textbox(Inches(7.033), Inches(1.7), Inches(5.25), Inches(4.85))
+card_nxt = add_canva_card(s8, Inches(6.783), Inches(2.4), Inches(5.75), Inches(3.55), bg_color=COLOR_CARD_BG)
+tb_s8_r = s8.shapes.add_textbox(Inches(7.033), Inches(2.6), Inches(5.25), Inches(3.15))
 tf_s8_r = tb_s8_r.text_frame; tf_s8_r.word_wrap = True; tf_s8_r.margin_left = tf_s8_r.margin_top = tf_s8_r.margin_right = tf_s8_r.margin_bottom = 0
 p_s8_rh = tf_s8_r.paragraphs[0]; p_s8_rh.text = "Roadmap Ahead: Assignment 3 Integration"; p_s8_rh.font.name = FONT_DISPLAY; p_s8_rh.font.size = Pt(13.5); p_s8_rh.font.bold = True; p_s8_rh.font.color.rgb = COLOR_PRIMARY_NAVY; p_s8_rh.space_after = Pt(6)
 
@@ -359,6 +491,4 @@ try:
 except PermissionError:
     output_path = os.path.join(r"D:\Projects\Downtown-Homeless-Analysis", "EDA_Presentation_v2.pptx")
     prs.save(output_path)
-    print(f"SUCCESS (Fallback): Saved Canva-themed presentation to {output_path}")
-print(f"Slide count: {len(prs.slides)}")
-print(f"File size: {os.path.getsize(output_path)} bytes")
+    print(f"SUCCESS (Fallback): Saved Canva-themed presentation to {output_path} (EDA_Presentation.pptx was locked)")
