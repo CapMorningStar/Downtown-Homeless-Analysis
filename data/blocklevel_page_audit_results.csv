@@ -1,0 +1,88 @@
+count_date,neighborhood,printed_individuals,printed_tents,printed_vehicles,csv_individuals,csv_tents,csv_vehicles,match,notes
+2018-01-24,Cortez,56,3,0,56,3,0,Y,
+2018-01-24,Columbia,32,10,0,32,10,0,Y,
+2018-01-24,Marina,26,2,1,26,2,1,Y,
+2018-01-24,Gaslamp,44,0,0,44,0,0,Y,
+2018-01-24,East Village,326,84,13,326,84,13,Y,page1 grand total already covers East Village + South East Village combined
+2018-01-24,City Center,109,8,0,110,8,0,N,+1 individual discrepancy in CSV vs printed page; tents/vehicles match exactly; arithmetic on page checks out (109+14+0=123)
+2018-02-21,Cortez,53,1,1,53,1,0,N,+1 vehicle in printed page vs CSV; individuals/tents match exactly; arithmetic on page checks out (53+1.66+1.75=56.41)
+2018-02-21,Columbia,30,16,0,30,16,0,Y,
+2018-02-21,Marina,27,2,2,27,2,2,Y,
+2018-02-21,Gaslamp,84,0,0,84,0,0,Y,
+2018-02-21,East Village,281,90,18,282,89,18,N,page1 total vs full CSV East Village (incl. South East Village); -1 individual / +1 tent net-zero discrepancy; vehicles match exactly
+2018-02-21,City Center,137,10,1,137,10,1,Y,
+2019-01-31,East Village,384,83,7,378,83,7,N,+6 individuals in printed page vs CSV; tents/vehicles match exactly; arithmetic on page checks out (384+14.21+145.25=543.46)
+2019-01-31,City Center,100,18,0,100,18,0,Y,
+2019-01-31,Columbia,27,15,0,27,15,0,Y,
+2019-01-31,Marina,32,14,0,32,14,0,Y,
+2019-01-31,Cortez,47,4,0,47,4,0,Y,
+2019-01-31,Gaslamp,55,2,0,55,2,0,Y,
+2020-01-31,East Village,377,40,10,379,37,10,N,-2 individuals / +3 tents vs CSV; vehicles match exactly; arithmetic on page checks out (377+20.3+70=467.3)
+2020-01-31,City Center,112,8,0,113,8,0,N,-1 individual vs CSV; tents/vehicles match exactly
+2020-01-31,Columbia,32,5,0,32,5,0,Y,
+2020-01-31,Marina,41,3,1,41,3,1,Y,
+2020-01-31,Cortez,37,4,2,37,4,2,Y,
+2020-01-31,Gaslamp,57,1,0,57,1,0,Y,
+2020-02-26,East Village,334,36,6,334,36,6,Y,
+2020-02-26,City Center,142,10,0,144,8,1,N,Multi-field discrepancy: -2 individuals / +2 tents / -1 vehicle vs CSV; arithmetic on page checks out (142+0+17.5=159.5)
+2020-02-26,Columbia,36,6,0,36,6,0,Y,
+2020-02-26,Marina,23,1,1,23,1,1,Y,
+2020-02-26,Cortez,42,4,0,42,4,0,Y,
+2020-02-26,Gaslamp,48,2,0,48,2,0,Y,
+2021-01-28,East Village,198,116,4,201,111,4,N,-3 individuals / +5 tents vs CSV; vehicles match exactly; arithmetic on page checks out (198+8.12+203=409.12)
+2021-01-28,City Center,123,16,1,123,16,1,Y,
+2021-01-28,Columbia,44,6,0,44,6,0,Y,
+2021-01-28,Marina,13,4,0,13,4,0,Y,
+2021-01-28,Cortez,26,12,0,34,4,0,N,-8 individuals / +8 tents vs CSV (large; exact offset); arithmetic on page checks out (26+21=47); same individual-deficit/tent-surplus pattern as East Village this date
+2021-01-28,Gaslamp,29,1,0,29,1,0,Y,
+2021-02-25,East Village,163,105,17,167,109,13,N,-4 individuals / -4 tents / +4 vehicles vs CSV; arithmetic on page checks out (163+34.51+183.75=381.26)
+2021-02-25,City Center,104,18,2,104,19,0,N,individuals match exactly; -1 tent / +2 vehicles vs CSV; arithmetic on page checks out with vehicle count=2 (104+4.06+31.5=139.56)
+2021-02-25,Columbia,31,8,1,31,8,1,Y,
+2021-02-25,Marina,17,4,0,17,4,0,Y,
+2021-02-25,Cortez,32,7,0,35,7,0,N,-3 individuals vs CSV; tents/vehicles match exactly; arithmetic on page checks out (32+12.25=44.25)
+2021-02-25,Gaslamp,31,1,0,30,1,0,N,+1 individual vs CSV; tent/vehicle match exactly; arithmetic on page checks out with individual count=31 (31+1.75=32.75)
+2022-01-27,Columbia,49,7,0,49,7,0,Y,
+2022-01-27,City Center,127,48,1,127,48,1,Y,
+2022-01-27,Cortez,37,28,3,37,28,3,Y,
+2022-01-27,East Village,256,225,14,256,225,14,Y,page4 (East Village North) total alone matches full CSV East Village total
+2022-01-27,Gaslamp,60,2,0,61,1,0,N,-1 individual / +1 tent vs CSV; vehicles match exactly; arithmetic on page checks out (60+3.5=63.5)
+2022-01-27,Marina,24,9,1,24,9,1,Y,
+2022-01-27,Barrio Logan,26,103,3,26,103,3,Y,page labeled Barrio Logan (North) but total matches full CSV neighborhood total
+2022-01-27,Golden Hill,2,6,0,2,6,0,Y,page labeled Golden Hill (West) but total matches full CSV neighborhood total
+2022-01-27,Sherman Heights,2,14,4,2,14,4,Y,
+2022-03-01,Columbia,45,10,0,55,9,0,N,-10 individuals / +1 tent vs CSV; arithmetic on page checks out (45+17.5=62.5); page dated 3/29/22 (not 3/1)
+2022-03-01,City Center,97,67,0,100,48,1,N,-3 individuals / +19 tents / -1 vehicle vs CSV; arithmetic on page checks out (97+117.25=214.25); page dated 3/24/22 (not 3/1)
+2022-03-01,Cortez,24,7,0,43,39,2,N,LARGE gap: -19 individuals / -32 tents / -2 vehicles vs CSV; arithmetic on page checks out (24+12.25=36.25); page dated 3/24/22 (not 3/1); map itself appears sparsely filled
+2022-03-01,Gaslamp,66,2,0,37,1,1,N,LARGE gap: +29 individuals vs CSV; arithmetic on page checks out (66+3.5=69.5)
+2022-03-01,East Village,248,200,12,281,232,20,N,East Village (North) page alone is -33 individuals/-32 tents/-8 vehicles vs full CSV total; East Village South page for this date has no legible printed Count Breakdown table to confirm whether it accounts for the gap -- unresolved; needs follow-up
+2022-03-01,Marina,28,5,0,16,1,0,N,+12 individuals / +4 tents vs CSV; arithmetic on page checks out (28+8.75=36.75)
+2022-03-01,Barrio Logan,18,128,1,66,70,0,N,LARGE gap; different pattern than Jan: -48 individuals / +58 tents / +1 vehicle vs CSV; page labeled (North) only; no separate South page found in this PDF unlike Jan 2022
+2022-03-01,Golden Hill,0,3,0,1,0,0,N,-1 individual / +3 tents vs CSV
+2022-03-01,Sherman Heights,15,44,1,8,21,0,N,LARGE gap: +7 individuals / +23 tents / +1 vehicle vs CSV
+2023-01-31,Columbia,29,3,1,29,3,1,Y,
+2023-01-31,City Center,111,91,0,111,91,0,Y,
+2023-01-31,Cortez,30,51,5,30,51,5,Y,
+2023-01-31,East Village,201,310,25,201,319,25,N,Individuals and vehicles match exactly; tent count reading (~310) has low confidence due to messy handwriting/arithmetic ambiguity on this page -- likely close to CSV's 319; not confirmed as a real discrepancy
+2023-01-31,Gaslamp,42,2,0,42,2,0,Y,
+2023-01-31,Marina,12,4,2,12,4,2,Y,
+2023-01-31,Barrio Logan,12,217,10,12,217,10,Y,
+2023-01-31,Sherman Heights,4,93,9,4,93,9,Y,
+2023-01-31,Golden Hill,10,18,1,10,18,1,Y,
+2024-01-25,East Village,247,150,10,250,150,7,N,-3 individuals / +3 vehicles vs CSV; tents match exactly; arithmetic on page checks out (247+20.3+262.5=529.8)
+2024-01-25,Gaslamp,47,0,0,47,0,0,Y,
+2024-01-25,Cortez,45,59,3,47,60,3,N,-2 individuals / -1 tent vs CSV; vehicles match exactly; arithmetic on page checks out (45+6.09+103.25=154.34)
+2024-01-25,Marina,12,4,0,12,4,0,Y,
+2024-01-25,Columbia,23,6,0,23,6,0,Y,
+2024-01-25,City Center,131,38,0,131,38,0,Y,
+2024-01-25,Sherman Heights,,,,2,1,6,UNVERIFIED,Page has scattered hand marks but no printed Count Breakdown table for this date -- cannot reliably total without cell-by-cell tally
+2024-01-25,Barrio Logan,,,,1,0,0,UNVERIFIED,Page appears blank/unmarked for this date; no printed total to cross-check against CSV's small nonzero value
+2024-01-25,Golden Hill,,,,1,11,0,UNVERIFIED,Page has scattered hand marks but no printed Count Breakdown table for this date -- cannot reliably total without cell-by-cell tally
+2025-01-31,East Village,245,104,4,245,104,4,Y,Page shows preparer's own crossed-out/corrected tally (draft tent=208 vehicle=8 total=625 struck through; corrected to tent=104 vehicle=4 total=435); corrected values match CSV exactly
+2025-01-31,Cortez,44,2,1,44,2,1,Y,
+2025-01-31,Columbia,32,3,0,31,3,0,N,+1 individual vs CSV; tents/vehicles match exactly
+2025-01-31,Marina,17,0,0,17,0,0,Y,
+2025-01-31,City Center,165,8,0,170,8,0,N,-5 individuals vs CSV; tents/vehicles match exactly; arithmetic on page checks out (165+14=179)
+2025-01-31,Gaslamp,41,0,0,41,0,0,Y,
+2025-01-31,Barrio Logan,,,,5,11,2,UNVERIFIED,Page has scattered hand marks but no printed Count Breakdown table for this date
+2025-01-31,Sherman Heights,,,,3,12,4,UNVERIFIED,Page has scattered hand marks but no printed Count Breakdown table for this date
+2025-01-31,Golden Hill,,,,3,12,0,UNVERIFIED,Page has scattered hand marks but no printed Count Breakdown table for this date

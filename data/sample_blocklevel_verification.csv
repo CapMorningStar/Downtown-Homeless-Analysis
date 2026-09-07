@@ -1,0 +1,49 @@
+block_id,neighborhood,source_neighborhood,count_date,individuals,tents_structures,vehicles,source_individuals,source_tents_structures,source_vehicles,match,notes,st_north,st_east,st_south,st_west
+01ST_AV_I-5_SB,Cortez,Cortez,2018-01-24,0,0,0,,,,,,I-5_SB,01ST_AV,W_CEDAR_ST,FRONT_ST
+06TH_AV_BROADWAY,Gaslamp,Gaslamp,2018-01-24,2,0,0,,,,,,BROADWAY,06TH_AV,E_ST,05TH_AV
+09TH_AV_C_ST,City Center,City Center,2018-01-24,2,2,0,,,,,,C_ST,09TH_AV,BROADWAY,08TH_AV
+15TH_ST_G_ST,East Village,East Village,2018-01-24,4,0,0,,,,,,G_ST,15TH_ST,MARKET_ST,14TH_ST
+01ST_AV_I-5_SB,Cortez,Cortez,2018-02-21,0,0,0,,,,,,I-5_SB,01ST_AV,W_CEDAR_ST,FRONT_ST
+06TH_AV_BROADWAY,Gaslamp,Gaslamp,2018-02-21,6,0,0,,,,,,BROADWAY,06TH_AV,E_ST,05TH_AV
+08TH_AV_B_ST,City Center,City Center,2018-02-21,0,0,0,,,,,,B_ST,08TH_AV,C_ST,07TH_AV
+15TH_ST_BROADWAY,East Village,East Village,2018-02-21,2,0,0,,,,,,BROADWAY,15TH_ST,E_ST,14TH_ST
+01ST_AV_I-5_SB,Cortez,Cortez,2019-01-31,0,0,0,,,,,,I-5_SB,01ST_AV,W_CEDAR_ST,FRONT_ST
+06TH_AV_BROADWAY,Gaslamp,Gaslamp,2019-01-31,4,0,0,,,,,,BROADWAY,06TH_AV,E_ST,05TH_AV
+08TH_AV_B_ST,City Center,City Center,2019-01-31,0,0,0,,,,,,B_ST,08TH_AV,C_ST,07TH_AV
+15TH_ST_BROADWAY,East Village,East Village,2019-01-31,0,0,0,,,,,,BROADWAY,15TH_ST,E_ST,14TH_ST
+01ST_AV_I-5_SB,Cortez,Cortez,2020-01-31,1,0,0,,,,,,I-5_SB,01ST_AV,W_CEDAR_ST,FRONT_ST
+06TH_AV_BROADWAY,Gaslamp,Gaslamp,2020-01-31,3,0,0,,,,,,BROADWAY,06TH_AV,E_ST,05TH_AV
+08TH_AV_B_ST,City Center,City Center,2020-01-31,2,0,0,,,,,,B_ST,08TH_AV,C_ST,07TH_AV
+15TH_ST_BROADWAY,East Village,East Village,2020-01-31,0,0,0,,,,,,BROADWAY,15TH_ST,E_ST,14TH_ST
+01ST_AV_I-5_SB,Cortez,Cortez,2020-02-26,0,0,0,,,,,,I-5_SB,01ST_AV,W_CEDAR_ST,FRONT_ST
+06TH_AV_BROADWAY,Gaslamp,Gaslamp,2020-02-26,0,0,0,,,,,,BROADWAY,06TH_AV,E_ST,05TH_AV
+08TH_AV_B_ST,City Center,City Center,2020-02-26,0,0,0,,,,,,B_ST,08TH_AV,C_ST,07TH_AV
+15TH_ST_BROADWAY,East Village,East Village,2020-02-26,1,0,0,,,,,,BROADWAY,15TH_ST,E_ST,14TH_ST
+01ST_AV_I-5_SB,Cortez,Cortez,2021-01-28,0,0,0,,,,,,I-5_SB,01ST_AV,W_CEDAR_ST,FRONT_ST
+06TH_AV_BROADWAY,Gaslamp,Gaslamp,2021-01-28,1,0,0,,,,,,BROADWAY,06TH_AV,E_ST,05TH_AV
+08TH_AV_B_ST,City Center,City Center,2021-01-28,1,0,0,,,,,,B_ST,08TH_AV,C_ST,07TH_AV
+15TH_ST_BROADWAY,East Village,East Village,2021-01-28,0,0,0,,,,,,BROADWAY,15TH_ST,E_ST,14TH_ST
+01ST_AV_I-5_SB,Cortez,Cortez,2021-02-25,0,0,0,,,,,,I-5_SB,01ST_AV,W_CEDAR_ST,FRONT_ST
+06TH_AV_BROADWAY,Gaslamp,Gaslamp,2021-02-25,1,0,0,,,,,,BROADWAY,06TH_AV,E_ST,05TH_AV
+08TH_AV_B_ST,City Center,City Center,2021-02-25,1,0,0,,,,,,B_ST,08TH_AV,C_ST,07TH_AV
+15TH_ST_BROADWAY,East Village,East Village,2021-02-25,0,1,0,,,,,,BROADWAY,15TH_ST,E_ST,14TH_ST
+11TH_AV_MARKET_ST,East Village,South East Village,2022-01-27,4,0,0,,,,,,MARKET_ST,11TH_AV,ISLAND_AV,10TH_AV
+16TH_ST_J_ST,East Village,South East Village,2022-01-27,5,3,0,,,,,,J_ST,16TH_ST,K_ST,15TH_ST
+25TH_ST_RUSS_BL,Golden Hill,Golden Hill,2022-01-27,0,0,0,,,,,,RUSS_BL,25TH_ST,A_ST,24TH_ST
+SAMPSON_ST_MAIN_ST,Barrio Logan,Barrio Logan,2022-01-27,0,0,0,,,,,,MAIN_ST,SAMPSON_ST,HARBOR_DR,S_EVANS_ST
+11TH_AV_MARKET_ST,East Village,South East Village,2022-03-01,0,0,0,,,,,,MARKET_ST,11TH_AV,ISLAND_AV,10TH_AV
+16TH_ST_J_ST,East Village,South East Village,2022-03-01,8,5,0,,,,,,J_ST,16TH_ST,K_ST,15TH_ST
+25TH_ST_RUSS_BL,Golden Hill,Golden Hill,2022-03-01,0,0,0,,,,,,RUSS_BL,25TH_ST,A_ST,24TH_ST
+SAMPSON_ST_MAIN_ST,Barrio Logan,Barrio Logan,2022-03-01,0,0,0,,,,,,MAIN_ST,SAMPSON_ST,HARBOR_DR,S_EVANS_ST
+11TH_AV_MARKET_ST,East Village,South East Village,2023-01-31,0,0,0,,,,,,MARKET_ST,11TH_AV,ISLAND_AV,10TH_AV
+16TH_ST_J_ST,East Village,South East Village,2023-01-31,0,9,0,,,,,,J_ST,16TH_ST,K_ST,15TH_ST
+25TH_ST_RUSS_BL,Golden Hill,Golden Hill,2023-01-31,0,0,0,,,,,,RUSS_BL,25TH_ST,A_ST,24TH_ST
+Map_Border_Map_Border,Barrio Logan,Barrio Logan,2023-01-31,0,0,0,,,,,,Map_Border,Map_Border,SIGSBEE_ST,HARBOR_DR
+11TH_AV_MARKET_ST,East Village,South East Village,2024-01-25,0,0,0,,,,,,MARKET_ST,11TH_AV,ISLAND_AV,10TH_AV
+16TH_ST_J_ST,East Village,South East Village,2024-01-25,5,2,0,,,,,,J_ST,16TH_ST,K_ST,15TH_ST
+25TH_ST_RUSS_BL,Golden Hill,Golden Hill,2024-01-25,0,0,0,,,,,,RUSS_BL,25TH_ST,A_ST,24TH_ST
+Map_Border_Map_Border,Barrio Logan,Barrio Logan,2024-01-25,0,0,0,,,,,,Map_Border,Map_Border,SIGSBEE_ST,HARBOR_DR
+11TH_AV_MARKET_ST,East Village,South East Village,2025-01-31,0,0,0,,,,,,MARKET_ST,11TH_AV,ISLAND_AV,10TH_AV
+16TH_ST_J_ST,East Village,South East Village,2025-01-31,5,3,0,,,,,,J_ST,16TH_ST,K_ST,15TH_ST
+25TH_ST_RUSS_BL,Golden Hill,Golden Hill,2025-01-31,0,0,0,,,,,,RUSS_BL,25TH_ST,A_ST,24TH_ST
+Map_Border_Map_Border,Barrio Logan,Barrio Logan,2025-01-31,0,0,0,,,,,,Map_Border,Map_Border,SIGSBEE_ST,HARBOR_DR

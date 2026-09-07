@@ -1,0 +1,88 @@
+count_date,neighborhood,individuals,tents_structures,vehicles
+2018-01-24,City Center,110,8,0
+2018-01-24,Columbia,32,10,0
+2018-01-24,Cortez,56,3,0
+2018-01-24,East Village,326,84,13
+2018-01-24,Gaslamp,44,0,0
+2018-01-24,Marina,26,2,1
+2018-02-21,City Center,137,10,1
+2018-02-21,Columbia,30,16,0
+2018-02-21,Cortez,53,1,0
+2018-02-21,East Village,282,89,18
+2018-02-21,Gaslamp,84,0,0
+2018-02-21,Marina,27,2,2
+2019-01-31,City Center,100,18,0
+2019-01-31,Columbia,27,15,0
+2019-01-31,Cortez,47,4,0
+2019-01-31,East Village,378,83,7
+2019-01-31,Gaslamp,55,2,0
+2019-01-31,Marina,32,14,0
+2020-01-31,City Center,113,8,0
+2020-01-31,Columbia,32,5,0
+2020-01-31,Cortez,37,4,2
+2020-01-31,East Village,379,37,10
+2020-01-31,Gaslamp,57,1,0
+2020-01-31,Marina,41,3,1
+2020-02-26,City Center,144,8,1
+2020-02-26,Columbia,36,6,0
+2020-02-26,Cortez,42,4,0
+2020-02-26,East Village,334,36,6
+2020-02-26,Gaslamp,48,2,0
+2020-02-26,Marina,23,1,1
+2021-01-28,City Center,123,16,1
+2021-01-28,Columbia,44,6,0
+2021-01-28,Cortez,34,4,0
+2021-01-28,East Village,201,111,4
+2021-01-28,Gaslamp,29,1,0
+2021-01-28,Marina,13,4,0
+2021-02-25,City Center,104,19,0
+2021-02-25,Columbia,31,8,1
+2021-02-25,Cortez,35,7,0
+2021-02-25,East Village,167,109,13
+2021-02-25,Gaslamp,30,1,0
+2021-02-25,Marina,17,4,0
+2022-01-27,Barrio Logan,26,103,3
+2022-01-27,City Center,127,48,1
+2022-01-27,Columbia,49,7,0
+2022-01-27,Cortez,37,28,3
+2022-01-27,East Village,256,225,14
+2022-01-27,Gaslamp,61,1,0
+2022-01-27,Golden Hill,2,6,0
+2022-01-27,Marina,24,9,1
+2022-01-27,Sherman Heights,2,14,4
+2022-03-01,Barrio Logan,66,70,0
+2022-03-01,City Center,100,48,1
+2022-03-01,Columbia,55,9,0
+2022-03-01,Cortez,43,39,2
+2022-03-01,East Village,281,232,20
+2022-03-01,Gaslamp,37,1,1
+2022-03-01,Golden Hill,1,0,0
+2022-03-01,Marina,16,1,0
+2022-03-01,Sherman Heights,8,21,0
+2023-01-31,Barrio Logan,12,217,10
+2023-01-31,City Center,111,91,0
+2023-01-31,Columbia,29,3,1
+2023-01-31,Cortez,30,51,5
+2023-01-31,East Village,201,319,25
+2023-01-31,Gaslamp,42,2,0
+2023-01-31,Golden Hill,10,18,1
+2023-01-31,Marina,12,4,2
+2023-01-31,Sherman Heights,4,93,9
+2024-01-25,Barrio Logan,1,0,0
+2024-01-25,City Center,131,38,0
+2024-01-25,Columbia,23,6,0
+2024-01-25,Cortez,47,60,3
+2024-01-25,East Village,250,150,7
+2024-01-25,Gaslamp,47,0,0
+2024-01-25,Golden Hill,1,11,0
+2024-01-25,Marina,12,4,0
+2024-01-25,Sherman Heights,2,1,6
+2025-01-31,Barrio Logan,5,11,2
+2025-01-31,City Center,170,8,0
+2025-01-31,Columbia,31,3,0
+2025-01-31,Cortez,44,2,1
+2025-01-31,East Village,245,104,4
+2025-01-31,Gaslamp,41,0,0
+2025-01-31,Golden Hill,3,12,0
+2025-01-31,Marina,17,0,0
+2025-01-31,Sherman Heights,3,12,4
