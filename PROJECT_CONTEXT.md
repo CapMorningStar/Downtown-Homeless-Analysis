@@ -25,6 +25,10 @@
   [Shared Deliverables Folder (UC San Diego Account /u/2/)](https://drive.google.com/drive/u/2/folders/1LUWFhKsbER-XSY8VJFVdt0cgVeuaQ6Ek)
 * **Google Drive - Assignment 1 Subfolder:**  
   [Assignment 1 - Data Validation, Cleaning & Standardization](https://drive.google.com/drive/u/2/folders/1qkwbmPe87IRlsnm1cJMub5NNMsWvukLH)
+* **Google Drive - Assignment 2 Subfolder:**  
+  [Assignment 2 - Exploratory Data Analysis](https://drive.google.com/drive/folders/1DNw_C0_HmjRWqwFFUE4aTTYQ9NNswiC1)
+* **Google Drive - Assignment 3 Subfolder:**  
+  [Assignment 3 - Block-Level Validation & Spatial Integration](https://drive.google.com/drive/folders/1Sj6Ly7BYi_nw69Tyix0IpHKUNyhTbBnm)
 * **Source PDF Archive (Downtown San Diego Partnership):**  
   [DSDP Clean & Safe Unhoused Care Reports](https://downtownsandiego.org/clean-and-safe/unhoused-care/)
 * **Local Project Root:** `D:\Projects\Downtown-Homeless-Analysis\`
@@ -38,7 +42,7 @@
 | :---: | :--- | :---: | :--- |
 | **1** | **Data Validation, Cleaning & Standardization** | **COMPLETED (100% - Tasks 1.1–1.4)** | Source audit, schema standardization, methodology fixes, data dictionary, methodology log, quality report. |
 | **2** | **Exploratory Data Analysis (EDA)** | **COMPLETED (100% - Tasks 2.1-2.3)** | Descriptive stats, multi-year trends, visualizations, presentations. |
-| **3** | **Block-Level Validation & Spatial Integration** | Queued | Validate digitized block counts against 12 PDF maps, fix unbalanced spatial panel. |
+| **3** | **Block-Level Validation & Spatial Integration** | **IN PROGRESS (25% - Task 3.1 done)** | Validate digitized block counts against 12 PDF maps, fix unbalanced spatial panel. |
 | **4** | **Time Series Decomposition & Pattern Analysis** | Queued | Trend/seasonal/residual decomposition, structural breaks, stationarity tests. |
 | **5** | **Geospatial Hotspot Analysis** | Queued | Getis-Ord Gi*, Moran's I, spatial clustering on `Downtown_BlockGrid.geojson`. |
 | **6** | **Methodology Impact Assessment** | Queued | Quasi-experimental policy evaluation, continuous weighting models. |
@@ -208,7 +212,15 @@ D:\Projects\Downtown-Homeless-Analysis\
     - Slide deck: built by Antigravity (8 slides) from a self-contained master prompt, then reviewed and corrected before acceptance -- found and fixed a real bug where Charts 1/3/9 plotted unreleased 2025 months (nulls) as zero instead of excluding them, creating a misleading crash-to-zero visual; regenerated those 3 charts from source data with nulls properly excluded, swapped Slide 4's chart from composition to YoY-by-neighborhood to match its text, removed decorative arrow glyphs, fixed image aspect-ratio distortion, re-embedded at 200 DPI. Cleaned up Antigravity's intermediate build artifacts before committing.
     - All 3 deliverables ([`EDA_SummaryReport.md`](file:///D:/Projects/Downtown-Homeless-Analysis/EDA_SummaryReport.md), [`EDA_DowntownCounts.pdf`](file:///D:/Projects/Downtown-Homeless-Analysis/EDA_DowntownCounts.pdf), [`EDA_Presentation.pptx`](file:///D:/Projects/Downtown-Homeless-Analysis/EDA_Presentation.pptx)) uploaded to Drive folder `Assignment 2 - Exploratory Data Analysis`.
   * **Task 2.3: Produce summary report and presentation** (`EDA_SummaryReport` doc, PDF export, slides)
-* **Assignment 3: Block-Level Data Validation & Spatial Integration** (Tasks 3.1–3.4)
+* **Assignment 3: Block-Level Data Validation & Spatial Integration** (Tasks 3.1–3.4) — IN PROGRESS
+  * **Task 3.1: Validate block-level counts against source maps** (COMPLETED)
+    - **Source-map coverage gap closed:** Only 5 of the 12 required monthly map PDFs were cached at task start; downloaded the 7 missing packets (Jan 2019, Jan 2020, Jan 2021, Jan 2022, Jan 2023, Jan 2024, Jan 2025) from the DSDP archive and verified each as genuine before use.
+    - **Audit methodology revised mid-task:** A cell-level visual re-read (10% stratified sample, 372 rows, then reduced to 48) was abandoned as unreliable on rotated/handwritten scans after repeated cropping attempts failed to pinpoint individual cells with confidence. Redesigned around each page's printed "Count Breakdown" total (self-checkable via `Total = Individual + Vehicle×multiplier + Tent×multiplier`), cross-checked against the digitized neighborhood-month aggregate.
+    - **Results:** 87 neighborhood×date cells audited across all 12 dates. 53 exact matches (65.4% of 81 verifiable cells; 73.6% excluding the 2022-03-01 anomaly), 28 discrepancies (nearly all small, ±1 to ±8 units), 6 unverifiable (no legible printed total).
+    - **Major finding — 2022-03-01 anomaly:** This single date accounts for 9 of the 28 discrepancies with much larger gaps (10–60+ units) than any other date. Source pages carry inconsistent handwritten dates (3/24/22 vs. 3/29/22) within the same PDF, neither matching the CSV's normalized `2022-03-01` label — flagged for follow-up before use in Assignment 4/5 modeling.
+    - **Null resolved:** The one null in `tents_structures` (`16TH_ST_C_ST`, 2020-01-31, row 930) was confirmed a true zero by checking the actual source map — the corresponding grid cell is completely blank, consistent with 0/0/0 on all 11 other dates for that block.
+    - **Implausibility screen:** 0 negative values; 136 of 622 rows (21.9%) with a tent/vehicle present record zero individuals (expected per counting methodology, concentrated in East Village); 19 rows flagged as recurring high-concentration blocks (`17TH_ST_K_ST`, `PARK_BL_J_ST`, `15TH_ST_IMPERIAL_AV` in East Village; `03RD_AV_A_ST` in City Center) — candidate hotspots for Assignment 5.
+    - **Deliverable:** [`BlockDigitization_ValidationReport.md`](file:///D:/Projects/Downtown-Homeless-Analysis/BlockDigitization_ValidationReport.md), plus `data/blocklevel_page_audit_results.csv`, `data/sample_blocklevel_verification.csv`, `data/blocklevel_neighborhood_totals.csv`, and `build_blocklevel_sample.py`. Uploaded as a Google Doc to Drive folder `Assignment 3 - Block-Level Validation & Spatial Integration` (newly created).
 * **Assignment 4: Time Series Decomposition & Pattern Analysis** (Tasks 4.1–4.4)
 * **Assignment 5: Geospatial Hotspot Analysis** (Tasks 5.1–5.4)
 * **Assignment 6: Methodology Impact Assessment** (Tasks 6.1–6.3)
