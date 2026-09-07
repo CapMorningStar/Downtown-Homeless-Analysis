@@ -42,7 +42,7 @@
 | :---: | :--- | :---: | :--- |
 | **1** | **Data Validation, Cleaning & Standardization** | **COMPLETED (100% - Tasks 1.1–1.4)** | Source audit, schema standardization, methodology fixes, data dictionary, methodology log, quality report. |
 | **2** | **Exploratory Data Analysis (EDA)** | **COMPLETED (100% - Tasks 2.1-2.3)** | Descriptive stats, multi-year trends, visualizations, presentations. |
-| **3** | **Block-Level Validation & Spatial Integration** | **IN PROGRESS (25% - Task 3.1 done)** | Validate digitized block counts against 12 PDF maps, fix unbalanced spatial panel. |
+| **3** | **Block-Level Validation & Spatial Integration** | **IN PROGRESS (50% - Tasks 3.1-3.2 done)** | Validate digitized block counts against 12 PDF maps, fix unbalanced spatial panel. |
 | **4** | **Time Series Decomposition & Pattern Analysis** | Queued | Trend/seasonal/residual decomposition, structural breaks, stationarity tests. |
 | **5** | **Geospatial Hotspot Analysis** | Queued | Getis-Ord Gi*, Moran's I, spatial clustering on `Downtown_BlockGrid.geojson`. |
 | **6** | **Methodology Impact Assessment** | Queued | Quasi-experimental policy evaluation, continuous weighting models. |
@@ -221,6 +221,12 @@ D:\Projects\Downtown-Homeless-Analysis\
     - **Null resolved:** The one null in `tents_structures` (`16TH_ST_C_ST`, 2020-01-31, row 930) was confirmed a true zero by checking the actual source map — the corresponding grid cell is completely blank, consistent with 0/0/0 on all 11 other dates for that block.
     - **Implausibility screen:** 0 negative values; 136 of 622 rows (21.9%) with a tent/vehicle present record zero individuals (expected per counting methodology, concentrated in East Village); 19 rows flagged as recurring high-concentration blocks (`17TH_ST_K_ST`, `PARK_BL_J_ST`, `15TH_ST_IMPERIAL_AV` in East Village; `03RD_AV_A_ST` in City Center) — candidate hotspots for Assignment 5.
     - **Deliverable:** [`BlockDigitization_ValidationReport.md`](file:///D:/Projects/Downtown-Homeless-Analysis/BlockDigitization_ValidationReport.md), plus `data/blocklevel_page_audit_results.csv`, `data/sample_blocklevel_verification.csv`, `data/blocklevel_neighborhood_totals.csv`, and `build_blocklevel_sample.py`. Uploaded as a Google Doc to Drive folder `Assignment 3 - Block-Level Validation & Spatial Integration` (newly created).
+  * **Task 3.2: Verify block grid integrity and spatial joins** (COMPLETED)
+    - **ID integrity:** 382 unique `block_id` in both `Downtown_BlockGrid_clean.csv` and `Downtown_BlockGrid.geojson`, identical sets, zero orphans in either join direction against `BlockLevel_Counts_clean.csv`. Full attribute agreement between the two files once compared against the correct columns (`source_neighborhood` in the CSV vs. the GeoJSON's `neighborhood` property — a naming difference, not a data error).
+    - **Polygon geometry (shapely):** 0 invalid geometries, 0 unclosed rings, 0 zero-area features, 0 unintended overlaps across all 382 polygons.
+    - **Centroid containment:** 380/382 blocks have their stated centroid inside their own polygon and inside their neighborhood's convex hull. The 2 exceptions (`22ND_ST_BROADWAY`, `22ND_ST_SR-94_EB_ON_RA`) are complex non-convex freeway-interchange parcels (110+ vertices) where the centroid sits ~7-12m outside the polygon due to concavity — matches the true polygon centroid almost exactly, not a data error.
+    - **Boundary-street consistency:** 326/382 blocks have all 4 sides matching a plausible neighbor block's opposite boundary street; the remaining 56 have 2-3/4, and every one of those is a genuine study-area edge (Outside Perimeter, Map_Border, freeway ramps, waterfront) rather than a defect.
+    - **Deliverable:** `data/BlockGrid_GeometryValidation.csv` (382 rows, one per block, all check results + overall pass/fail flag — 380/382 pass everything). Uploaded to Drive folder `Assignment 3 - Block-Level Validation & Spatial Integration` (trimmed to the essential pass/fail columns for the Drive copy; full-precision version with geometry diagnostics kept in the repo).
 * **Assignment 4: Time Series Decomposition & Pattern Analysis** (Tasks 4.1–4.4)
 * **Assignment 5: Geospatial Hotspot Analysis** (Tasks 5.1–5.4)
 * **Assignment 6: Methodology Impact Assessment** (Tasks 6.1–6.3)
