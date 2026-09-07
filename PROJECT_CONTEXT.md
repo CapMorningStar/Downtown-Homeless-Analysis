@@ -32,7 +32,7 @@
 * **Source PDF Archive (Downtown San Diego Partnership):**  
   [DSDP Clean & Safe Unhoused Care Reports](https://downtownsandiego.org/clean-and-safe/unhoused-care/)
 * **Local Project Root:** `D:\Projects\Downtown-Homeless-Analysis\`
-* **Python Environment:** Python 3.13 (`pandas`, `numpy`, `matplotlib`, `seaborn`, `plotly`, `pypdf`, `PIL`, `cv2` installed).
+* **Python Environment:** Python 3.13 (`pandas`, `numpy`, `matplotlib`, `seaborn`, `plotly`, `pypdf`, `pymupdf`, `shapely`, `PIL`, `cv2` installed).
 
 ---
 
@@ -149,7 +149,14 @@ D:\Projects\Downtown-Homeless-Analysis\
 ├── PROJECT_CONTEXT.md                           <-- THIS FILE (Master Project Memory)
 ├── DataValidation_SourceCheck.md                <-- Task 1.1 Complete Audit Deliverable
 ├── Task1.3_Methodology_Reconciliation_Report.md <-- Task 1.3 Complete Methodology Report
-├── EDA_DowntownCounts.ipynb                     <-- [NEW Task 2.1] Summary stats, seasonality, YoY change
+├── EDA_DowntownCounts.ipynb                     <-- [Task 2.1/2.2] Summary stats, seasonality, YoY, 10 charts
+├── EDA_DowntownCounts.pdf                       <-- [Task 2.3] 21-page notebook export
+├── EDA_SummaryReport.md                         <-- [Task 2.3] 7-section written summary report
+├── EDA_Presentation.pptx                        <-- [Task 2.3] 8-slide deck
+├── build_presentation.py                        <-- [Task 2.3] Script that builds the .pptx deck
+├── build_html_deck.py                           <-- [Task 2.3] Script that builds an HTML mirror of the deck
+├── BlockDigitization_ValidationReport.md        <-- [Task 3.1] Block-level source-map validation report
+├── build_blocklevel_sample.py                   <-- [Task 3.1] Stratified sampling script (seed=42)
 │
 ├── docs/                                        <-- [NEW Task 1.4] Comprehensive Documentation Suite
 │   ├── DataDictionary_MasterCounts.md           <-- Full metadata covering all 6 delivered datasets
@@ -177,12 +184,18 @@ D:\Projects\Downtown-Homeless-Analysis\
     ├── sample_45_audit_results.csv              <-- Full audit results log (Task 1.1)
     ├── dsdp_pdf_links.csv                       <-- Scraped index of 93 source PDF URLs
     │
-    └── pdfs\                                    <-- Local cache of downloaded DSDP monthly PDFs
+    ├── sample_blocklevel_verification.csv       <-- [Task 3.1] 48-row stratified sample (seed=42)
+    ├── blocklevel_neighborhood_totals.csv       <-- [Task 3.1] Expected neighborhood x date totals
+    ├── blocklevel_page_audit_results.csv        <-- [Task 3.1] 87-row page-level audit results
+    ├── BlockGrid_GeometryValidation.csv         <-- [Task 3.2] 382-row geometry/join validation, 380 pass
+    │
+    └── pdfs\                                    <-- Local cache of downloaded DSDP monthly PDFs (41 total)
         ├── December-2018-Homeless-Count_FINAL.pdf (Covers all 2017 & 2018 monthly totals)
         ├── March-2021-Unsheltered-Homeless-Count-Packet.pdf
         ├── Unhseltered-Count-December-2022-with-Maps.pdf (Covers all 2022 monthly totals)
         ├── April-2025-Unsheltered-Counts-W-Maps.pdf (Covers 2024 & 2025 totals)
-        └── (32 monthly PDF packets cached locally)
+        ├── (32 monthly PDF packets cached from Task 1.1's audit)
+        └── (7 more added in Task 3.1: Jan 2019/2020/2021/2022/2023/2024/2025, for block-map coverage)
 ```
 
 ---
@@ -211,7 +224,6 @@ D:\Projects\Downtown-Homeless-Analysis\
     - Exported `EDA_DowntownCounts.ipynb` to PDF via `nbconvert --to html` + Playwright sync API print-to-PDF (nbconvert's native `--to webpdf` hit a Windows asyncio subprocess bug — worked around it). 21-page PDF uploaded to the same Drive folder.
     - Slide deck: built by Antigravity (8 slides) from a self-contained master prompt, then reviewed and corrected before acceptance -- found and fixed a real bug where Charts 1/3/9 plotted unreleased 2025 months (nulls) as zero instead of excluding them, creating a misleading crash-to-zero visual; regenerated those 3 charts from source data with nulls properly excluded, swapped Slide 4's chart from composition to YoY-by-neighborhood to match its text, removed decorative arrow glyphs, fixed image aspect-ratio distortion, re-embedded at 200 DPI. Cleaned up Antigravity's intermediate build artifacts before committing.
     - All 3 deliverables ([`EDA_SummaryReport.md`](file:///D:/Projects/Downtown-Homeless-Analysis/EDA_SummaryReport.md), [`EDA_DowntownCounts.pdf`](file:///D:/Projects/Downtown-Homeless-Analysis/EDA_DowntownCounts.pdf), [`EDA_Presentation.pptx`](file:///D:/Projects/Downtown-Homeless-Analysis/EDA_Presentation.pptx)) uploaded to Drive folder `Assignment 2 - Exploratory Data Analysis`.
-  * **Task 2.3: Produce summary report and presentation** (`EDA_SummaryReport` doc, PDF export, slides)
 * **Assignment 3: Block-Level Data Validation & Spatial Integration** (Tasks 3.1–3.4) — IN PROGRESS
   * **Task 3.1: Validate block-level counts against source maps** (COMPLETED)
     - **Source-map coverage gap closed:** Only 5 of the 12 required monthly map PDFs were cached at task start; downloaded the 7 missing packets (Jan 2019, Jan 2020, Jan 2021, Jan 2022, Jan 2023, Jan 2024, Jan 2025) from the DSDP archive and verified each as genuine before use.
