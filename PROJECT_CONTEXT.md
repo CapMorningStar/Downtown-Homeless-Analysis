@@ -42,7 +42,7 @@
 | :---: | :--- | :---: | :--- |
 | **1** | **Data Validation, Cleaning & Standardization** | **COMPLETED (100% - Tasks 1.1–1.4)** | Source audit, schema standardization, methodology fixes, data dictionary, methodology log, quality report. |
 | **2** | **Exploratory Data Analysis (EDA)** | **COMPLETED (100% - Tasks 2.1-2.3)** | Descriptive stats, multi-year trends, visualizations, presentations. |
-| **3** | **Block-Level Validation & Spatial Integration** | **IN PROGRESS (75% - Tasks 3.1-3.3 done)** | Validate digitized block counts against 12 PDF maps, fix unbalanced spatial panel. |
+| **3** | **Block-Level Validation & Spatial Integration** | **COMPLETED (100% - Tasks 3.1-3.4 done)** | Validate digitized block counts against 12 PDF maps, fix unbalanced spatial panel, reconcile coverage table. |
 | **4** | **Time Series Decomposition & Pattern Analysis** | Queued | Trend/seasonal/residual decomposition, structural breaks, stationarity tests. |
 | **5** | **Geospatial Hotspot Analysis** | Queued | Getis-Ord Gi*, Moran's I, spatial clustering on `Downtown_BlockGrid.geojson`. |
 | **6** | **Methodology Impact Assessment** | Queued | Quasi-experimental policy evaluation, continuous weighting models. |
@@ -159,6 +159,9 @@ D:\Projects\Downtown-Homeless-Analysis\
 ├── build_blocklevel_sample.py                   <-- [Task 3.1] Stratified sampling script (seed=42)
 ├── SpatialPanel_BalancingReport.md              <-- [Task 3.3] Unbalanced panel documentation & fix
 ├── build_balanced_panel.py                      <-- [Task 3.3] Balanced-panel build script
+├── BlockDigitization_Methodology.md             <-- [Task 3.4] Consolidated digitization methodology
+├── BlockMapCoverage_GapAnalysis.md              <-- [Task 3.4] Coverage table fix & digitization gap analysis
+├── build_coverage_gap_analysis.py               <-- [Task 3.4] Gap-analysis build script
 │
 ├── docs/                                        <-- [NEW Task 1.4] Comprehensive Documentation Suite
 │   ├── DataDictionary_MasterCounts.md           <-- Full metadata covering all 6 delivered datasets
@@ -192,6 +195,7 @@ D:\Projects\Downtown-Homeless-Analysis\
     ├── BlockGrid_GeometryValidation.csv         <-- [Task 3.2] 382-row geometry/join validation, 380 pass
     ├── BlockPanel_Balanced_261.csv               <-- [Task 3.3] Balanced 261-block x 12-date panel
     ├── SpatialPanel_FootprintEffect.csv          <-- [Task 3.3] Per-date footprint-expansion quantification
+    ├── BlockMapCoverage_GapAnalysis.csv          <-- [Task 3.4] 96-row year-month coverage/digitization status
     │
     └── pdfs\                                    <-- Local cache of downloaded DSDP monthly PDFs (41 total)
         ├── December-2018-Homeless-Count_FINAL.pdf (Covers all 2017 & 2018 monthly totals)
@@ -228,7 +232,7 @@ D:\Projects\Downtown-Homeless-Analysis\
     - Exported `EDA_DowntownCounts.ipynb` to PDF via `nbconvert --to html` + Playwright sync API print-to-PDF (nbconvert's native `--to webpdf` hit a Windows asyncio subprocess bug — worked around it). 21-page PDF uploaded to the same Drive folder.
     - Slide deck: built by Antigravity (8 slides) from a self-contained master prompt, then reviewed and corrected before acceptance -- found and fixed a real bug where Charts 1/3/9 plotted unreleased 2025 months (nulls) as zero instead of excluding them, creating a misleading crash-to-zero visual; regenerated those 3 charts from source data with nulls properly excluded, swapped Slide 4's chart from composition to YoY-by-neighborhood to match its text, removed decorative arrow glyphs, fixed image aspect-ratio distortion, re-embedded at 200 DPI. Cleaned up Antigravity's intermediate build artifacts before committing.
     - All 3 deliverables ([`EDA_SummaryReport.md`](file:///D:/Projects/Downtown-Homeless-Analysis/EDA_SummaryReport.md), [`EDA_DowntownCounts.pdf`](file:///D:/Projects/Downtown-Homeless-Analysis/EDA_DowntownCounts.pdf), [`EDA_Presentation.pptx`](file:///D:/Projects/Downtown-Homeless-Analysis/EDA_Presentation.pptx)) uploaded to Drive folder `Assignment 2 - Exploratory Data Analysis`.
-* **Assignment 3: Block-Level Data Validation & Spatial Integration** (Tasks 3.1–3.4) — IN PROGRESS
+* **Assignment 3: Block-Level Data Validation & Spatial Integration** (Tasks 3.1–3.4) — 100% COMPLETE
   * **Task 3.1: Validate block-level counts against source maps** (COMPLETED)
     - **Source-map coverage gap closed:** Only 5 of the 12 required monthly map PDFs were cached at task start; downloaded the 7 missing packets (Jan 2019, Jan 2020, Jan 2021, Jan 2022, Jan 2023, Jan 2024, Jan 2025) from the DSDP archive and verified each as genuine before use.
     - **Audit methodology revised mid-task:** A cell-level visual re-read (10% stratified sample, 372 rows, then reduced to 48) was abandoned as unreliable on rotated/handwritten scans after repeated cropping attempts failed to pinpoint individual cells with confidence. Redesigned around each page's printed "Count Breakdown" total (self-checkable via `Total = Individual + Vehicle×multiplier + Tent×multiplier`), cross-checked against the digitized neighborhood-month aggregate.
@@ -251,6 +255,11 @@ D:\Projects\Downtown-Homeless-Analysis\
     - **Deliverables created:** [`data/BlockPanel_Balanced_261.csv`](file:///D:/Projects/Downtown-Homeless-Analysis/data/BlockPanel_Balanced_261.csv) (3,132 rows = 261 blocks × 12 dates, same schema as source, for valid temporal comparison), `data/SpatialPanel_FootprintEffect.csv` (per-date expansion quantification), `build_balanced_panel.py` (build script), and [`SpatialPanel_BalancingReport.md`](file:///D:/Projects/Downtown-Homeless-Analysis/SpatialPanel_BalancingReport.md) (full writeup). Full 382-block file left untouched for recent-period-only (2022+) analysis.
     - **Cross-validated against prior tasks:** balanced-panel neighborhood×date aggregates (individuals/tents/vehicles) match `data/blocklevel_neighborhood_totals.csv` (Task 3.1) exactly — 0 mismatches across all 72 neighborhood-date combinations. All 261 panel block IDs confirmed present in `data/BlockGrid_GeometryValidation.csv` (Task 3.2) with matching neighborhood labels and 0 geometry-check failures.
     - **⚠️ Warning carried into Assignment 5:** any Getis-Ord Gi*/Moran's I hotspot comparison spanning the 2021→2022 boundary must use `data/BlockPanel_Balanced_261.csv`, not the full 382-block file — the added footprint has no pre-2022 baseline. Hotspot analysis confined entirely to 2022–2025 may safely use the full 382-block file (coverage is constant across those 5 dates).
+  * **Task 3.4: Reconcile coverage table and document digitization methodology** (COMPLETED)
+    - **Column-rename fix confirmed already done:** the coverage table's `block` column (which actually holds neighborhood/area names, e.g. "East Village South", "Barrio Logan") was already renamed to `source_area` with a canonical `neighborhood` column added, back in Task 1.2's `BlockMap_Coverage_clean.csv`. Verified all 10 `source_area` values have a matching entry in `Neighborhood_Crosswalk.csv` — zero unmapped.
+    - **Digitization gap quantified:** `BlockMap_Coverage_clean.csv` spans 96 year-months (2018–2025), of which 90 have at least one map marked present. Only 12 of those 90 (13.3%) were ever digitized into `BlockLevel_Counts_clean.csv` — **78 year-months with a usable map remain undigitized**, documented as an explicit out-of-scope project limitation rather than queued work (9-11 undigitized months/year, fairly even across 2018-2024, 7 in partial-year 2025).
+    - **Digitized-date coverage confirmed:** all 12 digitized dates have full "map present" (`Yes`) coverage rows. However, 3 source-area/date combinations were digitized from a map rated "Unclear": East Village South (2022-01-27, 2022-03-01) and Sherman Heights (2022-01-27). The 2022-03-01 East Village South flag independently corroborates Task 3.1's previously-found "2022-03-01 anomaly" (inconsistent handwritten source dates).
+    - **Deliverables created:** [`BlockDigitization_Methodology.md`](file:///D:/Projects/Downtown-Homeless-Analysis/BlockDigitization_Methodology.md) (consolidated methodology: block identification, count-reading procedure, QC steps, disagreement resolution, referencing Tasks 3.1-3.3), [`BlockMapCoverage_GapAnalysis.md`](file:///D:/Projects/Downtown-Homeless-Analysis/BlockMapCoverage_GapAnalysis.md) (full gap analysis and column-fix confirmation), `data/BlockMapCoverage_GapAnalysis.csv` (96 rows, one per year-month), and `build_coverage_gap_analysis.py` (build script). Both markdown reports uploaded as Google Docs to the Assignment 3 Drive folder.
 * **Assignment 4: Time Series Decomposition & Pattern Analysis** (Tasks 4.1–4.4)
 * **Assignment 5: Geospatial Hotspot Analysis** (Tasks 5.1–5.4)
 * **Assignment 6: Methodology Impact Assessment** (Tasks 6.1–6.3)
