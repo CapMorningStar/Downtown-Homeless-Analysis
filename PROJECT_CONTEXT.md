@@ -42,7 +42,7 @@
 | :---: | :--- | :---: | :--- |
 | **1** | **Data Validation, Cleaning & Standardization** | **COMPLETED (100% - Tasks 1.1–1.4)** | Source audit, schema standardization, methodology fixes, data dictionary, methodology log, quality report. |
 | **2** | **Exploratory Data Analysis (EDA)** | **COMPLETED (100% - Tasks 2.1-2.3)** | Descriptive stats, multi-year trends, visualizations, presentations. |
-| **3** | **Block-Level Validation & Spatial Integration** | **IN PROGRESS (50% - Tasks 3.1-3.2 done)** | Validate digitized block counts against 12 PDF maps, fix unbalanced spatial panel. |
+| **3** | **Block-Level Validation & Spatial Integration** | **IN PROGRESS (75% - Tasks 3.1-3.3 done)** | Validate digitized block counts against 12 PDF maps, fix unbalanced spatial panel. |
 | **4** | **Time Series Decomposition & Pattern Analysis** | Queued | Trend/seasonal/residual decomposition, structural breaks, stationarity tests. |
 | **5** | **Geospatial Hotspot Analysis** | Queued | Getis-Ord Gi*, Moran's I, spatial clustering on `Downtown_BlockGrid.geojson`. |
 | **6** | **Methodology Impact Assessment** | Queued | Quasi-experimental policy evaluation, continuous weighting models. |
@@ -157,6 +157,8 @@ D:\Projects\Downtown-Homeless-Analysis\
 ├── build_html_deck.py                           <-- [Task 2.3] Script that builds an HTML mirror of the deck
 ├── BlockDigitization_ValidationReport.md        <-- [Task 3.1] Block-level source-map validation report
 ├── build_blocklevel_sample.py                   <-- [Task 3.1] Stratified sampling script (seed=42)
+├── SpatialPanel_BalancingReport.md              <-- [Task 3.3] Unbalanced panel documentation & fix
+├── build_balanced_panel.py                      <-- [Task 3.3] Balanced-panel build script
 │
 ├── docs/                                        <-- [NEW Task 1.4] Comprehensive Documentation Suite
 │   ├── DataDictionary_MasterCounts.md           <-- Full metadata covering all 6 delivered datasets
@@ -188,6 +190,8 @@ D:\Projects\Downtown-Homeless-Analysis\
     ├── blocklevel_neighborhood_totals.csv       <-- [Task 3.1] Expected neighborhood x date totals
     ├── blocklevel_page_audit_results.csv        <-- [Task 3.1] 87-row page-level audit results
     ├── BlockGrid_GeometryValidation.csv         <-- [Task 3.2] 382-row geometry/join validation, 380 pass
+    ├── BlockPanel_Balanced_261.csv               <-- [Task 3.3] Balanced 261-block x 12-date panel
+    ├── SpatialPanel_FootprintEffect.csv          <-- [Task 3.3] Per-date footprint-expansion quantification
     │
     └── pdfs\                                    <-- Local cache of downloaded DSDP monthly PDFs (41 total)
         ├── December-2018-Homeless-Count_FINAL.pdf (Covers all 2017 & 2018 monthly totals)
@@ -239,6 +243,13 @@ D:\Projects\Downtown-Homeless-Analysis\
     - **Centroid containment:** 380/382 blocks have their stated centroid inside their own polygon and inside their neighborhood's convex hull. The 2 exceptions (`22ND_ST_BROADWAY`, `22ND_ST_SR-94_EB_ON_RA`) are complex non-convex freeway-interchange parcels (110+ vertices) where the centroid sits ~7-12m outside the polygon due to concavity — matches the true polygon centroid almost exactly, not a data error.
     - **Boundary-street consistency:** 326/382 blocks have all 4 sides matching a plausible neighbor block's opposite boundary street; the remaining 56 have 2-3/4, and every one of those is a genuine study-area edge (Outside Perimeter, Map_Border, freeway ramps, waterfront) rather than a defect.
     - **Deliverable:** `data/BlockGrid_GeometryValidation.csv` (382 rows, one per block, all check results + overall pass/fail flag — 380/382 pass everything). Uploaded to Drive folder `Assignment 3 - Block-Level Validation & Spatial Integration` (trimmed to the essential pass/fail columns for the Drive copy; full-precision version with geometry diagnostics kept in the repo).
+  * **Task 3.3: Document and correct the unbalanced spatial panel** (COMPLETED)
+    - **Confirmed the coverage break:** `BlockLevel_Counts_clean.csv` has exactly 261 blocks on each of the 7 dates from 2018-01-24 to 2021-02-25, then jumps to 382 blocks on each of the 5 dates from 2022-01-27 to 2025-01-31. Early set is a strict subset of the later set (0 blocks dropped, 121 added).
+    - **Root cause identified:** the 121 new blocks are exactly Golden Hill (52), Barrio Logan (35), and Sherman Heights (34) — three neighborhoods absent from every count date before 2022, rolled up under "Outside Perimeter" in `Downtown_BlockGrid_clean.csv`.
+    - **Footprint effect quantified** (DSDP-multiplier-weighted adjusted totals, full 382-block vs. balanced 261-block, per post-2021 date): 2022-01-27 +18.42%, 2022-03-01 +16.82%, 2023-01-31 +32.77%, 2024-01-25 +3.65%, 2025-01-31 +9.96% — i.e., 4-33% of the reported full-panel total in those years is attributable purely to the expanded study area, not a real count change.
+    - **Confirmed the underlying rise is still real:** re-running the balanced 261-block panel across all 12 dates shows the total still jumps from 671.42 (2021-02-25) to 1,149.07 (2022-01-27), a +71% increase on the *same fixed blocks* — the footprint expansion and the genuine 2021→2022 increase are both real, independent effects.
+    - **Deliverables created:** [`data/BlockPanel_Balanced_261.csv`](file:///D:/Projects/Downtown-Homeless-Analysis/data/BlockPanel_Balanced_261.csv) (3,132 rows = 261 blocks × 12 dates, same schema as source, for valid temporal comparison), `data/SpatialPanel_FootprintEffect.csv` (per-date expansion quantification), `build_balanced_panel.py` (build script), and [`SpatialPanel_BalancingReport.md`](file:///D:/Projects/Downtown-Homeless-Analysis/SpatialPanel_BalancingReport.md) (full writeup). Full 382-block file left untouched for recent-period-only (2022+) analysis.
+    - **⚠️ Warning carried into Assignment 5:** any Getis-Ord Gi*/Moran's I hotspot comparison spanning the 2021→2022 boundary must use `data/BlockPanel_Balanced_261.csv`, not the full 382-block file — the added footprint has no pre-2022 baseline. Hotspot analysis confined entirely to 2022–2025 may safely use the full 382-block file (coverage is constant across those 5 dates).
 * **Assignment 4: Time Series Decomposition & Pattern Analysis** (Tasks 4.1–4.4)
 * **Assignment 5: Geospatial Hotspot Analysis** (Tasks 5.1–5.4)
 * **Assignment 6: Methodology Impact Assessment** (Tasks 6.1–6.3)
