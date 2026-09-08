@@ -81,6 +81,10 @@ The 261-block-only total still jumps from 671.42 (2021-02-25) to 1,149.07 (2022-
 
 **Build script:** `build_balanced_panel.py` (also emits `data/SpatialPanel_FootprintEffect.csv`).
 
+**Cross-validation against Task 3.1 and 3.2 outputs:**
+* Aggregated the balanced panel to neighborhood×date (individuals, tents_structures, vehicles) and compared against `data/blocklevel_neighborhood_totals.csv` (Task 3.1's independently-derived neighborhood totals). **0 mismatches across all 72 neighborhood-date combinations** (6 shared neighborhoods × 12 dates) on all three raw fields.
+* Checked all 261 panel block IDs against `data/BlockGrid_GeometryValidation.csv` (Task 3.2). All 261 are present, neighborhood labels agree exactly, and **0 of the 261 fail any geometry check** (`all_checks_pass`) — the 2 known exceptions from Task 3.2 (freeway-interchange parcels) are not part of the balanced panel.
+
 ---
 
 ## 4. Warning for Assignment 5 (Geospatial Hotspot Analysis)
@@ -100,5 +104,6 @@ This warning is also logged in `PROJECT_CONTEXT.md` §4 (Task 3.3) for downstrea
 * Confirmed: block coverage steps from 261→382 blocks exactly at the 2021→2022 boundary, driven by the addition of Golden Hill, Barrio Logan, and Sherman Heights (121 blocks, 0 blocks dropped).
 * Quantified: the footprint expansion inflates post-2021 full-panel totals by 3.65%–32.77% depending on date.
 * Confirmed independently: even with the footprint held constant (balanced 261-block panel), the 2021→2022 rise is real (+71% on the same blocks) — not an artifact of coverage growth.
+* Cross-validated against prior work: 0 mismatches vs. Task 3.1's neighborhood totals (72/72 neighborhood-dates), and 0 geometry-check failures vs. Task 3.2 among the 261 panel blocks.
 * Delivered: `data/BlockPanel_Balanced_261.csv` (balanced panel, 3,132 rows) and `data/SpatialPanel_FootprintEffect.csv` (per-date expansion quantification), with the full 382-block file preserved for recent-period-only use.
 * Flagged: explicit warning carried into Assignment 5 to gate any cross-boundary hotspot comparison on the balanced panel.
