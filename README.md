@@ -28,9 +28,11 @@ Public interest analytics, econometric modeling, and data engineering volunteer 
   * **Assignment 7 (Forecasting Pipelines):** 12-month prospective forecasting across 5 model architectures (Champion: XGBoost, RMSE: 169.58, 80%/95% PIs).
   * **Assignment 8 (County-Level Macro Estimation):** Policy Regime OLS model ($Y = 4,513.26 + 0.1859 \cdot X + 1,225.04 \cdot D_{\text{post}}$, $R^2 = 0.963$, Student's $t$ PIs).
 * **Assignment 9: Interactive Dashboard & Strategic Synthesis:**
-  * **Task 9.1 (Interactive Dashboard):** **BUILT & OPERATIONAL** (Streamlit multi-tab executive application, sub-2s load, 10/10 automated tests passing).
-  * **Task 9.2 (Executive Summary & Technical Report):** Next Up.
-  * **Task 9.3 (Strategic Recommendations & Slide Deck):** Queued.
+  * **Task 9.1 (Interactive Dashboard):** **100% COMPLETE & OPERATIONAL** (Streamlit multi-tab executive application, sub-2s load, 10/10 automated tests passing).
+  * **Task 9.2 (Executive Summary & Technical Report):** **100% COMPLETE & AUDITED**
+    * [`docs/ExecutiveSummary_NonTechnical.md`](docs/ExecutiveSummary_NonTechnical.md) — 3–4 page executive synthesis with KPI cards, 5 core findings, and 30-day/1-year/3-year policy roadmap.
+    * [`docs/FullTechnicalReport.md`](docs/FullTechnicalReport.md) — 16–20 page technical monograph (10 chapters, full proofs, 16 tables, 13 display formulas, and governance charter).
+  * **Task 9.3 (Strategic Recommendations & Slide Deck):** Queued / Next Up.
   * **Task 9.4 (Handoff Documentation):** Queued.
 
 ---
