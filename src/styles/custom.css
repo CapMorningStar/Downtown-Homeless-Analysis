@@ -1,0 +1,97 @@
+/* Custom CSS for Downtown San Diego Homelessness Executive Dashboard */
+
+/* Card Containers */
+.dashboard-card {
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+    margin-bottom: 1.25rem;
+}
+
+.kpi-title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #64748B;
+    margin-bottom: 0.25rem;
+}
+
+.kpi-value {
+    font-size: 1.85rem;
+    font-weight: 700;
+    color: #0F172A;
+    line-height: 1.2;
+}
+
+.kpi-delta {
+    font-size: 0.82rem;
+    font-weight: 500;
+    margin-top: 0.35rem;
+}
+
+.delta-positive {
+    color: #DC2626; /* Count increase is negative in homelessness */
+}
+
+.delta-negative {
+    color: #16A34A; /* Count reduction is positive in homelessness */
+}
+
+/* Callout & Governance Banners */
+.banner-warning {
+    background-color: #FEF3C7;
+    border-left: 4px solid #D97706;
+    color: #92400E;
+    padding: 0.9rem 1.2rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.banner-danger {
+    background-color: #FEE2E2;
+    border-left: 4px solid #DC2626;
+    color: #991B1B;
+    padding: 0.9rem 1.2rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.banner-info {
+    background-color: #EFF6FF;
+    border-left: 4px solid #2563EB;
+    color: #1E40AF;
+    padding: 0.9rem 1.2rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+/* Tab Headers & Navigation Styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 8px;
+    border-bottom: 2px solid #E2E8F0;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 48px;
+    white-space: pre-wrap;
+    background-color: #F1F5F9;
+    border-radius: 8px 8px 0px 0px;
+    gap: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    color: #475569;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #FFFFFF !important;
+    color: #2563EB !important;
+    border: 1px solid #CBD5E1 !important;
+    border-bottom: 2px solid #FFFFFF !important;
+}
