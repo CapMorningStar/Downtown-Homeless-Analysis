@@ -1,30 +1,102 @@
 # Downtown San Diego Homeless Population Analysis
 
-Public interest analytics and data engineering volunteer project with the **Data Science Alliance**, analyzing unsheltered homeless population trends across Downtown San Diego (2012–present) using monthly count data from the Downtown San Diego Partnership (DSDP).
+Public interest analytics, econometric modeling, and data engineering volunteer project with the **Data Science Alliance**, analyzing unsheltered homeless population trends across Downtown San Diego (2012–present) using monthly field count data from the Downtown San Diego Partnership (DSDP) and Point-in-Time (PIT) data from the Regional Task Force on Homelessness (RTFH).
 
 ---
 
 ## Quick Reference & Links
 
-* **Master Context & Memory File:** [`PROJECT_CONTEXT.md`](PROJECT_CONTEXT.md) *(Read this file in new chat sessions!)*
-* **Asana Project:** [Downtown San Diego Homeless Population Analysis](https://app.asana.com/1/1211227519522850/project/1218064298575500/list)
-* **Google Drive Deliverables:** [Shared Deliverables Folder](https://drive.google.com/drive/u/2/folders/1LUWFhKsbER-XSY8VJFVdt0cgVeuaQ6Ek)
-  * [📁 Assignment 1 Deliverables Folder](https://drive.google.com/drive/u/2/folders/1qkwbmPe87IRlsnm1cJMub5NNMsWvukLH)
-* **Source Reports Archive:** [DSDP Unhoused Care Reports](https://downtownsandiego.org/clean-and-safe/unhoused-care/)
+* **Master Memory & Technical Handoff:** [`PROJECT_MASTER_HANDOFF_ASSIGNMENTS_1_TO_8.md`](PROJECT_MASTER_HANDOFF_ASSIGNMENTS_1_TO_8.md)
+* **Master Context File:** [`PROJECT_CONTEXT.md`](PROJECT_CONTEXT.md)
+* **Task 9.1 Implementation Plan:** [`TASK_9_1_DASHBOARD_IMPLEMENTATION_PLAN.md`](TASK_9_1_DASHBOARD_IMPLEMENTATION_PLAN.md)
+* **Dashboard Deployment Runbook:** [`docs/Dashboard_DeploymentInfo.md`](docs/Dashboard_DeploymentInfo.md)
+* **Asana Project Workspace:** [Downtown San Diego Homeless Population Analysis](https://app.asana.com/1/1211227519522850/project/1218064298575500/list)
+* **Google Drive Shared Deliverables:** [Shared Deliverables Folder](https://drive.google.com/drive/u/2/folders/1LUWFhKsbER-XSY8VJFVdt0cgVeuaQ6Ek)
+* **DSDP Source Reports Archive:** [DSDP Unhoused Care Reports](https://downtownsandiego.org/clean-and-safe/unhoused-care/)
 
 ---
 
-## Current Status
+## Project Status & Milestones
 
-* **Assignment 1: Data Validation, Cleaning & Standardization** — 100% COMPLETE (Tasks 1.1–1.4)
-  * **Task 1.1:** Complete. Verified 45-cell audit against 32 source PDFs; created & uploaded [`DataValidation_SourceCheck.md`](DataValidation_SourceCheck.md).
-  * **Task 1.2:** Complete. Standardized month strings (`Jan`–`Dec`), added ISO `date` (`YYYY-MM-01`), resolved `BlockLevel_Counts` single null, generated [`Neighborhood_Crosswalk.csv`](data/Neighborhood_Crosswalk.csv), and uploaded all 5 clean datasets (`_clean.csv`) to Drive.
-  * **Task 1.3:** Complete. Rebuilt canonical adjusted totals $\rightarrow$ [`MasterCounts_Adjusted_v2.csv`](data/MasterCounts_Adjusted_v2.csv).
-  * **Task 1.4:** Complete. Data dictionary, methodology log, and quality report published to `docs/` and Drive.
-* **Assignment 2: Exploratory Data Analysis (EDA)** — CURRENT FOCUS
-  * **Task 2.1:** Complete. Built & executed [`EDA_DowntownCounts.ipynb`](EDA_DowntownCounts.ipynb) — summary statistics, monthly seasonality, YoY % change, and top-3-neighborhood rankings by count and by growth rate.
-  * **Task 2.2:** Complete. Added 10 required charts (time series, seasonality, neighborhood composition, EV sub-areas, methodology before/after, YoY comparisons, COVID period, adjustment gap, distribution) with titles, labels, legends, source attribution, and commentary — same notebook.
-  * **Task 2.3:** Complete. [`EDA_SummaryReport.md`](EDA_SummaryReport.md) (7 required sections + 4 hypotheses), [`EDA_DowntownCounts.pdf`](EDA_DowntownCounts.pdf) (notebook export), and [`EDA_Presentation.pptx`](EDA_Presentation.pptx) (8 slides) all built, verified, and uploaded to Drive.
-  * **Task 2.3:** Queued (summary report & presentation).
+* **Assignments 1–8:** **100% COMPLETE**
+  * **Assignment 1 (Data Validation & Cleaning):** 45-cell audit, standardization, canonical adjustment rebuild (`MasterCounts_Adjusted_v2.csv`).
+  * **Assignment 2 (Exploratory Data Analysis):** Statistical distributions, temporal profiles, neighborhood rankings, 10 publication charts.
+  * **Assignment 3 (Block-Level Spatial Integration):** 382-block polygon grid (`Downtown_BlockGrid.geojson`), balanced 261-block panel, digitization coverage audit.
+  * **Assignment 4 (Time Series Decomposition):** 9-series STL decomposition, Kruskal-Wallis non-parametric seasonality tests (8 of 9 non-seasonal).
+  * **Assignment 5 (Geospatial Hotspots):** Queen contiguity weights, Getis-Ord $G_i^*$ clustering, 121-meter southward centroid displacement.
+  * **Assignment 6 (Methodology Impact Assessment):** Multiplier break quantification (APR2017, MAY2018, COVID-19, July 2023 Camping Ordinance).
+  * **Assignment 7 (Forecasting Pipelines):** 12-month prospective forecasting across 5 model architectures (Champion: XGBoost, RMSE: 169.58, 80%/95% PIs).
+  * **Assignment 8 (County-Level Macro Estimation):** Policy Regime OLS model ($Y = 4,513.26 + 0.1859 \cdot X + 1,225.04 \cdot D_{\text{post}}$, $R^2 = 0.963$, Student's $t$ PIs).
+* **Assignment 9: Interactive Dashboard & Strategic Synthesis:**
+  * **Task 9.1 (Interactive Dashboard):** **BUILT & OPERATIONAL** (Streamlit multi-tab executive application, sub-2s load, 10/10 automated tests passing).
+  * **Task 9.2 (Executive Summary & Technical Report):** Next Up.
+  * **Task 9.3 (Strategic Recommendations & Slide Deck):** Queued.
+  * **Task 9.4 (Handoff Documentation):** Queued.
 
-See [`PROJECT_CONTEXT.md`](PROJECT_CONTEXT.md) for full architectural documentation, schemas, and historical logs.
+---
+
+## Interactive Executive Dashboard (Task 9.1)
+
+The Streamlit dashboard synthesizes spatial, temporal, econometric, and forecasting pipelines into an executive-ready decision-support system.
+
+### Dashboard Architecture & Features
+1. **Historical Trends View (Tab 1):** Longitudinal time series (2017–2025), multiplier regime indicators, policy event markers (COVID-19, July 2023 Encampment Ban), component toggles (tents, vehicles, individuals).
+2. **12-Month Prospective Forecast (Tab 2):** Forward projections for 2026 with shaded 80% & 95% uncertainty bands, model architecture selectors, and policy scenario stress-testing (-24% optimistic, +26% pessimistic).
+3. **Hotspot Surveillance Map (Tab 3):** Folium vector choropleth map, Getis-Ord $G_i^*$ hotspot classifications (90%, 95%, 99%), top persistent blocks table, and centroid migration vector.
+4. **Neighborhood Deep-Dive Panel (Tab 4):** 4-pane STL decomposition (Trend, Seasonality, Residuals) and Kruskal-Wallis significance results.
+5. **County Estimation Calculator (Tab 5):** Policy Regime OLS macro calculator with Student's $t_{df=5}$ calibrated 95% prediction intervals ($\pm 2,050$), strictly enforcing **The 4 Public Communication Rules**.
+6. **Methodology & Data Governance (Tab 6):** Data provenance, the 4 multiplier regimes, 2022 footprint expansion (+121 blocks), and root-cause analysis for missing data.
+
+### Quick Start: Running the Dashboard Locally
+
+```bash
+# 1. Clone repository
+git clone https://github.com/CapMorningStar/Downtown-Homeless-Analysis.git
+cd Downtown-Homeless-Analysis
+
+# 2. Set up virtual environment
+python3 -m venv .venv
+source .venv/bin/activate
+
+# 3. Install production dependencies
+pip install -r requirements.txt
+
+# 4. Run automated test suite
+pytest
+
+# 5. Launch Streamlit dashboard
+streamlit run app.py
+```
+Open **`http://localhost:8501`** in any modern web browser.
+
+---
+
+## Repository Structure
+
+```text
+├── .streamlit/               # Streamlit theme & server configuration
+├── data/                     # Canonical datasets (MasterCounts_v2, BlockGrid, Forecasts, PairedCounts)
+├── docs/                     # Technical documentation & deployment runbooks
+├── figures/                  # 300 DPI publication plots and visual assets
+├── src/                      # Modular dashboard architecture
+│   ├── components/           # Streamlit tab renderers (tab1_historical to tab6_about)
+│   ├── config.py             # Palette, thresholds, regime constants
+│   ├── data_loader.py        # Cached data loaders (@st.cache_data)
+│   ├── styles/custom.css     # Clean typography & card styling
+│   └── utils.py              # Econometric equations & formatters
+├── tests/                    # Automated pytest suite (10 unit tests)
+├── app.py                    # Dashboard application entry point
+├── pytest.ini                # Pytest configuration
+├── requirements.txt          # Python production dependencies
+├── runtime.txt               # Streamlit Cloud runtime pin (python-3.11)
+├── PROJECT_CONTEXT.md        # Comprehensive multi-assignment memory file
+├── PROJECT_MASTER_HANDOFF_ASSIGNMENTS_1_TO_8.md # Complete technical handoff log
+└── TASK_9_1_DASHBOARD_IMPLEMENTATION_PLAN.md    # Task 9.1 technical plan
+```
+
+---
+
+## Author & Citation
+* **Lead Analyst:** Kyaw Soe Lwin ([`kslwin.2000@gmail.com`](mailto:kslwin.2000@gmail.com) / [`kylwin@ucsd.edu`](mailto:kylwin@ucsd.edu))
+* **Organization:** Data Science Alliance (San Diego, CA)
+* **Project Lead:** Adir Mancebo Jr. ([`adir@datasciencealliance.org`](mailto:adir@datasciencealliance.org))
