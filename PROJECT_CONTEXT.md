@@ -607,8 +607,11 @@ D:\Projects\Downtown-Homeless-Analysis\
   * **Task 8.1: Compile and document county-level PIT count data** (COMPLETED) — see full writeup above. Approved in Asana; deliverables synced to Google Drive.
   * **Task 8.2: Analyze the downtown-to-county relationship** (COMPLETED) — see full writeup above. Approved in Asana; deliverables synced to Google Drive.
   * **Task 8.3: Build and validate the estimation model** (COMPLETED) — see full writeup above. Approved in Asana; deliverables synced to Google Drive.
-  * **Task 8.4: Document methodology, limitations, and produce final deliverables** (COMPLETED) — see full writeup above. Approved in Asana; deliverables synced to Google Drive.
-* **Assignment 9: Interactive Dashboard & Strategic Synthesis** (Queued)
+* **Assignment 9: Interactive Dashboard & Strategic Synthesis** (Tasks 9.1–9.3 COMPLETE)
+  * **Task 9.1: Interactive Executive Dashboard** (COMPLETED) — Production Streamlit application (`app.py`, 6 tabs, sub-2s load, 10/10 automated tests passing).
+  * **Task 9.2: Executive Summary & Technical Report** (COMPLETED) — Non-technical executive summary (`docs/ExecutiveSummary_NonTechnical.md`) and 10-chapter technical monograph (`docs/FullTechnicalReport.md`).
+  * **Task 9.3: Strategic Recommendations & Slide Deck** (COMPLETED) — 14-slide Canva executive presentation (`Assignment9_StrategicSynthesis.pptx`) and standalone companion browser deck (`Assignment9_StrategicSynthesis.html`).
+  * **Task 9.4: Final Project Handoff Documentation** (Queued / Next Up).
 * **Assignment 10: Multi-Source Predictive System** (Queued)
 
 ## 7. Instructions for AI Assistant Resuming in a New Chat

@@ -32,8 +32,10 @@ Public interest analytics, econometric modeling, and data engineering volunteer 
   * **Task 9.2 (Executive Summary & Technical Report):** **100% COMPLETE & AUDITED**
     * [`docs/ExecutiveSummary_NonTechnical.md`](docs/ExecutiveSummary_NonTechnical.md) — 3–4 page executive synthesis with KPI cards, 5 core findings, and 30-day/1-year/3-year policy roadmap.
     * [`docs/FullTechnicalReport.md`](docs/FullTechnicalReport.md) — 16–20 page technical monograph (10 chapters, full proofs, 16 tables, 13 display formulas, and governance charter).
-  * **Task 9.3 (Strategic Recommendations & Slide Deck):** Queued / Next Up.
-  * **Task 9.4 (Handoff Documentation):** Queued.
+  * **Task 9.3 (Strategic Recommendations & Slide Deck):** **100% COMPLETE & DELIVERED**
+    * [`Assignment9_StrategicSynthesis.pptx`](Assignment9_StrategicSynthesis.pptx) — 14-slide executive presentation in Canva modern analytics theme with KPI cards, 3-epoch analysis, 2026 scenarios, and regional displacement matrix.
+    * [`Assignment9_StrategicSynthesis.html`](Assignment9_StrategicSynthesis.html) — Standalone responsive browser presentation with embedded 300 DPI figures and keyboard navigation.
+  * **Task 9.4 (Handoff Documentation):** Queued / Next Up.
 
 ---
 
