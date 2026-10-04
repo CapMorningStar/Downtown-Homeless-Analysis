@@ -1,0 +1,6 @@
+stage_idx,stage_name,feature_count,cv_mae,cv_rmse,cv_mape_pct,cv_r2,mae_reduction_pct
+0,Stage 0: Univariate Lags,2,306.64,366.28,19.69,-2.7523,0.0
+1,Stage 1: + 311 Encampment Signals,7,310.58,369.02,20.22,-2.8345,-1.28
+2,Stage 2: + Weather Anomalies,11,311.91,371.91,20.36,-2.9044,-1.72
+3,Stage 3: + Economic Rent Distress,17,314.89,377.89,20.39,-2.9776,-2.69
+4,Stage 4: Full Multi-Source System,68,311.55,373.83,20.17,-2.9079,-1.6

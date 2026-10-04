@@ -15,6 +15,7 @@ from src.components.tab3_hotspots import render_tab3
 from src.components.tab4_decomposition import render_tab4
 from src.components.tab5_calculator import render_tab5
 from src.components.tab6_about import render_tab6
+from src.components.tab7_anomalies import render_tab7
 
 # Set Page Config
 st.set_page_config(
@@ -39,7 +40,7 @@ def main():
     # Executive Header & KPI Ribbon
     render_header(historical_df)
 
-    # 6 Core Functional Tabs (Task 9.1 Specifications)
+    # 7 Core Functional Tabs (Tasks 9.1 & 10.4 Specifications)
     tabs = st.tabs(
         [
             "📈 1. Historical Trends",
@@ -48,6 +49,7 @@ def main():
             "🔬 4. Neighborhood Deep-Dive",
             "🧮 5. County Estimation",
             "📖 6. Methodology & About",
+            "🚨 7. Anomaly Surveillance",
         ]
     )
 
@@ -68,6 +70,9 @@ def main():
 
     with tabs[5]:
         render_tab6()
+
+    with tabs[6]:
+        render_tab7()
 
     # Footer
     st.markdown("---")

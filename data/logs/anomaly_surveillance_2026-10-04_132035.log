@@ -1,0 +1,102 @@
+======================================================================
+Starting Scheduled Anomaly Surveillance: 2026-10-04_132035
+Repository Root: /Users/kyawsoelwin/MSI/Downtownhomelessness
+Log Destination: /Users/kyawsoelwin/MSI/Downtownhomelessness/data/logs/anomaly_surveillance_2026-10-04_132035.log
+======================================================================
+2026-10-04 13:20:35,954 [INFO] AnomalySurveillancePipeline: Executing Statistical Surveillance (Shewhart & CUSUM)...
+2026-10-04 13:20:35,956 [INFO] AnomalySurveillancePipeline: Executing Model-Based Surveillance (Isolation Forest & Conformal)...
+2026-10-04 13:20:36,037 [INFO] AnomalySurveillancePipeline: Classifying anomalies across 4-quadrant taxonomy...
+2026-10-04 13:20:36,040 [INFO] AnomalySurveillancePipeline: Validating against historical benchmark policy shocks...
+2026-10-04 13:20:36,044 [INFO] AnomalySurveillancePipeline: Ingesting anomalies into persistent Alert Store...
+2026-10-04 13:20:36,047 [INFO] anomaly_detection: Saved full surveillance matrix to data/Anomaly_Surveillance_Matrix.csv
+2026-10-04 13:20:36,425 [INFO] AnomalySurveillancePipeline: Control charts figure saved to slide_assets/task10_control_charts.png
+2026-10-04 13:20:36,445 [WARNING] matplotlib.font_manager: findfont: Failed to find font weight medium for DejaVu Sans, now using 400.
+2026-10-04 13:20:36,566 [INFO] AnomalySurveillancePipeline: Anomaly classification visual saved to slide_assets/task10_anomaly_classification.png
+
+===========================================================================
+               1. EXECUTING DUAL-ENGINE ANOMALY SURVEILLANCE               
+===========================================================================
+
+--- ANOMALY SURVEILLANCE SUMMARY ---
+Total Monitored Months       : 96
+Total Anomalous Months Found : 18
+  • Count Spikes             : 5
+  • Count Drops              : 6
+  • Spatial Shifts           : 2
+  • Potential Data Quality   : 5
+Active Alerts in Store       : 18
+
+===========================================================================
+              2. HISTORICAL BENCHMARK POLICY SHOCK VALIDATION              
+===========================================================================
+                      event_name              period  event_months  detected_months  detection_rate_pct            status
+ COVID-19 Shelter Demobilization Apr 2020 – Sep 2020             6                1                16.7 VERIFIED DETECTED
+2022 Surge & Footprint Expansion May 2022 – Dec 2022             8                1                12.5 VERIFIED DETECTED
+   Historical Peak & Camping Ban Jun 2023 – Aug 2023             3                3               100.0 VERIFIED DETECTED
+  Safe Sleeping Site Contraction Oct 2023 – Apr 2024             7                2                28.6 VERIFIED DETECTED
+
+Global Validation Performance:
+  • True Positive Rate (Sensitivity): 29.2%
+  • False Positive Rate (FPR)        : 15.3%
+  • Precision                        : 38.9%
+  • F1-Score                         : 0.3333
+
+===========================================================================
+            3. ALERT DISPATCH & NOTIFICATION PAYLOAD GENERATION            
+===========================================================================
+Total Stored Alerts: 18 (1 CRITICAL)
+
+--- SAMPLE SLACK BLOCK KIT PAYLOAD (ALT-202512-PDQI) ---
+{
+  "attachments": [
+    {
+      "color": "#DC2626",
+      "blocks": [
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "\ud83d\udea8 [CRITICAL] Homeless Surveillance Alert: Potential Data Quality Issue",
+            "emoji": true
+          }
+        },
+        {
+          "type": "section",
+          "fields": [
+            {
+              "type": "mrkdwn",
+              "text": "*Observed Month:*\n2025-12-01"
+            },
+            {
+              "type": "mrkdwn",
+              "text": "*Observed Count:*\n985 (Baseline: 573)"
+            },
+            {
+              "type
+... [truncated for display]
+
+--- SAMPLE EMAIL NOTIFICATION (ALT-202512-PDQI) ---
+Subject: [CRITICAL] Alert: Potential Data Quality Issue Detected in Downtown San Diego (2025-12-01)
+
+ALERT NOTIFICATION: Potential Data Quality Issue [CRITICAL]
+------------------------------------------------------------
+Alert ID: ALT-202512-PDQI
+Month: 2025-12-01
+Observed Count: 985 (Rolling Center Line: 573)
+Anomaly Description: Unprecedented single-month shift (Δ=+985) indicating methodology boundary artifact.
+
+Recommended Action:
+Data Quality Audit: Verify source collection logs, validate against raw field maps, and check for reporting bou...
+
+===========================================================================
+               4. HIGH-RESOLUTION PUBLICATION VISUALIZATIONS               
+===========================================================================
+✓ Control Charts exported to        : slide_assets/task10_control_charts.png
+✓ Anomaly Classification exported to: slide_assets/task10_anomaly_classification.png
+
+===========================================================================
+                        TASK 10.4 EXECUTION COMPLETE                       
+===========================================================================
+======================================================================
+✓ Surveillance execution completed successfully at 2026-10-04 13:20:36
+======================================================================
