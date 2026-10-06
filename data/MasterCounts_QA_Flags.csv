@@ -1,0 +1,23 @@
+date,area,method,published_total,adjusted_total,difference,status,note
+2020-04-01,Cortez,POST2020,20.0,23.5,3.5,source_conflict_or_unverified,Adjusted total (from components) differs from DSDP published total; not verified against map
+2020-04-01,Gaslamp,POST2020,28.0,43.75,15.75,map_verified_source_conflict,"Map verified (4/30/2020): 42 / 0 / 1 tent = 43.75, matching the file; DSDP summary table reports 28. Source conflict left as-is."
+2020-07-01,Gaslamp,POST2020,51.0,46.0,-5.0,source_conflict_or_unverified,Adjusted total (from components) differs from DSDP published total; not verified against map
+2020-11-01,East Village,POST2020,424.0,429.55,5.55,source_conflict_or_unverified,Adjusted total (from components) differs from DSDP published total; not verified against map
+2019-04-01,East Village,MAY2018,502.0,505.61,3.61,source_conflict_or_unverified,Adjusted total (from components) differs from DSDP published total; not verified against map
+2019-06-01,East Village,MAY2018,468.0,472.14,4.14,source_conflict_or_unverified,Adjusted total (from components) differs from DSDP published total; not verified against map
+2019-10-01,East Village,MAY2018,479.0,485.01,6.01,source_conflict_or_unverified,Adjusted total (from components) differs from DSDP published total; not verified against map
+2019-12-01,East Village,MAY2018,370.0,370.0,0.0,published_total_used,No December 2019 report published by DSDP; components unverifiable; adjusted total set to published total
+2019-12-01,City Center,MAY2018,124.0,124.0,0.0,published_total_used,No December 2019 report published by DSDP; components unverifiable; adjusted total set to published total
+2019-12-01,Columbia,MAY2018,41.0,37.75,-3.25,source_conflict_or_unverified,Adjusted total (from components) differs from DSDP published total; not verified against map
+2019-12-01,Marina,MAY2018,37.0,33.25,-3.75,source_conflict_or_unverified,Adjusted total (from components) differs from DSDP published total; not verified against map
+2019-12-01,Cortez,MAY2018,20.0,25.5,5.5,source_conflict_or_unverified,Adjusted total (from components) differs from DSDP published total; not verified against map
+2019-12-01,Gaslamp,MAY2018,35.0,35.0,0.0,published_total_used,No December 2019 report published by DSDP; components unverifiable; adjusted total set to published total
+2022-07-01,Marina,POST2020,12.0,4.06,-7.94,source_conflict_or_unverified,Adjusted total (from components) differs from DSDP published total; not verified against map
+2022-10-01,East Village,POST2020,713.0,703.72,-9.28,source_conflict_or_unverified,Adjusted total (from components) differs from DSDP published total; not verified against map
+2025-01-01,East Village,POST2020,435.0,443.24,8.24,source_conflict_or_unverified,Adjusted total (from components) differs from DSDP published total; not verified against map
+2025-02-01,East Village,POST2020,409.0,411.18,2.18,source_conflict_or_unverified,Adjusted total (from components) differs from DSDP published total; not verified against map
+2025-09-01,East Village,POST2020,445.0,445.0,0.0,published_total_used,DSDP's 'September 2025' PDF actually contains December 2025 maps (dated 12-25-25); September components unverifiable; adjusted total set to published total
+2023-02-01,East Village,POST2020,781.0,791.34,10.34,map_verified_source_conflict,"Map verified (2/22): 220 / 28 vehicles / 294 tents = 791, matching the file; DSDP summary table reports 781. Source conflict left as-is."
+2023-02-01,City Center,POST2020,266.0,269.84,3.84,source_conflict_or_unverified,Adjusted total (from components) differs from DSDP published total; not verified against map
+2023-02-01,Gaslamp,POST2020,72.0,45.5,-26.5,map_verified_source_conflict,"Map verified (2/23): 42 / 0 / 2 tents = 46, matching the file; DSDP summary table reports 72. Source conflict left as-is."
+2023-12-01,East Village,POST2020,498.0,498.0,0.0,published_total_used,No December 2023 report published by DSDP; components unverifiable; adjusted total set to published total

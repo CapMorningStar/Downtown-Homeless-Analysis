@@ -129,7 +129,7 @@ def render_tab4(historical_df: pd.DataFrame):
             fig_decomp.update_yaxes(showgrid=True, gridcolor="#F1F5F9", row=i, col=1)
             fig_decomp.update_xaxes(showgrid=True, gridcolor="#F1F5F9", row=i, col=1)
 
-        st.plotly_chart(fig_decomp, use_container_width=True)
+        st.plotly_chart(fig_decomp, width="stretch")
 
     except Exception as e:
         st.error(f"Error computing time series decomposition: {e}")
@@ -178,4 +178,4 @@ def render_tab4(historical_df: pd.DataFrame):
         yaxis=dict(title="Monthly Count Distribution", showgrid=True, gridcolor="#F1F5F9"),
         showlegend=False,
     )
-    st.plotly_chart(comp_fig, use_container_width=True)
+    st.plotly_chart(comp_fig, width="stretch")

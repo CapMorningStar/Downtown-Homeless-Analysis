@@ -45,7 +45,7 @@ def main():
     parser.add_argument("--evaluate", action="store_true", help="Print detailed fold and aggregate econometric metrics")
     parser.add_argument("--ablation", action="store_true", help="Run 5-stage feature domain ablation study")
     parser.add_argument("--plot", action="store_true", help="Export publication charts to slide_assets/")
-    parser.add_argument("--data", type=str, default="data/FeatureMatrix_Comprehensive_67.csv", help="Input feature matrix")
+    parser.add_argument("--data", type=str, default="data/FeatureMatrix_Comprehensive_68.csv", help="Input feature matrix")
     parser.add_argument("--output-dir", type=str, default="data", help="Output directory for predictions and tables")
 
     args = parser.parse_args()

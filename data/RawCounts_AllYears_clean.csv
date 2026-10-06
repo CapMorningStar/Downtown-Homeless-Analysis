@@ -803,54 +803,54 @@ date,year,month,area,source_area,component,count,area_type
 2020-12-01,2020,Dec,North West EV,North West EV,total,44.0,sub-area
 2020-12-01,2020,Dec,South East EV,South East EV,total,196.0,sub-area
 2020-12-01,2020,Dec,South West EV,South West EV,total,47.0,sub-area
-2019-01-01,2019,Jan,North East EV,North East EV,total,65.0,sub-area
-2019-01-01,2019,Jan,North West EV,North West EV,total,88.0,sub-area
-2019-01-01,2019,Jan,South East EV,South East EV,total,282.0,sub-area
-2019-01-01,2019,Jan,South West EV,South West EV,total,32.0,sub-area
-2019-02-01,2019,Feb,North East EV,North East EV,total,47.0,sub-area
-2019-02-01,2019,Feb,North West EV,North West EV,total,92.0,sub-area
-2019-02-01,2019,Feb,South East EV,South East EV,total,250.0,sub-area
-2019-02-01,2019,Feb,South West EV,South West EV,total,20.0,sub-area
-2019-03-01,2019,Mar,North East EV,North East EV,total,32.0,sub-area
-2019-03-01,2019,Mar,North West EV,North West EV,total,34.0,sub-area
-2019-03-01,2019,Mar,South East EV,South East EV,total,86.0,sub-area
-2019-03-01,2019,Mar,South West EV,South West EV,total,109.0,sub-area
-2019-04-01,2019,Apr,North East EV,North East EV,total,43.0,sub-area
-2019-04-01,2019,Apr,North West EV,North West EV,total,57.0,sub-area
-2019-04-01,2019,Apr,South East EV,South East EV,total,215.0,sub-area
-2019-04-01,2019,Apr,South West EV,South West EV,total,15.0,sub-area
-2019-05-01,2019,May,North East EV,North East EV,total,46.0,sub-area
-2019-05-01,2019,May,North West EV,North West EV,total,59.0,sub-area
-2019-05-01,2019,May,South East EV,South East EV,total,212.0,sub-area
-2019-05-01,2019,May,South West EV,South West EV,total,16.0,sub-area
-2019-06-01,2019,Jun,North East EV,North East EV,total,71.0,sub-area
-2019-06-01,2019,Jun,North West EV,North West EV,total,69.0,sub-area
-2019-06-01,2019,Jun,South East EV,South East EV,total,252.0,sub-area
-2019-06-01,2019,Jun,South West EV,South West EV,total,26.0,sub-area
-2019-07-01,2019,Jul,North East EV,North East EV,total,79.0,sub-area
-2019-07-01,2019,Jul,North West EV,North West EV,total,71.0,sub-area
-2019-07-01,2019,Jul,South East EV,South East EV,total,226.0,sub-area
-2019-07-01,2019,Jul,South West EV,South West EV,total,22.0,sub-area
-2019-08-01,2019,Aug,North East EV,North East EV,total,60.0,sub-area
-2019-08-01,2019,Aug,North West EV,North West EV,total,49.0,sub-area
-2019-08-01,2019,Aug,South East EV,South East EV,total,196.0,sub-area
-2019-08-01,2019,Aug,South West EV,South West EV,total,21.0,sub-area
-2019-09-01,2019,Sep,North East EV,North East EV,total,68.0,sub-area
-2019-09-01,2019,Sep,North West EV,North West EV,total,57.0,sub-area
-2019-09-01,2019,Sep,South East EV,South East EV,total,300.0,sub-area
-2019-09-01,2019,Sep,South West EV,South West EV,total,22.0,sub-area
-2019-10-01,2019,Oct,North East EV,North East EV,total,44.0,sub-area
-2019-10-01,2019,Oct,North West EV,North West EV,total,69.0,sub-area
-2019-10-01,2019,Oct,South East EV,South East EV,total,270.0,sub-area
+2019-01-01,2019,Jan,North East EV,North East EV,total,55.0,sub-area
+2019-01-01,2019,Jan,North West EV,North West EV,total,96.0,sub-area
+2019-01-01,2019,Jan,South East EV,South East EV,total,341.0,sub-area
+2019-01-01,2019,Jan,South West EV,South West EV,total,51.0,sub-area
+2019-02-01,2019,Feb,North East EV,North East EV,total,80.0,sub-area
+2019-02-01,2019,Feb,North West EV,North West EV,total,98.0,sub-area
+2019-02-01,2019,Feb,South East EV,South East EV,total,300.0,sub-area
+2019-02-01,2019,Feb,South West EV,South West EV,total,19.0,sub-area
+2019-03-01,2019,Mar,North East EV,North East EV,total,64.0,sub-area
+2019-03-01,2019,Mar,North West EV,North West EV,total,83.0,sub-area
+2019-03-01,2019,Mar,South East EV,South East EV,total,264.0,sub-area
+2019-03-01,2019,Mar,South West EV,South West EV,total,17.0,sub-area
+2019-04-01,2019,Apr,North East EV,North East EV,total,81.0,sub-area
+2019-04-01,2019,Apr,North West EV,North West EV,total,94.0,sub-area
+2019-04-01,2019,Apr,South East EV,South East EV,total,295.0,sub-area
+2019-04-01,2019,Apr,South West EV,South West EV,total,32.0,sub-area
+2019-05-01,2019,May,North East EV,North East EV,total,101.0,sub-area
+2019-05-01,2019,May,North West EV,North West EV,total,60.0,sub-area
+2019-05-01,2019,May,South East EV,South East EV,total,316.0,sub-area
+2019-05-01,2019,May,South West EV,South West EV,total,30.0,sub-area
+2019-06-01,2019,Jun,North East EV,North East EV,total,74.0,sub-area
+2019-06-01,2019,Jun,North West EV,North West EV,total,72.0,sub-area
+2019-06-01,2019,Jun,South East EV,South East EV,total,301.0,sub-area
+2019-06-01,2019,Jun,South West EV,South West EV,total,21.0,sub-area
+2019-07-01,2019,Jul,North East EV,North East EV,total,87.0,sub-area
+2019-07-01,2019,Jul,North West EV,North West EV,total,94.0,sub-area
+2019-07-01,2019,Jul,South East EV,South East EV,total,395.0,sub-area
+2019-07-01,2019,Jul,South West EV,South West EV,total,28.0,sub-area
+2019-08-01,2019,Aug,North East EV,North East EV,total,62.0,sub-area
+2019-08-01,2019,Aug,North West EV,North West EV,total,74.0,sub-area
+2019-08-01,2019,Aug,South East EV,South East EV,total,312.0,sub-area
+2019-08-01,2019,Aug,South West EV,South West EV,total,22.0,sub-area
+2019-09-01,2019,Sep,North East EV,North East EV,total,70.0,sub-area
+2019-09-01,2019,Sep,North West EV,North West EV,total,94.0,sub-area
+2019-09-01,2019,Sep,South East EV,South East EV,total,311.0,sub-area
+2019-09-01,2019,Sep,South West EV,South West EV,total,59.0,sub-area
+2019-10-01,2019,Oct,North East EV,North East EV,total,63.0,sub-area
+2019-10-01,2019,Oct,North West EV,North West EV,total,98.0,sub-area
+2019-10-01,2019,Oct,South East EV,South East EV,total,301.0,sub-area
 2019-10-01,2019,Oct,South West EV,South West EV,total,18.0,sub-area
-2019-11-01,2019,Nov,North East EV,North East EV,total,45.0,sub-area
-2019-11-01,2019,Nov,North West EV,North West EV,total,64.0,sub-area
-2019-11-01,2019,Nov,South East EV,South East EV,total,291.0,sub-area
-2019-11-01,2019,Nov,South West EV,South West EV,total,25.0,sub-area
-2019-12-01,2019,Dec,North East EV,North East EV,total,47.0,sub-area
-2019-12-01,2019,Dec,North West EV,North West EV,total,44.0,sub-area
-2019-12-01,2019,Dec,South East EV,South East EV,total,196.0,sub-area
-2019-12-01,2019,Dec,South West EV,South West EV,total,47.0,sub-area
+2019-11-01,2019,Nov,North East EV,North East EV,total,69.0,sub-area
+2019-11-01,2019,Nov,North West EV,North West EV,total,38.0,sub-area
+2019-11-01,2019,Nov,South East EV,South East EV,total,281.0,sub-area
+2019-11-01,2019,Nov,South West EV,South West EV,total,29.0,sub-area
+2019-12-01,2019,Dec,North East EV,North East EV,total,30.0,sub-area
+2019-12-01,2019,Dec,North West EV,North West EV,total,115.0,sub-area
+2019-12-01,2019,Dec,South East EV,South East EV,total,210.0,sub-area
+2019-12-01,2019,Dec,South West EV,South West EV,total,15.0,sub-area
 2018-01-01,2018,Jan,North East EV,North East EV,total,58.0,sub-area
 2018-01-01,2018,Jan,North West EV,North West EV,total,67.0,sub-area
 2018-01-01,2018,Jan,South East EV,South East EV,total,334.0,sub-area
@@ -947,7 +947,7 @@ date,year,month,area,source_area,component,count,area_type
 2022-12-01,2022,Dec,North West EV,North West EV,total,125.0,sub-area
 2022-12-01,2022,Dec,South East EV,South East EV,total,527.0,sub-area
 2022-12-01,2022,Dec,South West EV,South West EV,total,98.0,sub-area
-2025-01-01,2025,Jan,North East EV,North East EV,total,84.0,sub-area
+2025-01-01,2025,Jan,North East EV,North East EV,total,83.0,sub-area
 2025-01-01,2025,Jan,North West EV,North West EV,total,47.0,sub-area
 2025-01-01,2025,Jan,South East EV,South East EV,total,262.0,sub-area
 2025-01-01,2025,Jan,South West EV,South West EV,total,43.0,sub-area
@@ -1113,8 +1113,8 @@ date,year,month,area,source_area,component,count,area_type
 2018-02-01,2018,Feb,East Village,East Village,vehicle,18.0,neighborhood
 2018-02-01,2018,Feb,East Village,East Village,tent,90.0,neighborhood
 2018-02-01,2018,Feb,City Center,Core,individual,137.0,neighborhood
-2018-02-01,2018,Feb,City Center,Core,vehicle,0.0,neighborhood
-2018-02-01,2018,Feb,City Center,Core,tent,100.0,neighborhood
+2018-02-01,2018,Feb,City Center,Core,vehicle,1.0,neighborhood
+2018-02-01,2018,Feb,City Center,Core,tent,10.0,neighborhood
 2018-02-01,2018,Feb,Columbia,Columbia,individual,30.0,neighborhood
 2018-02-01,2018,Feb,Columbia,Columbia,vehicle,0.0,neighborhood
 2018-02-01,2018,Feb,Columbia,Columbia,tent,16.0,neighborhood
@@ -1200,7 +1200,7 @@ date,year,month,area,source_area,component,count,area_type
 2018-06-01,2018,Jun,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
 2018-06-01,2018,Jun,Gaslamp,Gaslamp,tent,0.0,neighborhood
 2018-07-01,2018,Jul,East Village,East Village,individual,451.0,neighborhood
-2018-07-01,2018,Jul,East Village,East Village,vehicle,32.0,neighborhood
+2018-07-01,2018,Jul,East Village,East Village,vehicle,26.0,neighborhood
 2018-07-01,2018,Jul,East Village,East Village,tent,67.0,neighborhood
 2018-07-01,2018,Jul,City Center,Core,individual,132.0,neighborhood
 2018-07-01,2018,Jul,City Center,Core,vehicle,1.0,neighborhood
@@ -2071,7 +2071,7 @@ date,year,month,area,source_area,component,count,area_type
 2022-07-01,2022,Jul,Marina,Marina,tent,0.0,neighborhood
 2022-07-01,2022,Jul,Cortez,Cortez,individual,42.0,neighborhood
 2022-07-01,2022,Jul,Cortez,Cortez,vehicle,1.0,neighborhood
-2022-07-01,2022,Jul,Cortez,Cortez,tent,20.0,neighborhood
+2022-07-01,2022,Jul,Cortez,Cortez,tent,26.0,neighborhood
 2022-07-01,2022,Jul,Gaslamp,Gaslamp,individual,26.0,neighborhood
 2022-07-01,2022,Jul,Gaslamp,Gaslamp,vehicle,0.0,neighborhood
 2022-07-01,2022,Jul,Gaslamp,Gaslamp,tent,1.0,neighborhood
@@ -2135,7 +2135,7 @@ date,year,month,area,source_area,component,count,area_type
 2022-11-01,2022,Nov,City Center,City Center,individual,125.0,neighborhood
 2022-11-01,2022,Nov,City Center,City Center,vehicle,0.0,neighborhood
 2022-11-01,2022,Nov,City Center,City Center,tent,63.0,neighborhood
-2022-11-01,2022,Nov,Marina,Marina,individual,49.0,neighborhood
+2022-11-01,2022,Nov,Marina,Marina,individual,29.0,neighborhood
 2022-11-01,2022,Nov,Marina,Marina,vehicle,2.0,neighborhood
 2022-11-01,2022,Nov,Marina,Marina,tent,6.0,neighborhood
 2022-11-01,2022,Nov,Columbia,Columbia,individual,28.0,neighborhood
@@ -2422,7 +2422,7 @@ date,year,month,area,source_area,component,count,area_type
 2024-03-01,2024,Mar,East Village,East Village,tent,78.0,neighborhood
 2024-03-01,2024,Mar,City Center,City Center,individual,189.0,neighborhood
 2024-03-01,2024,Mar,City Center,City Center,vehicle,0.0,neighborhood
-2024-03-01,2024,Mar,City Center,City Center,tent,8.0,neighborhood
+2024-03-01,2024,Mar,City Center,City Center,tent,18.0,neighborhood
 2024-03-01,2024,Mar,Columbia,Columbia,individual,36.0,neighborhood
 2024-03-01,2024,Mar,Columbia,Columbia,vehicle,0.0,neighborhood
 2024-03-01,2024,Mar,Columbia,Columbia,tent,3.0,neighborhood

@@ -29,7 +29,7 @@ class FeatureImportanceAnalyzer:
     """
 
     def __init__(self, data_path: Optional[Path] = None):
-        self.data_path = data_path or Path("data/FeatureMatrix_Comprehensive_67.csv")
+        self.data_path = data_path or Path("data/FeatureMatrix_Comprehensive_68.csv")
         self.logger = logging.getLogger(self.__class__.__name__)
 
     def load_data(self) -> Tuple[pd.DataFrame, pd.Series, list]:

@@ -34,8 +34,8 @@ The Downtown San Diego Partnership (DSDP) and the Regional Task Force on Homeles
 | Method Code | Time Period | Total Rows | Component Rows | Tent Multiplier (Documented / Empirical) | Vehicle Multiplier (Documented / Empirical) | Indiv Multiplier (Empirical) | Status |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **`PRE2017`** | Jan 2017 – Mar 2017 | 18 | 0 | $2.00$ / N/A* | $2.00$ / N/A* | N/A* | Total Only |
-| **`APR2017`** | Apr 2017 – May 2018 | 166 | 72 | $1.75$ / **$1.7500$** | $1.66$ / **$1.6600$** | **$1.0000$** | **100% Match** |
-| **`MAY2018`** | Jun 2018 – Dec 2019 | 560 | 248 | $1.75$ / **$1.7500$** | $2.03$ / **$2.0300$** | **$1.0000$** | **100% Match** |
+| **`APR2017`** | Apr 2017 – Apr 2018 | 166 | 72 | $1.75$ / **$1.7500$** | $1.66$ / **$1.6600$** | **$1.0000$** | **100% Match** |
+| **`MAY2018`** | May 2018 – Dec 2019 | 560 | 248 | $1.75$ / **$1.7500$** | $2.03$ / **$2.0300$** | **$1.0000$** | **100% Match** |
 | **`POST2020`** | Jan 2020 – Present | 2,070 | 1,402 | $1.75$ / **$1.7500$** | $2.03$ / **$2.0300$** | **$1.0000$** | **100% Match** |
 
 *\*Note on `PRE2017`: Only aggregate neighborhood totals were recorded in DSDP source documents for Q1 2017; no individual, tent, or vehicle counts were captured.*
@@ -53,12 +53,14 @@ $$\text{rebuilt\_total\_count} = \text{round}\Big(\text{total\_count}_{\text{ind
 
 ### Rules Applied
 1. **Area-Months with Components (544 rows):** `total_count` in the `component == 'total'` row was replaced with `rebuilt_total_count`.
-2. **Rows Without Components (548 rows):**
+2. **Rows Without Components (518 rows):**
    * **`PRE2017` (18 rows):** Jan–Mar 2017 totals have no component data. Retained `total_count = raw_count`.
    * **East Village Sub-Areas (384 rows):** North West EV, South East EV, South West EV, North East EV are reported by DSDP only as single aggregate quadrant totals. Retained `total_count = raw_count`.
    * **`Outside Perimeter` (60 rows):** Perimeter counts (Barrio Logan, Logan Heights, Sherman Heights) are tracked only as an aggregate perimeter figure. Retained `total_count = raw_count`.
    * **Apr–Dec 2017 (54 rows):** Master table carries only headline totals. Retained `total_count = raw_count`.
    * **Missing Breakouts (2 rows):** Sep 2021 City Center and Dec 2021 Marina lack component entries in source tables. Retained `total_count = raw_count`.
+
+   > *Correction (October 2026): earlier versions gave this total as 548, but the groups above add up to 518. Recounted directly from `data/MasterCounts_Adjusted_v2.csv` (1,092 total rows = 574 with components + 518 without).*
 
 ---
 
@@ -93,7 +95,14 @@ Total                        544     100.00%
 ```
 
 > [!NOTE]
-> **95.04% of reconciled rows** deviate by $\le \pm 2.0$. Because DSDP rounds each individual neighborhood total to whole integers when formatting PDF release tables, fractional tent counts ($0.75$) and vehicle counts ($0.03, 0.66$) naturally produce $\pm 0.25$ to $\pm 1.5$ rounding residuals.
+> **95.04% of reconciled rows** deviate by $\le \pm 2.0$. Because DSDP rounds each individual neighborhood total to whole integers when formatting PDF release tables, fractional tent counts ($0.75$) and vehicle counts ($0.03, 2.03, 1.66$) naturally produce $\pm 0.25$ to $\pm 1.5$ rounding residuals.
+>
+> **October 2026 Audit Re-Evaluation (574 Reconciled Area-Months):**  
+> Following the application of `data/source_corrections.csv` (which corrected the Feb 2018 City Center transcription error from 100 tents to 10 tents and fixed the 2019 EV sub-area duplicates), the dataset was audited across all **574 area-months with components**:
+> * **Standard Deviation ($\Delta$):** Dropped dramatically from $8.00$ to **$1.67$**, reflecting the removal of the $+156$ artificial spike.
+> * **Outlier Rows ($|\Delta| > 2.0$):** Reduced from $27$ rows ($4.96\%$) down to **$17$ rows ($2.96\%$)**.
+> * **Within Tolerance ($|\Delta| \le 2.0$):** **$533$ of $574$ rows ($92.86\%$)** are within ordinary integer rounding bounds.
+> * **Remaining Non-Component Rows:** Exactly $518$ rows lack component tables ($574 + 518 = 1,092$ total rows).
 
 ---
 
@@ -152,7 +161,7 @@ Total                      548
 ### Guidance for Project Assignments 2 through 10:
 
 1. **For Longitudinal & Forecasting Models (Assignments 4 & 7):**
-   * **Recommendation A (High-Fidelity Pure Series):** When fitting continuous time-series models (ARIMA, SARIMA, Prophet) spanning 2012–2025, train on the **`raw_count`** column. Modeling raw counts avoids artificial level-shifts and variance instability introduced by changing multiplier formulas ($2.0 \rightarrow 1.66 \rightarrow 2.03$).
+   * **Recommendation A (High-Fidelity Pure Series):** When fitting continuous time-series models (ARIMA, SARIMA, Prophet) spanning 2017–2025, train on the **`raw_count`** column. Modeling raw counts avoids artificial level-shifts and variance instability introduced by changing multiplier formulas ($2.0 \rightarrow 1.66 \rightarrow 2.03$).
    * **Recommendation B (Adjusted Population Scale):** If modeling **`total_count`** to report official unhoused population estimates:
      * Treat the 18 `PRE2017` rows and 54 late-2017 rows as an **unadjusted baseline regime**.
      * Alternatively, apply an empirical scaling factor of **$1.182\times$** (the historical 2018–2019 mean ratio of $\text{adjusted\_total} / \text{raw\_total}$) if a homogeneous adjusted series is required.

@@ -14,3 +14,7 @@ Thumbs.db
 
 # Testing
 .pytest_cache/
+
+# Audit fix working files
+data/_pre_fix_snapshot/
+data/_from_drive/

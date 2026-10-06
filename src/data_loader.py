@@ -71,8 +71,9 @@ def load_forecast_data() -> pd.DataFrame:
     """
     path = DATA_DIR / "Forecasts_12Month.csv"
     if not path.exists():
-        # Fallback synthesized prospective forecasts based on Task 7.4 XGBoost champion
-        return _generate_fallback_forecasts()
+        # No synthetic fallback: showing invented numbers as model output would mislead users.
+        st.error("data/Forecasts_12Month.csv not found. Run `python forecast_pipeline.py` to generate forecasts.")
+        return pd.DataFrame()
 
     df = pd.read_csv(path)
     df["forecast_date"] = pd.to_datetime(df["forecast_date"])
@@ -158,6 +159,39 @@ def load_geojson_grid() -> Optional[gpd.GeoDataFrame]:
         return gdf
     except Exception:
         return None
+
+
+@st.cache_data(show_spinner=False, ttl=3600)
+def load_forecast_benchmarks(series: str = "Overall - reported footprint") -> pd.DataFrame:
+    """
+    Model benchmark table computed from the Task 7.2/7.3 outputs (not hard-coded):
+    12-month CV MAPE/RMSE (mean over the 5 walk-forward folds, Forecast_CV_Metrics.csv)
+    and 2025 hold-out MAPE at the 12-month horizon (Forecast_ModelComparison.csv).
+    """
+    cv_path = DATA_DIR / "Forecast_CV_Metrics.csv"
+    if not cv_path.exists():
+        return pd.DataFrame()
+    cv = pd.read_csv(cv_path)
+    cv = cv[(cv["series"] == series) & (cv["horizon_months"] == 12)]
+    table = cv.groupby("model")[["mape", "rmse"]].mean()
+
+    holdout = pd.Series(dtype=float)
+    cmp_path = DATA_DIR / "Forecast_ModelComparison.csv"
+    if cmp_path.exists():
+        cmp = pd.read_csv(cmp_path)
+        cmp = cmp[(cmp["series"] == series) & (cmp["horizon_months"] == 12)]
+        holdout = cmp.set_index("model")["mape_pct"]
+
+    names = {"xgboost": "XGBoost", "holt_winters": "Holt-Winters", "sarima": "SARIMA",
+             "prophet": "Prophet (changepoints)", "naive_seasonal": "Naive seasonal (t-12)"}
+    out = pd.DataFrame({
+        "Model": [names.get(m, m) for m in table.index],
+        "12-Mo CV MAPE": [f"{v:.2f}%" for v in table["mape"]],
+        "12-Mo CV RMSE": [f"{v:.1f}" for v in table["rmse"]],
+        "2025 Hold-Out MAPE": [f"{holdout[m]:.2f}%" if m in holdout.index else "n/a" for m in table.index],
+        "_sort": table["mape"].values,
+    }).sort_values("_sort").drop(columns="_sort")
+    return out.reset_index(drop=True)
 
 
 def _generate_fallback_forecasts() -> pd.DataFrame:

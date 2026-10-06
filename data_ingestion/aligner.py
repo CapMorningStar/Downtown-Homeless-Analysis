@@ -8,6 +8,7 @@ joined with canonical monthly unsheltered counts from MasterCounts_Adjusted_v2.c
 import logging
 from pathlib import Path
 from typing import Optional
+import numpy as np
 import pandas as pd
 
 from .sources.weather_noaa import WeatherIngestionPipeline
@@ -60,9 +61,10 @@ class MultiSourceAligner:
         
         # Total counts (adjusted and raw)
         df_tot = df_neigh[df_neigh["component"] == "total"]
+        # min_count=1: a month with no published neighborhood totals stays NaN (not 0)
         tot_agg = df_tot.groupby("date").agg(
-            downtown_actual_adjusted_count=("total_count", "sum"),
-            downtown_actual_raw_count=("raw_count", "sum"),
+            downtown_actual_adjusted_count=("total_count", lambda s: s.sum(min_count=1)),
+            downtown_actual_raw_count=("raw_count", lambda s: s.sum(min_count=1)),
         ).reset_index()
 
         # Individual, vehicle, tent breakdown
@@ -78,12 +80,17 @@ class MultiSourceAligner:
         merged["date"] = pd.to_datetime(merged["date"]).dt.strftime("%Y-%m-%d")
         merged = merged.sort_values("date").reset_index(drop=True)
 
-        # Round counts and fill unsegmented historical subcomponents (2017) with 0.0
-        merged["downtown_actual_adjusted_count"] = merged["downtown_actual_adjusted_count"].fillna(0.0).round(2)
-        merged["downtown_actual_raw_count"] = merged["downtown_actual_raw_count"].fillna(0.0).round(2)
-        merged["downtown_actual_individual_count"] = merged["downtown_actual_individual_count"].fillna(0.0).round(2)
-        merged["downtown_actual_vehicle_count"] = merged["downtown_actual_vehicle_count"].fillna(0.0).round(2)
-        merged["downtown_actual_tent_count"] = merged["downtown_actual_tent_count"].fillna(0.0).round(2)
+        # Months DSDP had not published (Jul, Aug, Oct, Nov 2025) stay NaN with a flag; filling them
+        # with 0 previously made the models train and forecast on fake zero counts.
+        released = merged["downtown_actual_adjusted_count"].notna()
+        merged["downtown_count_released"] = released.astype(int)
+        merged["downtown_actual_adjusted_count"] = merged["downtown_actual_adjusted_count"].round(2)
+        merged["downtown_actual_raw_count"] = merged["downtown_actual_raw_count"].round(2)
+        # Unsegmented historical subcomponents (2017) are 0.0; unpublished months stay NaN
+        for col in ("downtown_actual_individual_count", "downtown_actual_vehicle_count", "downtown_actual_tent_count"):
+            merged[col] = merged[col].where(~released | merged[col].notna(), 0.0)
+            merged.loc[~released, col] = np.nan
+            merged[col] = merged[col].round(2)
 
         return merged
 

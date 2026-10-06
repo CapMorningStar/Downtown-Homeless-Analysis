@@ -1,505 +1,465 @@
 # Downtown San Diego Homeless Population Analysis
-## Longitudinal Econometric Modeling, Geospatial Hotspot Surveillance, Predictive Machine Learning, and Countywide Macro-Estimation (2017–2026)
-### Full Technical Report & Methodological Monograph
+## Full Technical Report (Assignments 1–8 synthesis)
 
-**Organization:** Data Science Alliance (DSA)  
-**Collaborating Partners:** Downtown San Diego Partnership (DSDP), Regional Task Force on Homelessness (RTFH)  
-**Lead Quantitative Analyst & Technical Writer:** Kyaw Soe Lwin (`kylwin@ucsd.edu` / `kslwin.2000@gmail.com`)  
-**Project Lead & Reviewer:** Adir Mancebo Jr. (`adir@datasciencealliance.org`)  
-**Document Classification:** Assignment 9 Technical Deliverable (`FullTechnicalReport`)  
-**Publication Version:** 2.0 (September 2026)  
-**Repository & Source Code:** [CapMorningStar/Downtown-Homeless-Analysis](https://github.com/CapMorningStar/Downtown-Homeless-Analysis)  
-**Interactive Analytical Application:** [http://localhost:8501](http://localhost:8501)
+**Organization:** Data Science Alliance (DSA)
+**Data sources:** Downtown San Diego Partnership (DSDP) Clean & Safe monthly unsheltered counts; Regional Task Force on Homelessness (RTFH) annual Point-in-Time (PIT) counts
+**Lead analyst:** Kyaw Soe Lwin (`kylwin@ucsd.edu`)
+**Project lead & reviewer:** Adir Mancebo Jr. (`adir@datasciencealliance.org`)
+**Deliverable:** Assignment 9, Task 9.2 (`FullTechnicalReport`)
+**Version:** 3.0 (October 2026) — fully revised; see §11 for what changed and why
+**Repository:** [CapMorningStar/Downtown-Homeless-Analysis](https://github.com/CapMorningStar/Downtown-Homeless-Analysis)
 
 ---
 
 ## Abstract
 
-This monograph synthesizes a nine-year longitudinal study (January 2017 through December 2025; $N = 108$ months) analyzing unsheltered homelessness across Downtown San Diego, California, alongside eight years of paired countywide Point-in-Time (PIT) censuses. Combining econometric time-series decomposition, spatial autocorrelation statistics, supervised machine learning forecasting, and macro-econometric policy-regime regressions, we resolve critical empirical and methodological questions that have historically obscured regional policy evaluation. 
+This report synthesizes Assignments 1–8 of a study of unsheltered homelessness in Downtown San Diego from January 2017 to December 2025 (108 months, 104 with published counts), together with eight years of paired countywide PIT counts (2017–2020 and 2022–2025; the 2021 unsheltered count was waived).
 
-First, we prove that downtown homelessness does not follow statistically significant seasonal weather cycles; non-parametric Kruskal-Wallis testing across 9 downtown series confirms that 8 series exhibit zero seasonality ($p > 0.05$), with overall counts yielding $H = 3.00, p = 0.99$. Month-to-month variance is governed almost exclusively by multi-year policy regimes, shelter capacity shocks, and macro-economic factors. Second, spatial analysis across 382 polygon census blocks reveals that the geographic center of downtown encampments has migrated **121 meters southward** between 2018 and 2025, driven by transit adjacency, service infrastructure, and northern right-of-way enforcement sweeps. Third, we show that the administrative footprint expansion of January 2022 (adding 121 blocks in Golden Hill, Barrio Logan, and Sherman Heights) artificially accounted for between 4.0% and 32.8% of reported post-2021 count increases. Fourth, multi-horizon prospective forecasting using an optimized Gradient Boosted Decision Tree (XGBoost) model demonstrates superior accuracy (12-month cross-validation MAPE of 39.34% $\pm$ 25.36%, outperforming SARIMA, Holt-Winters, and Prophet), projecting stable status-quo baseline counts between 850 and 920 individuals per month throughout 2026. Finally, we document the structural decoupling between downtown and countywide homelessness following the implementation of the City of San Diego’s Unsafe Camping Ordinance in July 2023: visible downtown counts collapsed by -56%, yet countywide unsheltered numbers reached an all-time record of 6,110. To model this divergence, we establish a **Policy Regime Ordinary Least Squares (OLS) model** ($Y = 4,513.26 + 0.1859 \cdot X + 1,225.04 \cdot D_{\text{post}}$, $R^2 = 0.9638$, LOOCV RMSE = 815.32) with Student's $t$ calibrated 95% prediction intervals ($\pm 2,050$ individuals, or $\pm 35\%$), governed by a mandatory four-rule public communication charter.
+Main findings, each traceable to a file in `data/`:
 
----
-
-## 1. Project Framing, Scope & Governance Architecture
-
-### 1.1 Institutional Context & Research Mandate
-Homelessness in urban centers represents an intersection of housing affordability, public health, criminal justice, and urban design. In San Diego, decision-makers have historically faced a stark choice between two divergent data collection methodologies:
-1. **The Regional Task Force on Homelessness (RTFH) Annual Point-in-Time (PIT) Count:** A federally mandated HUD Continuum of Care census conducted on a single morning in late January across San Diego County. While broad in geographic scope, its annual frequency leaves an 11-month planning vacuum.
-2. **The Downtown San Diego Partnership (DSDP) Monthly Clean & Safe Field Count:** An operational street census conducted during the final week of each month across Downtown San Diego. While high-frequency, raw reporting has historically been vulnerable to unadjusted methodology breaks, boundary shifts, and public misinterpretation.
-
-In response, the **Data Science Alliance** launched this independent research initiative to construct an audited, longitudinal data pipeline, model spatial and temporal dynamics, and establish an evidence-based decision-support system for public leadership.
-
-### 1.2 Delineation of Study Area & Neighborhood Hierarchy
-The study area encompasses the urban core of the City of San Diego, organized into seven official neighborhood boundaries, one residual perimeter zone, and four specialized sub-quadrants within the East Village:
-
-```
-+----------------------------------------------------------------------------------------------------+
-|                                    STUDY AREA SPATIAL HIERARCHY                                     |
-+----------------------------------------------------------------------------------------------------+
-|                                                                                                    |
-|    DOWNTOWN SAN DIEGO CORE (7 Neighborhoods):                                                       |
-|    ├── City Center (formerly designated as "Core" in historical reports)                           |
-|    ├── Columbia                                                                                    |
-|    ├── Cortez Hill                                                                                 |
-|    ├── Gaslamp Quarter                                                                             |
-|    ├── Marina                                                                                      |
-|    ├── Little Italy                                                                                |
-|    └── East Village (Divided into 4 Analytical Quadrants):                                         |
-|        ├── North East Village (North of Market St, East of Park Blvd)                              |
-|        ├── North West Village (North of Market St, West of Park Blvd)                              |
-|        ├── South East Village (South of Market St, East of Park Blvd)                              |
-|        └── South West Village (South of Market St, West of Park Blvd)                              |
-|                                                                                                    |
-|    BOUNDARY EXPANSION ZONE (Added January 2022):                                                   |
-|    └── Outside Perimeter (121 peripheral blocks in Golden Hill, Barrio Logan, Sherman Heights)     |
-|                                                                                                    |
-+----------------------------------------------------------------------------------------------------+
-```
-
-### 1.3 Scope Correction & Temporal Baseline
-A critical initial data governance correction resolved the project's historical temporal scope. While preliminary exploratory working files included unverified records dating back to 2012, rigorous source-document verification confirmed that **reliable, methodologically consistent, disaggregated component counts (tents, vehicles, unsheltered individuals) begin exclusively on January 1, 2017 (`2017-01-01`)**. Pre-2017 records lack consistent component breakdown and field route logs. Therefore, the canonical empirical baseline utilized across all subsequent econometrics and modeling spans exactly **108 continuous months (2017-01-01 to 2025-12-01)**.
+1. **Seasonality is weak.** After STL de-trending, Kruskal-Wallis tests find no significant calendar-month effect in 8 of 9 series. The overall series gives H = 2.66 (p = 0.995); only Marina is significant (H = 19.88, p = 0.047), and its ANOVA companion test is not (p = 0.162).
+2. **Multi-year swings dominate.** The citywide monthly total averaged 1,057.8 in 2017 and fell to 654.1 in 2020 (−38.2%). It peaked at 2,103.3 in May 2023, then dropped 43.3% between the 2023 and 2024 annual averages.
+3. **The 2022 boundary expansion inflates post-2021 totals.** The 121 blocks added in 2022 (Golden Hill, Barrio Logan, Sherman Heights) account for 3.7% to 32.8% of the digitized totals on the five post-2021 count dates.
+4. **Hotspots are compact and persistent.** On a fixed 261-block panel, global Moran's I is positive on all 12 digitized dates (0.063–0.239, permutation p ≤ 0.034). The most persistent Getis-Ord Gi* hotspot (16th St & Imperial Ave) is significant on 9 of 12 dates. The count-weighted hotspot centroid moved about 120 m (bearing 160°, south-south-east) between 2018–2020 and 2022–2025.
+5. **Forecast accuracy is modest.** At the 12-month horizon, XGBoost and Holt-Winters are essentially tied in 5-fold walk-forward cross-validation (mean MAPE 38.25% vs 38.44%, fold standard deviation ≈ 26–28 points). The 2026 status-quo forecast for the overall series is 816–896 per month.
+6. **County estimates are directional only.** The best county model in leave-one-year-out cross-validation (OLS with a post-2023 policy-regime indicator) has LOOCV RMSE 815 and MAPE 14.9%, but in-sample R² is only **0.504** (adjusted R² 0.306). Neither the downtown slope (p = 0.78) nor the regime term (p = 0.075) is significant at the 5% level with N = 8. Current county estimates should be reported as about **5,900 [3,900–8,000]**.
 
 ---
 
-## 2. Data Engineering, Ingestion Architecture & Quality Audits
+## 1. Scope
 
-### 2.1 Multi-Source Ingestion Pipeline
-Data were systematically harvested, parsed, and audited from 41 primary source PDF reports published by DSDP Clean & Safe. Because DSDP does not perform invasive physical inspections of tents or vehicles, field observers record visible structures and apply multiplier factors. The total adjusted count $Y_{i,t}$ for neighborhood $i$ in month $t$ is calculated according to the canonical equation:
+### 1.1 Context
+The RTFH PIT count is an annual, countywide, single-night census conducted in late January. The DSDP Clean & Safe count is a monthly overnight count covering only downtown. This project builds an audited monthly series from the DSDP reports, analyses its temporal and spatial structure, forecasts it, and tests how far it can be used to estimate the countywide unsheltered population between PIT counts.
 
-$$Y_{i,t} = 1.0 \cdot \text{Individuals}_{i,t} + \mu_{\text{tent},t} \cdot \text{Tents}_{i,t} + \mu_{\text{veh},t} \cdot \text{Vehicles}_{i,t}$$
+### 1.2 Study areas
+* **Monthly series (neighborhood level):** East Village, City Center (labelled "Core" in 2017 – early 2019 reports), Columbia, Cortez, Gaslamp, Marina, and an "Outside Perimeter" total that DSDP reports from January 2021. East Village is also reported in four quadrants (North East, North West, South East, South West EV; quadrant boundaries are Market St and Park Blvd).
+* **Block level:** 382 blocks in `data/Downtown_BlockGrid.geojson`. 261 blocks are counted on every digitized date; 121 blocks in Golden Hill (52), Barrio Logan (35) and Sherman Heights (34) appear only from 2022.
 
-Where $\mu_{\text{tent},t}$ and $\mu_{\text{veh},t}$ represent policy multiplier regimes enacted across time:
-
-```
-Table 2.1: Chronology of DSDP Multiplier Regimes (2017–2025)
-+-----------------------+---------------------+-------------------+---------------------+-----------------------------------------+
-| Multiplier Regime     | Temporal Window     | Tent Factor (μ_t) | Vehicle Factor (μ_v)| Administrative Rationale                |
-+-----------------------+---------------------+-------------------+---------------------+-----------------------------------------+
-| PRE-APR2017           | Jan 2017 – Mar 2017 | 1.50 individuals  | 1.50 individuals    | Baseline Clean & Safe protocol          |
-| APR2017–APR2018       | Apr 2017 – Apr 2018 | 1.75 individuals  | 1.50 individuals    | Survey-based tent density adjustment    |
-| MAY2018–DEC2019       | May 2018 – Dec 2019 | 1.75 individuals  | 2.00 individuals    | Regional RTFH vehicle alignment         |
-| POST2020              | Jan 2020 – Present  | 1.75 individuals  | 2.00 individuals    | Permanent standardized methodology      |
-+-----------------------+---------------------+-------------------+---------------------+-----------------------------------------+
-```
-
-### 2.2 Mathematical Forensics & Quality Audits
-To establish ground-truth integrity, a stratified random 45-cell audit was executed against original source PDFs. The audit revealed a baseline fidelity rate of **97.56%**, while uncovering two major historical transcription errors embedded in published tables:
-1. **The 2019 East Village Duplication Bug:** From January through December 2019, published monthly summary tables inadvertently double-counted South East Village within both neighborhood and sub-area aggregations, artificially inflating reported downtown annual totals by 8% to 14%.
-2. **The February 2018 Arithmetic Sum Error:** A manual transcription error in the February 2018 PDF summary table inserted a +30 individual discrepancy relative to the sum of individual neighborhood rows.
-
-Both anomalies were mathematically isolated, corrected, and codified in [`data/MasterCounts_Adjusted_v2.csv`](file:///Users/kyawsoelwin/MSI/Downtownhomelessness/data/MasterCounts_Adjusted_v2.csv).
-
-```
-Table 2.2: Comprehensive Audit Discrepancy Log & Resolution Architecture
-+------------------+---------------------+--------------------+--------------------+-------------------------------------------+
-| Year-Month       | Affected Series     | Reported Value     | Audited Sum        | Root Cause & Resolution Applied           |
-+------------------+---------------------+--------------------+--------------------+-------------------------------------------+
-| Feb 2018         | Total Downtown      | 1,281              | 1,251              | PDF addition error (+30); re-summed rows  |
-| Jan–Dec 2019     | Total Downtown      | Inflated by 8–14%  | Corrected Sum      | EV South double-sum bug; rebuilt via rows |
-| Nov 2018         | All Neighborhoods   | Null (18 rows)     | Interpolated proxy | Severe weather / field cancellation       |
-| Jan–Dec 2025     | Unreleased Months   | Null (116 rows)    | Retained as null   | Calendar unreleased; filtered in loader   |
-+------------------+---------------------+--------------------+--------------------+-------------------------------------------+
-```
-
-### 2.3 Long-Format Data Architecture & Complete Accounting of Nulls
-The consolidated canonical dataset contains exactly **2,814 long-format rows** spanning 9 series across 108 months. Exactly **134 null values** exist in the master database, categorized into two structural root causes:
-* **116 Unreleased Calendar Nulls:** Corresponding to future/unreleased months in the 2025 calendar year.
-* **18 Historical Missing Count Nulls (November 2018):** Due to extreme regional weather and air quality conditions, DSDP field teams cancelled street sweeps and counts in November 2018.
-
-All automated data loaders implement explicit filtering (`total_count > 0` and `date <= max_released_date`) to prevent unreleased months from skewing statistical calculations or generating false troughs.
+### 1.3 Temporal scope
+The delivered data begin in **January 2017**, not 2012 as originally scoped. DSDP's own summary tables go back to 2012, but only totals (no neighborhood breakdown) are available before 2017, and they were not part of the delivered dataset.
 
 ---
 
-## 3. Exploratory Data Analysis & Empirical Longitudinal Trajectory
+## 2. Data, validation and corrections
 
-### 3.1 Parametric and Non-Parametric Longitudinal Statistics
-Analysis of the 108-month balanced time series demonstrates extreme spatial skewness and high temporal variance across the urban footprint:
+### 2.1 Adjusted counts and multipliers
+Each neighborhood's adjusted count is
 
-```
-Table 3.1: Parametric and Non-Parametric Summary Statistics by Series (2017–2025)
-+-----------------------+-------+---------+--------+--------+---------+---------+---------+---------+
-| Geographic Series     | N     | Mean    | Std    | Min    | Median  | Max     | IQR     | Skew    |
-+-----------------------+-------+---------+--------+--------+---------+---------+---------+---------+
-| Overall (Reported)    | 108   | 1,185.3 | 412.6  | 529.0  | 1,124.5 | 2,103.0 | 582.0   | +0.54   |
-| East Village (Total)  | 108   |   552.8 | 215.4  | 214.0  |   521.0 | 1,024.0 | 312.0   | +0.48   |
-| - East Village South  | 108   |   328.4 | 148.2  | 112.0  |   301.0 |   682.0 | 224.0   | +0.62   |
-| - East Village North  | 108   |   224.4 |  88.6  |  78.0  |   212.0 |   418.0 | 118.0   | +0.39   |
-| City Center (Core)    | 108   |   141.2 |  62.4  |  34.0  |   132.0 |   298.0 |  88.0   | +0.71   |
-| Gaslamp Quarter       | 108   |    49.1 |  24.8  |   8.0  |    44.0 |   118.0 |  32.0   | +0.84   |
-| Cortez Hill           | 108   |    44.2 |  19.5  |   6.0  |    41.0 |    98.0 |  26.0   | +0.58   |
-| Columbia              | 108   |    38.4 |  18.2  |   4.0  |    36.0 |    86.0 |  24.0   | +0.65   |
-| Marina                | 108   |    28.1 |  14.6  |   2.0  |    26.0 |    68.0 |  18.0   | +0.78   |
-| Outside Perimeter*    |  48   |   262.4 |  86.1  | 112.0  |   254.0 |   448.0 | 114.0   | +0.31   |
-+-----------------------+-------+---------+--------+--------+---------+---------+---------+---------+
-*Note: Outside Perimeter established January 2022 (N=48 months).
-```
+$$Y = \text{individuals} + \mu_{\text{tent}} \cdot \text{tents} + \mu_{\text{veh}} \cdot \text{vehicles}$$
 
-### 3.2 The Volume vs. Growth Rate Dichotomy
-A pivotal insight from bivariate growth modeling is the sharp divergence between absolute population volume and compound growth rates:
-* **The High-Volume Anchor:** East Village represents the overwhelming volume anchor (54.8% of the total downtown population), yet its long-term annualized growth rate (+3.2% per year) has been relatively moderate.
-* **The Rapidly Expanding Periphery:** Conversely, the **Outside Perimeter** boundary (Sherman Heights, Barrio Logan, Golden Hill) expanded at **+26.90% per year**, absorbing encampments displaced from core commercial corridors.
-* **The Contracting Coastal District:** Marina experienced a secular long-term decline of **-12.76% per year**, driven by active private security patrols and high-density residential redevelopment.
+| Regime (`method`) | First month | Tent × | Vehicle × | Note |
+|---|---|---:|---:|---|
+| `PRE2017` | Jan 2017 | 2.00 | 2.00 | no component breakdown in the data; total = raw |
+| `APR2017` | Apr 2017 | 1.75 | 1.66 | Clean & Safe adopted the RTFH method on 27 Apr 2017 |
+| `MAY2018` | May 2018 | 1.75 | 2.03 | implemented 31 May 2018, the night of the May count |
+| `POST2020` | Jan 2020 | 1.75 | 2.03 | RTFH stopped applying multipliers for HUD reporting; DSDP continued |
 
-### 3.3 The Three Macro Trajectory Epochs
-Longitudinal trajectory clustering establishes three macro structural phases:
-1. **Contraction Phase (Jan 2017 – Mar 2020):** Total downtown counts contracted by **-38.2%**, reaching an empirical minimum of 529 individuals in March 2020. This contraction coincided with the deployment of large-scale sprung-structure bridge shelters and aggressive hepatitis A sanitation interventions.
-2. **Surge & Peak Phase (Apr 2020 – May 2023):** Driven by pandemic-era shelter de-densification (which reduced congregate bed capacity by ~50%), eviction moratoria expirations, and synthetic fentanyl proliferation, counts escalated dramatically. Annual growth in 2022 reached **+57.6%**, culminating in the historic maximum of **2,103 individuals in May 2023**.
-3. **Enforcement Pullback & Stabilization Phase (Jun 2023 – Dec 2025):** The enactment of the City's Unsafe Camping Ordinance in July 2023 induced a rapid **-43.5% contraction**, settling into a stable plateau between 800 and 920 individuals throughout 2024 and 2025.
+Component data exist only from January 2018. For every month before that, the adjusted total equals the published total.
 
----
+### 2.2 Validation results
+* **45-cell source sample (Task 1.1):** 40 of the 41 published cells matched the source PDF (97.6%). The one mismatch (April 2025, South East EV) was later traced to DSDP's own breakout table, which does not add up to its East Village total (see §2.3).
+* **Full re-check (October 2026):** all 945 neighborhood monthly totals for 2017–2025 match the summary tables on page 1 of the DSDP reports.
+* **Missing values:** 134 cells. 116 are in 2025 (July, August, October and November were not yet published), and 18 are in November 2018 (the component breakdown is absent from that report while totals were published). City Center (September 2021) and Marina (December 2021) also lack component rows entirely.
 
-## 4. Time Series Econometrics & Decomposition Analytics
+### 2.3 Source corrections applied (October 2026)
+Details are in `docs/DataQualityReport.md` and `data/source_corrections.csv`.
+* **2019 East Village quadrants:** all 48 cells were a copy of the 2020 values. They were replaced with the 2019 breakout from the January 2020 report. The neighborhood totals were never affected.
+* **Component typos found against the scanned maps:**
+  * Feb 2018 City Center: 100 → 10 tents and 0 → 1 vehicle. The adjusted total had been 312.00 instead of 156.16.
+  * Jul 2018 East Village: 32 → 26 vehicles.
+  * Jul 2022 Cortez: 20 → 26 tents.
+  * Nov 2022 Marina: 49 → 29 individuals (inferred from the map total).
+  * Mar 2024 City Center: 8 → 18 tents.
+* **No source available:** for December 2019 (East Village, City Center, Gaslamp), December 2023 (East Village) and September 2025 (East Village), the adjusted total is set to the published total.
+* **Remaining flags:** 22 area-months where the adjusted and published totals differ by more than 2 are listed in `data/MasterCounts_QA_Flags.csv`. Three of these are map-verified conflicts within DSDP's own reports.
 
-### 4.1 Seasonal-Trend Decomposition using LOESS (STL)
-To isolate secular trends, seasonal oscillations, and irregular shocks, we implemented robust additive STL decomposition:
+### 2.4 Data products and how they are produced
+Every number in this report can be regenerated from the repository. The table lists the main files in dependency order.
 
-$$Y_t = T_t + S_t + R_t$$
+| File (in `data/`) | Contents | Produced by |
+|---|---|---|
+| `RawCounts_AllYears_clean.csv` | 2,814 rows: monthly published counts by area and component, standardized labels and ISO dates | Task 1.2 cleaning, then `scripts/apply_source_corrections.py` |
+| `MasterCounts_Adjusted_v2.csv` | Same rows with `raw_count`, multiplier-adjusted `total_count` and the `method` regime | Task 1.3 rebuild, then `scripts/apply_source_corrections.py` |
+| `source_corrections.csv`, `MasterCounts_QA_Flags.csv` | Cell-level correction log with PDF and page; area-months still flagged | `scripts/apply_source_corrections.py` |
+| `Neighborhood_Crosswalk.csv` | Maps every source label to a canonical neighborhood and sub-area | Task 1.2 |
+| `BlockLevel_Counts_clean.csv`, `BlockPanel_Balanced_261.csv` | 3,737 block-date rows (382 blocks); fixed 261-block panel (3,132 rows) | Tasks 1.2, 3.3 (`build_balanced_panel.py`) |
+| `SeasonalIndices.csv`, `StructuralBreaks.csv` | Task 4.2 indices and tests; Task 4.3 Chow, FDR, HAC and CUSUM results | `scripts/seasonal_indices.py`, `scripts/structural_breaks.py` |
+| `AdjustedTimeSeries_Forecasting.csv`, `StationarityTests.csv` | Task 4.4 stationarity tests, transformations and candidate ARIMA orders | `Stationarity_Autocorrelation.ipynb` |
+| `SpatialAutocorrelation_Results.csv`, `Hotspot_Classifications.geojson` | Task 5.1 Moran's I per date; Task 5.2 Gi* z, p and class per block-date | `scripts/hotspot_analysis.py` |
+| `TimeSeries_ConstantMethodology.csv`, `AdjustmentFactors_RatioComparison.csv` | Task 6.2 POST2020-baseline series; observed vs theoretical ratios | `scripts/constant_methodology.py` |
+| `Forecast_CV_Metrics.csv`, `Forecast_ModelComparison.csv`, `Forecasts_12Month.csv` | Task 7.2–7.4 cross-validation, hold-out metrics and 2026 forecasts | `Forecasting_Models.ipynb`, `forecast_pipeline.py` |
+| `Downtown_County_PairedCounts.csv`, `CountyEstimation_LOOCV_*.csv`, `CountyEstimate_Current.csv` | Task 8.1 paired years; Task 8.3 validation and current estimates | Task 8.1, `scripts/county_estimation_build.py` |
 
-Where $T_t$ represents the non-linear LOESS smoothed trend ($trend\_window = 13$), $S_t$ is the periodic seasonal component ($seasonal\_window = 7$), and $R_t$ represents the stationary residual series.
-
-Across all 9 geographic series, the variance of the seasonal component $\text{Var}(S_t)$ accounted for less than **3.8% of total series variance**, while the trend component $\text{Var}(T_t)$ accounted for **89.4% to 94.2% of variance**. Seasonal oscillations were found to be negligible in magnitude relative to structural trends.
-
-### 4.2 Non-Parametric Proof of Non-Seasonality (Kruskal-Wallis)
-To evaluate the statistical significance of seasonal fluctuations without assuming Gaussian normality, we applied the non-parametric **Kruskal-Wallis $H$-test** to the de-trended monthly series across all 12 calendar months:
-
-$$H = \frac{12}{N(N + 1)} \sum_{j=1}^{12} \frac{R_j^2}{n_j} - 3(N + 1)$$
-
-Where $N = 108$, $n_j = 9$ observations per month, and $R_j$ is the sum of ranks for calendar month $j$.
-
-```
-Table 4.1: STL Seasonal Variance and Kruskal-Wallis Non-Parametric Significance Test Results
-+-----------------------+---------------------+-------------------+---------------------+--------------------+
-| Geographic Series     | Seasonal Var Share  | Kruskal-Wallis H  | Degrees of Freedom  | Asymptotic p-value |
-+-----------------------+---------------------+-------------------+---------------------+--------------------+
-| Overall (Downtown)    | 1.84%               |   3.001           | 11                  | 0.9902 (Not Sig)   |
-| East Village (Total)  | 2.15%               |  13.864           | 11                  | 0.2407 (Not Sig)   |
-| - East Village South  | 2.89%               |  11.231           | 11                  | 0.4241 (Not Sig)   |
-| - East Village North  | 1.92%               |   9.845           | 11                  | 0.5443 (Not Sig)   |
-| City Center (Core)    | 3.12%               |   8.412           | 11                  | 0.6759 (Not Sig)   |
-| Gaslamp Quarter       | 2.65%               |  12.015           | 11                  | 0.3624 (Not Sig)   |
-| Cortez Hill           | 3.44%               |   7.912           | 11                  | 0.7214 (Not Sig)   |
-| Columbia              | 3.78%               |  10.154           | 11                  | 0.5165 (Not Sig)   |
-| Marina                | 4.91%               |  20.152           | 11                  | 0.0432 (Marginal)  |
-+-----------------------+---------------------+-------------------+---------------------+--------------------+
-```
-
-**Econometric Verdict:** With the sole exception of Marina (where an ultra-low base count of 15–30 individuals produced small-sample rank distortions), **every major downtown sub-area fails to reject the null hypothesis of equal monthly medians ($p > 0.05$)**. The widely cited public perception that homelessness increases in summer and declines in winter is an empirical myth.
-
-### 4.3 Structural Break Tests (Chow & CUSUM)
-Given the absence of seasonality, longitudinal fluctuations were tested for structural policy breaks using the **Chow test**:
-
-$$F_{\text{Chow}} = \frac{(SSR_P - (SSR_1 + SSR_2)) / k}{(SSR_1 + SSR_2) / (N_1 + N_2 - 2k)}$$
-
-Two highly significant structural breaks were statistically confirmed:
-1. **May 2018 ($F = 14.82, p < 0.0001$):** Driven by the administrative vehicle multiplier change (1.5 to 2.0) and post-hepatitis A cleanup sweeps.
-2. **July 2023 ($F = 28.64, p < 0.00001$):** Corresponding to the enforcement of the City of San Diego’s Unsafe Camping Ordinance.
-
-### 4.4 Stationarity Diagnostics (ADF & KPSS)
-Stationarity was evaluated using dual unit root tests: the **Augmented Dickey-Fuller (ADF)** test (testing the null of non-stationarity) and the **Kwiatkowski-Phillips-Schmidt-Shin (KPSS)** test (testing the null of stationarity).
-* **Level Series:** All 9 series failed the ADF test at $\alpha = 0.05$ (ADF statistic $t \in [-1.84, -2.41]$, critical value $-2.89$) and rejected the KPSS test ($p < 0.01$), confirming that the raw series are non-stationary with stochastic drift.
-* **First-Differenced Series ($\Delta Y_t$):** Taking first differences achieved consensus covariance stationarity across all 9 series (ADF $p < 0.001$, KPSS $p > 0.10$), providing the mathematical foundation for machine learning feature differencing and ARIMA modeling.
+`data/_audit_deltas.csv` records, for each result affected by the October 2026 corrections, the value before and after. `pytest` covers the correction rules (row counts, multipliers, component sums and the verified cells), the dashboard calculator, and the Assignment 10 pipelines.
 
 ---
 
-## 5. Spatial Panel Integration & Boundary Footprint Dynamics
+## 3. Descriptive analysis
 
-### 5.1 Block-Level Geometry Validation
-Spatial integration was conducted using the canonical **382-block Downtown Block Grid** (`data/Downtown_BlockGrid.geojson`). Topological and geometric audit protocols verified:
-* **Planar Precision:** All 382 polygon geometries are topologically valid, closed 2D polygons in EPSG:4326 coordinates.
-* **Centroid Inclusion:** Exactly 380 of 382 polygon centroids fall strictly within their respective polygon boundaries. The two edge cases (Blocks `1601` and `1602` along Interstate 5) represent non-convex L-shaped parcels where the mathematical centroid falls within the freeway easement right-of-way, fully documented and validated.
+**Table 3.1 — Monthly counts by series, 2017–2025 (published months only).**
 
-### 5.2 The 2022 Footprint Expansion Effect
-In January 2022, DSDP expanded its counting boundary from 261 blocks to 382 blocks (+46.3% geographic area). This added peripheral census blocks in Golden Hill, Barrio Logan, and Sherman Heights.
+| Series | Months | Mean | SD | Min | Median | Max |
+|---|---:|---:|---:|---:|---:|---:|
+| Citywide total | 104 | 1,022.9 | 346.9 | 529.1 (Mar 2020) | 894.6 | 2,103.3 (May 2023) |
+| East Village | 104 | 552.0 | 157.3 | 260.6 | 502.9 | 921.0 |
+| City Center | 104 | 170.7 | 52.9 | 91.0 | 156.1 | 342.3 |
+| Cortez | 104 | 59.6 | 30.3 | 16.0 | 51.9 | 170.5 |
+| Gaslamp | 104 | 48.2 | 14.0 | 18.5 | 45.9 | 93.0 |
+| Columbia | 104 | 44.5 | 13.7 | 13.8 | 45.1 | 84.5 |
+| Marina | 104 | 30.7 | 15.5 | 4.1 | 27.4 | 79.0 |
+| Outside Perimeter | 56 | 217.6 | 177.9 | 0.0 | 185.5 | 640.0 |
 
-To isolate real population growth from administrative boundary inflation, we constructed a **Balanced 261-Block Panel** tracking the identical geographic boundary from 2018 through 2025. Comparing the Balanced 261 Panel against the Full 382 Panel quantifies the **Footprint Effect Wedge**:
+East Village accounts for 54.0% of all counted people over the period.
 
-$$\text{Footprint Wedge}_t = \text{Count}_{\text{Full 382}, t} - \text{Count}_{\text{Balanced 261}, t}$$
+**Annual citywide averages:** 2017 1,057.8; 2018 843.0; 2019 810.4; 2020 654.1; 2021 960.4; 2022 1,513.1; 2023 1,563.1; 2024 886.9; 2025 864.3.
 
-$$\text{Footprint Share}_t = \frac{\text{Footprint Wedge}_t}{\text{Count}_{\text{Full 382}, t}} \times 100\%$$
+**Year-over-year changes:** the citywide-total basis gives 2021 +46.8% and 2022 +57.6%. The unweighted mean of the neighborhood changes is +25.9% for 2021, so the two statistics should not be mixed.
 
-```
-Table 5.1: Empirical Footprint Effect Across Digitized Dates
-+------------------+---------------------+-------------------+-------------------+--------------------+
-| Digitized Date   | Balanced 261 Count  | Full 382 Count    | Footprint Wedge   | Footprint Share (%)|
-+------------------+---------------------+-------------------+-------------------+--------------------+
-| 2022-01-27       | 1,124 individuals   | 1,171 individuals | +47 individuals   |   4.01%            |
-| 2022-08-30       | 1,285 individuals   | 1,609 individuals | +324 individuals  |  20.14%            |
-| 2023-01-26       | 1,382 individuals   | 1,939 individuals | +557 individuals  |  28.73%            |
-| 2023-05-25       | 1,512 individuals   | 2,103 individuals | +591 individuals  |  28.10%            |
-| 2024-01-25       |   742 individuals   | 1,104 individuals | +362 individuals  |  32.79%            |
-| 2024-09-26       |   612 individuals   |   892 individuals | +280 individuals  |  31.39%            |
-+------------------+---------------------+-------------------+-------------------+--------------------+
-```
+**Growth by neighborhood** (mean year-over-year change, 2019 onward):
+* Outside Perimeter +26.9% per year
+* Cortez +12.1%
+* City Center +5.2%
+* East Village +1.8%
+* Marina −13.1%
 
-**Critical Analytical Finding:** Following the 2022 expansion, the Outside Perimeter accounted for **20% to 32.8% of all reported downtown homelessness**. When public reports indicated a dramatic rise in homelessness in 2022 and 2023, nearly one-third of the apparent growth was an administrative artifact of surveying 121 additional blocks.
+These are descriptive rates only. The Outside Perimeter rate rests on five years of data.
 
 ---
 
-## 6. Geospatial Hotspot Surveillance & Spatial Econometrics
+## 4. Time-series analysis
 
-### 6.1 Spatial Weights & Autocorrelation (Moran’s $I$)
-Spatial dependency across the 382 blocks was modeled using a row-standardized **Queen contiguity spatial weight matrix** $W$ generating 2,642 directed neighbor links (an average of 6.92 contiguous neighbors per block).
+### 4.1 Decomposition (Task 4.1)
+The analysis used additive classical decomposition and robust STL (period 12) on 9 series: the reported-footprint total, a fixed "core six" total, and the 7 neighborhoods. The four unreleased 2025 months are interpolated in memory only.
 
-Global spatial autocorrelation was evaluated using **Moran’s $I$**:
+STL seasonal strength (scale 0–1) is low:
+* overall series 0.07
+* core six 0.32
+* East Village 0.26
+* City Center 0.01
+* the other neighborhoods 0.10–0.21
 
-$$I = \frac{N}{\sum_{i} \sum_{j} w_{ij}} \frac{\sum_{i} \sum_{j} w_{ij} (x_i - \bar{x})(x_j - \bar{x})}{\sum_{i} (x_i - \bar{x})^2}$$
+### 4.2 Seasonal significance (Task 4.2)
+Seasonal indices are monthly means of the de-trended series, with t-based 95% CIs and Cohen's d.
 
-Across all 12 digitized block dates, Moran’s $I$ ranged from $+0.063$ to $+0.239$ ($p < 0.001$), decisively rejecting the null hypothesis of spatial randomness and proving strong, persistent spatial clustering of encampments.
+| Series | Kruskal-Wallis H | p | ANOVA p |
+|---|---:|---:|---:|
+| Overall — reported footprint | 2.66 | 0.995 | 0.998 |
+| Overall — fixed core six | 9.00 | 0.622 | 0.670 |
+| East Village | 14.16 | 0.224 | 0.219 |
+| City Center | 4.86 | 0.938 | 0.913 |
+| Columbia | 8.76 | 0.644 | 0.473 |
+| Cortez | 12.73 | 0.312 | 0.047 |
+| Gaslamp | 14.57 | 0.203 | 0.087 |
+| Marina | 19.88 | 0.047 | 0.162 |
+| Outside Perimeter | 11.45 | 0.406 | 0.440 |
 
-### 6.2 Local Getis-Ord $G_i^*$ Hotspot Surveillance
-To identify localized statistical clusters of high values (hotspots) and low values (coldspots), we deployed the **Local Getis-Ord $G_i^*$ statistic** with 9,999 Monte Carlo permutations:
+Eight of nine series show no significant seasonality under the primary (Kruskal-Wallis) test. The tests disagree for Marina (KW significant, ANOVA not) and for Cortez (ANOVA significant, KW not). Individually significant months:
+* Gaslamp September (higher)
+* Marina August and November (higher)
+* Outside Perimeter September (lower)
 
-$$G_i^* = \frac{\sum_{j=1}^n w_{ij} x_j - \bar{X} \sum_{j=1}^n w_{ij}}{S \sqrt{\frac{n \sum_{j=1}^n w_{ij}^2 - (\sum_{j=1}^n w_{ij})^2}{n - 1}}}$$
+No multiple-comparison correction was applied to these per-month tests.
 
-Where $S = \sqrt{\frac{\sum x_j^2}{n} - (\bar{X})^2}$. Blocks were classified into $90\%$, $95\%$, and $99\%$ confidence hotspots and coldspots.
+### 4.3 Structural breaks (Task 4.3)
+The Chow test uses a dummy-variable regression, y = β₀ + β₁τ + β₂D + β₃D(τ − τ_break), testing β₂ = β₃ = 0 jointly. Benjamini-Hochberg FDR correction is applied within each event, and a HAC(12) check is run.
 
-```
-Table 6.2: Top 10 Persistent Encampment Hotspot Blocks Across 12 Digitized Dates
-+------+------------------------------+--------------------+-------------------+-----------+---------------------+
-| Rank | Block Location               | Neighborhood       | Hotspot Frequency | Mean Count| Primary Built Anchor|
-+------+------------------------------+--------------------+-------------------+-----------+---------------------+
-|  1   | 16th St & Imperial Ave       | East Village South | 9 of 12 dates     | 54.2 ind  | Service intake / hub|
-|  2   | Commercial St (16th to 17th) | East Village South | 8 of 12 dates     | 48.6 ind  | Trolley rail spur   |
-|  3   | 17th St & Imperial Ave       | East Village South | 8 of 12 dates     | 42.1 ind  | Caltrans I-5 wall   |
-|  4   | 14th St & Imperial Ave       | East Village South | 7 of 12 dates     | 38.4 ind  | Day center proximity|
-|  5   | 12th St & Imperial Ave       | East Village South | 7 of 12 dates     | 35.8 ind  | Transit center hub  |
-|  6   | 15th St & Commercial St      | East Village South | 7 of 12 dates     | 33.2 ind  | Industrial loading  |
-|  7   | National Ave & 16th St       | Barrio Logan       | 6 of 12 dates     | 29.5 ind  | Freeway underpass   |
-|  8   | 17th St & Commercial St      | East Village South | 6 of 12 dates     | 28.1 ind  | Dead-end right-of-way|
-|  9   | 13th St & J St               | East Village North | 5 of 12 dates     | 24.6 ind  | Park adjacency      |
-| 10   | 15th St & Island Ave         | East Village North | 5 of 12 dates     | 22.8 ind  | Warehouse perimeter |
-+------+------------------------------+--------------------+-------------------+-----------+---------------------+
-```
+* **April 2017:** only 3 pre-break months, so only a reduced level-shift model is run, and results are exploratory. Columbia is the only detection (F = 12.17, p = 0.001).
+* **May 2018:** 5 of 8 eligible series break significantly (East Village, Cortez, core six, Columbia, Gaslamp). The **overall reported-footprint series does not** (F = 1.46, p = 0.237). The same five series are significant when tested on `raw_count`, so the pattern is not just multiplier arithmetic.
+* **COVID-19 onset (March 2020):** 7 of 8 series are significant (all except City Center). After FDR correction 7 remain, with the reported-footprint total (level shift +318, p = 0.020) and Cortez exactly at the threshold (FDR p = 0.0499). The mechanisms differ by series: level-only, trend-only, both, or indeterminate.
+* **CUSUM (OLS residuals):** 7 of 9 series are unstable over the full period. Gaslamp and Marina are not.
 
-### 6.3 Mathematical Proof of the 121-Meter Southward Centroid Migration
-By computing the spatial coordinate centroid $(\bar{X}_{\text{lat}}, \bar{Y}_{\text{lon}})$ across all active encampment blocks:
+No break was tested at July 2023. Any statement about an ordinance-related break in the monthly series is outside the scope of Task 4.3.
 
-$$\bar{X}_{\text{lat}} = \frac{1}{K} \sum_{k=1}^K \text{lat}_k, \quad \bar{Y}_{\text{lon}} = \frac{1}{K} \sum_{k=1}^K \text{lon}_k$$
+### 4.4 Stationarity (Task 4.4)
+In levels (constant-only ADF and KPSS), 7 of 9 series give mixed evidence and 2 are jointly non-stationary; ADF statistics range from −4.89 to −1.76. After the selected transformation (first difference for 8 series, log1p level for Outside Perimeter), all 9 are stationary under both tests.
 
-We compared the baseline early period (2018–2020) against the modern period (2022–2025). Using the haversine geodesic formula:
-
-$$d = 2 R \arcsin \left( \sqrt{\sin^2\left(\frac{\Delta \phi}{2}\right) + \cos(\phi_1)\cos(\phi_2)\sin^2\left(\frac{\Delta \lambda}{2}\right)} \right)$$
-
-* **Baseline Centroid (2018–2020):** $(32.71285^\circ \text{N}, -117.15120^\circ \text{W})$ (near 14th St & Market St).
-* **Modern Centroid (2022–2025):** $(32.71176^\circ \text{N}, -117.15118^\circ \text{W})$ (near 15th St & Imperial Ave).
-* **Migration Vector Result:** Exactly **121.3 meters along a bearing of $179.2^\circ$ (due South)**.
-
----
-
-## 7. Multiplier Policy Evaluation & Constant-Methodology Counterfactuals
-
-### 7.1 Theoretical vs. Observed Level Shifts
-When DSDP revised its counting multipliers in April 2017 (tents: 1.5 to 1.75) and May 2018 (vehicles: 1.5 to 2.0), public debate questioned whether reported count increases reflected actual population growth or administrative inflation.
-
-To resolve this, we computed the exact **Theoretical Multiplier Shift**:
-
-$$\Delta Y_{\text{theoretical}, t} = \text{Tents}_t \cdot (\mu_{\text{tent}, \text{new}} - \mu_{\text{tent}, \text{old}}) + \text{Vehicles}_t \cdot (\mu_{\text{veh}, \text{new}} - \mu_{\text{veh}, \text{old}})$$
-
-And benchmarked it against the empirical level shift estimated via Chow structural break regressions:
-
-```
-Table 7.1: Theoretical Multiplier Jump vs. Empirical Observed Level Break
-+-------------------+----------------------------+-----------------------------+-------------------------------+
-| Multiplier Event  | Theoretical Impact (ΔY)    | Observed Chow Shift (ΔY)    | Econometric Discrepancy       |
-+-------------------+----------------------------+-----------------------------+-------------------------------+
-| April 2017 (Tent) | +38.5 individuals (+3.2%)  | -142.1 individuals (-11.8%) | Observed fell due to sweep    |
-| May 2018 (Vehicle)| +18.2 individuals (+1.5%)  | +214.6 individuals (+18.2%) | Observed surged due to market |
-+-------------------+----------------------------+-----------------------------+-------------------------------+
-```
-
-**Key Finding:** Theoretical multiplier adjustments accounted for less than one-fifth of the observed empirical variance. Market forces and enforcement sweeps completely dominated administrative multiplier adjustments.
-
-### 7.2 The Canonical Hybrid Constant-Methodology Series
-To allow researchers to conduct counterfactual analyses under a standardized counting methodology, we generated [`TimeSeries_ConstantMethodology.csv`](file:///Users/kyawsoelwin/MSI/Downtownhomelessness/TimeSeries_ConstantMethodology.csv) (924 rows). This series recalibrates the entire 2017–2025 history to the post-2020 standard ($\mu_{\text{tent}} = 1.75, \mu_{\text{veh}} = 2.00$).
+ACF/PACF-based candidate orders are in `data/AdjustedTimeSeries_Forecasting.csv`. After the October 2026 correction, East Village's candidate AR order is 2 and Marina's is 1.
 
 ---
 
-## 8. Predictive Modeling & 12-Month Prospective Machine Learning Pipeline
+## 5. Block-level data and the 2022 footprint change
 
-### 8.1 Model Architectures & 5-Fold Expanding Window Cross-Validation
-To build a reliable forecasting system, five candidate algorithms were evaluated across all 9 geographic series:
-1. **Naive Seasonal Baseline:** Predicts $Y_{t+h} = Y_{t+h-12}$.
-2. **SARIMA $(p, d, q) \times (P, D, Q)_{12}$:** Autoregressive integrated moving average with exogenous seasonal differencing.
-3. **Holt-Winters Exponential Smoothing:** Additive trend and seasonal smoothing.
-4. **Facebook Prophet:** Generalized additive model with piecewise linear trend and changepoints.
-5. **Gradient Boosted Trees (XGBoost):** Supervised regression tree ensemble utilizing lag features ($t-1, t-2, t-3, t-12$), rolling statistics (3-month and 6-month mean/std), and policy regime indicator variables.
+### 5.1 Grid integrity (Task 3.2)
+* All 382 polygons are valid, with no overlaps and no zero-area features.
+* 380 of 382 stated centroids fall inside their own polygon. The two exceptions, `22ND_ST_BROADWAY` and `22ND_ST_SR-94_EB_ON_RA`, are concave freeway-interchange parcels.
+* 326 blocks have street boundaries consistent with all four neighbors. The remaining 56 are genuine edges of the study area.
 
-Models were validated using **5-fold chronological expanding window cross-validation** (training windows expanding from 48 to 96 months, strictly preventing future lookahead leakage):
+### 5.2 Footprint effect (Task 3.3)
+The balanced 261-block panel is compared with the full 382-block panel, both using multiplier-weighted totals.
 
-```
-Table 8.1: Multi-Horizon Cross-Validation Performance (Mean Absolute Percentage Error - MAPE)
-+-----------------------+---------------------+-------------------+---------------------+---------------------+
-| Forecasting Model     | 1-Month Ahead MAPE  | 3-Month Ahead MAPE| 6-Month Ahead MAPE  | 12-Month Ahead MAPE |
-+-----------------------+---------------------+-------------------+---------------------+---------------------+
-| Naive Seasonal        | 24.12% ± 12.4%      | 31.45% ± 14.8%    | 38.92% ± 18.2%      | 48.65% ± 22.1%      |
-| SARIMA (1,1,1)        | 16.82% ±  8.2%      | 24.18% ± 11.2%    | 32.41% ± 15.6%      | 42.18% ± 19.4%      |
-| Holt-Winters Additive | 15.91% ±  7.9%      | 22.64% ± 10.5%    | 30.12% ± 14.1%      | 39.57% ± 18.2%      |
-| Facebook Prophet      | 28.45% ± 14.2%      | 39.81% ± 18.6%    | 52.14% ± 24.8%      | 68.92% ± 31.4%      |
-| XGBoost (Champion)    | 12.45% ±  5.8%      | 18.92% ±  8.4%    | 27.34% ± 12.6%      | 39.34% ± 25.4%      |
-+-----------------------+---------------------+-------------------+---------------------+---------------------+
-```
+| Count date | Full 382 | Balanced 261 | Added blocks | Share of full total |
+|---|---:|---:|---:|---:|
+| 2022-01-27 | 1,408.5 | 1,149.1 | 259.5 | 18.4% |
+| 2022-03-01 | 1,392.5 | 1,158.2 | 234.3 | 16.8% |
+| 2023-01-31 | 1,955.1 | 1,314.5 | 640.6 | 32.8% |
+| 2024-01-25 | 1,019.0 | 981.8 | 37.2 | 3.7% |
+| 2025-01-31 | 847.3 | 762.9 | 84.4 | 10.0% |
 
-### 8.2 Analysis of Prophet’s Systematic Failure Mode
-Prophet exhibited severe performance degradation, overshooting actual post-2023 counts by +250 to +650 individuals (MAPE of 68.92%). Forensic review revealed that Prophet’s default changepoint prior flexibility ($\text{changepoint\_prior\_scale} = 0.05$) over-indexed on the 2021–2023 surge, projecting explosive upward trajectories that failed to anticipate the abrupt ceiling imposed by the Unsafe Camping Ordinance.
-
-### 8.3 2026 Prospective Forecasts & Policy Scenarios
-Using the champion XGBoost architecture, monthly projections for the entire 2026 calendar year were generated along with 80% and 95% prediction intervals (calibrated from out-of-sample residual error distributions, $\sigma_{\epsilon} = 169.58$ individuals):
-
-```
-Table 8.2: 2026 Monthly Prospective Forecasts and Uncertainty Envelopes (Total Downtown)
-+------------+---------------------+-------------------+--------------------+--------------------+--------------------+
-| Month      | Baseline Forecast   | 80% Pred. Interval| 95% Pred. Interval | Optimistic (-24%)  | Pessimistic (+26%) |
-+------------+---------------------+-------------------+--------------------+--------------------+--------------------+
-| Jan 2026   | 884 individuals     | [738 – 1,030]     | [661 – 1,107]      | 866 individuals    |   903 individuals  |
-| Feb 2026   | 879 individuals     | [733 – 1,025]     | [656 – 1,102]      | 844 individuals    |   914 individuals  |
-| Mar 2026   | 885 individuals     | [739 – 1,031]     | [662 – 1,108]      | 832 individuals    |   942 individuals  |
-| Apr 2026   | 872 individuals     | [726 – 1,018]     | [649 – 1,095]      | 802 individuals    |   947 individuals  |
-| May 2026   | 881 individuals     | [735 – 1,027]     | [658 – 1,104]      | 793 individuals    |   976 individuals  |
-| Jun 2026   | 874 individuals     | [728 – 1,020]     | [651 – 1,097]      | 769 individuals    |   988 individuals  |
-| Jul 2026   | 889 individuals     | [743 – 1,035]     | [666 – 1,112]      | 765 individuals    | 1,021 individuals  |
-| Aug 2026   | 895 individuals     | [749 – 1,041]     | [672 – 1,118]      | 752 individuals    | 1,046 individuals  |
-| Sep 2026   | 892 individuals     | [746 – 1,038]     | [669 – 1,115]      | 731 individuals    | 1,053 individuals  |
-| Oct 2026   | 886 individuals     | [740 – 1,032]     | [663 – 1,109]      | 709 individuals    | 1,072 individuals  |
-| Nov 2026   | 878 individuals     | [732 – 1,024]     | [655 – 1,101]      | 685 individuals    | 1,080 individuals  |
-| Dec 2026   | 881 individuals     | [735 – 1,027]     | [658 – 1,104]      | 669 individuals    | 1,110 individuals  |
-+------------+---------------------+-------------------+--------------------+--------------------+--------------------+
-```
+On the fixed 261 blocks, the total still rose 71% between the 2021 and 2022 dates, so both the footprint growth and a real increase are present. Any comparison across the 2021/2022 boundary must use the balanced panel. The March 2022 date carries a documented source-date anomaly.
 
 ---
 
-## 9. Macro-Econometric County-Level Estimation System
+## 6. Hotspot analysis (Assignment 5)
 
-### 9.1 Data Pairing & The Structural Decoupling Crisis
-To evaluate whether monthly downtown counts can reliably predict countywide unsheltered homelessness, we compiled an 8-year paired annual dataset (2017–2025, excluding 2021 when HUD suspended the PIT count due to COVID-19):
+**Settings:** balanced 261-block panel; outcome = individuals + 1.75·tents + 1.66 or 2.03·vehicles; queen contiguity, row-standardized; 9,999 permutations.
 
-```
-Table 9.1: Paired Annual Downtown and Countywide PIT Dataset (2017–2025)
-+------+-----------------------+--------------------------+-----------------------+---------------------+
-| Year | Downtown Count (X)    | County PIT Unsheltered (Y)| Downtown Share (%)   | Policy Regime (D_post)|
-+------+-----------------------+--------------------------+-----------------------+---------------------+
-| 2017 | 1,251 individuals     | 3,231 individuals        | 38.72%                | 0 (Pre-Ordinance)   |
-| 2018 | 1,124 individuals     | 3,583 individuals        | 31.37%                | 0 (Pre-Ordinance)   |
-| 2019 | 1,102 individuals     | 3,638 individuals        | 30.29%                | 0 (Pre-Ordinance)   |
-| 2020 |   912 individuals     | 3,971 individuals        | 22.97%                | 0 (Pre-Ordinance)   |
-| 2022 | 1,442 individuals     | 4,106 individuals        | 35.12%                | 0 (Pre-Ordinance)   |
-| 2023 | 1,939 individuals     | 5,171 individuals        | 37.50%                | 0 (Pre-Ordinance)   |
-| 2024 | 1,104 individuals     | 6,110 individuals        | 18.07%                | 1 (Post-Ordinance)  |
-| 2025 |   884 individuals     | 5,921 individuals        | 14.93%                | 1 (Post-Ordinance)  |
-+------+-----------------------+--------------------------+-----------------------+---------------------+
-```
+* **Global Moran's I (Task 5.1):** positive on all 12 dates, from 0.063 (Jan 2019) to 0.239 (Feb 2018), with permutation p ≤ 0.034 (`data/SpatialAutocorrelation_Results.csv`).
+* **Local Gi\* (Task 5.2):** each block-date is classified as a 99% or 95% hotspot or coldspot when z ≥ 2.576 / 1.96 *and* the permutation p < 0.01 / 0.05. Of 3,132 block-dates, 16 are 99% hotspots and 22 are 95% hotspots (`data/Hotspot_Classifications.geojson`).
+* **Persistence (Task 5.4):** number of dates classified as a hotspot:
 
-**The Decoupling Shock:** Prior to 2024, downtown counts accounted for **30% to 38.7%** of the countywide unsheltered total. Following the July 2023 Unsafe Camping Ordinance, this ratio collapsed to **14.93%**.
-* Over the entire 8-year sample, Pearson correlation is virtually zero: $r = -0.0609$ ($p = 0.8861$).
-* **Statistical Power Audit:** A post-hoc power calculation demonstrates that an $N=8$ sample possesses only **23.3% statistical power** to detect a moderate correlation ($r=0.50$); the Minimum Detectable Effect Size (MDES) for statistical significance at $\alpha=0.05$ is $|r| \ge 0.850$.
-* **Ratio Stability ANOVA:** A One-Way ANOVA across regimes definitively rejects ratio stability: $F = 66.51, p = 0.0002, \eta^2 = 0.9638$. A naive constant-ratio model fails catastrophically.
+| Rank | Block | Hotspot dates (of 12) |
+|---:|---|---:|
+| 1 | 16TH_ST_IMPERIAL_AV | 9 |
+| 2 | I-5_SB_IMPERIAL_AV | 8 |
+| 3 | I-5_SB_OFF_RA_Map_Border | 6 |
+| 4 | I-5_SB_ON_RA_Map_Border | 4 |
+| 5 | 17TH_ST_IMPERIAL_AV | 4 |
+| 6–8 | 16TH_ST_J_ST, 17TH_ST_J_ST, 16TH_ST_ISLAND_AV | 2 each |
 
-### 9.2 Leave-One-Out Cross-Validation (LOOCV) Model Competition
-We benchmarked four mathematical formulations under Leave-One-Out Cross-Validation:
+All of the top ten are in South East Village.
 
-```
-Table 9.2: LOOCV Model Evaluation Comparison Matrix (N=8)
-+----------------------------+-----------------+-----------------+-----------------+-------------------+
-| Candidate Model            | LOOCV RMSE      | LOOCV MAE       | LOOCV MAPE      | Residual Bias     |
-+----------------------------+-----------------+-----------------+-----------------+-------------------+
-| Naive Constant Ratio       | 2,392.61 ind    | 2,014.22 ind    | 42.45%          | +1,142.1 ind      |
-| Simple Linear OLS          |   960.53 ind    |   812.44 ind    | 16.89%          |    -42.1 ind      |
-| Log-Log Elasticity         | 1,042.18 ind    |   891.12 ind    | 18.42%          |    +61.5 ind      |
-| Policy Regime OLS (Champ)  |   815.32 ind    |   698.15 ind    | 14.89%          |     -4.2 ind      |
-+----------------------------+-----------------+-----------------+-----------------+-------------------+
-```
-
-### 9.3 The Champion Policy Regime OLS Model Specification
-The champion model incorporates a policy intervention indicator variable $D_{\text{post}}$:
-
-$$Y_t = \beta_0 + \beta_1 X_t + \beta_2 D_{\text{post}, t} + \epsilon_t$$
-
-Where:
-* $Y_t$ = Estimated San Diego County Unsheltered Population
-* $X_t$ = Monthly Downtown San Diego Count Observation
-* $D_{\text{post}, t} = 1$ if month $t \ge \text{August 2023}$; $0$ otherwise.
-
-**Fitted Coefficients and Statistics:**
-* $\hat{\beta}_0 = 4,513.26$ (Baseline County Intercept, $p = 0.0012$)
-* $\hat{\beta}_1 = 0.1859$ (Downtown Marginal Slope, $p = 0.4412$)
-* $\hat{\beta}_2 = +1,225.04$ (Ordinance Displacement Regime Shift, $p = 0.0028$)
-* $R^2 = 0.9638, \quad \text{Adjusted } R^2 = 0.9493$
-* Residual Standard Error: $s_e = 799.20$ individuals on $df = 5$
-
-### 9.4 Calibrated Student’s $t$ 95% Prediction Interval Formulation
-Because sample size is small ($N=8, k=3, df=5$), Gaussian $z$-intervals severely understate uncertainty. Exact prediction intervals for an arbitrary downtown count $X_0$ are derived using the **Student's $t$ critical value ($t_{0.025, df=5} = 2.571$)**:
-
-$$\hat{Y}_0 \pm t_{0.025, 5} \cdot s_e \sqrt{1 + \frac{1}{n} + \frac{(X_0 - \bar{X})^2}{\sum_{i=1}^n (X_i - \bar{X})^2}}$$
-
-Where $n = 8$, $\bar{X} = 1,245.50$, and $\sum (X_i - \bar{X})^2 = 184,520$.
-
-This yields a calibrated margin of error of **$\pm 2,050$ individuals ($\approx \pm 35\%$)**, establishing the statutory prediction envelope for all public communications.
+* **Migration:** the count-weighted centroid of hotspot block-dates (block representative points, UTM 11N) moved about 120 m on a bearing of 160° (south-south-east) from 2018–2020 to 2022–2025. The unweighted centroid moved about 62 m. This describes where significant clusters sit, not the movement of people. With 12 dates it is a pointer for follow-up, not a trend estimate.
 
 ---
 
-## 10. Methodological Boundaries, Governance Charter & Production Runbook
+## 7. Methodology impact (Assignment 6)
 
-### 10.1 The 4 Mandatory Public Communication Rules
-To safeguard analytical integrity and prevent misleading public declarations, all reporting derived from this research must strictly adhere to the following four rules:
+* **Theoretical vs observed (Tasks 6.1–6.2):** the composition-weighted theoretical ratio is the change in total implied by the multiplier change alone, holding composition fixed.
 
-```
-+----------------------------------------------------------------------------------------------------+
-|                                THE 4 PUBLIC COMMUNICATION RULES                                     |
-+----------------------------------------------------------------------------------------------------+
-|                                                                                                    |
-|  RULE 1: PROHIBIT FALSE SINGLE-POINT PRECISION                                                     |
-|  Single-point precision numbers (e.g., claiming countywide homelessness is "5,921") are strictly     |
-|  prohibited from public release. They convey a false impression of exact census accuracy.          |
-|                                                                                                    |
-|  RULE 2: MANDATE ROUNDING TO NEAREST 100 INDIVIDUALS                                                |
-|  All point estimates must be rounded to the nearest hundred (e.g., "5,900 individuals").           |
-|                                                                                                    |
-|  RULE 3: ALWAYS REPORT THE CALIBRATED 95% PREDICTION INTERVAL                                     |
-|  Every reported figure must include its calibrated Student's t prediction interval:                |
-|  "5,900 [3,900 to 8,000] individuals" with margin of error +/- 2,050 individuals (+/- 35%).         |
-|                                                                                                    |
-|  RULE 4: MANDATORY POLICY CONTEXT DISCLOSURE                                                       |
-|  All reports must state that estimates incorporate the +1,225 displacement adjustment caused by    |
-|  the Unsafe Camping Ordinance enforcement pushing encampments out of downtown corridors.           |
-|                                                                                                    |
-+----------------------------------------------------------------------------------------------------+
-```
+  | Break | Theoretical ratio (pooled six) | Observed adjacent-month ratio |
+  |---|---:|---:|
+  | April 2017 | 0.964 (−3.6%) | 0.792 |
+  | May 2018 | 1.007 (+0.7%) | 1.141 |
 
-### 10.2 Statutory Scope of Applicability Matrix
-
-```
-Table 10.1: Permitted vs. Prohibited Operational Applications
-+-------------------------------------------------------+----------------------------------------------------+
-| PERMITTED OPERATIONAL USES                            | PROHIBITED USES (STRICT STATUTORY BAN)             |
-+-------------------------------------------------------+----------------------------------------------------+
-| • Interim monthly directional tracking between censuses | • Official HUD Continuum of Care grant applications|
-| • Regional shelter bed surge capacity planning        | • Statutory formula funding sub-allocations        |
-| • Municipal outreach resource dispatch prioritization | • Micro-regional or zip-code population claims     |
-| • Policy scenario stress-testing and simulation       | • Single-point uncalibrated media statements       |
-+-------------------------------------------------------+----------------------------------------------------+
-```
-
-### 10.3 Five-Step Annual Retraining Protocol
-To maintain model validity over time, engineering teams must execute the following annual retraining protocol:
-1. **Harvest Annual RTFH Count (May):** When RTFH releases the audited annual Point-in-Time report (typically in May), append the new $(X_{\text{Jan}}, Y_{\text{PIT}})$ pair to [`data/Downtown_County_PairedCounts.csv`](file:///Users/kyawsoelwin/MSI/Downtownhomelessness/data/Downtown_County_PairedCounts.csv).
-2. **Execute LOOCV Re-Estimation:** Re-run the LOOCV benchmarking script (`python scripts/county_estimation_model.py`) to re-estimate $\beta_0, \beta_1, \beta_2, s_e$ and update degrees of freedom $df = N - 3$.
-3. **Audit Residuals & Regime Stability:** Perform an updated Chow break test to determine whether new municipal ordinances or supreme court rulings (e.g., *Grants Pass v. Johnson*) require a third regime indicator $D_{\text{regime3}}$.
-4. **Update Production Constants:** Update the production constants in [`src/config.py`](file:///Users/kyawsoelwin/MSI/Downtownhomelessness/src/config.py).
-5. **Re-Test & Deploy:** Run `pytest tests/test_calculator.py` to confirm interval precision, then rebuild the Streamlit container.
-
-### 10.4 Assignment 10 Multi-Source Predictive System Roadmap
-The analytical architecture developed in Task 9.1 and 9.2 establishes the quantitative baseline for **Assignment 10: Multi-Source Predictive System**. Future iterations will incorporate exogenous daily data streams:
-* **NOAA Weather Signals:** Incorporating daily precipitation, heat index warnings, and wind speed into short-term displacement models.
-* **City of San Diego 311 Encampment Reports:** Utilizing geocoded citizen service requests as leading indicators for Getis-Ord $G_i^*$ hotspot formation.
-* **HMIS Shelter Bed Utilization:** Real-time bed occupancy feeds from Father Joe's Villages, Alpha Project, and PATH to model shelter absorption constraints.
-* **Regional Rental Cost Indices:** Co-integrating the Zillow Observed Rent Index (ZORI) to capture macro housing displacement pressures.
+  The observed month-to-month changes are much larger than the multiplier effect, and in April 2017 they go in the opposite direction from it. Because no component data exist before 2018, the April 2017 observed ratio carries no multiplier signal at all.
+* **Constant-methodology series (Task 6.2):** `data/TimeSeries_ConstantMethodology.csv` rescales all history to the POST2020 multipliers (1.75 / 2.03):
+  * exact factors for Jan–Apr 2018, which have component data
+  * a Jan–Apr 2018 composition proxy for 2017
+  * a factor of 1.0 from May 2018 onward
+* **Approach comparison (Task 6.3):** pre-2020 pooled mean gap versus raw counts is +0.10% for the hybrid, about +0.1% for theoretical-only, and +5.1% for data-derived-only. The hybrid is recommended. The data-derived series should be used only for diagnostics.
 
 ---
 
-## 11. Author Declarations & Contact Information
+## 8. Forecasting (Assignment 7)
 
-* **Lead Quantitative Analyst:** Kyaw Soe Lwin ([`kslwin.2000@gmail.com`](mailto:kslwin.2000@gmail.com) / [`kylwin@ucsd.edu`](mailto:kylwin@ucsd.edu))
-* **Project Lead / Product Owner:** Adir Mancebo Jr. ([`adir@datasciencealliance.org`](mailto:adir@datasciencealliance.org))
-* **Organization:** Data Science Alliance (San Diego, CA)
-* **Application Repository:** [`https://github.com/CapMorningStar/Downtown-Homeless-Analysis`](https://github.com/CapMorningStar/Downtown-Homeless-Analysis)
-* **Live Interactive Application:** [`http://localhost:8501`](http://localhost:8501)
+### 8.1 Validation design
+* **Hold-out test:** 2025, with only 8 of 12 months published.
+* **Cross-validation:** 5-fold walk-forward, with training windows expanding through 2020–2024.
+* **Models:** naive seasonal (t−12), SARIMA (grid around the ACF/PACF candidates), Holt-Winters, Prophet (changepoints at the method changes and COVID), and XGBoost (lags 1, 2, 3, 6, 12; rolling means; month terms; recursive forecasting).
+
+**Table 8.1 — Cross-validation MAPE (%) for the overall reported-footprint series; mean (SD) across the 5 folds.**
+
+| Model | 1-month | 3-month | 6-month | 12-month |
+|---|---:|---:|---:|---:|
+| SARIMA | 5.4 (4.1) | 14.3 (10.3) | 24.7 (20.9) | 39.6 (35.5) |
+| Holt-Winters | 13.0 (9.2) | 17.6 (10.4) | 25.2 (18.2) | 38.4 (28.5) |
+| XGBoost | 14.0 (8.9) | 19.9 (14.8) | 26.7 (18.5) | 38.3 (26.0) |
+| Naive seasonal | 39.5 (31.9) | 40.1 (31.3) | 48.5 (35.4) | 51.7 (24.5) |
+| Prophet | 42.9 (26.0) | 42.7 (26.0) | 51.3 (31.9) | 64.2 (35.4) |
+
+* **Short horizons:** SARIMA is clearly best.
+* **12 months:** XGBoost, Holt-Winters and SARIMA are statistically indistinguishable given fold-to-fold variation of 26–36 points. XGBoost was kept as champion for the overall series because it has the lowest 12-month mean.
+* **Prophet:** worst at every horizon. Its fixed changepoints have none near the 2022–2023 peak, so it extends the rise.
+* **2025 hold-out (12-month horizon, overall series):** XGBoost MAPE 8.5%, Holt-Winters 20.4%, SARIMA 22.8%. The naive seasonal forecast scored 6.3% because 2025 closely repeated 2024, so this single hold-out year should not be over-read.
+
+Per-series champions from cross-validation:
+* XGBoost: overall series, core six, East Village, City Center, Cortez, Outside Perimeter
+* SARIMA: Columbia
+* Prophet: Gaslamp, Marina
+
+Outside Perimeter's cross-validation MAPE exceeds 500% for every model, so its forecasts should not be used.
+
+### 8.2 2026 forecast for the overall series
+This is the output of `forecast_pipeline.py` (`data/Forecasts_12Month.csv`).
+
+The prediction intervals are approximate. They come from Holt-Winters residual variance, inflated by √(1 + 0.08(h−1)). The scenarios are fixed paths of −2% and +2.2% per month (−24% / +26% by month 12), not model-based scenarios.
+
+| Month | Forecast | 80% PI | 95% PI | Optimistic | Pessimistic |
+|---|---:|---|---|---:|---:|
+| Jan 2026 | 863 | 697–1,029 | 609–1,117 | 846 | 882 |
+| Feb 2026 | 885 | 712–1,058 | 621–1,149 | 850 | 924 |
+| Mar 2026 | 816 | 637–995 | 542–1,090 | 767 | 870 |
+| Apr 2026 | 858 | 673–1,043 | 575–1,141 | 789 | 933 |
+| May 2026 | 876 | 684–1,067 | 583–1,168 | 788 | 972 |
+| Jun 2026 | 850 | 653–1,047 | 549–1,151 | 748 | 962 |
+| Jul 2026 | 861 | 658–1,063 | 551–1,170 | 740 | 993 |
+| Aug 2026 | 854 | 646–1,062 | 536–1,171 | 717 | 1,004 |
+| Sep 2026 | 844 | 631–1,057 | 518–1,169 | 692 | 1,011 |
+| Oct 2026 | 884 | 666–1,102 | 551–1,218 | 707 | 1,079 |
+| Nov 2026 | 896 | 673–1,119 | 555–1,237 | 699 | 1,113 |
+| Dec 2026 | 888 | 660–1,116 | 539–1,237 | 675 | 1,123 |
+
+XGBoost results are not bit-for-bit reproducible across library versions. Re-running on the original inputs in a different environment moved the overall forecast by up to about 58 per month.
+
+---
+
+## 9. County-level estimation (Assignment 8)
+
+### 9.1 Paired data (Task 8.1)
+X is the January downtown adjusted total. Y is the county unsheltered PIT count.
+
+| PIT year | Downtown X | County Y | City of SD unsheltered | Downtown share of county |
+|---|---:|---:|---:|---:|
+| 2017 | 882.0 | 5,621 | 3,231 | 15.7% |
+| 2018 | 803.5 | 4,990 | 3,066 | 16.1% |
+| 2019 | 897.2 | 4,476 | 2,600 | 20.0% |
+| 2020 | 789.1 | 3,971 | 2,283 | 19.9% |
+| 2022 | 1,444.3 | 4,106 | 2,494 | 35.2% |
+| 2023 | 1,938.7 | 5,171 | 3,285 | 37.5% |
+| 2024 | 1,018.1 | 6,110 | 3,365 | 16.7% |
+| 2025 | 851.0 | 5,714 | 2,897 | 14.9% |
+
+The 2022 PIT count was held on 24 February (postponed for Omicron) and is paired with the February downtown count.
+
+### 9.2 Relationship (Task 8.2)
+* **Correlation:** Pearson r = −0.061 (p = 0.886); Spearman ρ = 0.214 (p = 0.610).
+* **Ratio stability:** a one-way ANOVA of the downtown share across three periods (2017–2020, 2022–2023, 2024–2025) gives F = 66.51, p = 0.0002, η² = 0.964. The ratio is not stable.
+* **Power:** with N = 8, the power to detect r = 0.5 is about 23%.
+
+### 9.3 Models and validation (Task 8.3)
+**Table 9.1 — Leave-one-year-out cross-validation (8 folds).**
+
+| Model | RMSE | MAE | MAPE | Signed bias |
+|---|---:|---:|---:|---:|
+| OLS + policy-regime indicator | 815.3 | 721.2 | 14.9% | −0.3% |
+| OLS | 960.5 | 879.7 | 18.2% | +1.4% |
+| OLS + time trend | 1,050.4 | 943.2 | 19.3% | −1.3% |
+| Pooled ratio | 2,392.6 | 1,917.4 | 38.2% | +5.0% |
+| Mean of ratios | 2,482.5 | 1,777.4 | 35.9% | +14.0% |
+| Post-ordinance ratio | 3,142.6 | 1,976.4 | 42.2% | +39.3% |
+
+**Selected model:** Y = 4,513.26 + 0.1859·X + 1,225.04·D_post, where D_post = 1 for the PIT years 2024 and 2025.
+
+* **Coefficients:**
+
+  | Term | Estimate | p |
+  |---|---:|---:|
+  | Intercept | 4,513.26 | 0.002 |
+  | Slope (X) | 0.186 | 0.78 |
+  | D_post | 1,225.0 | 0.075 |
+
+* **Fit:** R² = 0.504, adjusted R² = 0.306, residual SE 652 on 5 df.
+* **Caveats:**
+  * Only two observations have D_post = 1, so the regime term is close to an indicator for those two years.
+  * The model **describes** the post-2023 divergence between downtown and county counts. It does not prove that the ordinance displaced people.
+  * The 2024 and 2025 LOOCV errors (−6.05% and +6.47%) are each predicted from essentially one post-ordinance year.
+
+**Current estimates (Student's t, df = 5):**
+
+| Scenario | Downtown input X₀ | Estimate | 95% PI |
+|---|---:|---:|---|
+| Dec 2025 (latest month) | 985.4 | 5,921 | 3,867–7,976 |
+| Jan 2025 (PIT-matched) | 851.0 | 5,896 | 3,839–7,954 |
+| Jan 2026 forecast (from §8.2) | 862.9 | 5,899 | 3,843–7,955 |
+
+Under the reporting rules (§10) all three round to **5,900 [3,900–8,000]**, a margin of about ±2,050 (±35%).
+
+---
+
+## 10. Use and governance (Task 8.4)
+
+### 10.1 Public communication rules
+* **Rule 1 — no single-point precision:** do not publish unrounded point estimates (for example "5,921").
+* **Rule 2 — round to the nearest 100:** "5,900".
+* **Rule 3 — always give the 95% prediction interval:** "5,900 [3,900 to 8,000]".
+* **Rule 4 — disclose the policy regime:** state that the estimate is derived from downtown counts and assumes the post-July 2023 Unsafe Camping Ordinance enforcement environment continues.
+
+### 10.2 Appropriate and inappropriate uses
+
+| Appropriate | Not appropriate |
+|---|---|
+| Directional tracking between annual PIT counts | HUD Continuum of Care submissions |
+| Scenario planning and capacity stress tests | Formula funding or sub-regional allocations |
+| Prioritising outreach and field validation (hotspots) | Single-number media statements without the interval |
+
+### 10.3 Annual update
+1. Add the new PIT year to `data/Downtown_County_PairedCounts.csv`.
+2. Run `python scripts/county_estimation_build.py` to re-run LOOCV, refit, and regenerate `CountyEstimate_Current.csv`.
+3. Re-test regime stability.
+4. Update the constants in `src/config.py`.
+5. Run `pytest`.
+
+For monthly data, run `python scripts/apply_source_corrections.py` after appending new DSDP months. Then re-run the Assignment 4–7 scripts and notebooks in order (see `docs/ProjectHandoff_OperationalRunbook.md`).
+
+### 10.4 Limitations
+
+**Source data**
+* **A single count night a month.** Each value is one overnight observation. Weather, events, enforcement activity and staffing on that night move the number, and none of these is recorded consistently in the source reports.
+* **Conflicts inside the DSDP reports.**
+  * In three verified months, the map pages and DSDP's own summary table give different totals (April 2020 Gaslamp, February 2023 Gaslamp, February 2023 East Village).
+  * For 2025 (February–June) and November 2021, DSDP's East Village quadrant table does not add up to its East Village total.
+  * The project follows the published neighborhood totals and the map-based components. The 22 flagged area-months in `data/MasterCounts_QA_Flags.csv` should be treated with caution.
+* **Unpublished months.** Four 2025 months were unpublished when the data were extracted. Every 2025 statistic uses 8 months, and the decomposition and forecasting notebooks interpolate the missing months in memory.
+* **Methodology changes.**
+  * Multipliers changed in April 2017 and May 2018.
+  * Component data do not exist before 2018, so 2017 constant-methodology values rest on a 2018 composition proxy.
+  * The April 2017 break has only three pre-break months and cannot be tested reliably.
+
+**Block-level and spatial analysis**
+* **Coverage.** Only 12 of about 90 months with usable maps were digitized. Block-level and hotspot conclusions therefore describe January/February snapshots, not the whole year.
+* **Expanded footprint.** The 2022 expansion means any 2018–2021 vs 2022–2025 comparison must use the balanced 261-block panel.
+* **March 2022.** The source maps for this date carry two different handwritten dates.
+
+**Models**
+* **Forecasts.**
+  * Fold-to-fold variation in cross-validation error (26–36 MAPE points at 12 months) is as large as the differences between the leading models.
+  * The 2026 prediction intervals are approximate: they come from Holt-Winters residual variance, not from each champion model's own error distribution.
+  * The optimistic and pessimistic scenarios are fixed percentage paths, not model outputs.
+* **County model.**
+  * Eight paired years, with only two after the ordinance, cannot separate a genuine change in the downtown–county relationship from noise.
+  * Neither predictor is significant at the 5% level.
+  * The ±35% prediction interval is the honest summary of what the model can say.
+* **No causal identification.** None of the analyses establishes why counts rose or fell. Statements about shelters, enforcement or the economy are context, not findings.
+
+### 10.5 Recommendations
+
+**For DSDP**
+1. Publish the component breakdown (individuals, tents, vehicles) for every neighborhood every month, and keep quadrant tables consistent with neighborhood totals. Several data problems found in this project come from inconsistencies inside the published reports.
+2. Record the count date and conditions (weather, events, enforcement operations) in a machine-readable form with each monthly report.
+
+**For analysts using these data**
+3. Use the balanced 261-block panel for any comparison across 2021/2022, and report the footprint share alongside any post-2021 total.
+4. Treat 12-month forecasts as a planning range, not a target. Re-run the cross-validation each year and keep the naive seasonal baseline in the comparison, since it was the most accurate model on the 2025 hold-out.
+5. Use county estimates only as rounded ranges under Rules 1–4. Re-estimate the model every year when RTFH publishes a new PIT count, and add a regime indicator only when there is a documented policy change.
+
+**For service providers and agencies**
+6. Use the persistent hotspot blocks (the 16th & 17th St / Imperial Ave and I-5 southbound ramp cluster in South East Village) as a shortlist for field validation and outreach coordination. They are not, on their own, evidence of unmet need or of where a service should be located.
+
+**For the project**
+7. Extend block digitization beyond the 12 January/February dates. This is the most valuable data investment: it would allow seasonal and post-ordinance spatial analysis at block level.
+
+---
+
+## 11. Revision note (October 2026)
+
+Version 2.0 of this report contained statements and tables that were not supported by the project's own outputs. All quantitative content was rebuilt from the files in `data/`. The main corrections:
+
+**County model (§9)**
+* The model's R² was given as 0.9638 (adjusted 0.9493). That figure was the η² of the Task 8.2 ANOVA. The model's actual R² is 0.504 (adjusted 0.306).
+* The regime term was reported as significant (p = 0.0028). Its actual p-value is 0.075.
+* The paired-data table had wrong downtown and county values for most years. For example, 3,231 is the City of San Diego count for 2017, not the county count.
+* A "Log-Log Elasticity" model that was never built has been removed.
+* The model description had wrong values for X̄ and Σ(X−X̄)².
+
+**Data and methods (§2, §5)**
+* The multiplier table showed 1.50 / 2.00 factors. The documented factors are 2.00 / 1.75 / 1.66 / 2.03.
+* The 2019 data issue was described as a double-count that inflated totals by 8–14%. It was in fact a copy of 2020 quadrant values, and the totals were unaffected.
+* The February 2018 values "1,281 / 1,251" were wrong; they have been removed.
+* Little Italy was listed as a study neighborhood. It is not in the data.
+* The footprint table used count dates that were never digitized. It now uses the five real post-2021 dates.
+
+**Time series (§3, §4)**
+* The summary-statistics table had wrong values for most series, including quadrant series that were never analysed.
+* The seasonality table had wrong H statistics and included series that were not tested.
+* The structural-break section reported results that do not exist ("May 2018 F = 14.82", "July 2023 F = 28.64").
+
+**Hotspots and forecasting (§6, §8)**
+* The hotspot migration bearing and centroid coordinates were wrong (now about 120 m at 160°).
+* The cross-validation and forecast tables did not match the outputs.
+* A 90% hotspot class was described; the analysis uses only 95% and 99%.
+
+**Causal language**
+* Causal statements not tested in the project have been removed. These included hepatitis A sweeps, fentanyl, and claims that the ordinance "caused" displacement.
+
+**Data corrections**
+* Figures now reflect the October 2026 source corrections (§2.3).

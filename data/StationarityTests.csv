@@ -1,0 +1,55 @@
+series,stage,regression,transformation,log1p,d,D,n,adf_statistic,adf_pvalue,adf_lags,adf_pass,kpss_statistic,kpss_pvalue,kpss_lags,kpss_pass,conclusion
+Overall - reported footprint,adjusted_level,c,level,False,0,0,108,-1.7647932143345808,0.39807558976383106,1,False,0.28388936915685303,0.1,6,True,mixed_evidence
+Overall - reported footprint,adjusted_level,ct,level,False,0,0,108,-1.7829151894741855,0.7129375239352727,1,False,0.1677072500729544,0.031910624939204664,6,False,consensus_nonstationary
+Overall - reported footprint,raw_count_level,c,level,False,0,0,108,-1.7592423676596243,0.4008760974303626,1,False,0.2841101141656073,0.1,6,True,mixed_evidence
+Overall - reported footprint,raw_count_level,ct,level,False,0,0,108,-1.7773500907634914,0.7155759932238086,1,False,0.16771741877724433,0.03190215101896305,6,False,consensus_nonstationary
+Overall - reported footprint,forecast_stationary,c,first_difference,False,1,0,107,-12.257765828955087,9.226428156054418e-23,0,True,0.08567638591654744,0.1,3,True,consensus_stationary
+Overall - reported footprint,forecast_stationary_pre_first_gap_sensitivity,c,first_difference,False,1,0,101,-11.967629897016353,3.9662141734932406e-22,0,True,0.12705699688100303,0.1,4,True,consensus_stationary
+Overall - fixed core six,adjusted_level,c,level,False,0,0,108,-2.216261797993704,0.20039639050611108,6,False,0.1852461794440119,0.1,5,True,mixed_evidence
+Overall - fixed core six,adjusted_level,ct,level,False,0,0,108,-2.2509143372855482,0.46126713391895396,6,False,0.18446228175963578,0.02182664434013658,5,False,consensus_nonstationary
+Overall - fixed core six,raw_count_level,c,level,False,0,0,108,-2.2169419024747063,0.20015408374349491,6,False,0.18572588597925715,0.1,5,True,mixed_evidence
+Overall - fixed core six,raw_count_level,ct,level,False,0,0,108,-2.252521208512305,0.46036832830007274,6,False,0.18453847455803438,0.021798072040737106,5,False,consensus_nonstationary
+Overall - fixed core six,forecast_stationary,c,first_difference,False,1,0,107,-3.5483834174319764,0.006828053429364281,5,True,0.06979916526622518,0.1,11,True,consensus_stationary
+Overall - fixed core six,forecast_stationary_pre_first_gap_sensitivity,c,first_difference,False,1,0,101,-3.5811098470168763,0.0061326074655441674,5,True,0.11897212600835068,0.1,12,True,consensus_stationary
+East Village,adjusted_level,c,level,False,0,0,108,-2.0586221807306244,0.26147485717871966,2,False,0.16728253727055273,0.1,5,True,mixed_evidence
+East Village,adjusted_level,ct,level,False,0,0,108,-2.0191226788334924,0.5909793344320309,2,False,0.17788354055583344,0.024293672291562457,5,False,consensus_nonstationary
+East Village,raw_count_level,c,level,False,0,0,108,-2.0648853058837693,0.2588667139206747,2,False,0.16748634153874273,0.1,5,True,mixed_evidence
+East Village,raw_count_level,ct,level,False,0,0,108,-2.0252470187215303,0.5876161060228526,2,False,0.17809732798223493,0.024213502006661898,5,False,consensus_nonstationary
+East Village,forecast_stationary,c,first_difference,False,1,0,107,-10.074314814841157,1.235292361232616e-17,1,True,0.07608969042890176,0.1,13,True,consensus_stationary
+East Village,forecast_stationary_pre_first_gap_sensitivity,c,first_difference,False,1,0,101,-9.916812192323434,3.0645526954563704e-17,1,True,0.0922489774409029,0.1,14,True,consensus_stationary
+City Center,adjusted_level,c,level,False,0,0,108,-1.881453829649228,0.34083547706339257,2,False,0.6098360225238112,0.021742179770562618,5,False,consensus_nonstationary
+City Center,adjusted_level,ct,level,False,0,0,108,-2.569165977935358,0.294286471615649,1,False,0.182195904015907,0.022676535994034876,5,False,consensus_nonstationary
+City Center,raw_count_level,c,level,False,0,0,108,-1.8819526038626009,0.3405982190909862,2,False,0.6117595115816157,0.021567317128944028,5,False,consensus_nonstationary
+City Center,raw_count_level,ct,level,False,0,0,108,-2.5717733972891375,0.29305394546063585,1,False,0.1823911192100786,0.022603330296220518,5,False,consensus_nonstationary
+City Center,forecast_stationary,c,first_difference,False,1,0,107,-10.712358378913219,3.306959148212293e-19,1,True,0.07631515253557006,0.1,13,True,consensus_stationary
+City Center,forecast_stationary_pre_first_gap_sensitivity,c,first_difference,False,1,0,101,-10.71584538069064,3.2431724666339535e-19,1,True,0.15139628484159612,0.1,15,True,consensus_stationary
+Columbia,adjusted_level,c,level,False,0,0,108,-3.331173272315904,0.013541247763250008,1,True,0.6867438438606992,0.014750559649027344,5,False,mixed_evidence
+Columbia,adjusted_level,ct,level,False,0,0,108,-4.078823333015169,0.006772626825606202,1,True,0.2228674868371236,0.01,5,False,mixed_evidence
+Columbia,raw_count_level,c,level,False,0,0,108,-3.3095169883349165,0.014458387637799726,1,True,0.688329158325819,0.014606440152198273,5,False,mixed_evidence
+Columbia,raw_count_level,ct,level,False,0,0,108,-4.053972745415162,0.0073589643353563884,1,True,0.22402297880131392,0.01,5,False,mixed_evidence
+Columbia,forecast_stationary,c,first_difference,False,1,0,107,-8.737174806606367,3.077794112045384e-14,2,True,0.08981454627801279,0.1,8,True,consensus_stationary
+Columbia,forecast_stationary_pre_first_gap_sensitivity,c,first_difference,False,1,0,101,-8.435420022128621,1.8222675066616425e-13,2,True,0.1344451219127729,0.1,8,True,consensus_stationary
+Marina,adjusted_level,c,level,False,0,0,108,-1.7595307584412254,0.40073044947372105,4,False,1.402167677431141,0.01,5,False,consensus_nonstationary
+Marina,adjusted_level,ct,level,False,0,0,108,-5.09097407553299,0.00014003804475849367,1,True,0.12809536221705667,0.08315673663508023,4,True,consensus_stationary
+Marina,raw_count_level,c,level,False,0,0,108,-1.749868394145481,0.4056190352236783,4,False,1.3991830150218827,0.01,5,False,consensus_nonstationary
+Marina,raw_count_level,ct,level,False,0,0,108,-5.119356482906041,0.0001240378085932642,1,True,0.1232774168228461,0.09207885773547018,4,True,consensus_stationary
+Marina,forecast_stationary,c,first_difference,False,1,0,107,-8.104692575382641,1.2721273118332403e-12,3,True,0.07915167506420598,0.1,7,True,consensus_stationary
+Marina,forecast_stationary_pre_first_gap_sensitivity,c,first_difference,False,1,0,101,-7.879508147746224,4.7443299300947045e-12,3,True,0.0855847088538127,0.1,8,True,consensus_stationary
+Cortez,adjusted_level,c,level,False,0,0,108,-3.069446430000519,0.028898480652128893,1,True,0.6484109699770255,0.01823536636572495,5,False,mixed_evidence
+Cortez,adjusted_level,ct,level,False,0,0,108,-3.3793609136019755,0.054207133587559,1,False,0.16985063420671864,0.030124471494401124,5,False,consensus_nonstationary
+Cortez,raw_count_level,c,level,False,0,0,108,-3.063070414943391,0.029409620099343427,1,True,0.652217107065438,0.017889353903142,5,False,mixed_evidence
+Cortez,raw_count_level,ct,level,False,0,0,108,-3.377671433461671,0.05444343156314764,1,False,0.17055063488585503,0.0295411375951208,5,False,consensus_nonstationary
+Cortez,forecast_stationary,c,first_difference,False,1,0,107,-7.488899627665784,4.560723003313291e-11,3,True,0.05479314244430206,0.1,7,True,consensus_stationary
+Cortez,forecast_stationary_pre_first_gap_sensitivity,c,first_difference,False,1,0,101,-7.357387973026072,9.69966393700569e-11,3,True,0.10667955869280953,0.1,8,True,consensus_stationary
+Gaslamp,adjusted_level,c,level,False,0,0,108,-4.893577596486907,3.589224057685027e-05,1,True,0.588890324860797,0.023646334103563912,4,False,mixed_evidence
+Gaslamp,adjusted_level,ct,level,False,0,0,108,-7.3912495350582,1.8118165679135288e-09,0,True,0.09418551923813397,0.1,4,True,consensus_stationary
+Gaslamp,raw_count_level,c,level,False,0,0,108,-4.822157435816008,4.931930826463282e-05,1,True,0.5153700526076687,0.03820494310638093,4,False,mixed_evidence
+Gaslamp,raw_count_level,ct,level,False,0,0,108,-5.250629350036832,7.022116552433166e-05,1,True,0.09277753767348078,0.1,4,True,consensus_stationary
+Gaslamp,forecast_stationary,c,first_difference,False,1,0,107,-8.063416255851866,1.6200548833249833e-12,4,True,0.27917761455852924,0.1,50,True,consensus_stationary
+Gaslamp,forecast_stationary_pre_first_gap_sensitivity,c,first_difference,False,1,0,101,-7.943126589571153,3.27329785920956e-12,4,True,0.34261450691748574,0.1,64,True,consensus_stationary
+Outside Perimeter,adjusted_level,c,level,False,0,0,60,-1.9457581886861037,0.31085042908053795,0,False,0.37446728445481314,0.08816065325223571,4,True,mixed_evidence
+Outside Perimeter,adjusted_level,ct,level,False,0,0,60,-2.47910754927255,0.3384852590047812,0,False,0.15612952794715207,0.0415587267107066,4,False,consensus_nonstationary
+Outside Perimeter,raw_count_level,c,level,False,0,0,60,-1.9457581886861037,0.31085042908053795,0,False,0.37446728445481314,0.08816065325223571,4,True,mixed_evidence
+Outside Perimeter,raw_count_level,ct,level,False,0,0,60,-2.47910754927255,0.3384852590047812,0,False,0.15612952794715207,0.0415587267107066,4,False,consensus_nonstationary
+Outside Perimeter,forecast_stationary,c,log1p_level,True,0,0,60,-4.465339869004224,0.00022702730998105963,1,True,0.1703596870380205,0.1,4,True,consensus_stationary
+Outside Perimeter,forecast_stationary_pre_first_gap_sensitivity,c,log1p_level,True,0,0,54,-4.349969141229187,0.00036356399019616434,1,True,0.16640397417158345,0.1,4,True,consensus_stationary

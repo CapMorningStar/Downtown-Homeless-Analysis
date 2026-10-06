@@ -1,0 +1,541 @@
+date,series,model,actual,predicted,evaluable
+2025-01-01,Overall - reported footprint,sarima,851.02,1076.8212402411539,True
+2025-02-01,Overall - reported footprint,sarima,985.18,1036.2057610980437,True
+2025-03-01,Overall - reported footprint,sarima,811.4,987.0357191990748,True
+2025-04-01,Overall - reported footprint,sarima,901.99,1062.68806286794,True
+2025-05-01,Overall - reported footprint,sarima,837.46,1134.1592050103868,True
+2025-06-01,Overall - reported footprint,sarima,756.37,1085.0017709876802,True
+2025-07-01,Overall - reported footprint,sarima,,1007.0139273530187,False
+2025-08-01,Overall - reported footprint,sarima,,996.3796399228967,False
+2025-09-01,Overall - reported footprint,sarima,785.56,999.7171730423025,True
+2025-10-01,Overall - reported footprint,sarima,,989.5867999445566,False
+2025-11-01,Overall - reported footprint,sarima,,971.3770350194584,False
+2025-12-01,Overall - reported footprint,sarima,985.38,936.9695543713991,True
+2025-01-01,Overall - fixed core six,sarima,767.02,830.1513314429355,True
+2025-02-01,Overall - fixed core six,sarima,732.1800000000001,808.6521057680143,True
+2025-03-01,Overall - fixed core six,sarima,670.4,779.1289285470848,True
+2025-04-01,Overall - fixed core six,sarima,707.99,765.8649501169001,True
+2025-05-01,Overall - fixed core six,sarima,690.46,824.2128076761749,True
+2025-06-01,Overall - fixed core six,sarima,652.37,808.8327797806443,True
+2025-07-01,Overall - fixed core six,sarima,,811.6480736534492,False
+2025-08-01,Overall - fixed core six,sarima,,837.0707446945692,False
+2025-09-01,Overall - fixed core six,sarima,720.56,855.4074533303271,True
+2025-10-01,Overall - fixed core six,sarima,,811.6792157205721,False
+2025-11-01,Overall - fixed core six,sarima,,785.6641288396197,False
+2025-12-01,Overall - fixed core six,sarima,917.38,769.1337981600615,True
+2025-01-01,East Village,sarima,443.24,456.73767190087085,True
+2025-02-01,East Village,sarima,411.18,430.8139537739076,True
+2025-03-01,East Village,sarima,413.37,396.2563083565158,True
+2025-04-01,East Village,sarima,401.21,433.72679180558487,True
+2025-05-01,East Village,sarima,404.59,470.2822886691182,True
+2025-06-01,East Village,sarima,407.62,476.50011068617044,True
+2025-07-01,East Village,sarima,,492.77216925651345,False
+2025-08-01,East Village,sarima,,493.41917422084424,False
+2025-09-01,East Village,sarima,445.0,510.61255079290635,True
+2025-10-01,East Village,sarima,,478.3460166498141,False
+2025-11-01,East Village,sarima,,442.32122425759087,False
+2025-12-01,East Village,sarima,554.92,438.84352805173614,True
+2025-01-01,City Center,sarima,179.0,154.30157692363161,True
+2025-02-01,City Center,sarima,175.5,157.76248096409995,True
+2025-03-01,City Center,sarima,161.0,229.23831864943367,True
+2025-04-01,City Center,sarima,154.0,203.4609811752569,True
+2025-05-01,City Center,sarima,147.59,215.9506358508716,True
+2025-06-01,City Center,sarima,129.25,140.11528316111804,True
+2025-07-01,City Center,sarima,,124.066006308309,False
+2025-08-01,City Center,sarima,,139.77341372468914,False
+2025-09-01,City Center,sarima,124.5,82.89908601130878,True
+2025-10-01,City Center,sarima,,129.58228269000975,False
+2025-11-01,City Center,sarima,,127.97293880775864,False
+2025-12-01,City Center,sarima,195.34,73.4645800702029,True
+2025-01-01,Columbia,sarima,37.25,41.961857830665394,True
+2025-02-01,Columbia,sarima,39.0,47.33138735004328,True
+2025-03-01,Columbia,sarima,14.0,41.42546860484717,True
+2025-04-01,Columbia,sarima,28.75,44.71791980855087,True
+2025-05-01,Columbia,sarima,33.25,44.53392287354252,True
+2025-06-01,Columbia,sarima,21.0,49.877484082088806,True
+2025-07-01,Columbia,sarima,,36.94095539009605,False
+2025-08-01,Columbia,sarima,,41.19727032662118,False
+2025-09-01,Columbia,sarima,30.53,38.728487880372015,True
+2025-10-01,Columbia,sarima,,37.74962343890314,False
+2025-11-01,Columbia,sarima,,41.120253213731225,False
+2025-12-01,Columbia,sarima,31.5,38.36210743943516,True
+2025-01-01,Marina,sarima,17.0,21.41783213063075,True
+2025-02-01,Marina,sarima,16.5,13.723108855405698,True
+2025-03-01,Marina,sarima,16.03,13.730360511279144,True
+2025-04-01,Marina,sarima,6.75,14.19101511543758,True
+2025-05-01,Marina,sarima,7.75,13.979492341090697,True
+2025-06-01,Marina,sarima,11.0,18.404182002033437,True
+2025-07-01,Marina,sarima,,7.538366002509173,False
+2025-08-01,Marina,sarima,,22.570938485095528,False
+2025-09-01,Marina,sarima,24.0,15.29864652087917,True
+2025-10-01,Marina,sarima,,12.05378017733688,False
+2025-11-01,Marina,sarima,,18.211327078133763,False
+2025-12-01,Marina,sarima,11.0,14.269401231405558,True
+2025-01-01,Cortez,sarima,49.53,102.44050511637835,True
+2025-02-01,Cortez,sarima,63.0,85.64085805247925,True
+2025-03-01,Cortez,sarima,34.25,63.37482956507982,True
+2025-04-01,Cortez,sarima,77.28,78.36463550780952,True
+2025-05-01,Cortez,sarima,74.28,79.39407344835666,True
+2025-06-01,Cortez,sarima,43.75,69.9936246785364,True
+2025-07-01,Cortez,sarima,,74.34588050656423,False
+2025-08-01,Cortez,sarima,,43.49246446605261,False
+2025-09-01,Cortez,sarima,44.53,70.70514863277165,True
+2025-10-01,Cortez,sarima,,45.41027386955308,False
+2025-11-01,Cortez,sarima,,70.69814731379395,False
+2025-12-01,Cortez,sarima,82.62,78.04935202302936,True
+2025-01-01,Gaslamp,sarima,41.0,44.0774232379264,True
+2025-02-01,Gaslamp,sarima,27.0,47.18728012825074,True
+2025-03-01,Gaslamp,sarima,31.75,51.87407231354948,True
+2025-04-01,Gaslamp,sarima,40.0,37.43140620129112,True
+2025-05-01,Gaslamp,sarima,23.0,49.234292806266915,True
+2025-06-01,Gaslamp,sarima,39.75,38.54174754863358,True
+2025-07-01,Gaslamp,sarima,,34.450626187819445,False
+2025-08-01,Gaslamp,sarima,,41.7510231900732,False
+2025-09-01,Gaslamp,sarima,52.0,52.59890215358187,True
+2025-10-01,Gaslamp,sarima,,44.69126911327618,False
+2025-11-01,Gaslamp,sarima,,42.06677485246088,False
+2025-12-01,Gaslamp,sarima,42.0,40.3788791549521,True
+2025-01-01,Outside Perimeter,sarima,84.0,247.2009293437064,True
+2025-02-01,Outside Perimeter,sarima,253.0,263.55432156354885,True
+2025-03-01,Outside Perimeter,sarima,141.0,305.74334082036194,True
+2025-04-01,Outside Perimeter,sarima,194.0,341.23392924234366,True
+2025-05-01,Outside Perimeter,sarima,147.0,314.9003029792597,True
+2025-06-01,Outside Perimeter,sarima,104.0,305.2572555705342,True
+2025-07-01,Outside Perimeter,sarima,,213.11352428168,False
+2025-08-01,Outside Perimeter,sarima,,173.66217947461786,False
+2025-09-01,Outside Perimeter,sarima,65.0,144.32086226267526,True
+2025-10-01,Outside Perimeter,sarima,,191.85287172701388,False
+2025-11-01,Outside Perimeter,sarima,,219.1756057164488,False
+2025-12-01,Outside Perimeter,sarima,68.0,234.980113807277,True
+2025-01-01,Overall - reported footprint,holt_winters,851.02,1042.40257413206,True
+2025-02-01,Overall - reported footprint,holt_winters,985.18,1032.9576278851391,True
+2025-03-01,Overall - reported footprint,holt_winters,811.4,988.1302105436671,True
+2025-04-01,Overall - reported footprint,holt_winters,901.99,1032.9280119708321,True
+2025-05-01,Overall - reported footprint,holt_winters,837.46,1091.0147073729938,True
+2025-06-01,Overall - reported footprint,holt_winters,756.37,1054.124185420309,True
+2025-07-01,Overall - reported footprint,holt_winters,,1001.980145015365,False
+2025-08-01,Overall - reported footprint,holt_winters,,1018.3939973304887,False
+2025-09-01,Overall - reported footprint,holt_winters,785.56,1012.163081768637,True
+2025-10-01,Overall - reported footprint,holt_winters,,993.8968540960251,False
+2025-11-01,Overall - reported footprint,holt_winters,,974.8540183940478,False
+2025-12-01,Overall - reported footprint,holt_winters,985.38,993.7354220510432,True
+2025-01-01,Overall - fixed core six,holt_winters,767.02,804.8612556936931,True
+2025-02-01,Overall - fixed core six,holt_winters,732.1800000000001,815.3376174222428,True
+2025-03-01,Overall - fixed core six,holt_winters,670.4,770.2810118800151,True
+2025-04-01,Overall - fixed core six,holt_winters,707.99,764.1970371248228,True
+2025-05-01,Overall - fixed core six,holt_winters,690.46,813.0734554095014,True
+2025-06-01,Overall - fixed core six,holt_winters,652.37,794.2034378297878,True
+2025-07-01,Overall - fixed core six,holt_winters,,808.0429620872984,False
+2025-08-01,Overall - fixed core six,holt_winters,,842.8694824494602,False
+2025-09-01,Overall - fixed core six,holt_winters,720.56,845.7188091817891,True
+2025-10-01,Overall - fixed core six,holt_winters,,801.380871522258,False
+2025-11-01,Overall - fixed core six,holt_winters,,760.6827737300066,False
+2025-12-01,Overall - fixed core six,holt_winters,917.38,759.5774495506707,True
+2025-01-01,East Village,holt_winters,443.24,440.9282653378249,True
+2025-02-01,East Village,holt_winters,411.18,444.19714760925433,True
+2025-03-01,East Village,holt_winters,413.37,410.8043485945325,True
+2025-04-01,East Village,holt_winters,401.21,417.1937921927609,True
+2025-05-01,East Village,holt_winters,404.59,436.82481080087564,True
+2025-06-01,East Village,holt_winters,407.62,443.53414372234835,True
+2025-07-01,East Village,holt_winters,,475.4112220722951,False
+2025-08-01,East Village,holt_winters,,485.99297000188744,False
+2025-09-01,East Village,holt_winters,445.0,487.43553723768827,True
+2025-10-01,East Village,holt_winters,,449.7319655792679,False
+2025-11-01,East Village,holt_winters,,414.6720534292523,False
+2025-12-01,East Village,holt_winters,554.92,417.9285197314182,True
+2025-01-01,City Center,holt_winters,179.0,173.71373788490442,True
+2025-02-01,City Center,holt_winters,175.5,175.95963601479235,True
+2025-03-01,City Center,holt_winters,161.0,198.2673071820491,True
+2025-04-01,City Center,holt_winters,154.0,185.6238056051565,True
+2025-05-01,City Center,holt_winters,147.59,202.4140491924526,True
+2025-06-01,City Center,holt_winters,129.25,178.6412374075267,True
+2025-07-01,City Center,holt_winters,,167.40778471989253,False
+2025-08-01,City Center,holt_winters,,178.33759951154096,False
+2025-09-01,City Center,holt_winters,124.5,163.46082625370386,True
+2025-10-01,City Center,holt_winters,,185.91163977586743,False
+2025-11-01,City Center,holt_winters,,170.39716306248772,False
+2025-12-01,City Center,holt_winters,195.34,164.9391481473276,True
+2025-01-01,Columbia,holt_winters,37.25,41.189857665950456,True
+2025-02-01,Columbia,holt_winters,39.0,43.89691126898882,True
+2025-03-01,Columbia,holt_winters,14.0,39.35989820153096,True
+2025-04-01,Columbia,holt_winters,28.75,42.323705875372305,True
+2025-05-01,Columbia,holt_winters,33.25,43.5541197216431,True
+2025-06-01,Columbia,holt_winters,21.0,49.06471379039888,True
+2025-07-01,Columbia,holt_winters,,37.40297446980536,False
+2025-08-01,Columbia,holt_winters,,44.08453951608441,False
+2025-09-01,Columbia,holt_winters,30.53,41.16566432693405,True
+2025-10-01,Columbia,holt_winters,,39.70792174154989,False
+2025-11-01,Columbia,holt_winters,,38.28243216722038,False
+2025-12-01,Columbia,holt_winters,31.5,38.091483326075306,True
+2025-01-01,Marina,holt_winters,17.0,14.128281787468989,True
+2025-02-01,Marina,holt_winters,16.5,14.357688516241911,True
+2025-03-01,Marina,holt_winters,16.03,12.730668396542633,True
+2025-04-01,Marina,holt_winters,6.75,12.70476506860724,True
+2025-05-01,Marina,holt_winters,7.75,12.56129224859885,True
+2025-06-01,Marina,holt_winters,11.0,14.047819939406757,True
+2025-07-01,Marina,holt_winters,,10.532530397896272,False
+2025-08-01,Marina,holt_winters,,16.66443506526011,False
+2025-09-01,Marina,holt_winters,24.0,13.900994347157946,True
+2025-10-01,Marina,holt_winters,,12.669799875040896,False
+2025-11-01,Marina,holt_winters,,12.474225005580445,False
+2025-12-01,Marina,holt_winters,11.0,11.286620764894757,True
+2025-01-01,Cortez,holt_winters,49.53,99.79541814151001,True
+2025-02-01,Cortez,holt_winters,63.0,101.09557299038367,True
+2025-03-01,Cortez,holt_winters,34.25,64.53866249008402,True
+2025-04-01,Cortez,holt_winters,77.28,68.49374772950408,True
+2025-05-01,Cortez,holt_winters,74.28,68.48711254192966,True
+2025-06-01,Cortez,holt_winters,43.75,67.08904578817602,True
+2025-07-01,Cortez,holt_winters,,77.82067450075914,False
+2025-08-01,Cortez,holt_winters,,62.70254339936131,False
+2025-09-01,Cortez,holt_winters,44.53,76.57888854152012,True
+2025-10-01,Cortez,holt_winters,,67.4683652854994,False
+2025-11-01,Cortez,holt_winters,,74.98215549772262,False
+2025-12-01,Cortez,holt_winters,82.62,79.38507492885465,True
+2025-01-01,Gaslamp,holt_winters,41.0,43.126964622038535,True
+2025-02-01,Gaslamp,holt_winters,27.0,47.66651364601523,True
+2025-03-01,Gaslamp,holt_winters,31.75,51.69586349029425,True
+2025-04-01,Gaslamp,holt_winters,40.0,37.43971218541865,True
+2025-05-01,Gaslamp,holt_winters,23.0,48.089175029313495,True
+2025-06-01,Gaslamp,holt_winters,39.75,37.722283694334806,True
+2025-07-01,Gaslamp,holt_winters,,36.213051078776324,False
+2025-08-01,Gaslamp,holt_winters,,41.16546014345652,False
+2025-09-01,Gaslamp,holt_winters,52.0,51.13021406158858,True
+2025-10-01,Gaslamp,holt_winters,,43.31684643852813,False
+2025-11-01,Gaslamp,holt_winters,,41.90609537266139,False
+2025-12-01,Gaslamp,holt_winters,42.0,39.75192396829804,True
+2025-01-01,Outside Perimeter,holt_winters,84.0,228.9845552211975,True
+2025-02-01,Outside Perimeter,holt_winters,253.0,206.48224545291166,True
+2025-03-01,Outside Perimeter,holt_winters,141.0,209.4737514671039,True
+2025-04-01,Outside Perimeter,holt_winters,194.0,297.74508198168394,True
+2025-05-01,Outside Perimeter,holt_winters,147.0,312.2667224169619,True
+2025-06-01,Outside Perimeter,holt_winters,104.0,302.99503308013084,True
+2025-07-01,Outside Perimeter,holt_winters,,210.74936579398684,False
+2025-08-01,Outside Perimeter,holt_winters,,170.98916352786858,False
+2025-09-01,Outside Perimeter,holt_winters,65.0,141.49886484911843,True
+2025-10-01,Outside Perimeter,holt_winters,,189.23148962444378,False
+2025-11-01,Outside Perimeter,holt_winters,,217.18595495455162,False
+2025-12-01,Outside Perimeter,holt_winters,68.0,234.16937658365404,True
+2025-01-01,Overall - reported footprint,prophet,851.02,1368.9057580866645,True
+2025-02-01,Overall - reported footprint,prophet,985.18,1483.971071951409,True
+2025-03-01,Overall - reported footprint,prophet,811.4,1230.8076390855235,True
+2025-04-01,Overall - reported footprint,prophet,901.99,1264.2558085921519,True
+2025-05-01,Overall - reported footprint,prophet,837.46,1334.0268029249792,True
+2025-06-01,Overall - reported footprint,prophet,756.37,1385.912514185523,True
+2025-07-01,Overall - reported footprint,prophet,,1335.3749700507449,False
+2025-08-01,Overall - reported footprint,prophet,,1343.0379345734718,False
+2025-09-01,Overall - reported footprint,prophet,785.56,1298.0564791054892,True
+2025-10-01,Overall - reported footprint,prophet,,1268.8392024181653,False
+2025-11-01,Overall - reported footprint,prophet,,1247.3584302352162,False
+2025-12-01,Overall - reported footprint,prophet,985.38,1280.8680999572996,True
+2025-01-01,Overall - fixed core six,prophet,767.02,1034.8739413861308,True
+2025-02-01,Overall - fixed core six,prophet,732.1800000000001,1113.667280959958,True
+2025-03-01,Overall - fixed core six,prophet,670.4,954.0637378899204,True
+2025-04-01,Overall - fixed core six,prophet,707.99,935.4993645561912,True
+2025-05-01,Overall - fixed core six,prophet,690.46,991.3791402967786,True
+2025-06-01,Overall - fixed core six,prophet,652.37,1048.3660724259405,True
+2025-07-01,Overall - fixed core six,prophet,,1029.4957607876247,False
+2025-08-01,Overall - fixed core six,prophet,,1055.5732374123634,False
+2025-09-01,Overall - fixed core six,prophet,720.56,1041.6231308927809,True
+2025-10-01,Overall - fixed core six,prophet,,993.1279638103213,False
+2025-11-01,Overall - fixed core six,prophet,,961.400285539163,False
+2025-12-01,Overall - fixed core six,prophet,917.38,978.5718605564012,True
+2025-01-01,East Village,prophet,443.24,616.2956714236678,True
+2025-02-01,East Village,prophet,411.18,644.5071898665938,True
+2025-03-01,East Village,prophet,413.37,533.2848303217788,True
+2025-04-01,East Village,prophet,401.21,533.667234811037,True
+2025-05-01,East Village,prophet,404.59,564.9882715198713,True
+2025-06-01,East Village,prophet,407.62,622.196345118694,True
+2025-07-01,East Village,prophet,,628.6192466669077,False
+2025-08-01,East Village,prophet,,636.0921107405123,False
+2025-09-01,East Village,prophet,445.0,633.8945433852011,True
+2025-10-01,East Village,prophet,,583.6939144672048,False
+2025-11-01,East Village,prophet,,556.1837590563833,False
+2025-12-01,East Village,prophet,554.92,571.3385549011944,True
+2025-01-01,City Center,prophet,179.0,236.22645927085387,True
+2025-02-01,City Center,prophet,175.5,254.0952172125511,True
+2025-03-01,City Center,prophet,161.0,242.31885876386306,True
+2025-04-01,City Center,prophet,154.0,229.96915029021054,True
+2025-05-01,City Center,prophet,147.59,244.92232855451607,True
+2025-06-01,City Center,prophet,129.25,240.98201003637993,True
+2025-07-01,City Center,prophet,,231.64534474509634,False
+2025-08-01,City Center,prophet,,236.48165596526718,False
+2025-09-01,City Center,prophet,124.5,216.59316161221034,True
+2025-10-01,City Center,prophet,,237.43183511147453,False
+2025-11-01,City Center,prophet,,224.4960344583078,False
+2025-12-01,City Center,prophet,195.34,224.16439323342564,True
+2025-01-01,Columbia,prophet,37.25,39.96172229308948,True
+2025-02-01,Columbia,prophet,39.0,42.58501415189622,True
+2025-03-01,Columbia,prophet,14.0,33.914018829625114,True
+2025-04-01,Columbia,prophet,28.75,41.38626018245659,True
+2025-05-01,Columbia,prophet,33.25,43.85823354386876,True
+2025-06-01,Columbia,prophet,21.0,46.29842427316788,True
+2025-07-01,Columbia,prophet,,37.038933119500385,False
+2025-08-01,Columbia,prophet,,42.13697665160001,False
+2025-09-01,Columbia,prophet,30.53,38.22470192348702,True
+2025-10-01,Columbia,prophet,,34.139234363803894,False
+2025-11-01,Columbia,prophet,,37.35437745026418,False
+2025-12-01,Columbia,prophet,31.5,37.051598999164725,True
+2025-01-01,Marina,prophet,17.0,3.7542320404786924,True
+2025-02-01,Marina,prophet,16.5,17.233646350194935,True
+2025-03-01,Marina,prophet,16.03,12.053095189708664,True
+2025-04-01,Marina,prophet,6.75,9.28269926995285,True
+2025-05-01,Marina,prophet,7.75,8.363719870185982,True
+2025-06-01,Marina,prophet,11.0,15.33140806700704,True
+2025-07-01,Marina,prophet,,5.474567797403847,False
+2025-08-01,Marina,prophet,,19.900794924642323,False
+2025-09-01,Marina,prophet,24.0,15.032295880695203,True
+2025-10-01,Marina,prophet,,10.306095291090509,False
+2025-11-01,Marina,prophet,,16.972582084658868,False
+2025-12-01,Marina,prophet,11.0,9.437037497077279,True
+2025-01-01,Cortez,prophet,49.53,101.60539640533551,True
+2025-02-01,Cortez,prophet,63.0,109.44496640596748,True
+2025-03-01,Cortez,prophet,34.25,88.43857693874409,True
+2025-04-01,Cortez,prophet,77.28,87.12598454878159,True
+2025-05-01,Cortez,prophet,74.28,85.53978164896469,True
+2025-06-01,Cortez,prophet,43.75,87.96741039264988,True
+2025-07-01,Cortez,prophet,,95.34958553114373,False
+2025-08-01,Cortez,prophet,,85.8041155584064,False
+2025-09-01,Cortez,prophet,44.53,91.28251636606875,True
+2025-10-01,Cortez,prophet,,89.37744603380257,False
+2025-11-01,Cortez,prophet,,89.9699803904274,False
+2025-12-01,Cortez,prophet,82.62,97.70639095229124,True
+2025-01-01,Gaslamp,prophet,41.0,39.18304999457082,True
+2025-02-01,Gaslamp,prophet,27.0,47.98100050953521,True
+2025-03-01,Gaslamp,prophet,31.75,46.913253038901814,True
+2025-04-01,Gaslamp,prophet,40.0,36.97000105033986,True
+2025-05-01,Gaslamp,prophet,23.0,46.61044014737373,True
+2025-06-01,Gaslamp,prophet,39.75,38.50498004745762,True
+2025-07-01,Gaslamp,prophet,,34.42251974193442,False
+2025-08-01,Gaslamp,prophet,,38.30388484038706,False
+2025-09-01,Gaslamp,prophet,52.0,49.88568967257379,True
+2025-10-01,Gaslamp,prophet,,41.623653318482205,False
+2025-11-01,Gaslamp,prophet,,39.986345170425665,False
+2025-12-01,Gaslamp,prophet,42.0,42.49855189145191,True
+2025-01-01,Outside Perimeter,prophet,84.0,89.85229012980759,True
+2025-02-01,Outside Perimeter,prophet,253.0,171.48746100917367,True
+2025-03-01,Outside Perimeter,prophet,141.0,120.15129553157644,True
+2025-04-01,Outside Perimeter,prophet,194.0,208.2587220911766,True
+2025-05-01,Outside Perimeter,prophet,147.0,223.28545837458682,True
+2025-06-01,Outside Perimeter,prophet,104.0,203.6154590622374,True
+2025-07-01,Outside Perimeter,prophet,,137.26287619573947,False
+2025-08-01,Outside Perimeter,prophet,,103.00278716871264,False
+2025-09-01,Outside Perimeter,prophet,65.0,47.066682906300684,True
+2025-10-01,Outside Perimeter,prophet,,94.92431818950664,False
+2025-11-01,Outside Perimeter,prophet,,126.39118454493008,False
+2025-12-01,Outside Perimeter,prophet,68.0,167.2184477147616,True
+2025-01-01,Overall - reported footprint,xgboost,851.02,908.7304077148438,True
+2025-02-01,Overall - reported footprint,xgboost,985.18,863.8236083984375,True
+2025-03-01,Overall - reported footprint,xgboost,811.4,833.9744262695312,True
+2025-04-01,Overall - reported footprint,xgboost,901.99,881.3695068359375,True
+2025-05-01,Overall - reported footprint,xgboost,837.46,872.3148803710938,True
+2025-06-01,Overall - reported footprint,xgboost,756.37,890.5908813476562,True
+2025-07-01,Overall - reported footprint,xgboost,,896.714111328125,False
+2025-08-01,Overall - reported footprint,xgboost,,857.8125610351562,False
+2025-09-01,Overall - reported footprint,xgboost,785.56,861.4779663085938,True
+2025-10-01,Overall - reported footprint,xgboost,,904.3753051757812,False
+2025-11-01,Overall - reported footprint,xgboost,,914.37890625,False
+2025-12-01,Overall - reported footprint,xgboost,985.38,865.9044189453125,True
+2025-01-01,Overall - fixed core six,xgboost,767.02,839.1922607421875,True
+2025-02-01,Overall - fixed core six,xgboost,732.1800000000001,864.1114501953125,True
+2025-03-01,Overall - fixed core six,xgboost,670.4,862.85400390625,True
+2025-04-01,Overall - fixed core six,xgboost,707.99,891.5637817382812,True
+2025-05-01,Overall - fixed core six,xgboost,690.46,899.8097534179688,True
+2025-06-01,Overall - fixed core six,xgboost,652.37,862.593994140625,True
+2025-07-01,Overall - fixed core six,xgboost,,862.7003784179688,False
+2025-08-01,Overall - fixed core six,xgboost,,808.2116088867188,False
+2025-09-01,Overall - fixed core six,xgboost,720.56,842.0343017578125,True
+2025-10-01,Overall - fixed core six,xgboost,,849.2704467773438,False
+2025-11-01,Overall - fixed core six,xgboost,,836.2863159179688,False
+2025-12-01,Overall - fixed core six,xgboost,917.38,784.340087890625,True
+2025-01-01,East Village,xgboost,443.24,467.24407958984375,True
+2025-02-01,East Village,xgboost,411.18,454.38580322265625,True
+2025-03-01,East Village,xgboost,413.37,449.3509216308594,True
+2025-04-01,East Village,xgboost,401.21,481.729248046875,True
+2025-05-01,East Village,xgboost,404.59,520.9423217773438,True
+2025-06-01,East Village,xgboost,407.62,531.08642578125,True
+2025-07-01,East Village,xgboost,,553.430419921875,False
+2025-08-01,East Village,xgboost,,536.7769775390625,False
+2025-09-01,East Village,xgboost,445.0,538.1513671875,True
+2025-10-01,East Village,xgboost,,581.4351806640625,False
+2025-11-01,East Village,xgboost,,597.5377807617188,False
+2025-12-01,East Village,xgboost,554.92,543.1588745117188,True
+2025-01-01,City Center,xgboost,179.0,177.97775268554688,True
+2025-02-01,City Center,xgboost,175.5,156.89047241210938,True
+2025-03-01,City Center,xgboost,161.0,163.094482421875,True
+2025-04-01,City Center,xgboost,154.0,148.93136596679688,True
+2025-05-01,City Center,xgboost,147.59,152.89202880859375,True
+2025-06-01,City Center,xgboost,129.25,148.482666015625,True
+2025-07-01,City Center,xgboost,,149.16152954101562,False
+2025-08-01,City Center,xgboost,,151.12191772460938,False
+2025-09-01,City Center,xgboost,124.5,140.96188354492188,True
+2025-10-01,City Center,xgboost,,148.31234741210938,False
+2025-11-01,City Center,xgboost,,148.2711181640625,False
+2025-12-01,City Center,xgboost,195.34,144.2141571044922,True
+2025-01-01,Columbia,xgboost,37.25,41.967838287353516,True
+2025-02-01,Columbia,xgboost,39.0,35.800743103027344,True
+2025-03-01,Columbia,xgboost,14.0,35.82109069824219,True
+2025-04-01,Columbia,xgboost,28.75,36.40348434448242,True
+2025-05-01,Columbia,xgboost,33.25,35.05208969116211,True
+2025-06-01,Columbia,xgboost,21.0,38.569541931152344,True
+2025-07-01,Columbia,xgboost,,31.519336700439453,False
+2025-08-01,Columbia,xgboost,,38.99473190307617,False
+2025-09-01,Columbia,xgboost,30.53,37.15361022949219,True
+2025-10-01,Columbia,xgboost,,38.68305206298828,False
+2025-11-01,Columbia,xgboost,,35.18670654296875,False
+2025-12-01,Columbia,xgboost,31.5,35.898590087890625,True
+2025-01-01,Marina,xgboost,17.0,21.961153030395508,True
+2025-02-01,Marina,xgboost,16.5,19.297935485839844,True
+2025-03-01,Marina,xgboost,16.03,19.829315185546875,True
+2025-04-01,Marina,xgboost,6.75,24.42737579345703,True
+2025-05-01,Marina,xgboost,7.75,20.335283279418945,True
+2025-06-01,Marina,xgboost,11.0,17.21062660217285,True
+2025-07-01,Marina,xgboost,,26.002456665039062,False
+2025-08-01,Marina,xgboost,,14.447332382202148,False
+2025-09-01,Marina,xgboost,24.0,16.362125396728516,True
+2025-10-01,Marina,xgboost,,21.48055648803711,False
+2025-11-01,Marina,xgboost,,12.767953872680664,False
+2025-12-01,Marina,xgboost,11.0,21.41474723815918,True
+2025-01-01,Cortez,xgboost,49.53,74.15235137939453,True
+2025-02-01,Cortez,xgboost,63.0,70.90232849121094,True
+2025-03-01,Cortez,xgboost,34.25,67.35556030273438,True
+2025-04-01,Cortez,xgboost,77.28,71.87596893310547,True
+2025-05-01,Cortez,xgboost,74.28,67.26165771484375,True
+2025-06-01,Cortez,xgboost,43.75,66.19588470458984,True
+2025-07-01,Cortez,xgboost,,69.18209075927734,False
+2025-08-01,Cortez,xgboost,,67.24254608154297,False
+2025-09-01,Cortez,xgboost,44.53,70.59593200683594,True
+2025-10-01,Cortez,xgboost,,68.89291381835938,False
+2025-11-01,Cortez,xgboost,,74.48774719238281,False
+2025-12-01,Cortez,xgboost,82.62,73.76455688476562,True
+2025-01-01,Gaslamp,xgboost,41.0,39.621219635009766,True
+2025-02-01,Gaslamp,xgboost,27.0,35.09389877319336,True
+2025-03-01,Gaslamp,xgboost,31.75,42.58343505859375,True
+2025-04-01,Gaslamp,xgboost,40.0,33.43400955200195,True
+2025-05-01,Gaslamp,xgboost,23.0,36.06353759765625,True
+2025-06-01,Gaslamp,xgboost,39.75,37.40948486328125,True
+2025-07-01,Gaslamp,xgboost,,36.020423889160156,False
+2025-08-01,Gaslamp,xgboost,,40.11571502685547,False
+2025-09-01,Gaslamp,xgboost,52.0,43.9052734375,True
+2025-10-01,Gaslamp,xgboost,,44.17898178100586,False
+2025-11-01,Gaslamp,xgboost,,45.65057373046875,False
+2025-12-01,Gaslamp,xgboost,42.0,46.78177261352539,True
+2025-01-01,Outside Perimeter,xgboost,84.0,141.4324493408203,True
+2025-02-01,Outside Perimeter,xgboost,253.0,144.47781372070312,True
+2025-03-01,Outside Perimeter,xgboost,141.0,153.19786071777344,True
+2025-04-01,Outside Perimeter,xgboost,194.0,141.53456115722656,True
+2025-05-01,Outside Perimeter,xgboost,147.0,129.0615234375,True
+2025-06-01,Outside Perimeter,xgboost,104.0,127.68154907226562,True
+2025-07-01,Outside Perimeter,xgboost,,129.30123901367188,False
+2025-08-01,Outside Perimeter,xgboost,,131.5469512939453,False
+2025-09-01,Outside Perimeter,xgboost,65.0,135.46290588378906,True
+2025-10-01,Outside Perimeter,xgboost,,103.9462661743164,False
+2025-11-01,Outside Perimeter,xgboost,,81.55736541748047,False
+2025-12-01,Outside Perimeter,xgboost,68.0,71.36859893798828,True
+2025-01-01,Overall - reported footprint,naive_seasonal,851.02,1018.14,True
+2025-02-01,Overall - reported footprint,naive_seasonal,985.18,1062.48,True
+2025-03-01,Overall - reported footprint,naive_seasonal,811.4,808.99,True
+2025-04-01,Overall - reported footprint,naive_seasonal,901.99,840.71,True
+2025-05-01,Overall - reported footprint,naive_seasonal,837.46,825.81,True
+2025-06-01,Overall - reported footprint,naive_seasonal,756.37,845.28,True
+2025-07-01,Overall - reported footprint,naive_seasonal,,880.12,False
+2025-08-01,Overall - reported footprint,naive_seasonal,,855.6800000000001,False
+2025-09-01,Overall - reported footprint,naive_seasonal,785.56,800.96,True
+2025-10-01,Overall - reported footprint,naive_seasonal,,867.1800000000001,False
+2025-11-01,Overall - reported footprint,naive_seasonal,,843.71,False
+2025-12-01,Overall - reported footprint,naive_seasonal,985.38,994.17,True
+2025-01-01,Overall - fixed core six,naive_seasonal,767.02,981.14,True
+2025-02-01,Overall - fixed core six,naive_seasonal,732.1800000000001,1006.48,True
+2025-03-01,Overall - fixed core six,naive_seasonal,670.4,774.99,True
+2025-04-01,Overall - fixed core six,naive_seasonal,707.99,777.71,True
+2025-05-01,Overall - fixed core six,naive_seasonal,690.46,805.81,True
+2025-06-01,Overall - fixed core six,naive_seasonal,652.37,829.28,True
+2025-07-01,Overall - fixed core six,naive_seasonal,,832.12,False
+2025-08-01,Overall - fixed core six,naive_seasonal,,804.6800000000001,False
+2025-09-01,Overall - fixed core six,naive_seasonal,720.56,741.96,True
+2025-10-01,Overall - fixed core six,naive_seasonal,,771.1800000000001,False
+2025-11-01,Overall - fixed core six,naive_seasonal,,720.71,False
+2025-12-01,Overall - fixed core six,naive_seasonal,917.38,817.1700000000001,True
+2025-01-01,East Village,naive_seasonal,443.24,529.8,True
+2025-02-01,East Village,naive_seasonal,411.18,552.77,True
+2025-03-01,East Village,naive_seasonal,413.37,379.74,True
+2025-04-01,East Village,naive_seasonal,401.21,366.43,True
+2025-05-01,East Village,naive_seasonal,404.59,407.31,True
+2025-06-01,East Village,naive_seasonal,407.62,450.78,True
+2025-07-01,East Village,naive_seasonal,,457.59,False
+2025-08-01,East Village,naive_seasonal,,449.12,False
+2025-09-01,East Village,naive_seasonal,445.0,445.4,True
+2025-10-01,East Village,naive_seasonal,,395.93,False
+2025-11-01,East Village,naive_seasonal,,390.18,False
+2025-12-01,East Village,naive_seasonal,554.92,491.74,True
+2025-01-01,City Center,naive_seasonal,179.0,197.5,True
+2025-02-01,City Center,naive_seasonal,175.5,171.5,True
+2025-03-01,City Center,naive_seasonal,161.0,220.5,True
+2025-04-01,City Center,naive_seasonal,154.0,237.28,True
+2025-05-01,City Center,naive_seasonal,147.59,219.25,True
+2025-06-01,City Center,naive_seasonal,129.25,198.75,True
+2025-07-01,City Center,naive_seasonal,,207.78,False
+2025-08-01,City Center,naive_seasonal,,209.06,False
+2025-09-01,City Center,naive_seasonal,124.5,134.25,True
+2025-10-01,City Center,naive_seasonal,,226.75,False
+2025-11-01,City Center,naive_seasonal,,150.5,False
+2025-12-01,City Center,naive_seasonal,195.34,156.09,True
+2025-01-01,Columbia,naive_seasonal,37.25,33.5,True
+2025-02-01,Columbia,naive_seasonal,39.0,40.25,True
+2025-03-01,Columbia,naive_seasonal,14.0,41.25,True
+2025-04-01,Columbia,naive_seasonal,28.75,34.25,True
+2025-05-01,Columbia,naive_seasonal,33.25,35.5,True
+2025-06-01,Columbia,naive_seasonal,21.0,40.25,True
+2025-07-01,Columbia,naive_seasonal,,32.75,False
+2025-08-01,Columbia,naive_seasonal,,34.75,False
+2025-09-01,Columbia,naive_seasonal,30.53,24.25,True
+2025-10-01,Columbia,naive_seasonal,,33.5,False
+2025-11-01,Columbia,naive_seasonal,,45.25,False
+2025-12-01,Columbia,naive_seasonal,31.5,40.0,True
+2025-01-01,Marina,naive_seasonal,17.0,19.0,True
+2025-02-01,Marina,naive_seasonal,16.5,16.75,True
+2025-03-01,Marina,naive_seasonal,16.03,21.25,True
+2025-04-01,Marina,naive_seasonal,6.75,13.25,True
+2025-05-01,Marina,naive_seasonal,7.75,16.25,True
+2025-06-01,Marina,naive_seasonal,11.0,24.75,True
+2025-07-01,Marina,naive_seasonal,,11.0,False
+2025-08-01,Marina,naive_seasonal,,26.0,False
+2025-09-01,Marina,naive_seasonal,24.0,24.03,True
+2025-10-01,Marina,naive_seasonal,,11.0,False
+2025-11-01,Marina,naive_seasonal,,25.75,False
+2025-12-01,Marina,naive_seasonal,11.0,13.78,True
+2025-01-01,Cortez,naive_seasonal,49.53,154.34,True
+2025-02-01,Cortez,naive_seasonal,63.0,170.46,True
+2025-03-01,Cortez,naive_seasonal,34.25,76.25,True
+2025-04-01,Cortez,naive_seasonal,77.28,74.75,True
+2025-05-01,Cortez,naive_seasonal,74.28,50.75,True
+2025-06-01,Cortez,naive_seasonal,43.75,58.75,True
+2025-07-01,Cortez,naive_seasonal,,69.0,False
+2025-08-01,Cortez,naive_seasonal,,48.75,False
+2025-09-01,Cortez,naive_seasonal,44.53,68.28,True
+2025-10-01,Cortez,naive_seasonal,,69.0,False
+2025-11-01,Cortez,naive_seasonal,,69.03,False
+2025-12-01,Cortez,naive_seasonal,82.62,73.81,True
+2025-01-01,Gaslamp,naive_seasonal,41.0,47.0,True
+2025-02-01,Gaslamp,naive_seasonal,27.0,54.75,True
+2025-03-01,Gaslamp,naive_seasonal,31.75,36.0,True
+2025-04-01,Gaslamp,naive_seasonal,40.0,51.75,True
+2025-05-01,Gaslamp,naive_seasonal,23.0,76.75,True
+2025-06-01,Gaslamp,naive_seasonal,39.75,56.0,True
+2025-07-01,Gaslamp,naive_seasonal,,54.0,False
+2025-08-01,Gaslamp,naive_seasonal,,37.0,False
+2025-09-01,Gaslamp,naive_seasonal,52.0,45.75,True
+2025-10-01,Gaslamp,naive_seasonal,,35.0,False
+2025-11-01,Gaslamp,naive_seasonal,,40.0,False
+2025-12-01,Gaslamp,naive_seasonal,42.0,41.75,True
+2025-01-01,Outside Perimeter,naive_seasonal,84.0,37.0,True
+2025-02-01,Outside Perimeter,naive_seasonal,253.0,56.0,True
+2025-03-01,Outside Perimeter,naive_seasonal,141.0,34.0,True
+2025-04-01,Outside Perimeter,naive_seasonal,194.0,63.0,True
+2025-05-01,Outside Perimeter,naive_seasonal,147.0,20.0,True
+2025-06-01,Outside Perimeter,naive_seasonal,104.0,16.0,True
+2025-07-01,Outside Perimeter,naive_seasonal,,48.0,False
+2025-08-01,Outside Perimeter,naive_seasonal,,51.0,False
+2025-09-01,Outside Perimeter,naive_seasonal,65.0,59.0,True
+2025-10-01,Outside Perimeter,naive_seasonal,,96.0,False
+2025-11-01,Outside Perimeter,naive_seasonal,,123.0,False
+2025-12-01,Outside Perimeter,naive_seasonal,68.0,177.0,True

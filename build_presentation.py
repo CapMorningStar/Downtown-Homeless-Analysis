@@ -211,7 +211,7 @@ add_canva_header(s2, "Overall Longitudinal Trend: Three Distinct Phases (2017–
 kpis_s2 = [
     ("529", "Series Low", "March 2020 (COVID trough)", COLOR_PRIMARY_NAVY, COLOR_CARD_BG, COLOR_SOFT_BLUE),
     ("2,103", "Series Peak", "May 2023 (Rebound peak)", COLOR_PRIMARY_NAVY, COLOR_CARD_BG, COLOR_SOFT_BLUE),
-    ("156.8", "Grand Mean", "Per neighborhood-month", COLOR_CARD_BG, COLOR_PRIMARY_NAVY, COLOR_TEXT_MUTED)
+    ("156.4", "Grand Mean", "Per neighborhood-month", COLOR_CARD_BG, COLOR_PRIMARY_NAVY, COLOR_TEXT_MUTED)
 ]
 for i, (val, lbl, sub, bg_col, txt_col, sub_col) in enumerate(kpis_s2):
     c_left = Inches(0.8 + i * 1.55)
@@ -231,9 +231,9 @@ tf_p = tb_phases.text_frame; tf_p.word_wrap = True; tf_p.margin_left = tf_p.marg
 p_h = tf_p.paragraphs[0]; p_h.text = "Trajectory Overview: Three Clear Phases"; p_h.font.name = FONT_DISPLAY; p_h.font.size = Pt(13); p_h.font.bold = True; p_h.font.color.rgb = COLOR_PRIMARY_NAVY; p_h.space_after = Pt(6)
 
 phases_data = [
-    ("2017–2020 Decline", "Annual average fell from 176.31 to 109.02 (~-38% cumulative drop). Year-over-year changes: -18.98% (2018), -4.94% (2019), and -19.71% (2020)."),
-    ("2021–2023 Rebound & Peak", "Counts rebounded sharply: +25.85% (2021) and +57.63% (2022), reaching an annual average of 223.98 in 2023 — more than double the 2020 trough."),
-    ("2024–2025 Pullback & Stabilization", "A steep -43.52% drop in 2024 brought the annual average down to 126.50; 2025 remained roughly flat (-2.94%) at 122.78.")
+    ("2017–2020 Decline", "Annual average fell from 176.31 to 109.02 (~-38% cumulative drop). Year-over-year changes: -20.31% (2018), -3.87% (2019), and -19.29% (2020)."),
+    ("2021–2023 Rebound & Peak", "Counts rebounded sharply: +25.85% (2021) and +57.55% (2022), reaching an annual average of 223.30 in 2023 — more than double the 2020 trough."),
+    ("2024–2025 Pullback & Stabilization", "A steep -43.26% drop in 2024 brought the annual average down to 126.71; 2025 remained roughly flat (-2.56%) at 123.47.")
 ]
 for p_title, p_desc in phases_data:
     p_t = tf_p.add_paragraph(); p_t.text = f"• {p_title}:"; p_t.font.name = FONT_BODY; p_t.font.size = Pt(10); p_t.font.bold = True; p_t.font.color.rgb = COLOR_ROYAL_BLUE
@@ -264,7 +264,7 @@ p_s3_callout.text = "Key Takeaway: Which YEAR a month falls in matters far more 
 p_s3_callout.font.name = FONT_BODY; p_s3_callout.font.size = Pt(10.5); p_s3_callout.font.bold = True; p_s3_callout.font.color.rgb = COLOR_ROYAL_BLUE; p_s3_callout.space_after = Pt(8)
 
 s3_bullets = [
-    ("Modest Range of Deviation", "No single calendar month deviates by more than ~5% from the grand mean (156.78). The peak-to-trough spread is only ~8.4 percentage points."),
+    ("Modest Range of Deviation", "No single calendar month deviates by more than ~5% from the grand mean (156.44). The peak-to-trough spread is only ~8.1 percentage points."),
     ("Top 3 Highest Months", "Feb (+3.2%, 161.76), Aug (+3.1%, 161.61), and May (+2.6%, 160.93)."),
     ("Top 3 Lowest Months", "Mar (-5.2%, 148.67), Sep (-2.0%, 153.63), Nov (-2.1%, 153.43) [Apr: -2.1%, 153.53]."),
     ("Large Residual Variance", "Month-to-month standard deviations (187–216) dwarf monthly mean differences, confirming macro annual shocks overpower calendar cycles."),
@@ -297,11 +297,11 @@ p_s4_takeaway.font.name = FONT_BODY; p_s4_takeaway.font.size = Pt(10.5); p_s4_ta
 p_r1_h = tf_s4.add_paragraph(); p_r1_h.text = "• By Average Monthly Count (Magnitude):"; p_r1_h.font.name = FONT_BODY; p_r1_h.font.size = Pt(10); p_r1_h.font.bold = True; p_r1_h.font.color.rgb = COLOR_ROYAL_BLUE
 
 rank_size_items = [
-    "1. East Village: 552.77 (std 157.09 — highest volume & volatility)",
+    "1. East Village: 552.04 (std 157.27 — highest volume & volatility)",
     "2. Outside Perimeter: 217.57 (partial coverage, 56 obs)",
-    "3. City Center: 171.81 (std 54.80)",
-    "4. Cortez: 59.52  |  5. Gaslamp: 48.43",
-    "6. Columbia: 44.49  |  7. Marina: 30.94 (smallest, std 15.82)"
+    "3. City Center: 170.68 (std 52.95)",
+    "4. Cortez: 59.62  |  5. Gaslamp: 48.17",
+    "6. Columbia: 44.49  |  7. Marina: 30.75 (smallest, std 15.54)"
 ]
 for rsi in rank_size_items:
     p_rsi = tf_s4.add_paragraph(); p_rsi.text = f"    {rsi}"; p_rsi.font.name = FONT_BODY; p_rsi.font.size = Pt(8.8); p_rsi.font.color.rgb = COLOR_TEXT_DARK
@@ -309,9 +309,9 @@ for rsi in rank_size_items:
 p_r2_h = tf_s4.add_paragraph(); p_r2_h.text = "• By Growth Rate (Mean YoY %, 2019+):"; p_r2_h.font.name = FONT_BODY; p_r2_h.font.size = Pt(10); p_r2_h.font.bold = True; p_r2_h.font.color.rgb = COLOR_ROYAL_BLUE; p_r2_h.space_before = Pt(4)
 
 rank_growth_items = [
-    "Fastest Growing: Outside Perimeter (+26.90%/yr), Cortez (+11.96%/yr), City Center (+3.94%/yr).",
+    "Fastest Growing: Outside Perimeter (+26.90%/yr), Cortez (+12.12%/yr), City Center (+5.19%/yr).",
     "Modest Core Growth: East Village grew slowly (+1.64%/yr) despite ~55% volume share.",
-    "Shrinking Areas: Marina (-12.76%/yr) and Columbia (-4.28%/yr) had sustained drops."
+    "Shrinking Areas: Marina (-13.11%/yr) and Columbia (-4.28%/yr) had sustained drops."
 ]
 for rgi in rank_growth_items:
     p_rgi = tf_s4.add_paragraph(); p_rgi.text = f"  - {rgi}"; p_rgi.font.name = FONT_BODY; p_rgi.font.size = Pt(8.8); p_rgi.font.color.rgb = COLOR_TEXT_DARK
@@ -341,7 +341,7 @@ p_s5_sub.font.name = FONT_BODY; p_s5_sub.font.size = Pt(10.5); p_s5_sub.font.bol
 
 covid_points = [
     ("Series All-Time Low (March 2020)", "Citywide unsheltered total hit its series low of 529 in March 2020 at the onset of initial COVID shelter-in-place orders."),
-    ("2020 Annual Trough (~20% Reduction)", "2020 annual average (654.1) dropped ~20% below the 2019 pre-COVID baseline (814.72), reflecting -19.71% YoY contraction."),
+    ("2020 Annual Trough (~20% Reduction)", "2020 annual average (654.1) dropped ~20% below the 2019 pre-COVID baseline (810.43), reflecting -19.29% YoY contraction."),
     ("Full Recovery by 2021", "Counts recovered to an annual average of 960.37 in 2021 (+46.82% YoY, citywide-total basis), climbing above pre-COVID baseline levels prior to the 2022–2023 surge."),
     ("Operational & Policy Mechanisms", "Emergency indoor shelter placements (Convention Center Operation Shelter to Home), eviction moratoria, and curtailed street sweeps temporarily reduced visible unsheltered numbers; demobilization preceded the 2022–2023 peak.")
 ]
@@ -366,7 +366,7 @@ tb_s6 = s6.shapes.add_textbox(Inches(1.05), Inches(1.7), Inches(4.2), Inches(4.8
 tf_s6 = tb_s6.text_frame; tf_s6.word_wrap = True; tf_s6.margin_left = tf_s6.margin_top = tf_s6.margin_right = tf_s6.margin_bottom = 0
 p_s6_h = tf_s6.paragraphs[0]; p_s6_h.text = "Evaluation of Multiplier Regimes"; p_s6_h.font.name = FONT_DISPLAY; p_s6_h.font.size = Pt(13.5); p_s6_h.font.bold = True; p_s6_h.font.color.rgb = COLOR_PRIMARY_NAVY; p_s6_h.space_after = Pt(5)
 
-p_s6_sub = tf_s6.add_paragraph(); p_s6_sub.text = "Conclusion: Multipliers produce a proportional gap without distorting longitudinal trendlines."
+p_s6_sub = tf_s6.add_paragraph(); p_s6_sub.text = "Conclusion: Multipliers add only a small gap (within ±2/month on average) and do not distort longitudinal trends."
 p_s6_sub.font.name = FONT_BODY; p_s6_sub.font.size = Pt(10.5); p_s6_sub.font.bold = True; p_s6_sub.font.color.rgb = COLOR_ROYAL_BLUE; p_s6_sub.space_after = Pt(8)
 
 p_m1_h = tf_s6.add_paragraph(); p_m1_h.text = "• Four Historical Regimes:"; p_m1_h.font.name = FONT_BODY; p_m1_h.font.size = Pt(10); p_m1_h.font.bold = True; p_m1_h.font.color.rgb = COLOR_ROYAL_BLUE
@@ -380,8 +380,8 @@ for reg in regimes_list:
     p_reg = tf_s6.add_paragraph(); p_reg.text = f"  - {reg}"; p_reg.font.name = FONT_BODY; p_reg.font.size = Pt(8.8); p_reg.font.color.rgb = COLOR_TEXT_DARK
 
 meth_other = [
-    ("2018 Volatility & Source Discrepancy", "Gap (total_count - raw_count) peaked in 2018 (avg +13.5/mo, spiking to +156.61 in Feb 2018). Audit logged Feb 2018 spike as partly a source-PDF addition error (+30 discrepancy), not purely multiplier mechanics."),
-    ("2019+ Gap Stabilization", "From 2019 onward, monthly gap stabilized to near-zero (roughly ±1 to ±5/month), well within expected rounding tolerance (±2)."),
+    ("Gap Is Small in Every Year", "Gap (total_count - raw_count) averages within ±2/month each year: DSDP published totals already include the multipliers. The earlier Feb 2018 spike (+156.61) was a data-entry error (100 tents instead of 10), corrected against the source map in Oct 2026."),
+    ("Remaining Outliers Are Source Conflicts", "The largest remaining single-month gaps (Apr 2020 +19.7, Feb 2023 -12.5) are months where DSDP map pages and its summary table disagree; listed in MasterCounts_QA_Flags.csv."),
     ("Pre-2018 Constraint", "Because component breakouts began in Jan 2018, raw and adjusted totals are identical across all of 2017 (gap = 0).")
 ]
 for mo_head, mo_txt in meth_other:
@@ -403,7 +403,7 @@ add_canva_header(s7, "Hypotheses for Further Analysis: Focus Areas for Later Tas
 hypotheses = [
     ("H1: Policy & Enforcement Driver of 2022–2023 Peak",
      "Synchronized Citywide Surge",
-     "The +57.63% (2022) surge hit nearly every neighborhood simultaneously (Cortez +129%, Outside Perimeter +87%, East Village +50%). This synchronized timing points to systemic citywide drivers (eviction moratorium expirations, shelter demobilizations, or sweep shifts) rather than local dynamics.",
+     "The +57.55% (2022) surge hit nearly every neighborhood simultaneously (Cortez +132%, Outside Perimeter +87%, East Village +50%). This synchronized timing points to systemic citywide drivers (eviction moratorium expirations, shelter demobilizations, or sweep shifts) rather than local dynamics.",
      "Test: Correlate monthly counts against RTFH policy timelines, shelter census, and 311 encampment dispatch logs.",
      COLOR_ROYAL_BLUE),
     
@@ -413,15 +413,15 @@ hypotheses = [
      "Test: Spatial autocorrelation (Moran's I / Getis-Ord Gi* in Assignment 5) against transit hubs, shelter proximity, and zoning.",
      COLOR_PRIMARY_NAVY),
      
-    ("H3: 2024 Pullback (-43.52%) May Be a Reporting Artifact",
+    ("H3: 2024 Pullback (-43.26%) May Be a Reporting Artifact",
      "Rapid Single-Year Drop Scrutiny",
-     "A steep -43.52% drop in a single year immediately after the historical peak warrants verification against external benchmarks before reading it as a true population drop. Count area or staffing changes may be confounders.",
+     "A steep -43.26% drop in a single year immediately after the historical peak warrants verification against external benchmarks before reading it as a true population drop. Count area or staffing changes may be confounders.",
      "Test: Benchmark against independent RTFH Point-in-Time (PIT) counts and audit 2024 DSDP canvassing operations.",
      COLOR_MID_BLUE),
      
     ("H4: Neighborhood Growth Inversely Related to Area Size",
      "Peripheral Displacement Dynamics",
-     "Mid-sized areas grow fastest (Outside Perimeter +26.90%, Cortez +11.96%, City Center +3.94%), while East Village grows slowly (+1.64%) and Marina shrinks (-12.76%). Enforcement in core areas may displace individuals to borders.",
+     "Mid-sized areas grow fastest (Outside Perimeter +26.90%, Cortez +12.12%, City Center +5.19%), while East Village grows slowly (+1.75%) and Marina shrinks (-13.11%). Enforcement in core areas may displace individuals to borders.",
      "Test: Perform spatial adjacency and boundary-flow analysis in Assignment 5 to evaluate displacement effects.",
      COLOR_SOFT_BLUE)
 ]
@@ -485,10 +485,10 @@ for n_head, n_desc in next_steps:
 add_canva_footer(s8, 8, 8)
 
 try:
-    output_path = os.path.join(r"D:\Projects\Downtown-Homeless-Analysis", "EDA_Presentation.pptx")
+    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "EDA_Presentation.pptx")
     prs.save(output_path)
     print(f"SUCCESS: Saved Canva-themed presentation to {output_path}")
 except PermissionError:
-    output_path = os.path.join(r"D:\Projects\Downtown-Homeless-Analysis", "EDA_Presentation_v2.pptx")
+    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "EDA_Presentation_v2.pptx")
     prs.save(output_path)
     print(f"SUCCESS (Fallback): Saved Canva-themed presentation to {output_path} (EDA_Presentation.pptx was locked)")

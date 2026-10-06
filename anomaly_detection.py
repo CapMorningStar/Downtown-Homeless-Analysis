@@ -46,7 +46,12 @@ def main():
     parser.add_argument("--validate", action="store_true", help="Run benchmark validation against known historical shocks")
     parser.add_argument("--plot", action="store_true", help="Export publication charts to slide_assets/")
     parser.add_argument("--schedule", action="store_true", help="Headless scheduled execution mode (cron / Airflow)")
-    parser.add_argument("--data", type=str, default="data/FeatureMatrix_Comprehensive_67.csv", help="Input feature matrix")
+    parser.add_argument("--send", action="store_true",
+                        help="Deliver new alerts to Slack/email (needs SLACK_WEBHOOK_URL and/or SMTP_* env vars); "
+                             "without it, deliveries are only listed (dry run)")
+    parser.add_argument("--min-severity", default="WARNING", choices=["INFO", "WARNING", "CRITICAL"],
+                        help="Lowest severity to deliver (default WARNING)")
+    parser.add_argument("--data", type=str, default="data/FeatureMatrix_Comprehensive_68.csv", help="Input feature matrix")
     parser.add_argument("--output-dir", type=str, default="data", help="Output directory for matrix and alert logs")
 
     args = parser.parse_args()
@@ -118,6 +123,13 @@ def main():
             subj, html, plain = alert_engine.build_email_payload(latest_crit)
             print(f"Subject: {subj}")
             print(plain[:450] + "...")
+
+        results = alert_engine.dispatch(min_severity=args.min_severity, dry_run=not args.send)
+        mode = "SENT" if args.send else "DRY RUN (use --send to deliver)"
+        print(f"\n--- DELIVERY: {mode} ---")
+        for r in results:
+            status = "sent" if r["sent"] else ("pending" if not r["error"] else r["error"])
+            print(f"  {r['alert_id']}: channels={r['channels'] or 'none'} -> {status}")
 
     if args.plot:
         print_banner("4. HIGH-RESOLUTION PUBLICATION VISUALIZATIONS")

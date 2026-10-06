@@ -31,11 +31,15 @@ def test_temporal_cyclicality(feature_matrix):
 
 
 def test_leakage_free_lags(feature_matrix):
-    # lag_1m_adjusted at row t must strictly equal target at row t-1
+    # lag_1m_adjusted at row t must equal the target at row t-1. When month t-1 was not published
+    # (target NaN), the lag uses the time-interpolated value and must be finite.
     for i in range(1, len(feature_matrix)):
         expected = feature_matrix.loc[i - 1, "target_downtown_adjusted"]
         actual = feature_matrix.loc[i, "lag_1m_adjusted"]
-        assert np.isclose(expected, actual, atol=1e-2)
+        if np.isnan(expected):
+            assert np.isfinite(actual)
+        else:
+            assert np.isclose(expected, actual, atol=1e-2)
 
 
 def test_rolling_window_properties(feature_matrix):
@@ -65,10 +69,13 @@ def test_feature_count_and_training_subset(feature_matrix):
     feat_cols = [c for c in feature_matrix.columns if c not in meta_cols]
     # Mandate is 50+ features
     assert len(feat_cols) >= 50
-    # Training subset (2018-2025) must have 96 rows and 0 nulls across all features
+    # Training subset: 2018-2025 (96 months) minus the 4 months DSDP had not published
+    # (Jul, Aug, Oct, Nov 2025); no nulls in features or target
     train_subset = feature_matrix[feature_matrix["train_ready_flag"] == 1]
-    assert len(train_subset) == 96
+    assert len(train_subset) == 92
     assert train_subset[feat_cols].isnull().sum().sum() == 0
+    assert train_subset["target_downtown_adjusted"].notna().all()
+    assert (train_subset["target_downtown_adjusted"] > 0).all()
 
 
 def test_importance_analyzer_execution():

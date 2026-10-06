@@ -24,7 +24,7 @@ from ensemble_modeling.ablation import AblationStudyEngine
 from ensemble_modeling.pipeline import EnsemblePipeline
 
 
-FEATURE_MATRIX_PATH = Path("data/FeatureMatrix_Comprehensive_67.csv")
+FEATURE_MATRIX_PATH = Path("data/FeatureMatrix_Comprehensive_68.csv")
 
 
 @pytest.fixture

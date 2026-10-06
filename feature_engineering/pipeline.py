@@ -1,7 +1,7 @@
 """
 Master Feature Engineering Pipeline
 Orchestrates temporal, autoregressive, rolling window, spatial, and interaction feature extraction.
-Produces the canonical FeatureMatrix_Comprehensive_67.csv dataset for downstream predictive modeling.
+Produces the canonical FeatureMatrix_Comprehensive_68.csv dataset for downstream predictive modeling.
 """
 
 import logging
@@ -26,7 +26,7 @@ class FeatureEngineeringPipeline:
     """
 
     DEFAULT_INPUT = Path("data/MultiSource_Master_Monthly.csv")
-    DEFAULT_OUTPUT = Path("data/FeatureMatrix_Comprehensive_67.csv")
+    DEFAULT_OUTPUT = Path("data/FeatureMatrix_Comprehensive_68.csv")
 
     def __init__(
         self,
@@ -49,7 +49,15 @@ class FeatureEngineeringPipeline:
         Executes all 5 feature generators and concatenates them into a single dataframe.
         """
         self.logger.info("Loading input multi-source matrix from %s", self.input_path)
-        raw_df = self.load_input_data()
+        actual_df = self.load_input_data()
+        # Unpublished months (downtown_count_released == 0) have NaN counts. Features are built from a
+        # copy where those months are time-interpolated (as in Tasks 4.1/7.1); targets keep the NaN.
+        raw_df = actual_df.copy()
+        count_cols = [c for c in raw_df.columns if c.startswith("downtown_actual_")]
+        idx = pd.to_datetime(raw_df["date"])
+        for col in count_cols:
+            raw_df[col] = (pd.Series(raw_df[col].values, index=idx)
+                           .interpolate(method="time", limit_direction="both").values)
 
         self.logger.info("Generating temporal & cyclical features (9)...")
         df_temporal = generate_temporal_features(raw_df)
@@ -72,14 +80,15 @@ class FeatureEngineeringPipeline:
         # Targets & Identifiers
         meta_df = pd.DataFrame(index=raw_df.index)
         meta_df["date"] = raw_df["date"]
-        meta_df["target_downtown_adjusted"] = raw_df["downtown_actual_adjusted_count"]
-        meta_df["target_downtown_raw"] = raw_df["downtown_actual_raw_count"]
+        meta_df["target_downtown_adjusted"] = actual_df["downtown_actual_adjusted_count"]
+        meta_df["target_downtown_raw"] = actual_df["downtown_actual_raw_count"]
         # Prospective 1-month ahead prediction target: y_{t+1}
-        meta_df["target_next_month_adjusted"] = raw_df["downtown_actual_adjusted_count"].shift(-1)
+        meta_df["target_next_month_adjusted"] = actual_df["downtown_actual_adjusted_count"].shift(-1)
 
-        # Training ready flag (1 for 2018-2025 where 12M lookback is fully observed)
+        # Training ready flag: 2018-2025 (12M lookback observed) AND the month's count was published
         dt_series = pd.to_datetime(raw_df["date"])
-        meta_df["train_ready_flag"] = (dt_series >= pd.Timestamp("2018-01-01")).astype(int)
+        released = actual_df["downtown_actual_adjusted_count"].notna()
+        meta_df["train_ready_flag"] = ((dt_series >= pd.Timestamp("2018-01-01")) & released).astype(int)
 
         # Concatenate all blocks
         features_only = pd.concat([df_temporal, df_autoreg, df_rolling, df_spatial, df_interact], axis=1)

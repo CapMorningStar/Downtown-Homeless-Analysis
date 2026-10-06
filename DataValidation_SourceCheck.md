@@ -15,8 +15,8 @@
 This report delivers the verification and quality audit of the historical unsheltered count dataset (`RawCounts_AllYears.csv`) against the original monthly PDF reports published by the Downtown San Diego Partnership (DSDP) Clean & Safe program.
 
 ### Key Audit Highlights:
-1. **Resolution of "Core" Label:** Definitively resolved. `"Core"` is an earlier historical name for **`City Center`**, not Gaslamp. `"Core"` was used exclusively in 2017 and 2018, transitioned in early 2019, and was completely retired after March 2019 in favor of `"City Center"`. Gaslamp is an independent neighborhood co-reported in every period.
-2. **Major Data Duplication Bug in East Village Sub-Areas:** **All 48 sub-area records for 2019 are an exact 100% copy-paste duplicate of the 2020 sub-area counts.** This explains massive negative discrepancies between reported East Village totals and sub-area sums in 2019 (diverging by up to $-206$). Outside of 2019, sub-area sums match reported totals within $\pm 1$ due to rounding, except for a documented $+30$ addition error inside DSDP's own February 2018 published report.
+1. **Resolution of "Core" Label:** Definitively resolved. `"Core"` is an earlier historical name for **`City Center`**, not Gaslamp. `"Core"` was used in 2017 and 2018, transitioned in early 2019, and was completely retired after March 2019 in favor of `"City Center"`. Gaslamp is an independent neighborhood co-reported across all years.
+2. **Major Data Duplication Bug in East Village Sub-Areas:** **All 48 sub-area records for 2019 are an exact 100% copy-paste duplicate of the 2020 sub-area counts.** This explains massive negative discrepancies between reported East Village totals and sub-area sums in 2019 (diverging by up to $-206$). Outside of 2019, sub-area sums match reported totals within $\pm 1$ due to rounding, except for documented source-level divergences: a $+30$ addition error inside DSDP's own February 2018 published report, a $-8$ discrepancy in March 2023, a $-38$ discrepancy in September 2025, and preliminary breakout differences in April 2025. *(October 2026 audit: the 2019 sub-areas and the other PDF-verified fixes are listed in `data/source_corrections.csv`. September 2025 uses DSDP's published total because its components cannot be verified. April 2025 was not changed, since DSDP later revised the East Village total to 401, which matches the file; see `docs/DataQualityReport.md`.)*
 3. **Source Verification Sample:** A reproducible random sample of 45 cells across 2017–2025, 9 geographic areas, and 4 components (`total`, `individual`, `tent`, `vehicle`) was verified against 32 downloaded DSDP monthly PDF reports.
 4. **Observed Error Rate:**
    * **Published Cells Audited:** 41 cells
@@ -31,8 +31,8 @@ This report delivers the verification and quality audit of the historical unshel
 The project dataset includes an area label `"Core"`, comprising 69 rows across 2017, 2018, and early 2019. The task required determining whether `"Core"` is a distinct reporting area or an alias for `"City Center"` or `"Gaslamp"`.
 
 ### Empirical Findings:
-* **Gaslamp Independence:** `"Gaslamp"` exists as an independent reporting area with its own published counts in every single month from January 2017 through December 2025 (co-existing with `"Core"` in 66 records). `"Core"` is therefore **not** Gaslamp.
-* **Mutual Exclusivity with City Center:** `"Core"` and `"City Center"` never co-exist in any single month or component cell.
+* **Gaslamp Independence:** `"Gaslamp"` exists as an independent reporting area with its own published counts alongside `"Core"` across the 2017–2018 period. `"Core"` is therefore **not** Gaslamp.
+* **Mutual Exclusivity with City Center:** Within any single component series, `"Core"` and `"City Center"` never co-exist for the same metric in the same month.
   * **2017 – 2018:** Only `"Core"` is used. Zero records for `"City Center"`.
   * **2019 (Transition Year):**
     * For the `total` component: All 12 months (Jan–Dec 2019) are labeled `"City Center"`.
@@ -60,7 +60,7 @@ against the reported $\text{East Village Total}$ across all 96 available monthly
 
 ### Detailed Findings by Period:
 
-| Year / Period | Matching Records | Discrepancies | Primary Cause / Observation |
+| Year / Period | Months Compared | Discrepancies | Primary Cause / Observation |
 | :--- | :---: | :---: | :--- |
 | **2017** | 0 | 0 | Sub-area counts were not disaggregated in the CSV dataset for 2017. |
 | **2018** | 12 | 2 | Feb 2018 has a $+30$ discrepancy ($504$ sub-area sum vs. $474$ reported). Nov 2018 has a $+1$ rounding difference. |
@@ -173,6 +173,7 @@ $$\text{Total Sample Error Rate (All Cells)} = \frac{1 \text{ discrepancy}}{45 \
 4. **Methodology Weight Adjustment (Task 1.3):**
    * When building `MasterCounts_Adjusted_v2.csv`, ensure that multipliers are applied consistently:
      * **Pre-April 2017:** 2.0 per tent, 2.0 per vehicle
-     * **Apr 2017 – May 2018:** 1.75 per tent, 1.66 per vehicle
-     * **May 2018 – Jan 2020:** 1.75 per tent, 2.03 per vehicle
-     * **Post-2020:** Unweighted raw counts (or DSDP continuous multipliers as specified in Task 1.3).
+     * **Apr 2017 – Apr 2018:** 1.75 per tent, 1.66 per vehicle
+     * **May 2018 – present (DSDP operational series):** 1.75 per tent, 2.03 per vehicle (while RTFH HUD PIT eliminated multipliers in Jan 2020, DSDP Clean & Safe continued applying them for longitudinal operational continuity).
+5. **October 2026 Audit Corrections:**
+   * The PDF-verified corrections (the 48 2019 EV sub-area values, Feb 2018 City Center tent/vehicle counts, and a few other single cells) are logged in `data/source_corrections.csv` and applied by `scripts/apply_source_corrections.py`, so they can be re-run. April 2025 was checked and left unchanged (see `docs/DataQualityReport.md`).

@@ -179,7 +179,7 @@ def test_alert_engine_lifecycle(tmp_path):
 
 def test_pipeline_end_to_end():
     """Runs end-to-end anomaly detection pipeline on actual project data."""
-    matrix_path = Path("data/FeatureMatrix_Comprehensive_67.csv")
+    matrix_path = Path("data/FeatureMatrix_Comprehensive_68.csv")
     if not matrix_path.exists():
         pytest.skip("Feature matrix missing.")
 
@@ -192,3 +192,40 @@ def test_pipeline_end_to_end():
     assert summary["count_drops"] > 0
     assert "validation_metrics" in summary
     assert summary["validation_metrics"]["tpr_sensitivity_pct"] > 0
+
+
+def test_alert_dispatch_dry_run_and_send(tmp_path, monkeypatch):
+    """Dispatch: dry run sends nothing; --send delivers once per alert to configured channels."""
+    from anomaly_detection.alerting import AlertEngine
+    import anomaly_detection.alerting as alerting
+
+    engine = AlertEngine(store_csv_path=tmp_path / "alerts.csv", store_json_path=tmp_path / "alerts.json")
+    engine.save_alerts_store([
+        {"alert_id": "ALT-202212-CS", "month_date": "2022-12-01", "classification": "Count Spike",
+         "severity": "CRITICAL", "metric_value": 1838.4, "baseline_center_line": 1513.1,
+         "description": "", "recommendation": "", "status": "NEW", "notified_at": ""},
+        {"alert_id": "ALT-202105-SS", "month_date": "2021-05-01", "classification": "Spatial Shift",
+         "severity": "INFO", "metric_value": 1155.5, "baseline_center_line": 730.1,
+         "description": "", "recommendation": "", "status": "NEW", "notified_at": ""},
+    ])
+
+    # No channel configured -> nothing deliverable
+    res = engine.dispatch(dry_run=False, env={})
+    assert [r["alert_id"] for r in res] == ["ALT-202212-CS"]
+    assert res[0]["sent"] is False and "no channel" in res[0]["error"]
+
+    sent = {"slack": 0, "email": 0}
+    monkeypatch.setattr(alerting.AlertEngine, "_send_slack", staticmethod(lambda url, payload: sent.__setitem__("slack", sent["slack"] + 1)))
+    monkeypatch.setattr(alerting.AlertEngine, "_send_email", staticmethod(lambda env, to, s, h, p: sent.__setitem__("email", sent["email"] + 1)))
+    env = {"SLACK_WEBHOOK_URL": "https://hooks.example/test", "SMTP_HOST": "smtp.example",
+           "ALERT_EMAIL_FROM": "alerts@example.org", "ALERT_EMAIL_TO": "a@example.org"}
+
+    dry = engine.dispatch(dry_run=True, env=env)
+    assert dry[0]["channels"] == ["slack", "email"] and dry[0]["sent"] is False
+    assert sent == {"slack": 0, "email": 0}
+
+    live = engine.dispatch(dry_run=False, env=env)
+    assert live[0]["sent"] is True and sent == {"slack": 1, "email": 1}
+    # INFO alert below default WARNING threshold is never delivered; delivered alert is not re-sent
+    assert engine.dispatch(dry_run=False, env=env) == []
+    assert engine.load_alerts_store()[0]["notified_at"]

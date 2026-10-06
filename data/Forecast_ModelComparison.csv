@@ -1,0 +1,181 @@
+model,series,horizon_months,n_scored,n_excluded_unreleased,rmse,mae,mape_pct,hyperparameters
+sarima,City Center,1,1,0,24.698423076368385,24.698423076368385,13.798001718641556,"order=(3, 1, 2), seasonal_order=(1, 1, 0, 12), aic=695.5, bic=711.0"
+sarima,City Center,3,3,0,43.1319673255226,36.8914202539007,22.096299674241923,"order=(3, 1, 2), seasonal_order=(1, 1, 0, 12), aic=695.5, bic=711.0"
+sarima,City Center,6,6,0,46.22178308084424,39.893526824824775,25.521793318312106,"order=(3, 1, 2), seasonal_order=(1, 1, 0, 12), aic=695.5, bic=711.0"
+sarima,City Center,12,8,4,60.624843726390935,50.354686858429616,31.11707236831007,"order=(3, 1, 2), seasonal_order=(1, 1, 0, 12), aic=695.5, bic=711.0"
+sarima,Columbia,1,1,0,4.711857830665394,4.711857830665394,12.649282766886966,"order=(0, 1, 2), seasonal_order=(0, 1, 1, 12), aic=541.7, bic=550.6"
+sarima,Columbia,3,3,0,16.77070807080331,13.489571261851948,76.63600625133385,"order=(0, 1, 2), seasonal_order=(0, 1, 1, 12), aic=541.7, bic=550.6"
+sarima,Columbia,6,6,0,18.529168055294072,16.09967342495634,76.14950808345992,"order=(0, 1, 2), seasonal_order=(0, 1, 1, 12), aic=541.7, bic=550.6"
+sarima,Columbia,12,8,4,16.485918745109945,13.957329483693151,63.19192388097387,"order=(0, 1, 2), seasonal_order=(0, 1, 1, 12), aic=541.7, bic=550.6"
+sarima,Cortez,1,1,0,52.910505116378346,52.910505116378346,106.8251668006831,"order=(0, 1, 2), seasonal_order=(1, 1, 1, 12), aic=612.3, bic=623.4"
+sarima,Cortez,3,3,0,37.23969970438252,34.8920642446458,75.93301181847113,"order=(0, 1, 2), seasonal_order=(1, 1, 1, 12), aic=612.3, bic=623.4"
+sarima,Cortez,6,6,0,28.508606068769346,22.85308772810667,49.345472732417534,"order=(0, 1, 2), seasonal_order=(1, 1, 1, 12), aic=612.3, bic=623.4"
+sarima,Cortez,12,8,4,26.416076896424997,20.983040372297786,45.0482375191839,"order=(0, 1, 2), seasonal_order=(1, 1, 1, 12), aic=612.3, bic=623.4"
+sarima,East Village,1,1,0,13.497671900870841,13.497671900870841,3.0452287476019406,"order=(3, 1, 2), seasonal_order=(0, 1, 1, 12), aic=818.0, bic=833.6"
+sarima,East Village,3,3,0,16.936722717296487,16.748439106087556,3.9867657361603754,"order=(3, 1, 2), seasonal_order=(0, 1, 1, 12), aic=818.0, bic=833.6"
+sarima,East Village,6,6,0,42.77430287228802,36.222418079856034,8.866642068650412,"order=(3, 1, 2), seasonal_order=(0, 1, 1, 12), aic=818.0, bic=833.6"
+sarima,East Village,12,8,4,59.95477470432313,49.8779414025383,11.107742580255241,"order=(3, 1, 2), seasonal_order=(0, 1, 1, 12), aic=818.0, bic=833.6"
+sarima,Gaslamp,1,1,0,3.0774232379264035,3.0774232379264035,7.5059103364058615,"order=(1, 1, 2), seasonal_order=(0, 1, 1, 12), aic=551.2, bic=562.3"
+sarima,Gaslamp,3,3,0,16.552694637054973,14.462925226575543,48.5521731465592,"order=(1, 1, 2), seasonal_order=(0, 1, 1, 12), aic=551.2, bic=562.3"
+sarima,Gaslamp,6,6,0,15.907392235355612,12.233319122678141,44.863295896810314,"order=(1, 1, 2), seasonal_order=(0, 1, 1, 12), aic=551.2, bic=562.3"
+sarima,Gaslamp,12,8,4,13.789749285975642,9.452492216837326,34.27391522842807,"order=(1, 1, 2), seasonal_order=(0, 1, 1, 12), aic=551.2, bic=562.3"
+sarima,Marina,1,1,0,4.4178321306307495,4.4178321306307495,25.987247827239703,"order=(0, 1, 2), seasonal_order=(1, 1, 1, 12), aic=533.8, bic=544.9"
+sarima,Marina,3,3,0,3.292248823192844,3.1647875879819694,19.054246488893735,"order=(0, 1, 2), seasonal_order=(1, 1, 1, 12), aic=533.8, bic=544.9"
+sarima,Marina,6,6,0,5.500210584401263,5.094842037084604,52.51521537430204,"order=(0, 1, 2), seasonal_order=(1, 1, 1, 12), aic=533.8, bic=544.9"
+sarima,Marina,12,8,4,5.787016023144856,5.317475866629251,47.6335951398204,"order=(0, 1, 2), seasonal_order=(1, 1, 1, 12), aic=533.8, bic=544.9"
+sarima,Outside Perimeter,1,1,0,163.2009293437064,163.2009293437064,194.2868206472695,"order=(0, 0, 3), seasonal_order=(0, 1, 1, 12), aic=238.5, bic=243.5"
+sarima,Outside Perimeter,3,3,0,134.02276596032752,112.83286390920573,105.09924601941002,"order=(0, 0, 3), seasonal_order=(0, 1, 1, 12), aic=238.5, bic=243.5"
+sarima,Outside Perimeter,6,6,0,155.0586609251588,142.48167991995913,116.48766684935254,"order=(0, 0, 3), seasonal_order=(0, 1, 1, 12), aic=238.5, bic=243.5"
+sarima,Outside Perimeter,12,8,4,149.34577645710542,137.64888194871338,133.31463597223762,"order=(0, 0, 3), seasonal_order=(0, 1, 1, 12), aic=238.5, bic=243.5"
+sarima,Overall - fixed core six,1,1,0,63.13133144293556,63.13133144293556,8.230728200429658,"order=(1, 1, 2), seasonal_order=(1, 1, 1, 12), aic=862.9, bic=876.2"
+sarima,Overall - fixed core six,3,3,0,84.9618107805878,82.7774552526782,11.631228158259376,"order=(1, 1, 2), seasonal_order=(1, 1, 1, 12), aic=862.9, bic=876.2"
+sarima,Overall - fixed core six,6,6,0,105.96811843059928,99.40381722195896,14.40392114721738,"order=(1, 1, 2), seasonal_order=(1, 1, 1, 12), aic=862.9, bic=876.2"
+sarima,Overall - fixed core six,12,8,4,115.93976063670503,109.93956981275244,15.162190253276448,"order=(1, 1, 2), seasonal_order=(1, 1, 1, 12), aic=862.9, bic=876.2"
+sarima,Overall - reported footprint,1,1,0,225.8012402411539,225.8012402411539,26.533012178462773,"order=(0, 1, 1), seasonal_order=(1, 1, 1, 12), aic=906.8, bic=915.7"
+sarima,Overall - reported footprint,3,3,0,167.76743252555923,150.82090684609082,17.78611842785116,"order=(0, 1, 1), seasonal_order=(1, 1, 1, 12), aic=906.8, bic=915.7"
+sarima,Overall - reported footprint,6,6,0,225.93909976453727,206.41529323404657,25.008551982228713,"order=(0, 1, 1), seasonal_order=(1, 1, 1, 12), aic=906.8, bic=915.7"
+sarima,Overall - reported footprint,12,8,4,210.50466943333097,187.63242225939786,22.77823791438346,"order=(0, 1, 1), seasonal_order=(1, 1, 1, 12), aic=906.8, bic=915.7"
+holt_winters,City Center,1,1,0,5.286262115095582,5.286262115095582,2.9532190587126155,"trend=add, seasonal=mul, seasonal_periods=12, aic=683.0"
+holt_winters,City Center,3,3,0,21.73329256399651,14.337735103979014,8.787505229030018,"trend=add, seasonal=mul, seasonal_periods=12, aic=683.0"
+holt_winters,City Center,6,6,0,36.19908792698294,29.80871625284547,20.37622652799004,"trend=add, seasonal=mul, seasonal_periods=12, aic=683.0"
+holt_winters,City Center,12,8,4,35.889416225769274,31.026746952931138,21.139280048518387,"trend=add, seasonal=mul, seasonal_periods=12, aic=683.0"
+holt_winters,Columbia,1,1,0,3.9398576659504556,3.9398576659504556,10.5767991032227,"trend=add, seasonal=mul, seasonal_periods=12, aic=483.2"
+holt_winters,Columbia,3,3,0,15.084502590366396,11.39888904549008,68.09170395171837,"trend=add, seasonal=mul, seasonal_periods=12, aic=483.2"
+holt_winters,Columbia,6,6,0,17.1302616722687,14.35653442064742,69.35322164095788,"trend=add, seasonal=mul, seasonal_periods=12, aic=483.2"
+holt_winters,Columbia,12,8,4,15.480795352127155,12.920794272111735,58.98517983096981,"trend=add, seasonal=mul, seasonal_periods=12, aic=483.2"
+holt_winters,Cortez,1,1,0,50.26541814151001,50.26541814151001,101.48479334041997,"trend=add, seasonal=mul, seasonal_periods=12, aic=571.6"
+holt_winters,Cortez,3,3,0,40.3950822825614,39.549884540659235,83.46266929438606,"trend=add, seasonal=mul, seasonal_periods=12, aic=571.6"
+holt_winters,Cortez,6,6,0,30.415880858004527,26.09463985645333,53.81708165758848,"trend=add, seasonal=mul, seasonal_periods=12, aic=571.6"
+holt_winters,Cortez,12,8,4,28.69745382253594,23.981456593923184,49.84867128096863,"trend=add, seasonal=mul, seasonal_periods=12, aic=571.6"
+holt_winters,East Village,1,1,0,2.3117346621751267,2.3117346621751267,0.521553709542263,"trend=add, seasonal=mul, seasonal_periods=12, aic=872.5"
+holt_winters,East Village,3,3,0,19.166452641129393,12.631511225632323,3.057357762951512,"trend=add, seasonal=mul, seasonal_periods=12, aic=872.5"
+holt_winters,East Village,6,6,0,24.787258420651916,20.337880065480316,4.9889900792939565,"trend=add, seasonal=mul, seasonal_periods=12, aic=872.5"
+holt_winters,East Village,12,8,4,55.061204090200306,37.68178723739399,8.019590537732384,"trend=add, seasonal=mul, seasonal_periods=12, aic=872.5"
+holt_winters,Gaslamp,1,1,0,2.1269646220385354,2.1269646220385354,5.187718590337891,"trend=add, seasonal=mul, seasonal_periods=12, aic=499.4"
+holt_winters,Gaslamp,3,3,0,16.627950717168872,14.246447252782673,48.183993005331,"trend=add, seasonal=mul, seasonal_periods=12, aic=499.4"
+holt_winters,Gaslamp,6,6,0,15.650344223685478,12.069420151318008,44.18954022352113,"trend=add, seasonal=mul, seasonal_periods=12, aic=499.4"
+holt_winters,Gaslamp,12,8,4,13.58036274985891,9.441797859752679,34.020308573443174,"trend=add, seasonal=mul, seasonal_periods=12, aic=499.4"
+holt_winters,Marina,1,1,0,2.871718212531011,2.871718212531011,16.892460073711828,"trend=add, seasonal=mul, seasonal_periods=12, aic=484.8"
+holt_winters,Marina,3,3,0,2.8119893915871885,2.771120433248823,16.819465624889297,"trend=add, seasonal=mul, seasonal_periods=12, aic=484.8"
+holt_winters,Marina,6,6,0,3.90765956215001,3.687873092726553,38.077630488486726,"trend=add, seasonal=mul, seasonal_periods=12, aic=484.8"
+holt_winters,Marina,12,8,4,4.92050411747845,4.0641081217620165,34.14382705854008,"trend=add, seasonal=mul, seasonal_periods=12, aic=484.8"
+holt_winters,Outside Perimeter,1,1,0,144.9845552211975,144.9845552211975,172.60066097761606,"trend=add, seasonal=add, seasonal_periods=12, aic=441.1"
+holt_winters,Outside Perimeter,3,3,0,96.38996728700614,86.65868707846325,79.85002317612921,"trend=add, seasonal=add, seasonal_periods=12, aic=441.1"
+holt_winters,Outside Perimeter,6,6,0,132.63246972063072,121.33048311902775,99.46577260876825,"trend=add, seasonal=add, seasonal_periods=12, aic=441.1"
+holt_winters,Outside Perimeter,12,8,4,131.82022330743112,121.33139251836735,119.85649090362813,"trend=add, seasonal=add, seasonal_periods=12, aic=441.1"
+holt_winters,Overall - fixed core six,1,1,0,37.84125569369314,37.84125569369314,4.933542240579534,"trend=add, seasonal=mul, seasonal_periods=12, aic=935.8"
+holt_winters,Overall - fixed core six,3,3,0,78.15234375243281,73.62662833198367,10.39659953610027,"trend=add, seasonal=mul, seasonal_periods=12, aic=935.8"
+holt_winters,Overall - fixed core six,6,6,0,97.15398521455563,90.25563589334384,13.104706984098925,"trend=add, seasonal=mul, seasonal_periods=12, aic=935.8"
+holt_winters,Overall - fixed core six,12,8,4,110.22689865825468,103.06189687389768,14.149917243944431,"trend=add, seasonal=mul, seasonal_periods=12, aic=935.8"
+holt_winters,Overall - reported footprint,1,1,0,191.38257413205997,191.38257413205997,22.48861062396418,"trend=add, seasonal=mul, seasonal_periods=12, aic=972.5"
+holt_winters,Overall - reported footprint,3,3,0,152.90907835110505,138.63013752028874,16.37304783599055,"trend=add, seasonal=mul, seasonal_periods=12, aic=972.5"
+holt_winters,Overall - reported footprint,6,6,0,200.09825347886107,183.02288622083356,22.213092745827705,"trend=add, seasonal=mul, seasonal_periods=12, aic=972.5"
+holt_winters,Overall - reported footprint,12,8,4,190.93671596121774,166.63697764308517,20.371569011374298,"trend=add, seasonal=mul, seasonal_periods=12, aic=972.5"
+prophet,City Center,1,1,0,57.226459270853866,57.226459270853866,31.97008897813065,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,City Center,3,3,0,73.17748424213534,72.380178415756,42.420765485769024,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,City Center,6,6,0,85.43395952864651,83.69567068806242,54.831187165498086,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,City Center,12,8,4,81.47527593192176,77.88644737175132,52.21419320194487,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,Columbia,1,1,0,2.7117222930894798,2.7117222930894798,7.279791390844241,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,Columbia,3,3,0,11.786629574943499,8.73691842487027,52.90504233674823,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,Columbia,6,6,0,14.88284174945547,12.458945545684008,59.173414190280845,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,Columbia,12,8,4,13.318326473204365,10.999996774594472,49.73354366012182,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,Cortez,1,1,0,52.07539640533551,52.07539640533551,105.1391003539986,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,Cortez,3,3,0,51.007789228281815,50.90297991668236,112.35869747705817,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,Cortez,6,6,0,40.79274682714174,36.338686056740535,77.67394778266161,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,Cortez,12,8,4,39.36636594344307,34.9838779573504,73.66183940815867,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,East Village,1,1,0,173.05567142366783,173.05567142366783,39.04333350412143,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,East Village,3,3,0,181.44733806630046,175.43256387068013,41.59938875578293,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,East Village,6,6,0,177.0522248372329,172.28825717694045,41.683086990938975,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,East Village,12,8,4,167.34532387574788,154.8803301685048,36.938182325692246,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,Gaslamp,1,1,0,1.8169500054291774,1.8169500054291774,4.431585379095555,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,Gaslamp,3,3,0,14.982522400284838,12.6537345179554,43.29909065385004,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,Gaslamp,6,6,0,14.385245825121181,10.974443767240407,40.5430804332918,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,Gaslamp,12,8,4,12.481639750269842,8.55744060279007,31.063936538953513,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,Marina,1,1,0,13.245767959521308,13.245767959521308,77.91628211483122,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,Marina,3,3,0,7.995923496273043,5.985439706669193,35.72392052062165,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,Marina,6,6,0,6.01881343772409,4.239024387858908,31.998105877923376,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,Marina,12,8,4,6.125961762712317,4.495601618672621,30.445352390568388,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,Outside Perimeter,1,1,0,5.852290129807585,5.852290129807585,6.967012059294745,"yearly_seasonality=True, changepoints=auto"
+prophet,Outside Perimeter,3,3,0,48.69364020932676,36.07117786301916,17.990574047720397,"yearly_seasonality=True, changepoints=auto"
+prophet,Outside Perimeter,6,6,0,61.99359347247183,49.72886218617638,34.83342396431963,"yearly_seasonality=True, changepoints=auto"
+prophet,Outside Perimeter,12,8,4,64.44487762682408,51.9406172406899,47.812468040635245,"yearly_seasonality=True, changepoints=auto"
+prophet,Overall - fixed core six,1,1,0,267.8539413861308,267.8539413861308,34.92137641601664,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,Overall - fixed core six,3,3,0,315.03618609295665,311.001653412003,43.11230768354461,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,Overall - fixed core six,6,6,0,315.40162887406296,309.5715895858198,44.292504932162295,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,Overall - fixed core six,12,8,4,296.5836945103991,279.9605661205127,39.62284503966174,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,Overall - reported footprint,1,1,0,517.8857580866645,517.8857580866645,60.8547105927786,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,Overall - reported footprint,3,3,0,480.5902480668009,478.694823041199,54.39117574150174,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,Overall - reported footprint,6,6,0,494.47612726666216,487.4099324710419,57.64382559540368,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+prophet,Overall - reported footprint,12,8,4,476.5770794073761,466.55552173613,55.136226509596185,"yearly_seasonality=True, changepoints=['2017-04-01', '2018-05-01', '2020-03-01']"
+xgboost,City Center,1,1,0,1.022247314453125,1.022247314453125,0.5710878851693435,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,City Center,3,3,0,10.828147936926737,7.242085774739583,4.158576022465806,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,City Center,6,6,0,11.368409195003142,8.554931030273437,5.706609751699233,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,City Center,12,8,4,21.39009638644982,14.864664077758789,9.204350171452583,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,Columbia,1,1,0,4.717838287353516,4.717838287353516,12.665337684170511,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,Columbia,3,3,0,13.021178160460464,9.912728627522787,58.91116468526456,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,Columbia,6,6,0,12.104857121531206,9.460550308227539,48.73976886225217,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,Columbia,12,8,4,10.853485631524277,8.473187770843506,41.01222579106839,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,Cortez,1,1,0,24.62235137939453,24.62235137939453,49.71199551664553,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,Cortez,3,3,0,24.2534197313242,21.876746724446615,52.971314767028296,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,Cortez,6,6,0,19.777780151669667,16.749749704996745,37.77668545293309,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,Cortez,12,8,4,19.70030206151297,16.92748416900635,36.98925734914248,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,East Village,1,1,0,24.00407958984374,24.00407958984374,5.415594167909878,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,East Village,3,3,0,35.296666464301744,34.39693481445312,8.209214213760132,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,East Village,6,6,0,80.62540374543471,70.58813334147136,17.2907361394106,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,East Village,12,8,4,77.31286734459026,66.05516159057618,15.849591943986807,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,Gaslamp,1,1,0,1.3787803649902344,1.3787803649902344,3.3628789390005713,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,Gaslamp,3,3,0,7.8480474814727375,6.768704732259114,22.48711236844572,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,Gaslamp,6,6,0,8.20591051263398,7.046026229858398,24.42706519577008,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,Gaslamp,12,8,4,7.845474423969256,6.894082069396973,21.689293239366023,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,Marina,1,1,0,4.961153030395508,4.961153030395508,29.183253119973575,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,Marina,3,3,0,3.9529009707239675,3.8528012339274085,23.28057263076305,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,Marina,6,6,0,9.629184209223812,8.005281562805175,91.76329341911378,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,Marina,12,8,4,9.507439322058772,8.260538902282715,84.63546979690193,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,Outside Perimeter,1,1,0,57.43244934082031,57.43244934082031,68.37196350097656,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,Outside Perimeter,3,3,0,71.23748769249353,59.38416544596354,39.97235777448949,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,Outside Perimeter,6,6,0,56.06479278332762,45.37299346923828,30.32247991774658,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,Outside Perimeter,12,8,4,54.58472142392219,43.25868320465088,36.911646508069246,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,Overall - fixed core six,1,1,0,72.17226074218752,72.17226074218752,9.409436617322562,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,Overall - fixed core six,3,3,0,141.0121583301991,132.18590494791667,18.711922453494957,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,Overall - fixed core six,6,6,0,173.8649220425248,166.61754069010416,24.10160352349931,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,Overall - fixed core six,12,8,4,163.48917812149588,156.77743225097657,21.996262444426094,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,Overall - reported footprint,1,1,0,57.71040771484377,57.71040771484377,6.781322144584589,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,Overall - reported footprint,3,3,0,78.67119265771892,67.21374186197916,7.293891496849182,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,Overall - reported footprint,6,6,0,79.81518451639575,65.22291341145832,7.679193501690456,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+xgboost,Overall - reported footprint,12,8,4,85.33810268067965,73.34137847900391,8.48302104295037,"n_estimators=100, max_depth=3, learning_rate=0.1, subsample=0.8, colsample_bytree=0.8, recursive 1-step forecast"
+naive_seasonal,City Center,1,1,0,18.5,18.5,10.335195530726256,lag=12 months
+naive_seasonal,City Center,3,3,0,36.04857833535187,27.333333333333332,16.523639849686322,lag=12 months
+naive_seasonal,City Center,6,6,0,58.87764714501874,51.07333333333333,34.32900446841931,lag=12 months
+naive_seasonal,City Center,12,8,4,52.95645498898128,44.43,29.237315374157575,lag=12 months
+naive_seasonal,Columbia,1,1,0,3.75,3.75,10.06711409395973,lag=12 months
+naive_seasonal,Columbia,3,3,0,15.897457868057606,10.75,69.30503314731503,lag=12 months
+naive_seasonal,Columbia,6,6,0,13.928762208705649,9.875,54.24651969740892,lag=12 months
+naive_seasonal,Columbia,12,8,4,12.628098134715298,9.25375,46.62914704797233,lag=12 months
+naive_seasonal,Cortez,1,1,0,104.81,104.81,211.6091257823541,lag=12 months
+naive_seasonal,Cortez,3,3,0,89.99405109968843,84.75666666666667,168.26943052668668,lag=12 months
+naive_seasonal,Cortez,6,6,0,64.65530334009732,49.22166666666667,95.67420868591431,lag=12 months
+naive_seasonal,Cortez,12,8,4,56.70485880857125,40.98625,79.75542002795109,lag=12 months
+naive_seasonal,East Village,1,1,0,86.55999999999995,86.55999999999995,19.5289233823662,lag=12 months
+naive_seasonal,East Village,3,3,0,97.76048724646712,87.25999999999998,20.69984420536498,lag=12 months
+naive_seasonal,East Village,6,6,0,72.74518426214432,57.073333333333316,13.671481351240914,lag=12 months
+naive_seasonal,East Village,12,8,4,66.84220541693695,50.752499999999976,11.688025084251295,lag=12 months
+naive_seasonal,Gaslamp,1,1,0,6.0,6.0,14.634146341463413,lag=12 months
+naive_seasonal,Gaslamp,3,3,0,16.57432753789225,12.666666666666666,43.599250296964904,lag=12 months
+naive_seasonal,Gaslamp,6,6,0,26.189414210070957,19.958333333333332,72.4581510349103,lag=12 months
+naive_seasonal,Gaslamp,12,8,4,22.788257667053003,15.78125,55.920421884241335,lag=12 months
+naive_seasonal,Marina,1,1,0,2.0,2.0,11.76470588235294,lag=12 months
+naive_seasonal,Marina,3,3,0,3.2306294536307725,2.4899999999999998,15.281266668371726,lag=12 months
+naive_seasonal,Marina,6,6,0,7.470758551401145,6.036666666666666,62.8029192760417,lag=12 months
+naive_seasonal,Marina,12,8,4,6.54410708194785,4.87875,50.27690536612218,lag=12 months
+naive_seasonal,Outside Perimeter,1,1,0,47.0,47.0,55.952380952380956,lag=12 months
+naive_seasonal,Outside Perimeter,3,3,0,132.24598292575845,117.0,69.90150614109912,lag=12 months
+naive_seasonal,Outside Perimeter,6,6,0,124.83388962937909,116.16666666666667,74.70670567628126,lag=12 months
+naive_seasonal,Outside Perimeter,12,8,4,114.79220356801241,101.5,77.22064011693945,lag=12 months
+naive_seasonal,Overall - fixed core six,1,1,0,214.12,214.12,27.91583009569503,lag=12 months
+naive_seasonal,Overall - fixed core six,3,3,0,209.7831678185836,197.67,26.993476338449938,lag=12 months
+naive_seasonal,Overall - fixed core six,6,6,0,173.9207585367543,159.165,22.442054340330163,lag=12 months
+naive_seasonal,Overall - fixed core six,12,8,4,154.91553569606887,134.575,18.56821723296195,lag=12 months
+naive_seasonal,Overall - reported footprint,1,1,0,167.12,167.12,19.637611336983856,lag=12 months
+naive_seasonal,Overall - reported footprint,3,3,0,106.31743742208991,82.27666666666669,9.26030357844145,lag=12 months
+naive_seasonal,Overall - reported footprint,6,6,0,87.27938044005583,68.11166666666668,7.953452972116968,lag=12 months
+naive_seasonal,Overall - reported footprint,12,8,4,75.84570324019681,54.107500000000016,6.321643053740745,lag=12 months

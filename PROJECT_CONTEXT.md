@@ -12,7 +12,7 @@
 * **Organization / Context:** Data Science Alliance (Volunteer / Public Interest Analytics)
 * **Analyst / Assignee:** Kyaw Soe Lwin (`kylwin@ucsd.edu` / `kslwin.2000@gmail.com`)
 * **Project Lead / Manager:** Adir Mancebo Jr. (`adir@datasciencealliance.org` via `ucsd.edu`)
-* **Goal:** Analyze unsheltered homelessness in Downtown San Diego using monthly count data from the Downtown San Diego Partnership (2012–present) disaggregated by neighborhood and East Village sub-area. The ultimate objective is producing time-series forecasts, geospatial hotspot analysis, and policy impact assessments to guide service providers and municipal agencies.
+* **Goal:** Analyze unsheltered homelessness in Downtown San Diego using monthly count data from the Downtown San Diego Partnership (2017–present) disaggregated by neighborhood and East Village sub-area. The ultimate objective is producing time-series forecasts, geospatial hotspot analysis, and policy impact assessments to guide service providers and municipal agencies.
 
 ---
 
@@ -50,8 +50,8 @@
 | **6** | **Methodology Impact Assessment** | **COMPLETED (100% - Tasks 6.1-6.3 done)** | Quasi-experimental policy evaluation, continuous weighting models. |
 | **7** | **Forecasting Model Development** | **COMPLETED (100% - Tasks 7.1-7.4 done)** | ARIMA, SARIMA, Prophet, Gradient Boosting models, production CLI pipeline. |
 | **8** | **County-Level Estimation Model** | **COMPLETED (100% - Tasks 8.1–8.4 done)** | Ratio modeling with Regional Task Force on Homelessness (RTFH) PIT counts. |
-| **9** | **Interactive Dashboard & Strategic Synthesis** | Queued | Web dashboard, executive handoff documentation. |
-| **10** | **Multi-Source Predictive System** | Queued | Ingesting weather, 311 service calls, shelter censuses, anomaly alerts. |
+| **9** | **Interactive Dashboard & Strategic Synthesis** | **COMPLETED (100% - Tasks 9.1–9.4 done)** | Streamlit interactive web dashboard, technical reports, presentation decks, operational runbooks. |
+| **10** | **Multi-Source Predictive System** | **COMPLETED (100% - Tasks 10.1–10.4 done)** | Ingesting weather, 311 service calls, shelter censuses, ensemble modeling, automated anomaly alerts. |
 
 ---
 

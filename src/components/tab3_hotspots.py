@@ -44,7 +44,8 @@ def render_tab3():
         sig_filter = st.multiselect(
             "Filter Significance:",
             options=list(HOTSPOT_PALETTE.keys()),
-            default=["99% Hotspot", "95% Hotspot", "90% Hotspot"],
+            default=["99% Hotspot", "95% Hotspot"],
+            help="Strict statistical significance tiers: 95% and 99% (Task 5.2). 90% tier available for exploratory review.",
         )
 
     # Date anomaly notice for March 2022
@@ -144,7 +145,7 @@ def render_tab3():
                     "nearest_transit_m": "Nearest Transit (m)",
                 }
             ),
-            use_container_width=True,
+            width="stretch",
             hide_index=True,
         )
 

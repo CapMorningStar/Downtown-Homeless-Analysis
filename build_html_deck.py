@@ -286,21 +286,21 @@ slides_part1 = f"""
         <div class="kpi-row">
           <div class="kpi-card hero"><div class="kpi-val">529</div><div class="kpi-lbl">Series Low</div><div class="kpi-sub">March 2020</div></div>
           <div class="kpi-card hero"><div class="kpi-val">2,103</div><div class="kpi-lbl">Series Peak</div><div class="kpi-sub">May 2023</div></div>
-          <div class="kpi-card"><div class="kpi-val" style="color: var(--navy-primary);">156.8</div><div class="kpi-lbl" style="color: var(--navy-primary);">Grand Mean</div><div class="kpi-sub" style="color: var(--text-muted);">Per neigh-mo</div></div>
+          <div class="kpi-card"><div class="kpi-val" style="color: var(--navy-primary);">156.4</div><div class="kpi-lbl" style="color: var(--navy-primary);">Grand Mean</div><div class="kpi-sub" style="color: var(--text-muted);">Per neigh-mo</div></div>
         </div>
         <div class="card" style="flex: 1;">
           <div style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 14px; font-weight: 700; color: var(--navy-primary); margin-bottom: 10px;">Trajectory Overview: Three Clear Phases</div>
           <div class="bullet-item">
             <span class="bullet-title">• 2017–2020 Decline:</span>
-            Annual average fell from 176.31 to 109.02 (~-38% cumulative drop). YoY changes: -18.98% (2018), -4.94% (2019), and -19.71% (2020).
+            Annual average fell from 176.31 to 109.02 (~-38% cumulative drop). YoY changes: -20.31% (2018), -3.87% (2019), and -19.29% (2020).
           </div>
           <div class="bullet-item">
             <span class="bullet-title">• 2021–2023 Rebound & Peak:</span>
-            Counts rebounded sharply: +25.85% (2021) and +57.63% (2022), reaching an annual average of 223.98 in 2023 — more than double the 2020 trough.
+            Counts rebounded sharply: +25.85% (2021) and +57.55% (2022), reaching an annual average of 223.30 in 2023 — more than double the 2020 trough.
           </div>
           <div class="bullet-item">
             <span class="bullet-title">• 2024–2025 Pullback & Stabilization:</span>
-            A steep -43.52% drop in 2024 brought the annual average down to 126.50; 2025 remained roughly flat (-2.94%) at 122.78.
+            A steep -43.26% drop in 2024 brought the annual average down to 126.71; 2025 remained roughly flat (-2.56%) at 123.47.
           </div>
         </div>
       </div>
@@ -328,7 +328,7 @@ slides_part1 = f"""
       <div class="card" style="display: flex; flex-direction: column;">
         <div style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 14px; font-weight: 700; color: var(--navy-primary); margin-bottom: 8px;">Quantifying Calendar Seasonality</div>
         <div class="callout">Key Takeaway: Which YEAR a month falls in matters far more than which calendar month it is.</div>
-        <div class="bullet-item"><span class="bullet-title">• Modest Range of Deviation:</span> No single calendar month deviates by more than ~5% from the grand mean (156.78). Peak-to-trough spread is only ~8.4 percentage points.</div>
+        <div class="bullet-item"><span class="bullet-title">• Modest Range of Deviation:</span> No single calendar month deviates by more than ~5% from the grand mean (156.44). Peak-to-trough spread is only ~8.1 percentage points.</div>
         <div class="bullet-item"><span class="bullet-title">• Top 3 Highest Months:</span> Feb (+3.2%, 161.76), Aug (+3.1%, 161.61), and May (+2.6%, 160.93).</div>
         <div class="bullet-item"><span class="bullet-title">• Top 3 Lowest Months:</span> Mar (-5.2%, 148.67), Sep (-2.0%, 153.63), Nov (-2.1%, 153.43) [Apr: -2.1%, 153.53].</div>
         <div class="bullet-item"><span class="bullet-title">• Large Residual Variance:</span> Month-to-month standard deviations (187–216) dwarf monthly mean differences, confirming macro annual shocks overpower calendar cycles.</div>
@@ -360,16 +360,16 @@ slides_part1 = f"""
         <div class="callout">Core Insight: Growth is NOT concentrated in the largest neighborhood.</div>
         <div class="bullet-item">
           <span class="bullet-title">• By Average Monthly Count (Magnitude):</span><br>
-          &nbsp;&nbsp;1. East Village: 552.77 (std 157.09 — highest volume & volatility)<br>
+          &nbsp;&nbsp;1. East Village: 552.04 (std 157.27 — highest volume & volatility)<br>
           &nbsp;&nbsp;2. Outside Perimeter: 217.57 (partial coverage, 56 obs)<br>
-          &nbsp;&nbsp;3. City Center: 171.81 (std 54.80)<br>
-          &nbsp;&nbsp;4. Cortez: 59.52 | 5. Gaslamp: 48.43 | 6. Columbia: 44.49 | 7. Marina: 30.94
+          &nbsp;&nbsp;3. City Center: 170.68 (std 52.95)<br>
+          &nbsp;&nbsp;4. Cortez: 59.62 | 5. Gaslamp: 48.17 | 6. Columbia: 44.49 | 7. Marina: 30.75
         </div>
         <div class="bullet-item">
           <span class="bullet-title">• By Growth Rate (Mean YoY %, 2019+):</span><br>
-          &nbsp;&nbsp;- Fastest Growing: Outside Perimeter (+26.90%/yr), Cortez (+11.96%/yr), City Center (+3.94%/yr).<br>
+          &nbsp;&nbsp;- Fastest Growing: Outside Perimeter (+26.90%/yr), Cortez (+12.12%/yr), City Center (+5.19%/yr).<br>
           &nbsp;&nbsp;- Modest Core Growth: East Village (+1.64%/yr) grew slowly despite ~55% total volume.<br>
-          &nbsp;&nbsp;- Shrinking Areas: Marina (-12.76%/yr) and Columbia (-4.28%/yr) declined.
+          &nbsp;&nbsp;- Shrinking Areas: Marina (-13.11%/yr) and Columbia (-4.28%/yr) declined.
         </div>
         <div class="bullet-item">
           <span class="bullet-title">• Spatial Sub-Area Asymmetry:</span><br>
@@ -403,7 +403,7 @@ slides_part2 = f"""
         <div style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 14px; font-weight: 700; color: var(--navy-primary); margin-bottom: 6px;">Pandemic Shock & Rebound Profile</div>
         <div class="callout">Finding: Pandemic programs suppressed visible street counts without a lasting reduction in demand.</div>
         <div class="bullet-item"><span class="bullet-title">• Series All-Time Low (March 2020):</span> Citywide unsheltered total hit its series low of 529 in March 2020 at the onset of initial COVID shelter-in-place orders.</div>
-        <div class="bullet-item"><span class="bullet-title">• 2020 Annual Trough (~20% Reduction):</span> 2020 annual average (654.1) dropped ~20% below the 2019 pre-COVID baseline (814.72), reflecting -19.71% YoY contraction.</div>
+        <div class="bullet-item"><span class="bullet-title">• 2020 Annual Trough (~20% Reduction):</span> 2020 annual average (654.1) dropped ~20% below the 2019 pre-COVID baseline (810.43), reflecting -19.29% YoY contraction.</div>
         <div class="bullet-item"><span class="bullet-title">• Full Recovery by 2021:</span> Counts recovered to an annual average of 960.37 in 2021 (+46.82% YoY, citywide-total basis), climbing above pre-COVID baseline levels prior to the 2022–2023 surge.</div>
         <div class="bullet-item"><span class="bullet-title">• Operational & Policy Mechanisms:</span> Emergency indoor shelter placements (Convention Center Operation Shelter to Home), eviction moratoria, and curtailed street sweeps temporarily reduced visible unsheltered numbers; demobilization preceded the 2022–2023 peak.</div>
       </div>
@@ -430,7 +430,7 @@ slides_part2 = f"""
     <div class="content-2col">
       <div class="card" style="display: flex; flex-direction: column;">
         <div style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 14px; font-weight: 700; color: var(--navy-primary); margin-bottom: 6px;">Evaluation of Multiplier Regimes</div>
-        <div class="callout">Conclusion: Multipliers produce a proportional gap without distorting longitudinal trendlines.</div>
+        <div class="callout">Conclusion: Multipliers add only a small gap (within ±2/month on average) and do not distort longitudinal trends.</div>
         <div class="bullet-item">
           <span class="bullet-title">• Four Historical Regimes:</span><br>
           &nbsp;&nbsp;- PRE2017 (Jan–Mar 2017): Direct visual count, no component breakout.<br>
@@ -438,8 +438,8 @@ slides_part2 = f"""
           &nbsp;&nbsp;- MAY2018 (May 2018–Dec 2019): Vehicle multiplier increased to 2.03×.<br>
           &nbsp;&nbsp;- POST2020 (Jan 2020–present): 2.03× retained by DSDP for continuity.
         </div>
-        <div class="bullet-item"><span class="bullet-title">• 2018 Volatility & Source Discrepancy:</span> Gap (total_count - raw_count) peaked in 2018 (avg +13.5/mo, spiking to +156.61 in Feb 2018). Audit logged Feb 2018 spike as partly a source-PDF addition error (+30 discrepancy), not purely multiplier mechanics.</div>
-        <div class="bullet-item"><span class="bullet-title">• 2019+ Gap Stabilization:</span> From 2019 onward, monthly gap stabilized to near-zero (roughly ±1 to ±5/month), well within expected rounding tolerance (±2).</div>
+        <div class="bullet-item"><span class="bullet-title">• Gap Is Small in Every Year:</span> Gap (total_count - raw_count) averages within ±2/month each year: DSDP published totals already include the multipliers. The earlier Feb 2018 spike (+156.61) was a data-entry error (100 tents instead of 10), corrected against the source map in Oct 2026.</div>
+        <div class="bullet-item"><span class="bullet-title">• Remaining Outliers Are Source Conflicts:</span> The largest remaining single-month gaps (Apr 2020 +19.7, Feb 2023 -12.5) are months where DSDP map pages and its summary table disagree; listed in MasterCounts_QA_Flags.csv.</div>
         <div class="bullet-item"><span class="bullet-title">• Pre-2018 Constraint:</span> Because component breakouts began in Jan 2018, raw and adjusted totals are identical across all of 2017 (gap = 0).</div>
       </div>
       <div class="chart-card">
@@ -468,7 +468,7 @@ slides_part2 = f"""
         <div>
           <div class="h-title">H1: Policy & Enforcement Driver of 2022–2023 Peak</div>
           <div class="h-sub">Synchronized Citywide Surge</div>
-          <div class="h-desc">The +57.63% (2022) surge hit nearly every neighborhood simultaneously (Cortez +129%, Outside Perimeter +87%, East Village +50%). This synchronized timing points to systemic citywide drivers (eviction moratorium expirations, shelter demobilizations, or sweep shifts) rather than local dynamics.</div>
+          <div class="h-desc">The +57.55% (2022) surge hit nearly every neighborhood simultaneously (Cortez +132%, Outside Perimeter +87%, East Village +50%). This synchronized timing points to systemic citywide drivers (eviction moratorium expirations, shelter demobilizations, or sweep shifts) rather than local dynamics.</div>
         </div>
         <div class="h-action">• Test: Correlate monthly counts against RTFH policy timelines, shelter census, and 311 encampment dispatch logs.</div>
       </div>
@@ -484,9 +484,9 @@ slides_part2 = f"""
       <div class="h-card">
         <div class="h-bar" style="background: var(--periwinkle);"></div>
         <div>
-          <div class="h-title">H3: 2024 Pullback (-43.52%) May Be a Reporting Artifact</div>
+          <div class="h-title">H3: 2024 Pullback (-43.26%) May Be a Reporting Artifact</div>
           <div class="h-sub">Rapid Single-Year Drop Scrutiny</div>
-          <div class="h-desc">A steep -43.52% drop in a single year immediately after the historical peak warrants verification against external benchmarks before reading it as a true population drop. Count area or staffing changes may be confounders.</div>
+          <div class="h-desc">A steep -43.26% drop in a single year immediately after the historical peak warrants verification against external benchmarks before reading it as a true population drop. Count area or staffing changes may be confounders.</div>
         </div>
         <div class="h-action">• Test: Benchmark against independent RTFH Point-in-Time (PIT) counts and audit 2024 DSDP canvassing operations.</div>
       </div>
@@ -495,7 +495,7 @@ slides_part2 = f"""
         <div>
           <div class="h-title">H4: Neighborhood Growth Inversely Related to Area Size</div>
           <div class="h-sub">Peripheral Displacement Dynamics</div>
-          <div class="h-desc">Mid-sized areas grow fastest (Outside Perimeter +26.90%, Cortez +11.96%, City Center +3.94%), while East Village grows slowly (+1.64%) and Marina shrinks (-12.76%). Enforcement in core areas may displace individuals to borders.</div>
+          <div class="h-desc">Mid-sized areas grow fastest (Outside Perimeter +26.90%, Cortez +12.12%, City Center +5.19%), while East Village grows slowly (+1.75%) and Marina shrinks (-13.11%). Enforcement in core areas may displace individuals to borders.</div>
         </div>
         <div class="h-action">• Test: Perform spatial adjacency and boundary-flow analysis in Assignment 5 to evaluate displacement effects.</div>
       </div>
@@ -549,6 +549,6 @@ with open("EDA_Presentation.html", "w", encoding="utf-8") as f:
 print("SUCCESS: Updated EDA_Presentation.html with Canva theme")
 print("File size:", os.path.getsize("EDA_Presentation.html"), "bytes")
 
-with open(os.path.join(r"D:\Projects\Downtown-Homeless-Analysis", "EDA_Presentation.html"), "w", encoding="utf-8") as f:
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "EDA_Presentation.html"), "w", encoding="utf-8") as f:
     f.write(html_head + slides_part1 + slides_part2 + "</div>\n</body>\n</html>")
 print("Saved EDA_Presentation.html successfully")

@@ -1,0 +1,13 @@
+model_name,predictor_series,n_folds,rmse,mae,mape_pct,signed_bias_pct,max_abs_error,corr_with_actual,rank_rmse,rank_mape
+OLS with Policy Regime Indicator,downtown_reported_adjusted,8,815.32,721.22,14.89,-0.34,1263.49,0.3286,1,1
+Ordinary Least Squares (OLS),downtown_reported_adjusted,8,960.53,879.68,18.19,1.39,1348.19,-0.4958,2,2
+Regression with Time Trend,downtown_reported_adjusted,8,1050.44,943.16,19.34,-1.27,1580.39,-0.3228,3,3
+Ratio Estimator (Pooled),downtown_reported_adjusted,8,2392.61,1917.36,38.19,5.03,4975.52,-0.103,4,5
+Ratio Estimator (Mean of Ratios),downtown_reported_adjusted,8,2482.53,1777.41,35.9,13.99,5398.62,-0.1076,5,4
+Post-Ordinance Recent Ratio,downtown_reported_adjusted,8,3142.57,1976.44,42.16,39.32,7093.15,-0.0436,6,6
+OLS with Policy Regime Indicator,downtown_fixed6_constant,8,772.07,692.36,14.44,1.17,1195.73,0.3382,1,1
+Ordinary Least Squares (OLS),downtown_fixed6_constant,8,947.39,858.54,17.86,2.63,1419.26,-0.7043,2,2
+Regression with Time Trend,downtown_fixed6_constant,8,988.11,863.21,17.87,0.73,1560.78,-0.3733,3,3
+Ratio Estimator (Pooled),downtown_fixed6_constant,8,1472.92,1254.91,25.17,3.49,2514.3,-0.1853,4,4
+Ratio Estimator (Mean of Ratios),downtown_fixed6_constant,8,1491.5,1260.95,25.71,6.93,2677.9,-0.185,5,5
+Post-Ordinance Recent Ratio,downtown_fixed6_constant,8,2084.1,1646.82,35.2,31.1,3836.66,-0.0311,6,6

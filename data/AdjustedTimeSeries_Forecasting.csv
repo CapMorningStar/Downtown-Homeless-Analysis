@@ -1,0 +1,917 @@
+date,series,measure,original_value,stationary_value,source_status,depends_on_interpolated_value,transformation,log1p,d,D,seasonal_period,adf_pvalue,kpss_pvalue,stationarity_conclusion,candidate_p,candidate_q,candidate_P,candidate_Q
+2017-02-01,City Center,total_count,168.0,51.0,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2017-03-01,City Center,total_count,169.0,1.0,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2017-04-01,City Center,total_count,121.0,-48.0,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2017-05-01,City Center,total_count,145.0,24.0,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2017-06-01,City Center,total_count,173.0,28.0,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2017-07-01,City Center,total_count,158.0,-15.0,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2017-08-01,City Center,total_count,169.0,11.0,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2017-09-01,City Center,total_count,195.0,26.0,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2017-10-01,City Center,total_count,174.0,-21.0,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2017-11-01,City Center,total_count,162.0,-12.0,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2017-12-01,City Center,total_count,147.0,-15.0,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2018-01-01,City Center,total_count,123.0,-24.0,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2018-02-01,City Center,total_count,156.16,33.16,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2018-03-01,City Center,total_count,128.25,-27.909999999999997,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2018-04-01,City Center,total_count,111.25,-17.0,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2018-05-01,City Center,total_count,179.56,68.31,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2018-06-01,City Center,total_count,117.56,-62.0,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2018-07-01,City Center,total_count,139.28,21.72,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2018-08-01,City Center,total_count,145.5,6.219999999999999,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2018-09-01,City Center,total_count,129.0,-16.5,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2018-10-01,City Center,total_count,103.5,-25.5,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2018-11-01,City Center,total_count,146.0,42.5,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2018-12-01,City Center,total_count,147.25,1.25,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2019-01-01,City Center,total_count,131.5,-15.75,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2019-02-01,City Center,total_count,109.25,-22.25,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2019-03-01,City Center,total_count,130.0,20.75,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2019-04-01,City Center,total_count,106.5,-23.5,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2019-05-01,City Center,total_count,146.0,39.5,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2019-06-01,City Center,total_count,157.25,11.25,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2019-07-01,City Center,total_count,146.5,-10.75,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2019-08-01,City Center,total_count,123.5,-23.0,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2019-09-01,City Center,total_count,192.0,68.5,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2019-10-01,City Center,total_count,170.0,-22.0,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2019-11-01,City Center,total_count,103.25,-66.75,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2019-12-01,City Center,total_count,124.0,20.75,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2020-01-01,City Center,total_count,126.0,2.0,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2020-02-01,City Center,total_count,159.5,33.5,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2020-03-01,City Center,total_count,134.25,-25.25,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2020-04-01,City Center,total_count,91.0,-43.25,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2020-05-01,City Center,total_count,122.03,31.03,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2020-06-01,City Center,total_count,140.0,17.97,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2020-07-01,City Center,total_count,120.75,-19.25,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2020-08-01,City Center,total_count,104.0,-16.75,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2020-09-01,City Center,total_count,124.53,20.53,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2020-10-01,City Center,total_count,110.78,-13.75,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2020-11-01,City Center,total_count,126.03,15.25,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2020-12-01,City Center,total_count,133.5,7.469999999999999,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2021-01-01,City Center,total_count,153.03,19.53,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2021-02-01,City Center,total_count,139.56,-13.469999999999999,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2021-03-01,City Center,total_count,151.25,11.689999999999998,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2021-04-01,City Center,total_count,132.5,-18.75,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2021-05-01,City Center,total_count,137.53,5.030000000000001,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2021-06-01,City Center,total_count,143.0,5.469999999999999,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2021-07-01,City Center,total_count,123.28,-19.72,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2021-08-01,City Center,total_count,152.09,28.810000000000002,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2021-09-01,City Center,total_count,96.0,-56.09,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2021-10-01,City Center,total_count,145.31,49.31,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2021-11-01,City Center,total_count,180.53,35.22,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2021-12-01,City Center,total_count,185.31,4.780000000000001,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2022-01-01,City Center,total_count,213.03,27.72,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2022-02-01,City Center,total_count,186.03,-27.0,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2022-03-01,City Center,total_count,214.25,28.22,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2022-04-01,City Center,total_count,275.28,61.02999999999997,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2022-05-01,City Center,total_count,223.78,-51.49999999999997,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2022-06-01,City Center,total_count,240.75,16.97,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2022-07-01,City Center,total_count,234.25,-6.5,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2022-08-01,City Center,total_count,267.78,33.52999999999997,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2022-09-01,City Center,total_count,234.56,-33.21999999999997,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2022-10-01,City Center,total_count,283.81,49.25,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2022-11-01,City Center,total_count,235.25,-48.56,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2022-12-01,City Center,total_count,270.81,35.56,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2023-01-01,City Center,total_count,270.25,-0.5600000000000023,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2023-02-01,City Center,total_count,269.84,-0.410000000000025,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2023-03-01,City Center,total_count,341.75,71.91000000000003,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2023-04-01,City Center,total_count,290.25,-51.5,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2023-05-01,City Center,total_count,342.31,52.06,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2023-06-01,City Center,total_count,235.5,-106.81,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2023-07-01,City Center,total_count,186.5,-49.0,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2023-08-01,City Center,total_count,202.75,16.25,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2023-09-01,City Center,total_count,172.53,-30.22,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2023-10-01,City Center,total_count,204.0,31.47,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2023-11-01,City Center,total_count,234.5,30.5,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2023-12-01,City Center,total_count,129.25,-105.25,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2024-01-01,City Center,total_count,197.5,68.25,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2024-02-01,City Center,total_count,171.5,-26.0,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2024-03-01,City Center,total_count,220.5,49.0,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2024-04-01,City Center,total_count,237.28,16.78,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2024-05-01,City Center,total_count,219.25,-18.03,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2024-06-01,City Center,total_count,198.75,-20.5,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2024-07-01,City Center,total_count,207.78,9.030000000000001,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2024-08-01,City Center,total_count,209.06,1.2800000000000011,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2024-09-01,City Center,total_count,134.25,-74.81,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2024-10-01,City Center,total_count,226.75,92.5,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2024-11-01,City Center,total_count,150.5,-76.25,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2024-12-01,City Center,total_count,156.09,5.590000000000003,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2025-01-01,City Center,total_count,179.0,22.909999999999997,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2025-02-01,City Center,total_count,175.5,-3.5,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2025-03-01,City Center,total_count,161.0,-14.5,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2025-04-01,City Center,total_count,154.0,-7.0,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2025-05-01,City Center,total_count,147.59,-6.409999999999997,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2025-06-01,City Center,total_count,129.25,-18.340000000000003,observed,False,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2025-07-01,City Center,total_count,127.70108695652173,-1.5489130434782652,interpolated,True,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2025-08-01,City Center,total_count,126.10054347826087,-1.6005434782608603,interpolated,True,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2025-09-01,City Center,total_count,124.5,-1.6005434782608745,observed,True,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2025-10-01,City Center,total_count,147.85384615384615,23.35384615384615,interpolated,True,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2025-11-01,City Center,total_count,171.98615384615385,24.132307692307705,interpolated,True,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2025-12-01,City Center,total_count,195.34,23.35384615384615,observed,True,first_difference,False,1,0,12,3.306959148212293e-19,0.1,consensus_stationary,2,1,0,0
+2017-02-01,Columbia,total_count,35.0,-1.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2017-03-01,Columbia,total_count,20.0,-15.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2017-04-01,Columbia,total_count,46.0,26.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2017-05-01,Columbia,total_count,59.0,13.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2017-06-01,Columbia,total_count,41.0,-18.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2017-07-01,Columbia,total_count,47.0,6.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2017-08-01,Columbia,total_count,70.0,23.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2017-09-01,Columbia,total_count,61.0,-9.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2017-10-01,Columbia,total_count,56.0,-5.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2017-11-01,Columbia,total_count,49.0,-7.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2017-12-01,Columbia,total_count,46.0,-3.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2018-01-01,Columbia,total_count,49.5,3.5,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2018-02-01,Columbia,total_count,58.0,8.5,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2018-03-01,Columbia,total_count,60.91,2.9099999999999966,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2018-04-01,Columbia,total_count,45.75,-15.159999999999997,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2018-05-01,Columbia,total_count,45.5,-0.25,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2018-06-01,Columbia,total_count,53.28,7.780000000000001,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2018-07-01,Columbia,total_count,37.25,-16.03,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2018-08-01,Columbia,total_count,55.5,18.25,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2018-09-01,Columbia,total_count,26.25,-29.25,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2018-10-01,Columbia,total_count,34.0,7.75,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2018-11-01,Columbia,total_count,24.0,-10.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2018-12-01,Columbia,total_count,44.75,20.75,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2019-01-01,Columbia,total_count,53.25,8.5,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2019-02-01,Columbia,total_count,42.75,-10.5,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2019-03-01,Columbia,total_count,32.75,-10.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2019-04-01,Columbia,total_count,54.75,22.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2019-05-01,Columbia,total_count,60.5,5.75,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2019-06-01,Columbia,total_count,61.25,0.75,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2019-07-01,Columbia,total_count,51.5,-9.75,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2019-08-01,Columbia,total_count,46.0,-5.5,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2019-09-01,Columbia,total_count,49.0,3.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2019-10-01,Columbia,total_count,67.0,18.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2019-11-01,Columbia,total_count,37.75,-29.25,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2019-12-01,Columbia,total_count,37.75,0.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2020-01-01,Columbia,total_count,40.75,3.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2020-02-01,Columbia,total_count,46.5,5.75,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2020-03-01,Columbia,total_count,24.25,-22.25,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2020-04-01,Columbia,total_count,52.0,27.75,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2020-05-01,Columbia,total_count,51.0,-1.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2020-06-01,Columbia,total_count,58.75,7.75,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2020-07-01,Columbia,total_count,56.28,-2.469999999999999,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2020-08-01,Columbia,total_count,48.0,-8.280000000000001,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2020-09-01,Columbia,total_count,56.0,8.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2020-10-01,Columbia,total_count,41.75,-14.25,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2020-11-01,Columbia,total_count,54.75,13.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2020-12-01,Columbia,total_count,53.0,-1.75,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2021-01-01,Columbia,total_count,54.5,1.5,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2021-02-01,Columbia,total_count,47.03,-7.469999999999999,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2021-03-01,Columbia,total_count,44.75,-2.280000000000001,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2021-04-01,Columbia,total_count,42.0,-2.75,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2021-05-01,Columbia,total_count,59.5,17.5,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2021-06-01,Columbia,total_count,53.28,-6.219999999999999,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2021-07-01,Columbia,total_count,57.0,3.719999999999999,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2021-08-01,Columbia,total_count,59.5,2.5,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2021-09-01,Columbia,total_count,80.25,20.75,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2021-10-01,Columbia,total_count,56.5,-23.75,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2021-11-01,Columbia,total_count,60.25,3.75,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2021-12-01,Columbia,total_count,59.25,-1.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2022-01-01,Columbia,total_count,61.25,2.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2022-02-01,Columbia,total_count,70.75,9.5,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2022-03-01,Columbia,total_count,62.5,-8.25,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2022-04-01,Columbia,total_count,62.75,0.25,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2022-05-01,Columbia,total_count,47.0,-15.75,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2022-06-01,Columbia,total_count,84.5,37.5,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2022-07-01,Columbia,total_count,34.75,-49.75,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2022-08-01,Columbia,total_count,56.25,21.5,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2022-09-01,Columbia,total_count,31.0,-25.25,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2022-10-01,Columbia,total_count,29.0,-2.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2022-11-01,Columbia,total_count,33.25,4.25,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2022-12-01,Columbia,total_count,27.25,-6.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2023-01-01,Columbia,total_count,36.28,9.030000000000001,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2023-02-01,Columbia,total_count,47.5,11.219999999999999,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2023-03-01,Columbia,total_count,45.0,-2.5,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2023-04-01,Columbia,total_count,45.75,0.75,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2023-05-01,Columbia,total_count,38.0,-7.75,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2023-06-01,Columbia,total_count,34.25,-3.75,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2023-07-01,Columbia,total_count,20.5,-13.75,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2023-08-01,Columbia,total_count,13.75,-6.75,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2023-09-01,Columbia,total_count,29.75,16.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2023-10-01,Columbia,total_count,27.5,-2.25,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2023-11-01,Columbia,total_count,37.25,9.75,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2023-12-01,Columbia,total_count,28.5,-8.75,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2024-01-01,Columbia,total_count,33.5,5.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2024-02-01,Columbia,total_count,40.25,6.75,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2024-03-01,Columbia,total_count,41.25,1.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2024-04-01,Columbia,total_count,34.25,-7.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2024-05-01,Columbia,total_count,35.5,1.25,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2024-06-01,Columbia,total_count,40.25,4.75,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2024-07-01,Columbia,total_count,32.75,-7.5,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2024-08-01,Columbia,total_count,34.75,2.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2024-09-01,Columbia,total_count,24.25,-10.5,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2024-10-01,Columbia,total_count,33.5,9.25,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2024-11-01,Columbia,total_count,45.25,11.75,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2024-12-01,Columbia,total_count,40.0,-5.25,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2025-01-01,Columbia,total_count,37.25,-2.75,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2025-02-01,Columbia,total_count,39.0,1.75,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2025-03-01,Columbia,total_count,14.0,-25.0,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2025-04-01,Columbia,total_count,28.75,14.75,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2025-05-01,Columbia,total_count,33.25,4.5,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2025-06-01,Columbia,total_count,21.0,-12.25,observed,False,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2025-07-01,Columbia,total_count,24.107608695652175,3.107608695652175,interpolated,True,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2025-08-01,Columbia,total_count,27.318804347826088,3.211195652173913,interpolated,True,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2025-09-01,Columbia,total_count,30.53,3.211195652173913,observed,True,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2025-10-01,Columbia,total_count,30.84978021978022,0.3197802197802204,interpolated,True,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2025-11-01,Columbia,total_count,31.18021978021978,0.330439560439558,interpolated,True,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2025-12-01,Columbia,total_count,31.5,0.3197802197802204,observed,True,first_difference,False,1,0,12,3.077794112045384e-14,0.1,consensus_stationary,1,1,0,0
+2017-02-01,Cortez,total_count,42.0,10.0,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2017-03-01,Cortez,total_count,37.0,-5.0,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2017-04-01,Cortez,total_count,26.0,-11.0,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2017-05-01,Cortez,total_count,49.0,23.0,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2017-06-01,Cortez,total_count,57.0,8.0,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2017-07-01,Cortez,total_count,64.0,7.0,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2017-08-01,Cortez,total_count,71.0,7.0,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2017-09-01,Cortez,total_count,95.0,24.0,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2017-10-01,Cortez,total_count,78.0,-17.0,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2017-11-01,Cortez,total_count,58.0,-20.0,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2017-12-01,Cortez,total_count,53.0,-5.0,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2018-01-01,Cortez,total_count,61.25,8.25,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2018-02-01,Cortez,total_count,56.41,-4.840000000000003,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2018-03-01,Cortez,total_count,71.8,15.39,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2018-04-01,Cortez,total_count,44.16,-27.64,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2018-05-01,Cortez,total_count,51.5,7.340000000000003,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2018-06-01,Cortez,total_count,40.25,-11.25,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2018-07-01,Cortez,total_count,47.0,6.75,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2018-08-01,Cortez,total_count,54.25,7.25,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2018-09-01,Cortez,total_count,31.75,-22.5,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2018-10-01,Cortez,total_count,16.0,-15.75,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2018-11-01,Cortez,total_count,46.0,30.0,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2018-12-01,Cortez,total_count,39.75,-6.25,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2019-01-01,Cortez,total_count,54.0,14.25,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2019-02-01,Cortez,total_count,32.75,-21.25,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2019-03-01,Cortez,total_count,52.5,19.75,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2019-04-01,Cortez,total_count,43.5,-9.0,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2019-05-01,Cortez,total_count,45.25,1.75,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2019-06-01,Cortez,total_count,45.75,0.5,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2019-07-01,Cortez,total_count,70.75,25.0,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2019-08-01,Cortez,total_count,30.75,-40.0,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2019-09-01,Cortez,total_count,55.0,24.25,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2019-10-01,Cortez,total_count,39.25,-15.75,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2019-11-01,Cortez,total_count,25.5,-13.75,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2019-12-01,Cortez,total_count,25.5,0.0,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2020-01-01,Cortez,total_count,48.06,22.560000000000002,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2020-02-01,Cortez,total_count,49.0,0.9399999999999977,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2020-03-01,Cortez,total_count,27.5,-21.5,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2020-04-01,Cortez,total_count,23.5,-4.0,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2020-05-01,Cortez,total_count,24.0,0.5,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2020-06-01,Cortez,total_count,39.0,15.0,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2020-07-01,Cortez,total_count,23.75,-15.25,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2020-08-01,Cortez,total_count,22.0,-1.75,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2020-09-01,Cortez,total_count,17.0,-5.0,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2020-10-01,Cortez,total_count,33.0,16.0,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2020-11-01,Cortez,total_count,23.0,-10.0,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2020-12-01,Cortez,total_count,52.25,29.25,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2021-01-01,Cortez,total_count,47.0,-5.25,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2021-02-01,Cortez,total_count,44.25,-2.75,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2021-03-01,Cortez,total_count,30.0,-14.25,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2021-04-01,Cortez,total_count,32.0,2.0,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2021-05-01,Cortez,total_count,29.75,-2.25,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2021-06-01,Cortez,total_count,27.0,-2.75,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2021-07-01,Cortez,total_count,43.53,16.53,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2021-08-01,Cortez,total_count,34.0,-9.530000000000001,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2021-09-01,Cortez,total_count,28.75,-5.25,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2021-10-01,Cortez,total_count,34.5,5.75,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2021-11-01,Cortez,total_count,31.0,-3.5,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2021-12-01,Cortez,total_count,45.5,14.5,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2022-01-01,Cortez,total_count,92.09,46.59,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2022-02-01,Cortez,total_count,118.4,26.310000000000002,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2022-03-01,Cortez,total_count,36.25,-82.15,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2022-04-01,Cortez,total_count,72.87,36.620000000000005,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2022-05-01,Cortez,total_count,60.28,-12.590000000000003,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2022-06-01,Cortez,total_count,51.31,-8.969999999999999,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2022-07-01,Cortez,total_count,89.53,38.22,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2022-08-01,Cortez,total_count,83.03,-6.5,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2022-09-01,Cortez,total_count,76.5,-6.530000000000001,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2022-10-01,Cortez,total_count,89.78,13.280000000000001,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2022-11-01,Cortez,total_count,113.68,23.900000000000006,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2022-12-01,Cortez,total_count,107.09,-6.590000000000003,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2023-01-01,Cortez,total_count,129.4,22.310000000000002,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2023-02-01,Cortez,total_count,98.31,-31.090000000000003,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2023-03-01,Cortez,total_count,99.53,1.2199999999999989,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2023-04-01,Cortez,total_count,113.28,13.75,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2023-05-01,Cortez,total_count,121.25,7.969999999999999,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2023-06-01,Cortez,total_count,108.5,-12.75,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2023-07-01,Cortez,total_count,104.25,-4.25,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2023-08-01,Cortez,total_count,65.25,-39.0,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2023-09-01,Cortez,total_count,102.75,37.5,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2023-10-01,Cortez,total_count,63.28,-39.47,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2023-11-01,Cortez,total_count,94.53,31.25,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2023-12-01,Cortez,total_count,104.75,10.219999999999999,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2024-01-01,Cortez,total_count,154.34,49.59,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2024-02-01,Cortez,total_count,170.46,16.120000000000005,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2024-03-01,Cortez,total_count,76.25,-94.21000000000001,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2024-04-01,Cortez,total_count,74.75,-1.5,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2024-05-01,Cortez,total_count,50.75,-24.0,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2024-06-01,Cortez,total_count,58.75,8.0,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2024-07-01,Cortez,total_count,69.0,10.25,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2024-08-01,Cortez,total_count,48.75,-20.25,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2024-09-01,Cortez,total_count,68.28,19.53,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2024-10-01,Cortez,total_count,69.0,0.7199999999999989,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2024-11-01,Cortez,total_count,69.03,0.030000000000001137,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2024-12-01,Cortez,total_count,73.81,4.780000000000001,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2025-01-01,Cortez,total_count,49.53,-24.28,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2025-02-01,Cortez,total_count,63.0,13.469999999999999,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2025-03-01,Cortez,total_count,34.25,-28.75,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2025-04-01,Cortez,total_count,77.28,43.03,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2025-05-01,Cortez,total_count,74.28,-3.0,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2025-06-01,Cortez,total_count,43.75,-30.53,observed,False,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2025-07-01,Cortez,total_count,44.004347826086956,0.2543478260869563,interpolated,True,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2025-08-01,Cortez,total_count,44.26717391304348,0.26282608695652243,interpolated,True,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2025-09-01,Cortez,total_count,44.53,0.26282608695652243,observed,True,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2025-10-01,Cortez,total_count,57.08714285714286,12.557142857142857,interpolated,True,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2025-11-01,Cortez,total_count,70.06285714285714,12.975714285714282,interpolated,True,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2025-12-01,Cortez,total_count,82.62,12.557142857142864,observed,True,first_difference,False,1,0,12,4.560723003313291e-11,0.1,consensus_stationary,1,1,0,0
+2017-02-01,East Village,total_count,663.0,34.0,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2017-03-01,East Village,total_count,783.0,120.0,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2017-04-01,East Village,total_count,598.0,-185.0,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2017-05-01,East Village,total_count,548.0,-50.0,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2017-06-01,East Village,total_count,781.0,233.0,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2017-07-01,East Village,total_count,734.0,-47.0,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2017-08-01,East Village,total_count,885.0,151.0,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2017-09-01,East Village,total_count,768.0,-117.0,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2017-10-01,East Village,total_count,649.0,-119.0,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2017-11-01,East Village,total_count,580.0,-69.0,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2017-12-01,East Village,total_count,663.0,83.0,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2018-01-01,East Village,total_count,494.58,-168.42000000000002,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2018-02-01,East Village,total_count,474.38,-20.19999999999999,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2018-03-01,East Village,total_count,593.68,119.29999999999995,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2018-04-01,East Village,total_count,501.74,-91.93999999999994,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2018-05-01,East Village,total_count,523.16,21.41999999999996,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2018-06-01,East Village,total_count,459.3,-63.85999999999996,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2018-07-01,East Village,total_count,621.03,161.72999999999996,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2018-08-01,East Village,total_count,581.51,-39.51999999999998,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2018-09-01,East Village,total_count,500.46,-81.05000000000001,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2018-10-01,East Village,total_count,504.12,3.660000000000025,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2018-11-01,East Village,total_count,473.0,-31.120000000000005,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2018-12-01,East Village,total_count,481.9,8.899999999999977,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2019-01-01,East Village,total_count,543.46,61.56000000000006,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2019-02-01,East Village,total_count,497.33,-46.13000000000005,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2019-03-01,East Village,total_count,427.86,-69.46999999999997,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2019-04-01,East Village,total_count,505.61,77.75,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2019-05-01,East Village,total_count,505.58,-0.03000000000002956,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2019-06-01,East Village,total_count,472.14,-33.44,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2019-07-01,East Village,total_count,604.38,132.24,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2019-08-01,East Village,total_count,469.68,-134.7,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2019-09-01,East Village,total_count,533.45,63.77000000000004,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2019-10-01,East Village,total_count,485.01,-48.440000000000055,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2019-11-01,East Village,total_count,415.68,-69.32999999999998,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2019-12-01,East Village,total_count,370.0,-45.68000000000001,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2020-01-01,East Village,total_count,467.3,97.30000000000001,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2020-02-01,East Village,total_count,409.18,-58.120000000000005,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2020-03-01,East Village,total_count,260.59,-148.59000000000003,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2020-04-01,East Village,total_count,330.46,69.87,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2020-05-01,East Village,total_count,332.09,1.6299999999999955,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2020-06-01,East Village,total_count,417.86,85.77000000000004,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2020-07-01,East Village,total_count,397.71,-20.150000000000034,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2020-08-01,East Village,total_count,325.9,-71.81,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2020-09-01,East Village,total_count,447.18,121.28000000000003,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2020-10-01,East Village,total_count,400.96,-46.22000000000003,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2020-11-01,East Village,total_count,429.55,28.590000000000032,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2020-12-01,East Village,total_count,334.15,-95.40000000000003,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2021-01-01,East Village,total_count,409.12,74.97000000000003,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2021-02-01,East Village,total_count,381.26,-27.860000000000014,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2021-03-01,East Village,total_count,439.43,58.170000000000016,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2021-04-01,East Village,total_count,401.68,-37.75,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2021-05-01,East Village,total_count,512.74,111.06,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2021-06-01,East Village,total_count,499.4,-13.340000000000032,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2021-07-01,East Village,total_count,464.52,-34.879999999999995,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2021-08-01,East Village,total_count,469.39,4.8700000000000045,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2021-09-01,East Village,total_count,437.96,-31.430000000000007,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2021-10-01,East Village,total_count,541.45,103.49000000000007,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2021-11-01,East Village,total_count,540.73,-0.7200000000000273,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2021-12-01,East Village,total_count,611.88,71.14999999999998,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2022-01-01,East Village,total_count,678.17,66.28999999999996,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2022-02-01,East Village,total_count,740.6,62.430000000000064,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2022-03-01,East Village,total_count,622.36,-118.24000000000001,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2022-04-01,East Village,total_count,655.71,33.35000000000002,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2022-05-01,East Village,total_count,623.93,-31.780000000000086,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2022-06-01,East Village,total_count,711.97,88.04000000000008,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2022-07-01,East Village,total_count,598.45,-113.51999999999998,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2022-08-01,East Village,total_count,789.53,191.07999999999993,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2022-09-01,East Village,total_count,845.66,56.129999999999995,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2022-10-01,East Village,total_count,703.72,-141.93999999999994,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2022-11-01,East Village,total_count,759.63,55.90999999999997,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2022-12-01,East Village,total_count,849.72,90.09000000000003,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2023-01-01,East Village,total_count,794.25,-55.47000000000003,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2023-02-01,East Village,total_count,791.34,-2.909999999999968,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2023-03-01,East Village,total_count,664.52,-126.82000000000005,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2023-04-01,East Village,total_count,822.55,158.02999999999997,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2023-05-01,East Village,total_count,916.99,94.44000000000005,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2023-06-01,East Village,total_count,728.4,-188.59000000000003,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2023-07-01,East Village,total_count,921.05,192.64999999999998,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2023-08-01,East Village,total_count,860.68,-60.370000000000005,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2023-09-01,East Village,total_count,906.33,45.65000000000009,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2023-10-01,East Village,total_count,869.3,-37.030000000000086,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2023-11-01,East Village,total_count,678.68,-190.62,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2023-12-01,East Village,total_count,498.0,-180.67999999999995,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2024-01-01,East Village,total_count,529.8,31.799999999999955,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2024-02-01,East Village,total_count,552.77,22.970000000000027,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2024-03-01,East Village,total_count,379.74,-173.02999999999997,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2024-04-01,East Village,total_count,366.43,-13.310000000000002,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2024-05-01,East Village,total_count,407.31,40.879999999999995,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2024-06-01,East Village,total_count,450.78,43.46999999999997,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2024-07-01,East Village,total_count,457.59,6.810000000000002,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2024-08-01,East Village,total_count,449.12,-8.46999999999997,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2024-09-01,East Village,total_count,445.4,-3.7200000000000273,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2024-10-01,East Village,total_count,395.93,-49.46999999999997,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2024-11-01,East Village,total_count,390.18,-5.75,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2024-12-01,East Village,total_count,491.74,101.56,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2025-01-01,East Village,total_count,443.24,-48.5,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2025-02-01,East Village,total_count,411.18,-32.06,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2025-03-01,East Village,total_count,413.37,2.1899999999999977,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2025-04-01,East Village,total_count,401.21,-12.160000000000025,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2025-05-01,East Village,total_count,404.59,3.3799999999999955,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2025-06-01,East Village,total_count,407.62,3.0300000000000296,observed,False,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2025-07-01,East Village,total_count,419.8091304347826,12.189130434782612,interpolated,True,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2025-08-01,East Village,total_count,432.4045652173913,12.595434782608663,interpolated,True,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2025-09-01,East Village,total_count,445.0,12.59543478260872,observed,True,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2025-10-01,East Village,total_count,481.23736263736265,36.23736263736265,interpolated,True,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2025-11-01,East Village,total_count,518.6826373626374,37.445274725274714,interpolated,True,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2025-12-01,East Village,total_count,554.92,36.237362637362594,observed,True,first_difference,False,1,0,12,1.235292361232616e-17,0.1,consensus_stationary,2,1,0,0
+2017-02-01,Gaslamp,total_count,57.0,15.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2017-03-01,Gaslamp,total_count,40.0,-17.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2017-04-01,Gaslamp,total_count,43.0,3.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2017-05-01,Gaslamp,total_count,49.0,6.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2017-06-01,Gaslamp,total_count,54.0,5.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2017-07-01,Gaslamp,total_count,48.0,-6.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2017-08-01,Gaslamp,total_count,66.0,18.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2017-09-01,Gaslamp,total_count,85.0,19.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2017-10-01,Gaslamp,total_count,56.0,-29.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2017-11-01,Gaslamp,total_count,42.0,-14.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2017-12-01,Gaslamp,total_count,55.0,13.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2018-01-01,Gaslamp,total_count,44.0,-11.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2018-02-01,Gaslamp,total_count,84.0,40.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2018-03-01,Gaslamp,total_count,93.0,9.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2018-04-01,Gaslamp,total_count,51.0,-42.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2018-05-01,Gaslamp,total_count,67.53,16.53,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2018-06-01,Gaslamp,total_count,39.0,-28.53,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2018-07-01,Gaslamp,total_count,45.0,6.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2018-08-01,Gaslamp,total_count,55.0,10.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2018-09-01,Gaslamp,total_count,52.75,-2.25,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2018-10-01,Gaslamp,total_count,52.0,-0.75,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2018-11-01,Gaslamp,total_count,69.0,17.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2018-12-01,Gaslamp,total_count,39.75,-29.25,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2019-01-01,Gaslamp,total_count,58.5,18.75,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2019-02-01,Gaslamp,total_count,67.75,9.25,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2019-03-01,Gaslamp,total_count,59.0,-8.75,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2019-04-01,Gaslamp,total_count,36.0,-23.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2019-05-01,Gaslamp,total_count,65.0,29.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2019-06-01,Gaslamp,total_count,54.0,-11.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2019-07-01,Gaslamp,total_count,51.75,-2.25,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2019-08-01,Gaslamp,total_count,61.25,9.5,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2019-09-01,Gaslamp,total_count,76.75,15.5,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2019-10-01,Gaslamp,total_count,60.5,-16.25,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2019-11-01,Gaslamp,total_count,61.5,1.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2019-12-01,Gaslamp,total_count,35.0,-26.5,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2020-01-01,Gaslamp,total_count,58.75,23.75,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2020-02-01,Gaslamp,total_count,51.5,-7.25,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2020-03-01,Gaslamp,total_count,62.25,10.75,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2020-04-01,Gaslamp,total_count,43.75,-18.5,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2020-05-01,Gaslamp,total_count,42.25,-1.5,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2020-06-01,Gaslamp,total_count,37.0,-5.25,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2020-07-01,Gaslamp,total_count,46.0,9.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2020-08-01,Gaslamp,total_count,38.75,-7.25,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2020-09-01,Gaslamp,total_count,46.75,8.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2020-10-01,Gaslamp,total_count,34.5,-12.25,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2020-11-01,Gaslamp,total_count,30.5,-4.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2020-12-01,Gaslamp,total_count,37.75,7.25,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2021-01-01,Gaslamp,total_count,30.75,-7.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2021-02-01,Gaslamp,total_count,31.75,1.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2021-03-01,Gaslamp,total_count,29.75,-2.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2021-04-01,Gaslamp,total_count,28.75,-1.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2021-05-01,Gaslamp,total_count,35.0,6.25,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2021-06-01,Gaslamp,total_count,43.0,8.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2021-07-01,Gaslamp,total_count,21.0,-22.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2021-08-01,Gaslamp,total_count,31.0,10.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2021-09-01,Gaslamp,total_count,43.75,12.75,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2021-10-01,Gaslamp,total_count,50.75,7.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2021-11-01,Gaslamp,total_count,46.25,-4.5,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2021-12-01,Gaslamp,total_count,59.25,13.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2022-01-01,Gaslamp,total_count,63.5,4.25,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2022-02-01,Gaslamp,total_count,40.78,-22.72,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2022-03-01,Gaslamp,total_count,69.5,28.72,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2022-04-01,Gaslamp,total_count,44.0,-25.5,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2022-05-01,Gaslamp,total_count,43.75,-0.25,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2022-06-01,Gaslamp,total_count,50.0,6.25,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2022-07-01,Gaslamp,total_count,27.75,-22.25,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2022-08-01,Gaslamp,total_count,44.0,16.25,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2022-09-01,Gaslamp,total_count,62.25,18.25,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2022-10-01,Gaslamp,total_count,60.0,-2.25,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2022-11-01,Gaslamp,total_count,54.25,-5.75,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2022-12-01,Gaslamp,total_count,66.5,12.25,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2023-01-01,Gaslamp,total_count,45.5,-21.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2023-02-01,Gaslamp,total_count,45.5,0.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2023-03-01,Gaslamp,total_count,64.0,18.5,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2023-04-01,Gaslamp,total_count,45.75,-18.25,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2023-05-01,Gaslamp,total_count,57.0,11.25,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2023-06-01,Gaslamp,total_count,18.5,-38.5,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2023-07-01,Gaslamp,total_count,25.0,6.5,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2023-08-01,Gaslamp,total_count,44.0,19.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2023-09-01,Gaslamp,total_count,50.75,6.75,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2023-10-01,Gaslamp,total_count,51.75,1.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2023-11-01,Gaslamp,total_count,36.0,-15.75,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2023-12-01,Gaslamp,total_count,31.0,-5.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2024-01-01,Gaslamp,total_count,47.0,16.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2024-02-01,Gaslamp,total_count,54.75,7.75,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2024-03-01,Gaslamp,total_count,36.0,-18.75,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2024-04-01,Gaslamp,total_count,51.75,15.75,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2024-05-01,Gaslamp,total_count,76.75,25.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2024-06-01,Gaslamp,total_count,56.0,-20.75,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2024-07-01,Gaslamp,total_count,54.0,-2.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2024-08-01,Gaslamp,total_count,37.0,-17.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2024-09-01,Gaslamp,total_count,45.75,8.75,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2024-10-01,Gaslamp,total_count,35.0,-10.75,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2024-11-01,Gaslamp,total_count,40.0,5.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2024-12-01,Gaslamp,total_count,41.75,1.75,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2025-01-01,Gaslamp,total_count,41.0,-0.75,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2025-02-01,Gaslamp,total_count,27.0,-14.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2025-03-01,Gaslamp,total_count,31.75,4.75,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2025-04-01,Gaslamp,total_count,40.0,8.25,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2025-05-01,Gaslamp,total_count,23.0,-17.0,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2025-06-01,Gaslamp,total_count,39.75,16.75,observed,False,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2025-07-01,Gaslamp,total_count,43.744565217391305,3.9945652173913047,interpolated,True,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2025-08-01,Gaslamp,total_count,47.87228260869565,4.127717391304344,interpolated,True,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2025-09-01,Gaslamp,total_count,52.0,4.127717391304351,observed,True,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2025-10-01,Gaslamp,total_count,48.7032967032967,-3.296703296703299,interpolated,True,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2025-11-01,Gaslamp,total_count,45.2967032967033,-3.4065934065934016,interpolated,True,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2025-12-01,Gaslamp,total_count,42.0,-3.296703296703299,observed,True,first_difference,False,1,0,12,1.6200548833249833e-12,0.1,consensus_stationary,2,1,0,0
+2017-02-01,Marina,total_count,62.0,36.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2017-03-01,Marina,total_count,56.0,-6.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2017-04-01,Marina,total_count,41.0,-15.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2017-05-01,Marina,total_count,42.0,1.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2017-06-01,Marina,total_count,50.0,8.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2017-07-01,Marina,total_count,49.0,-1.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2017-08-01,Marina,total_count,74.0,25.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2017-09-01,Marina,total_count,72.0,-2.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2017-10-01,Marina,total_count,79.0,7.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2017-11-01,Marina,total_count,50.0,-29.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2017-12-01,Marina,total_count,49.0,-1.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2018-01-01,Marina,total_count,31.16,-17.84,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2018-02-01,Marina,total_count,33.82,2.66,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2018-03-01,Marina,total_count,31.91,-1.9100000000000001,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2018-04-01,Marina,total_count,36.66,4.7499999999999964,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2018-05-01,Marina,total_count,34.53,-2.1299999999999955,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2018-06-01,Marina,total_count,49.75,15.219999999999999,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2018-07-01,Marina,total_count,36.5,-13.25,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2018-08-01,Marina,total_count,72.59,36.09,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2018-09-01,Marina,total_count,46.0,-26.590000000000003,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2018-10-01,Marina,total_count,28.5,-17.5,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2018-11-01,Marina,total_count,41.0,12.5,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2018-12-01,Marina,total_count,52.0,11.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2019-01-01,Marina,total_count,56.5,4.5,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2019-02-01,Marina,total_count,48.75,-7.75,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2019-03-01,Marina,total_count,30.0,-18.75,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2019-04-01,Marina,total_count,33.28,3.280000000000001,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2019-05-01,Marina,total_count,38.0,4.719999999999999,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2019-06-01,Marina,total_count,35.0,-3.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2019-07-01,Marina,total_count,35.75,0.75,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2019-08-01,Marina,total_count,38.75,3.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2019-09-01,Marina,total_count,40.0,1.25,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2019-10-01,Marina,total_count,31.0,-9.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2019-11-01,Marina,total_count,33.25,2.25,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2019-12-01,Marina,total_count,33.25,0.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2020-01-01,Marina,total_count,48.28,15.030000000000001,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2020-02-01,Marina,total_count,26.78,-21.5,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2020-03-01,Marina,total_count,20.25,-6.530000000000001,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2020-04-01,Marina,total_count,24.0,3.75,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2020-05-01,Marina,total_count,23.5,-0.5,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2020-06-01,Marina,total_count,28.5,5.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2020-07-01,Marina,total_count,27.5,-1.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2020-08-01,Marina,total_count,21.0,-6.5,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2020-09-01,Marina,total_count,27.25,6.25,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2020-10-01,Marina,total_count,16.5,-10.75,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2020-11-01,Marina,total_count,34.5,18.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2020-12-01,Marina,total_count,11.0,-23.5,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2021-01-01,Marina,total_count,20.0,9.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2021-02-01,Marina,total_count,24.0,4.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2021-03-01,Marina,total_count,26.25,2.25,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2021-04-01,Marina,total_count,15.75,-10.5,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2021-05-01,Marina,total_count,24.0,8.25,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2021-06-01,Marina,total_count,21.75,-2.25,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2021-07-01,Marina,total_count,22.03,0.28000000000000114,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2021-08-01,Marina,total_count,29.75,7.719999999999999,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2021-09-01,Marina,total_count,29.25,-0.5,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2021-10-01,Marina,total_count,30.06,0.8099999999999987,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2021-11-01,Marina,total_count,41.5,11.440000000000001,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2021-12-01,Marina,total_count,40.0,-1.5,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2022-01-01,Marina,total_count,41.78,1.7800000000000011,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2022-02-01,Marina,total_count,17.75,-24.03,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2022-03-01,Marina,total_count,36.75,19.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2022-04-01,Marina,total_count,43.62,6.869999999999997,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2022-05-01,Marina,total_count,10.03,-33.589999999999996,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2022-06-01,Marina,total_count,51.81,41.78,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2022-07-01,Marina,total_count,4.06,-47.75,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2022-08-01,Marina,total_count,43.56,39.5,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2022-09-01,Marina,total_count,21.25,-22.310000000000002,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2022-10-01,Marina,total_count,26.75,5.5,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2022-11-01,Marina,total_count,43.56,16.810000000000002,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2022-12-01,Marina,total_count,26.0,-17.560000000000002,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2023-01-01,Marina,total_count,23.06,-2.9400000000000013,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2023-02-01,Marina,total_count,25.03,1.9700000000000024,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2023-03-01,Marina,total_count,21.0,-4.030000000000001,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2023-04-01,Marina,total_count,33.0,12.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2023-05-01,Marina,total_count,50.75,17.75,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2023-06-01,Marina,total_count,16.75,-34.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2023-07-01,Marina,total_count,12.25,-4.5,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2023-08-01,Marina,total_count,20.0,7.75,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2023-09-01,Marina,total_count,13.0,-7.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2023-10-01,Marina,total_count,22.25,9.25,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2023-11-01,Marina,total_count,12.75,-9.5,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2023-12-01,Marina,total_count,16.75,4.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2024-01-01,Marina,total_count,19.0,2.25,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2024-02-01,Marina,total_count,16.75,-2.25,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2024-03-01,Marina,total_count,21.25,4.5,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2024-04-01,Marina,total_count,13.25,-8.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2024-05-01,Marina,total_count,16.25,3.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2024-06-01,Marina,total_count,24.75,8.5,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2024-07-01,Marina,total_count,11.0,-13.75,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2024-08-01,Marina,total_count,26.0,15.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2024-09-01,Marina,total_count,24.03,-1.9699999999999989,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2024-10-01,Marina,total_count,11.0,-13.030000000000001,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2024-11-01,Marina,total_count,25.75,14.75,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2024-12-01,Marina,total_count,13.78,-11.97,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2025-01-01,Marina,total_count,17.0,3.2200000000000006,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2025-02-01,Marina,total_count,16.5,-0.5,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2025-03-01,Marina,total_count,16.03,-0.46999999999999886,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2025-04-01,Marina,total_count,6.75,-9.280000000000001,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2025-05-01,Marina,total_count,7.75,1.0,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2025-06-01,Marina,total_count,11.0,3.25,observed,False,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2025-07-01,Marina,total_count,15.23913043478261,4.239130434782609,interpolated,True,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2025-08-01,Marina,total_count,19.619565217391305,4.380434782608695,interpolated,True,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2025-09-01,Marina,total_count,24.0,4.380434782608695,observed,True,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2025-10-01,Marina,total_count,19.714285714285715,-4.285714285714285,interpolated,True,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2025-11-01,Marina,total_count,15.285714285714286,-4.428571428571429,interpolated,True,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2025-12-01,Marina,total_count,11.0,-4.2857142857142865,observed,True,first_difference,False,1,0,12,1.2721273118332403e-12,0.1,consensus_stationary,1,1,0,0
+2021-01-01,Outside Perimeter,total_count,0.0,0.0,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2021-02-01,Outside Perimeter,total_count,0.0,0.0,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2021-03-01,Outside Perimeter,total_count,0.0,0.0,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2021-04-01,Outside Perimeter,total_count,221.0,5.402677381872279,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2021-05-01,Outside Perimeter,total_count,357.0,5.8805329864007,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2021-06-01,Outside Perimeter,total_count,373.0,5.924255797414532,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2021-07-01,Outside Perimeter,total_count,273.0,5.6131281063880705,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2021-08-01,Outside Perimeter,total_count,250.0,5.5254529391317835,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2021-09-01,Outside Perimeter,total_count,83.0,4.430816798843313,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2021-10-01,Outside Perimeter,total_count,167.0,5.123963979403259,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2021-11-01,Outside Perimeter,total_count,223.0,5.4116460518550396,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2021-12-01,Outside Perimeter,total_count,252.0,5.53338948872752,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2022-01-01,Outside Perimeter,total_count,259.0,5.560681631015528,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2022-02-01,Outside Perimeter,total_count,270.0,5.602118820879701,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2022-03-01,Outside Perimeter,total_count,342.0,5.8377304471659395,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2022-04-01,Outside Perimeter,total_count,320.0,5.771441123130016,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2022-05-01,Outside Perimeter,total_count,315.0,5.755742213586912,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2022-06-01,Outside Perimeter,total_count,262.0,5.572154032177765,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2022-07-01,Outside Perimeter,total_count,256.0,5.54907608489522,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2022-08-01,Outside Perimeter,total_count,324.0,5.783825182329737,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2022-09-01,Outside Perimeter,total_count,351.0,5.863631175598097,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2022-10-01,Outside Perimeter,total_count,458.0,6.129050210060545,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2022-11-01,Outside Perimeter,total_count,466.0,6.1463292576688975,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2022-12-01,Outside Perimeter,total_count,491.0,6.198478716492308,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2023-01-01,Outside Perimeter,total_count,640.0,6.46302945692067,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2023-02-01,Outside Perimeter,total_count,520.0,6.255750041753367,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2023-03-01,Outside Perimeter,total_count,482.0,6.180016653652572,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2023-04-01,Outside Perimeter,total_count,607.0,6.410174881966167,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2023-05-01,Outside Perimeter,total_count,577.0,6.359573868672378,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2023-06-01,Outside Perimeter,total_count,581.0,6.366470447731438,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2023-07-01,Outside Perimeter,total_count,286.0,5.659482215759621,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2023-08-01,Outside Perimeter,total_count,79.0,4.382026634673881,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2023-09-01,Outside Perimeter,total_count,93.0,4.543294782270004,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2023-10-01,Outside Perimeter,total_count,56.0,4.04305126783455,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2023-11-01,Outside Perimeter,total_count,77.0,4.356708826689592,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2023-12-01,Outside Perimeter,total_count,37.0,3.6375861597263857,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2024-01-01,Outside Perimeter,total_count,37.0,3.6375861597263857,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2024-02-01,Outside Perimeter,total_count,56.0,4.04305126783455,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2024-03-01,Outside Perimeter,total_count,34.0,3.5553480614894135,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2024-04-01,Outside Perimeter,total_count,63.0,4.1588830833596715,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2024-05-01,Outside Perimeter,total_count,20.0,3.044522437723423,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2024-06-01,Outside Perimeter,total_count,16.0,2.833213344056216,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2024-07-01,Outside Perimeter,total_count,48.0,3.8918202981106265,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2024-08-01,Outside Perimeter,total_count,51.0,3.9512437185814275,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2024-09-01,Outside Perimeter,total_count,59.0,4.0943445622221,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2024-10-01,Outside Perimeter,total_count,96.0,4.574710978503383,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2024-11-01,Outside Perimeter,total_count,123.0,4.820281565605037,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2024-12-01,Outside Perimeter,total_count,177.0,5.181783550292085,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2025-01-01,Outside Perimeter,total_count,84.0,4.442651256490317,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2025-02-01,Outside Perimeter,total_count,253.0,5.537334267018537,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2025-03-01,Outside Perimeter,total_count,141.0,4.955827057601261,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2025-04-01,Outside Perimeter,total_count,194.0,5.272999558563747,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2025-05-01,Outside Perimeter,total_count,147.0,4.997212273764115,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2025-06-01,Outside Perimeter,total_count,104.0,4.653960350157523,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2025-07-01,Outside Perimeter,total_count,91.28260869565217,4.524855702256352,interpolated,True,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2025-08-01,Outside Perimeter,total_count,78.1413043478261,4.371234917345671,interpolated,True,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2025-09-01,Outside Perimeter,total_count,65.0,4.189654742026425,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2025-10-01,Outside Perimeter,total_count,65.98901098901099,4.204528590849632,interpolated,True,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2025-11-01,Outside Perimeter,total_count,67.01098901098901,4.219669295222511,interpolated,True,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2025-12-01,Outside Perimeter,total_count,68.0,4.23410650459726,observed,False,log1p_level,True,0,0,12,0.00022702730998105963,0.1,consensus_stationary,1,2,0,0
+2017-02-01,Overall - fixed core six,total_count,1027.0,145.0,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2017-03-01,Overall - fixed core six,total_count,1105.0,78.0,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2017-04-01,Overall - fixed core six,total_count,875.0,-230.0,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2017-05-01,Overall - fixed core six,total_count,892.0,17.0,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2017-06-01,Overall - fixed core six,total_count,1156.0,264.0,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2017-07-01,Overall - fixed core six,total_count,1100.0,-56.0,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2017-08-01,Overall - fixed core six,total_count,1335.0,235.0,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2017-09-01,Overall - fixed core six,total_count,1276.0,-59.0,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2017-10-01,Overall - fixed core six,total_count,1092.0,-184.0,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2017-11-01,Overall - fixed core six,total_count,941.0,-151.0,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2017-12-01,Overall - fixed core six,total_count,1013.0,72.0,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2018-01-01,Overall - fixed core six,total_count,803.4899999999999,-209.5100000000001,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2018-02-01,Overall - fixed core six,total_count,862.77,59.280000000000086,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2018-03-01,Overall - fixed core six,total_count,979.5499999999998,116.77999999999986,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2018-04-01,Overall - fixed core six,total_count,790.56,-188.9899999999999,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2018-05-01,Overall - fixed core six,total_count,901.78,111.22000000000003,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2018-06-01,Overall - fixed core six,total_count,759.14,-142.64,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2018-07-01,Overall - fixed core six,total_count,926.06,166.91999999999996,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2018-08-01,Overall - fixed core six,total_count,964.35,38.29000000000008,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2018-09-01,Overall - fixed core six,total_count,786.21,-178.14,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2018-10-01,Overall - fixed core six,total_count,738.12,-48.09000000000003,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2018-11-01,Overall - fixed core six,total_count,799.0,60.879999999999995,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2018-12-01,Overall - fixed core six,total_count,805.4,6.399999999999977,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2019-01-01,Overall - fixed core six,total_count,897.21,91.81000000000006,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2019-02-01,Overall - fixed core six,total_count,798.5799999999999,-98.63000000000011,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2019-03-01,Overall - fixed core six,total_count,732.11,-66.46999999999991,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2019-04-01,Overall - fixed core six,total_count,779.64,47.52999999999997,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2019-05-01,Overall - fixed core six,total_count,860.3299999999999,80.68999999999994,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2019-06-01,Overall - fixed core six,total_count,825.39,-34.93999999999994,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2019-07-01,Overall - fixed core six,total_count,960.63,135.24,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2019-08-01,Overall - fixed core six,total_count,769.9300000000001,-190.69999999999993,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2019-09-01,Overall - fixed core six,total_count,946.2,176.26999999999998,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2019-10-01,Overall - fixed core six,total_count,852.76,-93.44000000000005,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2019-11-01,Overall - fixed core six,total_count,676.9300000000001,-175.82999999999993,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2019-12-01,Overall - fixed core six,total_count,625.5,-51.430000000000064,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2020-01-01,Overall - fixed core six,total_count,789.1399999999999,163.63999999999987,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2020-02-01,Overall - fixed core six,total_count,742.46,-46.679999999999836,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2020-03-01,Overall - fixed core six,total_count,529.0899999999999,-213.37000000000012,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2020-04-01,Overall - fixed core six,total_count,564.71,35.62000000000012,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2020-05-01,Overall - fixed core six,total_count,594.87,30.159999999999968,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2020-06-01,Overall - fixed core six,total_count,721.11,126.24000000000001,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2020-07-01,Overall - fixed core six,total_count,671.99,-49.120000000000005,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2020-08-01,Overall - fixed core six,total_count,559.65,-112.34000000000003,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2020-09-01,Overall - fixed core six,total_count,718.71,159.06000000000006,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2020-10-01,Overall - fixed core six,total_count,637.49,-81.22000000000003,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2020-11-01,Overall - fixed core six,total_count,698.33,60.84000000000003,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2020-12-01,Overall - fixed core six,total_count,621.65,-76.68000000000006,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2021-01-01,Overall - fixed core six,total_count,714.4,92.75,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2021-02-01,Overall - fixed core six,total_count,667.8499999999999,-46.55000000000007,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2021-03-01,Overall - fixed core six,total_count,721.4300000000001,53.580000000000155,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2021-04-01,Overall - fixed core six,total_count,652.6800000000001,-68.75,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2021-05-01,Overall - fixed core six,total_count,798.52,145.83999999999992,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2021-06-01,Overall - fixed core six,total_count,787.43,-11.090000000000032,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2021-07-01,Overall - fixed core six,total_count,731.3599999999999,-56.07000000000005,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2021-08-01,Overall - fixed core six,total_count,775.73,44.37000000000012,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2021-09-01,Overall - fixed core six,total_count,715.96,-59.76999999999998,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2021-10-01,Overall - fixed core six,total_count,858.5699999999999,142.6099999999999,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2021-11-01,Overall - fixed core six,total_count,900.26,41.690000000000055,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2021-12-01,Overall - fixed core six,total_count,1001.19,100.93000000000006,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2022-01-01,Overall - fixed core six,total_count,1149.82,148.62999999999988,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2022-02-01,Overall - fixed core six,total_count,1174.31,24.49000000000001,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2022-03-01,Overall - fixed core six,total_count,1041.6100000000001,-132.69999999999982,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2022-04-01,Overall - fixed core six,total_count,1154.23,112.61999999999989,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2022-05-01,Overall - fixed core six,total_count,1008.7699999999999,-145.46000000000015,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2022-06-01,Overall - fixed core six,total_count,1190.34,181.57000000000005,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2022-07-01,Overall - fixed core six,total_count,988.79,-201.54999999999995,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2022-08-01,Overall - fixed core six,total_count,1284.1499999999999,295.3599999999999,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2022-09-01,Overall - fixed core six,total_count,1271.22,-12.929999999999836,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2022-10-01,Overall - fixed core six,total_count,1193.06,-78.16000000000008,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2022-11-01,Overall - fixed core six,total_count,1239.6200000000001,46.56000000000017,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2022-12-01,Overall - fixed core six,total_count,1347.37,107.74999999999977,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2023-01-01,Overall - fixed core six,total_count,1298.74,-48.62999999999988,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2023-02-01,Overall - fixed core six,total_count,1277.52,-21.220000000000027,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2023-03-01,Overall - fixed core six,total_count,1235.8,-41.72000000000003,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2023-04-01,Overall - fixed core six,total_count,1350.58,114.77999999999997,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2023-05-01,Overall - fixed core six,total_count,1526.3,175.72000000000003,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2023-06-01,Overall - fixed core six,total_count,1141.9,-384.39999999999986,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2023-07-01,Overall - fixed core six,total_count,1269.55,127.64999999999986,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2023-08-01,Overall - fixed core six,total_count,1206.4299999999998,-63.12000000000012,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2023-09-01,Overall - fixed core six,total_count,1275.1100000000001,68.68000000000029,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2023-10-01,Overall - fixed core six,total_count,1238.08,-37.0300000000002,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2023-11-01,Overall - fixed core six,total_count,1093.71,-144.3699999999999,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2023-12-01,Overall - fixed core six,total_count,808.25,-285.46000000000004,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2024-01-01,Overall - fixed core six,total_count,981.14,172.89,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2024-02-01,Overall - fixed core six,total_count,1006.48,25.340000000000032,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2024-03-01,Overall - fixed core six,total_count,774.99,-231.49,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2024-04-01,Overall - fixed core six,total_count,777.71,2.7200000000000273,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2024-05-01,Overall - fixed core six,total_count,805.81,28.09999999999991,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2024-06-01,Overall - fixed core six,total_count,829.28,23.470000000000027,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2024-07-01,Overall - fixed core six,total_count,832.12,2.840000000000032,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2024-08-01,Overall - fixed core six,total_count,804.6800000000001,-27.43999999999994,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2024-09-01,Overall - fixed core six,total_count,741.9599999999999,-62.72000000000014,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2024-10-01,Overall - fixed core six,total_count,771.1800000000001,29.22000000000014,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2024-11-01,Overall - fixed core six,total_count,720.71,-50.47000000000003,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2024-12-01,Overall - fixed core six,total_count,817.1700000000001,96.46000000000004,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2025-01-01,Overall - fixed core six,total_count,767.02,-50.15000000000009,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2025-02-01,Overall - fixed core six,total_count,732.1800000000001,-34.83999999999992,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2025-03-01,Overall - fixed core six,total_count,670.4,-61.780000000000086,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2025-04-01,Overall - fixed core six,total_count,707.99,37.59000000000003,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2025-05-01,Overall - fixed core six,total_count,690.4599999999999,-17.530000000000086,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2025-06-01,Overall - fixed core six,total_count,652.37,-38.08999999999992,observed,False,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2025-07-01,Overall - fixed core six,total_count,674.6058695652174,22.2358695652174,interpolated,True,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2025-08-01,Overall - fixed core six,total_count,697.5829347826086,22.977065217391214,interpolated,True,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2025-09-01,Overall - fixed core six,total_count,720.56,22.977065217391328,observed,True,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2025-10-01,Overall - fixed core six,total_count,785.4457142857143,64.88571428571436,interpolated,True,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2025-11-01,Overall - fixed core six,total_count,852.4942857142856,67.04857142857134,interpolated,True,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2025-12-01,Overall - fixed core six,total_count,917.38,64.88571428571436,observed,True,first_difference,False,1,0,12,0.006828053429364281,0.1,consensus_stationary,1,1,0,0
+2017-02-01,Overall - reported footprint,total_count,1027.0,145.0,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2017-03-01,Overall - reported footprint,total_count,1105.0,78.0,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2017-04-01,Overall - reported footprint,total_count,875.0,-230.0,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2017-05-01,Overall - reported footprint,total_count,892.0,17.0,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2017-06-01,Overall - reported footprint,total_count,1156.0,264.0,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2017-07-01,Overall - reported footprint,total_count,1100.0,-56.0,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2017-08-01,Overall - reported footprint,total_count,1335.0,235.0,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2017-09-01,Overall - reported footprint,total_count,1276.0,-59.0,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2017-10-01,Overall - reported footprint,total_count,1092.0,-184.0,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2017-11-01,Overall - reported footprint,total_count,941.0,-151.0,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2017-12-01,Overall - reported footprint,total_count,1013.0,72.0,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2018-01-01,Overall - reported footprint,total_count,803.4899999999999,-209.5100000000001,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2018-02-01,Overall - reported footprint,total_count,862.7700000000001,59.2800000000002,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2018-03-01,Overall - reported footprint,total_count,979.5499999999998,116.77999999999975,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2018-04-01,Overall - reported footprint,total_count,790.56,-188.9899999999999,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2018-05-01,Overall - reported footprint,total_count,901.78,111.22000000000003,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2018-06-01,Overall - reported footprint,total_count,759.14,-142.64,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2018-07-01,Overall - reported footprint,total_count,926.06,166.91999999999996,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2018-08-01,Overall - reported footprint,total_count,964.35,38.29000000000008,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2018-09-01,Overall - reported footprint,total_count,786.21,-178.14,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2018-10-01,Overall - reported footprint,total_count,738.12,-48.09000000000003,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2018-11-01,Overall - reported footprint,total_count,799.0,60.879999999999995,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2018-12-01,Overall - reported footprint,total_count,805.4,6.399999999999977,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2019-01-01,Overall - reported footprint,total_count,897.21,91.81000000000006,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2019-02-01,Overall - reported footprint,total_count,798.5799999999999,-98.63000000000011,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2019-03-01,Overall - reported footprint,total_count,732.11,-66.46999999999991,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2019-04-01,Overall - reported footprint,total_count,779.64,47.52999999999997,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2019-05-01,Overall - reported footprint,total_count,860.3299999999999,80.68999999999994,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2019-06-01,Overall - reported footprint,total_count,825.39,-34.93999999999994,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2019-07-01,Overall - reported footprint,total_count,960.63,135.24,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2019-08-01,Overall - reported footprint,total_count,769.9300000000001,-190.69999999999993,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2019-09-01,Overall - reported footprint,total_count,946.2,176.26999999999998,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2019-10-01,Overall - reported footprint,total_count,852.76,-93.44000000000005,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2019-11-01,Overall - reported footprint,total_count,676.9300000000001,-175.82999999999993,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2019-12-01,Overall - reported footprint,total_count,625.5,-51.430000000000064,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2020-01-01,Overall - reported footprint,total_count,789.14,163.64,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2020-02-01,Overall - reported footprint,total_count,742.46,-46.67999999999995,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2020-03-01,Overall - reported footprint,total_count,529.0899999999999,-213.37000000000012,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2020-04-01,Overall - reported footprint,total_count,564.71,35.62000000000012,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2020-05-01,Overall - reported footprint,total_count,594.87,30.159999999999968,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2020-06-01,Overall - reported footprint,total_count,721.11,126.24000000000001,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2020-07-01,Overall - reported footprint,total_count,671.99,-49.120000000000005,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2020-08-01,Overall - reported footprint,total_count,559.65,-112.34000000000003,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2020-09-01,Overall - reported footprint,total_count,718.71,159.06000000000006,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2020-10-01,Overall - reported footprint,total_count,637.49,-81.22000000000003,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2020-11-01,Overall - reported footprint,total_count,698.33,60.84000000000003,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2020-12-01,Overall - reported footprint,total_count,621.65,-76.68000000000006,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2021-01-01,Overall - reported footprint,total_count,714.4,92.75,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2021-02-01,Overall - reported footprint,total_count,667.85,-46.549999999999955,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2021-03-01,Overall - reported footprint,total_count,721.4300000000001,53.58000000000004,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2021-04-01,Overall - reported footprint,total_count,873.6800000000001,152.25,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2021-05-01,Overall - reported footprint,total_count,1155.52,281.8399999999999,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2021-06-01,Overall - reported footprint,total_count,1160.4299999999998,4.9099999999998545,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2021-07-01,Overall - reported footprint,total_count,1004.3599999999999,-156.06999999999994,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2021-08-01,Overall - reported footprint,total_count,1025.73,21.37000000000012,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2021-09-01,Overall - reported footprint,total_count,798.96,-226.76999999999998,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2021-10-01,Overall - reported footprint,total_count,1025.57,226.6099999999999,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2021-11-01,Overall - reported footprint,total_count,1123.26,97.69000000000005,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2021-12-01,Overall - reported footprint,total_count,1253.19,129.93000000000006,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2022-01-01,Overall - reported footprint,total_count,1408.82,155.62999999999988,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2022-02-01,Overall - reported footprint,total_count,1444.31,35.49000000000001,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2022-03-01,Overall - reported footprint,total_count,1383.6100000000001,-60.69999999999982,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2022-04-01,Overall - reported footprint,total_count,1474.23,90.61999999999989,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2022-05-01,Overall - reported footprint,total_count,1323.77,-150.46000000000004,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2022-06-01,Overall - reported footprint,total_count,1452.34,128.56999999999994,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2022-07-01,Overall - reported footprint,total_count,1244.79,-207.54999999999995,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2022-08-01,Overall - reported footprint,total_count,1608.1499999999999,363.3599999999999,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2022-09-01,Overall - reported footprint,total_count,1622.22,14.070000000000164,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2022-10-01,Overall - reported footprint,total_count,1651.06,28.839999999999918,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2022-11-01,Overall - reported footprint,total_count,1705.62,54.559999999999945,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2022-12-01,Overall - reported footprint,total_count,1838.37,132.75,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2023-01-01,Overall - reported footprint,total_count,1938.7399999999998,100.36999999999989,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2023-02-01,Overall - reported footprint,total_count,1797.52,-141.2199999999998,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2023-03-01,Overall - reported footprint,total_count,1717.8,-79.72000000000003,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2023-04-01,Overall - reported footprint,total_count,1957.58,239.77999999999997,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2023-05-01,Overall - reported footprint,total_count,2103.3,145.72000000000025,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2023-06-01,Overall - reported footprint,total_count,1722.9,-380.4000000000001,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2023-07-01,Overall - reported footprint,total_count,1555.55,-167.35000000000014,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2023-08-01,Overall - reported footprint,total_count,1285.4299999999998,-270.1200000000001,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2023-09-01,Overall - reported footprint,total_count,1368.1100000000001,82.68000000000029,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2023-10-01,Overall - reported footprint,total_count,1294.08,-74.0300000000002,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2023-11-01,Overall - reported footprint,total_count,1170.71,-123.36999999999989,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2023-12-01,Overall - reported footprint,total_count,845.25,-325.46000000000004,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2024-01-01,Overall - reported footprint,total_count,1018.14,172.89,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2024-02-01,Overall - reported footprint,total_count,1062.48,44.34000000000003,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2024-03-01,Overall - reported footprint,total_count,808.99,-253.49,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2024-04-01,Overall - reported footprint,total_count,840.71,31.720000000000027,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2024-05-01,Overall - reported footprint,total_count,825.81,-14.900000000000091,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2024-06-01,Overall - reported footprint,total_count,845.28,19.470000000000027,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2024-07-01,Overall - reported footprint,total_count,880.1199999999999,34.83999999999992,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2024-08-01,Overall - reported footprint,total_count,855.6800000000001,-24.439999999999827,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2024-09-01,Overall - reported footprint,total_count,800.9599999999999,-54.72000000000014,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2024-10-01,Overall - reported footprint,total_count,867.1800000000001,66.22000000000014,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2024-11-01,Overall - reported footprint,total_count,843.71,-23.470000000000027,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2024-12-01,Overall - reported footprint,total_count,994.17,150.45999999999992,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2025-01-01,Overall - reported footprint,total_count,851.02,-143.14999999999998,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2025-02-01,Overall - reported footprint,total_count,985.1800000000001,134.16000000000008,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2025-03-01,Overall - reported footprint,total_count,811.4,-173.7800000000001,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2025-04-01,Overall - reported footprint,total_count,901.99,90.59000000000003,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2025-05-01,Overall - reported footprint,total_count,837.46,-64.52999999999997,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2025-06-01,Overall - reported footprint,total_count,756.37,-81.09000000000003,observed,False,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2025-07-01,Overall - reported footprint,total_count,765.8884782608695,9.518478260869529,interpolated,True,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2025-08-01,Overall - reported footprint,total_count,775.7242391304347,9.835760869565206,interpolated,True,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2025-09-01,Overall - reported footprint,total_count,785.56,9.835760869565206,observed,True,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2025-10-01,Overall - reported footprint,total_count,851.4347252747252,65.87472527472528,interpolated,True,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2025-11-01,Overall - reported footprint,total_count,919.5052747252747,68.07054945054949,interpolated,True,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0
+2025-12-01,Overall - reported footprint,total_count,985.38,65.87472527472528,observed,True,first_difference,False,1,0,12,9.226428156054418e-23,0.1,consensus_stationary,0,0,0,0

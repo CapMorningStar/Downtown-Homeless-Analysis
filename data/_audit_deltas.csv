@@ -1,0 +1,30 @@
+assignment,metric,old_value,new_value,note
+A2,neighborhood-month mean / median / std,156.78 / 58.88 / 197.38,156.44 / 58.75 / 197.12,EDA 2.1
+A2,highest / lowest calendar months,Feb Aug May / Mar Nov Apr,Aug May Jul / Mar Dec Nov,EDA 2.1 seasonality
+A2,annual YoY 2018 / 2019 / 2020 / 2022 / 2024 / 2025 (%),-18.98 / -4.94 / -19.71 / 57.63 / -43.52 / -2.94,-20.31 / -3.87 / -19.29 / 57.55 / -43.26 / -2.56,EDA 2.1 unweighted mean basis
+A2,2023 annual average (per neighborhood),223.98,223.30,
+A2,growth rate Cortez / City Center / East Village / Marina (%/yr),11.96 / 3.94 / 1.64 / -12.76,12.12 / 5.19 / 1.75 / -13.11,
+A2,2018 mean adjustment gap per month,+13.54 (Feb 2018 +156.61),-0.46 (max single month +19.71 Apr 2020),Chart 9 interpretation changed
+A2,Chart 4 sub-area ranking,NE & SE highest,SE >> NW > NE > SW,commentary was wrong before the fix too
+A4,candidate AR order East Village / Marina,1 / 2,2 / 1,Stationarity_Autocorrelation
+A4,KW overall reported footprint H / p,3.00 / 0.991,2.66 / 0.995,still non-seasonal
+A4,KW East Village H / p,13.86 / 0.241,14.16 / 0.224,
+A4,KW Marina H / p,20.15 / 0.043,19.88 / 0.047,still the only significant series
+A4,significant individual months,Gaslamp Sep; Marina Aug; Outside Perimeter Sep,+ Marina Nov (p 0.048),
+A4,Cortez ANOVA p,0.046,0.047,unchanged: ANOVA significant but KW not (as before)
+A4,COVID break: series significant after FDR,5 of 8,7 of 8,reported footprint and Cortez now borderline (FDR p 0.0499); all classifications unchanged
+A4,COVID Chow F East Village / Gaslamp / Marina,5.717 / 6.596 / 3.612,6.160 / 5.068 / 4.193,
+A4,May 2018 Chow: series significant (classical),5 of 8,5 of 8,same series and classifications
+A6,April 2017 theoretical ratio City Center / pooled six,0.970 / 0.961,0.988 / 0.964,Jan-Apr 2018 proxy composition no longer includes the 100-tent error
+A6,6.3 pre-2020 pooled mean gap vs raw: hybrid / theoretical-only / data-derived (%),+0.74 / +0.66 / +6.1,+0.10 / ~+0.1 / +5.09,hybrid still recommended; theoretical-only rebuilt approximately
+A7,12-month CV MAPE overall reported footprint (XGBoost champion),39.34% ± 25.36%,38.25% ± 25.95%,champion unchanged
+A7,CV champions changed,-,Outside Perimeter sarima -> xgboost,MAPE >500% either way; other 8 series unchanged
+A7,SARIMA selected orders (sample),EV (2 1 2)(1 1 1); CC (2 1 2)(0 1 1); Marina (3 1 2)(1 1 1),EV (3 1 2)(0 1 1); CC (3 1 2)(1 1 0); Marina (0 1 2)(1 1 1),Task 7.2
+A7,2026 overall forecast range / Jan 2026 point,835-909 / 885.63,816-896 / 862.87,XGBoost not bit-reproducible across library versions
+A7,forecast_pipeline.py,print-only viewer in repo,restored retraining pipeline from Drive deliverable,new finding
+A8,county Scenario 3 (Jan 2026 forecast input) Policy Regime OLS estimate,5903 [3849-7957],5899 [3843-7955],rounds to 5900 either way; all LOOCV metrics and R^2=0.504 reproduce exactly
+A10,ensemble OOF MAE / RMSE,292.43 / 374.67,286.92 / 376.24,target is the downtown total (mean ~1100); not comparable with A7 per-fold metrics
+A10,ablation: MAE change from adding all external sources,-1.60% (worse),-2.21% (worse),external data never improved forecasts (pre-existing); CV R^2 negative (-2.75 to -3.26)
+A10,2026 ensemble forecast,839 then flat 717,783 then flat ~732,near-constant forecast (pre-existing weakness)
+A10,alerts stored,18,19,new CRITICAL count spike Dec 2022
+A10,anomaly month-level sensitivity / FPR / precision / F1,? / 15.3% / 38.9% / 0.333,33.3% / 13.9% / 44.4% / 0.381,report's 'TPR 100%' is event-level; label both

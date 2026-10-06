@@ -6,7 +6,7 @@
 **Author / Contributor:** Kyaw Soe Lwin (`kylwin@ucsd.edu` / `kslwin.2000@gmail.com`)  
 **Project Lead:** Adir Mancebo Jr. (`adir@datasciencealliance.org`)  
 **Milestone:** Task 10.2 (Build comprehensive feature engineering module: 50+ features)  
-**Associated Deliverables:** `feature_engineering.py`, `feature_engineering/`, `data/FeatureMatrix_Comprehensive_67.csv`, `slide_assets/task10_feature_importance.png`, `tests/test_feature_engineering.py`  
+**Associated Deliverables:** `feature_engineering.py`, `feature_engineering/`, `data/FeatureMatrix_Comprehensive_68.csv`, `slide_assets/task10_feature_importance.png`, `tests/test_feature_engineering.py`  
 
 ---
 
@@ -138,54 +138,54 @@ Controls for thermal and precipitation shocks driving shelter seeking:
 
 ## 4. Multi-Method Feature Importance & SHAP Attribution Findings
 
-We fitted an interpretable ensemble baseline on the model-ready dataset ($R^2 = 0.9631$) and evaluated importance using three independent paradigms:
-1. **Tree Impurity Gini (MDI):** Total variance reduction across split nodes.
-2. **TimeSeriesSplit Permutation Importance:** Out-of-fold MSE loss increase when feature values are permuted across temporal folds.
-3. **TreeExplainer SHAP Values:** Exact Shapley attribution $|\phi_i|$ measuring the average magnitude by which each feature shifts the predicted homeless population (in individuals).
+Importance was measured on a tree model fitted to the 92 published training months, using three methods. The model's in-sample fit is high, but in-sample fit is not forecast accuracy (see `docs/Ensemble_PerformanceReport.md` for out-of-fold results).
+1. **Tree impurity (Gini / MDI):** total variance reduction across split nodes.
+2. **Time-series-split permutation importance:** out-of-fold increase in MSE when a feature is permuted.
+3. **TreeExplainer SHAP values:** mean absolute Shapley attribution |φ|, in people.
 
-### Top 20 Predictive Drivers Ranking Table
+### Top 20 Features (corrected run, October 2026)
 
-| Rank | Feature Name | Domain Category | Mean \|SHAP\| ($\Delta$ Persons) | Permutation Score | Gini Importance | Pearson $r$ |
-|:---:|:---|:---|:---:|:---:|:---:|:---:|
-| **1** | `lag_1m_raw` | Autoregressive & Momentum | **94.60** | 0.0195 | 0.2496 | +0.8602 |
-| **2** | `lag_1m_adjusted` | Autoregressive & Momentum | **81.79** | 0.0133 | 0.2249 | +0.8631 |
-| **3** | `rolling_max_3m_adjusted` | Rolling Window Envelopes | **32.78** | 0.0139 | 0.0875 | +0.8451 |
-| **4** | `ratio_shelter_to_unsheltered_lag1` | Autoregressive & Momentum | **32.32** | 0.0180 | 0.0961 | -0.2787 |
-| **5** | `covid_emergency_shelter_x_temp` | Meteorology & Climate | **21.31** | -0.0003 | 0.0143 | -0.3177 |
-| **6** | `rolling_mean_3m_adjusted` | Rolling Window Envelopes | **18.74** | 0.0061 | 0.0504 | +0.8688 |
-| **7** | `rent_burden_distress_index_lag1` | Macroeconomic Distress | **10.82** | -0.0039 | 0.0069 | +0.4334 |
-| **8** | `growth_rate_1m_pct` | Autoregressive & Momentum | **8.82** | -0.0011 | 0.0223 | +0.3863 |
-| **9** | `rolling_min_3m_adjusted` | Rolling Window Envelopes | **8.67** | 0.0081 | 0.0242 | +0.8656 |
-| **10** | `shelter_capacity_headroom_lag1` | Civic Events & Shelter Policy | **7.70** | 0.0052 | 0.0253 | -0.7048 |
-| **11** | `ratio_tent_to_individual_lag1` | Autoregressive & Momentum | **6.40** | 0.0072 | 0.0036 | +0.7645 |
-| **12** | `temporal_days_since_camping_ban`| Temporal & Cyclical | **6.39** | 0.0000 | 0.0125 | -0.4119 |
-| **13** | `z_score_12m_adjusted` | Rolling Window Envelopes | **5.78** | 0.0003 | 0.0105 | +0.5199 |
-| **14** | `temporal_days_since_covid_shock`| Temporal & Cyclical | **5.62** | 0.0000 | 0.0129 | +0.0667 |
-| **15** | `temporal_trend_idx` | Temporal & Cyclical | **4.72** | 0.0000 | 0.0102 | +0.0965 |
-| **16** | `growth_rate_12m_pct` | Autoregressive & Momentum | **4.28** | -0.0010 | 0.0072 | +0.6070 |
-| **17** | `lag_2m_adjusted` | Autoregressive & Momentum | **3.80** | 0.0010 | 0.0101 | +0.8047 |
-| **18** | `rolling_cv_3m_adjusted` | Rolling Window Envelopes | **3.67** | -0.0056 | 0.0034 | -0.3444 |
-| **19** | `lag_3m_adjusted` | Autoregressive & Momentum | **3.54** | -0.0055 | 0.0104 | +0.8207 |
-| **20** | `acceleration_1m_adjusted` | Autoregressive & Momentum | **3.40** | -0.0003 | 0.0078 | +0.0985 |
+| Rank | Feature | Category | Mean \|SHAP\| (people) | Permutation | Gini | Pearson r |
+|:---:|:---|:---|---:|---:|---:|---:|
+| 1 | `lag_1m_raw` | Autoregressive & Momentum | 81.57 | 0.0065 | 0.2602 | +0.927 |
+| 2 | `lag_1m_adjusted` | Autoregressive & Momentum | 66.10 | 0.0035 | 0.2127 | +0.927 |
+| 3 | `rolling_max_3m_adjusted` | Rolling Window Envelopes | 44.04 | 0.0050 | 0.1376 | +0.896 |
+| 4 | `ratio_shelter_to_unsheltered_lag1` † | Autoregressive & Momentum | 32.91 | 0.0050 | 0.1071 | −0.740 |
+| 5 | `rolling_mean_3m_adjusted` | Rolling Window Envelopes | 18.24 | 0.0100 | 0.0619 | +0.908 |
+| 6 | `shelter_capacity_headroom_lag1` † | Civic Events & Shelter Policy | 13.82 | 0.0119 | 0.0363 | −0.669 |
+| 7 | `rolling_min_3m_adjusted` | Rolling Window Envelopes | 13.58 | 0.0110 | 0.0389 | +0.906 |
+| 8 | `covid_emergency_shelter_x_temp` | Meteorology & Climate | 13.13 | 0.0000 | 0.0106 | −0.412 |
+| 9 | `ratio_tent_to_individual_lag1` | Autoregressive & Momentum | 9.43 | 0.0117 | 0.0069 | +0.792 |
+| 10 | `rent_burden_distress_index_lag1` | Macroeconomic Distress | 5.85 | 0.0037 | 0.0048 | +0.430 |
+| 11 | `spatial_outside_perimeter_share_pct_lag1` | Spatial Concentration | 5.40 | 0.0113 | 0.0083 | +0.775 |
+| 12 | `lag_2m_adjusted` | Autoregressive & Momentum | 5.15 | −0.0006 | 0.0174 | +0.883 |
+| 13 | `rolling_sum_3m_precip` | Rolling Window Envelopes | 4.58 | −0.0038 | 0.0095 | +0.123 |
+| 14 | `diff_12m_adjusted` | Autoregressive & Momentum | 3.65 | 0.0016 | 0.0046 | +0.596 |
+| 15 | `rolling_cv_3m_adjusted` | Rolling Window Envelopes | 3.16 | 0.0005 | 0.0039 | −0.170 |
+| 16 | `lag_12m_raw` | Autoregressive & Momentum | 3.02 | −0.0070 | 0.0027 | +0.275 |
+| 17 | `rolling_mean_6m_adjusted` | Rolling Window Envelopes | 2.87 | 0.0083 | 0.0028 | +0.858 |
+| 18 | `growth_rate_12m_pct` | Autoregressive & Momentum | 2.85 | −0.0002 | 0.0043 | +0.602 |
+| 19 | `acceleration_1m_adjusted` | Other Exogenous | 2.54 | 0.0003 | 0.0050 | −0.006 |
+| 20 | `diff_1m_311_encampment` | Autoregressive & Momentum | 2.46 | −0.0024 | 0.0033 | +0.156 |
+
+† Built from the shelter-capacity series, which is an analyst-constructed timeline, not administrative records (see `docs/MultiSource_DataDocumentation.md`). Its importance reflects that constructed series.
 
 ---
 
 ## 5. Key Analytical Insights
 
-1. **Short-Term Population Inertia Dominates (Top 3 Drivers):**  
-   The prior month's count (`lag_1m_raw` and `lag_1m_adjusted`) and the 3-month rolling peak (`rolling_max_3m_adjusted`) account for **over 55% of total predictive power**, reflecting substantial month-to-month persistence in unsheltered populations.
-2. **Shelter Capacity Acts as a Structural Governor:**  
-   `ratio_shelter_to_unsheltered_lag1` (Rank 4, $|\text{SHAP}| = 32.3$) and `shelter_capacity_headroom_lag1` (Rank 10, $r = -0.7048$) exert strong negative pressure on street counts. When shelter headroom expands above 500 beds, unsheltered counts contract significantly.
-3. **Macroeconomic Rent Burden Compounds Risk:**  
-   `rent_burden_distress_index_lag1` (Rank 7, $|\text{SHAP}| = 10.82$, $r = +0.4334$) demonstrates that rent inflation combined with unemployment accelerates inflow into unsheltered homelessness.
-4. **Policy Interventions Shift Baselines:**  
-   `temporal_days_since_camping_ban` (Rank 12, $r = -0.4119$) confirms the statistical contraction of visible downtown encampments following the July 2023 ordinance enforcement.
+1. **Persistence dominates.** Last month's count (`lag_1m_raw`, `lag_1m_adjusted`) and the 3-month rolling maximum are the top three features by SHAP. This matches the Task 10.3 finding that a plain lag-1 forecast beats every model.
+2. **The shelter features are not evidence of a shelter effect.** `ratio_shelter_to_unsheltered_lag1` (rank 4) has the downtown count in its denominator, so it partly re-encodes the count itself. `shelter_capacity_headroom_lag1` (rank 6) comes from the constructed capacity timeline. Neither supports a conclusion about how shelter capacity affects street counts.
+3. **Economic and weather signals are weak.** The rent-burden index ranks 10th (|SHAP| 5.9). The only weather feature in the top 20 is 3-month precipitation, ranked 13th with near-zero correlation. This agrees with the ablation result that external data do not improve forecasts.
+4. **Importance is association, not cause.** Correlations such as the negative one between days-since-camping-ban and counts describe co-movement over time. They do not identify the effect of any policy.
+
+> Earlier versions of this table came from a run in which four unpublished 2025 months were treated as zero counts. Values above are from the corrected run.
 
 ---
 
 ## 6. Downstream Interface for Task 10.3 (Ensemble Prediction System)
 
-The dataset `data/FeatureMatrix_Comprehensive_67.csv` is fully engineered and formatted for immediate model consumption in Task 10.3:
+The dataset `data/FeatureMatrix_Comprehensive_68.csv` is fully engineered and formatted for immediate model consumption in Task 10.3:
 * **Gradient Boosting (XGBoost / LightGBM):** Ingests all 68 features directly; tree splits naturally handle non-linear interactions like `policy_camping_ban_x_safe_sleeping` and `rent_burden_distress_index_lag1`.
 * **Bayesian Structural Time Series (BSTS):** Uses `temporal_sin_month`, `temporal_cos_month`, `temporal_trend_idx`, and top 5 exogenous drivers (`lag_1m_raw`, `shelter_capacity_headroom`, `rent_burden`).
-* **Temporal Neural Networks (LSTM):** Sequential rolling tensors constructed directly from the 96-month contiguous training subset.
+* **Temporal Neural Networks (LSTM):** Sequential tensors built from the training subset (2018–2025, 92 published months).

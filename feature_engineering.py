@@ -35,7 +35,7 @@ def main():
     parser = argparse.ArgumentParser(description="Task 10.2 Feature Engineering Pipeline & Attribution Analyzer")
     parser.add_argument("--generate", action="store_true", help="Generate and save comprehensive feature matrix")
     parser.add_argument("--analyze", action="store_true", help="Run tree-based, permutation, and SHAP importance analysis")
-    parser.add_argument("--output", type=str, default="data/FeatureMatrix_Comprehensive_67.csv", help="Output path")
+    parser.add_argument("--output", type=str, default="data/FeatureMatrix_Comprehensive_68.csv", help="Output path")
     parser.add_argument("--plot", type=str, default="slide_assets/task10_feature_importance.png", help="Plot save path")
 
     args = parser.parse_args()

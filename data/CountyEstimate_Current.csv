@@ -1,0 +1,19 @@
+scenario_key,operational_scenario,reference_period,downtown_input_count,model_name,point_estimate,se_prediction,df_residuals,t_critical_95,pi_95_lower,pi_95_upper,pi_95_width,pi_95_lower_unbounded
+latest_historical_dec2025,Latest Available Monthly Historical Count (Dec 2025),2025-12-01,985.38,Ratio Estimator (Pooled),4588.55,2201.07,7,2.3646,0.0,9793.26,9793.26,-616.16
+latest_historical_dec2025,Latest Available Monthly Historical Count (Dec 2025),2025-12-01,985.38,Ratio Estimator (Mean of Ratios),5029.11,2385.91,7,2.3646,0.0,10670.89,10670.89,-612.68
+latest_historical_dec2025,Latest Available Monthly Historical Count (Dec 2025),2025-12-01,985.38,Ordinary Least Squares (OLS),5030.72,897.76,6,2.4469,2833.97,7227.46,4393.49,2833.97
+latest_historical_dec2025,Latest Available Monthly Historical Count (Dec 2025),2025-12-01,985.38,Regression with Time Trend,5503.11,1042.01,5,2.5706,2824.54,8181.69,5357.15,2824.54
+latest_historical_dec2025,Latest Available Monthly Historical Count (Dec 2025),2025-12-01,985.38,OLS with Policy Regime Indicator,5921.44,799.21,5,2.5706,3867.0,7975.88,4108.89,3867.0
+latest_historical_dec2025,Latest Available Monthly Historical Count (Dec 2025),2025-12-01,985.38,Post-Ordinance Recent Ratio,6233.35,583.15,1,12.7062,0.0,13643.01,13643.01,-1176.3
+matched_baseline_jan2025,PIT-Matched Baseline Count (Jan 2025),2025-01-01,851.02,Ratio Estimator (Pooled),3962.88,2174.46,7,2.3646,0.0,9104.68,9104.68,-1178.91
+matched_baseline_jan2025,PIT-Matched Baseline Count (Jan 2025),2025-01-01,851.02,Ratio Estimator (Mean of Ratios),4343.37,2369.88,7,2.3646,0.0,9947.25,9947.25,-1260.51
+matched_baseline_jan2025,PIT-Matched Baseline Count (Jan 2025),2025-01-01,851.02,Ordinary Least Squares (OLS),5046.45,912.32,6,2.4469,2814.08,7278.81,4464.73,2814.08
+matched_baseline_jan2025,PIT-Matched Baseline Count (Jan 2025),2025-01-01,851.02,Regression with Time Trend,5560.69,1077.46,5,2.5706,2790.99,8330.38,5539.39,2790.99
+matched_baseline_jan2025,PIT-Matched Baseline Count (Jan 2025),2025-01-01,851.02,OLS with Policy Regime Indicator,5896.47,800.27,5,2.5706,3839.31,7953.63,4114.33,3839.31
+matched_baseline_jan2025,PIT-Matched Baseline Count (Jan 2025),2025-01-01,851.02,Post-Ordinance Recent Ratio,5383.41,556.05,1,12.7062,0.0,12448.73,12448.73,-1681.9
+prospective_jan2026,Prospective 12-Month Horizon Point Forecast (Jan 2026),2026-01-01 (Task 7.4 XGBoost),862.87,Ratio Estimator (Pooled),4018.07,2176.67,7,2.3646,0.0,9165.07,9165.07,-1128.94
+prospective_jan2026,Prospective 12-Month Horizon Point Forecast (Jan 2026),2026-01-01 (Task 7.4 XGBoost),862.87,Ratio Estimator (Mean of Ratios),4403.85,2371.21,7,2.3646,0.0,10010.86,10010.86,-1203.16
+prospective_jan2026,Prospective 12-Month Horizon Point Forecast (Jan 2026),2026-01-01 (Task 7.4 XGBoost),862.87,Ordinary Least Squares (OLS),5045.06,910.56,6,2.4469,2817.01,7273.11,4456.1,2817.01
+prospective_jan2026,Prospective 12-Month Horizon Point Forecast (Jan 2026),2026-01-01 (Task 7.4 XGBoost),862.87,Regression with Time Trend,5666.5,1139.99,5,2.5706,2736.06,8596.94,5860.88,2736.06
+prospective_jan2026,Prospective 12-Month Horizon Point Forecast (Jan 2026),2026-01-01 (Task 7.4 XGBoost),862.87,OLS with Policy Regime Indicator,5898.67,799.83,5,2.5706,3842.65,7954.7,4112.05,3842.65
+prospective_jan2026,Prospective 12-Month Horizon Point Forecast (Jan 2026),2026-01-01 (Task 7.4 XGBoost),862.87,Post-Ordinance Recent Ratio,5458.37,558.33,1,12.7062,0.0,12552.66,12552.66,-1635.91

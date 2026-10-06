@@ -225,7 +225,7 @@ def render_tab7():
         legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="left", x=0),
         hovermode="x unified",
     )
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
 
     st.markdown("---")
 
@@ -249,7 +249,7 @@ def render_tab7():
 
         display_cols = ["alert_id", "month_date", "classification", "severity", "metric_value", "baseline_center_line", "status", "reviewer", "reviewer_notes"]
         present_cols = [c for c in display_cols if c in filtered.columns]
-        st.dataframe(filtered[present_cols].sort_values("month_date", ascending=False), use_container_width=True, height=280)
+        st.dataframe(filtered[present_cols].sort_values("month_date", ascending=False), width="stretch", height=280)
 
         # Interactive Review Action
         st.markdown("##### 📝 Review and Action Alert")

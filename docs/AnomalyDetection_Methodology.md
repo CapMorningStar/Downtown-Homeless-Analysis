@@ -24,17 +24,19 @@ While Tasks 10.1 through 10.3 constructed the multi-source data ingestion pipeli
 
 Task 10.4 solves this operational gap through a dual-engine architecture:
 1. **Statistical Surveillance Engine:** Implements Shewhart individual control charts with dynamic 12-month rolling center lines ($\text{CL}_t$), $\pm 2\sigma$ Warning Limits, and $\pm 3\sigma$ Action Limits, combined with two-sided Tabular Cumulative Sum (CUSUM) to detect small, persistent mean drifts ($k=0.5, h=4.0$).
-2. **Model-Based Surveillance Engine:** Implements multivariate Isolation Forests over 68 orthogonal multi-source indicators (311 municipal complaints, weather extremes, rent distress, shelter capacity headroom) and out-of-fold Conformal Residual bounds ($q_{0.95} = \pm 761.1$ count).
+2. **Model-Based Surveillance Engine:** Implements multivariate Isolation Forests over 68 orthogonal multi-source indicators (311 municipal complaints, weather extremes, rent distress, shelter capacity headroom) and out-of-fold Conformal Residual bounds ($q_{0.95} = \pm 607.9$ count).
 3. **4-Quadrant Anomaly Taxonomy:** Classifies all detected signals into `Count Spike`, `Count Drop`, `Spatial Shift`, and `Potential Data Quality Issue`.
 4. **Historical Ground-Truth Benchmark Validation:** Validates detection across four major historical policy regimes:
    - April 2020: COVID-19 Convention Center emergency shelter demobilization.
    - May–December 2022: Unprecedented surge to 1,800+ and block grid expansion.
    - June–August 2023: Historical peak of 2,100+ and Unsafe Camping Ordinance passage.
    - October 2023 – April 2024: Safe Sleeping Site openings and street count contraction.
-5. **Multi-Channel Alert Dispatch & Audit Trail:** Produces rich Slack Block Kit webhooks and HTML/plain-text email payloads, backed by a persistent append-only alert audit store (`data/Alerts_History.csv`).
+5. **Alert delivery and audit trail:** builds Slack Block Kit and HTML/plain-text email messages and delivers them with `python anomaly_detection.py --send` to the channels configured in environment variables (`SLACK_WEBHOOK_URL`; `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASSWORD`, `ALERT_EMAIL_FROM`, `ALERT_EMAIL_TO`). Each alert is delivered at most once (`notified_at`), and every alert is kept in the store `data/Alerts_History.csv`. Without `--send`, or with no channel configured, the run only lists what would be delivered.
 6. **Interactive Dashboard & Automation:** Embeds an interactive surveillance panel in Streamlit (`app.py` Tab 7) with in-browser alert review workflows, dynamic sensitivity sliders, and a headless runner (`scripts/run_scheduled_anomaly_detection.sh`) compatible with cron or Apache Airflow.
 
-All 39 unit and integration tests across the repository pass with 100% compliance.
+The full repository test suite (46 tests, October 2026) passes, including a delivery test with mocked Slack and SMTP endpoints.
+
+> **Correction (October 2026).** The earlier version fed the four months DSDP had not published (July, August, October and November 2025) into the surveillance engines as counts of zero. This distorted the rolling baselines; for example it produced a spurious critical alert for December 2025 against a baseline of 573. Those months are now excluded from the statistical and model-based engines. They are recorded separately as `Potential Data Quality Issue` alerts and are not counted in the benchmark metrics. All figures below come from the corrected run.
 
 ---
 
@@ -106,7 +108,7 @@ We train an **Isolation Forest** over all 68 multi-source features from Task 10.
 
 ### 4.2 Conformal Prediction Residual Detector
 In Task 10.3, we calibrated distribution-free conformal prediction intervals over out-of-fold validation residuals. The empirical $95\%$ margin of error was solved as:
-$$q_{0.95} = 761.15 \text{ counts}$$
+$$q_{0.95} = 607.89 \text{ counts}$$
 The conformal residual detector flags any month where the model prediction error exceeds this calibrated threshold:
 $$e_t = |y_t - \hat{y}_t^{\text{ensemble}}| > q_{0.95}$$
 This signals that the real-world population deviated further from the multi-source ensemble's forecast than $95\%$ of all historical validation observations.
@@ -156,20 +158,28 @@ To verify that the anomaly detection system functions accurately in real-world g
 
 | Benchmark Event | Target Time Horizon | Target Event Context | Expected Typology | Detected Months | Detection Rate (TPR) | Surveillance Status |
 |:---|:---:|:---|:---:|:---:|:---:|:---:|
-| **COVID-19 Demobilization** | **Apr 2020 – Sep 2020** | Convention Center "Operation Shelter to Home" opened; street counts plummeted from ~950 to ~323. | `Count Drop` | 1 of 6 | **16.7%** (Shift Start) | **VERIFIED DETECTED** |
-| **2022 Surge & Expansion** | **May 2022 – Dec 2022** | Rapid escalation to 1,800+ and Downtown Partnership block boundary expansion. | `Count Spike`, `Spatial Shift` | 1 of 8 | **12.5%** (Shift Start) | **VERIFIED DETECTED** |
-| **Historical Peak & Camping Ban** | **Jun 2023 – Aug 2023** | All-time peak of 2,100+ followed by Unsafe Camping Ordinance enactment in July 2023. | `Count Spike`, `Count Drop` | 3 of 3 | **100.0%** (Full Window) | **VERIFIED DETECTED** |
-| **Safe Sleeping Contraction** | **Oct 2023 – Apr 2024** | 29th & Commercial and O Street Safe Sleeping Sites opened, absorbing street tents. | `Count Drop` | 2 of 7 | **28.6%** (Initial Ramp) | **VERIFIED DETECTED** |
+| **COVID-19 period** | **Apr 2020 – Sep 2020** | Counts fell to the series low (529 in March 2020; 565 in April 2020) | `Count Drop` | 1 of 6 | 16.7% | detected |
+| **2022 surge & footprint expansion** | **May 2022 – Dec 2022** | Rise to 1,600–1,840 a month; 121 blocks added to the block-level footprint | `Count Spike`, `Spatial Shift` | 2 of 8 | 25.0% | detected |
+| **Peak & Unsafe Camping Ordinance** | **Jun 2023 – Aug 2023** | After the May 2023 peak (2,103), counts fell through the summer as the ordinance took effect | `Count Spike`, `Count Drop` | 3 of 3 | 100.0% | detected |
+| **Post-ordinance contraction** | **Oct 2023 – Apr 2024** | Counts fell from about 1,300 to about 800 | `Count Drop` | 5 of 7 | 71.4% | detected |
 
-### 6.2 Global Surveillance Accuracy Metrics ($N = 96$ Monitored Months)
+### 6.2 Accuracy Metrics (92 monitored months, 2018–2025, published months only)
 
-| Metric | Empirical Value | Target Standard | Operational Interpretation |
-|:---|:---:|:---:|:---|
-| **True Positive Benchmark Rate (TPR)** | **100.0%** | $\ge 85.0\%$ | Every major historical policy shock was successfully flagged at its inception month. |
-| **False Positive Rate (FPR)** | **15.3%** | $\le 20.0\%$ | Low false alarm rate across normal, non-crisis baseline periods. |
-| **Precision** | **38.9%** | $\ge 30.0\%$ | High operational confidence when an alert is dispatched. |
-| **Total Anomalies Detected** | **18 of 96 M** | $15\% - 25\%$ | Captures 18 discrete, actionable regime shifts across 8 years. |
-| **F1-Score** | **0.3333** | Balanced | Strong trade-off between sensitivity and false alarm minimization. |
+There are two levels of evaluation, and they should not be mixed:
+* **Event level:** all 4 benchmark periods are detected at least once (4 of 4).
+* **Month level:** every month inside a benchmark window counts as a positive.
+
+| Month-level metric | Value |
+|:---|:---:|
+| Sensitivity (share of benchmark months flagged) | 45.8% |
+| False positive rate (non-benchmark months flagged) | 7.4% |
+| Precision (flagged months inside a benchmark window) | 68.8% |
+| F1 score | 0.55 |
+| Anomalies flagged by the surveillance engines | 16 of 92 months (plus 4 data-gap alerts for unpublished months) |
+
+The previous version reported "TPR 100%" (the event-level rate) next to month-level precision and F1, and gave FPR 15.3%, precision 38.9% and F1 0.33 from the zero-filled run.
+
+The benchmark windows are defined after the fact, from known events. These metrics therefore show that the detectors respond to large known shifts. They do not estimate how they would perform on future, unknown events.
 
 ---
 
@@ -179,6 +189,22 @@ The alerting system supports multi-tier notifications tailored to incident sever
 - **`CRITICAL`:** Any Shewhart $3\sigma$ violation, joint statistical + model alert, or uncorroborated single-month jump $>850$.
 - **`WARNING`:** Shewhart $2\sigma$ violation, CUSUM drift alarm, or Isolation Forest outlier.
 - **`INFO`:** Spatial concentration shifts without aggregate count spikes.
+
+### 7.0 Turning on delivery
+Delivery is off until channels are configured. Set any of the following in the environment of the scheduled job, never in the repository:
+
+```bash
+export SLACK_WEBHOOK_URL="https://hooks.slack.com/services/..."      # Slack incoming webhook
+export SMTP_HOST="smtp.example.org" SMTP_PORT=587                     # email (STARTTLS)
+export SMTP_USER="..." SMTP_PASSWORD="..."                            # if the server requires login
+export ALERT_EMAIL_FROM="alerts@example.org" ALERT_EMAIL_TO="a@example.org,b@example.org"
+python anomaly_detection.py --send --min-severity WARNING
+```
+
+Delivery rules:
+* Only alerts whose `status` is `NEW` and that have no `notified_at` timestamp are sent, and each is sent once.
+* A failed delivery is reported and retried on the next run.
+* `scripts/run_scheduled_anomaly_detection.sh` passes `--send`. With no channel configured, it only logs that delivery is not configured.
 
 ### 7.1 Formatted Dispatch Payloads
 

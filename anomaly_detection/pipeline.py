@@ -35,7 +35,7 @@ class AnomalySurveillancePipeline:
         feature_data_path: Optional[Path] = None,
         oof_predictions_path: Optional[Path] = None,
     ):
-        self.feature_data_path = feature_data_path or Path("data/FeatureMatrix_Comprehensive_67.csv")
+        self.feature_data_path = feature_data_path or Path("data/FeatureMatrix_Comprehensive_68.csv")
         self.oof_predictions_path = oof_predictions_path or Path("data/Ensemble_Predictions_OOF.csv")
         self.logger = logging.getLogger(self.__class__.__name__)
         self.shewhart = ShewhartControlChart(window=12, min_periods=6, warning_sigma=2.0, critical_sigma=3.0)
@@ -97,6 +97,21 @@ class AnomalySurveillancePipeline:
 
         self.logger.info("Validating against historical benchmark policy shocks...")
         event_df, global_metrics = self.validator.validate(classified_df)
+
+        # Months DSDP has not published are excluded from surveillance (train_ready_flag == 0) and
+        # recorded here as data-quality alerts, after validation so they do not count as shock detections.
+        gap_rows = df[(pd.to_datetime(df["date"]) >= pd.Timestamp("2018-01-01")) & df["target_downtown_adjusted"].isna()]
+        if len(gap_rows):
+            gaps = pd.DataFrame({
+                "date": pd.to_datetime(gap_rows["date"]).values,
+                "value": np.nan,
+                "center_line": np.nan,
+                "anomaly_typology": "Potential Data Quality Issue",
+                "anomaly_severity": "WARNING",
+                "anomaly_description": "Monthly count not published by DSDP (reporting gap); excluded from modeling.",
+                "is_classified_anomaly": True,
+            })
+            classified_df = pd.concat([classified_df, gaps], ignore_index=True).sort_values("date").reset_index(drop=True)
 
         self.logger.info("Ingesting anomalies into persistent Alert Store...")
         alerts_list = self.alert_engine.ingest_anomalies(classified_df)

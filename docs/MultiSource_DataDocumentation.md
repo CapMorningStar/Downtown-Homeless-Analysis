@@ -39,7 +39,7 @@ Prior to Task 10.1, longitudinal modeling relied primarily on univariate monthly
 +---------------------------------------------------------------------------------------------------------+
 |                           DataQualityValidator (data_ingestion/validator.py)                            |
 |  - Temporal continuity & monotonicity check (108/108 contiguous months verified)                        |
-|  - 0% critical null rates across all 40 columns                                                         |
+|  - Downtown count columns: 4 documented gaps (unpublished Jul/Aug/Oct/Nov 2025), all other columns 0%   |
 |  - Physical domain bound verification (100% compliant)                                                  |
 +---------------------------------------------------------------------------------------------------------+
 ```
@@ -51,7 +51,7 @@ Prior to Task 10.1, longitudinal modeling relied primarily on univariate monthly
 * **File Location:** `data/MultiSource_Master_Monthly.csv`
 * **Temporal Grain:** Monthly (`YYYY-MM-01`), exactly 108 rows spanning `2017-01-01` to `2025-12-01`.
 * **Total Schema Dimensions:** 40 columns (6 ground-truth counts + 9 weather + 5 events + 7 economic + 6 shelter/policy + 7 municipal 311).
-* **Missing Value Rate:** **0.00%** across all external exogenous signals.
+* **Missing Value Rate:** 0.00% across external signals. The five `downtown_actual_*` columns are **missing for 4 months** (July, August, October, November 2025) that DSDP had not published; `downtown_count_released` = 0 marks them. Earlier versions filled these with 0, which corrupted downstream models (corrected October 2026).
 
 ---
 
@@ -60,11 +60,11 @@ Prior to Task 10.1, longitudinal modeling relied primarily on univariate monthly
 | Column Name | Data Type | Units / Range | Source System | Null % | Physical Bounds | Operational Description |
 |---|---|---|---|---|---|---|
 | `date` | `string` | `YYYY-MM-01` | Canonical Grid | 0.0% | 2017-01 to 2025-12 | First day of observation calendar month. |
-| `downtown_actual_adjusted_count` | `float64` | Individuals | DSDP / DSA | 0.0% | $[400, 2500]^*$ | Adjusted unsheltered homeless population in Downtown core. |
-| `downtown_actual_raw_count` | `float64` | Individuals | DSDP / DSA | 0.0% | $[400, 2500]^*$ | Raw unadjusted field tally across downtown survey routes. |
-| `downtown_actual_individual_count` | `float64` | Individuals | DSDP / DSA | 0.0% | $[0, 2000]$ | Sub-tally of unhoused individuals observed outside structures. |
-| `downtown_actual_tent_count` | `float64` | Tents / Structures | DSDP / DSA | 0.0% | $[0, 1500]$ | Sub-tally of observed tents and makeshift encampment structures. |
-| `downtown_actual_vehicle_count` | `float64` | Vehicles | DSDP / DSA | 0.0% | $[0, 500]$ | Sub-tally of observed inhabited vehicles / RVs. |
+| `downtown_actual_adjusted_count` | `float64` | Individuals | DSDP / DSA | 3.7% (4 unpublished months) | $[400, 2500]^*$ | Adjusted unsheltered homeless population in Downtown core. |
+| `downtown_actual_raw_count` | `float64` | Individuals | DSDP / DSA | 3.7% (4 unpublished months) | $[400, 2500]^*$ | Raw unadjusted field tally across downtown survey routes. |
+| `downtown_actual_individual_count` | `float64` | Individuals | DSDP / DSA | 3.7% (4 unpublished months) | $[0, 2000]$ | Sub-tally of unhoused individuals observed outside structures. |
+| `downtown_actual_tent_count` | `float64` | Tents / Structures | DSDP / DSA | 3.7% (4 unpublished months) | $[0, 1500]$ | Sub-tally of observed tents and makeshift encampment structures. |
+| `downtown_actual_vehicle_count` | `float64` | Vehicles | DSDP / DSA | 3.7% (4 unpublished months) | $[0, 500]$ | Sub-tally of observed inhabited vehicles / RVs. |
 | `weather_temp_mean_f` | `float64` | $^\circ\text{F}$ | Open-Meteo / NOAA | 0.0% | $[45.0, 85.0]$ | Monthly average surface air temperature at Lindbergh Field. |
 | `weather_temp_max_f` | `float64` | $^\circ\text{F}$ | Open-Meteo / NOAA | 0.0% | $[55.0, 110.0]$ | Extreme maximum daily temperature recorded in month. |
 | `weather_temp_min_f` | `float64` | $^\circ\text{F}$ | Open-Meteo / NOAA | 0.0% | $[32.0, 75.0]$ | Extreme minimum daily temperature recorded in month. |
@@ -86,10 +86,10 @@ Prior to Task 10.1, longitudinal modeling relied primarily on univariate monthly
 | `econ_rent_zori_downtown_92101` | `float64` | USD ($\$$) | Zillow ZORI | 0.0% | $[1500.0, 4000.0]$ | Observed typical monthly rent for Downtown ZIP 92101. |
 | `econ_rent_zori_downtown_yoy_pct` | `float64` | Percent ($\%$) | Zillow ZORI | 0.0% | $[-15.0, 30.0]$ | Year-over-year rent inflation rate in ZIP 92101. |
 | `econ_rent_zori_metro_sd` | `float64` | USD ($\$$) | Zillow ZORI | 0.0% | $[1500.0, 4000.0]$ | Observed typical monthly rent for San Diego Metro MSA. |
-| `shelter_base_beds_capacity` | `int64` | Beds | SDHC / RTFH | 0.0% | $[1000, 2500]$ | Operational emergency and bridge shelter beds downtown. |
-| `shelter_safe_sleeping_capacity` | `int64` | Spaces | City of San Diego | 0.0% | $[0, 1000]$ | Active municipal Safe Sleeping spaces (20th & B, O Lot). |
-| `shelter_total_capacity` | `int64` | Total Units | SDHC / Municipal | 0.0% | $[1000, 3500]$ | Sum of baseline shelter beds and safe sleeping capacity. |
-| `shelter_capacity_yoy_chg` | `float64` | Units | SDHC / Municipal | 0.0% | $[-1000, 1500]$ | Year-over-year change in available shelter/sleeping units. |
+| `shelter_base_beds_capacity` | `int64` | Beds | Analyst-built timeline (not administrative records; see caveats) | 0.0% | $[1000, 2500]$ | Operational emergency and bridge shelter beds downtown. |
+| `shelter_safe_sleeping_capacity` | `int64` | Spaces | Analyst-built timeline (not administrative records; see caveats) | 0.0% | $[0, 1000]$ | Active municipal Safe Sleeping spaces (20th & B, O Lot). |
+| `shelter_total_capacity` | `int64` | Total Units | Analyst-built timeline (not administrative records; see caveats) | 0.0% | $[1000, 3500]$ | Sum of baseline shelter beds and safe sleeping capacity. |
+| `shelter_capacity_yoy_chg` | `float64` | Units | Analyst-built timeline (not administrative records; see caveats) | 0.0% | $[-1000, 1500]$ | Year-over-year change in available shelter/sleeping units. |
 | `shelter_operation_shelter_to_home_active`| `int64` | Binary $\{0, 1\}$ | City / Convention | 0.0% | $\{0, 1\}$ | 1 during Convention Center COVID emergency operation. |
 | `shelter_unsafe_camping_ban_active` | `int64` | Binary $\{0, 1\}$ | City of San Diego | 0.0% | $\{0, 1\}$ | 1 post-Unsafe Camping Ordinance enactment (Jul 2023+). |
 | `service_311_total_requests_count` | `int64` | Requests | City of San Diego | 0.0% | $[0, 10000]$ | Total municipal 311 requests dispatched in Downtown core. |
@@ -185,3 +185,18 @@ The output table `data/MultiSource_Master_Monthly.csv` is immediately ready for 
    * Feed exogenous feature matrix into Gradient Boosting (XGBoost/LightGBM), Bayesian Structural Time Series (BSTS), and Temporal Neural Networks.
 3. **Task 10.4 (Anomaly Detection & Early Warning):**
    * Utilize `service_311_encampment_requests_count` residuals against historical prediction envelopes to alert when rapid street encampment expansions deviate from seasonal capacity baselines.
+
+---
+
+## Data Provenance Caveats (October 2026 audit)
+
+| Source | Status | Caveat |
+|---|---|---|
+| Downtown counts (`downtown_actual_*`) | DSDP monthly reports, audited | 4 months unpublished (NaN with `downtown_count_released = 0`); never filled with 0 |
+| Weather (`weather_*`) | Open-Meteo historical archive (`data/raw/weather_noaa_daily_raw.csv`), real daily data | The code has a synthetic fallback when offline and uncached; the cached file is real data, not the fallback |
+| 311 Get It Done (`service_311_*`) | City of San Diego open-data stream, real records filtered to the DOWNTOWN community plan | Encampment-type requests appear only from August 2018 (category did not exist earlier); 32 of 126 months have **negative** mean resolution days, which comes from the source `case_age_days` field. Treat `mean_resolution_days` as unreliable |
+| Shelter capacity (`shelter_*`) | **Not administrative data.** A timeline written directly in `data_ingestion/sources/shelter_capacity.py` with rounded bed counts (1,350 / 1,750 / 2,100 …) and assumed opening dates for safe sleeping sites | Task 10.1 asked for data from RTFH or shelter operators. These values are placeholders and must be replaced with SDHC/RTFH Housing Inventory Count records before any capacity conclusion is drawn |
+| Padres schedule, holidays, Comic-Con (`events_*`) | MLB Stats API cache (`padres_schedule_raw.json`) and calendar rules | Real schedule data; the code also contains a synthetic fallback used only if the API and cache are unavailable |
+| Economics (`econ_*`) | FRED and Zillow ZORI cached downloads | Semi-annual CPI is interpolated to monthly |
+
+Because shelter capacity is a constructed proxy, every feature and model result that uses it (shelter headroom, the BSTS exogenous regressor, the ablation "full system" stage) inherits that limitation.

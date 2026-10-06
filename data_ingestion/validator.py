@@ -71,9 +71,18 @@ class DataQualityValidator:
 
         return len(errors) == 0, errors
 
+    # Downtown count columns may be NaN only in months flagged as unpublished
+    # (downtown_count_released == 0); those are documented gaps, not data errors.
+    GAP_ALLOWED_PREFIX = "downtown_actual_"
+
     def validate_nulls(self, df: pd.DataFrame) -> Tuple[bool, Dict[str, int]]:
         null_counts = df.isnull().sum().to_dict()
         critical_nulls = {k: v for k, v in null_counts.items() if v > 0}
+        if "downtown_count_released" in df.columns:
+            unreleased = df["downtown_count_released"] == 0
+            for col in list(critical_nulls):
+                if col.startswith(self.GAP_ALLOWED_PREFIX) and df.loc[~unreleased, col].isnull().sum() == 0:
+                    critical_nulls.pop(col)
         passed = (len(critical_nulls) == 0)
         return passed, critical_nulls
 

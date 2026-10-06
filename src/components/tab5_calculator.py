@@ -7,7 +7,7 @@ import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
 from src.utils import calculate_county_estimate, format_count
-from src.data_loader import load_paired_county_data
+from src.data_loader import load_paired_county_data, load_forecast_data
 
 
 def render_tab5():
@@ -48,14 +48,19 @@ def render_tab5():
             if st.button("📍 Dec 2025 (985)", help="Latest empirical monthly count"):
                 st.session_state["downtown_input"] = 985.38
         with preset_cols[1]:
-            if st.button("🔮 Jan 2026 (886)", help="Task 7.4 XGBoost prospective projection"):
-                st.session_state["downtown_input"] = 885.63
+            fc = load_forecast_data()
+            fc_col = "series" if "series" in fc.columns else "series_name"
+            fc = fc[fc[fc_col] == "Overall - reported footprint"].sort_values("forecast_date") if not fc.empty else fc
+            fc_val = float(fc["point_forecast"].iloc[0]) if len(fc) else 985.38
+            fc_label = pd.Timestamp(fc["forecast_date"].iloc[0]).strftime("%b %Y") if len(fc) else "Forecast"
+            if st.button(f"🔮 {fc_label} ({fc_val:,.0f})", help="Task 7.4 champion forecast, first forecast month"):
+                st.session_state["downtown_input"] = round(fc_val, 2)
         with preset_cols[2]:
             if st.button("🔥 Peak Crisis (2,103)", help="Historical May 2023 maximum"):
                 st.session_state["downtown_input"] = 2103.00
         with preset_cols[3]:
-            if st.button("🧊 COVID Low (689)", help="April 2020 convention center low"):
-                st.session_state["downtown_input"] = 689.00
+            if st.button("🧊 COVID Low (529)", help="March 2020 series low (COVID-19 onset)"):
+                st.session_state["downtown_input"] = 529.09
 
         current_input = st.session_state.get("downtown_input", preset_val)
 
@@ -185,7 +190,7 @@ def render_tab5():
                 yaxis=dict(title="Downtown Share (%)", range=[0, 45], showgrid=True, gridcolor="#F1F5F9"),
                 xaxis=dict(title="Annual PIT Census Year", tickmode="linear"),
             )
-            st.plotly_chart(fig_ratio, use_container_width=True)
+            st.plotly_chart(fig_ratio, width="stretch")
 
             st.markdown(
                 """

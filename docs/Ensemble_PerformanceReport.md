@@ -17,19 +17,29 @@
 
 ## 1. Executive Summary
 
-This monograph documents the theoretical design, algorithmic formulation, empirical validation, and predictive forecasting of the **Multi-Source Ensemble Prediction System** developed for downtown San Diego's unsheltered homeless population. 
+This report documents the multi-source ensemble built in Task 10.3 to forecast Downtown San Diego's monthly unsheltered count. The ensemble combines three base models trained on the 68-feature matrix from Task 10.2:
+* LightGBM;
+* a Bayesian structural time-series (BSTS) model;
+* a regularized neural network (MLP).
 
-Prior univariate time-series benchmarks established in Assignment 7 (ARIMA MAE $\approx 78.4$, Holt-Winters MAE $\approx 84.2$) relied solely on past autoregressive observations without contextual awareness of external socioeconomic drivers, municipal enforcement policies, or climate anomalies. In Task 10.1 and Task 10.2, we engineered a leakage-free matrix of 68 features spanning municipal 311 complaints, Open-Meteo weather anomalies, FRED unemployment metrics, Zillow Observed Rent Index (ZORI) rent distress, and shelter headroom capacities.
+They are combined by a constrained stacking meta-learner (non-negative weights summing to 1), and the forecasts come with conformal prediction intervals.
 
-Task 10.3 synthesizes these heterogeneous data streams into an econometric ensemble architecture comprising:
-1. **Gradient Boosted Decision Trees (LightGBM/XGBoost):** Non-linear thresholding and high-order feature interaction learning.
-2. **Bayesian Structural Time Series (BSTS):** State-space Kalman filtering decomposing trend, stochastic seasonal harmonics, and standardized exogenous regressors.
-3. **Temporal Neural Network (Deep MLP):** Multi-layer perceptron with variance-stabilized feature filtering, dual target scaling, and L2 weight decay.
-4. **Constrained Stacking Meta-Learner (Non-Negative Least Squares):** Quadratic programming solver enforcing non-negative weights that sum to unity ($\sum w_i = 1.0, w_i \ge 0$), preventing negative weight instability.
-5. **Calibrated Conformal Prediction Intervals:** Finite-sample distribution-free prediction bounds guaranteeing exact nominal coverage ($80\%$ and $95\%$).
-6. **5-Stage Feature Domain Ablation Study:** Empirical quantification of the incremental marginal value of each data stream across 5 annual expanding-window cross-validation folds (2021 to 2025).
+**Main results (5 annual expanding-window folds, 2021–2025, 56 published test months):**
 
-The resulting ensemble achieves an out-of-fold Mean Absolute Error (MAE) of **292.43** and Root Mean Squared Error (RMSE) of **374.67** across 60 rigorous out-of-sample monthly test horizons spanning extreme historical policy regimes (COVID demobilization, historical peak counts of 2,100+, the Unsafe Camping Ordinance contraction, and Safe Sleeping Site ramp-ups). Conformal calibration yields an empirical coverage of **96.7%** for the nominal 95% interval, providing municipal policymakers with mathematically rigorous, risk-bounded forecasting envelopes for 2026.
+| Model | Out-of-fold MAE | R² |
+|---|---:|---:|
+| Lag-1 baseline (last month's value) | 119.6 | 0.84 |
+| Stacked ensemble | 248.0 | 0.26 |
+| BSTS (best single model) | 223.6 | 0.42 |
+
+* **The baseline wins.** Using last month's count beats the ensemble in every fold.
+* **The ensemble isn't the best model either.** It does not beat its best base model; it is a weighted average dominated by BSTS (weight 0.81).
+* **External data barely help.** In the ablation study, adding 311, weather and economic features changed cross-validated MAE by −0.4% to +0.8%. The full 68-feature model was 1.6% *worse* than lags alone.
+* **2026 forecast:** about 866–897 a month, with a very wide 95% conformal interval (about 280 to 1,500). This is consistent with the Assignment 7 forecast (about 820–900).
+
+**Conclusion:** with about 90 usable monthly observations, the external data streams and the more complex models do not improve on simple persistence for one-month-ahead forecasting. Their value lies in describing context, not in improving accuracy. The lag-1 baseline (or the Assignment 7 models) should remain the operational forecast.
+
+> **Data correction (October 2026).** The previous version of this pipeline treated the four 2025 months that DSDP had not yet published (July, August, October, November) as counts of **zero**. The models trained and were scored on these fake zeros. As a result, the 2026 forecast collapsed to about 420 a month, and the reported MAE (292.4), coverage and ablation figures were biased. Unpublished months are now excluded from training and scoring, and their features are built from time-interpolated values. All numbers in this report come from the corrected run.
 
 ---
 
@@ -40,7 +50,7 @@ Let $y_t \in \mathbb{R}^+$ denote the monthly unsheltered homeless count in down
 $$\mathcal{D} = \{(y_t, \mathbf{x}_t)\}_{t=1}^T, \quad t \in \{2017\text{-}01, \dots, 2025\text{-}12\}$$
 Where:
 - $T = 108$ total monthly observations.
-- $t \in [13, 108]$ ($N = 96$ months, 2018–2025) represents the complete training-ready subset, accommodating 12-month seasonal lookbacks without imputing artificial synthetic history.
+- The training-ready subset is 2018–2025 (96 months) minus the 4 months DSDP had not published, giving **92 months**. Unpublished months keep a missing target and are never used for training or scoring.
 - $\mathbf{x}_t \in \mathbb{R}^{68}$ represents the feature vector available *strictly prior to or at time $t$*. To guarantee zero lookahead leakage, all non-calendar features are lagged by at least one month ($t-1$).
 
 ### 2.2 Expanding-Window Cross-Validation Scheme
@@ -111,47 +121,46 @@ $$\text{subject to:} \quad w_m \ge 0 \quad \forall m \in \{1, 2, 3\}, \quad \sum
 
 Where $\hat{y}_{t, m}$ is the out-of-fold cross-validated prediction of model $m$ at month $t$.
 
-### 4.2 Solved Stacking Weights Distribution
-Solving this convex quadratic program using Sequential Least Squares Programming (SLSQP) over the full out-of-fold prediction matrix ($N = 60$ test months) yields:
+### 4.2 Solved Stacking Weights
+Solving the constrained program over the out-of-fold predictions (56 published test months) gives:
 
-| Base Model Architecture | Stacking Weight ($w_m$) | Relative Contribution | Primary Role in Ensemble |
-|:---|:---:|:---:|:---|
-| **Temporal Neural Network (Deep MLP)** | **0.5435** | **54.35%** | Robust smoothed non-linear mapping and post-ban stability |
-| **LightGBM Regressor** | **0.2320** | **23.20%** | Captures municipal complaint surges & sharp non-linear inflection points |
-| **Bayesian Structural Time Series (BSTS)** | **0.2246** | **22.46%** | Anchors annual seasonal harmonics and Kalman state persistence |
-| **Total Constraint Sum** | **1.0000** | **100.00%** | Strictly convex combination ($\sum w_m = 1.0, w_m \ge 0$) |
+| Base model | Weight |
+|:---|---:|
+| BSTS | 0.812 |
+| Neural network (MLP) | 0.188 |
+| LightGBM | 0.000 |
 
-The meta-learner assigns the majority weight (54.35%) to the regularized Temporal Neural Network, which demonstrated superior generalization during the sharp 2023–2024 policy transition, while retaining substantial contributions from LightGBM (23.20%) and BSTS (22.46%) for event-driven shocks and seasonal grounding.
+LightGBM receives zero weight. Its out-of-fold errors are the largest (MAE 278.5), driven by the 2022 fold, where it badly under-predicted the surge.
 
 ---
 
 ## 5. Time-Series Cross-Validation Benchmarks (2021–2025)
 
-The ensemble system was evaluated across all 5 expanding-window folds. Below is the comprehensive empirical benchmark comparing the baseline (univariate lag persistence / ARIMA proxy), individual base architectures, and the constrained ensemble:
+Each fold trains on 2018 up to the year before and tests on one calendar year. The 2025 fold has 8 published months.
 
-### 5.1 Per-Fold Error Breakdown (MAE Across Real Policy Regimes)
+### 5.1 Mean absolute error by fold
 
-| Fold | Holdout Year | Policy Regime Context | Baseline MAE | LightGBM MAE | BSTS MAE | Neural Net MAE | Ensemble MAE | Ensemble RMSE | Ensemble $R^2$ |
-|:---:|:---:|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | **2021** | COVID Convention Center Demobilization | 124.19 | 222.11 | 252.01 | 374.92 | **364.69** | 411.96 | -3.65 |
-| **2** | **2022** | Rapid Surge from 1,000 to 1,800+ | 120.30 | 579.99 | 287.13 | 463.72 | **442.18** | 474.30 | -6.89 |
-| **3** | **2023** | Historical Peak (2,100+) & Camping Ban | 172.74 | 321.56 | 311.85 | 293.23 | **251.99** | 298.04 | **+0.28** |
-| **4** | **2024** | Post-Ordinance Major Contraction (700-1000) | 72.38 | 82.40 | 123.05 | **63.08** | **73.41** | 96.78 | -0.29 |
-| **5** | **2025** | Safe Sleeping Site Expansion & Stabilization | 326.89 | 335.56 | 516.42 | **310.91** | **329.85** | 457.19 | -0.24 |
+| Fold | Test year | Months | Lag-1 baseline | LightGBM | BSTS | Neural net | Ensemble | Ensemble RMSE | Ensemble R² (within year) |
+|:---:|:---:|:---:|---:|---:|---:|---:|---:|---:|---:|
+| 1 | 2021 | 12 | **124.2** | 225.2 | 253.2 | 278.0 | 272.6 | 325.9 | −1.91 |
+| 2 | 2022 | 12 | **118.6** | 590.1 | 295.7 | 483.9 | 508.0 | 535.0 | −9.46 |
+| 3 | 2023 | 12 | **177.5** | 320.6 | 300.7 | 232.4 | 234.3 | 280.0 | 0.39 |
+| 4 | 2024 | 12 | 74.2 | 97.9 | 91.5 | **65.0** | 76.0 | 91.2 | −0.19 |
+| 5 | 2025 | 8 | 95.4 | 98.7 | 153.6 | **79.3** | 99.9 | 111.2 | −0.89 |
 
-### 5.2 Overall Out-of-Sample Performance Summary ($N = 60$ Test Months)
+Within-year R² is negative in most folds because the variation inside a single year is small compared with the size of the errors. It should not be read as a measure of overall fit.
 
-| Architecture | MAE | RMSE | MAPE (%) | MDA (%) | Out-of-Sample $R^2$ |
-|:---|:---:|:---:|:---:|:---:|:---:|
-| **Baseline (ARIMA Proxy / Lag 1)** | 163.30 | 254.43 | 13.87% | 38.98% | 0.7050 |
-| **LightGBM Regressor** | 308.32 | 405.02 | 20.75% | 28.81% | 0.2525 |
-| **Bayesian Structural Time Series (BSTS)** | 298.09 | 403.56 | 21.33% | **52.54%** | 0.2579 |
-| **Temporal Neural Network (Deep MLP)** | 301.17 | 376.27 | 22.93% | 38.98% | 0.3549 |
-| **Constrained Ensemble (Stacking NNLS)** | **292.43** | **374.67** | **21.38%** | 38.98% | **0.3604** |
+### 5.2 Overall out-of-fold performance (56 months)
 
-> [!NOTE]
-> **Key Finding on Ensemble Synergy:**  
-> The Constrained Ensemble outperforms every individual base model across the overall 60-month test period, achieving the lowest MAE (**292.43** vs. 298.09 for BSTS, 301.17 for Neural Net, and 308.32 for LightGBM), the lowest RMSE (**374.67**), and the highest $R^2$ (**0.3604**). In Fold 4 (2024), the Neural Network captured the ordinance-driven drop to achieve an MAE of **63.08**, outperforming all other architectures.
+| Model | MAE | RMSE | MAPE | Direction accuracy | R² |
+|:---|---:|---:|---:|---:|---:|
+| **Lag-1 baseline** | **119.6** | **150.0** | **10.6%** | 41.8% | **0.842** |
+| BSTS | 223.6 | 285.9 | 19.3% | 45.5% | 0.424 |
+| Neural net (MLP) | 238.3 | 312.6 | 18.8% | 50.9% | 0.312 |
+| Stacked ensemble | 248.0 | 323.2 | 20.0% | 50.9% | 0.264 |
+| LightGBM | 278.5 | 366.2 | 21.4% | 30.9% | 0.056 |
+
+**Finding:** the lag-1 baseline has the lowest error by a wide margin. The ensemble is better than LightGBM but worse than BSTS and the neural net on MAE, because the stacking weights are fitted on the same out-of-fold predictions they are evaluated on and do not generalize across folds with very different behavior. The higher direction accuracy of the neural net and ensemble (about 51% vs 42%) is the only measure on which they beat the baseline, and it is close to chance.
 
 ---
 
@@ -163,71 +172,49 @@ $$e_t = |y_t - \hat{y}_t^{\text{ensemble}}|, \quad t \in \mathcal{T}_{\text{OOF}
 $$q_{1-\alpha} = \text{Quantile}\left(\{e_t\}_{t=1}^n, \min\left(1.0, \frac{\lceil(n+1)(1-\alpha)\rceil}{n}\right)\right)$$
 $$\mathcal{C}_{1-\alpha}(\hat{y}_t) = \left[ \max(0, \hat{y}_t - q_{1-\alpha}), \hat{y}_t + q_{1-\alpha} \right]$$
 
-### 6.1 Empirical Coverage Validation Table
+### 6.1 Empirical Coverage
 
-| Confidence Level ($1-\alpha$) | Nominal Target Coverage | Empirical OOF Coverage | Margin of Error ($q_{1-\alpha}$) | Mean Interval Width | Calibration Status |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| **80% Prediction Interval** | **80.0%** | **76.7% – 81.7%** | **±497.8** | **995.5 count** | **Well-Calibrated** ($\approx$ Nominal) |
-| **95% Prediction Interval** | **95.0%** | **96.7%** | **±761.1** | **1,499.8 count** | **Conservative & Valid** ($> 95\%$) |
+| Nominal level | Empirical out-of-fold coverage | Half-width (±) | Interval width |
+|:---:|:---:|---:|---:|
+| 80% | 76.8% – 82.1% | 399.6 | 799.2 |
+| 95% | 92.9% – 98.2% | 607.9 | 1,215.5 |
 
-Both intervals strictly satisfy finite-sample coverage guarantees, providing an empirical uncertainty envelope that encompasses 96.7% of all real historical policy shifts.
-
----
-
-## 7. 5-Stage Feature Domain Ablation Study
-
-To evaluate the marginal economic and predictive value of the multi-source data streams ingested in Task 10.1 and engineered in Task 10.2, we executed a 5-stage cumulative ablation benchmark across all 5 cross-validation folds:
-
-```mermaid
-flowchart LR
-    S0["Stage 0: Univariate Lags<br/>(2 features)<br/>MAE: 306.64"] --> S1["Stage 1: + 311 Encampments<br/>(7 features)<br/>MAE: 310.58"]
-    S1 --> S2["Stage 2: + Weather & Climate<br/>(11 features)<br/>MAE: 311.91"]
-    S2 --> S3["Stage 3: + Economic Rent Distress<br/>(17 features)<br/>MAE: 314.89"]
-    S3 --> S4["Stage 4: Full Multi-Source System<br/>(68 features)<br/>MAE: 311.55"]
-```
-
-### 7.1 Quantitative Ablation Benchmark Table
-
-| Stage | Feature Domain Added | Total Active Features | CV MAE | CV RMSE | CV MAPE (%) | CV $R^2$ | Marginal Impact & Analysis |
-|:---:|:---|:---:|:---:|:---:|:---:|:---:|:---|
-| **0** | **Univariate Lags Only** | 2 | 306.64 | 366.28 | 21.05% | 0.3888 | Baseline autoregressive momentum ($y_{t-1}, y_{t-2}$) |
-| **1** | **+ Municipal 311 Signals** | 7 | 310.58 | 369.02 | 21.43% | 0.3796 | 311 complaint volume & backlog rate; acts as early-warning leading indicator |
-| **2** | **+ Weather & Climate** | 11 | 311.91 | 371.91 | 21.65% | 0.3699 | Heating/Cooling Degree Days and precipitation extreme flags |
-| **3** | **+ Macroeconomic Distress** | 17 | 314.89 | 377.89 | 21.93% | 0.3496 | Unemployment rate, ZORI rent index, rent acceleration |
-| **4** | **+ Full Multi-Source System** | 68 | 311.55 | 373.83 | 21.36% | 0.3638 | Shelter headroom, safe sleeping interaction, spatial HHI, harmonics |
-
-### 7.2 Econometric Interpretation of Ablation Dynamics
-1. **Parsimony vs. Structural Richness:** In tabular cross-validation on $N=60$ test points, autoregressive lags provide an immediate local anchor. Expanding from 2 features to 68 features slightly expands variance in pure GBDT splits, but dramatically enhances explainability and scenario sensitivity.
-2. **Policy Responsiveness:** Pure lag models cannot simulate "what-if" policy interventions (such as adding 500 safe sleeping beds or sudden spikes in downtown rent). The multi-source model in Stage 4 allows policymakers to inject economic or shelter capacity shifts and observe realistic non-linear responses.
-3. **Leading Indicator Utility:** As demonstrated in Task 10.2 SHAP analysis, 311 encampment calls and rent burden distress represent the top global drivers of multi-month inflection points, giving municipal leadership up to 60 days of advance warning before unsheltered street counts spike.
+Coverage is close to nominal. The ranges reflect two evaluation passes, one on the calibration residuals and one on the refitted ensemble. The intervals are very wide (±608 at 95%), which matches the large out-of-fold errors in §5. They are calibrated on the same 56 residuals they are evaluated on, so true out-of-sample coverage may be lower.
 
 ---
 
-## 8. Prospective 2026 Forecast Projections & Uncertainty Envelopes
+## 7. Five-Stage Feature Ablation Study
 
-The full ensemble system (trained on all historical data through December 2025) was projected forward across the 12 calendar months of 2026 (`2026-01-01` to `2026-12-01`).
+LightGBM is retrained with feature groups added one at a time, across the same 5 folds (published months only).
 
-### 8.1 2026 Monthly Forecast Table
+| Stage | Features added | Features | CV MAE | CV RMSE | CV MAPE | Mean within-fold R² | MAE change vs stage 0 |
+|:---:|:---|---:|---:|---:|---:|---:|---:|
+| 0 | Target lags only | 2 | 266.7 | 300.0 | 19.9% | −2.91 | — |
+| 1 | + 311 encampment signals | 7 | 265.6 | 297.8 | 20.1% | −2.91 | +0.4% better |
+| 2 | + weather | 11 | 267.9 | 300.2 | 20.3% | −3.00 | 0.4% worse |
+| 3 | + economic / rent | 17 | 264.5 | 298.3 | 19.9% | −2.93 | +0.8% better |
+| 4 | Full multi-source set | 68 | 271.0 | 304.8 | 21.0% | −3.29 | 1.6% worse |
 
-| Forecast Date | LightGBM | BSTS | Neural Net | Ensemble Point Forecast | 80% Conformal Lower | 80% Conformal Upper | 95% Conformal Lower | 95% Conformal Upper |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **2026-01-01** | 741.0 | 417.8 | 254.1 | **403.8** | 0.0 | 901.5 | 0.0 | 1,164.9 |
-| **2026-02-01** | 817.5 | 417.9 | 254.1 | **421.6** | 0.0 | 919.4 | 0.0 | 1,182.8 |
-| **2026-03-01** | 811.5 | 417.9 | 254.1 | **420.2** | 0.0 | 918.0 | 0.0 | 1,181.4 |
-| **2026-04-01** | 811.8 | 417.9 | 254.1 | **420.3** | 0.0 | 918.1 | 0.0 | 1,181.5 |
-| **2026-05-01** | 811.8 | 417.9 | 254.1 | **420.3** | 0.0 | 918.1 | 0.0 | 1,181.5 |
-| **2026-06-01** | 811.8 | 417.9 | 254.1 | **420.3** | 0.0 | 918.1 | 0.0 | 1,181.5 |
-| **2026-07-01** | 811.8 | 417.9 | 254.1 | **420.3** | 0.0 | 918.1 | 0.0 | 1,181.5 |
-| **2026-08-01** | 811.8 | 417.9 | 254.1 | **420.3** | 0.0 | 918.1 | 0.0 | 1,181.5 |
-| **2026-09-01** | 811.8 | 417.9 | 254.1 | **420.3** | 0.0 | 918.1 | 0.0 | 1,181.5 |
-| **2026-10-01** | 811.8 | 417.9 | 254.1 | **420.3** | 0.0 | 918.1 | 0.0 | 1,181.5 |
-| **2026-11-01** | 811.8 | 417.9 | 254.1 | **420.3** | 0.0 | 918.1 | 0.0 | 1,181.5 |
-| **2026-12-01** | 811.8 | 417.9 | 254.1 | **420.3** | 0.0 | 918.1 | 0.0 | 1,181.5 |
+**Interpretation:** the changes between stages (under 2%) are far smaller than the fold-to-fold variation in error, so no data source shows a measurable predictive benefit. The full 68-feature model is the worst stage. Even the best stage (MAE 264.5) is more than twice the error of simply using last month's count (119.6, §5.2). With about 90 training months, the extra features mainly add variance.
 
-### 8.2 Comparison to Assignment 7 Univariate Scenarios
-- **Assignment 7 Baseline Scenario:** Projected an annual mean of $\approx 835$ unsheltered individuals under status-quo policy conditions.
-- **Assignment 7 Accelerated Shelter Expansion:** Projected a contraction toward $\approx 410$ individuals.
-- **Task 10.3 Multi-Source Ensemble Projection:** The ensemble projects an equilibrium trajectory stabilizing at **420.3 individuals**, closely aligning with the accelerated shelter and safe sleeping capacity scenario. The lower conformal bound reaches $0$, while the upper 95% bound caps potential risk at $1,182.8$ in the event of macroeconomic rent shocks or encampment ban reversals.
+The external sources can still be useful for describing and monitoring the context around the counts (for example 311 complaint volume or shelter capacity). This study provides no evidence that they improve forecasts.
+
+---
+
+## 8. 2026 Forecast
+
+The full ensemble is trained on all 92 published months from 2018 to 2025 and forecast forward recursively.
+
+| Month | LightGBM | BSTS | Neural net | Ensemble | 80% interval | 95% interval |
+|:---:|---:|---:|---:|---:|:---:|:---:|
+| Jan 2026 | 905 | 862 | 884 | **866** | 467 – 1,266 | 258 – 1,474 |
+| Feb 2026 | 907 | 905 | 863 | **897** | 497 – 1,296 | 289 – 1,505 |
+| Mar 2026 | 907 | 894 | 868 | **889** | 489 – 1,288 | 281 – 1,497 |
+| Apr–Dec 2026 | 905–907 | 896–897 | 867 | **890–891** | about 490 – 1,290 | about 283 – 1,499 |
+
+The ensemble forecast is nearly flat at about 890, a property of the recursive design: lagged features converge to the model's own predictions. It agrees with the Assignment 7 champion forecast for the same series definition (816–896, `data/Forecasts_12Month.csv`).
+
+The earlier version of this table showed about 420 a month and was described as aligning with an Assignment 7 "accelerated shelter" scenario of about 410. Both were wrong. The 420 came from the zero-filled months described in §1, and Assignment 7's optimistic path ends near 675, not 410.
 
 ---
 
@@ -248,4 +235,4 @@ The full ensemble system (trained on all historical data through December 2025) 
    - [`slide_assets/task10_ensemble_predictions.png`](file:///Users/kyawsoelwin/MSI/Downtownhomelessness/slide_assets/task10_ensemble_predictions.png): 300 DPI multi-panel historical fit and 2026 forecast fan chart.
    - [`slide_assets/task10_ablation_performance.png`](file:///Users/kyawsoelwin/MSI/Downtownhomelessness/slide_assets/task10_ablation_performance.png): 300 DPI bar chart displaying error and accuracy gains across ablation stages.
 4. **Verification Test Suite:**
-   - [`tests/test_ensemble_model.py`](file:///Users/kyawsoelwin/MSI/Downtownhomelessness/tests/test_ensemble_model.py): 7/7 unit and integration tests passing; 31/31 passed repo-wide.
+   - [`tests/test_ensemble_model.py`](file:///Users/kyawsoelwin/MSI/Downtownhomelessness/tests/test_ensemble_model.py): unit and integration tests; the full repository suite (45 tests) passes as of October 2026.

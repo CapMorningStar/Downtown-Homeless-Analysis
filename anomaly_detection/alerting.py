@@ -5,12 +5,24 @@ Generates:
 2. Slack Block Kit webhook payloads with actionable recommended responses
 3. Email notification payloads (HTML & Plain Text)
 4. Persistent Audit Store (CSV and JSON) tracking review lifecycle
+5. Delivery (dispatch) to Slack and/or email, configured through environment variables:
+     SLACK_WEBHOOK_URL                          Slack incoming-webhook URL
+     SMTP_HOST, SMTP_PORT (default 587),        SMTP server (STARTTLS)
+     SMTP_USER, SMTP_PASSWORD,                  credentials (optional for open relays)
+     ALERT_EMAIL_FROM, ALERT_EMAIL_TO           sender and comma-separated recipients
+   Nothing is sent unless dispatch(..., dry_run=False) is called (CLI: --send). Each alert is
+   delivered at most once; the delivery time is stored in its `notified_at` field.
 """
 
 from datetime import datetime
 from enum import Enum
 import json
 import logging
+import os
+import smtplib
+import urllib.request
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 import pandas as pd
@@ -206,12 +218,76 @@ View full surveillance details in Dashboard Tab 7.
                 "reviewer": "",
                 "reviewer_notes": "",
                 "reviewed_at": "",
+                "notified_at": "",
             }
             existing_alerts.append(alert_obj)
             new_alerts.append(alert_obj)
 
         self.save_alerts_store(existing_alerts)
         return existing_alerts
+
+    SEVERITY_RANK = {"INFO": 0, "WARNING": 1, "CRITICAL": 2}
+
+    def dispatch(self, min_severity: str = "WARNING", dry_run: bool = True,
+                 env: Optional[Dict[str, str]] = None) -> List[Dict[str, Any]]:
+        """
+        Deliver alerts that are NEW, at or above `min_severity`, and not yet notified, to every
+        configured channel. With dry_run=True (default) nothing is sent; the planned deliveries
+        are returned. Returns one record per alert: alert_id, channels, sent, error.
+        """
+        env = dict(os.environ) if env is None else env
+        slack_url = env.get("SLACK_WEBHOOK_URL", "").strip()
+        smtp_host = env.get("SMTP_HOST", "").strip()
+        email_to = [a.strip() for a in env.get("ALERT_EMAIL_TO", "").split(",") if a.strip()]
+        email_ok = bool(smtp_host and email_to and env.get("ALERT_EMAIL_FROM", "").strip())
+        threshold = self.SEVERITY_RANK.get(min_severity, 1)
+
+        alerts = self.load_alerts_store()
+        results = []
+        for alert in alerts:
+            if alert.get("status", "NEW") != AlertStatus.NEW.value or alert.get("notified_at"):
+                continue
+            if self.SEVERITY_RANK.get(str(alert.get("severity")), 0) < threshold:
+                continue
+            channels = (["slack"] if slack_url else []) + (["email"] if email_ok else [])
+            record = {"alert_id": alert["alert_id"], "channels": channels, "sent": False, "error": ""}
+            if not channels:
+                record["error"] = "no channel configured (set SLACK_WEBHOOK_URL and/or SMTP_* / ALERT_EMAIL_*)"
+            elif not dry_run:
+                try:
+                    if slack_url:
+                        self._send_slack(slack_url, self.build_slack_payload(alert))
+                    if email_ok:
+                        self._send_email(env, email_to, *self.build_email_payload(alert))
+                    alert["notified_at"] = datetime.now().isoformat()
+                    record["sent"] = True
+                except Exception as exc:  # report and continue with the next alert
+                    record["error"] = f"{type(exc).__name__}: {exc}"
+                    logger.error("Alert %s delivery failed: %s", alert["alert_id"], exc)
+            results.append(record)
+        if not dry_run:
+            self.save_alerts_store(alerts)
+        return results
+
+    @staticmethod
+    def _send_slack(url: str, payload: Dict[str, Any]) -> None:
+        req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"),
+                                     headers={"Content-Type": "application/json"}, method="POST")
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            if resp.status >= 300:
+                raise RuntimeError(f"Slack webhook returned HTTP {resp.status}")
+
+    @staticmethod
+    def _send_email(env: Dict[str, str], recipients: List[str], subject: str, html: str, plain: str) -> None:
+        msg = MIMEMultipart("alternative")
+        msg["Subject"], msg["From"], msg["To"] = subject, env["ALERT_EMAIL_FROM"], ", ".join(recipients)
+        msg.attach(MIMEText(plain, "plain"))
+        msg.attach(MIMEText(html, "html"))
+        with smtplib.SMTP(env["SMTP_HOST"], int(env.get("SMTP_PORT", "587")), timeout=20) as server:
+            server.starttls()
+            if env.get("SMTP_USER"):
+                server.login(env["SMTP_USER"], env.get("SMTP_PASSWORD", ""))
+            server.sendmail(env["ALERT_EMAIL_FROM"], recipients, msg.as_string())
 
     def load_alerts_store(self) -> List[Dict[str, Any]]:
         if self.store_json_path.exists():

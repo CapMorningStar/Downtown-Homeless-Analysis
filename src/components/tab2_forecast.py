@@ -6,7 +6,7 @@ Downtown San Diego Homeless Population Analysis - Task 9.1
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
-from src.data_loader import load_forecast_data, load_historical_data
+from src.data_loader import load_forecast_data, load_historical_data, load_forecast_benchmarks
 from src.utils import calculate_scenario_forecast, format_count
 
 
@@ -43,18 +43,12 @@ def render_tab2():
         )
 
     with c_col2:
-        model_family = st.selectbox(
-            "Forecasting Model Architecture:",
-            options=[
-                "XGBoost Champion (CV MAPE: 39.3%)",
-                "Holt-Winters Parametric (CV MAPE: 39.6%)",
-                "SARIMA Seasonal Benchmark",
-                "Prophet Additive GAM",
-                "Naive Seasonal (t-12 Baseline)",
-            ],
-            index=0,
-            help="XGBoost demonstrated superior multi-step cross-validation accuracy across 5 chronological folds.",
-        )
+        series_col_sel = "series" if "series" in forecast_df.columns else "series_name"
+        used = forecast_df.loc[forecast_df[series_col_sel] == selected_series, "model"] if "model" in forecast_df.columns else pd.Series(dtype=str)
+        model_used = used.iloc[0] if len(used) else "n/a"
+        st.markdown("**Forecasting model (Task 7.3 CV champion):**")
+        st.markdown(f"`{model_used}` — chosen per series by 5-fold walk-forward cross-validation; "
+                    "see the benchmark table below.")
 
     with c_col3:
         scenario_mode = st.radio(
@@ -211,7 +205,7 @@ def render_tab2():
         hovermode="x unified",
     )
 
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
 
     # Forecast Metric Highlights
     m1_val = f_sub.iloc[0]["point_forecast"]
@@ -234,11 +228,10 @@ def render_tab2():
             Models were evaluated across 5 chronological expanding windows with zero data leakage.
             """
         )
-        perf_data = [
-            {"Model": "XGBoost Champion", "12-Mo CV MAPE": "39.34%", "12-Mo CV RMSE": "184.2", "Hold-Out Test MAPE": "38.48%", "Strengths": "Best non-linear adaptation to policy shifts"},
-            {"Model": "Holt-Winters Exponential Smoothing", "12-Mo CV MAPE": "39.57%", "12-Mo CV RMSE": "188.5", "Hold-Out Test MAPE": "41.12%", "Strengths": "Stable parametric trend and variance anchor"},
-            {"Model": "SARIMA (1,1,1)(1,0,1)[12]", "12-Mo CV MAPE": "43.12%", "12-Mo CV RMSE": "212.7", "Hold-Out Test MAPE": "44.20%", "Strengths": "Rigorous stationary differencing"},
-            {"Model": "Prophet (Changepoints)", "12-Mo CV MAPE": "47.80%", "12-Mo CV RMSE": "245.1", "Hold-Out Test MAPE": "49.65%", "Strengths": "Calendar and holiday flexibility"},
-            {"Model": "Naive Seasonal Baseline (t-12)", "12-Mo CV MAPE": "51.34%", "12-Mo CV RMSE": "278.9", "Hold-Out Test MAPE": "53.10%", "Strengths": "Simple heuristic comparison"},
-        ]
-        st.dataframe(pd.DataFrame(perf_data), use_container_width=True, hide_index=True)
+        bench = load_forecast_benchmarks()
+        if bench.empty:
+            st.info("Cross-validation metrics file (data/Forecast_CV_Metrics.csv) not found.")
+        else:
+            st.dataframe(bench, width="stretch", hide_index=True)
+            st.caption("Computed from data/Forecast_CV_Metrics.csv (mean of 5 folds, 12-month horizon) and "
+                       "data/Forecast_ModelComparison.csv (2025 hold-out, 8 released months).")

@@ -30,7 +30,7 @@ echo "Log Destination: ${LOG_FILE}" | tee -a "${LOG_FILE}"
 echo "======================================================================" | tee -a "${LOG_FILE}"
 
 # Execute headless surveillance and alert dispatch
-python anomaly_detection.py --schedule 2>&1 | tee -a "${LOG_FILE}"
+python anomaly_detection.py --schedule --send 2>&1 | tee -a "${LOG_FILE}"
 
 EXIT_CODE=$?
 

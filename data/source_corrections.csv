@@ -1,0 +1,64 @@
+action,date,area,component,old_value,new_value,source_pdf,page,note
+set_count,2018-02-01,City Center,vehicle,0,1,February-2018-Homeless-Count-Final.pdf,4,"Core map dated 2-21-18 Count Breakdown: vehicles 1 (1.66), tents 10 (17.50), total 156.16"
+set_count,2018-02-01,City Center,tent,100,10,February-2018-Homeless-Count-Final.pdf,4,Core map Count Breakdown: 10 tents; file value 100 was a transcription error
+set_count,2018-07-01,East Village,vehicle,32,26,July-2018-Homeless-Count-Final.pdf,2,East Village map dated 7/25/18 Count Breakdown: 451 / 26 vehicles (52.78) / 67 tents (117.25) = 621.03
+set_count,2019-01-01,North East EV,total,65,55,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table (file held duplicated 2020 values)
+set_count,2019-02-01,North East EV,total,47,80,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-03-01,North East EV,total,32,64,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-04-01,North East EV,total,43,81,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-05-01,North East EV,total,46,101,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-06-01,North East EV,total,71,74,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-07-01,North East EV,total,79,87,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-08-01,North East EV,total,60,62,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-09-01,North East EV,total,68,70,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-10-01,North East EV,total,44,63,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-11-01,North East EV,total,45,69,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-12-01,North East EV,total,47,30,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-01-01,North West EV,total,88,96,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-02-01,North West EV,total,92,98,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-03-01,North West EV,total,34,83,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-04-01,North West EV,total,57,94,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-05-01,North West EV,total,59,60,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-06-01,North West EV,total,69,72,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-07-01,North West EV,total,71,94,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-08-01,North West EV,total,49,74,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-09-01,North West EV,total,57,94,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-10-01,North West EV,total,69,98,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-11-01,North West EV,total,64,38,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-12-01,North West EV,total,44,115,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-01-01,South East EV,total,282,341,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-02-01,South East EV,total,250,300,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-03-01,South East EV,total,86,264,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-04-01,South East EV,total,215,295,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-05-01,South East EV,total,212,316,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-06-01,South East EV,total,252,301,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-07-01,South East EV,total,226,395,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-08-01,South East EV,total,196,312,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-09-01,South East EV,total,300,311,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-10-01,South East EV,total,270,301,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-11-01,South East EV,total,291,281,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-12-01,South East EV,total,196,210,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-01-01,South West EV,total,32,51,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-02-01,South West EV,total,20,19,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-03-01,South West EV,total,109,17,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-04-01,South West EV,total,15,32,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-05-01,South West EV,total,16,30,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-06-01,South West EV,total,26,21,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-07-01,South West EV,total,22,28,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-08-01,South West EV,total,21,22,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-09-01,South West EV,total,22,59,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-10-01,South West EV,total,18,18,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table (already correct)
+set_count,2019-11-01,South West EV,total,25,29,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2019-12-01,South West EV,total,47,15,January-2020-Unsheltered-Homeless-Count.pdf,1,2019 East Village breakout table
+set_count,2022-07-01,Cortez,tent,20,26,July-2022-Unsheltered-Count-with-Maps.pdf,4,Cortez map 7-29-22: tent Value 45.50 (=26 x 1.75) and Total 89.53 match published 90; handwritten count '20' inconsistent with its own value
+set_count,2022-11-01,Marina,individual,49,29,2022-Homeless-Sleep-Count-November.pdf,8,INFERRED: Marina map Total 44 (= published) with 2 vehicles (4.06) and 6 tents (10.5) implies 29 individuals; '49' appears copied from the adjacent Gaslamp page
+set_count,2024-03-01,City Center,tent,8,18,March-2024-Unsheltered-Count-w-maps.pdf,4,City Center map 3/21/24 Count Breakdown: 189 / 0 / 18 tents (31.50) = 220.50 vs published 221
+set_count,2025-01-01,North East EV,total,84,83,June-2025-Unsheltered-Sleep-Counts-With-Maps-1.pdf,1,2025 East Village breakout table (internally consistent for January: sums to 435)
+use_published_total,2019-12-01,East Village,total,,,none,,No December 2019 report published by DSDP; components unverifiable; adjusted total set to published total
+use_published_total,2019-12-01,City Center,total,,,none,,No December 2019 report published by DSDP; components unverifiable; adjusted total set to published total
+use_published_total,2019-12-01,Gaslamp,total,,,none,,No December 2019 report published by DSDP; components unverifiable; adjusted total set to published total
+use_published_total,2023-12-01,East Village,total,,,none,,No December 2023 report published by DSDP; components unverifiable; adjusted total set to published total
+use_published_total,2025-09-01,East Village,total,,,September-2025-Final-Count-Map.pdf,,DSDP's 'September 2025' PDF actually contains December 2025 maps (dated 12-25-25); September components unverifiable; adjusted total set to published total
+annotate,2020-04-01,Gaslamp,total,,,April-2020-Unsheltered-Homeless-Count.pdf,8,"Map verified (4/30/2020): 42 / 0 / 1 tent = 43.75, matching the file; DSDP summary table reports 28. Source conflict left as-is."
+annotate,2023-02-01,Gaslamp,total,,,2023-Unsheltered-Count-Feb-2023.pdf,7,"Map verified (2/23): 42 / 0 / 2 tents = 46, matching the file; DSDP summary table reports 72. Source conflict left as-is."
+annotate,2023-02-01,East Village,total,,,2023-Unsheltered-Count-Feb-2023.pdf,5,"Map verified (2/22): 220 / 28 vehicles / 294 tents = 791, matching the file; DSDP summary table reports 781. Source conflict left as-is."

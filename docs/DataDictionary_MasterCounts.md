@@ -12,11 +12,11 @@
 
 | File Name | Record Count | Column Count | Primary Granularity | Description |
 | :--- | :---: | :---: | :--- | :--- |
-| **`MasterCounts_Adjusted_v2.csv`** | 2,814 | 10 | Area × Month × Component | Canonical reconciled adjusted monthly counts (2017–2025) with rebuilt totals. |
-| **`RawCounts_AllYears_clean.csv`** | 2,814 | 8 | Area × Month × Component | Cleaned raw observed monthly counts directly from DSDP count packets. |
-| **`BlockLevel_Counts_clean.csv`** | 3,737 | 7 | Block × Date | Digitized block-by-block counts across 12 monthly sample maps (2018–2020). |
+| **`MasterCounts_Adjusted_v2.csv`** | 2,814 | 10 | Area Ã— Month Ã— Component | Canonical reconciled adjusted monthly counts (2017â€“2025) with rebuilt totals. |
+| **`RawCounts_AllYears_clean.csv`** | 2,814 | 8 | Area Ã— Month Ã— Component | Cleaned raw observed monthly counts directly from DSDP count packets. |
+| **`BlockLevel_Counts_clean.csv`** | 3,737 | 7 | Block Ã— Date | Digitized block-by-block counts across 12 monthly sample maps (2018â€“2020). |
 | **`Downtown_BlockGrid_clean.csv`** | 382 | 9 | Block Polygon | Geospatial reference grid of all 382 Downtown San Diego census blocks with centroid coordinates and bounding streets. |
-| **`BlockMap_Coverage_clean.csv`** | 843 | 7 | Area × Month | Inventory of monthly count PDF map availability and digitization quality (2018–2025). |
+| **`BlockMap_Coverage_clean.csv`** | 843 | 7 | Area Ã— Month | Inventory of monthly count PDF map availability and digitization quality (2018â€“2025). |
 | **`Neighborhood_Crosswalk.csv`** | 18 | 6 | Mapping Lookup | Crosswalk standardizing 18 historical source labels to 7 canonical neighborhoods. |
 
 ---
@@ -38,7 +38,7 @@
 | `area_type` | `string` | `neighborhood`, `sub-area` | Geographic classification of the row. | `MasterCounts_Adjusted.csv` | Sub-areas belong to East Village. |
 | `method` | `string` | `PRE2017`, `APR2017`, `MAY2018`, `POST2020` | Multiplier regime in effect for this observation. | DSDP / RTFH methodology schedule | Fully audited in Task 1.3. |
 | `raw_count` | `float64` | `[0.0, 921.0]` (134 nulls) | Directly observed count from field sheets before weighting. | DSDP monthly count tables | 116 nulls in 2025; 18 in Nov 2018. |
-| `total_count` | `float64` | `[0.0, 921.05]` (134 nulls) | Adjusted count applying tent and vehicle multipliers. | Rebuilt in Task 1.3 ($\sum 	ext{components}$) | 0.00 residual diff against components. |
+| `total_count` | `float64` | `[0.0, 921.05]` (134 nulls) | Adjusted count applying tent and vehicle multipliers. | Rebuilt in Task 1.3 ($\sum \text{components}$) | 0.00 residual diff against components. |
 
 ---
 
