@@ -623,7 +623,7 @@ def generate_footprint_wedge_figure():
     ax.annotate(
         "Peak Footprint Wedge:\nAdded 121 blocks contributed 32.8%\n(641 of 1,955) in Jan 2023",
         xy=(x[2], df["full_382_total"].iloc[2]),
-        xytext=(x[2] + 0.2, 2150),
+        xytext=(x[2] - 0.9, 2150),
         arrowprops=dict(facecolor=AMBER_WARN, arrowstyle="->", lw=1.5),
         fontsize=8.5,
         fontweight="bold",
