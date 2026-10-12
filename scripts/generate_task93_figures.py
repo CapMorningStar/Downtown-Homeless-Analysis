@@ -597,7 +597,7 @@ def generate_footprint_wedge_figure():
     pcts = df["expansion_pct_of_full"].values
 
     p1 = ax.bar(x, balanced_counts, width, label="Balanced Core Footprint (261 Blocks)", color=ROYAL_BLUE, alpha=0.9)
-    p2 = ax.bar(x, deltas, width, bottom=balanced_counts, label="2022 Expansion Footprint (+121 Blocks: Golden Hill, Barrio Logan, Sherman Heights)", color=AMBER_WARN, alpha=0.95)
+    p2 = ax.bar(x, deltas, width, bottom=balanced_counts, label="2022 Expansion Footprint (+121 Blocks)", color=AMBER_WARN, alpha=0.95)
 
     ax.set_ylabel("Adjusted Total Homeless Count", fontsize=10, fontweight="bold", color=NAVY)
     ax.set_xticks(x)
