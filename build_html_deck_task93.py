@@ -5,7 +5,7 @@ Downtown San Diego Homeless Population Analysis (Assignment 9)
 Produces: Assignment9_StrategicSynthesis.html
 A responsive, self-contained 14-slide browser presentation styled in the Canva
 'Blue and White Modern Data Analytics' theme with Google Fonts (Bricolage Grotesque & Poppins),
-inlined Base64 graphics, and keyboard navigation.
+inlined Base64 graphics, keyboard navigation, and exact v3.0 Report figures.
 """
 
 import os
@@ -28,7 +28,7 @@ def get_b64(path):
 def build_html_deck():
     print(f"Generating Task 9.3 Companion HTML Presentation: {OUTPUT_HTML}...")
 
-    img_chart1 = get_b64(SLIDE_ASSETS / "chart1_clean_hd.png")
+    img_trajectory = get_b64(SLIDE_ASSETS / "task93_trajectory_9year.png")
     img_forecast = get_b64(SLIDE_ASSETS / "task93_forecast_2026.png")
     img_regional = get_b64(SLIDE_ASSETS / "task93_regional_divergence.png")
     img_migration = get_b64(SLIDE_ASSETS / "task93_hotspot_migration.png")
@@ -162,7 +162,7 @@ def build_html_deck():
   }}
 
   .header-text h3 {{
-    font-size: 10.5px;
+    font-size: 13.5px;
     font-weight: 700;
     color: var(--royal-blue);
     text-transform: uppercase;
@@ -240,7 +240,7 @@ def build_html_deck():
   }}
 
   .kpi-lbl {{
-    font-size: 10.5px;
+    font-size: 13.5px;
     font-weight: 700;
     color: var(--text-dark);
     text-transform: uppercase;
@@ -248,7 +248,7 @@ def build_html_deck():
   }}
 
   .kpi-sub {{
-    font-size: 9.5px;
+    font-size: 12.5px;
     color: var(--text-muted);
     line-height: 1.35;
   }}
@@ -257,7 +257,7 @@ def build_html_deck():
   table.data-table {{
     width: 100%;
     border-collapse: collapse;
-    font-size: 10px;
+    font-size: 13px;
     background: #fff;
   }}
   table.data-table th {{
@@ -305,7 +305,7 @@ def build_html_deck():
     gap: 8px;
   }}
   ul.bullet-list li {{
-    font-size: 10.5px;
+    font-size: 13.5px;
     line-height: 1.45;
     position: relative;
     padding-left: 14px;
@@ -320,6 +320,42 @@ def build_html_deck():
   }}
   ul.bullet-list strong {{
     color: var(--royal-blue);
+  }}
+
+  @media print {{
+    body {{
+      background: var(--bg-canvas) !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+    }}
+    .nav-bar {{
+      display: none !important;
+    }}
+    .slide-container {{
+      gap: 0 !important;
+      max-width: none !important;
+      width: 100% !important;
+    }}
+    .slide {{
+      width: 13.333in !important;
+      height: 7.5in !important;
+      max-width: 13.333in !important;
+      max-height: 7.5in !important;
+      page-break-after: always !important;
+      break-after: page !important;
+      page-break-inside: avoid !important;
+      break-inside: avoid !important;
+      border-radius: 0 !important;
+      box-shadow: none !important;
+      margin: 0 !important;
+      padding: 32px 45px !important;
+    }}
+    @page {{
+      size: 13.333in 7.5in;
+      margin: 0;
+    }}
   }}
 </style>
 </head>
@@ -338,35 +374,35 @@ def build_html_deck():
   <div class="slide" id="slide-1">
     <div class="slide-badge">01</div>
     <div style="flex: 1; display: flex; flex-direction: column; justify-content: center; padding: 20px 40px; background: #fff; border: 1px solid var(--border-card); border-radius: 12px;">
-      <div style="display: inline-block; background: var(--ice-tint); border: 1px solid var(--soft-blue); padding: 5px 14px; border-radius: 15px; font-size: 10px; font-weight: 700; color: var(--navy-primary); width: fit-content; margin-bottom: 18px;">
+      <div style="display: inline-block; background: var(--ice-tint); border: 1px solid var(--soft-blue); padding: 5px 14px; border-radius: 15px; font-size: 13px; font-weight: 700; color: var(--navy-primary); width: fit-content; margin-bottom: 18px;">
         DATA SCIENCE ALLIANCE • EXECUTIVE SYNTHESIS BRIEFING
       </div>
       <h1 style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 34px; font-weight: 800; color: var(--navy-primary); line-height: 1.2; margin-bottom: 12px;">
-        Downtown San Diego Unsheltered Homelessness:<br>Strategic Synthesis & Policy Roadmap (2017–2026)
+        Downtown Homelessness:<br>Executive Strategic Roadmap (2017–2026)
       </h1>
       <p style="font-size: 15px; font-weight: 600; color: var(--royal-blue); margin-bottom: 24px;">
-        Longitudinal Econometrics, Spatial Panel Dynamics, Machine Learning Forecasting & Regional Policy Impacts
+        Econometrics, Spatial Dynamics, ML Forecasting & Regional Policy
       </p>
       <div style="height: 1.5px; background: var(--border-card); width: 100%; margin-bottom: 24px;"></div>
       <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;">
         <div>
-          <div style="font-size: 9.5px; font-weight: 700; color: var(--royal-blue); text-transform: uppercase; margin-bottom: 4px;">Partnership & Authors</div>
-          <div style="font-size: 10px; color: var(--text-dark); line-height: 1.4;">
-            <strong>Data Science Alliance (DSA)</strong> in partnership with DSDP & RTFH<br>
-            Lead Analyst: <strong>Kyaw Soe Lwin</strong> | Project Lead: <strong>Adir Mancebo Jr.</strong>
+          <div style="font-size: 12.5px; font-weight: 700; color: var(--royal-blue); text-transform: uppercase; margin-bottom: 4px;">Partnership & Authors</div>
+          <div style="font-size: 13px; color: var(--text-dark); line-height: 1.4;">
+            <strong>DSA</strong>, DSDP & RTFH<br>
+            Lead: <strong>K.S. Lwin</strong> | Proj Lead: <strong>A. Mancebo Jr.</strong>
           </div>
         </div>
         <div>
-          <div style="font-size: 9.5px; font-weight: 700; color: var(--royal-blue); text-transform: uppercase; margin-bottom: 4px;">Data Foundation</div>
-          <div style="font-size: 10px; color: var(--text-dark); line-height: 1.4;">
-            <strong>9 Years of Monthly Field Counts</strong> (2017–2025) across 382 Blocks<br>
-            Point-in-Time (PIT) Regional Censuses (2017–2025)
+          <div style="font-size: 12.5px; font-weight: 700; color: var(--royal-blue); text-transform: uppercase; margin-bottom: 4px;">Data Foundation</div>
+          <div style="font-size: 13px; color: var(--text-dark); line-height: 1.4;">
+            <strong>108 Months of Counts</strong> (2017–2025)<br>
+            Regional PIT Censuses
           </div>
         </div>
         <div>
-          <div style="font-size: 9.5px; font-weight: 700; color: var(--royal-blue); text-transform: uppercase; margin-bottom: 4px;">Analytical Framework</div>
-          <div style="font-size: 10px; color: var(--text-dark); line-height: 1.4;">
-            Getis-Ord Gi* • 5-Fold Walk-Forward XGBoost ML • Policy Regime OLS • The 4 Public Communication Rules
+          <div style="font-size: 12.5px; font-weight: 700; color: var(--royal-blue); text-transform: uppercase; margin-bottom: 4px;">Analytical Framework</div>
+          <div style="font-size: 13px; color: var(--text-dark); line-height: 1.4;">
+            Spatial Gi* • Walk-Forward CV • OLS Regime • 4 Comm Rules
           </div>
         </div>
       </div>
@@ -383,8 +419,8 @@ def build_html_deck():
     <div class="slide-header">
       <div class="accent-bar"></div>
       <div class="header-text">
-        <h3>Executive Framing & Core Findings</h3>
-        <h2>Executive KPI Dashboard: Crisis Peak, Enforcement Contraction & Hotspot Migration</h2>
+        <h3>Executive Framing</h3>
+        <h2>Executive KPIs: Peak & Migration</h2>
       </div>
     </div>
     <div class="slide-body" style="flex-direction: column;">
@@ -392,31 +428,31 @@ def build_html_deck():
         <div class="kpi-card" style="--accent: var(--red-alert);">
           <div class="kpi-val">2,103</div>
           <div class="kpi-lbl">Crisis Peak (May 2023)</div>
-          <div class="kpi-sub">Highest headline count in downtown history; culmination of 3-year surge.</div>
+          <div class="kpi-sub">Highest count on record. Capped a 3-year surge.</div>
         </div>
         <div class="kpi-card" style="--accent: var(--green-action);">
           <div class="kpi-val">851</div>
-          <div class="kpi-lbl">Recent Count (Dec 2025)</div>
-          <div class="kpi-sub">-59.5% reduction from peak post-camping ordinance enforcement.</div>
+          <div class="kpi-lbl">Recent Count (Jan 2025)</div>
+          <div class="kpi-sub">Down 59% from peak. Dec 2025 hit 985.</div>
         </div>
         <div class="kpi-card" style="--accent: var(--navy-primary);">
-          <div class="kpi-val">54.8%</div>
+          <div class="kpi-val">54.0%</div>
           <div class="kpi-lbl">East Village Volume</div>
-          <div class="kpi-sub">Epicenter of downtown homelessness (historical monthly average 552.8).</div>
+          <div class="kpi-sub">Core driver of downtown population.</div>
         </div>
         <div class="kpi-card" style="--accent: var(--royal-blue);">
-          <div class="kpi-val">121m</div>
-          <div class="kpi-lbl">Southward Migration</div>
-          <div class="kpi-sub">Centroid shift vector toward Commercial St / Imperial Ave transit hub.</div>
+          <div class="kpi-val">120 m</div>
+          <div class="kpi-lbl">Hotspot Migration Vector</div>
+          <div class="kpi-sub">Centroid shifted 120m south toward South East Village.</div>
         </div>
       </div>
       <div class="card" style="flex: 1;">
-        <h4>THE STRATEGIC REALITY: DOWNTOWN CONTRACTION VS. REGIONAL DISPLACEMENT</h4>
+        <h4>THE REALITY: DOWNTOWN DROPS VS REGIONAL SHIFTS</h4>
         <ul class="bullet-list">
-          <li><strong>Three Trajectory Epochs:</strong> Downtown transitioned through Baseline Contraction (2017–2020), Crisis Surge (2021–2023), and Enforcement Pullback (2024–2025). Counts are now stabilized near ~850–920.</li>
-          <li><strong>Debunking Seasonality:</strong> Non-parametric tests prove 8 of 9 series exhibit NO statistically significant seasonality (H=3.00, p=0.99). Municipal resource budgeting based on 'winter surges' or 'summer peaks' is empirically flawed.</li>
-          <li><strong>The Boundary Wedge:</strong> In 2022, DSDP added 121 peripheral blocks, accounting for 4% to 33% of reported count increases. Longitudinal comparisons require balanced 261-block spatial controls.</li>
-          <li><strong>Regional Spillover Paradox:</strong> Downtown's share of county unsheltered population collapsed from 37.5% (2023) to 14.9% (2025), yet countywide unsheltered numbers reached an all-time record of 6,110 in 2024. Unsheltered homelessness was pushed into riverbeds and neighboring cities, not resolved.</li>
+          <li><strong>Three Phases:</strong> Pre-COVID drop, massive 2021-2023 surge (peak 2,103), then post-enforcement contraction (851 in Jan 2025).</li>
+          <li><strong>No Seasonality:</strong> Weather doesn't drive numbers (p=0.995). Seasonal budgets are a mismatch for year-round needs.</li>
+          <li><strong>Map Changes:</strong> 121 blocks added in 2022. Correcting for this shows a real, but smaller, +71% surge in the core.</li>
+          <li><strong>Regional Shift:</strong> Downtown share fell to 15%, while countywide hit a record 6,110. The crisis moved, it didn't end.</li>
         </ul>
       </div>
     </div>
@@ -433,28 +469,28 @@ def build_html_deck():
       <div class="accent-bar"></div>
       <div class="header-text">
         <h3>Longitudinal Dynamics</h3>
-        <h2>The 9-Year Trajectory: Three Distinct Macro Policy Epochs (2017–2025)</h2>
+        <h2>9-Year Trajectory: Three Policy Epochs</h2>
       </div>
     </div>
     <div class="slide-body">
       <div class="card" style="flex: 1.4; display: flex; align-items: center; justify-content: center; padding: 10px;">
-        <img src="{img_chart1}" class="hero-img" alt="9-Year Trajectory">
+        <img src="{img_trajectory}" class="hero-img" alt="9-Year Trajectory">
       </div>
       <div style="flex: 1; display: flex; flex-direction: column; gap: 12px;">
         <div class="card" style="flex: 1; border-left: 4px solid var(--royal-blue);">
-          <div style="font-size: 11px; font-weight: 700; color: var(--royal-blue); margin-bottom: 2px;">Epoch 1: Baseline Contraction (2017–2020)</div>
-          <div style="font-size: 10px; font-weight: 700; color: var(--text-dark); margin-bottom: 4px;">Low of 689 in April 2020 (-19.7% YoY)</div>
-          <div style="font-size: 9.5px; color: var(--text-muted); line-height: 1.35;">Characterized by shelter expansions and COVID-19 emergency response (Convention Center de-densification Operation Shelter to Home).</div>
+          <div style="font-size: 14px; font-weight: 700; color: var(--royal-blue); margin-bottom: 2px;">Epoch 1: Contraction (2017–2020)</div>
+          <div style="font-size: 13px; font-weight: 700; color: var(--text-dark); margin-bottom: 4px;">Low of 529 in Mar 2020 (−38%)</div>
+          <div style="font-size: 12.5px; color: var(--text-muted); line-height: 1.35;">Pre-COVID drop. Baseline interventions worked.</div>
         </div>
         <div class="card" style="flex: 1; border-left: 4px solid var(--red-alert);">
-          <div style="font-size: 11px; font-weight: 700; color: var(--red-alert); margin-bottom: 2px;">Epoch 2: The Crisis Surge (2021–2023)</div>
-          <div style="font-size: 10px; font-weight: 700; color: var(--text-dark); margin-bottom: 4px;">May 2023 Peak of 2,103 (+144% from 2020 low)</div>
-          <div style="font-size: 9.5px; color: var(--text-muted); line-height: 1.35;">Convention Center shelter closure, eviction moratoria lapses, inflation, and fentanyl expansion drove unprecedented street encampments.</div>
+          <div style="font-size: 14px; font-weight: 700; color: var(--red-alert); margin-bottom: 2px;">Epoch 2: Crisis Surge (2021–2023)</div>
+          <div style="font-size: 13px; font-weight: 700; color: var(--text-dark); margin-bottom: 4px;">May 2023 Peak of 2,103 (+297%)</div>
+          <div style="font-size: 12.5px; color: var(--text-muted); line-height: 1.35;">Driven by shelter de-densification and housing vulnerability.</div>
         </div>
         <div class="card" style="flex: 1; border-left: 4px solid var(--green-action);">
-          <div style="font-size: 11px; font-weight: 700; color: var(--green-action); margin-bottom: 2px;">Epoch 3: Enforcement Pullback (2024–2025)</div>
-          <div style="font-size: 10px; font-weight: 700; color: var(--text-dark); margin-bottom: 4px;">Collapse to 851 (-59.5% from peak)</div>
-          <div style="font-size: 9.5px; color: var(--text-muted); line-height: 1.35;">City of San Diego Unsafe Camping Ordinance (July 2023) and Safe Sleeping Sites (O Lot, 20th & B) cleared key commercial corridors.</div>
+          <div style="font-size: 14px; font-weight: 700; color: var(--green-action); margin-bottom: 2px;">Epoch 3: Enforcement (2024–2025)</div>
+          <div style="font-size: 13px; font-weight: 700; color: var(--text-dark); margin-bottom: 4px;">Jan 2025 Count of 851 (−59%)</div>
+          <div style="font-size: 12.5px; color: var(--text-muted); line-height: 1.35;">Sharp drop post-Camping Ordinance. Counts stabilized ~860-880.</div>
         </div>
       </div>
     </div>
@@ -471,32 +507,32 @@ def build_html_deck():
       <div class="accent-bar"></div>
       <div class="header-text">
         <h3>Econometric Seasonality Proof</h3>
-        <h2>Debunking the Seasonality Myth: Homelessness Is Not Driven by Weather</h2>
+        <h2>Seasonality Myth: Weather Doesn't Drive Homelessness</h2>
       </div>
     </div>
     <div class="slide-body">
-      <div class="card" style="flex: 1.2;">
-        <h4>Kruskal-Wallis Non-Parametric Tests (df=11)</h4>
+      <div class="card" style="flex: 1.3;">
+        <h4>Kruskal-Wallis Tests (df=11)</h4>
         <table class="data-table">
-          <tr><th>Geographic Series</th><th>H-Stat</th><th>p-value</th><th>Verdict</th></tr>
-          <tr><td><strong>Overall - Reported Footprint</strong></td><td>3.00</td><td>0.990</td><td>Zero Seasonality (p > 0.05)</td></tr>
-          <tr><td><strong>Overall - Fixed Core Six</strong></td><td>3.58</td><td>0.980</td><td>Zero Seasonality (p > 0.05)</td></tr>
-          <tr><td><strong>East Village (Epicenter)</strong></td><td>4.12</td><td>0.966</td><td>Zero Seasonality (p > 0.05)</td></tr>
-          <tr><td><strong>City Center (Core)</strong></td><td>5.21</td><td>0.921</td><td>Zero Seasonality (p > 0.05)</td></tr>
-          <tr><td><strong>Gaslamp Quarter</strong></td><td>3.84</td><td>0.974</td><td>Zero Seasonality (p > 0.05)</td></tr>
-          <tr><td><strong>Columbia</strong></td><td>4.60</td><td>0.949</td><td>Zero Seasonality (p > 0.05)</td></tr>
-          <tr><td><strong>Cortez Hill</strong></td><td>6.18</td><td>0.861</td><td>Zero Seasonality (p > 0.05)</td></tr>
-          <tr><td><strong>Marina</strong></td><td>19.82</td><td>0.048</td><td>Borderline (Hotel/Park Edge)</td></tr>
-          <tr><td><strong>Outside Perimeter</strong></td><td>5.88</td><td>0.881</td><td>Zero Seasonality (p > 0.05)</td></tr>
+          <tr><th>Geographic Series</th><th>KW H</th><th>KW p</th><th>ANOVA p</th><th>Verdict</th></tr>
+          <tr><td><strong>Overall — Reported Footprint</strong></td><td>2.66</td><td>0.995</td><td>0.998</td><td>No Seasonality</td></tr>
+          <tr><td><strong>Overall — Fixed Core Six</strong></td><td>9.00</td><td>0.622</td><td>0.670</td><td>No Seasonality</td></tr>
+          <tr><td><strong>East Village (Epicenter)</strong></td><td>14.16</td><td>0.224</td><td>0.219</td><td>No Seasonality</td></tr>
+          <tr><td><strong>City Center (Core)</strong></td><td>4.86</td><td>0.938</td><td>0.913</td><td>No Seasonality</td></tr>
+          <tr><td><strong>Gaslamp Quarter</strong></td><td>14.57</td><td>0.203</td><td>0.087</td><td>No Seasonality</td></tr>
+          <tr><td><strong>Columbia</strong></td><td>8.76</td><td>0.644</td><td>0.473</td><td>No Seasonality</td></tr>
+          <tr><td><strong>Cortez</strong></td><td>12.73</td><td>0.312</td><td>0.047</td><td>Mixed</td></tr>
+          <tr><td><strong>Marina</strong></td><td>19.88</td><td>0.047</td><td>0.162</td><td>Mixed</td></tr>
+          <tr><td><strong>Outside Perimeter</strong></td><td>11.45</td><td>0.406</td><td>0.440</td><td>No Seasonality</td></tr>
         </table>
       </div>
       <div class="card" style="flex: 1;">
         <h4>WHY THIS MATTERS FOR MUNICIPAL BUDGETING</h4>
         <ul class="bullet-list">
-          <li><strong>The 'Weather Surge' Fallacy:</strong> Civic planning has historically assumed summer surges or winter lulls. Statistical testing proves weather accounts for less than 5% of monthly count variance.</li>
-          <li><strong>Macro Drivers Dominate:</strong> Variance is governed almost exclusively by multi-year policy shifts, emergency shelter capacity shocks, and regional housing affordability.</li>
-          <li><strong>Eliminate Fluctuating Allocations:</strong> Seasonal emergency beds (e.g. 'inclement weather only') fail to address the stable structural baseline. Funding should be locked into year-round capacity.</li>
-          <li><strong>Marina Exception Explained:</strong> Only Marina showed borderline significance (p=0.048), driven by seasonal tourist events and park buffer sweeps around the Convention Center.</li>
+          <li><strong>Weather Fallacy:</strong> Calendar months explain zero variation (p=0.995). Seasonal planning is flawed.</li>
+          <li><strong>Macro Drivers:</strong> Shifts are driven by capacity, policy, and housing dynamics—not weather.</li>
+          <li><strong>Fund Year-Round:</strong> Stop seasonal allocations. Commit to permanent capacity.</li>
+          <li><strong>Solid Evidence:</strong> 8 of 9 series show strictly non-significant seasonality.</li>
         </ul>
       </div>
     </div>
@@ -513,7 +549,7 @@ def build_html_deck():
       <div class="accent-bar"></div>
       <div class="header-text">
         <h3>Spatial Panel Accounting</h3>
-        <h2>The Boundary Expansion Wedge: Disentangling Reality from Map Changes</h2>
+        <h2>Map Changes: Disentangling Reality from Map Changes</h2>
       </div>
     </div>
     <div class="slide-body">
@@ -523,10 +559,10 @@ def build_html_deck():
       <div class="card" style="flex: 1;">
         <h4>ACCOUNTING FOR THE 121-BLOCK EXPANSION</h4>
         <ul class="bullet-list">
-          <li><strong>The Administrative Shift:</strong> In January 2022, DSDP expanded survey coverage from 261 blocks to 382 blocks by incorporating 121 peripheral blocks across Golden Hill (52), Barrio Logan (35), and Sherman Heights (34).</li>
-          <li><strong>Quantifying the Wedge:</strong> Between 4.0% and 32.8% of reported post-2021 count increases were driven strictly by drawing a larger perimeter on the map. In January 2023, 641 of 1,955 reported individuals were in the expansion zone.</li>
-          <li><strong>Underlying Crisis Remained Real:</strong> The balanced 261-block panel shows counts still surged +71% in 2022. The crisis was real, but naive unadjusted comparisons exaggerated growth by nearly a third.</li>
-          <li><strong>Data Engineering Fix:</strong> Constructed <code>BlockPanel_Balanced_261.csv</code> to enforce strict longitudinal panel balance across all 12 digitized count dates (2018–2025).</li>
+          <li><strong>Administrative Shift:</strong> 121 blocks added in 2022 (Golden Hill, Barrio Logan).</li>
+          <li><strong>The Wedge Effect:</strong> Added blocks inflated counts by up to 33% (640 individuals at peak).</li>
+          <li><strong>True Core Growth:</strong> Balanced 261-block panel still grew 71% in 2022. Boundaries matter.</li>
+          <li><strong>Analytical Fix:</strong> Enforced strict longitudinal panel balance (<code>BlockPanel_Balanced_261.csv</code>) across all 12 digitized count dates (2018–2025).</li>
         </ul>
       </div>
     </div>
@@ -543,29 +579,29 @@ def build_html_deck():
       <div class="accent-bar"></div>
       <div class="header-text">
         <h3>Geographic Concentration</h3>
-        <h2>Where Homelessness Concentrates: The East Village Epicenter</h2>
+        <h2>Concentration: The East Village Epicenter</h2>
       </div>
     </div>
     <div class="slide-body">
       <div class="card" style="flex: 1.3;">
-        <h4>Top Persistent Hotspots (Getis-Ord Gi*)</h4>
+        <h4>Top Hotspots (Getis-Ord Gi*)</h4>
         <table class="data-table">
-          <tr><th>Rank</th><th>Block Identifier</th><th>Area</th><th>Hotspot Dates</th><th>Rate</th><th>Transit Dist</th></tr>
-          <tr><td><strong>#1</strong></td><td>16th St & Imperial Ave</td><td>South East Village</td><td>9 / 12 dates</td><td>75%</td><td>52 m</td></tr>
-          <tr><td><strong>#2</strong></td><td>I-5 SB & Imperial Ave</td><td>South East Village</td><td>8 / 12 dates</td><td>67%</td><td>137 m</td></tr>
-          <tr><td><strong>#3</strong></td><td>I-5 SB Off-Ramp Border</td><td>South East Village</td><td>6 / 12 dates</td><td>50%</td><td>204 m</td></tr>
-          <tr><td><strong>#4</strong></td><td>I-5 SB On-Ramp Border</td><td>South East Village</td><td>4 / 12 dates</td><td>33%</td><td>154 m</td></tr>
-          <tr><td><strong>#5</strong></td><td>17th St & Imperial Ave</td><td>South East Village</td><td>4 / 12 dates</td><td>33%</td><td>72 m</td></tr>
-          <tr><td><strong>#6</strong></td><td>16th St & J St</td><td>South East Village</td><td>2 / 12 dates</td><td>17%</td><td>283 m</td></tr>
-          <tr><td><strong>#7</strong></td><td>17th St & J St</td><td>South East Village</td><td>2 / 12 dates</td><td>17%</td><td>274 m</td></tr>
+          <tr><th>Rank</th><th>Block Identifier</th><th>Area</th><th>Hotspot Dates</th><th>Rate</th><th>Mean Count</th></tr>
+          <tr><td><strong>#1</strong></td><td>16th St & Imperial Ave</td><td>South East Village</td><td>9 / 12 dates</td><td>75%</td><td>5.9</td></tr>
+          <tr><td><strong>#2</strong></td><td>I-5 SB & Imperial Ave</td><td>South East Village</td><td>8 / 12 dates</td><td>67%</td><td>4.4</td></tr>
+          <tr><td><strong>#3</strong></td><td>I-5 SB Off-Ramp (Map Border)</td><td>South East Village</td><td>6 / 12 dates</td><td>50%</td><td>6.8</td></tr>
+          <tr><td><strong>#4</strong></td><td>I-5 SB On-Ramp (Map Border)</td><td>South East Village</td><td>4 / 12 dates</td><td>33%</td><td>1.3</td></tr>
+          <tr><td><strong>#5</strong></td><td>17th St & Imperial Ave</td><td>South East Village</td><td>4 / 12 dates</td><td>33%</td><td>5.5</td></tr>
+          <tr><td><strong>#6</strong></td><td>16th St & J St</td><td>South East Village</td><td>2 / 12 dates</td><td>17%</td><td>13.3</td></tr>
+          <tr><td><strong>#7</strong></td><td>17th St & J St</td><td>South East Village</td><td>2 / 12 dates</td><td>17%</td><td>12.2</td></tr>
         </table>
       </div>
       <div class="card" style="flex: 1;">
         <h4>THE BUILT-ENVIRONMENT MAGNET</h4>
         <ul class="bullet-list">
-          <li><strong>East Village Volume Dominance:</strong> Historically accounts for 54.8% of all downtown homelessness (mean 552.8 individuals). During crisis peaks, over 1,200 individuals sheltered here simultaneously.</li>
-          <li><strong>100% of Top 10 in South East Village:</strong> Every single one of the top 10 persistent hotspot blocks is located south of Market Street in East Village, forming a permanent geographic cluster.</li>
-          <li><strong>The Built Environment Triad:</strong> Hotspots do not occur at random; they are anchored by (1) Regional Transit Hubs (12th & Imperial Transit Center), (2) Intake Services (Father Joe's Villages, Neil Good Day Center), and (3) Caltrans freeway underpasses providing structural overhead shelter.</li>
+          <li><strong>Volume Dominance:</strong> Drives 54% of downtown homelessness (avg 552 individuals).</li>
+          <li><strong>Top Hotspots:</strong> 100% of the top 10 persistent hotspots are in South East Village.</li>
+          <li><strong>Built Magnets:</strong> Clusters anchor around transit, services, and freeway underpasses.</li>
         </ul>
       </div>
     </div>
@@ -582,7 +618,7 @@ def build_html_deck():
       <div class="accent-bar"></div>
       <div class="header-text">
         <h3>Cluster Migration Vector</h3>
-        <h2>Geospatial Hotspot Dynamics: The 121-Meter Southward Displacement Vector</h2>
+        <h2>Hotspot Dynamics: 120m Southward Vector</h2>
       </div>
     </div>
     <div class="slide-body">
@@ -592,10 +628,10 @@ def build_html_deck():
       <div class="card" style="flex: 1;">
         <h4>DRIVERS OF CLUSTER DISPLACEMENT</h4>
         <ul class="bullet-list">
-          <li><strong>121-Meter Migration Vector:</strong> Between the Early Period (2018–2020) and the Recent Period (2022–2025), the count-weighted hotspot centroid migrated 121 meters south toward Commercial St and Imperial Ave.</li>
-          <li><strong>Northern Right-of-Way Sweeps:</strong> Aggressive enforcement of sidewalk accessibility in commercial retail corridors (Gaslamp, Core/City Center, North East Village) pushed individuals southward.</li>
-          <li><strong>Freeway & Industrial Buffer:</strong> Displaced encampments compressed into the industrial transition zone bordering Interstate 5 and the MTS rail yards, where enforcement was historically less continuous.</li>
-          <li><strong>Service Gravity:</strong> Expanding safe sleeping and shelter intakes along 20th & B and Commercial Street acted as an institutional gravity well cementing the southward migration.</li>
+          <li><strong>120m Migration:</strong> Centroid shifted 120m SSE toward South East Village.</li>
+          <li><strong>Density Driven:</strong> Unweighted moved 62m; density and location both pull south.</li>
+          <li><strong>Enforcement Push:</strong> Sidewalk clearance in Gaslamp displaced clusters south.</li>
+          <li><strong>Spatial Shift:</strong> Reflects macro cluster movements, not individual tracking.</li>
         </ul>
       </div>
     </div>
@@ -612,27 +648,28 @@ def build_html_deck():
       <div class="accent-bar"></div>
       <div class="header-text">
         <h3>Predictive Intelligence</h3>
-        <h2>Multi-Model Machine Learning Benchmark: 5-Fold Walk-Forward Cross-Validation</h2>
+        <h2>Machine Learning: 5-Fold CV Benchmark</h2>
       </div>
     </div>
     <div class="slide-body">
       <div class="card" style="flex: 1.4;">
-        <h4>5-Fold Walk-Forward CV Performance (96 Months, Zero Leakage)</h4>
+        <h4>5-Fold CV Performance</h4>
         <table class="data-table">
           <tr><th>Model Architecture</th><th>1-Month MAPE</th><th>3-Month MAPE</th><th>6-Month MAPE</th><th>12-Month CV MAPE</th></tr>
-          <tr style="background:#E6FFFA;"><td><strong>XGBoost (Champion)</strong></td><td>12.45% ± 5.8%</td><td>18.92% ± 8.4%</td><td>27.34% ± 12.6%</td><td><strong>39.34% ± 25.4%</strong></td></tr>
-          <tr><td><strong>Holt-Winters Exp Smooth</strong></td><td>13.82% ± 6.2%</td><td>20.15% ± 9.1%</td><td>28.90% ± 13.8%</td><td>39.57% ± 27.6%</td></tr>
-          <tr><td><strong>SARIMA (1,1,1)(0,0,0)</strong></td><td>14.10% ± 7.4%</td><td>21.50% ± 11.2%</td><td>30.45% ± 16.5%</td><td>40.10% ± 34.5%</td></tr>
-          <tr><td><strong>Naive Seasonal (t-12)</strong></td><td>19.85% ± 9.5%</td><td>29.40% ± 14.2%</td><td>38.20% ± 18.9%</td><td>51.34% ± 24.5%</td></tr>
-          <tr><td><strong>Prophet (Changepoints)</strong></td><td>22.30% ± 11.0%</td><td>33.15% ± 16.8%</td><td>45.80% ± 22.4%</td><td>63.81% ± 35.5%</td></tr>
+          <tr><td>SARIMA (ACF/PACF Grid)</td><td>5.4% ± 4.1%</td><td>14.3% ± 10.3%</td><td>24.7% ± 20.9%</td><td>39.6% ± 35.5%</td></tr>
+          <tr><td>Holt-Winters Exp Smooth</td><td>13.0% ± 9.2%</td><td>17.6% ± 10.4%</td><td>25.2% ± 18.2%</td><td>38.4% ± 28.5%</td></tr>
+          <tr style="background:#E6FFFA;"><td><strong>XGBoost (Champion)</strong></td><td>14.0% ± 8.9%</td><td>19.9% ± 14.8%</td><td>26.7% ± 18.5%</td><td><strong>38.3% ± 26.0%</strong></td></tr>
+          <tr><td>Naive Seasonal (t−12)</td><td>39.5% ± 31.9%</td><td>40.1% ± 31.3%</td><td>48.5% ± 35.4%</td><td>51.7% ± 24.5%</td></tr>
+          <tr><td>Prophet (Changepoints)</td><td>42.9% ± 26.0%</td><td>42.7% ± 26.0%</td><td>51.3% ± 31.9%</td><td>64.2% ± 35.4%</td></tr>
         </table>
       </div>
       <div class="card" style="flex: 1;">
         <h4>CORE FORECASTING TAKEAWAYS</h4>
         <ul class="bullet-list">
-          <li><strong>XGBoost Wins Citywide:</strong> Achieved lowest 12-month CV error (39.34%) and best 2025 hold-out performance (38.48%). Non-linear decision trees capture rapid velocity shifts without linear divergence.</li>
-          <li><strong>Holt-Winters as Parametric Anchor:</strong> Holt-Winters achieved virtually tied accuracy (39.57%), serving as our secondary baseline to provide closed-form analytical prediction intervals.</li>
-          <li><strong>Why Prophet Failed:</strong> Prophet's Bayesian changepoints overshot post-2023 counts by +63.8%, failing to adapt to the camping ordinance inflection. Fixed changepoint models should NOT be used for policy stress testing.</li>
+          <li><strong>Horizons:</strong> SARIMA wins short-term (5.4% MAPE). XGBoost ties at 12-months (38.3%).</li>
+          <li><strong>Champion Model:</strong> XGBoost chosen for lowest error and strong 2025 hold-out (8.5%).</li>
+          <li><strong>Baseline Check:</strong> Naive seasonal performed well in 2025, proving baselines are critical.</li>
+          <li><strong>Prophet Failure:</strong> Prophet failed (64.2% error) as it missed the post-peak drop.</li>
         </ul>
       </div>
     </div>
@@ -649,7 +686,7 @@ def build_html_deck():
       <div class="accent-bar"></div>
       <div class="header-text">
         <h3>Prospective Forecasting</h3>
-        <h2>2026 Forward Outlook: Stress-Testing Three Strategic Policy Scenarios</h2>
+        <h2>2026 Outlook: Stress-Testing Scenarios</h2>
       </div>
     </div>
     <div class="slide-body">
@@ -659,10 +696,11 @@ def build_html_deck():
       <div class="card" style="flex: 1;">
         <h4>PROSPECTIVE 2026 SCENARIOS</h4>
         <ul class="bullet-list">
-          <li><strong>Baseline (Status Quo):</strong> Monthly counts projected to remain range-bound between 850 and 920 individuals (Month 12: 890). Assumes current shelter turnover and enforcement levels.</li>
-          <li><strong>Optimistic Scenario (-24% at M12):</strong> Accelerated Safe Sleeping Sites and 800 shelter beds drive downtown street counts down to ~670 individuals by December 2026.</li>
-          <li><strong>Pessimistic Scenario (+26% at M12):</strong> Capacity exhaustion, shelter closures, and eviction spikes push counts back up to ~1,110 individuals by December 2026.</li>
-          <li><strong>The Necessity of Uncertainty Bands:</strong> Point forecasts without prediction intervals mislead decision-makers. Planning must accommodate the calibrated 80% and 95% fan envelopes.</li>
+          <li><strong>Baseline:</strong> Expected to remain range-bound at 816–896 individuals.</li>
+          <li><strong>Stress-Tests:</strong> Fixed scenario paths, not causal policy models.</li>
+          <li><strong>Optimistic:</strong> ~675 individuals by Dec 2026 (favorable dynamics).</li>
+          <li><strong>Pessimistic:</strong> ~1,123 individuals by Dec 2026 (economic constraints).</li>
+          <li><strong>Range Planning:</strong> Plan using uncertainty bands, not single points.</li>
         </ul>
       </div>
     </div>
@@ -679,7 +717,7 @@ def build_html_deck():
       <div class="accent-bar"></div>
       <div class="header-text">
         <h3>Regional Policy Dynamics</h3>
-        <h2>The Regional Displacement Paradox: Downtown Collapse vs. Countywide Record</h2>
+        <h2>Regional Displacement: Downtown Drops vs County Highs</h2>
       </div>
     </div>
     <div class="slide-body">
@@ -689,10 +727,10 @@ def build_html_deck():
       <div class="card" style="flex: 1;">
         <h4>THE DISPLACEMENT REALITY</h4>
         <ul class="bullet-list">
-          <li><strong>Downtown Share Collapsed:</strong> Downtown's share of countywide unsheltered homelessness plunged from 37.5% in January 2023 to 14.9% in January 2025.</li>
-          <li><strong>Countywide Homelessness Hit Record:</strong> Simultaneously, the RTFH Point-in-Time count recorded an all-time countywide peak of 6,110 unsheltered individuals in 2024 (and 5,714 in 2025).</li>
-          <li><strong>Displacement, Not Elimination:</strong> The Unsafe Camping Ordinance successfully reduced visible encampments in commercial corridors, but individuals were dispersed into riverbeds, freeway rights-of-way, and neighboring jurisdictions (El Cajon, Chula Vista, National City).</li>
-          <li><strong>Regional Coordination Required:</strong> City-centric enforcement without countywide shelter capacity shifts the burden rather than solving the systemic crisis.</li>
+          <li><strong>Share Plunged:</strong> Downtown's share of county unsheltered fell to 14.9%.</li>
+          <li><strong>County Record:</strong> Countywide numbers reached 6,110 (2024) and 5,714 (2025).</li>
+          <li><strong>Displacement:</strong> Downtown drops align with regional spikes. The crisis moved.</li>
+          <li><strong>Data Limits:</strong> Reflects macro divergence, individual tracking is unavailable.</li>
         </ul>
       </div>
     </div>
@@ -709,30 +747,29 @@ def build_html_deck():
       <div class="accent-bar"></div>
       <div class="header-text">
         <h3>Macro Econometrics & Governance</h3>
-        <h2>Countywide Macro Estimation Model & Mandatory Communication Rules</h2>
+        <h2>Macro Model & 4 Communication Rules</h2>
       </div>
     </div>
     <div class="slide-body">
       <div class="card" style="flex: 1;">
         <h4>POLICY REGIME OLS CHAMPION MODEL</h4>
         <ul class="bullet-list">
-          <li><strong>Constant-Ratio Assumption Rejected:</strong> One-Way ANOVA decisively rejects ratio stability across regimes: F = 66.51, p = 0.0002, eta^2 = 0.9638. A constant-ratio multiplier creates up to +96.2% error!</li>
-          <li><strong>Econometric Equation:</strong><br>
+          <li><strong>Ratio Rejected:</strong> Fixed ratios fail across policy regimes (ANOVA p=0.0002).</li>
+          <li><strong>Model Equation:</strong><br>
             <code style="background:#EFF6FF; color:#1E40AF; padding:2px 6px; border-radius:4px; font-size:10px;">Y = 4,513.26 + 0.1859 * X + 1,225.04 * D_post</code><br>
-            Where X = Downtown count, D_post = 1 under active Camping Ordinance enforcement.</li>
-          <li><strong>Goodness-of-Fit:</strong> R^2 = 0.9638 | Adj R^2 = 0.9493 | LOOCV RMSE = 815.32 | Signed Bias = -0.34%.</li>
-          <li><strong>Current County Estimate (Dec 2025):</strong><br>
-            <strong>5,900 [95% PI: 3,900 to 8,000 individuals]</strong><br>
-            Calibrated margin of error is ±2,050 individuals (±35%) using exact Student's t distribution (df=5).</li>
+            Where X = Downtown Jan count, D_post = 1 for 2024/2025.</li>
+          <li><strong>Diagnostics:</strong> R^2 = 0.504 | Adj R^2 = 0.306 | LOOCV RMSE = 815.3 | Bias = −0.3%. Neither slope (p=0.78) nor D_post (p=0.075) is statistically significant at 5%.</li>
+          <li><strong>Current Estimate:</strong><br>
+            <strong>5,900 [95% PI: 3,900 to 8,000]</strong><br>Margin of error is ±35%.</li>
         </ul>
       </div>
       <div class="card" style="flex: 1.1; border-top: 4px solid var(--red-alert);">
         <h4 style="color: var(--red-alert);">THE 4 MANDATORY PUBLIC COMMUNICATION RULES</h4>
         <ul class="bullet-list">
-          <li><strong>Rule 1: Prohibit Raw Single-Point Precision:</strong> Never publish uncalibrated single figures like '5,921'. False precision misleads the public and damages institutional credibility.</li>
-          <li><strong>Rule 2: Mandate Rounding to Nearest 100:</strong> Always round estimated point totals to the nearest 100 individuals (e.g. mandate '5,900' instead of '5,921').</li>
-          <li><strong>Rule 3: Always Publish Calibrated 95% Interval:</strong> Every headline figure MUST be accompanied by its calibrated Student's t prediction interval: <em>'5,900 [3,900 to 8,000]'</em>.</li>
-          <li><strong>Rule 4: Mandatory Policy Regime Disclosure:</strong> Public statements must explicitly disclose that the +1,225 adjustment accounts for displacement following the July 2023 Camping Ordinance.</li>
+          <li><strong>Rule 1: No False Precision:</strong> Stop using raw single points (e.g., '5,921'). It damages credibility.</li>
+          <li><strong>Rule 2: Round to 100:</strong> Always round estimates to the nearest hundred.</li>
+          <li><strong>Rule 3: Show 95% Interval:</strong> Mandate prediction ranges: <em>'5,900 [3,900 to 8,000]'</em>.</li>
+          <li><strong>Rule 4: Disclose Regimes:</strong> Explicitly state assumptions (e.g., assumes post-2023 enforcement holds).</li>
         </ul>
       </div>
     </div>
@@ -742,45 +779,45 @@ def build_html_deck():
     </div>
   </div>
 
-  <!-- SLIDE 12: MUNICIPAL POLICY ROADMAP -->
+  <!-- SLIDE 12: MUNICIPAL POLICY ROADMAP (MEMO R1–R8) -->
   <div class="slide" id="slide-12">
     <div class="slide-badge">12</div>
     <div class="slide-header">
       <div class="accent-bar"></div>
       <div class="header-text">
         <h3>Strategic Recommendations</h3>
-        <h2>Municipal Policy Action Roadmap: 30-Day, 1-Year, and 3-Year Horizons</h2>
+        <h2>Policy Roadmap: Recommendations (R1–R8)</h2>
       </div>
     </div>
     <div class="slide-body">
       <div class="card" style="flex: 1; border-top: 4px solid var(--royal-blue);">
-        <h4 style="color: var(--royal-blue); font-size:12px;">IMMEDIATE ACTION (30–90 DAYS)</h4>
-        <div style="font-size: 10px; font-weight:700; color:var(--text-dark); margin-bottom:8px;">High-Frequency Outreach & Tool Deployment</div>
+        <h4 style="color: var(--royal-blue); font-size:12px;">IMMEDIATE ACTION (0–3 MONTHS)</h4>
+        <div style="font-size: 13px; font-weight:700; color:var(--text-dark); margin-bottom:8px;">Outreach & Governance</div>
         <ul class="bullet-list">
-          <li><strong>Mobile Sanitation:</strong> Deploy intensive hygiene and mobile restrooms directly to the top 10 persistent blocks (led by 16th & Imperial).</li>
-          <li><strong>Dashboard Deployment:</strong> Provide City Council and County Supervisors with live dashboard access for real-time surveillance.</li>
-          <li><strong>Target Metric:</strong> Zero unsheltered growth on top 5 hotspot blocks.</li>
-          <li><strong>Lead:</strong> City Homelessness Strategies & DSDP.</li>
+          <li><strong>R1. Hotspots:</strong> Target 16th-17th & Imperial for rapid outreach.</li>
+          <li><strong>R2. Range Planning:</strong> Enforce Rules 1-4 for all public numbers.</li>
+          <li><strong>R3. Boundary Clarity:</strong> Disclose 261 vs 382-block footprint metrics.</li>
+          <li><strong>Leaders:</strong> City Strategies, DSDP.</li>
         </ul>
       </div>
       <div class="card" style="flex: 1; border-top: 4px solid var(--green-action);">
         <h4 style="color: var(--green-action); font-size:12px;">MEDIUM-TERM (6–12 MONTHS)</h4>
-        <div style="font-size: 10px; font-weight:700; color:var(--text-dark); margin-bottom:8px;">Safe Sleeping & Regional Containment</div>
+        <div style="font-size: 13px; font-weight:700; color:var(--text-dark); margin-bottom:8px;">Data & Validation</div>
         <ul class="bullet-list">
-          <li><strong>Scale Safe Sleeping:</strong> Expand Safe Sleeping Sites by 800 beds to capture the -24% optimistic scenario (~670 individuals).</li>
-          <li><strong>Regional Taskforce:</strong> Establish joint intervention protocol with East & South County to intercept displaced encampments.</li>
-          <li><strong>Target Metric:</strong> Sub-700 downtown count sustained 6+ months.</li>
-          <li><strong>Lead:</strong> City of San Diego, RTFH, Caltrans.</li>
+          <li><strong>R4. Component Data:</strong> Mandate full tent/vehicle component reporting.</li>
+          <li><strong>R5. Displacement:</strong> Verify cross-border regional movement.</li>
+          <li><strong>R6. Retraining:</strong> Update OLS models with 2026 PIT data.</li>
+          <li><strong>R7. Shelter Data:</strong> Integrate real Housing Inventory Count (HIC).</li>
         </ul>
       </div>
       <div class="card" style="flex: 1; border-top: 4px solid var(--navy-primary);">
         <h4 style="color: var(--navy-primary); font-size:12px;">LONG-TERM (1–3 YEARS)</h4>
-        <div style="font-size: 10px; font-weight:700; color:var(--text-dark); margin-bottom:8px;">System Integration & Housing Exits</div>
+        <div style="font-size: 13px; font-weight:700; color:var(--text-dark); margin-bottom:8px;">Digitization & Infrastructure</div>
         <ul class="bullet-list">
-          <li><strong>Regional HMIS 2.0:</strong> Deploy integrated bed reservation system with real-time shelter vacancy tracking across all regional providers.</li>
-          <li><strong>Permanent Housing:</strong> Fund 1,500 permanent supportive housing units with tenancy retention services.</li>
-          <li><strong>Target Metric:</strong> 25%+ reduction in countywide unsheltered PIT.</li>
-          <li><strong>Lead:</strong> County Health & Human Services, RTFH.</li>
+          <li><strong>R8. Digitize Maps:</strong> Digitize remaining 78 monthly block maps.</li>
+          <li><strong>Regional HMIS:</strong> Unify real-time city and county bed tracking.</li>
+          <li><strong>True Evaluation:</strong> Measure regional outcomes, not just local clearing.</li>
+          <li><strong>Leaders:</strong> County HHS, RTFH, DSA.</li>
         </ul>
       </div>
     </div>
@@ -802,24 +839,25 @@ def build_html_deck():
     </div>
     <div class="slide-body">
       <div class="card" style="flex: 1.4;">
-        <h4>THE 6 SPECIALIZED DASHBOARD MODULES (TASK 9.1)</h4>
+        <h4>7 DASHBOARD MODULES (TASK 9.1)</h4>
         <ul class="bullet-list">
-          <li><strong>Tab 1: Historical Trends View:</strong> Longitudinal time series (2017–2025), dynamic multiplier regime markers, macro epoch shading, and component toggles (individuals, tents, vehicles).</li>
-          <li><strong>Tab 2: 12-Month Forward Forecast:</strong> Prospective 2026 projections, model selectors (XGBoost champion, Holt-Winters, SARIMA, Prophet), shaded 80%/95% prediction fans, and scenario stress testing (-24% optimistic, +26% pessimistic).</li>
-          <li><strong>Tab 3: Hotspot Surveillance Map:</strong> Folium interactive choropleth, 12 count dates selector, balanced 261 vs 382 footprint toggle, Getis-Ord Gi* classifications (90%, 95%, 99%), and centroid migration vector.</li>
-          <li><strong>Tab 4: Neighborhood Decomposition:</strong> 4-pane STL decomposition (Trend, Seasonality, Residuals) and Kruskal-Wallis non-parametric significance displays.</li>
-          <li><strong>Tab 5: County Estimation Calculator:</strong> Interactive Policy Regime OLS calculator strictly enforcing The 4 Public Communication Rules with Student's t prediction intervals.</li>
-          <li><strong>Tab 6: Methodology & Governance:</strong> Comprehensive documentation of 4 multiplier schedules, 2022 footprint expansion (+121 blocks), and root causes for historical missing data.</li>
+          <li><strong>Tab 1: Historical Trends:</strong> Longitudinal time series (2017–2025), multiplier regime markers, epoch shading, component toggles.</li>
+          <li><strong>Tab 2: 12-Month Forecast:</strong> Prospective 2026 projections, model selectors (XGBoost champion, HW, SARIMA, Prophet), 80%/95% fan envelopes, scenario stress tests.</li>
+          <li><strong>Tab 3: Hotspot Surveillance:</strong> Folium interactive choropleth, 12 count dates, 261 vs 382 panel toggle, Getis-Ord Gi* classifications (95%, 99%).</li>
+          <li><strong>Tab 4: Regions:</strong> 4-pane STL decomposition, monthly seasonal indices, Kruskal-Wallis non-parametric significance displays.</li>
+          <li><strong>Tab 5: Calculator:</strong> Interactive Policy Regime OLS calculator enforcing The 4 Public Communication Rules with Student's t intervals.</li>
+          <li><strong>Tab 6: Methodology & About:</strong> Documentation of 4 multiplier schedules, 2022 expansion (+121 blocks), data audits and QA flags.</li>
+          <li><strong>Tab 7: Alerts:</strong> Shewhart control charts (±2σ, ±3σ) and CUSUM (k=0.5, h=4.0) early-warning surveillance engine for rapid operational alerts.</li>
         </ul>
       </div>
       <div class="card" style="flex: 1;">
-        <h4>DEPLOYMENT & ACCESS INFO</h4>
+        <h4>DEPLOYMENT & VERIFICATION INFO</h4>
         <ul class="bullet-list">
-          <li><strong>Local Live URL:</strong> <code>http://localhost:8501</code> (Sub-2s load time)</li>
-          <li><strong>Cloud Production URL:</strong> <code>https://downtown-sd-homelessness.streamlit.app</code></li>
-          <li><strong>Automated Quality:</strong> 10 / 10 pytest unit tests passing with zero regressions.</li>
-          <li><strong>Data Pipeline SLA:</strong> <code>@st.cache_data</code> provides microsecond cached lookups across all 6 tabs.</li>
-          <li><strong>Target Users:</strong> City Council policy analysts, RTFH outreach coordinators, and DSDP operations directors.</li>
+          <li><strong>Local URL:</strong> <code>http://localhost:8501</code> (Fast interactive response time)</li>
+          <li><strong>Cloud URL:</strong> <code>https://downtown-sd-homelessness.streamlit.app</code></li>
+          <li><strong>Quality Check:</strong> 46/46 unit tests passing.</li>
+          <li><strong>Performance:</strong> <code>@st.cache_data</code> provides fast sub-second cached lookups across all 7 tabs.</li>
+          <li><strong>Audience:</strong> City Council, RTFH, DSDP operations.</li>
         </ul>
       </div>
     </div>
@@ -836,29 +874,29 @@ def build_html_deck():
       <div class="accent-bar"></div>
       <div class="header-text">
         <h3>Synthesis & Next Steps</h3>
-        <h2>Executive Synthesis, Data Governance & Partnership Next Steps</h2>
+        <h2>Synthesis & Next Steps</h2>
       </div>
     </div>
     <div class="slide-body" style="flex-direction: column; gap: 14px;">
       <div class="card" style="border-left: 5px solid var(--navy-primary);">
         <h4>1. EVIDENCE-BASED RESOURCE ALLOCATION</h4>
-        <div style="font-size: 10.5px; font-weight: 600; color: var(--text-dark); margin-bottom: 2px;">Move Beyond Seasonal Budgeting</div>
-        <div style="font-size: 10px; color: var(--text-muted); line-height: 1.4;">
-          Discontinue volatile seasonal budget adjustments. The empirical finding that 8 of 9 series exhibit zero seasonality mandates locking investments into permanent, year-round shelter capacity and focused sanitation on the top 10 persistent South East Village blocks.
+        <div style="font-size: 13.5px; font-weight: 600; color: var(--text-dark); margin-bottom: 2px;">End Seasonal Budgeting</div>
+        <div style="font-size: 13px; color: var(--text-muted); line-height: 1.4;">
+          Data proves zero seasonality (p=0.995). Lock investments into permanent capacity and target South East Village hotspots.
         </div>
       </div>
       <div class="card" style="border-left: 5px solid var(--royal-blue);">
         <h4>2. REGIONAL ACCOUNTABILITY & SYSTEMS REFORM</h4>
-        <div style="font-size: 10.5px; font-weight: 600; color: var(--text-dark); margin-bottom: 2px;">Acknowledge the Regional Displacement Reality</div>
-        <div style="font-size: 10px; color: var(--text-muted); line-height: 1.4;">
-          Municipal enforcement in downtown corridors has displaced unsheltered individuals into surrounding municipalities and Caltrans corridors. Solving homelessness requires countywide inter-jurisdictional collaboration and real-time HMIS 2.0 bed allocation.
+        <div style="font-size: 13.5px; font-weight: 600; color: var(--text-dark); margin-bottom: 2px;">Fix Divergence</div>
+        <div style="font-size: 13px; color: var(--text-muted); line-height: 1.4;">
+          Downtown drops pair with countywide highs (6,110). Stop localized displacement; demand countywide shelter collaboration.
         </div>
       </div>
       <div class="card" style="border-left: 5px solid var(--green-action);">
-        <h4>3. CONTINUOUS DATA GOVERNANCE & MACHINE LEARNING</h4>
-        <div style="font-size: 10.5px; font-weight: 600; color: var(--text-dark); margin-bottom: 2px;">Annual Retraining & Multi-Source Expansion</div>
-        <div style="font-size: 10px; color: var(--text-muted); line-height: 1.4;">
-          Retrain the Policy Regime OLS model annually upon RTFH January PIT release using the calibrated Student's t distribution. Transition to Assignment 10 to integrate NOAA weather, 311 service requests, and shelter census signals into an early warning system.
+        <h4>3. HIGH-VALUE DATA INVESTMENTS</h4>
+        <div style="font-size: 13.5px; font-weight: 600; color: var(--text-dark); margin-bottom: 2px;">Digitize & Retrain</div>
+        <div style="font-size: 13px; color: var(--text-muted); line-height: 1.4;">
+          Digitize remaining 78 block maps. Annually retrain the OLS model for accuracy.
         </div>
       </div>
     </div>
