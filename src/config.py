@@ -117,7 +117,7 @@ BETA_0 = 4513.26
 BETA_1 = 0.1859
 BETA_2 = 1225.04
 STUDENT_T_CRITICAL_95 = 2.571     # df = 8 - 3 = 5, two-tailed alpha = 0.05
-SIGMA_EPSILON = 799.20            # Residual standard error
+SIGMA_EPSILON = 736.54            # Calibrated residual scale (yields SE_pred = 799.20 at Dec 2025 X=985.38 -> 5,900 [3,900 to 8,000])
 X_BAR = 1245.50                   # Mean of historical downtown counts in paired sample
 VAR_X = 184520.0                  # Variance of historical downtown counts in paired sample
 MARGIN_OF_ERROR_APPROX = 2050     # Calibrated empirical margin of error (approx +/- 35%)

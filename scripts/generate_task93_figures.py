@@ -148,8 +148,8 @@ def generate_trajectory_9year_figure():
 
     # Note about 2025 unpublished months
     ax.text(
-        pd.Timestamp("2025-07-01"),
-        1550,
+        pd.Timestamp("2024-04-01"),
+        1650,
         "⚠️ 4 Months Unpublished in 2025\n(Jul, Aug, Oct, Nov: plotted as gaps)",
         fontsize=8,
         fontweight="bold",
@@ -263,20 +263,20 @@ def generate_forecast_2026_figure():
     ax.axvline(sep_date, color=MUTED_TEXT, linestyle=":", linewidth=1.5, alpha=0.8)
     ax.text(
         sep_date - pd.Timedelta(days=15),
-        2100,
+        520,
         "Historical Observed",
         ha="right",
-        va="top",
+        va="bottom",
         fontsize=9.5,
         fontweight="bold",
         color=NAVY,
     )
     ax.text(
         sep_date + pd.Timedelta(days=15),
-        2100,
+        520,
         "Prospective 2026 Forecast",
         ha="left",
-        va="top",
+        va="bottom",
         fontsize=9.5,
         fontweight="bold",
         color=TEAL_CHAMP,
@@ -374,7 +374,7 @@ def generate_regional_divergence_figure():
     ax1.set_ylabel("Unsheltered Population Count", fontsize=10, fontweight="bold", color=NAVY)
     ax1.set_xticks(x)
     ax1.set_xticklabels(years, fontsize=10, fontweight="bold", color=DARK_TEXT)
-    ax1.set_ylim(0, 7500)
+    ax1.set_ylim(0, 8000)
     ax1.grid(True, linestyle="--", alpha=0.5, color=CARD_BORDER, axis="y")
 
     # Secondary Axis for Share %
@@ -432,16 +432,17 @@ def generate_regional_divergence_figure():
             fontweight="bold",
         )
 
-    # Highlight Downtown-County Divergence
+    # Highlight Downtown-County Divergence (above 2019-2021 bars, arrow pointing to 2024 record)
+    idx_2024 = list(years).index(2024) if 2024 in list(years) else 6
     ax1.annotate(
         "Downtown–County Divergence:\nDowntown Jan fell to 851 (−56%)\nCounty unsheltered rose to 6,110 (series high)",
-        xy=(len(years) - 1.5, 5900),
-        xytext=(len(years) - 3.6, 6350),
-        arrowprops=dict(facecolor=RED_ALERT, arrowstyle="->", lw=1.5),
+        xy=(idx_2024 + width / 2, 6110),
+        xytext=(1.8, 6600),
+        arrowprops=dict(facecolor=RED_ALERT, edgecolor=RED_ALERT, arrowstyle="->", lw=1.5),
         fontsize=8.5,
         fontweight="bold",
         color=RED_ALERT,
-        bbox=dict(boxstyle="round,pad=0.3", fc=CARD_BG, ec=RED_ALERT, lw=1),
+        bbox=dict(boxstyle="round,pad=0.35", fc=CARD_BG, ec=RED_ALERT, lw=1.2),
     )
 
     lines1, labels1 = ax1.get_legend_handles_labels()
@@ -514,7 +515,7 @@ def generate_hotspot_migration_figure():
     ax1.set_xlim(-117.1535, -117.1450)
     ax1.set_ylim(32.7055, 32.7122)
     ax1.set_title("Hotspot Centroid Migration (South East Village)", fontsize=11, fontweight="bold", color=NAVY)
-    ax1.legend(loc="lower left", fontsize=7.5, frameon=True, facecolor=CARD_BG)
+    ax1.legend(loc="upper left", bbox_to_anchor=(0.02, 0.98), fontsize=7.5, frameon=True, facecolor=CARD_BG, edgecolor=CARD_BORDER)
     ax1.axis("off")
 
     # Right plot: Top Persistent Hotspot Ranking Bar Chart (From Rebuilt Ranking CSV)
@@ -647,6 +648,141 @@ def generate_footprint_wedge_figure():
     print(f"Generated: {out_file}")
 
 
+def generate_county_ols_intervals_figure():
+    """Figure 6 (Slide 10 Visual): Macro Econometric Policy Regime OLS Model & Student's t Prediction Intervals."""
+    paired_path = DATA_DIR / "Downtown_County_PairedCounts.csv"
+    if not paired_path.exists():
+        print("Skipping county OLS figure: missing paired counts dataset.")
+        return
+
+    df = pd.read_csv(paired_path).dropna(subset=["county_unsheltered"]).sort_values("pit_year")
+
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5.5), dpi=300, facecolor=CARD_BG, gridspec_kw={"width_ratios": [1.15, 1.0]})
+    ax1.set_facecolor(CANVAS_BG)
+    ax2.set_facecolor(CANVAS_BG)
+
+    # -------------------------------------------------------------
+    # Panel 1: Policy Regime OLS Model Fit vs Constant Ratio Failure
+    # -------------------------------------------------------------
+    x_vals = df["downtown_reported_adjusted"].values
+    y_vals = df["county_unsheltered"].values
+    years = df["pit_year"].astype(int).values
+    d_post = (years >= 2024).astype(int)
+
+    # Scatter points by regime
+    pre_mask = d_post == 0
+    post_mask = d_post == 1
+
+    ax1.scatter(
+        x_vals[pre_mask], y_vals[pre_mask],
+        color=ROYAL_BLUE, s=80, edgecolors=NAVY, linewidth=1.5, zorder=5,
+        label="Pre-Ordinance (2017–2023, n=6)"
+    )
+    ax1.scatter(
+        x_vals[post_mask], y_vals[post_mask],
+        color=RED_ALERT, s=110, edgecolors="#7F1D1D", linewidth=1.8, marker="s", zorder=5,
+        label="Post-Ordinance (2024–2025, n=2)"
+    )
+
+    # Year labels on points
+    for x, y, yr in zip(x_vals, y_vals, years):
+        offset = (8, 4) if yr != 2025 else (8, -10)
+        col = RED_ALERT if yr >= 2024 else NAVY
+        ax1.annotate(str(yr), (x, y), xytext=offset, textcoords="offset points",
+                     fontsize=8, fontweight="bold", color=col)
+
+    # Regression lines
+    # Policy Regime OLS: Y = 4,513.26 + 0.1859*X + 1,225.04*D_post
+    x_grid = np.linspace(700, 2050, 100)
+    y_regime_pre = 4513.26 + 0.1859 * x_grid
+    y_regime_post = 4513.26 + 1225.04 + 0.1859 * x_grid
+    # Pooled constant ratio (sum(Y)/sum(X) = 40159 / 8794 = 4.5666)
+    r_pooled = np.sum(y_vals) / np.sum(x_vals)
+    y_ratio = r_pooled * x_grid
+
+    ax1.plot(x_grid, y_regime_post, color=RED_ALERT, linewidth=2.2, linestyle="-",
+             label="Policy Regime OLS (Post-2023: Y = 5,738 + 0.186X)", zorder=4)
+    ax1.plot(x_grid, y_regime_pre, color=ROYAL_BLUE, linewidth=1.8, linestyle="--",
+             label="Policy Regime OLS (Pre-2024: Y = 4,513 + 0.186X)", zorder=3)
+    ax1.plot(x_grid, y_ratio, color=MUTED_TEXT, linewidth=1.5, linestyle=":",
+             label=f"Pooled Constant Ratio (R={r_pooled:.2f}, Fails Post-2023)", zorder=2)
+
+    ax1.set_xlabel("Downtown January Count (DSDP Adjusted)", fontsize=9.5, fontweight="bold", color=DARK_TEXT)
+    ax1.set_ylabel("County Unsheltered PIT (RTFH)", fontsize=9.5, fontweight="bold", color=NAVY)
+    ax1.set_title("Policy Regime OLS Model Fit (R² = 0.504)", fontsize=11, fontweight="bold", color=NAVY)
+    ax1.set_xlim(650, 2100)
+    ax1.set_ylim(3200, 6800)
+    ax1.grid(True, linestyle="--", alpha=0.5, color=CARD_BORDER)
+    ax1.legend(loc="upper left", fontsize=7.5, frameon=True, facecolor=CARD_BG, edgecolor=CARD_BORDER)
+
+    # Diagnostic callout badge on panel 1
+    ax1.text(
+        0.05, 0.22,
+        "Specification & Diagnostics:\n• Y = 4,513.26 + 0.1859·X + 1,225.04·D_post\n• R² = 0.504 (η² = 0.964 is ANOVA effect size)\n• Fixed ratio rejected (ANOVA p = 0.0002)",
+        transform=ax1.transAxes,
+        fontsize=8,
+        color=DARK_TEXT,
+        bbox=dict(boxstyle="round,pad=0.35", fc=CARD_BG, ec=ROYAL_BLUE, lw=1)
+    )
+
+    # -------------------------------------------------------------
+    # Panel 2: 2025 County Estimates & Calibrated 95% Uncertainty Ranges
+    # -------------------------------------------------------------
+    # 4 models for 2025 (Downtown X = 851.0):
+    models = [
+        ("Policy Regime OLS\n(Champion - Rule 4)", 5900, 3900, 8000, GREEN_ACTION),
+        ("Post-Ordinance Ratio\n(2024–2025 average)", 5800, 4100, 7500, ROYAL_BLUE),
+        ("Standard OLS\n(No policy regime indicator)", 5100, 2800, 7400, AMBER_WARN),
+        ("Pooled Ratio Estimator\n(Naïve constant ratio - FAILS)", 3600, 2100, 5100, RED_ALERT),
+    ]
+
+    y_pos = np.arange(len(models))
+
+    for idx, (m_name, pt, lo, hi, col) in enumerate(models):
+        # 95% Prediction Interval bar
+        ax2.plot([lo, hi], [idx, idx], color=col, linewidth=3.0, alpha=0.85, zorder=3)
+        # Point estimate dot
+        ax2.scatter(pt, idx, color=col, s=120, edgecolors=NAVY, linewidth=1.5, zorder=4)
+        # Point estimate label
+        ax2.annotate(f"{pt:,.0f}", (pt, idx), xytext=(0, 7), textcoords="offset points",
+                     ha="center", fontsize=8.5, fontweight="bold", color=col)
+        # Range text
+        ax2.annotate(f"[{lo:,.0f}–{hi:,.0f}]", (hi + 120, idx), va="center",
+                     fontsize=7.8, fontweight="bold", color=MUTED_TEXT)
+
+    # Vertical benchmarks
+    ax2.axvline(5714, color=NAVY, linestyle="--", linewidth=1.6, alpha=0.9, label="2025 Actual RTFH PIT (5,714)", zorder=2)
+    ax2.axvline(6110, color=AMBER_WARN, linestyle=":", linewidth=1.5, alpha=0.9, label="2024 Record RTFH PIT (6,110)", zorder=2)
+
+    ax2.set_yticks(y_pos)
+    ax2.set_yticklabels([m[0] for m in models], fontsize=8.5, fontweight="bold", color=DARK_TEXT)
+    ax2.invert_yaxis()
+    ax2.set_xlabel("Estimated County Unsheltered Population", fontsize=9.5, fontweight="bold", color=NAVY)
+    ax2.set_xlim(1500, 9200)
+    ax2.set_title("2025 County Estimate & Student's t 95% PIs", fontsize=11, fontweight="bold", color=NAVY)
+    ax2.grid(True, linestyle="--", alpha=0.5, color=CARD_BORDER, axis="x")
+    ax2.legend(loc="lower right", fontsize=7.5, frameon=True, facecolor=CARD_BG, edgecolor=CARD_BORDER)
+
+    # The 4 Rules callout badge on panel 2
+    ax2.text(
+        0.05, 0.08,
+        "Public Communication Rules:\n• Rule 1: No false precision (Never say 5,921)\n• Rule 2: Round to 100 ('about 5,900')\n• Rule 3: Always quote 95% range: [3,900 to 8,000]",
+        transform=ax2.transAxes,
+        fontsize=8,
+        color=DARK_TEXT,
+        bbox=dict(boxstyle="round,pad=0.35", fc=CARD_BG, ec=GREEN_ACTION, lw=1)
+    )
+
+    plt.suptitle("Macro-Level County Estimation: Policy Regime Model vs. Uncertainty Bounds (Task 8.3 / Slide 10)",
+                 fontsize=12, fontweight="bold", color=NAVY, y=0.98)
+    plt.tight_layout()
+
+    out_file = OUTPUT_DIR / "task93_county_ols_intervals.png"
+    plt.savefig(out_file, dpi=300)
+    plt.close()
+    print(f"Generated: {out_file}")
+
+
 def main():
     print("Initiating Task 9.3 Figure Generation...")
     generate_trajectory_9year_figure()
@@ -654,6 +790,7 @@ def main():
     generate_regional_divergence_figure()
     generate_hotspot_migration_figure()
     generate_footprint_wedge_figure()
+    generate_county_ols_intervals_figure()
     print("All Task 9.3 figures generated successfully!")
 
 

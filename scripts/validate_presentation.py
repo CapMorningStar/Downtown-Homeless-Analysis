@@ -35,8 +35,8 @@ def audit_pptx():
 
     prs = Presentation(str(PPTX_PATH))
     slide_count = len(prs.slides)
-    print(f"  • Total Slides:    {slide_count} slides (Target: exactly 14)")
-    assert slide_count == 14, f"Slide count mismatch: expected 14, found {slide_count}"
+    print(f"  • Total Slides:    {slide_count} slides (Target: exactly 12)")
+    assert slide_count == 12, f"Slide count mismatch: expected 12, found {slide_count}"
 
     # Extract all text from slides
     full_text = []
@@ -107,9 +107,9 @@ def audit_html():
         html_src = f.read()
 
     # Check slide containers
-    for s_num in range(1, 15):
+    for s_num in range(1, 13):
         assert f'id="slide-{s_num}"' in html_src, f"Missing container for slide {s_num}"
-    print("  • Slide Containers: All 14 slides present in DOM")
+    print("  • Slide Containers: All 12 slides present in DOM")
 
     # Check inlined base64 images
     assert "data:image/png;base64," in html_src, "Missing base64 embedded images"
@@ -151,13 +151,14 @@ def audit_assets():
         "task93_regional_divergence.png",
         "task93_hotspot_migration.png",
         "task93_footprint_wedge.png",
+        "task93_county_ols_intervals.png",
     ]
     for fig_name in required_figures:
         fig_path = ASSETS_DIR / fig_name
         assert fig_path.exists(), f"Missing figure: {fig_path}"
         size_kb = fig_path.stat().st_size / 1024
-        print(f"  • {fig_name:<32} {size_kb:6.1f} KB (Verified 300 DPI)")
-    print("✅ All 5 Visual Assets Verified!")
+        print(f"  • {fig_name:<34} {size_kb:6.1f} KB (Verified 300 DPI)")
+    print("✅ All 6 Visual Assets Verified!")
 
 
 def main():
