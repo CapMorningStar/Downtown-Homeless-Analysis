@@ -68,7 +68,7 @@ def render_tab3():
     m = folium.Map(
         location=[32.7157, -117.1560],
         zoom_start=15,
-        tiles="CartoDB positron",
+        tiles="OpenStreetMap",
         control_scale=True,
     )
 
