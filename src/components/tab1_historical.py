@@ -27,12 +27,33 @@ def render_tab1(historical_df: pd.DataFrame):
     # Filter row
     f_col1, f_col2, f_col3 = st.columns([2, 1, 1])
 
-    available_areas = sorted(historical_df["area"].unique().tolist())
-    default_areas = (
-        ["Overall - reported footprint"]
-        if "Overall - reported footprint" in available_areas
-        else available_areas[:1]
+    # Synthesize citywide aggregate series for seamless high-level trend inspection
+    overall_series = (
+        historical_df.groupby("date", as_index=False)["total_count"]
+        .sum(min_count=1)
+        .assign(
+            area="Overall (All Downtown)",
+            year=historical_df.groupby("date")["year"].first().values,
+            month=historical_df.groupby("date")["month"].first().values,
+        )
     )
+    core_df = historical_df[historical_df["area"] != "Outside Perimeter"]
+    core_series = (
+        core_df.groupby("date", as_index=False)["total_count"]
+        .sum(min_count=1)
+        .assign(
+            area="Downtown Core (Fixed 6)",
+            year=core_df.groupby("date")["year"].first().values,
+            month=core_df.groupby("date")["month"].first().values,
+        )
+    )
+    plot_df = pd.concat([overall_series, core_series, historical_df], ignore_index=True)
+
+    available_areas = [
+        "Overall (All Downtown)",
+        "Downtown Core (Fixed 6)",
+    ] + sorted(historical_df["area"].unique().tolist())
+    default_areas = ["Overall (All Downtown)"]
 
     with f_col1:
         selected_areas = st.multiselect(
@@ -47,7 +68,7 @@ def render_tab1(historical_df: pd.DataFrame):
         show_shaded_epochs = st.checkbox("Highlight Macro Epochs", value=True)
 
     with f_col3:
-        breakdown_enabled = len(selected_areas) == 1 and not selected_areas[0].startswith("Overall")
+        breakdown_enabled = len(selected_areas) == 1 and not selected_areas[0].startswith(("Overall", "Downtown Core"))
         show_components = st.checkbox(
             "Show Component Breakdown",
             value=False,
@@ -71,10 +92,10 @@ def render_tab1(historical_df: pd.DataFrame):
     active_areas = selected_areas if selected_areas else default_areas
 
     # Filter dataset
-    filtered_df = historical_df[
-        (historical_df["area"].isin(active_areas))
-        & (historical_df["date"] >= pd.Timestamp(date_range[0]))
-        & (historical_df["date"] <= pd.Timestamp(date_range[1]))
+    filtered_df = plot_df[
+        (plot_df["area"].isin(active_areas))
+        & (plot_df["date"] >= pd.Timestamp(date_range[0]))
+        & (plot_df["date"] <= pd.Timestamp(date_range[1]))
     ].copy()
 
     # Build Interactive Plotly Figure
@@ -109,13 +130,14 @@ def render_tab1(historical_df: pd.DataFrame):
         # Standard Multi-Line Comparison
         for area in active_areas:
             sub = filtered_df[filtered_df["area"] == area].sort_values("date")
-            is_headline = "Overall" in area
+            is_headline = area.startswith(("Overall", "Downtown Core"))
             fig.add_trace(
                 go.Scatter(
                     x=sub["date"],
                     y=sub["total_count"],
                     mode="lines+markers",
                     name=area,
+                    connectgaps=True,
                     line=dict(width=3 if is_headline else 2),
                     marker=dict(size=5),
                     hovertemplate="<b>%{x|%b %Y}</b><br>Area: "
@@ -190,7 +212,7 @@ def render_tab1(historical_df: pd.DataFrame):
         <div class="banner-info">
             <strong>Key Analytical Finding:</strong> 
             Downtown San Diego experienced an unprecedented apex in <strong>May 2023 (2,103 unsheltered individuals)</strong>. 
-            Following the July 2023 enactment of the Unsafe Camping Ordinance, counts collapsed by <strong>43.5%</strong>. 
+            Following the July 2023 enactment of the Unsafe Camping Ordinance, counts dropped by <strong>-36.7%</strong> through December 2025 (a cumulative <strong>-53.2%</strong> drop from the May 2023 peak). 
             However, cross-sectional evaluation against RTFH Point-in-Time counts reveals regional displacement into outlying municipalities rather than net exit from homelessness.
         </div>
         """,

@@ -162,6 +162,24 @@ def load_geojson_grid() -> Optional[gpd.GeoDataFrame]:
 
 
 @st.cache_data(show_spinner=False, ttl=3600)
+def load_hotspot_classifications() -> Optional[gpd.GeoDataFrame]:
+    """
+    Ingest Hotspot_Classifications.geojson (3,132 rows = 261 blocks x 12 dates).
+    """
+    path = DATA_DIR / "Hotspot_Classifications.geojson"
+    if not path.exists():
+        return None
+    try:
+        gdf = gpd.read_file(path)
+        if gdf.crs != "EPSG:4326":
+            gdf = gdf.to_crs(epsg=4326)
+        gdf["date_str"] = pd.to_datetime(gdf["count_date"]).dt.strftime("%Y-%m-%d")
+        return gdf
+    except Exception:
+        return None
+
+
+@st.cache_data(show_spinner=False, ttl=3600)
 def load_forecast_benchmarks(series: str = "Overall - reported footprint") -> pd.DataFrame:
     """
     Model benchmark table computed from the Task 7.2/7.3 outputs (not hard-coded):

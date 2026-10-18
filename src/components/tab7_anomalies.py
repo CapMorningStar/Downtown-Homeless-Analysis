@@ -16,6 +16,18 @@ from anomaly_detection.pipeline import AnomalySurveillancePipeline
 from anomaly_detection.alerting import AlertEngine, AlertSeverity, AlertStatus
 
 
+@st.cache_data(show_spinner=False, ttl=3600)
+def _cached_surveillance(win: int, warn_sig: float, crit_sig: float, cusum_h: float):
+    """Run and cache anomaly surveillance so interactive clicks across tabs remain instant."""
+    pipeline = AnomalySurveillancePipeline()
+    pipeline.shewhart.window = win
+    pipeline.shewhart.warning_sigma = warn_sig
+    pipeline.shewhart.critical_sigma = crit_sig
+    pipeline.cusum.window = win
+    pipeline.cusum.threshold_h = cusum_h
+    return pipeline.run_surveillance()
+
+
 def render_tab7():
     """Renders Tab 7: Anomaly Surveillance & Alert Management."""
     st.markdown("### 🚨 Anomaly Surveillance & Automated Alert Management")
@@ -38,16 +50,8 @@ def render_tab7():
         with c4:
             cusum_h = st.slider("CUSUM Threshold (h)", min_value=2.5, max_value=6.0, value=4.0, step=0.5)
 
-    # Initialize Pipeline
-    pipeline = AnomalySurveillancePipeline()
-    pipeline.shewhart.window = win
-    pipeline.shewhart.warning_sigma = warn_sig
-    pipeline.shewhart.critical_sigma = crit_sig
-    pipeline.cusum.window = win
-    pipeline.cusum.threshold_h = cusum_h
-
-    classified_df, event_df, summary = pipeline.run_surveillance()
-    alert_engine = pipeline.alert_engine
+    classified_df, event_df, summary = _cached_surveillance(win, warn_sig, crit_sig, cusum_h)
+    alert_engine = AlertEngine()
     alerts = alert_engine.load_alerts_store()
 
     # Top KPI Ribbon
@@ -266,7 +270,7 @@ def render_tab7():
 
             resolution_notes = st.text_area(
                 "Resolution / Operational Action Notes",
-                placeholder="Document operational investigation findings (e.g., confirmed field displacement to Chula Vista; emergency beds added)...",
+                placeholder="Document operational investigation findings (e.g., confirmed field displacement to adjacent transit corridors; emergency shelter beds added)...",
             )
 
             if st.button("💾 Submit Alert Review", type="primary"):

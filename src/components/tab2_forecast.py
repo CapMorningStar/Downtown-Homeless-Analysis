@@ -86,11 +86,19 @@ def render_tab2():
     # Historical actuals tail (2024-2025)
     hist_tail = pd.DataFrame()
     if not historical_df.empty:
-        h_area_match = historical_df[
-            (historical_df["area"] == selected_series)
-            & (historical_df["date"] >= "2024-01-01")
-        ].sort_values("date")
-        hist_tail = h_area_match
+        recent_hist = historical_df[historical_df["date"] >= "2024-01-01"].copy()
+        if selected_series == "Overall - reported footprint":
+            agg = recent_hist.groupby("date", as_index=False)["total_count"].sum()
+            hist_tail = agg[agg["total_count"] > 0].sort_values("date")
+        elif selected_series in ("Overall - fixed core six", "Downtown Core (Fixed 6)"):
+            core_hist = recent_hist[recent_hist["area"] != "Outside Perimeter"]
+            agg = core_hist.groupby("date", as_index=False)["total_count"].sum()
+            hist_tail = agg[agg["total_count"] > 0].sort_values("date")
+        else:
+            h_area_match = recent_hist[
+                (recent_hist["area"] == selected_series) & (recent_hist["total_count"] > 0)
+            ].sort_values("date")
+            hist_tail = h_area_match
 
     # Plotly Figure
     fig = go.Figure()
@@ -111,8 +119,7 @@ def render_tab2():
 
     # Calculate custom/active scenario line
     active_scenario_y = []
-    for _, row in f_sub.iterrows():
-        h = int(row.get("horizon", 1))
+    for h, (_, row) in enumerate(f_sub.iterrows(), start=1):
         pt = float(row["point_forecast"])
         if scenario_mode == "Status Quo (Baseline)":
             val = pt
@@ -228,7 +235,7 @@ def render_tab2():
             Models were evaluated across 5 chronological expanding windows with zero data leakage.
             """
         )
-        bench = load_forecast_benchmarks()
+        bench = load_forecast_benchmarks(series=selected_series)
         if bench.empty:
             st.info("Cross-validation metrics file (data/Forecast_CV_Metrics.csv) not found.")
         else:

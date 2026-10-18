@@ -42,11 +42,14 @@ def render_tab5():
         
         # Presets
         preset_cols = st.columns(4)
-        preset_val = 985.38  # Default Dec 2025 baseline
+
+        if "dt_count_input" not in st.session_state:
+            st.session_state["dt_count_input"] = 985.38
 
         with preset_cols[0]:
             if st.button("📍 Dec 2025 (985)", help="Latest empirical monthly count"):
-                st.session_state["downtown_input"] = 985.38
+                st.session_state["dt_count_input"] = 985.38
+                st.rerun()
         with preset_cols[1]:
             fc = load_forecast_data()
             fc_col = "series" if "series" in fc.columns else "series_name"
@@ -54,22 +57,23 @@ def render_tab5():
             fc_val = float(fc["point_forecast"].iloc[0]) if len(fc) else 985.38
             fc_label = pd.Timestamp(fc["forecast_date"].iloc[0]).strftime("%b %Y") if len(fc) else "Forecast"
             if st.button(f"🔮 {fc_label} ({fc_val:,.0f})", help="Task 7.4 champion forecast, first forecast month"):
-                st.session_state["downtown_input"] = round(fc_val, 2)
+                st.session_state["dt_count_input"] = round(fc_val, 2)
+                st.rerun()
         with preset_cols[2]:
             if st.button("🔥 Peak Crisis (2,103)", help="Historical May 2023 maximum"):
-                st.session_state["downtown_input"] = 2103.00
+                st.session_state["dt_count_input"] = 2103.00
+                st.rerun()
         with preset_cols[3]:
             if st.button("🧊 COVID Low (529)", help="March 2020 series low (COVID-19 onset)"):
-                st.session_state["downtown_input"] = 529.09
-
-        current_input = st.session_state.get("downtown_input", preset_val)
+                st.session_state["dt_count_input"] = 529.09
+                st.rerun()
 
         dt_count = st.number_input(
             "Downtown Unsheltered Count (X):",
             min_value=100.0,
             max_value=3500.0,
-            value=float(current_input),
             step=10.0,
+            key="dt_count_input",
             help="Enter any observed or hypothetical monthly count for Downtown San Diego.",
         )
 

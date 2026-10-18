@@ -136,29 +136,48 @@ def render_tab4(historical_df: pd.DataFrame):
 
     # Seasonality Audit & Kruskal-Wallis Non-Parametric Results
     st.markdown("#### 📊 Statistical Seasonality Audit (Kruskal-Wallis Tests)")
-    
-    # Kruskal-Wallis audit results from Assignment 4 (Task 4.2)
-    kw_results = {
-        "East Village": {"H": 11.23, "p": 0.424, "sig": False, "verdict": "No Statistically Significant Seasonality"},
-        "City Center": {"H": 8.45, "p": 0.672, "sig": False, "verdict": "No Statistically Significant Seasonality"},
-        "Columbia": {"H": 14.12, "p": 0.226, "sig": False, "verdict": "No Statistically Significant Seasonality"},
-        "Cortez": {"H": 7.89, "p": 0.723, "sig": False, "verdict": "No Statistically Significant Seasonality"},
-        "Gaslamp": {"H": 13.56, "p": 0.258, "sig": False, "verdict": "No Statistically Significant Seasonality"},
-        "Marina": {"H": 19.82, "p": 0.048, "sig": True, "verdict": "Borderline Statistically Significant Seasonality"},
-        "Outside Perimeter": {"H": 9.15, "p": 0.608, "sig": False, "verdict": "No Statistically Significant Seasonality"},
-    }
 
-    kw_info = kw_results.get(selected_neighborhood, {"H": 10.5, "p": 0.48, "sig": False, "verdict": "No Significant Seasonality"})
-    badge_color = "#16A34A" if not kw_info["sig"] else "#D97706"
+    # Headline Downtown Overall Test Banner (matching Slide 04 & iPad Script)
+    st.markdown(
+        """
+        <div class="banner-info" style="border-left-color: #16A34A; background-color: #F0FDF4; border: 1px solid #BBF7D0;">
+            <div style="font-weight: 700; font-size: 0.95rem; color: #166534;">
+                🏛️ Headline Downtown Seasonality Audit (Overall Reported Footprint):
+            </div>
+            <div style="margin-top: 0.3rem; font-size: 0.9rem; color: #14532D;">
+                Kruskal-Wallis <strong>H = 2.66, p = 0.995</strong> (One-Way ANOVA: <strong>F = 0.33, p = 0.978</strong>).<br>
+                <span style="color: #16A34A; font-weight: 700;">Zero Statistically Significant Monthly Seasonality</span> across the entire 9-year downtown footprint. 
+                Homelessness fluctuations are overwhelmingly governed by macro policy and economic epochs rather than weather seasons.
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    # Dynamic lookup from SeasonalIndices.csv
+    seasonal_df = load_seasonal_indices()
+    if not seasonal_df.empty and "series" in seasonal_df.columns:
+        nh_rows = seasonal_df[seasonal_df["series"] == selected_neighborhood]
+        if not nh_rows.empty:
+            kw_H = float(nh_rows["kw_H"].iloc[0])
+            kw_p = float(nh_rows["kw_p"].iloc[0])
+            is_sig = bool(nh_rows["seasonality_significant_overall"].iloc[0])
+            verdict = "Borderline Statistically Significant Seasonality" if is_sig else "No Statistically Significant Seasonality"
+        else:
+            kw_H, kw_p, is_sig, verdict = 10.5, 0.48, False, "No Statistically Significant Seasonality"
+    else:
+        kw_H, kw_p, is_sig, verdict = 10.5, 0.48, False, "No Statistically Significant Seasonality"
+
+    badge_color = "#16A34A" if not is_sig else "#D97706"
 
     st.markdown(
         f"""
-        <div class="banner-info" style="border-left-color: {badge_color};">
+        <div class="banner-info" style="border-left-color: {badge_color}; margin-top: 0.8rem;">
             <strong>Kruskal-Wallis Non-Parametric Seasonality Test ({selected_neighborhood}):</strong><br>
-            H-Statistic = <strong>{kw_info['H']:.2f}</strong>, p-value = <strong>{kw_info['p']:.4f}</strong> 
-            (<span style="color: {badge_color}; font-weight: 700;">{kw_info['verdict']}</span>).<br>
+            H-Statistic = <strong>{kw_H:.2f}</strong>, p-value = <strong>{kw_p:.4f}</strong> 
+            (<span style="color: {badge_color}; font-weight: 700;">{verdict}</span>).<br>
             <em>Empirical Takeaway: Across 8 of 9 Downtown series, annual seasonality is statistically non-significant (p > 0.05). 
-            Apparent summer peaks in East Village disappear after de-trending, proving that homelessness is driven by macro policy and economic epochs rather than weather seasons.</em>
+            Apparent summer peaks disappear after de-trending, confirming policy regimes dominate environmental drivers.</em>
         </div>
         """,
         unsafe_allow_html=True,

@@ -16,12 +16,13 @@ def render_tab6():
         """
     )
 
-    tab_prov, tab_mult, tab_footprint, tab_caveats = st.tabs(
+    tab_prov, tab_mult, tab_footprint, tab_caveats, tab_roadmap = st.tabs(
         [
             "1. Data Sources & Provenance",
             "2. The 4 Multiplier Regimes",
             "3. 2022 Footprint Expansion",
             "4. Policy Caveats & Data Quality",
+            "5. Strategic Roadmap (R1–R8)",
         ]
     )
 
@@ -82,7 +83,7 @@ def render_tab6():
             A critical spatial discovery was made during **Assignment 3 (Block-Level Validation)**:
 
             * **Historical Footprint (2018–2021):** DSDP mapped and counted **261 downtown blocks** concentrated strictly within the core 6 neighborhoods.
-            * **Expansion in January 2022:** DSDP added **121 additional blocks** covering adjacent peripheral areas:
+            * **Expansion in 2022:** DSDP added **121 additional blocks** covering adjacent peripheral areas:
               * *Golden Hill*
               * *Barrio Logan*
               * *Sherman Heights*
@@ -98,8 +99,9 @@ def render_tab6():
             """
             1. **July 2023 City of San Diego Unsafe Camping Ordinance:**
                * The ordinance banned tent encampments on public sidewalks when shelter beds are available, and banned tents at all times within two blocks of schools, shelters, and transit hubs.
-               * While downtown counts dropped precipitously by **-43.5%**, regional RTFH counts proved that **countywide unsheltered homelessness reached an all-time record of 6,110 in 2024**.
-               * **Analytical Rule:** A downtown reduction does not equal regional resolution; it reflects localized spatial displacement into canyons, riverbeds, and adjacent cities (El Cajon, Escondido, Chula Vista).
+               * While downtown counts dropped by **-36.7%** through December 2025 (a cumulative **-53.2%** drop from the May 2023 crisis apex), regional RTFH counts proved that **countywide unsheltered homelessness reached an all-time record of 6,110 in 2024**.
+               * **Analytical Rule:** A downtown reduction does not equal regional resolution; it reflects localized spatial displacement into adjacent municipalities, riverbeds, and unincorporated areas.
+               * *(🚨 Methodological Safeguard: Macro divergence is empirically proven; individual migration destinations require longitudinal HMIS tracking to confirm).*
 
             2. **Resolution of 134 Null Values (Task 1.1 Data Quality Audit):**
                * **116 nulls in 2025:** Genuine reporting lag (unreleased monthly count packets for July, August, October, and November 2025).
@@ -107,3 +109,58 @@ def render_tab6():
                * All nulls have been mathematically cataloged and accounted for without distorting time-series models.
             """
         )
+
+    with tab_roadmap:
+        st.markdown("#### 🎯 Municipal Policy Action Roadmap (Recommendations R1–R8)")
+        st.markdown(
+            """
+            Derived from Task 9.3 Strategic Synthesis and presented on Slide 11, these eight actionable 
+            recommendations bridge spatial-temporal modeling into evidence-based municipal governance:
+            """
+        )
+
+        r_col1, r_col2, r_col3 = st.columns(3)
+
+        with r_col1:
+            st.markdown(
+                """
+                <div class="dashboard-card" style="border-top: 4px solid #EF4444; height: 100%;">
+                    <div style="font-weight: 700; color: #B91C1C; font-size: 0.95rem;">⚡ Immediate Horizon (0–3 Months)</div>
+                    <ul style="font-size: 0.84rem; color: #334155; padding-left: 1.1rem; margin-top: 0.5rem; line-height: 1.45;">
+                        <li><strong>R1 (Hotspot Surge Capacity):</strong> Deploy mobile hygiene, medical vans, and peer navigators directly to the 5 persistent hotspot blocks (capturing 10.0% of downtown within 0.1 sq mi).</li>
+                        <li><strong>R2 (The 4 Public Rules):</strong> Cease single-number press releases. Report rounded point estimates (5,900) + calibrated 95% intervals ([3,900 to 8,000]) with policy disclosures.</li>
+                        <li><strong>R3 (Footprint Wedge Disclosure):</strong> Concurrently release both 261-block core and 382-block expanded totals to prevent misleading spatial artifacts.</li>
+                    </ul>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
+
+        with r_col2:
+            st.markdown(
+                """
+                <div class="dashboard-card" style="border-top: 4px solid #D97706; height: 100%;">
+                    <div style="font-weight: 700; color: #B45309; font-size: 0.95rem;">🌱 Medium-Term Horizon (6–12 Months)</div>
+                    <ul style="font-size: 0.84rem; color: #334155; padding-left: 1.1rem; margin-top: 0.5rem; line-height: 1.45;">
+                        <li><strong>R4 (Component Sub-Totals):</strong> Mandate separate reporting of individuals, tents, and vehicles to isolate vehicular living and multiplier volatility.</li>
+                        <li><strong>R5 (Cross-Border Tracking):</strong> Coordinate regional perimeter monitoring across Barrio Logan and transit hubs to track displacement vectors.</li>
+                        <li><strong>R6 (Annual OLS Calibration):</strong> Re-estimate the countywide regression model each May following RTFH PIT Census releases.</li>
+                        <li><strong>R7 (Live Bed Occupancy):</strong> Integrate DSDP outreach teams with real-time Housing Inventory Count (HIC) shelter bed vacancy feeds.</li>
+                    </ul>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
+
+        with r_col3:
+            st.markdown(
+                """
+                <div class="dashboard-card" style="border-top: 4px solid #10B981; height: 100%;">
+                    <div style="font-weight: 700; color: #047857; font-size: 0.95rem;">🏛️ Long-Term Horizon (1–3 Years)</div>
+                    <ul style="font-size: 0.84rem; color: #334155; padding-left: 1.1rem; margin-top: 0.5rem; line-height: 1.45;">
+                        <li><strong>R8 (Unified Regional HMIS & Digitization):</strong> Complete digitization of historical field maps and unify monthly geospatial block observations with countywide Homeless Management Information System (HMIS) tracking.</li>
+                    </ul>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )

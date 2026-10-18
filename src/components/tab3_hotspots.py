@@ -8,7 +8,7 @@ import folium
 from streamlit_folium import st_folium
 import pandas as pd
 from src.config import DIGITIZED_COUNT_DATES, HOTSPOT_PALETTE
-from src.data_loader import load_hotspot_rankings, load_geojson_grid
+from src.data_loader import load_hotspot_rankings, load_geojson_grid, load_hotspot_classifications
 
 
 def render_tab3():
@@ -61,25 +61,30 @@ def render_tab3():
             unsafe_allow_html=True,
         )
 
-    # Load Base Block Polygons
+    # Load Base Block Polygons & Date-Specific Hotspot Classifications
     grid_gdf = load_geojson_grid()
+    hc_gdf = load_hotspot_classifications()
 
-    # Map Creation (Centered on Downtown San Diego: 32.7157, -117.1560)
+    # Map Creation (Centered on Downtown San Diego: 32.7125, -117.1520)
     m = folium.Map(
-        location=[32.7157, -117.1560],
+        location=[32.7125, -117.1520],
         zoom_start=15,
-        tiles="https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
-        attr="Esri World Street Map",
+        tiles="OpenStreetMap",
         control_scale=True,
     )
 
     # Add Persistent Hotspot Key Markers
     top_persistent = load_hotspot_rankings()
-    for _, row in top_persistent.head(5).iterrows():
-        # Coordinates for key South East Village cluster
-        # e.g. 16th & Imperial: ~ 32.7082, -117.1485
-        lat = 32.7082 + (row["rank"] * 0.001)
-        lon = -117.1485 - (row["rank"] * 0.0005)
+    
+    # Merge exact centroid coordinates from grid_gdf if present
+    if grid_gdf is not None:
+        plot_rankings = top_persistent.merge(grid_gdf[["block_id", "lat", "lon"]], on="block_id", how="left")
+    else:
+        plot_rankings = top_persistent.copy()
+
+    for _, row in plot_rankings.head(5).iterrows():
+        lat = row["lat"] if "lat" in row and pd.notnull(row["lat"]) else 32.7082 + (row["rank"] * 0.001)
+        lon = row["lon"] if "lon" in row and pd.notnull(row["lon"]) else -117.1485 - (row["rank"] * 0.0005)
         
         popup_html = f"""
         <div style="font-family: sans-serif; font-size: 12px; width: 220px;">
@@ -94,35 +99,88 @@ def render_tab3():
         
         folium.CircleMarker(
             location=[lat, lon],
-            radius=9 - row["rank"],
-            color="#B91C1C",
+            radius=10 - row["rank"],
+            color="#991B1B",
+            weight=2,
             fill=True,
             fill_color="#EF4444",
-            fill_opacity=0.85,
+            fill_opacity=0.9,
             popup=folium.Popup(popup_html, max_width=250),
-            tooltip=f"Rank #{row['rank']}: {row['block_id']} ({row['hotspot_dates']}/12 dates)",
+            tooltip=f"Persistent Rank #{row['rank']}: {row['block_id']} ({row['hotspot_dates']}/12 dates)",
         ).add_to(m)
 
-    # Add GeoJSON boundary polygons if available
+    # Add GeoJSON boundary polygons dynamically styled by selected_date, footprint_mode, and sig_filter
     if grid_gdf is not None:
-        # Style function
+        display_gdf = grid_gdf.copy()
+        tier_map = {
+            "hotspot_99": "99% Hotspot",
+            "hotspot_95": "95% Hotspot",
+            "hotspot_90": "90% Hotspot",
+            "not_significant": "Not Significant",
+            "coldspot_90": "90% Coldspot",
+            "coldspot_95": "95% Coldspot",
+            "coldspot_99": "99% Coldspot",
+        }
+        if hc_gdf is not None and not hc_gdf.empty:
+            balanced_ids = set(hc_gdf["block_id"].unique())
+            date_sub = hc_gdf[hc_gdf["date_str"] == selected_date][
+                ["block_id", "adjusted_count", "gi_star_z", "p_sim", "classification"]
+            ].copy()
+            display_gdf = display_gdf.merge(date_sub, on="block_id", how="left")
+            if footprint_mode == "Balanced Panel (261 Blocks)":
+                display_gdf = display_gdf[display_gdf["block_id"].isin(balanced_ids)].copy()
+        else:
+            display_gdf["adjusted_count"] = 0.0
+            display_gdf["gi_star_z"] = 0.0
+            display_gdf["classification"] = "not_significant"
+
+        display_gdf["tier_label"] = display_gdf["classification"].map(tier_map).fillna("Not Significant")
+        display_gdf["count_str"] = display_gdf["adjusted_count"].fillna(0.0).map(lambda v: f"{v:.1f}")
+        display_gdf["z_str"] = display_gdf["gi_star_z"].fillna(0.0).map(lambda v: f"{v:+.2f}")
+
         def style_fn(feature):
+            props = feature.get("properties", {})
+            tier = props.get("tier_label", "Not Significant")
+            if tier in sig_filter and tier == "99% Hotspot":
+                return {
+                    "fillColor": "#B91C1C",
+                    "color": "#7F1D1D",
+                    "weight": 2.6,
+                    "fillOpacity": 0.52,
+                }
+            if tier in sig_filter and tier == "95% Hotspot":
+                return {
+                    "fillColor": "#EF4444",
+                    "color": "#991B1B",
+                    "weight": 2.2,
+                    "fillOpacity": 0.38,
+                }
+            if tier in sig_filter and tier != "Not Significant":
+                return {
+                    "fillColor": HOTSPOT_PALETTE.get(tier, "#3B82F6"),
+                    "color": "#1E40AF",
+                    "weight": 1.8,
+                    "fillOpacity": 0.30,
+                }
             return {
-                "fillColor": "#CBD5E1",
-                "color": "#94A3B8",
-                "weight": 1,
-                "fillOpacity": 0.25,
+                "fillColor": "#3B82F6",
+                "color": "#64748B",
+                "weight": 0.9,
+                "fillOpacity": 0.14 if "Not Significant" in sig_filter else 0.05,
             }
-        
+
         folium.GeoJson(
-            grid_gdf.to_json(),
+            display_gdf[["block_id", "neighborhood", "count_str", "z_str", "tier_label", "geometry"]].to_json(),
             name="Downtown Block Grid",
             style_function=style_fn,
-            tooltip=folium.GeoJsonTooltip(fields=["block_id"], aliases=["Block ID:"]),
+            tooltip=folium.GeoJsonTooltip(
+                fields=["block_id", "neighborhood", "count_str", "z_str", "tier_label"],
+                aliases=["Block ID:", "Area:", f"Adjusted Count ({selected_date}):", "Getis-Ord Gi* Z:", "Status:"],
+            ),
         ).add_to(m)
 
     # Render Folium Map in Streamlit
-    st_folium(m, width="100%", height=500, returned_objects=[])
+    st_folium(m, use_container_width=True, height=520, returned_objects=[])
 
     # Supporting Analysis Modules
     sub_col1, sub_col2 = st.columns([1.4, 1])
@@ -156,13 +214,13 @@ def render_tab3():
             f"""
             <div class="dashboard-card" style="border-left: 4px solid #0D9488;">
                 <div class="kpi-title">Southward Displacement</div>
-                <div class="kpi-value" style="font-size: 1.6rem; color: #0D9488;">121 Meters South</div>
+                <div class="kpi-value" style="font-size: 1.6rem; color: #0D9488;">120.4 Meters SSE (160.1°)</div>
                 <p style="font-size: 0.88rem; color: #475569; margin-top: 0.5rem; line-height: 1.4;">
                     Between the <strong>Early Period (2018–2020)</strong> and the <strong>Recent Period (2022–2025)</strong>, 
-                    the adjusted-count-weighted hotspot centroid shifted 121 meters toward Commercial St / Imperial Ave in South East Village.
+                    the adjusted-count-weighted hotspot centroid shifted <strong>120.4 meters SSE (160.1° bearing)</strong> toward the Commercial St / Imperial Ave corridor in South East Village.
                 </p>
                 <div style="font-size: 0.82rem; color: #64748B;">
-                    <strong>Driver:</strong> Concentration around key transit junctions (12th & Imperial Trolley) and social service facilities.
+                    <strong>Driver:</strong> Concentrated spatial displacement along commercial and transit corridors (12th & Imperial Trolley) following municipal sidewalk camping enforcement.
                 </div>
             </div>
             """,
