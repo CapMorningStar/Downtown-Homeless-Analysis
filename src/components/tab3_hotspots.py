@@ -68,7 +68,8 @@ def render_tab3():
     m = folium.Map(
         location=[32.7157, -117.1560],
         zoom_start=15,
-        tiles="OpenStreetMap",
+        tiles="https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
+        attr="Esri World Street Map",
         control_scale=True,
     )
 
